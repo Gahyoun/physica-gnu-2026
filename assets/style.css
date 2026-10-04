@@ -318,6 +318,17 @@ line-height:1.4}
 text-decoration:none}
 .widget{
 padding:16px 20px 0}
+.book-lab{padding:18px 20px}
+.book-lab h4{margin:0 0 12px;font-size:17px}
+.book-lab [data-book-view]{overflow-x:auto}
+.book-readouts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:12px 0}
+.book-readouts div{padding:8px 10px;background:var(--ui-surface)}
+.book-readouts dt{font-size:13px;color:var(--ui-muted)}
+.book-readouts dd{margin:0;font-weight:700;color:var(--ui-action);overflow-wrap:anywhere}
+.edition-note{color:var(--ui-muted);font-size:13px}
+.content-row{position:relative}
+.source-anchor{position:absolute;top:0;left:0;scroll-margin-top:24px}
+.source-section-link{font-size:14px}
 .plot{
   width:100%;
   display:block;

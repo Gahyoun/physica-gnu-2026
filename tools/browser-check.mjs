@@ -183,7 +183,10 @@ try{
   await page.locator('#chapter-1 .toc-pages a').first().click();
   await page.waitForFunction(()=>document.querySelector('h1').textContent.includes('운동량'));
   assert.equal(await page.locator('h1').innerText(),'운동량 · 1쪽');
-  assert.ok((await page.locator('[data-lesson] a').first().getAttribute('href')).endsWith('momentum.html'));report.interactionChecks+=2;
+  assert.ok((await page.locator('.reading-info a').first().getAttribute('href')).endsWith('momentum.html'));
+  assert.ok(await page.locator('math').count()>0);assert.equal(await page.locator('.book-lab').count(),1);
+  await page.goto(new URL('lesson.html?id=1-1-1-1',base).href,{waitUntil:'networkidle'});
+  await page.waitForURL('**/lesson-1-1-1-1.html');assert.equal(await page.locator('h1').innerText(),'운동량 · 1쪽');report.interactionChecks+=3;
   await page.goto(new URL('headwords.html',base).href,{waitUntil:'networkidle'});
   assert.equal(await page.locator('[data-catalog-row]').count(),1866);
   assert.equal(await page.locator('[data-catalog-row]:visible').count(),50);

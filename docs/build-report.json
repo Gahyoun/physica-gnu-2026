@@ -1,7 +1,7 @@
 {
   "katexVersion": "0.19.0",
-  "pages": 8,
-  "mathExpressions": 57,
+  "pages": 566,
+  "mathExpressions": 2804,
   "uiNotations": 2,
   "navigation": {
     "chapters": 7,
@@ -11,7 +11,8 @@
     "browse": 2455,
     "materials": 1072,
     "restoredInteractions": 17,
-    "searchRecords": 4098
+    "supplementaryPlacements": 556,
+    "searchRecords": 4656
   },
   "network": {
     "surveyDate": "2026-10-05",
@@ -23,5 +24,8 @@
     "reciprocity": 0.007529089664613279,
     "weakComponents": 886
   },
+  "learningPages": 558,
+  "supplementaryModels": 79,
+  "supplementaryPlacements": 556,
   "widgets": 17
 }

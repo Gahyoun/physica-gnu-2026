@@ -12,7 +12,7 @@ if(host||conceptHost)load().then(data=>{
   document.querySelector('[data-concept-title]').textContent=n.label;document.title=n.label+' | 물리의 이해';
   const body=conceptHost.querySelector('.row-body');body.replaceChildren(el('p',n.section));
   body.append(link('이 개념의 관계 보기 →','network.html?ego='+n.id));
-  if(n.restoredHref)body.append(el('p'),link('복원된 교재 읽기 →',n.restoredHref));
+  if(n.restoredHref)body.append(el('p'),link('교재 읽기 →',n.restoredHref));
   else body.append(el('p','이 개념의 본문은 복원 준비 중입니다. 원본과 관련내용을 먼저 연결합니다.'));
   for(const source of n.sources)body.append(el('p',null),el('a','원본의 해당 개념 ↗',{href:source,target:'_blank',rel:'noopener'}));
   for(const [heading,ids] of [['나가는 관련내용',adj.out.get(n.id)],['들어오는 관련내용',adj.incoming.get(n.id)]]){

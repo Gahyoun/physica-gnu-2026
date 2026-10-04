@@ -1,0 +1,12 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "readingPages": 566,
+  "modelPages": 79,
+  "sliderChecks": 262,
+  "widths": [
+    320,
+    768,
+    1360
+  ],
+  "errors": []
+}

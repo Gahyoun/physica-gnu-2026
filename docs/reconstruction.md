@@ -81,3 +81,8 @@ Noto Sans KR와 SUITE에서 현재 교재·조작 화면에 필요한 글자만 
 ## 원저자의 연구 논문 참고
 
 사용자가 제공한 [Ki Soo Chung의 ResearchGate 연구 목록](https://www.researchgate.net/profile/Ki-Soo-Chung/research)을 원저자 소개에 연결했다. 논문·DOI의 참고 목록으로 삼되, 개별 서지사항이나 DOI를 사이트에 추가할 때에는 해당 논문의 출판사 또는 DOI 등록 메타데이터와 대조한다. 이번 수정에서는 개별 논문·DOI 목록을 수집하거나 검증한 것으로 표시하지 않는다.
+
+
+## 2026-10-05 전체 단원 읽기 확장
+
+위의 8쪽 복원 기록은 초기 상세 복원의 근거다. 현재 모든 566쪽에 읽기 화면이 있으며 새 558쪽은 학습 핵심·원본 절·수식·독립 보충 탐구를 연결한 학습 초안이다. 원본의 상세 본문 대조와 개별 애니메이션 이식은 아직 남아 있다. 79종 보충 모델의 556개 배치를 556개의 새로운 원본 복원으로 세지 않는다. 정확한 범위와 검증은 [book-expansion.md](book-expansion.md), [book-browser-report.json](book-browser-report.json)을 참고한다.

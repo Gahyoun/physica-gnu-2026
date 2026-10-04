@@ -142,7 +142,7 @@
     },
     {
       "file": "lesson.html",
-      "title": "복원 준비 중 | 물리의 이해",
+      "title": "교재 페이지 | 물리의 이해",
       "math": 0,
       "widgets": 0,
       "rendered": 0,
@@ -179,5 +179,5 @@
   ],
   "errors": [],
   "externalResources": [],
-  "interactionChecks": 133
+  "interactionChecks": 134
 }
