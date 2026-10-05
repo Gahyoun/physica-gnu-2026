@@ -1,8 +1,8 @@
 {
   "date": "2026-10-05",
   "total": 518,
-  "htmlImplemented": 100,
-  "htmlPending": 418,
+  "htmlImplemented": 106,
+  "htmlPending": 412,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
@@ -7724,18 +7724,25 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-2-2.html#native-optics-flash-c6e5e2c87923451c",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical and drawing functions versus independent SVG model equations; no source scripts published",
+        "comparisons": 203616,
+        "maxAbsoluteError": 2.2737353666535398e-11,
+        "scope": "126 wavelength settings × 101 positions × eight times, including original time boundaries",
+        "report": "docs/optics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-efe8053a4fc6890f",
@@ -7748,18 +7755,25 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-2-2.html#native-optics-flash-efe8053a4fc6890f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical and drawing functions versus independent SVG model equations; no source scripts published",
+        "comparisons": 203616,
+        "maxAbsoluteError": 1.70530187193485e-11,
+        "scope": "126 wavelength settings × 101 positions × eight times, including original time boundaries",
+        "report": "docs/optics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-e652493a50449269",
@@ -8026,18 +8040,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-3-1.html#native-optics-flash-ecc72a738cffed91",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical and drawing functions versus independent SVG model equations; no source scripts published",
+        "comparisons": 651,
+        "maxAbsoluteError": 2.842170943040401e-14,
+        "scope": "All 217 source phase settings; endpoints and rounded original intensity",
+        "report": "docs/optics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-2214747d49473d02",
@@ -8050,18 +8071,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-3-1.html#native-optics-flash-2214747d49473d02",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical and drawing functions versus independent SVG model equations; no source scripts published",
+        "comparisons": 786,
+        "maxAbsoluteError": 0,
+        "scope": "Each source slider value individually plus all eight corner combinations; raw path/phase and source-rounded intensity",
+        "report": "docs/optics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-9ec99e26a3a118b5",
@@ -9029,18 +9057,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-4-5.html#native-optics-flash-f6a468982b8ad966",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical and drawing functions versus independent SVG model equations; no source scripts published",
+        "comparisons": 733536,
+        "maxAbsoluteError": 0,
+        "scope": "All 271 index settings × 901 angles plus Brewster/critical boundaries",
+        "report": "docs/optics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-9425af3ed691082a",
@@ -9053,18 +9088,25 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-4-4.html#native-optics-flash-9425af3ed691082a",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical and drawing functions versus independent SVG model equations; no source scripts published",
+        "comparisons": 1467072,
+        "maxAbsoluteError": 0,
+        "scope": "All 271 index settings × 901 angles plus Brewster/critical boundaries",
+        "report": "docs/optics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-39443811378c968a",

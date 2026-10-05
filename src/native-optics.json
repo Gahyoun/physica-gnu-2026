@@ -1,0 +1,178 @@
+[
+  {
+    "id": "flash-c6e5e2c87923451c",
+    "source": "optics/interference/lphasor/phasorprin2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/interference/lphasor/phasorprin2.swf",
+    "sha256": "939c1282662663ce5aff65cd932298747127a5af0642cc642ac763de439db5b5",
+    "title": "파동과 진동",
+    "lesson": "5-4-2-2",
+    "type": "wave-phasor",
+    "controls": [
+      {
+        "key": "wavelength",
+        "label": "파장 λ · 원본 눈금",
+        "min": 75,
+        "max": 200,
+        "step": 1,
+        "value": 150
+      },
+      {
+        "key": "x1",
+        "label": "관측 위치 x",
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "note": "원본의 진행파와 회전 위상자, 수직 투영을 함께 표시합니다. 관측 위치는 파형을 눌러 선택할 수도 있습니다."
+  },
+  {
+    "id": "flash-efe8053a4fc6890f",
+    "source": "optics/interference/lphasor/phasorprin3.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/interference/lphasor/phasorprin3.swf",
+    "sha256": "53c83ae76439f51c25ad4c85142665df271e63fa718561008fcabcf4e9c3fe48",
+    "title": "경로차를 가진 파동의 합성",
+    "lesson": "5-4-2-2",
+    "type": "wave-sum",
+    "controls": [
+      {
+        "key": "wavelength",
+        "label": "파장 λ · 원본 눈금",
+        "min": 75,
+        "max": 200,
+        "step": 1,
+        "value": 150
+      },
+      {
+        "key": "x1",
+        "label": "관측 위치 x₁",
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "value": 10
+      },
+      {
+        "key": "x2",
+        "label": "관측 위치 x₂",
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "value": 140
+      }
+    ],
+    "note": "두 위치의 파동을 위상자 덧셈과 연결합니다. 두 관측 위치와 합성 변위가 같은 시간값을 사용합니다."
+  },
+  {
+    "id": "flash-ecc72a738cffed91",
+    "source": "optics/interference/young/young_phasor.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/interference/young/young_phasor.swf",
+    "sha256": "fb6bdc820f578da8d65674731f4d202681bac0a1369118bf01e2306ea5b4dac1",
+    "title": "이중슬릿 간섭의 위상자 덧셈법",
+    "lesson": "5-4-3-1",
+    "type": "slit-phasor",
+    "controls": [
+      {
+        "key": "phase",
+        "label": "위상차 δ / °",
+        "min": -540,
+        "max": 540,
+        "step": 5,
+        "value": 50
+      }
+    ],
+    "note": "원본의 두 위상자와 합성 세기를 함께 표시합니다. 밝기는 단일 위상자의 기준으로 원본과 같은 0–100 눈금입니다."
+  },
+  {
+    "id": "flash-2214747d49473d02",
+    "source": "optics/interference/young/youngint1.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/interference/young/youngint1.swf",
+    "sha256": "273fbcd708ca7d1d86e55bfac20e7ad693a7e3b60dc145797ee4f1f6cbac03f7",
+    "title": "이중슬릿 간섭의 원리",
+    "lesson": "5-4-3-1",
+    "type": "slit-path",
+    "controls": [
+      {
+        "key": "angle",
+        "label": "관측 각도 θ / °",
+        "min": -30,
+        "max": 30,
+        "step": 1,
+        "value": 20
+      },
+      {
+        "key": "wavelength",
+        "label": "파장 λ · 원본 눈금",
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "value": 40
+      },
+      {
+        "key": "distance",
+        "label": "슬릿 간격 d · 원본 눈금",
+        "min": 20,
+        "max": 120,
+        "step": 1,
+        "value": 50
+      }
+    ],
+    "note": "경로차 d sin θ와 위상차, 간섭 세기를 연결합니다. 재생은 리마스터에서 추가한 위상 진행 시연이며 실제 빛의 속도를 나타내지 않습니다."
+  },
+  {
+    "id": "flash-9425af3ed691082a",
+    "source": "optics/light/fresneleq/graph_ref.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/light/fresneleq/graph_ref.swf",
+    "sha256": "f1b6dfa4374011faca6c10789a8a04a7b1579d08e74bc4ba41bfc0ae817917da",
+    "title": "반사계수, 투과계수, 반사율 그래프",
+    "lesson": "5-1-4-4",
+    "type": "fresnel",
+    "controls": [
+      {
+        "key": "n",
+        "label": "상대굴절률 n₂/n₁",
+        "min": 0.3,
+        "max": 3,
+        "step": 0.01,
+        "value": 1.5
+      },
+      {
+        "key": "angle",
+        "label": "입사각 θ / °",
+        "min": 0,
+        "max": 90,
+        "step": 0.1,
+        "value": 0
+      }
+    ],
+    "note": "원본의 부호 규약과 반사·투과 계수를 따릅니다. 전반사 영역의 r=1, t=0은 원본의 크기 표시입니다. 복소 반사계수의 위상은 위상변화 모형에서 살펴봅니다."
+  },
+  {
+    "id": "flash-f6a468982b8ad966",
+    "source": "optics/light/fresneleq/graph_phase.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/light/fresneleq/graph_phase.swf",
+    "sha256": "4f08632b859022a717be38669488cbcede4b45ddf54a9225db79c8c3753219b1",
+    "title": "편광상태에 따른 반사파의 위상변화",
+    "lesson": "5-1-4-5",
+    "type": "fresnel-phase",
+    "controls": [
+      {
+        "key": "n",
+        "label": "상대굴절률 n₂/n₁",
+        "min": 0.3,
+        "max": 3,
+        "step": 0.01,
+        "value": 0.67
+      },
+      {
+        "key": "angle",
+        "label": "입사각 θ / °",
+        "min": 0,
+        "max": 90,
+        "step": 0.1,
+        "value": 0
+      }
+    ],
+    "note": "반사파 s·p 위상과 위상차를 π 단위로 표시합니다. 원본의 위상·부호 규약을 유지하며 진폭이 0인 브루스터각에서는 위상이 물리적으로 정의되지 않습니다."
+  }
+]

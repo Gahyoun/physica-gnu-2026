@@ -1169,3 +1169,19 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 .timeline-progress label{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:center}
 .timeline-progress output{font-variant-numeric:tabular-nums;white-space:nowrap;min-height:1.5em}
 .timeline-progress input{grid-column:1/-1;display:block;width:100%;max-width:none;margin:0;box-sizing:border-box}
+
+/* Optical counterparts: GNU blue and neutral greys, with translucent curves. */
+.optics-series-0{--optics-color:var(--plot-action);stroke:var(--optics-color)}
+.optics-series-1{--optics-color:var(--plot-muted);stroke:var(--optics-color);stroke-dasharray:6 3}
+.optics-series-2{--optics-color:#6999c1;stroke:var(--optics-color)}
+.optics-series-3{--optics-color:#9babb4;stroke:var(--optics-color);stroke-dasharray:3 3}
+.optics-series-4{--optics-color:#34566d;stroke:var(--optics-color)}
+.optics-series-5{--optics-color:#7d8a90;stroke:var(--optics-color);stroke-dasharray:8 3}
+.optics-dot{fill:var(--optics-color);stroke:none}
+.optics-legend i{background:var(--optics-color)}
+.optics-scene svg,.optics-graph svg{display:block;width:100%;height:auto;overflow:hidden}
+[data-flash-native^="optics-"] .native-toolbar [data-optics-play]{min-width:7em}
+[data-theme="dark"] .optics-series-4{--optics-color:#aac5d5}
+@media(max-width:600px){.optics-scene,.optics-graph{overflow-x:auto}.optics-scene svg,.optics-graph svg{min-width:600px}}
+.optics-legend i{border-color:var(--optics-color);opacity:.65}
+.optics-legend i.optics-series-1,.optics-legend i.optics-series-3,.optics-legend i.optics-series-5{border-top-style:dashed}

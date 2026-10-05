@@ -1,0 +1,74 @@
+{
+  "method": "Private original numerical and drawing functions versus independent SVG model equations; no source scripts published",
+  "files": 6,
+  "comparisons": 2609277,
+  "relativeTolerance": 1e-7,
+  "results": [
+    {
+      "id": "flash-c6e5e2c87923451c",
+      "kind": "optics-flash-c6e5e2c87923451c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/interference/lphasor/phasorprin2.swf",
+      "sha256": "939c1282662663ce5aff65cd932298747127a5af0642cc642ac763de439db5b5",
+      "comparisons": 203616,
+      "maxAbsoluteError": 2.2737353666535398e-11,
+      "passed": true,
+      "sourceRuntimeExhaustive": false,
+      "scope": "126 wavelength settings × 101 positions × eight times, including original time boundaries"
+    },
+    {
+      "id": "flash-efe8053a4fc6890f",
+      "kind": "optics-flash-efe8053a4fc6890f",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/interference/lphasor/phasorprin3.swf",
+      "sha256": "53c83ae76439f51c25ad4c85142665df271e63fa718561008fcabcf4e9c3fe48",
+      "comparisons": 203616,
+      "maxAbsoluteError": 1.70530187193485e-11,
+      "passed": true,
+      "sourceRuntimeExhaustive": false,
+      "scope": "126 wavelength settings × 101 positions × eight times, including original time boundaries"
+    },
+    {
+      "id": "flash-ecc72a738cffed91",
+      "kind": "optics-flash-ecc72a738cffed91",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/interference/young/young_phasor.swf",
+      "sha256": "fb6bdc820f578da8d65674731f4d202681bac0a1369118bf01e2306ea5b4dac1",
+      "comparisons": 651,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "passed": true,
+      "sourceRuntimeExhaustive": false,
+      "scope": "All 217 source phase settings; endpoints and rounded original intensity"
+    },
+    {
+      "id": "flash-2214747d49473d02",
+      "kind": "optics-flash-2214747d49473d02",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/interference/young/youngint1.swf",
+      "sha256": "273fbcd708ca7d1d86e55bfac20e7ad693a7e3b60dc145797ee4f1f6cbac03f7",
+      "comparisons": 786,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceRuntimeExhaustive": false,
+      "scope": "Each source slider value individually plus all eight corner combinations; raw path/phase and source-rounded intensity"
+    },
+    {
+      "id": "flash-9425af3ed691082a",
+      "kind": "optics-flash-9425af3ed691082a",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/fresneleq/graph_ref.swf",
+      "sha256": "f1b6dfa4374011faca6c10789a8a04a7b1579d08e74bc4ba41bfc0ae817917da",
+      "comparisons": 1467072,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceRuntimeExhaustive": false,
+      "scope": "All 271 index settings × 901 angles plus Brewster/critical boundaries"
+    },
+    {
+      "id": "flash-f6a468982b8ad966",
+      "kind": "optics-flash-f6a468982b8ad966",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/fresneleq/graph_phase.swf",
+      "sha256": "4f08632b859022a717be38669488cbcede4b45ddf54a9225db79c8c3753219b1",
+      "comparisons": 733536,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceRuntimeExhaustive": false,
+      "scope": "All 271 index settings × 901 angles plus Brewster/critical boundaries"
+    }
+  ]
+}

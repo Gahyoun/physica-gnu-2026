@@ -8,9 +8,12 @@ const timelines=JSON.parse(fs.readFileSync(new URL('../src/native-timelines.json
 const timelineSpecs=Object.fromEntries(timelines.map(r=>['timeline-'+r.id,{...r}]));
 const analytics=JSON.parse(fs.readFileSync(new URL('../src/native-analytic.json',import.meta.url)));
 const analyticSpecs=Object.fromEntries(analytics.map(r=>['analytic-'+r.id,{...r}]));
+const optics=JSON.parse(fs.readFileSync(new URL('../src/native-optics.json',import.meta.url)));
+const opticsSpecs=Object.fromEntries(optics.map(r=>['optics-'+r.id,{...r}]));
+fs.writeFileSync(new URL('../assets/optics-specs.mjs',import.meta.url),'export const opticsSpecs='+JSON.stringify(opticsSpecs)+';\n');
 fs.writeFileSync(new URL('../assets/analytic-specs.mjs',import.meta.url),'export const analyticSpecs='+JSON.stringify(analyticSpecs)+';\n');
 fs.writeFileSync(new URL('../assets/timeline-specs.mjs',import.meta.url),'export const timelineSpecs='+JSON.stringify(Object.fromEntries(timelines.map(r=>[r.id,r])))+';\n');
-const nativeSpecs={...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
+const nativeSpecs={...opticsSpecs,...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
 const quantumNative={distributionftn:'distribution-comparison.html#distributions',distributionftnx:'distribution-comparison.html#scaled-distributions',fddistftn:'distribution-comparison.html#fermi-edge',mode1dim:'density-of-states.html#mode-1d',mode2dim:'density-of-states.html#mode-2d',mode3dim:'density-of-states.html#mode-3d',grblackbody:'blackbody.html#blackbody',solidosc:'heat-capacity.html#lattice',freeelectronftn:'free-electrons.html#free-electrons'};
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function flash(root){

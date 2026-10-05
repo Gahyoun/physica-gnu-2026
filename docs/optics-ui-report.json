@@ -1,0 +1,127 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "results": [
+    {
+      "id": "flash-c6e5e2c87923451c",
+      "kind": "optics-flash-c6e5e2c87923451c",
+      "states": 12,
+      "svgGeometry": true,
+      "noBitmapOrFlash": true,
+      "appliedControls": true,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "csvRows": 401,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "curveAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-efe8053a4fc6890f",
+      "kind": "optics-flash-efe8053a4fc6890f",
+      "states": 15,
+      "svgGeometry": true,
+      "noBitmapOrFlash": true,
+      "appliedControls": true,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "csvRows": 401,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "curveAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-ecc72a738cffed91",
+      "kind": "optics-flash-ecc72a738cffed91",
+      "states": 9,
+      "svgGeometry": true,
+      "noBitmapOrFlash": true,
+      "appliedControls": true,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "csvRows": 401,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "curveAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-2214747d49473d02",
+      "kind": "optics-flash-2214747d49473d02",
+      "states": 15,
+      "svgGeometry": true,
+      "noBitmapOrFlash": true,
+      "appliedControls": true,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "csvRows": 401,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "curveAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-9425af3ed691082a",
+      "kind": "optics-flash-9425af3ed691082a",
+      "states": 11,
+      "svgGeometry": true,
+      "noBitmapOrFlash": true,
+      "appliedControls": true,
+      "playPause": false,
+      "offscreenPause": false,
+      "stableLowerProgress": true,
+      "csvRows": 401,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "curveAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-f6a468982b8ad966",
+      "kind": "optics-flash-f6a468982b8ad966",
+      "states": 10,
+      "svgGeometry": true,
+      "noBitmapOrFlash": true,
+      "appliedControls": true,
+      "playPause": false,
+      "offscreenPause": false,
+      "stableLowerProgress": true,
+      "csvRows": 401,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "curveAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    }
+  ],
+  "errors": [],
+  "flashRuntimeRequested": false
+}
