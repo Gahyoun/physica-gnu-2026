@@ -1,0 +1,14 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "originalUIExamples": 5,
+  "originalHarmonicMotionAndAmplitude": true,
+  "nativeHarmonicCircleAndGraphs": true,
+  "csvRows": 401,
+  "widths": [
+    320,
+    768,
+    1360
+  ],
+  "darkMode": true,
+  "errors": []
+}

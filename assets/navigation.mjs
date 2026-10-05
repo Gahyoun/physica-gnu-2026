@@ -48,7 +48,7 @@ function link(text,href){const a=document.createElement('a');a.textContent=text;
 function resultRow(r){
  const li=document.createElement('li'),body=document.createElement('div'),path=document.createElement('small'),meta=document.createElement('div'),badge=document.createElement('small');
  body.append(link(r.title.replaceAll('$',''),r.href));path.className='catalog-path';path.textContent=[r.section,r.subsection,r.type].filter(Boolean).join(' · ');body.append(path);
- meta.className='catalog-meta';badge.className='status'+(r.restored?' restored':'');badge.textContent=r.edition==='learning'?'학습 초안':r.restored?'복원됨':'복원 준비 중';meta.append(badge,link('원본 ↗',r.source));li.append(body,meta);return li;
+ meta.className='catalog-meta';badge.className='status'+(r.restored?' restored':'');badge.textContent=r.edition==='learning'?'학습 초안':r.edition==='compatibility'?'원본 웹 재생':r.restored?'복원됨':'복원 준비 중';meta.append(badge,link('원본 ↗',r.source));li.append(body,meta);return li;
 }
 const form=document.querySelector('[data-search]');
 if(form){

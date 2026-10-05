@@ -263,7 +263,7 @@ try{
   const staticContext=await browser.newContext({javaScriptEnabled:false});
   const staticPage=await staticContext.newPage();await staticPage.goto(new URL('blackbody.html',base).href);
   assert.ok(await staticPage.locator('math').count()>0,'Math remains readable without JavaScript');
-  assert.equal(await staticPage.locator('noscript').count(),1);await staticContext.close();
+  assert.equal(await staticPage.locator('[data-widget] noscript').count(),1);await staticContext.close();
   assert.deepEqual(report.errors,[]);assert.deepEqual(report.externalResources,[]);
   await fs.writeFile(new URL('../docs/browser-report.json',import.meta.url),JSON.stringify(report,null,2)+'\n');
   console.log(`Verified ${report.pages.length} pages at ${report.widths.join('/')}px; ${report.interactionChecks} interaction checks; no external resources or runtime errors.`);

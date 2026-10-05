@@ -3,3 +3,4 @@ preview/
 _site/
 .DS_Store
 font-sources/
+vendor/ruffle/*.map

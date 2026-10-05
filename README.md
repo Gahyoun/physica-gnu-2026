@@ -72,3 +72,7 @@ PHYSICA_BASE_URL=http://127.0.0.1:8775/ node tools/browser-check.mjs
 원저자의 HTML·SWF·교재 사진·본문 그림·Canvas JS·추출 ActionScript는 저장소에 포함하지 않는다. 요청에 따라 제공받은 로고의 색상만 조정한 상단 로고를 포함한다. 로고 편집 근거와 프롬프트는 [logo-edit.md](docs/logo-edit.md)에 기록했다. 원본의 [저작권 안내](http://physica.gnu.ac.kr/info/info_cont.html#copyright)를 존중하며, 원본 문장과 자산을 그대로 공개하는 단계는 허락을 받은 뒤 별도로 진행한다. 현재 공개 코드는 해당 원본의 이용 허락을 뜻하지 않는다.
 
 독립적으로 작성한 코드는 저장소의 GPL-3.0을 따르며, KaTeX는 동봉한 MIT 라이선스, Noto Sans KR·SUITE와 KaTeX 글꼴은 각각의 동봉 라이선스를 따른다.
+
+## 원본 Flash 웹 재생
+
+518개 원본 SWF를 Ruffle 0.6.0으로 웹에서 재생하며 원본 안의 그래프도 함께 실행합니다. [복원 방식과 검증 기록](docs/flash-restoration.md)을 참고하세요. 원본 웹 호환 재생과 독립 HTML 재구현을 구별합니다. 조화진동은 원본 입력 범위에 맞춘 HTML 원운동·시간 그래프·CSV도 제공합니다. 모든 개별 조작과 계산값의 대조는 계속되는 작업입니다.

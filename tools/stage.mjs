@@ -11,5 +11,9 @@ for(const dir of ['assets','docs'])await fs.cp(path.join(root,dir),path.join(des
 await fs.mkdir(path.join(dest,'vendor/katex'),{recursive:true});
 for(const file of ['katex.min.css','LICENSE'])await fs.copyFile(path.join(root,'vendor/katex',file),path.join(dest,'vendor/katex',file));
 await fs.cp(path.join(root,'vendor/katex/fonts'),path.join(dest,'vendor/katex/fonts'),{recursive:true});
+await fs.mkdir(path.join(dest,'vendor/ruffle'),{recursive:true});
+for(const file of await fs.readdir(path.join(root,'vendor/ruffle')))
+ if(file.endsWith('.js')||file.endsWith('.wasm')||file.startsWith('LICENSE')||file==='package.json')
+  await fs.copyFile(path.join(root,'vendor/ruffle',file),path.join(dest,'vendor/ruffle',file));
 await fs.writeFile(path.join(dest,'.nojekyll'),'');
 console.log('Staged HTML, browser modules, local fonts, licenses and restoration records in _site/.');
