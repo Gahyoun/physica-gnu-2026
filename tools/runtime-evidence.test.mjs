@@ -20,8 +20,8 @@ test('Every preserved original has actual playback evidence matching its current
  }
 });
 test('Runtime numerical, slider and frame claims retain separate finite scopes',()=>{
- assert.equal(evidence.numericalFilesPassed,69);
- assert.equal(evidence.numericalComparisons,130094);
+ assert.equal(evidence.numericalFilesPassed,78);
+ assert.equal(evidence.numericalComparisons,210927);
  assert.equal(evidence.rootTimelineFilesPassed,29);
  assert.equal(evidence.rootTimelineFrames,805);
  assert.equal(evidence.sliderCandidates,125);

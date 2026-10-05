@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-05T23:07:28.016Z",
+  "date": "2026-10-05T23:16:30.465Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -20,9 +20,9 @@
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 69,
-  "numericalFilesPassed": 69,
-  "numericalComparisons": 130094,
+  "numericalFiles": 78,
+  "numericalFilesPassed": 78,
+  "numericalComparisons": 210927,
   "rootTimelineFiles": 29,
   "rootTimelineFilesPassed": 29,
   "rootTimelineFrames": 805,
@@ -406,7 +406,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarization-runtime-report.json",
+        "sha256": "285f622cc7c7f5251ff0579e77f462617fdf0df2a6ac478870ef32607ef4079c",
+        "passed": true,
+        "comparisons": 11194,
+        "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report.",
+        "maxAbsoluteError": 0.04999850216529467
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "285f622cc7c7f5251ff0579e77f462617fdf0df2a6ac478870ef32607ef4079c",
@@ -8173,7 +8180,14 @@
         "clickProbes": 4,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarization-runtime-report.json",
+        "sha256": "21036a3b0396fdad62ec6c48334b11f8b3c952fcee42d1ff9bd788a8c5442eb8",
+        "passed": true,
+        "comparisons": 21033,
+        "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report.",
+        "maxAbsoluteError": 0.04999999999989768
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "21036a3b0396fdad62ec6c48334b11f8b3c952fcee42d1ff9bd788a8c5442eb8",
@@ -8434,7 +8448,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarization-runtime-report.json",
+        "sha256": "a4239bea11505e8879e681516c3aa88f6b17997dc9ad9fe5336969447cd10dad",
+        "passed": true,
+        "comparisons": 12474,
+        "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report.",
+        "maxAbsoluteError": 0.049999999999954525
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -8452,7 +8473,14 @@
         "clickProbes": 4,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarization-runtime-report.json",
+        "sha256": "cb37b3041061b71384adcb09eab48f237ef07df5fe0ed303b8833dead5a88fb6",
+        "passed": true,
+        "comparisons": 21832,
+        "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report.",
+        "maxAbsoluteError": 0.049999999999954525
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "cb37b3041061b71384adcb09eab48f237ef07df5fe0ed303b8833dead5a88fb6",
@@ -8479,7 +8507,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarization-runtime-report.json",
+        "sha256": "c9f6b8ffc93ff3438713cecaeaf947c4aacf893e803f72dbf91b1962a0900935",
+        "passed": true,
+        "comparisons": 14000,
+        "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report.",
+        "maxAbsoluteError": 0.04999999999985505
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "c9f6b8ffc93ff3438713cecaeaf947c4aacf893e803f72dbf91b1962a0900935",
@@ -8540,7 +8575,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarization-marker-runtime-report.json",
+        "sha256": "ead5a927f44a63b5bed78b22c050a858e9fa4b88cd2a2e60a802f7ce7a0c81f1",
+        "passed": true,
+        "comparisons": 100,
+        "scope": "Read-only Ruffle coordinates of both original markers at 25 recorded clip-local phases; moving axes for linear polarization and both axes for circular polarization. Original anonymous runtime paths retained. Coordinate tolerance is one 0.05 px twip. Constant placement axes, source arrow artwork/rotations and the time > 500 wraparound are outside scope. These originals have no input sliders or playback buttons; modern playback controls are remaster additions.",
+        "maxAbsoluteError": 0.04915028125263632
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -8576,7 +8618,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarization-marker-runtime-report.json",
+        "sha256": "7fdd4b7e1ef1499e9d5ee5cc8f46312dc05d5f6d5aea3aa24f1bdf58ae3207fc",
+        "passed": true,
+        "comparisons": 100,
+        "scope": "Read-only Ruffle coordinates of both original markers at 25 recorded clip-local phases; moving axes for linear polarization and both axes for circular polarization. Original anonymous runtime paths retained. Coordinate tolerance is one 0.05 px twip. Constant placement axes, source arrow artwork/rotations and the time > 500 wraparound are outside scope. These originals have no input sliders or playback buttons; modern playback controls are remaster additions.",
+        "maxAbsoluteError": 0.04915028125263632
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -8594,7 +8643,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarization-marker-runtime-report.json",
+        "sha256": "c387368851908d842240d3b4a22970d401cd7e8b89fe8f434e1ad71908a48ce0",
+        "passed": true,
+        "comparisons": 50,
+        "scope": "Read-only Ruffle coordinates of both original markers at 25 recorded clip-local phases; moving axes for linear polarization and both axes for circular polarization. Original anonymous runtime paths retained. Coordinate tolerance is one 0.05 px twip. Constant placement axes, source arrow artwork/rotations and the time > 500 wraparound are outside scope. These originals have no input sliders or playback buttons; modern playback controls are remaster additions.",
+        "maxAbsoluteError": 0.048663578586428
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -8612,7 +8668,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarization-marker-runtime-report.json",
+        "sha256": "89361eca8e7dbe764c47e164624b396b371cc5cd00c5b07f91e8052da80643a5",
+        "passed": true,
+        "comparisons": 50,
+        "scope": "Read-only Ruffle coordinates of both original markers at 25 recorded clip-local phases; moving axes for linear polarization and both axes for circular polarization. Original anonymous runtime paths retained. Coordinate tolerance is one 0.05 px twip. Constant placement axes, source arrow artwork/rotations and the time > 500 wraparound are outside scope. These originals have no input sliders or playback buttons; modern playback controls are remaster additions.",
+        "maxAbsoluteError": 0.048663578586428
+      },
       "sliders": null,
       "rootTimeline": null
     },

@@ -6,11 +6,11 @@
 |---|---:|---|
 | 원본 로드·재생 관찰·렌더러 정지·재개·재로딩 | 518/518 | Chromium, 로컬 Ruffle 0.6.0, Canvas 렌더러 |
 | 원본 버튼 위치 클릭 | 456회 | 화면 변화 관찰. 버튼 의미·모든 분기 검증은 별도 |
-| 실제 원본 실행값과 HTML 수치 모델 | 69개, 130,094회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개·전기장 5개·광학 6개·반사/굴절 벡터 5개·박막 6개, 기록한 상태·위치·시간 표본 |
+| 실제 원본 실행값과 HTML 수치 모델 | 78개, 210,927회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개·전기장 5개·광학 6개·반사/굴절 벡터 5개·박막 6개·편광 9개, 기록한 상태·위치·시간 표본 |
 | AS2 슬라이더 후보 | 125개 모두 조작 | 250개 끝값: nominal 범위 일치 244개, 원본 특수 변환 6개 |
 | 루트 타임라인 | 29개, 805프레임 | 자연 재생에서 전체 루트 프레임 방문·순서 확인 |
 
-합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`field-runtime`](field-runtime-report.json), [`optics-runtime`](optics-runtime-report.json), [`refraction-runtime`](refraction-runtime-report.json), [`film-runtime`](film-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
+합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`field-runtime`](field-runtime-report.json), [`optics-runtime`](optics-runtime-report.json), [`refraction-runtime`](refraction-runtime-report.json), [`film-runtime`](film-runtime-report.json), [`polarization-runtime`](polarization-runtime-report.json), [`polarization-marker-runtime`](polarization-marker-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
 
 ## 실제로 수정한 차이
 
@@ -32,7 +32,11 @@
 
 박막·다층막 6개는 **160개 실제 입력 상태, 3,378개 수치 대조**를 추가했다. 각 원본 클래스형 슬라이더의 범위와 5개 설정을 검사하고, 실제 조작값마다 21개 파장에서 독립적인 복소수 특성 행렬 계산과 비교했다. 최대 절대 오차는 약 4.9×10⁻¹³이다. 화면 픽셀보다 작은 설정 간격은 원본의 미세 조절 버튼으로 맞추며 드래그 직후 값과 각 조절값을 모두 보존한다. 3개 그래프 클릭의 파장과 반사율/투과율의 소수 넷째 자리 표시도 비교했다. 클릭은 양 경계에서 1 nm 안쪽 및 중앙에서 검사하며 정확한 경계의 클릭 판정은 주장하지 않는다. 함수 질의는 원본 임시 행렬 변수를 갱신할 수 있다. 이 클래스형 컴포넌트는 기존 AS2 후보 125개와 별도 집계다. 모든 층/굴절률 조합, 색도 출력이나 클립보드 복사는 아직 검사하지 않았다.
 
-확대 기록을 반영한 전체 자동 검사 **91개**, 교재 빌드와 Pages 배포용 파일 생성 검사가 통과했다.
+편광 공간 벡터 5개는 **113개 관찰 상태, 80,533개 대조**를 추가했다. 원본의 65개 또는 70개 공간 표본 모두에서 화살표 중심·길이·영벡터가 아닌 방향을 비교하고, 지연판의 입구/출구와 합성 벡터도 확인했다. 실제 파장·위상차·두께 슬라이더의 범위와 5개 설정, 합성 표시 전환, 재생/정지 시간값을 기록했다. 좌표 오차는 원본의 0.05 px twip 이내였고 길이 오차는 약 6.3×10⁻¹³, 방향 오차는 약 2.4×10⁻⁶도 이내였다. 길이 10⁻¹⁰ 이하의 벡터는 방향이 정의되지 않으므로 방향 대조만 55회 제외했다. 그 경우도 중심과 길이는 검사했다. 화살표 원본 도형·alpha 배치·움직이는 파면 표식·모든 동시 조합과 시간 초기화 구간은 범위에 포함하지 않는다.
+
+선편광·원편광 표식 4개는 **100개 관찰 상태, 300개 좌표 대조**를 추가했다. 이름 없는 원본 클립 2개를 실제 런타임 이름으로 연결하고 각 클립의 국소 시간값으로 움직이는 축을 계산했다. 좌표 오차는 0.05 px twip 이내였다. 선편광의 움직이지 않는 배치 축, 원본 화살표 도형·회전 및 500단계 이후 초기화는 별도 과제로 남긴다. 이 네 원본에는 슬라이더나 재생 버튼이 없으며 HTML의 재생 조작은 리마스터 추가 기능이다.
+
+확대 기록을 반영한 전체 자동 검사 **93개**, 교재 빌드와 Pages 배포용 파일 생성 검사가 통과했다.
 
 ## 원본에서 확인한 슬라이더 예외
 
@@ -69,6 +73,8 @@ node tools/field-runtime-check.mjs
 node tools/optics-runtime-check.mjs
 node tools/refraction-runtime-check.mjs
 node tools/film-runtime-check.mjs
+node tools/polarization-runtime-check.mjs
+node tools/polarization-marker-runtime-check.mjs
 node tools/flash-slider-runtime-check.mjs
 node tools/timeline-runtime-check.mjs
 node tools/runtime-evidence.mjs

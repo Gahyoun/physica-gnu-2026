@@ -1,0 +1,1870 @@
+{
+  "date": "2026-10-05T23:15:12.729Z",
+  "nativeModelHashes": {
+    "assets/expansion-physics.mjs": "9992851933fc34e69467cb0f3b843901a607148a0146b348445ce85e9ef016ec",
+    "assets/expansion-specs.mjs": "2eac11a6ed566a49a5e8d58257cf41779075881891df0404e079e5df08b216c4"
+  },
+  "method": "Actual Ruffle AVM1 display telemetry with read-only observer and original pointer controls, versus independent HTML polarization equations",
+  "files": 5,
+  "comparisons": 80533,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-78a7c3870057e695",
+      "kind": "expansion-flash-78a7c3870057e695",
+      "type": "circularrightem",
+      "sha256": "a4239bea11505e8879e681516c3aa88f6b17997dc9ad9fe5336969447cd10dad",
+      "sha256Verified": true,
+      "diagnosticSha256": "ba50480e1d517cbcc6a1dbc4e47379438edc5b15520bf102a29a725471f581f4",
+      "comparisons": 12474,
+      "maxAbsoluteError": 0.049999999999954525,
+      "maxCoordinateError": 0.049999999999954525,
+      "maxScaleError": 3.126388037344441e-13,
+      "maxRotationError": 1.8844809801521478e-7,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "time": 0,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "sum enabled",
+          "time": 0,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": true
+        },
+        {
+          "name": "paused",
+          "time": 0,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": true
+        },
+        {
+          "name": "running 0",
+          "time": 7,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 1",
+          "time": 9,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 2",
+          "time": 11,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 3",
+          "time": 13,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 4",
+          "time": 15,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 5",
+          "time": 17,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 6",
+          "time": 19,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 7",
+          "time": 21,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 8",
+          "time": 23,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 9",
+          "time": 25,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 10",
+          "time": 27,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 11",
+          "time": 29,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "paused after playing",
+          "time": 30,
+          "samples": 65,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": true
+        }
+      ],
+      "controls": [
+        {
+          "name": "sum toggle",
+          "before": false,
+          "observed": true,
+          "passed": true
+        },
+        {
+          "name": "pause holds time",
+          "before": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "play advances time",
+          "before": 5,
+          "observed": 29,
+          "passed": true
+        },
+        {
+          "name": "pause after playing",
+          "before": 30,
+          "observed": 30,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "degenerateDirectionsExcluded": 6,
+      "passed": true,
+      "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report."
+    },
+    {
+      "id": "flash-9e04072c00a06cb4",
+      "kind": "expansion-flash-9e04072c00a06cb4",
+      "type": "circularrightemx",
+      "sha256": "cb37b3041061b71384adcb09eab48f237ef07df5fe0ed303b8833dead5a88fb6",
+      "sha256Verified": true,
+      "diagnosticSha256": "b5f3ffb1158209fe7f4c998c7ee81739310dd4e75e5da06d8bb8777885ae66fd",
+      "comparisons": 21832,
+      "maxAbsoluteError": 0.049999999999954525,
+      "maxCoordinateError": 0.049999999999954525,
+      "maxScaleError": 6.252776074688882e-13,
+      "maxRotationError": 0.0000023172216288003256,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 150,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "wavelengthSlider 0",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 100,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "wavelengthSlider 0.25",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 150,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "wavelengthSlider 0.5",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 200,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "wavelengthSlider 0.75",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "wavelengthSlider 1",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "angleSlider 0",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": -179.99999999999983
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "angleSlider 0.25",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "angleSlider 0.5",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "angleSlider 0.75",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 90.0000000000002
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "angleSlider 1",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": false,
+          "drawSum": false
+        },
+        {
+          "name": "sum enabled",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": false,
+          "drawSum": true
+        },
+        {
+          "name": "paused",
+          "time": 0,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": false,
+          "drawSum": true
+        },
+        {
+          "name": "running 0",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 1",
+          "time": 9,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 2",
+          "time": 11,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 3",
+          "time": 13,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 4",
+          "time": 15,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 5",
+          "time": 17,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 6",
+          "time": 19,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 7",
+          "time": 21,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 8",
+          "time": 23,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 9",
+          "time": 25,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 10",
+          "time": 27,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 11",
+          "time": 29,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "paused after playing",
+          "time": 30,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": false,
+          "drawSum": true
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "wavelength",
+          "expected": [
+            100,
+            300
+          ],
+          "observed": [
+            100,
+            300
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0,
+          "expected": 100,
+          "observed": 100,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.25,
+          "expected": 150,
+          "observed": 150,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.5,
+          "expected": 200,
+          "observed": 200,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.75,
+          "expected": 250,
+          "observed": 250,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 1,
+          "expected": 300,
+          "observed": 300,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "angle",
+          "expected": [
+            -180,
+            180
+          ],
+          "observed": [
+            -180,
+            180
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 0,
+          "expected": -180,
+          "observed": -180,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 0.25,
+          "expected": -90,
+          "observed": -90,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 0.5,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 0.75,
+          "expected": 90,
+          "observed": 90,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 1,
+          "expected": 180,
+          "observed": 180,
+          "passed": true
+        },
+        {
+          "name": "sum toggle",
+          "before": false,
+          "observed": true,
+          "passed": true
+        },
+        {
+          "name": "pause holds time",
+          "before": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "play advances time",
+          "before": 5,
+          "observed": 29,
+          "passed": true
+        },
+        {
+          "name": "pause after playing",
+          "before": 30,
+          "observed": 30,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "degenerateDirectionsExcluded": 8,
+      "passed": true,
+      "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report."
+    },
+    {
+      "id": "flash-ca87a7d84bedc269",
+      "kind": "expansion-flash-ca87a7d84bedc269",
+      "type": "emwave2",
+      "sha256": "c9f6b8ffc93ff3438713cecaeaf947c4aacf893e803f72dbf91b1962a0900935",
+      "sha256Verified": true,
+      "diagnosticSha256": "4317bc80011168cf919c53d2c292d016b4350bcde1646c8f4e7d83044a89ebf7",
+      "comparisons": 14000,
+      "maxAbsoluteError": 0.04999999999985505,
+      "maxCoordinateError": 0.04999999999985505,
+      "maxScaleError": 1.5631940186722204e-13,
+      "maxRotationError": 2.174399469367927e-7,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "time": 6,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 150,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 0",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 100,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 0.25",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 150,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 0.5",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 200,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 0.75",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 1",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "angleSlider 0",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": -179.99999999999983
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "angleSlider 0.25",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": -90.0000000000002
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "angleSlider 0.5",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "angleSlider 0.75",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 90.0000000000002
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "angleSlider 1",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "paused",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "running 0",
+          "time": 13,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 1",
+          "time": 15,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 2",
+          "time": 17,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 3",
+          "time": 19,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 4",
+          "time": 21,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 5",
+          "time": 23,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 6",
+          "time": 25,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 7",
+          "time": 27,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 8",
+          "time": 29,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 9",
+          "time": 31,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 10",
+          "time": 33,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 11",
+          "time": 35,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "paused after playing",
+          "time": 36,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 300,
+            "angle": 179.99999999999983
+          },
+          "running": false,
+          "drawSum": ""
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "wavelength",
+          "expected": [
+            100,
+            300
+          ],
+          "observed": [
+            100,
+            300
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0,
+          "expected": 100,
+          "observed": 100,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.25,
+          "expected": 150,
+          "observed": 150,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.5,
+          "expected": 200,
+          "observed": 200,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.75,
+          "expected": 250,
+          "observed": 250,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 1,
+          "expected": 300,
+          "observed": 300,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "angle",
+          "expected": [
+            -180,
+            180
+          ],
+          "observed": [
+            -180,
+            180
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 0,
+          "expected": -180,
+          "observed": -180,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 0.25,
+          "expected": -90,
+          "observed": -90,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 0.5,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 0.75,
+          "expected": 90,
+          "observed": 90,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "angle",
+          "fraction": 1,
+          "expected": 180,
+          "observed": 180,
+          "passed": true
+        },
+        {
+          "name": "pause holds time",
+          "before": 7,
+          "observed": 7,
+          "passed": true
+        },
+        {
+          "name": "play advances time",
+          "before": 11,
+          "observed": 35,
+          "passed": true
+        },
+        {
+          "name": "pause after playing",
+          "before": 36,
+          "observed": 36,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report."
+    },
+    {
+      "id": "flash-f092182e195e26a7",
+      "kind": "expansion-flash-f092182e195e26a7",
+      "type": "emwave",
+      "sha256": "285f622cc7c7f5251ff0579e77f462617fdf0df2a6ac478870ef32607ef4079c",
+      "sha256Verified": true,
+      "diagnosticSha256": "d38e4491ca9d0c1d1a0b5ca9d379ccae4ae5c304be2b4c96dfc098fee08cb90c",
+      "comparisons": 11194,
+      "maxAbsoluteError": 0.04999850216529467,
+      "maxCoordinateError": 0.04999850216529467,
+      "maxScaleError": 1.0302869668521453e-13,
+      "maxRotationError": 4.547473508864641e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "time": 6,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 150,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 0",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 50,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 0.25",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 100,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 0.5",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 150,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 0.75",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 200,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "wavelengthSlider 1",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "paused",
+          "time": 7,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        },
+        {
+          "name": "running 0",
+          "time": 13,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 1",
+          "time": 15,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 2",
+          "time": 17,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 3",
+          "time": 19,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 4",
+          "time": 21,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 5",
+          "time": 23,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 6",
+          "time": 25,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 7",
+          "time": 27,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 8",
+          "time": 29,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 9",
+          "time": 31,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 10",
+          "time": 33,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "running 11",
+          "time": 35,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": true,
+          "drawSum": ""
+        },
+        {
+          "name": "paused after playing",
+          "time": 36,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0
+          },
+          "running": false,
+          "drawSum": ""
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "wavelength",
+          "expected": [
+            50,
+            250
+          ],
+          "observed": [
+            50,
+            250
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0,
+          "expected": 50,
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.25,
+          "expected": 100,
+          "observed": 100,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.5,
+          "expected": 150,
+          "observed": 150,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.75,
+          "expected": 200,
+          "observed": 200,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 1,
+          "expected": 250,
+          "observed": 250,
+          "passed": true
+        },
+        {
+          "name": "pause holds time",
+          "before": 7,
+          "observed": 7,
+          "passed": true
+        },
+        {
+          "name": "play advances time",
+          "before": 11,
+          "observed": 35,
+          "passed": true
+        },
+        {
+          "name": "pause after playing",
+          "before": 36,
+          "observed": 36,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "degenerateDirectionsExcluded": 6,
+      "passed": true,
+      "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report."
+    },
+    {
+      "id": "flash-5e33dad22307f686",
+      "kind": "expansion-flash-5e33dad22307f686",
+      "type": "qwpx",
+      "sha256": "21036a3b0396fdad62ec6c48334b11f8b3c952fcee42d1ff9bd788a8c5442eb8",
+      "sha256Verified": true,
+      "diagnosticSha256": "942e33b08bcc66712965b05a7e0562301d9a27305804da34a58c147a996b91c4",
+      "comparisons": 21033,
+      "maxAbsoluteError": 0.04999999999989768,
+      "maxCoordinateError": 0.04999999999989768,
+      "maxScaleError": 6.110667527536862e-13,
+      "maxRotationError": 1.0871985978155863e-7,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 200,
+            "angle": 0,
+            "thickness": 100
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "wavelengthSlider 0",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 50,
+            "angle": 0,
+            "thickness": 100
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "wavelengthSlider 0.25",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 100,
+            "angle": 0,
+            "thickness": 100
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "wavelengthSlider 0.5",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 150,
+            "angle": 0,
+            "thickness": 100
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "wavelengthSlider 0.75",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 200,
+            "angle": 0,
+            "thickness": 100
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "wavelengthSlider 1",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 100
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "thickness 0",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 0
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "thickness 0.25",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 50
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "thickness 0.5",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 100
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "thickness 0.75",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 150
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "thickness 1",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": false,
+          "drawSum": null
+        },
+        {
+          "name": "sum enabled",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": false,
+          "drawSum": true
+        },
+        {
+          "name": "paused",
+          "time": 5,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": false,
+          "drawSum": true
+        },
+        {
+          "name": "running 0",
+          "time": 11,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 1",
+          "time": 13,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 2",
+          "time": 15,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 3",
+          "time": 17,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 4",
+          "time": 19,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 5",
+          "time": 21,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 6",
+          "time": 23,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 7",
+          "time": 25,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 8",
+          "time": 27,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 9",
+          "time": 29,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 10",
+          "time": 31,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "running 11",
+          "time": 33,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": true,
+          "drawSum": true
+        },
+        {
+          "name": "paused after playing",
+          "time": 34,
+          "samples": 70,
+          "parameters": {
+            "wavelength": 250,
+            "angle": 0,
+            "thickness": 200
+          },
+          "running": false,
+          "drawSum": true
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "wavelength",
+          "expected": [
+            50,
+            250
+          ],
+          "observed": [
+            50,
+            250
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0,
+          "expected": 50,
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.25,
+          "expected": 100,
+          "observed": 100,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.5,
+          "expected": 150,
+          "observed": 150,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 0.75,
+          "expected": 200,
+          "observed": 200,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "wavelength",
+          "fraction": 1,
+          "expected": 250,
+          "observed": 250,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "thickness",
+          "expected": [
+            0,
+            200
+          ],
+          "observed": [
+            0,
+            200
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 0.25,
+          "expected": 50,
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 0.5,
+          "expected": 100,
+          "observed": 100,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 0.75,
+          "expected": 150,
+          "observed": 150,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 1,
+          "expected": 200,
+          "observed": 200,
+          "passed": true
+        },
+        {
+          "name": "sum toggle",
+          "before": null,
+          "observed": true,
+          "passed": true
+        },
+        {
+          "name": "pause holds time",
+          "before": 5,
+          "observed": 5,
+          "passed": true
+        },
+        {
+          "name": "play advances time",
+          "before": 9,
+          "observed": 33,
+          "passed": true
+        },
+        {
+          "name": "pause after playing",
+          "before": 34,
+          "observed": 34,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "degenerateDirectionsExcluded": 35,
+      "passed": true,
+      "scope": "Read-only actual original spatial field arrow centres, lengths and nonzero rotations, at recorded default/control/play/pause states. All original 65 or 70 spatial samples compared; quarter-wave input/output and active sum arrows checked. Directions of vectors with length <= 1e-10 are undefined and excluded with an explicit count; their positions and lengths are still compared. Original slider limits and five settings, sum toggle where present and playback time checked with real pointers. One twip (0.05 px) coordinate tolerance and 0.0001 scale/rotation tolerance. Artwork, arrow alpha styling, moving face markers, all combinations and long-time wraparound are outside scope. Four standalone polarization marker movies are in a separate report."
+    }
+  ]
+}

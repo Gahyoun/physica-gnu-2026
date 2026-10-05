@@ -1,0 +1,1849 @@
+{
+  "date": "2026-10-05T23:14:49.006Z",
+  "nativeModelHashes": {
+    "assets/expansion-physics.mjs": "9992851933fc34e69467cb0f3b843901a607148a0146b348445ce85e9ef016ec",
+    "assets/expansion-specs.mjs": "2eac11a6ed566a49a5e8d58257cf41779075881891df0404e079e5df08b216c4"
+  },
+  "method": "Actual original marker coordinates and independent clip-local time in Ruffle versus independent HTML linear/circular polarization equations",
+  "files": 4,
+  "comparisons": 300,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-b707cc643c2aed69",
+      "kind": "expansion-flash-b707cc643c2aed69",
+      "type": "xpol",
+      "sha256": "c387368851908d842240d3b4a22970d401cd7e8b89fe8f434e1ad71908a48ce0",
+      "sha256Verified": true,
+      "diagnosticSha256": "873dc1034509cc709839a45a43b131803ca9f4f87628f07affc84a52755bbf1f",
+      "comparisons": 50,
+      "maxAbsoluteError": 0.048663578586428,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "initial",
+          "times": [
+            4,
+            4
+          ],
+          "positions": [
+            [
+              168,
+              115.9
+            ],
+            [
+              115.9,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 0",
+          "times": [
+            6,
+            6
+          ],
+          "positions": [
+            [
+              168,
+              105.75
+            ],
+            [
+              105.75,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 1",
+          "times": [
+            8,
+            8
+          ],
+          "positions": [
+            [
+              168,
+              97.75
+            ],
+            [
+              97.75,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 2",
+          "times": [
+            10,
+            10
+          ],
+          "positions": [
+            [
+              168,
+              92.4
+            ],
+            [
+              92.4,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 3",
+          "times": [
+            12,
+            12
+          ],
+          "positions": [
+            [
+              168,
+              90.05
+            ],
+            [
+              90.05,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 4",
+          "times": [
+            14,
+            14
+          ],
+          "positions": [
+            [
+              168,
+              90.85
+            ],
+            [
+              90.85,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 5",
+          "times": [
+            16,
+            16
+          ],
+          "positions": [
+            [
+              168,
+              94.75
+            ],
+            [
+              94.75,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 6",
+          "times": [
+            18,
+            18
+          ],
+          "positions": [
+            [
+              168,
+              101.45
+            ],
+            [
+              101.45,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 7",
+          "times": [
+            20,
+            20
+          ],
+          "positions": [
+            [
+              168,
+              110.6
+            ],
+            [
+              110.6,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 8",
+          "times": [
+            22,
+            22
+          ],
+          "positions": [
+            [
+              168,
+              121.55
+            ],
+            [
+              121.55,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 9",
+          "times": [
+            24,
+            24
+          ],
+          "positions": [
+            [
+              168,
+              133.7
+            ],
+            [
+              133.7,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 10",
+          "times": [
+            26,
+            26
+          ],
+          "positions": [
+            [
+              168,
+              146.25
+            ],
+            [
+              146.25,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 11",
+          "times": [
+            28,
+            28
+          ],
+          "positions": [
+            [
+              168,
+              158.4
+            ],
+            [
+              158.4,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 12",
+          "times": [
+            30,
+            30
+          ],
+          "positions": [
+            [
+              168,
+              169.35
+            ],
+            [
+              169.35,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 13",
+          "times": [
+            32,
+            32
+          ],
+          "positions": [
+            [
+              168,
+              178.5
+            ],
+            [
+              178.5,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 14",
+          "times": [
+            34,
+            34
+          ],
+          "positions": [
+            [
+              168,
+              185.2
+            ],
+            [
+              185.2,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 15",
+          "times": [
+            36,
+            36
+          ],
+          "positions": [
+            [
+              168,
+              189.1
+            ],
+            [
+              189.1,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 16",
+          "times": [
+            38,
+            38
+          ],
+          "positions": [
+            [
+              168,
+              189.9
+            ],
+            [
+              189.9,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 17",
+          "times": [
+            40,
+            40
+          ],
+          "positions": [
+            [
+              168,
+              187.55
+            ],
+            [
+              187.55,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 18",
+          "times": [
+            42,
+            42
+          ],
+          "positions": [
+            [
+              168,
+              182.2
+            ],
+            [
+              182.2,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 19",
+          "times": [
+            44,
+            44
+          ],
+          "positions": [
+            [
+              168,
+              174.2
+            ],
+            [
+              174.2,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 20",
+          "times": [
+            46,
+            46
+          ],
+          "positions": [
+            [
+              168,
+              164.05
+            ],
+            [
+              164.05,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 21",
+          "times": [
+            48,
+            48
+          ],
+          "positions": [
+            [
+              168,
+              152.4
+            ],
+            [
+              152.4,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 22",
+          "times": [
+            50,
+            50
+          ],
+          "positions": [
+            [
+              168,
+              140
+            ],
+            [
+              140,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 23",
+          "times": [
+            52,
+            52
+          ],
+          "positions": [
+            [
+              168,
+              127.55
+            ],
+            [
+              127.55,
+              155.2
+            ]
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "name": "natural local phases advance",
+          "before": [
+            4,
+            4
+          ],
+          "observed": [
+            52,
+            52
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "markerPaths": [
+        "_root.instance1",
+        "_root.instance2"
+      ],
+      "passed": true,
+      "scope": "Read-only Ruffle coordinates of both original markers at 25 recorded clip-local phases; moving axes for linear polarization and both axes for circular polarization. Original anonymous runtime paths retained. Coordinate tolerance is one 0.05 px twip. Constant placement axes, source arrow artwork/rotations and the time > 500 wraparound are outside scope. These originals have no input sliders or playback buttons; modern playback controls are remaster additions."
+    },
+    {
+      "id": "flash-a7bbc9cf24d7c04c",
+      "kind": "expansion-flash-a7bbc9cf24d7c04c",
+      "type": "ypol",
+      "sha256": "89361eca8e7dbe764c47e164624b396b371cc5cd00c5b07f91e8052da80643a5",
+      "sha256Verified": true,
+      "diagnosticSha256": "2bc54791a39726e6d8ee7fa56d3637c10ac23e1bd9bbaa2997381c5f3609c64c",
+      "comparisons": 50,
+      "maxAbsoluteError": 0.048663578586428,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "initial",
+          "times": [
+            4,
+            4
+          ],
+          "positions": [
+            [
+              166,
+              115.9
+            ],
+            [
+              164.05,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 0",
+          "times": [
+            6,
+            6
+          ],
+          "positions": [
+            [
+              166,
+              105.75
+            ],
+            [
+              174.2,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 1",
+          "times": [
+            8,
+            8
+          ],
+          "positions": [
+            [
+              166,
+              97.75
+            ],
+            [
+              182.2,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 2",
+          "times": [
+            10,
+            10
+          ],
+          "positions": [
+            [
+              166,
+              92.4
+            ],
+            [
+              187.55,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 3",
+          "times": [
+            12,
+            12
+          ],
+          "positions": [
+            [
+              166,
+              90.05
+            ],
+            [
+              189.9,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 4",
+          "times": [
+            14,
+            14
+          ],
+          "positions": [
+            [
+              166,
+              90.85
+            ],
+            [
+              189.1,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 5",
+          "times": [
+            16,
+            16
+          ],
+          "positions": [
+            [
+              166,
+              94.75
+            ],
+            [
+              185.2,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 6",
+          "times": [
+            18,
+            18
+          ],
+          "positions": [
+            [
+              166,
+              101.45
+            ],
+            [
+              178.5,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 7",
+          "times": [
+            20,
+            20
+          ],
+          "positions": [
+            [
+              166,
+              110.6
+            ],
+            [
+              169.35,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 8",
+          "times": [
+            22,
+            22
+          ],
+          "positions": [
+            [
+              166,
+              121.55
+            ],
+            [
+              158.4,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 9",
+          "times": [
+            24,
+            24
+          ],
+          "positions": [
+            [
+              166,
+              133.7
+            ],
+            [
+              146.25,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 10",
+          "times": [
+            26,
+            26
+          ],
+          "positions": [
+            [
+              166,
+              146.25
+            ],
+            [
+              133.7,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 11",
+          "times": [
+            28,
+            28
+          ],
+          "positions": [
+            [
+              166,
+              158.4
+            ],
+            [
+              121.55,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 12",
+          "times": [
+            30,
+            30
+          ],
+          "positions": [
+            [
+              166,
+              169.35
+            ],
+            [
+              110.6,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 13",
+          "times": [
+            32,
+            32
+          ],
+          "positions": [
+            [
+              166,
+              178.5
+            ],
+            [
+              101.45,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 14",
+          "times": [
+            34,
+            34
+          ],
+          "positions": [
+            [
+              166,
+              185.2
+            ],
+            [
+              94.75,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 15",
+          "times": [
+            36,
+            36
+          ],
+          "positions": [
+            [
+              166,
+              189.1
+            ],
+            [
+              90.85,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 16",
+          "times": [
+            38,
+            38
+          ],
+          "positions": [
+            [
+              166,
+              189.9
+            ],
+            [
+              90.05,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 17",
+          "times": [
+            40,
+            40
+          ],
+          "positions": [
+            [
+              166,
+              187.55
+            ],
+            [
+              92.4,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 18",
+          "times": [
+            42,
+            42
+          ],
+          "positions": [
+            [
+              166,
+              182.2
+            ],
+            [
+              97.75,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 19",
+          "times": [
+            44,
+            44
+          ],
+          "positions": [
+            [
+              166,
+              174.2
+            ],
+            [
+              105.75,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 20",
+          "times": [
+            46,
+            46
+          ],
+          "positions": [
+            [
+              166,
+              164.05
+            ],
+            [
+              115.9,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 21",
+          "times": [
+            48,
+            48
+          ],
+          "positions": [
+            [
+              166,
+              152.4
+            ],
+            [
+              127.55,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 22",
+          "times": [
+            50,
+            50
+          ],
+          "positions": [
+            [
+              166,
+              140
+            ],
+            [
+              140,
+              155.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 23",
+          "times": [
+            52,
+            52
+          ],
+          "positions": [
+            [
+              166,
+              127.55
+            ],
+            [
+              152.4,
+              155.2
+            ]
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "name": "natural local phases advance",
+          "before": [
+            4,
+            4
+          ],
+          "observed": [
+            52,
+            52
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "markerPaths": [
+        "_root.instance1",
+        "_root.instance2"
+      ],
+      "passed": true,
+      "scope": "Read-only Ruffle coordinates of both original markers at 25 recorded clip-local phases; moving axes for linear polarization and both axes for circular polarization. Original anonymous runtime paths retained. Coordinate tolerance is one 0.05 px twip. Constant placement axes, source arrow artwork/rotations and the time > 500 wraparound are outside scope. These originals have no input sliders or playback buttons; modern playback controls are remaster additions."
+    },
+    {
+      "id": "flash-c06ced3f8bf3bfc9",
+      "kind": "expansion-flash-c06ced3f8bf3bfc9",
+      "type": "rightcircular",
+      "sha256": "7fdd4b7e1ef1499e9d5ee5cc8f46312dc05d5f6d5aea3aa24f1bdf58ae3207fc",
+      "sha256Verified": true,
+      "diagnosticSha256": "0f8f6d6c3c53725133a3865907e044cf87160618fa3d05baf91da2da1f9b51f4",
+      "comparisons": 100,
+      "maxAbsoluteError": 0.04915028125263632,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "initial",
+          "times": [
+            4,
+            4
+          ],
+          "positions": [
+            [
+              164.05,
+              96.15
+            ],
+            [
+              96.15,
+              115.9
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 0",
+          "times": [
+            6,
+            6
+          ],
+          "positions": [
+            [
+              174.2,
+              103.55
+            ],
+            [
+              103.55,
+              105.75
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 1",
+          "times": [
+            8,
+            8
+          ],
+          "positions": [
+            [
+              182.2,
+              113.2
+            ],
+            [
+              113.2,
+              97.75
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 2",
+          "times": [
+            10,
+            10
+          ],
+          "positions": [
+            [
+              187.55,
+              124.5
+            ],
+            [
+              124.5,
+              92.4
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 3",
+          "times": [
+            12,
+            12
+          ],
+          "positions": [
+            [
+              189.9,
+              136.85
+            ],
+            [
+              136.85,
+              90.05
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 4",
+          "times": [
+            14,
+            14
+          ],
+          "positions": [
+            [
+              189.1,
+              149.35
+            ],
+            [
+              149.35,
+              90.85
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 5",
+          "times": [
+            16,
+            16
+          ],
+          "positions": [
+            [
+              185.2,
+              161.25
+            ],
+            [
+              161.25,
+              94.75
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 6",
+          "times": [
+            18,
+            18
+          ],
+          "positions": [
+            [
+              178.5,
+              171.85
+            ],
+            [
+              171.85,
+              101.45
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 7",
+          "times": [
+            20,
+            20
+          ],
+          "positions": [
+            [
+              169.35,
+              180.45
+            ],
+            [
+              180.45,
+              110.6
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 8",
+          "times": [
+            22,
+            22
+          ],
+          "positions": [
+            [
+              158.4,
+              186.45
+            ],
+            [
+              186.45,
+              121.55
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 9",
+          "times": [
+            24,
+            24
+          ],
+          "positions": [
+            [
+              146.25,
+              189.6
+            ],
+            [
+              189.6,
+              133.7
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 10",
+          "times": [
+            26,
+            26
+          ],
+          "positions": [
+            [
+              133.7,
+              189.6
+            ],
+            [
+              189.6,
+              146.25
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 11",
+          "times": [
+            28,
+            28
+          ],
+          "positions": [
+            [
+              121.55,
+              186.45
+            ],
+            [
+              186.45,
+              158.4
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 12",
+          "times": [
+            30,
+            30
+          ],
+          "positions": [
+            [
+              110.6,
+              180.45
+            ],
+            [
+              180.45,
+              169.35
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 13",
+          "times": [
+            32,
+            32
+          ],
+          "positions": [
+            [
+              101.45,
+              171.85
+            ],
+            [
+              171.85,
+              178.5
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 14",
+          "times": [
+            34,
+            34
+          ],
+          "positions": [
+            [
+              94.75,
+              161.25
+            ],
+            [
+              161.25,
+              185.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 15",
+          "times": [
+            36,
+            36
+          ],
+          "positions": [
+            [
+              90.85,
+              149.35
+            ],
+            [
+              149.35,
+              189.1
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 16",
+          "times": [
+            38,
+            38
+          ],
+          "positions": [
+            [
+              90.05,
+              136.85
+            ],
+            [
+              136.85,
+              189.9
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 17",
+          "times": [
+            40,
+            40
+          ],
+          "positions": [
+            [
+              92.4,
+              124.5
+            ],
+            [
+              124.5,
+              187.55
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 18",
+          "times": [
+            42,
+            42
+          ],
+          "positions": [
+            [
+              97.75,
+              113.2
+            ],
+            [
+              113.2,
+              182.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 19",
+          "times": [
+            44,
+            44
+          ],
+          "positions": [
+            [
+              105.75,
+              103.55
+            ],
+            [
+              103.55,
+              174.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 20",
+          "times": [
+            46,
+            46
+          ],
+          "positions": [
+            [
+              115.9,
+              96.15
+            ],
+            [
+              96.15,
+              164.05
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 21",
+          "times": [
+            48,
+            48
+          ],
+          "positions": [
+            [
+              127.55,
+              91.55
+            ],
+            [
+              91.55,
+              152.4
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 22",
+          "times": [
+            50,
+            50
+          ],
+          "positions": [
+            [
+              140,
+              90
+            ],
+            [
+              90,
+              140
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 23",
+          "times": [
+            52,
+            52
+          ],
+          "positions": [
+            [
+              152.4,
+              91.55
+            ],
+            [
+              91.55,
+              127.55
+            ]
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "name": "natural local phases advance",
+          "before": [
+            4,
+            4
+          ],
+          "observed": [
+            52,
+            52
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "markerPaths": [
+        "_root.instance1",
+        "_root.instance2"
+      ],
+      "passed": true,
+      "scope": "Read-only Ruffle coordinates of both original markers at 25 recorded clip-local phases; moving axes for linear polarization and both axes for circular polarization. Original anonymous runtime paths retained. Coordinate tolerance is one 0.05 px twip. Constant placement axes, source arrow artwork/rotations and the time > 500 wraparound are outside scope. These originals have no input sliders or playback buttons; modern playback controls are remaster additions."
+    },
+    {
+      "id": "flash-91f67484966b3794",
+      "kind": "expansion-flash-91f67484966b3794",
+      "type": "leftcircular",
+      "sha256": "ead5a927f44a63b5bed78b22c050a858e9fa4b88cd2a2e60a802f7ce7a0c81f1",
+      "sha256Verified": true,
+      "diagnosticSha256": "eadff7b84e224131ff083b6e48af32914f9d704efa434392aeb68df073ff7222",
+      "comparisons": 100,
+      "maxAbsoluteError": 0.04915028125263632,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "initial",
+          "times": [
+            4,
+            4
+          ],
+          "positions": [
+            [
+              115.9,
+              96.15
+            ],
+            [
+              96.15,
+              164.05
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 0",
+          "times": [
+            6,
+            6
+          ],
+          "positions": [
+            [
+              105.75,
+              103.55
+            ],
+            [
+              103.55,
+              174.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 1",
+          "times": [
+            8,
+            8
+          ],
+          "positions": [
+            [
+              97.75,
+              113.2
+            ],
+            [
+              113.2,
+              182.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 2",
+          "times": [
+            10,
+            10
+          ],
+          "positions": [
+            [
+              92.4,
+              124.5
+            ],
+            [
+              124.5,
+              187.55
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 3",
+          "times": [
+            12,
+            12
+          ],
+          "positions": [
+            [
+              90.05,
+              136.85
+            ],
+            [
+              136.85,
+              189.9
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 4",
+          "times": [
+            14,
+            14
+          ],
+          "positions": [
+            [
+              90.85,
+              149.35
+            ],
+            [
+              149.35,
+              189.1
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 5",
+          "times": [
+            16,
+            16
+          ],
+          "positions": [
+            [
+              94.75,
+              161.25
+            ],
+            [
+              161.25,
+              185.2
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 6",
+          "times": [
+            18,
+            18
+          ],
+          "positions": [
+            [
+              101.45,
+              171.85
+            ],
+            [
+              171.85,
+              178.5
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 7",
+          "times": [
+            20,
+            20
+          ],
+          "positions": [
+            [
+              110.6,
+              180.45
+            ],
+            [
+              180.45,
+              169.35
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 8",
+          "times": [
+            22,
+            22
+          ],
+          "positions": [
+            [
+              121.55,
+              186.45
+            ],
+            [
+              186.45,
+              158.4
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 9",
+          "times": [
+            24,
+            24
+          ],
+          "positions": [
+            [
+              133.7,
+              189.6
+            ],
+            [
+              189.6,
+              146.25
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 10",
+          "times": [
+            26,
+            26
+          ],
+          "positions": [
+            [
+              146.25,
+              189.6
+            ],
+            [
+              189.6,
+              133.7
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 11",
+          "times": [
+            28,
+            28
+          ],
+          "positions": [
+            [
+              158.4,
+              186.45
+            ],
+            [
+              186.45,
+              121.55
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 12",
+          "times": [
+            30,
+            30
+          ],
+          "positions": [
+            [
+              169.35,
+              180.45
+            ],
+            [
+              180.45,
+              110.6
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 13",
+          "times": [
+            32,
+            32
+          ],
+          "positions": [
+            [
+              178.5,
+              171.85
+            ],
+            [
+              171.85,
+              101.45
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 14",
+          "times": [
+            34,
+            34
+          ],
+          "positions": [
+            [
+              185.2,
+              161.25
+            ],
+            [
+              161.25,
+              94.75
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 15",
+          "times": [
+            36,
+            36
+          ],
+          "positions": [
+            [
+              189.1,
+              149.35
+            ],
+            [
+              149.35,
+              90.85
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 16",
+          "times": [
+            38,
+            38
+          ],
+          "positions": [
+            [
+              189.9,
+              136.85
+            ],
+            [
+              136.85,
+              90.05
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 17",
+          "times": [
+            40,
+            40
+          ],
+          "positions": [
+            [
+              187.55,
+              124.5
+            ],
+            [
+              124.5,
+              92.4
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 18",
+          "times": [
+            42,
+            42
+          ],
+          "positions": [
+            [
+              182.2,
+              113.2
+            ],
+            [
+              113.2,
+              97.75
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 19",
+          "times": [
+            44,
+            44
+          ],
+          "positions": [
+            [
+              174.2,
+              103.55
+            ],
+            [
+              103.55,
+              105.75
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 20",
+          "times": [
+            46,
+            46
+          ],
+          "positions": [
+            [
+              164.05,
+              96.15
+            ],
+            [
+              96.15,
+              115.9
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 21",
+          "times": [
+            48,
+            48
+          ],
+          "positions": [
+            [
+              152.4,
+              91.55
+            ],
+            [
+              91.55,
+              127.55
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 22",
+          "times": [
+            50,
+            50
+          ],
+          "positions": [
+            [
+              140,
+              90
+            ],
+            [
+              90,
+              140
+            ]
+          ]
+        },
+        {
+          "name": "natural frame 23",
+          "times": [
+            52,
+            52
+          ],
+          "positions": [
+            [
+              127.55,
+              91.55
+            ],
+            [
+              91.55,
+              152.4
+            ]
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "name": "natural local phases advance",
+          "before": [
+            4,
+            4
+          ],
+          "observed": [
+            52,
+            52
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "markerPaths": [
+        "_root.instance1",
+        "_root.instance2"
+      ],
+      "passed": true,
+      "scope": "Read-only Ruffle coordinates of both original markers at 25 recorded clip-local phases; moving axes for linear polarization and both axes for circular polarization. Original anonymous runtime paths retained. Coordinate tolerance is one 0.05 px twip. Constant placement axes, source arrow artwork/rotations and the time > 500 wraparound are outside scope. These originals have no input sliders or playback buttons; modern playback controls are remaster additions."
+    }
+  ]
+}
