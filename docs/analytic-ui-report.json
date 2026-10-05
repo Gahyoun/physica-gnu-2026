@@ -16,7 +16,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-48261b9163199530",
@@ -34,7 +36,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-489c28f2d5c3293d",
@@ -52,7 +56,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-6b1175cc8bfaae1f",
@@ -71,7 +77,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-55be1d6879deae3d",
@@ -90,7 +98,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-6e51aa8032f59ffa",
@@ -109,7 +119,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-b5bbaa2b07617f5a",
@@ -127,7 +139,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-f06496ed00440e3c",
@@ -143,7 +157,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-4dec799b85744aef",
@@ -161,7 +177,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-1209a261b94cf80e",
@@ -179,7 +197,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-c2d9375e2ad3a7be",
@@ -198,7 +218,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-fb7365a95caba392",
@@ -217,7 +239,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-11fe8e3398e06d3b",
@@ -235,7 +259,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-4870ee7f00d41eab",
@@ -251,7 +277,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-06f7597d6674e49b",
@@ -267,7 +295,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-5746e144e65ebb06",
@@ -286,7 +316,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-a1841b7d02d2841f",
@@ -304,7 +336,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-63f0f814d900d37e",
@@ -320,7 +354,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-81063489d20af602",
@@ -338,7 +374,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-b3945a9acd6dfd3e",
@@ -356,7 +394,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-19c7704c53dfca0a",
@@ -376,7 +416,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-afdeaa47932f1e10",
@@ -394,7 +436,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-d9d8fe1d85953624",
@@ -412,7 +456,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-e652493a50449269",
@@ -430,7 +476,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-5df0e84f9248399d",
@@ -450,7 +498,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-45d46c7ca4e8470d",
@@ -469,7 +519,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-989668ab4b30a4ab",
@@ -489,7 +541,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-39380a9856082c2c",
@@ -509,7 +563,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     },
     {
       "kind": "analytic-flash-4be53bf71c29ce03",
@@ -530,7 +586,9 @@
       ],
       "darkMode": true,
       "svgAlpha": 0.65,
-      "sourceRuntimeExhaustive": false
+      "sourceRuntimeExhaustive": false,
+      "appliedControlValuesVerified": true,
+      "renderedSvgGeometryVerified": true
     }
   ],
   "errors": [],
