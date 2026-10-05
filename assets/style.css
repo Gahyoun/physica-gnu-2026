@@ -1196,3 +1196,32 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 .refraction-legend{margin-inline:20px}
 [data-flash-native^="refraction-"] [data-refraction-play]{min-width:7em}
 @media(max-width:600px){.refraction-scene{overflow-x:auto}.refraction-scene svg{min-width:600px}}
+/* Fifty semantic SVG remasters: stable bottom timeline and restrained GNU palette. */
+.expansion-host .exp-scene svg {width:100%;height:auto;display:block;font-size:16px;touch-action:pan-y;}
+.expansion-host [data-exp-scene] {user-select:none;}
+.expansion-host[data-exp-camera] [data-exp-scene] {touch-action:none;}
+.expansion-host svg text {fill:var(--ui-text);font-family:PhysicaText,sans-serif;}
+.expansion-host .exp-atom {stroke:var(--ui-bg);stroke-width:1.4;}
+.expansion-host .exp-atom-letter {fill:#fff;font-size:15px;}
+.exp-fill-0 {fill:var(--plot-action,#0067b3);}
+.exp-fill-1 {fill:var(--plot-muted);}
+.exp-fill-2 {fill:#6999c1;}
+.expansion-host .exp-spring {stroke:var(--plot-muted);stroke-width:1.5;stroke-opacity:.65;fill:none;}
+.expansion-host .exp-plane {fill:var(--plot-action,#0067b3);fill-opacity:.12;stroke:var(--plot-action,#0067b3);stroke-opacity:.35;stroke-width:1;}
+.expansion-host .exp-guide {fill:none;stroke:var(--plot-muted);stroke-width:1;stroke-dasharray:4 4;opacity:.6;}
+.expansion-host .exp-moire-line {fill:none;stroke-opacity:.65;}
+.exp-series-0 {stroke:var(--plot-action,#0067b3);}
+.exp-series-1 {stroke:var(--plot-muted);}
+.exp-series-2 {stroke:#6999c1;}
+.expansion-host .exp-progress {display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:1rem;align-items:center;margin:0;padding:1rem;border-top:1px solid var(--ui-line);font-variant-numeric:tabular-nums;}
+.exp-progress > label:first-child {display:grid;grid-template-columns:1fr auto;gap:.5rem;}
+.exp-progress input[type=range] {grid-column:1/-1;width:100%;}
+.exp-progress output,.exp-controls output {font-variant-numeric:tabular-nums;min-width:6ch;text-align:right;}
+.expansion-host .exp-controls {margin:0;padding:1rem;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));}
+.exp-controls select {width:100%;}
+.exp-scene {contain:layout paint;}
+.exp-graph {padding:0 1rem;}
+.exp-graph svg {display:block;width:100%;height:auto;font-size:14px;}
+.expansion-host .native-curve {stroke-opacity:.65;}
+.expansion-host .book-readouts dd {font-variant-numeric:tabular-nums;}
+@media(max-width:600px){.expansion-host .exp-progress {grid-template-columns:1fr 1fr;}.exp-progress > label:first-child {grid-column:1/-1;}.expansion-host .exp-controls {grid-template-columns:1fr;}.expansion-host .exp-scene svg {min-width:500px;}.exp-scene {overflow-x:auto;}.expansion-host .exp-graph svg {min-width:500px;}.exp-graph {overflow-x:auto;}.expansion-host .book-readouts {grid-template-columns:repeat(2,minmax(0,1fr));}}

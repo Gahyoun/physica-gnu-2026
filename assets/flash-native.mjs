@@ -1,3 +1,4 @@
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="expansion-"]'))await import('./native-expansion.mjs');
 import './native-analytic.mjs';
 import './native-optics.mjs';
 import './native-refraction.mjs';
