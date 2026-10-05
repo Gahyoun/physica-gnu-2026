@@ -1,5 +1,16 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {waveSpecs,waveDefaults,waveValue,driverTrajectory,pipeParticles,pipeParameters,pipeNodes,frontPositions} from '../assets/native-waves.mjs';
+import fs from 'node:fs';
 const near=(a,b)=>assert.ok(Math.abs(a-b)<1e-8,`${a} vs ${b}`);
+test('Driver absolute path agrees with recorded original Ruffle display-coordinate feedback',()=>{
+ const original=JSON.parse(fs.readFileSync(new URL('../docs/wave-runtime-report.json',import.meta.url))).results.find(r=>r.kind==='wave-driver');
+ assert.ok(original.absoluteHistoryComparisons>=120);
+ assert.ok(original.originalSamples.length>=25);
+ const path=driverTrajectory(150,10,120);
+ for(const q of original.originalSamples){near(path[q.gtime].y,q.y);near(path[q.gtime].v,q.v);}
+ assert.equal(original.absoluteHistoryMaxError,0);
+ // An unrounded recurrence passed one-step checks but drifted in the actual runtime.
+ assert.ok(original.unquantizedHistoryMaxError>.1);
+});
 test('Travelling components superpose without changing the original signs',()=>{for(const kind of ['wave-same','wave-two','wave-three','wave-standing','wave-beat']){const s=waveSpecs[kind],p=waveDefaults(s),count=s.count??2;for(const n of [0,1,120,2000])for(const x of [0,s.xmax/2,s.xmax])near(waveValue(kind,p,n,x,count),Array.from({length:count},(_,i)=>waveValue(kind,p,n,x,i)).reduce((a,b)=>a+b,0));}near(waveValue('wave-beat',{df:0},0,.027,2),0);});
 test('Fixed and free boundaries retain displacement nodes and antinodes',()=>{for(const [kind,type] of [['wave-string-fixed','fixed'],['wave-string-mixed','mixed'],['wave-string-free','free']])for(let i=0;i<6;i++)for(const n of [0,13,277]){const p={};if(type!=='free')near(waveValue(kind,p,n,0,i),0);if(type==='fixed')near(waveValue(kind,p,n,400,i),0);else{const x=400,eps=.001;near((waveValue(kind,p,n,x+eps,i)-waveValue(kind,p,n,x-eps,i))/(2*eps),0);}}for(const type of ['pipe-fixed','pipe-mixed','pipe-free'])for(let mode=1;mode<=10;mode++){const kind=Object.keys(waveSpecs).find(k=>waveSpecs[k].type===type),p={mode};for(const x of pipeNodes(type,p))near(waveValue(kind,p,0,x),0);assert.ok(pipeParameters(type,p).period>0);}});
 test('Pipe particles outside the original open interval are hidden, not clamped',()=>{for(const type of ['pipe-fixed','pipe-mixed','pipe-free'])for(const mode of [1,5,10])for(const n of [0,3,50])for(const q of pipeParticles(type,{mode},n)){assert.equal(q.visible,q.x>0&&q.x<600);assert.equal(q.connector,q.visible&&q.i>=0&&q.i<120);}const fixed=pipeParticles('pipe-fixed',{mode:4},0);assert.equal(fixed[0].visible,false);});

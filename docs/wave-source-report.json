@@ -1,5 +1,5 @@
 {
-  "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+  "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated. Driver MovieClip _y assignments use integer twips, independently observed in Ruffle runtime telemetry.",
   "tolerance": 1e-7,
   "files": 18,
   "comparisons": 12649508,
@@ -11,7 +11,7 @@
       "kind": "wave-driver",
       "parameterSets": 246,
       "comparisons": 984000,
-      "maxAbsoluteError": 1.0231815394945443e-12,
+      "maxAbsoluteError": 1.7763568394002505e-13,
       "passed": true,
       "scope": "Every discrete control value individually plus boundary combinations; finite documented time/drawing sample sweep",
       "sourceRuntimeExhaustive": false

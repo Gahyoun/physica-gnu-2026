@@ -24,7 +24,7 @@ export const waveSpecs={
  'wavefront-plane':{source:'wavefront2.swf',lesson:'2-1-3-6',title:'평면파의 파면',type:'front-plane',rate:10,end:2000,xmax:300,limit:310,controls:[]}
 };
 export const waveDefaults=spec=>Object.fromEntries(spec.controls.map(c=>[c.key,c.value]));
-export function driverTrajectory(y0=150,v0=10,end=2000){let y=y0,v=v0;const a=[{y,v}];for(let n=1;n<=end;n++){v=.9995*v+(150-y)/10;y+=v;a.push({y,v});}return a;}
+export function driverTrajectory(y0=150,v0=10,end=2000){let y=Math.trunc(y0*20)/20,v=v0;const a=[{y,v}];for(let n=1;n<=end;n++){v=.9995*v+(150-y)/10;/* Original MovieClip _y is stored in integer twips; its displayed coordinate feeds the next force calculation. */y=Math.trunc((y+v)*20)/20;a.push({y,v});}return a;}
 export function pipeParameters(type,p){const wavelength=type==='pipe-mixed'?480/(2*p.mode-1):240/p.mode;return {wavelength,amplitude:wavelength/2,period:wavelength/2};}
 export function waveEnd(spec,p){if(spec.type==='air')return Math.ceil(25*p.lambda/p.speed);if(spec.type.startsWith('pipe-'))return Math.ceil(20*pipeParameters(spec.type,p).period);return spec.end;}
 export function waveValue(kind,p,n,x,component=0){const spec=waveSpecs[kind],type=spec.type;

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "flash-31962c099cc3adfb",
+    "sha256": "f4b706eb45b449a242ca59d2d20c7363eee1dd90cfe1df04c1c7844ff62866f6",
+    "template": "_root.slider",
+    "runtimePath": "_root.spaceSlider"
+  },
+  {
+    "id": "flash-31962c099cc3adfb",
+    "sha256": "f4b706eb45b449a242ca59d2d20c7363eee1dd90cfe1df04c1c7844ff62866f6",
+    "template": "_root.slider2",
+    "runtimePath": "_root.numSlider"
+  },
+  {
+    "id": "flash-81529669def63e21",
+    "sha256": "6b3482695f8b4dc9b0f4d5ca8cf984bd3f6ca060f7e055c39b395456a2518e50",
+    "template": "_root.slider",
+    "runtimePath": "_root.wlSlider"
+  }
+]

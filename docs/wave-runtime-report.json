@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-05T22:20:00.457Z",
+  "method": "Actual Ruffle AVM1 telemetry and numerical queries versus independent HTML wave model",
+  "files": 9,
+  "comparisons": 4452,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-6480a997f3ba9170",
+      "kind": "wave-driver",
+      "sha256": "accb9361c41d3fb2d83d9a07b81077abe5a135936368389d6c39154d99a3dae0",
+      "sha256Verified": true,
+      "comparisons": 482,
+      "maxAbsoluteError": 2.6645352591003757e-14,
+      "mismatches": [],
+      "originalSamples": [
+        {
+          "gtime": 0,
+          "y": 150,
+          "v": 10
+        },
+        {
+          "gtime": 1,
+          "y": 159.95,
+          "v": 9.995
+        },
+        {
+          "gtime": 2,
+          "y": 168.9,
+          "v": 8.9950025
+        },
+        {
+          "gtime": 3,
+          "y": 176,
+          "v": 7.10050499875
+        },
+        {
+          "gtime": 4,
+          "y": 180.45,
+          "v": 4.49695474625063
+        },
+        {
+          "gtime": 5,
+          "y": 181.85,
+          "v": 1.4497062688775
+        },
+        {
+          "gtime": 6,
+          "y": 180.1,
+          "v": -1.73601858425693
+        },
+        {
+          "gtime": 7,
+          "y": 175.35,
+          "v": -4.74515057496481
+        },
+        {
+          "gtime": 8,
+          "y": 168.05,
+          "v": -7.27777799967732
+        },
+        {
+          "gtime": 9,
+          "y": 158.95,
+          "v": -9.07913911067748
+        },
+        {
+          "gtime": 10,
+          "y": 148.95,
+          "v": -9.96959954112215
+        },
+        {
+          "gtime": 11,
+          "y": 139.05,
+          "v": -9.85961474135159
+        },
+        {
+          "gtime": 12,
+          "y": 130.25,
+          "v": -8.75968493398091
+        },
+        {
+          "gtime": 13,
+          "y": 123.45,
+          "v": -6.78030509151392
+        },
+        {
+          "gtime": 14,
+          "y": 119.3,
+          "v": -4.12191493896816
+        },
+        {
+          "gtime": 15,
+          "y": 118.25,
+          "v": -1.04985398149868
+        },
+        {
+          "gtime": 16,
+          "y": 120.35,
+          "v": 2.12567094549207
+        },
+        {
+          "gtime": 17,
+          "y": 125.4,
+          "v": 5.08960811001932
+        },
+        {
+          "gtime": 18,
+          "y": 132.9,
+          "v": 7.54706330596431
+        },
+        {
+          "gtime": 19,
+          "y": 142.15,
+          "v": 9.25328977431133
+        },
+        {
+          "gtime": 20,
+          "y": 152.15,
+          "v": 10.0336631294242
+        },
+        {
+          "gtime": 21,
+          "y": 161.95,
+          "v": 9.81364629785947
+        },
+        {
+          "gtime": 22,
+          "y": 170.55,
+          "v": 8.61373947471054
+        },
+        {
+          "gtime": 23,
+          "y": 177.1,
+          "v": 6.55443260497318
+        },
+        {
+          "gtime": 24,
+          "y": 180.9,
+          "v": 3.84115538867069
+        }
+      ],
+      "absoluteHistoryComparisons": 121,
+      "absoluteHistoryMaxError": 0,
+      "unquantizedHistoryMaxError": 0.21260430200901226,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Consecutive bob/velocity steps and an absolute trajectory seeded at original gtime=0 until first reset. Integer-twip display-coordinate feedback is included. Recorded phase window only; unobserved history and all drag combinations remain pending."
+    },
+    {
+      "id": "flash-ecaaedb4a5ab6511",
+      "kind": "wave-circle",
+      "sha256": "d8d78f6313bb537d10a130e8270f1f84b220069a35c643d1afc82fbeebcf147b",
+      "sha256Verified": true,
+      "comparisons": 32,
+      "maxAbsoluteError": 0.04999999999998295,
+      "mismatches": [],
+      "originalSamples": [],
+      "absoluteHistoryComparisons": 0,
+      "absoluteHistoryMaxError": 0,
+      "unquantizedHistoryMaxError": 0,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Actual original projection versus original phase counter, including 0.05 px display quantization."
+    },
+    {
+      "id": "flash-d14abe800a03964c",
+      "kind": "wave-string-fixed",
+      "sha256": "2aeb169963a4fbbc765899147b3a272aa40507e7f1087fe46c2c1cb3ea1d138f",
+      "sha256Verified": true,
+      "comparisons": 1056,
+      "maxAbsoluteError": 7.460698725481052e-14,
+      "mismatches": [],
+      "originalSamples": [],
+      "absoluteHistoryComparisons": 0,
+      "absoluteHistoryMaxError": 0,
+      "unquantizedHistoryMaxError": 0,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Eleven positions per queried mode/component at sampled original runtime phases and live parameter values; numerical calls in private diagnostic copy may update temporary function variables. Full curve pixels and every control combination are not asserted."
+    },
+    {
+      "id": "flash-36978748fc7152df",
+      "kind": "wave-string-mixed",
+      "sha256": "6bd09f3f05779fdbd9529fe66a7ebc04da85db07fd93ef40a68399505eb277e9",
+      "sha256Verified": true,
+      "comparisons": 1254,
+      "maxAbsoluteError": 9.237055564881302e-14,
+      "mismatches": [],
+      "originalSamples": [],
+      "absoluteHistoryComparisons": 0,
+      "absoluteHistoryMaxError": 0,
+      "unquantizedHistoryMaxError": 0,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Eleven positions per queried mode/component at sampled original runtime phases and live parameter values; numerical calls in private diagnostic copy may update temporary function variables. Full curve pixels and every control combination are not asserted."
+    },
+    {
+      "id": "flash-04f8d9f159db621b",
+      "kind": "wave-string-free",
+      "sha256": "8857c038b87d3807ad40d4456fca2736f790fac01ee5c9e9c27148941a698f20",
+      "sha256Verified": true,
+      "comparisons": 1254,
+      "maxAbsoluteError": 5.3290705182007514e-14,
+      "mismatches": [],
+      "originalSamples": [],
+      "absoluteHistoryComparisons": 0,
+      "absoluteHistoryMaxError": 0,
+      "unquantizedHistoryMaxError": 0,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Eleven positions per queried mode/component at sampled original runtime phases and live parameter values; numerical calls in private diagnostic copy may update temporary function variables. Full curve pixels and every control combination are not asserted."
+    },
+    {
+      "id": "flash-3d1ef4cdd79122e0",
+      "kind": "wave-air",
+      "sha256": "4b6332523ada90714a3882e91e81c914afffdee679d95aea2088cbf05b87b6c0",
+      "sha256Verified": true,
+      "comparisons": 176,
+      "maxAbsoluteError": 5.639932965095795e-14,
+      "mismatches": [],
+      "originalSamples": [],
+      "absoluteHistoryComparisons": 0,
+      "absoluteHistoryMaxError": 0,
+      "unquantizedHistoryMaxError": 0,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Eleven positions per queried mode/component at sampled original runtime phases and live parameter values; numerical calls in private diagnostic copy may update temporary function variables. Full curve pixels and every control combination are not asserted."
+    },
+    {
+      "id": "flash-0ce368bdcf05a56d",
+      "kind": "wave-pipe-fixed",
+      "sha256": "de0b91c6ced1476b3280e0de810361d121504880901474746a897ff23dcaea25",
+      "sha256Verified": true,
+      "comparisons": 66,
+      "maxAbsoluteError": 3.907985046680551e-14,
+      "mismatches": [],
+      "originalSamples": [],
+      "absoluteHistoryComparisons": 0,
+      "absoluteHistoryMaxError": 0,
+      "unquantizedHistoryMaxError": 0,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Eleven positions per queried mode/component at sampled original runtime phases and live parameter values; numerical calls in private diagnostic copy may update temporary function variables. Full curve pixels and every control combination are not asserted."
+    },
+    {
+      "id": "flash-93eaa83ad5b418b5",
+      "kind": "wave-pipe-mixed",
+      "sha256": "67c2ca63bd328cbec9e7aca7f7ec25ba5f002133d05299113adb3cd2afaf5b9f",
+      "sha256Verified": true,
+      "comparisons": 66,
+      "maxAbsoluteError": 4.973799150320701e-14,
+      "mismatches": [],
+      "originalSamples": [],
+      "absoluteHistoryComparisons": 0,
+      "absoluteHistoryMaxError": 0,
+      "unquantizedHistoryMaxError": 0,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Eleven positions per queried mode/component at sampled original runtime phases and live parameter values; numerical calls in private diagnostic copy may update temporary function variables. Full curve pixels and every control combination are not asserted."
+    },
+    {
+      "id": "flash-5da45fc523787a28",
+      "kind": "wave-pipe-free",
+      "sha256": "fac542b07d8b4bde08f8f4fade294e922fed0b90c1bc8377ef23691bb3311a09",
+      "sha256Verified": true,
+      "comparisons": 66,
+      "maxAbsoluteError": 4.973799150320701e-14,
+      "mismatches": [],
+      "originalSamples": [],
+      "absoluteHistoryComparisons": 0,
+      "absoluteHistoryMaxError": 0,
+      "unquantizedHistoryMaxError": 0,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Eleven positions per queried mode/component at sampled original runtime phases and live parameter values; numerical calls in private diagnostic copy may update temporary function variables. Full curve pixels and every control combination are not asserted."
+    }
+  ],
+  "nativeModelHashes": {
+    "assets/native-waves.mjs": "c7a39f16226448ea5bb88d7715f471d69d484fc69d17630bf369639d10b6d611"
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "flash-74c6ea00d772dc30",
+    "sha256": "4058e4cc64072b409511fbaf7eca57a52ae4918e649749631f4702a7be842dc0",
+    "path": "_root.drivenSlider",
+    "nominal": 0,
+    "runtime": 0.1,
+    "reason": "Original slider substitutes 0.1 when its calculated level is zero. The HTML driven oscillator already preserves this rule."
+  },
+  {
+    "id": "flash-69907620961b0f60",
+    "sha256": "56204f08bf760ecc232f68110d766ba5dcddfdec252d272a8877d37cdf26f77a",
+    "path": "_root.speedSlider",
+    "nominal": 32,
+    "runtime": 1000,
+    "reason": "Original speed slider maps level 31 to 100 and level 32 to 1000. This file is awaiting its individual HTML migration."
+  },
+  {
+    "id": "flash-5c35a4960e780111",
+    "sha256": "451b60084001533b8f0b0646e46ecd007fa9f8a19158986c5cafca64ecf533bd",
+    "path": "_root.angSlider",
+    "nominal": 4000,
+    "runtime": 4010,
+    "reason": "Original track width is 404, with a right drag limit of 401; the /400 conversion and nearest-five rounding yield 4010. This is an observed source boundary artifact, not nominal-range agreement."
+  },
+  {
+    "id": "flash-a89e23ac41066bc2",
+    "sha256": "39cbfed2137a9e0e4aa76c3b7b2ce11d6c762b702519e597810b8711777bcd9a",
+    "path": "_root.instance5",
+    "nominal": -90,
+    "runtime": -89,
+    "reason": "Original regular() uses int(0.5 + value) at digit=0. Truncation toward zero maps -90 to -89. This is a source rounding artifact; the individual HTML migration remains pending.",
+    "candidatePath": "scripts/frame_1/PlaceObject2_37_21/CLIPACTIONRECORD on(initialize).as"
+  },
+  {
+    "id": "flash-609175641dfc40eb",
+    "sha256": "b4b2a8f462bc0807e1d948e0522c37baa960346045d12c349fa66762b2d0669d",
+    "path": "_root.drivenSlider",
+    "nominal": 0.4,
+    "runtime": 0.42,
+    "reason": "Original drag limits give knob x=0.95 and 200.85. Level is min + round(knobX/200*range*50)/50, yielding 0.42 and 3.02. The stage-4 slider was reached with real next buttons and original ten-second timers; its individual HTML migration remains pending."
+  },
+  {
+    "id": "flash-609175641dfc40eb",
+    "sha256": "b4b2a8f462bc0807e1d948e0522c37baa960346045d12c349fa66762b2d0669d",
+    "path": "_root.drivenSlider",
+    "nominal": 3,
+    "runtime": 3.02,
+    "reason": "Original drag limits give knob x=0.95 and 200.85. Level is min + round(knobX/200*range*50)/50, yielding 0.42 and 3.02. The stage-4 slider was reached with real next buttons and original ten-second timers; its individual HTML migration remains pending."
+  }
+]

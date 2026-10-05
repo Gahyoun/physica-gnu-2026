@@ -1,0 +1,4390 @@
+{
+  "date": "2026-10-05T22:36:34.058Z",
+  "method": "Actual original AS2 slider pointer drags in Ruffle, with private EnterFrame Trace observation. All 125 inventoried candidates in 71 files were reached, including unnamed clips, runtime duplicates and a stage-gated experiment with real next buttons and original timers. Boundary level values only; interior settings, downstream physical effects and all AS3 controls are not asserted. Raw nominal mismatches are retained and source boundary rules are separately reviewed.",
+  "requestedFiles": 71,
+  "files": 71,
+  "candidates": 125,
+  "endpointChecks": 250,
+  "endpointsPassed": 244,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-041fd3b661cf5e64",
+      "sha256": "2842dcfe66ea5b94c47dd8c51413ddfe6a14e4c97084e168268e70f43c2e4ca1",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_23_8/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 10,
+          "max": 90,
+          "initial": 45,
+          "path": "_root.inclineSlider",
+          "endpoints": [
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 90,
+              "observed": 90,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 10,
+            "max": 90
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-07b9a1ea66ecdbf1",
+      "sha256": "e3900394c461c084eafcdbbcaa1e3226e2e99a2b2b18414fca5d101a1526f7a2",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_29/CLIPACTIONRECORD on(construct).as",
+          "min": 0.1,
+          "max": 10,
+          "initial": 5,
+          "path": "_root.k1Slider",
+          "endpoints": [
+            {
+              "expected": 0.1,
+              "observed": 0.1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.1,
+            "max": 10
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_19/CLIPACTIONRECORD on(construct).as",
+          "min": 0.1,
+          "max": 10,
+          "initial": 5,
+          "path": "_root.mass1Slider",
+          "endpoints": [
+            {
+              "expected": 0.1,
+              "observed": 0.1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.1,
+            "max": 10
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_39/CLIPACTIONRECORD on(construct).as",
+          "min": 0.1,
+          "max": 10,
+          "initial": 5,
+          "path": "_root.k2Slider",
+          "endpoints": [
+            {
+              "expected": 0.1,
+              "observed": 0.1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.1,
+            "max": 10
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-0ce368bdcf05a56d",
+      "sha256": "de0b91c6ced1476b3280e0de810361d121504880901474746a897ff23dcaea25",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_28_14/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 1,
+          "max": 15,
+          "initial": 4,
+          "path": "_root.wavelengthSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 15,
+              "observed": 15,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 15
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-16cdb397dda311b1",
+      "sha256": "34cc3ec814926eaf8b3536c4b9f11ed9fd551c273fa5387b5db26ac5366897b5",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_72_67/CLIPACTIONRECORD on(construct).as",
+          "min": 1,
+          "max": 20,
+          "initial": 6,
+          "path": "_root.massSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 20
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-19b092331907af72",
+      "sha256": "d4fa4dd3a6b7859b3e28626da34a877eff4da8bcf05f4beffdcc66cc915eca2e",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_24_8/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 7,
+          "max": 30,
+          "initial": 20,
+          "path": "_root.position",
+          "endpoints": [
+            {
+              "expected": 7,
+              "observed": 7,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 30,
+              "observed": 30,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 7,
+            "max": 30
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_32_20/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0.4,
+          "max": 3,
+          "initial": 2,
+          "path": "_root.relN",
+          "endpoints": [
+            {
+              "expected": 0.4,
+              "observed": 0.4,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 3,
+              "observed": 3,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.4,
+            "max": 3
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-19c7704c53dfca0a",
+      "sha256": "3606cf2c283759bfe6d338361462a00581144eecd9a3a0ab321fee276f888c3a",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_42_109/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 50,
+          "max": 200,
+          "initial": 100,
+          "path": "_root.dSlider",
+          "endpoints": [
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 200,
+              "observed": 200,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 50,
+            "max": 200
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_24_72/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 50,
+          "max": 200,
+          "initial": 100,
+          "path": "_root.bSlider",
+          "endpoints": [
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 200,
+              "observed": 200,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 50,
+            "max": 200
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_41_99/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 380,
+          "max": 680,
+          "initial": 500,
+          "path": "_root.wlSlider",
+          "endpoints": [
+            {
+              "expected": 380,
+              "observed": 380,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 680,
+              "observed": 680,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 380,
+            "max": 680
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-2214747d49473d02",
+      "sha256": "273fbcd708ca7d1d86e55bfac20e7ad693a7e3b60dc145797ee4f1f6cbac03f7",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_54_93/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 10,
+          "max": 100,
+          "initial": 40,
+          "path": "_root.wlSlider",
+          "endpoints": [
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 10,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_54_103/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 20,
+          "max": 120,
+          "initial": 50,
+          "path": "_root.dSlider",
+          "endpoints": [
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 120,
+              "observed": 120,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 20,
+            "max": 120
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_54_83/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": -30,
+          "max": 30,
+          "initial": 20,
+          "path": "_root.angSlider",
+          "endpoints": [
+            {
+              "expected": -30,
+              "observed": -30,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 30,
+              "observed": 30,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -30,
+            "max": 30
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-2bd805d1d9628981",
+      "sha256": "05f3c32dac59c7b5d9e2a21c7fd71f46f87c0ed7d99b3f4f6593db84c7b61543",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_24_8/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 7,
+          "max": 30,
+          "initial": 20,
+          "path": "_root.position",
+          "endpoints": [
+            {
+              "expected": 7,
+              "observed": 7,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 30,
+              "observed": 30,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 7,
+            "max": 30
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-31962c099cc3adfb",
+      "sha256": "f4b706eb45b449a242ca59d2d20c7363eee1dd90cfe1df04c1c7844ff62866f6",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_27_18/CLIPACTIONRECORD on(initialize).as",
+          "min": 2,
+          "max": 10,
+          "initial": 4,
+          "path": "_root.numSlider",
+          "templatePath": "_root.slider2",
+          "endpoints": [
+            {
+              "expected": 2,
+              "observed": 2,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 2,
+            "max": 10
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_21_7/CLIPACTIONRECORD on(initialize).as",
+          "min": 50,
+          "max": 250,
+          "initial": 150,
+          "path": "_root.spaceSlider",
+          "templatePath": "_root.slider",
+          "endpoints": [
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 250,
+              "observed": 250,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 50,
+            "max": 250
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-3729c6059c11ab73",
+      "sha256": "9fd065d645529c6bb5a31d152928d09ad39cabfeedd536867a0d6c27d4f3d8fa",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_23_8/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.chargeSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_23_18/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.bSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-39380a9856082c2c",
+      "sha256": "2c6f8f28860ebabda7661d29b4c265e2efbfff678f3ffdc9adcc5b9c426d3220",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_1/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 1,
+          "initial": 0.7,
+          "path": "_root.xAmpSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_20/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 1,
+          "initial": 0.9,
+          "path": "_root.yAmpSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_32_30/CLIPACTIONRECORD on(initialize).as",
+          "min": -180,
+          "max": 180,
+          "initial": 45,
+          "path": "_root.phaseSlider",
+          "endpoints": [
+            {
+              "expected": -180,
+              "observed": -180,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 180,
+              "observed": 180,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -180,
+            "max": 180
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-3d1ef4cdd79122e0",
+      "sha256": "4b6332523ada90714a3882e91e81c914afffdee679d95aea2088cbf05b87b6c0",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_26_12/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 10,
+          "max": 100,
+          "initial": 30,
+          "path": "_root.wavelengthSlider",
+          "endpoints": [
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 10,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_22/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 1,
+          "max": 5,
+          "initial": 2,
+          "path": "_root.instance7",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-453d1c11c2cab73a",
+      "sha256": "b1ef536ac58070bcfd471aee34f2861ee0cd4db710ca819d7597ce0f26134e6f",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_23_8/CLIPACTIONRECORD on(initialize).as",
+          "min": 0.85,
+          "max": 2,
+          "initial": 0.9,
+          "path": "_root.tSlider",
+          "endpoints": [
+            {
+              "expected": 0.85,
+              "observed": 0.85,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 2,
+              "observed": 2,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.85,
+            "max": 2
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-45e0cb978ce7c1c6",
+      "sha256": "e63e90e3829a131a4cff217e3bf756dc85b49868e3b32b212f0f10de17781216",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_17/CLIPACTIONRECORD on(initialize).as",
+          "min": -100,
+          "max": 100,
+          "initial": 60,
+          "path": "_root.instance2",
+          "endpoints": [
+            {
+              "expected": -100,
+              "observed": -100,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -100,
+            "max": 100
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-48261b9163199530",
+      "sha256": "46ee6f520b91a8fcf810d0b18e47bbc3dfff209755d51bc6f14dd60ad1078c85",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_1/CLIPACTIONRECORD on(initialize).as",
+          "min": 1,
+          "max": 3,
+          "initial": 2.1,
+          "path": "_root.QSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 3,
+              "observed": 3,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-489c28f2d5c3293d",
+      "sha256": "4dfd66ccf90d2cfc3b407ee794bb4f885a4f7f6dbf9547506e1f3f07b8ad02f5",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_17_3/CLIPACTIONRECORD on(initialize).as",
+          "min": 1,
+          "max": 20,
+          "initial": 10,
+          "path": "_root.widthSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 20
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-4a1272dc865260d4",
+      "sha256": "94e475007164412a8907a984e132f24486cc85adc0c86444549efb3ec1a61fca",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_23_8/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 1,
+          "max": 50,
+          "initial": 10,
+          "path": "_root.bSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 50
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_28_18/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 380,
+          "max": 680,
+          "initial": 500,
+          "path": "_root.wlSlider",
+          "endpoints": [
+            {
+              "expected": 380,
+              "observed": 380,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 680,
+              "observed": 680,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 380,
+            "max": 680
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-4a36e6b7464fc646",
+      "sha256": "4fb90c3c8ed537d8b2fd373c0b890226e8e7bff2c450edf7afde6f73702bab95",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_14_1/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": -2,
+          "max": 2,
+          "initial": 1,
+          "path": "_root.chargeSlider",
+          "endpoints": [
+            {
+              "expected": -2,
+              "observed": -2,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 2,
+              "observed": 2,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -2,
+            "max": 2
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-4dec799b85744aef",
+      "sha256": "17d536f8e85ac1c0a7462dc2ebc9cfcabc3f3a8ec09e7c941035d34a2f3c0871",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_18_4/CLIPACTIONRECORD on(initialize).as",
+          "min": 1,
+          "max": 50,
+          "initial": 10,
+          "path": "_root.widthSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 50
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-4e2aa01bdcd918f5",
+      "sha256": "585b0f8e0c64de0e9362c233ef8716b35d59a3db50a95ca9db8009009518a836",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_1/CLIPACTIONRECORD on(initialize).as",
+          "min": 1,
+          "max": 20,
+          "initial": 5,
+          "path": "_root.halfLifeTimeSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 20
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-52156ba16ea26699",
+      "sha256": "95ac445bf2ce9da0a8db92008287a3bc460a8d3ba15933a062c4dc278f500ec3",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_36_40/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 1,
+          "initial": 0.5,
+          "path": "_root.Vslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_34_20/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 1,
+          "initial": 0.5,
+          "path": "_root.Hslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_35_30/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 1,
+          "initial": 0.5,
+          "path": "_root.Sslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-55be1d6879deae3d",
+      "sha256": "f34618474bd66e49f88d923300eb8110318b65af4a7e8262548537fb17fce309",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_1/CLIPACTIONRECORD on(initialize).as",
+          "min": 100,
+          "max": 1500,
+          "initial": 300,
+          "path": "_root.tempSlider",
+          "endpoints": [
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 1500,
+              "observed": 1500,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 100,
+            "max": 1500
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_33_22/CLIPACTIONRECORD on(initialize).as",
+          "min": 1,
+          "max": 50,
+          "initial": 32,
+          "path": "_root.massSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 50
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-5802e076d45adf57",
+      "sha256": "35092a44ea19ab7beee3ac73bc5d683015058d08d51d2d7d576097a5953ff248",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_52_36/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 5,
+          "initial": 1,
+          "path": "_root.dampingSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 5
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-5894e53c43a96647",
+      "sha256": "868e9deef86b6e1678d03e9a73691ba6cb0aa8094c43a60209ddf64f26d20406",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_30_15/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 90,
+          "initial": 20,
+          "path": "_root.instance2",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 90,
+              "observed": 90,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 90
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-5961c63760e6b6f2",
+      "sha256": "0b742dd6bd6ead551de549dc841591bcaa95e85b0ab41cad8d7e971d5dcbb422",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_26_82/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 10,
+          "initial": 1,
+          "path": "_root.bSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 10
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_26_72/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 20,
+          "initial": 5,
+          "path": "_root.kSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 20
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-5c35a4960e780111",
+      "sha256": "451b60084001533b8f0b0646e46ecd007fa9f8a19158986c5cafca64ecf533bd",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_1/CLIPACTIONRECORD on(construct).as",
+          "min": 2,
+          "max": 30,
+          "initial": 10,
+          "path": "_root.divSlider",
+          "endpoints": [
+            {
+              "expected": 2,
+              "observed": 2,
+              "knobX": 1.5,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 30,
+              "observed": 30,
+              "knobX": 99.5,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 2,
+            "max": 30
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_23_15/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 4000,
+          "initial": 50,
+          "path": "_root.angSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 200,
+              "trackWidth": 404,
+              "passed": true
+            },
+            {
+              "expected": 4000,
+              "observed": 4010,
+              "knobX": 401,
+              "trackX": 200,
+              "trackWidth": 404,
+              "passed": false,
+              "reviewedRuntimeExpected": 4010,
+              "reviewedRuntimeBoundaryMatch": true,
+              "sourceBoundaryReason": "Original track width is 404, with a right drag limit of 401; the /400 conversion and nearest-five rounding yield 4010. This is an observed source boundary artifact, not nominal-range agreement."
+            }
+          ],
+          "status": "endpoint_mismatch",
+          "runtimeRange": {
+            "min": 0,
+            "max": 4000
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-5d529375bd0b3d6a",
+      "sha256": "a9a209a941c8713be498f49f6d55d9e9877c8c80848a23f94b7b3251ca8f3e8e",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_58_52/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 2,
+          "max": 13,
+          "initial": 3,
+          "path": "_root.nwSlider",
+          "endpoints": [
+            {
+              "expected": 2,
+              "observed": 2,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 13,
+              "observed": 13,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 2,
+            "max": 13
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_46_32/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.dwSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "observedAt": "2026-10-05T22:36:34.058Z"
+    },
+    {
+      "id": "flash-5da45fc523787a28",
+      "sha256": "fac542b07d8b4bde08f8f4fade294e922fed0b90c1bc8377ef23691bb3311a09",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_28_14/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 1,
+          "max": 10,
+          "initial": 3,
+          "path": "_root.modeSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 10
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-5e33dad22307f686",
+      "sha256": "21036a3b0396fdad62ec6c48334b11f8b3c952fcee42d1ff9bd788a8c5442eb8",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_42_40/CLIPACTIONRECORD on(construct).as",
+          "min": 50,
+          "max": 250,
+          "initial": 200,
+          "path": "_root.wavelengthSlider",
+          "endpoints": [
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 250,
+              "observed": 250,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 50,
+            "max": 250
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_42_29/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 200,
+          "initial": 100,
+          "path": "_root.thickness",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 200,
+              "observed": 200,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 200
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-609175641dfc40eb",
+      "sha256": "b4b2a8f462bc0807e1d948e0522c37baa960346045d12c349fa66762b2d0669d",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_46_32/CLIPACTIONRECORD on(construct).as",
+          "min": 0.4,
+          "max": 3,
+          "initial": 1,
+          "path": "_root.drivenSlider",
+          "endpoints": [
+            {
+              "expected": 0.4,
+              "observed": 0.42,
+              "knobX": 0.95,
+              "trackX": 99.9,
+              "trackWidth": 201.9,
+              "passed": false,
+              "reviewedRuntimeExpected": 0.42,
+              "reviewedRuntimeBoundaryMatch": true,
+              "sourceBoundaryReason": "Original drag limits give knob x=0.95 and 200.85. Level is min + round(knobX/200*range*50)/50, yielding 0.42 and 3.02. The stage-4 slider was reached with real next buttons and original ten-second timers; its individual HTML migration remains pending."
+            },
+            {
+              "expected": 3,
+              "observed": 3.02,
+              "knobX": 200.85,
+              "trackX": 99.9,
+              "trackWidth": 201.9,
+              "passed": false,
+              "reviewedRuntimeExpected": 3.02,
+              "reviewedRuntimeBoundaryMatch": true,
+              "sourceBoundaryReason": "Original drag limits give knob x=0.95 and 200.85. Level is min + round(knobX/200*range*50)/50, yielding 0.42 and 3.02. The stage-4 slider was reached with real next buttons and original ten-second timers; its individual HTML migration remains pending."
+            }
+          ],
+          "status": "endpoint_mismatch",
+          "runtimeRange": {
+            "min": 0.4,
+            "max": 3
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "originalNavigation": [
+        {
+          "initialStage": 1,
+          "startButtonLocated": true,
+          "startPanelX": -2000,
+          "startPanelY": 200,
+          "traceCount": 11
+        },
+        {
+          "autoStartedStage": 1,
+          "scope": "Original initialization itself increments stage and hides the start panel; no forced state change."
+        },
+        {
+          "stage": 1,
+          "waitMilliseconds": 10485,
+          "nextButtonX": 780
+        },
+        {
+          "stage": 2,
+          "waitMilliseconds": 10696,
+          "nextButtonX": 780
+        },
+        {
+          "stage": 3,
+          "waitMilliseconds": 10139,
+          "nextButtonX": 780
+        },
+        {
+          "stage": 4,
+          "sliderX": 300,
+          "scope": "Original auto-start state and real next buttons with original ten-second stage timers; no stage variables forced and no personal data entered."
+        }
+      ],
+      "observedAt": "2026-10-05T22:36:34.058Z"
+    },
+    {
+      "id": "flash-62042f35d5b96f4e",
+      "sha256": "0a7045563edbf28575af7ba8b0b24090a50f3920620b8d40956d205b352c5a02",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_27_73/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 5,
+          "initial": 2,
+          "path": "_root.bSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 5
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-69907620961b0f60",
+      "sha256": "56204f08bf760ecc232f68110d766ba5dcddfdec252d272a8877d37cdf26f77a",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_26_13/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 32,
+          "initial": 20,
+          "path": "_root.speedSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 32,
+              "observed": 1000,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": false,
+              "reviewedRuntimeExpected": 1000,
+              "reviewedRuntimeBoundaryMatch": true,
+              "sourceBoundaryReason": "Original speed slider maps level 31 to 100 and level 32 to 1000. This file is awaiting its individual HTML migration."
+            }
+          ],
+          "status": "endpoint_mismatch",
+          "runtimeRange": {
+            "min": 0,
+            "max": 32
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-6b1175cc8bfaae1f",
+      "sha256": "b84899136e7215eac1705d46a8e3a43a2991329997d82198c2aed51bb2e4667f",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_1/CLIPACTIONRECORD on(initialize).as",
+          "min": 100,
+          "max": 1500,
+          "initial": 300,
+          "path": "_root.tempSlider",
+          "endpoints": [
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 1500,
+              "observed": 1500,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 100,
+            "max": 1500
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_40_30/CLIPACTIONRECORD on(initialize).as",
+          "min": 1,
+          "max": 50,
+          "initial": 32,
+          "path": "_root.massSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 50
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-6dbb4429aa4fa6ba",
+      "sha256": "9da27f0efa96236bfc542c6edeae7835a0788835641f617d5cc917d8129e64ca",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_33_17/CLIPACTIONRECORD on(initialize).as",
+          "min": -180,
+          "max": 180,
+          "initial": 45,
+          "path": "_root.deSlider",
+          "endpoints": [
+            {
+              "expected": -180,
+              "observed": -180,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 180,
+              "observed": 180,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -180,
+            "max": 180
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_38_27/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 200,
+          "initial": 100,
+          "path": "_root.ampslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 200,
+              "observed": 200,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 200
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-6e51aa8032f59ffa",
+      "sha256": "17f286d295a98bd372fab848ad5334a61e6278dbe0eff9a3063d0fe1c5eec0fd",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_28_24/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.UoSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_28_14/CLIPACTIONRECORD on(initialize).as",
+          "min": 0.1,
+          "max": 1,
+          "initial": 0.6,
+          "path": "_root.RoSlider",
+          "endpoints": [
+            {
+              "expected": 0.1,
+              "observed": 0.1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.1,
+            "max": 1
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-73f1cee567e5907d",
+      "sha256": "594a29ec259c8994d9b69526e4ace6e32b4cbf13674f106acdc83a2e31411648",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_29_65/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.amp3slider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_24_35/CLIPACTIONRECORD on(initialize).as",
+          "min": 5,
+          "max": 100,
+          "initial": 75,
+          "path": "_root.omega2Slider",
+          "endpoints": [
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 5,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_24_10/CLIPACTIONRECORD on(initialize).as",
+          "min": 5,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.omega1Slider",
+          "endpoints": [
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 5,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_24_55/CLIPACTIONRECORD on(initialize).as",
+          "min": 5,
+          "max": 100,
+          "initial": 65,
+          "path": "_root.omega3Slider",
+          "endpoints": [
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 5,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_29_45/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 100,
+          "initial": 25,
+          "path": "_root.amp2slider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_29_20/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.amp1slider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-74c6ea00d772dc30",
+      "sha256": "4058e4cc64072b409511fbaf7eca57a52ae4918e649749631f4702a7be842dc0",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_26_10/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 20,
+          "initial": 4,
+          "path": "_root.drivenSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0.1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": false,
+              "reviewedRuntimeExpected": 0.1,
+              "reviewedRuntimeBoundaryMatch": true,
+              "sourceBoundaryReason": "Original slider substitutes 0.1 when its calculated level is zero. The HTML driven oscillator already preserves this rule."
+            },
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoint_mismatch",
+          "runtimeRange": {
+            "min": 0,
+            "max": 20
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_26_20/CLIPACTIONRECORD on(construct).as",
+          "min": 1,
+          "max": 5,
+          "initial": 2,
+          "path": "_root.dampingSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-7ac606a58acda7e4",
+      "sha256": "a2c3a1ba083d3f22ca5dfbb4e3858ae0badf7ea552e4c46dbc0ad607a0372551",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_27_12/CLIPACTIONRECORD on(initialize).as",
+          "min": 80,
+          "max": 120,
+          "initial": 105,
+          "path": "_root.divSlider",
+          "endpoints": [
+            {
+              "expected": 80,
+              "observed": 80,
+              "knobX": 0.5,
+              "trackX": 50,
+              "trackWidth": 100,
+              "passed": true
+            },
+            {
+              "expected": 120,
+              "observed": 120,
+              "knobX": 99.5,
+              "trackX": 50,
+              "trackWidth": 100,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 80,
+            "max": 120
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-7d4ace9ec2459aef",
+      "sha256": "a9e8c03fa421cb2f8f0af505be68b2af1a1e73380ee63dce3dc7b793da6403f7",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_27_23/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 2,
+          "max": 30,
+          "initial": 10,
+          "path": "_root.divSlider",
+          "endpoints": [
+            {
+              "expected": 2,
+              "observed": 2,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 30,
+              "observed": 30,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 2,
+            "max": 30
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_27_11/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": -30,
+          "max": 30,
+          "initial": 20,
+          "path": "_root.angSlider",
+          "endpoints": [
+            {
+              "expected": -30,
+              "observed": -30,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 30,
+              "observed": 30,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -30,
+            "max": 30
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-81063489d20af602",
+      "sha256": "4dfd66ccf90d2cfc3b407ee794bb4f885a4f7f6dbf9547506e1f3f07b8ad02f5",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_17_3/CLIPACTIONRECORD on(initialize).as",
+          "min": 1,
+          "max": 20,
+          "initial": 10,
+          "path": "_root.widthSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 20
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-81529669def63e21",
+      "sha256": "6b3482695f8b4dc9b0f4d5ca8cf984bd3f6ca060f7e055c39b395456a2518e50",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_21_7/CLIPACTIONRECORD on(initialize).as",
+          "min": 4,
+          "max": 20,
+          "initial": 10,
+          "path": "_root.wlSlider",
+          "templatePath": "_root.slider",
+          "endpoints": [
+            {
+              "expected": 4,
+              "observed": 4,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 4,
+            "max": 20
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-90c3967c11bcd871",
+      "sha256": "06b12aae511480b459a8e7523879b3da7a8e4c7835221d79146b03db726b0b00",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_36_21/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.instance4",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-93eaa83ad5b418b5",
+      "sha256": "67c2ca63bd328cbec9e7aca7f7ec25ba5f002133d05299113adb3cd2afaf5b9f",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_28_14/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 1,
+          "max": 10,
+          "initial": 5,
+          "path": "_root.wavelengthSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 10
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-9425af3ed691082a",
+      "sha256": "f1b6dfa4374011faca6c10789a8a04a7b1579d08e74bc4ba41bfc0ae817917da",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_1/CLIPACTIONRECORD on(initialize).as",
+          "min": 0.3,
+          "max": 3,
+          "initial": 1.5,
+          "path": "_root.nSlider",
+          "endpoints": [
+            {
+              "expected": 0.3,
+              "observed": 0.3,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 3,
+              "observed": 3,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.3,
+            "max": 3
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-989668ab4b30a4ab",
+      "sha256": "3640326fc9a2f72e04c34cc23625f9874732cfc52f1363af29de954426fac610",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_1/CLIPACTIONRECORD on(initialize).as",
+          "min": 1,
+          "max": 15,
+          "initial": 3,
+          "path": "_root.wxSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 15,
+              "observed": 15,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 15
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_33_31/CLIPACTIONRECORD on(initialize).as",
+          "min": -180,
+          "max": 180,
+          "initial": 0,
+          "path": "_root.phaseSlider",
+          "endpoints": [
+            {
+              "expected": -180,
+              "observed": -180,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 180,
+              "observed": 180,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -180,
+            "max": 180
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_21/CLIPACTIONRECORD on(initialize).as",
+          "min": 1,
+          "max": 15,
+          "initial": 2,
+          "path": "_root.wySlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 15,
+              "observed": 15,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 15
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-9cc1618409dec725",
+      "sha256": "7188d62d0388d4853451818a6e55814ee4629310dfbf4fcd5b15c3bbb1f4119d",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_24_35/CLIPACTIONRECORD on(initialize).as",
+          "min": 5,
+          "max": 100,
+          "initial": 75,
+          "path": "_root.omega2Slider",
+          "endpoints": [
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 5,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_24_10/CLIPACTIONRECORD on(initialize).as",
+          "min": 5,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.omega1Slider",
+          "endpoints": [
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 5,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_29_45/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 100,
+          "initial": 75,
+          "path": "_root.amp2slider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_29_20/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.amp1slider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-9e04072c00a06cb4",
+      "sha256": "cb37b3041061b71384adcb09eab48f237ef07df5fe0ed303b8833dead5a88fb6",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_40_31/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 100,
+          "max": 300,
+          "initial": 150,
+          "path": "_root.wavelengthSlider",
+          "endpoints": [
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 300,
+              "observed": 300,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 100,
+            "max": 300
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_40_41/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": -180,
+          "max": 180,
+          "initial": -90,
+          "path": "_root.angleSlider",
+          "endpoints": [
+            {
+              "expected": -180,
+              "observed": -180,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 180,
+              "observed": 180,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -180,
+            "max": 180
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-9f37474387ee4146",
+      "sha256": "ce328932e99e8c44d5a05dca1a96a91cccf61af7703fb8e16a69909583c51544",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_23_8/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.chargeSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-a89e23ac41066bc2",
+      "sha256": "39cbfed2137a9e0e4aa76c3b7b2ce11d6c762b702519e597810b8711777bcd9a",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_37_21/CLIPACTIONRECORD on(initialize).as",
+          "min": -90,
+          "max": 90,
+          "initial": 45,
+          "path": "_root.instance5",
+          "endpoints": [
+            {
+              "expected": -90,
+              "observed": -89,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": false,
+              "reviewedRuntimeExpected": -89,
+              "reviewedRuntimeBoundaryMatch": true,
+              "sourceBoundaryReason": "Original regular() uses int(0.5 + value) at digit=0. Truncation toward zero maps -90 to -89. This is a source rounding artifact; the individual HTML migration remains pending."
+            },
+            {
+              "expected": 90,
+              "observed": 90,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoint_mismatch",
+          "runtimeRange": {
+            "min": -90,
+            "max": 90
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-afdeaa47932f1e10",
+      "sha256": "c10dbf0ae825518c3fde989b77ce6da873c06750fdc10e6358e0631e27e5171a",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_27_73/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 1,
+          "max": 10,
+          "initial": 1,
+          "path": "_root.bSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 10
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-b47f4eb2c9da6bb8",
+      "sha256": "3f9171962493fef0fa8a203192ab53394bce4b1ecd4b3a1d568697e958682afe",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_24_15/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 0.95,
+          "initial": 0.5,
+          "path": "_root.vslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 0.95,
+              "observed": 0.95,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 0.95
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-b5bbaa2b07617f5a",
+      "sha256": "eb023ff19b488d7db1d4f479f9633870d41b60961bb96c93aab122434c385ef3",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_25_10/CLIPACTIONRECORD on(construct).as",
+          "min": 0.85,
+          "max": 3,
+          "initial": 0.86,
+          "path": "_root.tSlider",
+          "endpoints": [
+            {
+              "expected": 0.85,
+              "observed": 0.85,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 3,
+              "observed": 3,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.85,
+            "max": 3
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-be2213f8cfc2919f",
+      "sha256": "630f7a51829e75154ff666891e138a4dda3b6e37bec2d7e168c395c54fb6a5d2",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_43_55/CLIPACTIONRECORD on(construct).as",
+          "min": -180,
+          "max": 180,
+          "initial": 30,
+          "path": "_root.phase",
+          "endpoints": [
+            {
+              "expected": -180,
+              "observed": -180,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 180,
+              "observed": 180,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -180,
+            "max": 180
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_43_65/CLIPACTIONRECORD on(construct).as",
+          "min": -51,
+          "max": 50,
+          "initial": 25,
+          "path": "_root.siso2omega",
+          "endpoints": [
+            {
+              "expected": -51,
+              "observed": -51,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -51,
+            "max": 50
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_43_75/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 50,
+          "initial": 25,
+          "path": "_root.siso1omega",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 50
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_43_45/CLIPACTIONRECORD on(construct).as",
+          "min": 20,
+          "max": 120,
+          "initial": 80,
+          "path": "_root.length2",
+          "endpoints": [
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 120,
+              "observed": 120,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 20,
+            "max": 120
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_43_35/CLIPACTIONRECORD on(construct).as",
+          "min": 50,
+          "max": 150,
+          "initial": 100,
+          "path": "_root.length1",
+          "endpoints": [
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 150,
+              "observed": 150,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 50,
+            "max": 150
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-c4617c90f4637806",
+      "sha256": "6166fd1a6dcdf1d978fed13176e8f3298be41bee648243aae65dd36d191032c2",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_38_23/CLIPACTIONRECORD on(initialize).as",
+          "min": 60,
+          "max": 300,
+          "initial": 120,
+          "path": "_root.lamSlider",
+          "endpoints": [
+            {
+              "expected": 60,
+              "observed": 60,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 300,
+              "observed": 300,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 60,
+            "max": 300
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_43_33/CLIPACTIONRECORD on(initialize).as",
+          "min": 30,
+          "max": 200,
+          "initial": 100,
+          "path": "_root.ampslider",
+          "endpoints": [
+            {
+              "expected": 30,
+              "observed": 30,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 200,
+              "observed": 200,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 30,
+            "max": 200
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-c7fdcdfe618cca96",
+      "sha256": "2af682321007172c5a07fd4cd35e276873ebcb8cd881239cc88d637405f825a8",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_37_29/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 400,
+          "max": 700,
+          "initial": 530,
+          "path": "_root.wlSlider",
+          "endpoints": [
+            {
+              "expected": 400,
+              "observed": 400,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 700,
+              "observed": 700,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 400,
+            "max": 700
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-ca87a7d84bedc269",
+      "sha256": "c9f6b8ffc93ff3438713cecaeaf947c4aacf893e803f72dbf91b1962a0900935",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_29_30/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": -180,
+          "max": 180,
+          "initial": 0,
+          "path": "_root.angleSlider",
+          "endpoints": [
+            {
+              "expected": -180,
+              "observed": -180,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 180,
+              "observed": 180,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -180,
+            "max": 180
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_29_20/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 100,
+          "max": 300,
+          "initial": 150,
+          "path": "_root.wavelengthSlider",
+          "endpoints": [
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 300,
+              "observed": 300,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 100,
+            "max": 300
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-ced2cd23979a29dc",
+      "sha256": "255eed0250f32e3d019c39e11f0ead87c1c20cee19c7ff17d12ace43bfd8f854",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_49_92/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 2.5,
+          "initial": 0.5,
+          "path": "_root.dampingSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 2.5,
+              "observed": 2.5,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 2.5
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-d0e93f29a173b135",
+      "sha256": "7bd71dad26f845ce0c669668df038b0fda554c6139b4c03eba2a3c5793a5c8f4",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_50/CLIPACTIONRECORD on(construct).as",
+          "min": 0.1,
+          "max": 10,
+          "initial": 5,
+          "path": "_root.k2Slider",
+          "endpoints": [
+            {
+              "expected": 0.1,
+              "observed": 0.1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.1,
+            "max": 10
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_20/CLIPACTIONRECORD on(construct).as",
+          "min": 0.1,
+          "max": 10,
+          "initial": 5,
+          "path": "_root.mass1Slider",
+          "endpoints": [
+            {
+              "expected": 0.1,
+              "observed": 0.1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.1,
+            "max": 10
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_30/CLIPACTIONRECORD on(construct).as",
+          "min": 0.1,
+          "max": 10,
+          "initial": 5,
+          "path": "_root.mass2Slider",
+          "endpoints": [
+            {
+              "expected": 0.1,
+              "observed": 0.1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.1,
+            "max": 10
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_40/CLIPACTIONRECORD on(construct).as",
+          "min": 0.1,
+          "max": 10,
+          "initial": 5,
+          "path": "_root.k1Slider",
+          "endpoints": [
+            {
+              "expected": 0.1,
+              "observed": 0.1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.1,
+            "max": 10
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-d273a477ec0c73e3",
+      "sha256": "b883a807ffac0f9b0e8c7d78182c295b02cc25e208f78c4ca3b025a319732abc",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_46_208/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 5,
+          "initial": 1,
+          "path": "_root.slider_w_x",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 5
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_46_218/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 5,
+          "initial": 3.5,
+          "path": "_root.slider_w_y",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 5
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-d5e8fdefecec59bb",
+      "sha256": "584dd9577d9eb8266ff57534dc394964806dd07af63402b10f8d3dcbb07040af",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_17/CLIPACTIONRECORD on(initialize).as",
+          "min": -20,
+          "max": 20,
+          "initial": 0,
+          "path": "_root.slider",
+          "endpoints": [
+            {
+              "expected": -20,
+              "observed": -20,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 20,
+              "observed": 20,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -20,
+            "max": 20
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_36_27/CLIPACTIONRECORD on(initialize).as",
+          "min": -10,
+          "max": 10,
+          "initial": 0,
+          "path": "_root.slider2",
+          "endpoints": [
+            {
+              "expected": -10,
+              "observed": -10,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -10,
+            "max": 10
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-d9d8fe1d85953624",
+      "sha256": "222c2cdf5c42e6fb1e39dedd4ef0a9d9306a5262294ac34270035a67ef00a703",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_27_73/CLIPACTIONRECORD on(construct).as",
+          "min": 1,
+          "max": 10,
+          "initial": 1,
+          "path": "_root.bSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 10
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-de272dabc8ac0103",
+      "sha256": "d141e660deedb08fccbca151e3dc99300877006a0bb9dc33882b7d644464abc1",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_16/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 255,
+          "initial": 180,
+          "path": "_root.Rslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 255,
+              "observed": 255,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 255
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_26/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 255,
+          "initial": 120,
+          "path": "_root.Gslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 255,
+              "observed": 255,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 255
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_31_36/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 255,
+          "initial": 100,
+          "path": "_root.Bslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 255,
+              "observed": 255,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 255
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-e1f3b51663ebef1c",
+      "sha256": "3a4a753746dc356ea1bbae73851add0794f144710b376a4579f7ec9b97522883",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_22_8/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 1.2,
+          "max": 3,
+          "initial": 1.5,
+          "path": "_root.relN",
+          "endpoints": [
+            {
+              "expected": 1.2,
+              "observed": 1.2,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 3,
+              "observed": 3,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1.2,
+            "max": 3
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-e62a698afb0aeeee",
+      "sha256": "b28301c5e1d1510548af2c1596c40095beb04d6a0e7efb87ff0cace9e20f85dc",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_44_31/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": -60,
+          "max": 60,
+          "initial": 40,
+          "path": "_root.dwSlider",
+          "endpoints": [
+            {
+              "expected": -60,
+              "observed": -60,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 60,
+              "observed": 60,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -60,
+            "max": 60
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-e652493a50449269",
+      "sha256": "3ccfd8e34f3fdcede63381ab73b8c0ddeb8ac915ba4dcd3fd479c7eb6dcfbc52",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_23_9/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 0.99,
+          "initial": 0.5,
+          "path": "_root.RSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 0.99,
+              "observed": 0.99,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 0.99
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-e7deb5748ed749f3",
+      "sha256": "dbb483e9825b43b91ab09431c4174e4740e3a44fceed7dbf004f6ed49c8c2327",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_74_93/CLIPACTIONRECORD on(construct).as",
+          "min": 1,
+          "max": 10,
+          "initial": 5,
+          "path": "_root.kSlider",
+          "endpoints": [
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_74_67/CLIPACTIONRECORD on(construct).as",
+          "min": 0,
+          "max": 10,
+          "initial": 1,
+          "path": "_root.dampingSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 10,
+              "observed": 10,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 10
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_74_83/CLIPACTIONRECORD on(construct).as",
+          "min": 0.5,
+          "max": 5,
+          "initial": 1,
+          "path": "_root.massSlider",
+          "endpoints": [
+            {
+              "expected": 0.5,
+              "observed": 0.5,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 5,
+              "observed": 5,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.5,
+            "max": 5
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-ecc72a738cffed91",
+      "sha256": "fb6bdc820f578da8d65674731f4d202681bac0a1369118bf01e2306ea5b4dac1",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_17_5/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": -540,
+          "max": 540,
+          "initial": 50,
+          "path": "_root.angSlider",
+          "endpoints": [
+            {
+              "expected": -540,
+              "observed": -540,
+              "knobX": -0.15,
+              "trackX": 100,
+              "trackWidth": 201.3,
+              "passed": true
+            },
+            {
+              "expected": 540,
+              "observed": 540,
+              "knobX": 200.15,
+              "trackX": 100,
+              "trackWidth": 201.3,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": -540,
+            "max": 540
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-f092182e195e26a7",
+      "sha256": "285f622cc7c7f5251ff0579e77f462617fdf0df2a6ac478870ef32607ef4079c",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_27_18/CLIPACTIONRECORD on(initialize).as",
+          "min": 50,
+          "max": 250,
+          "initial": 150,
+          "path": "_root.wavelengthSlider",
+          "endpoints": [
+            {
+              "expected": 50,
+              "observed": 50,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 250,
+              "observed": 250,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 50,
+            "max": 250
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-f6a468982b8ad966",
+      "sha256": "4f08632b859022a717be38669488cbcede4b45ddf54a9225db79c8c3753219b1",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_15_1/CLIPACTIONRECORD on(initialize).as",
+          "min": 0.3,
+          "max": 3,
+          "initial": 0.67,
+          "path": "_root.nSlider",
+          "endpoints": [
+            {
+              "expected": 0.3,
+              "observed": 0.3,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 3,
+              "observed": 3,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.3,
+            "max": 3
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-f74e616547075c69",
+      "sha256": "e373f72279d178c368398250898422d2f399c6dc320af29d5c2eb27b146ca66e",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_32_36/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 255,
+          "initial": 150,
+          "path": "_root.Bslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 255,
+              "observed": 255,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 255
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_32_16/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 255,
+          "initial": 150,
+          "path": "_root.Rslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 255,
+              "observed": 255,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 255
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_32_26/CLIPACTIONRECORD onClipEvent(load).as",
+          "min": 0,
+          "max": 255,
+          "initial": 200,
+          "path": "_root.Gslider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 255,
+              "observed": 255,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 255
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    },
+    {
+      "id": "flash-f9299046992b0e21",
+      "sha256": "e651f305ed19352e3e03ce5d87c08f7c55766cf479ebcaeb260f23db6515290d",
+      "sliders": [
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_21_17/CLIPACTIONRECORD on(initialize).as",
+          "min": 0.3,
+          "max": 1,
+          "initial": 0.6,
+          "path": "_root.RoSlider",
+          "endpoints": [
+            {
+              "expected": 0.3,
+              "observed": 0.3,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 1,
+              "observed": 1,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0.3,
+            "max": 1
+          }
+        },
+        {
+          "candidatePath": "scripts/frame_1/PlaceObject2_21_7/CLIPACTIONRECORD on(initialize).as",
+          "min": 0,
+          "max": 100,
+          "initial": 50,
+          "path": "_root.UoSlider",
+          "endpoints": [
+            {
+              "expected": 0,
+              "observed": 0,
+              "knobX": 0,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            },
+            {
+              "expected": 100,
+              "observed": 100,
+              "knobX": 100,
+              "trackX": 50,
+              "trackWidth": 101,
+              "passed": true
+            }
+          ],
+          "status": "endpoints_passed",
+          "runtimeRange": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true
+    }
+  ],
+  "completedRuns": [
+    "2026-10-05T22:31:56.795Z",
+    "2026-10-05T22:36:34.058Z"
+  ]
+}

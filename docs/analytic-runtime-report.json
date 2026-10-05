@@ -1,0 +1,2066 @@
+{
+  "date": "2026-10-05T16:06:42.745Z",
+  "method": "Private diagnostic AVM1 numerical function queries in real Ruffle, at live UI settings. Not a source-function JS VM. Query calls may update original temporary calculation variables; default static pixels are checked against unmodified bytes. No diagnostic SWF or extracted script is distributed.",
+  "files": 23,
+  "comparisons": 1551,
+  "excludedTypes": [
+    "beam-intensity",
+    "beam-front",
+    "hydrogen",
+    "eigen",
+    "h2",
+    "lissajous"
+  ],
+  "fullEquivalence": false,
+  "scope": "Eleven axis samples per queried component, default plus recorded original pointer controls. Unqueried functions, all control combinations, rounded labels and entire displayed curve pixels remain outside this scope.",
+  "results": [
+    {
+      "id": "flash-4e2aa01bdcd918f5",
+      "type": "decay",
+      "sha256": "585b0f8e0c64de0e9362c233ef8716b35d59a3db50a95ca9db8009009518a836",
+      "sha256Verified": true,
+      "diagnosticSha256": "e8090d9bbb0ca1d22a02df954200b122058599c10245fa8acef5ee2671661911",
+      "controls": [
+        {
+          "path": "_root.halfLifeTimeSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.halfLifeTimeSlider",
+          "kind": "slider_endpoint",
+          "expected": 20,
+          "observed": 20,
+          "passed": true
+        },
+        {
+          "character": 6,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "half": 5
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.579669976578771e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.halfLifeTimeSlider=1",
+          "parameters": {
+            "half": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 6.938893903907228e-18,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.halfLifeTimeSlider=20",
+          "parameters": {
+            "half": 20
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-6",
+          "parameters": {
+            "half": 20
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 44,
+      "passed": true
+    },
+    {
+      "id": "flash-48261b9163199530",
+      "type": "beta",
+      "sha256": "46ee6f520b91a8fcf810d0b18e47bbc3dfff209755d51bc6f14dd60ad1078c85",
+      "sha256Verified": true,
+      "diagnosticSha256": "a1adb3ce91e190882d0587a6b62bb140a185e29a1f4819922b95e417ae23479d",
+      "controls": [
+        {
+          "path": "_root.QSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.QSlider",
+          "kind": "slider_endpoint",
+          "expected": 3,
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "character": 6,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "Q": 2.1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.163336342344337e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.QSlider=1",
+          "parameters": {
+            "Q": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.0816681711721685e-17,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.QSlider=3",
+          "parameters": {
+            "Q": 3
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-6",
+          "parameters": {
+            "Q": 3
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 44,
+      "passed": true
+    },
+    {
+      "id": "flash-489c28f2d5c3293d",
+      "type": "lorentz",
+      "sha256": "4dfd66ccf90d2cfc3b407ee794bb4f885a4f7f6dbf9547506e1f3f07b8ad02f5",
+      "sha256Verified": true,
+      "diagnosticSha256": "4ae7c7266b048b62e39ebce9aba939959e10577dc715b7aab52422eb93030c0b",
+      "controls": [
+        {
+          "path": "_root.widthSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.widthSlider",
+          "kind": "slider_endpoint",
+          "expected": 20,
+          "observed": 20,
+          "passed": true
+        },
+        {
+          "character": 8,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "width": 10
+          },
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.widthSlider=1",
+          "parameters": {
+            "width": 1
+          },
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 1.3877787807814457e-17,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.widthSlider=20",
+          "parameters": {
+            "width": 20
+          },
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 5.551115123125783e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-8",
+          "parameters": {
+            "width": 20
+          },
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 5.551115123125783e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 88,
+      "passed": true
+    },
+    {
+      "id": "flash-6b1175cc8bfaae1f",
+      "type": "speed",
+      "sha256": "b84899136e7215eac1705d46a8e3a43a2991329997d82198c2aed51bb2e4667f",
+      "sha256Verified": true,
+      "diagnosticSha256": "c101d395c6adf46ab626b99c0825f840d0f057fee532017194064e07ef59c830",
+      "controls": [
+        {
+          "path": "_root.tempSlider",
+          "kind": "slider_endpoint",
+          "expected": 100,
+          "observed": 100,
+          "passed": true
+        },
+        {
+          "path": "_root.tempSlider",
+          "kind": "slider_endpoint",
+          "expected": 1500,
+          "observed": 1500,
+          "passed": true
+        },
+        {
+          "path": "_root.massSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.massSlider",
+          "kind": "slider_endpoint",
+          "expected": 50,
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "character": 6,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 27,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 35,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 6,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "T": 300,
+            "A": 32
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.973799150320701e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.tempSlider=100",
+          "parameters": {
+            "T": 100,
+            "A": 32
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.1368683772161603e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.tempSlider=1500",
+          "parameters": {
+            "T": 1500,
+            "A": 32
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 5.684341886080802e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.massSlider=1",
+          "parameters": {
+            "T": 1500,
+            "A": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.884981308350689e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.massSlider=50",
+          "parameters": {
+            "T": 1500,
+            "A": 49.99999999999999
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.8421709430404007e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-6",
+          "parameters": {
+            "T": 1500,
+            "A": 49.99999999999999
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.8421709430404007e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-27",
+          "parameters": {
+            "T": 1500,
+            "A": 49.99999999999999
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.8421709430404007e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-35",
+          "parameters": {
+            "T": 1500,
+            "A": 49.99999999999999
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.8421709430404007e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-6",
+          "parameters": {
+            "T": 1500,
+            "A": 49.99999999999999
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.8421709430404007e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 99,
+      "passed": true
+    },
+    {
+      "id": "flash-55be1d6879deae3d",
+      "type": "velocity",
+      "sha256": "f34618474bd66e49f88d923300eb8110318b65af4a7e8262548537fb17fce309",
+      "sha256Verified": true,
+      "diagnosticSha256": "a50638f982c95d0c5c963c29b924b60095bf50ffe55fe3d4b525817d1c547e84",
+      "controls": [
+        {
+          "path": "_root.tempSlider",
+          "kind": "slider_endpoint",
+          "expected": 100,
+          "observed": 100,
+          "passed": true
+        },
+        {
+          "path": "_root.tempSlider",
+          "kind": "slider_endpoint",
+          "expected": 1500,
+          "observed": 1500,
+          "passed": true
+        },
+        {
+          "path": "_root.massSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.massSlider",
+          "kind": "slider_endpoint",
+          "expected": 50,
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "character": 6,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 28,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 6,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "T": 300,
+            "A": 32
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.9895196601282805e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.tempSlider=100",
+          "parameters": {
+            "T": 100,
+            "A": 32
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.2737367544323206e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.tempSlider=1500",
+          "parameters": {
+            "T": 1500,
+            "A": 32
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.263256414560601e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.massSlider=1",
+          "parameters": {
+            "T": 1500,
+            "A": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.263256414560601e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.massSlider=50",
+          "parameters": {
+            "T": 1500,
+            "A": 49.99999999999999
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.618527782440651e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-6",
+          "parameters": {
+            "T": 1500,
+            "A": 49.99999999999999
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.618527782440651e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-28",
+          "parameters": {
+            "T": 1500,
+            "A": 49.99999999999999
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.618527782440651e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-6",
+          "parameters": {
+            "T": 1500,
+            "A": 49.99999999999999
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.618527782440651e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 88,
+      "passed": true
+    },
+    {
+      "id": "flash-6e51aa8032f59ffa",
+      "type": "lj",
+      "sha256": "17f286d295a98bd372fab848ad5334a61e6278dbe0eff9a3063d0fe1c5eec0fd",
+      "sha256Verified": true,
+      "diagnosticSha256": "32a49d2a12be97a34070952cde2a59859dbe651c336067708c5f56b5261052ef",
+      "controls": [
+        {
+          "path": "_root.UoSlider",
+          "kind": "slider_endpoint",
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "path": "_root.UoSlider",
+          "kind": "slider_endpoint",
+          "expected": 100,
+          "observed": 100,
+          "passed": true
+        },
+        {
+          "path": "_root.RoSlider",
+          "kind": "slider_endpoint",
+          "expected": 0.1,
+          "observed": 0.1,
+          "passed": true
+        },
+        {
+          "path": "_root.RoSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "character": 14,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 20,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 20,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "U": 50,
+            "R": 0.6
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.1368683772161603e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.UoSlider=0",
+          "parameters": {
+            "U": 0,
+            "R": 0.6
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 0,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.UoSlider=100",
+          "parameters": {
+            "U": 100,
+            "R": 0.6
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.2737367544323206e-13,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.RoSlider=0.1",
+          "parameters": {
+            "U": 100,
+            "R": 0.1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 3.3306690738754696e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.RoSlider=1",
+          "parameters": {
+            "U": 100,
+            "R": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.1316282072803006e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-14",
+          "parameters": {
+            "U": 100,
+            "R": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.1316282072803006e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-20",
+          "parameters": {
+            "U": 100,
+            "R": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.1316282072803006e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-20",
+          "parameters": {
+            "U": 100,
+            "R": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.1316282072803006e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 88,
+      "passed": true
+    },
+    {
+      "id": "flash-b5bbaa2b07617f5a",
+      "type": "vdw",
+      "sha256": "eb023ff19b488d7db1d4f479f9633870d41b60961bb96c93aab122434c385ef3",
+      "sha256Verified": true,
+      "diagnosticSha256": "f49c92a4b649fc97fd318c2b19b2eefa037e98db58e5b67bc3aef1c912192e5c",
+      "controls": [
+        {
+          "path": "_root.tSlider",
+          "kind": "slider_endpoint",
+          "expected": 0.85,
+          "observed": 0.85,
+          "passed": true
+        },
+        {
+          "path": "_root.tSlider",
+          "kind": "slider_endpoint",
+          "expected": 3,
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "character": 11,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 17,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "T": 0.86
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 3.774758283725532e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.tSlider=0.85",
+          "parameters": {
+            "T": 0.85
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.tSlider=3",
+          "parameters": {
+            "T": 3
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.4210854715202004e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-11",
+          "parameters": {
+            "T": 3
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.4210854715202004e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-17",
+          "parameters": {
+            "T": 3
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.4210854715202004e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 55,
+      "passed": true
+    },
+    {
+      "id": "flash-f06496ed00440e3c",
+      "type": "gamma",
+      "sha256": "69811e53033264af080ca8fb49d467b837ad7b6105c6e8795967b2fc48adc301",
+      "sha256Verified": true,
+      "diagnosticSha256": "82fec10e5c171698fd38763bb5e472fcc3538e360b188437b0dadfa38650e4a7",
+      "controls": [
+        {
+          "character": 11,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 3.1086244689504383e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-11",
+          "parameters": {},
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 3.1086244689504383e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 44,
+      "passed": true
+    },
+    {
+      "id": "flash-4dec799b85744aef",
+      "type": "transition",
+      "sha256": "17d536f8e85ac1c0a7462dc2ebc9cfcabc3f3a8ec09e7c941035d34a2f3c0871",
+      "sha256Verified": true,
+      "diagnosticSha256": "c3bc098f7961ebe0b46349b13068f1d5a70cd6b00f9de58e9247927c02d24e1a",
+      "controls": [
+        {
+          "path": "_root.widthSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.widthSlider",
+          "kind": "slider_endpoint",
+          "expected": 50,
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "character": 9,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "width": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.996003610813204e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.widthSlider=1",
+          "parameters": {
+            "width": 0.1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.widthSlider=50",
+          "parameters": {
+            "width": 5
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.6020852139652106e-18,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-9",
+          "parameters": {
+            "width": 5
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.6020852139652106e-18,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 44,
+      "passed": true
+    },
+    {
+      "id": "flash-1209a261b94cf80e",
+      "type": "hermite",
+      "sha256": "9586ec48d51dbf0df7bcf3cd5ce0bb82048539216f888659aad2077b7d7486f4",
+      "sha256Verified": true,
+      "diagnosticSha256": "da7bfccb8d961faad0e91c38215b40d5bd1921a39e141b9819b24a16d29fd0b2",
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "n": 3
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.263256414560601e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-c2d9375e2ad3a7be",
+      "type": "laguerre",
+      "sha256": "cb445363779aa1dc6cde368fa6d9a833a9a2b39c6585cd54a537bd694037ff93",
+      "sha256Verified": true,
+      "diagnosticSha256": "bb50d9adc413ff4f749b8eddf0e3d404a4582996df6f45a841e827cad55af44f",
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "n": 3,
+            "k": 0
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-fb7365a95caba392",
+      "type": "legendre",
+      "sha256": "7aa32e32d6887f4b35d8f3ca0dee45a98865ade60e2b7483bfc82e02dc2a34e8",
+      "sha256Verified": true,
+      "diagnosticSha256": "e303394501dfbf58d35d339fe0d1471635abbf09a59a769efb5df239fc0fdd02",
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "l": 3,
+            "m": 0
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.1102230246251565e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-11fe8e3398e06d3b",
+      "type": "bessel",
+      "sha256": "4b66b715cc7d22d749419e51c3878a415bc35acce686330c135aeb198350eede",
+      "sha256Verified": true,
+      "diagnosticSha256": "fa3e4b572691d31fcd00183195b8ca7b34a43919637ede41926295becb74da8c",
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "n": 3
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-4870ee7f00d41eab",
+      "type": "bessel0",
+      "sha256": "3305a35cc37efc4471a5ada31f80c947a492d508f7e8daba8350ffb91667d12b",
+      "sha256Verified": true,
+      "diagnosticSha256": "fb3804f66c82f54a0694ee081502e16f58d69408b001e9f4e1c239f93051dc02",
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.996003610813204e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-a1841b7d02d2841f",
+      "type": "phi",
+      "sha256": "aca6982d93cd0980222e74b3d86f96e417953a4a9f56e951af1fb603f7528a1f",
+      "sha256Verified": true,
+      "diagnosticSha256": "a73a6cbd1f79c9e72a525454c9f2801524c9d4dd15dac1fcab38d6a6a651ad9a",
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "m": 2
+          },
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 4.973799150320701e-14,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Timed or random initial scenes; phase or random parameters may differ. No equality assertion.",
+      "comparisons": 22,
+      "passed": true
+    },
+    {
+      "id": "flash-63f0f814d900d37e",
+      "type": "uncertainty",
+      "sha256": "22887970263bf66dd1f2f02639fbea963f7ef2b72849e4aa10ad215f47c828d3",
+      "sha256Verified": true,
+      "diagnosticSha256": "496256ff6465020efb5cd7e803add98b6342c3475f401bf925c128ac3a916c1c",
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.996003610813204e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-81063489d20af602",
+      "type": "lorentz",
+      "sha256": "4dfd66ccf90d2cfc3b407ee794bb4f885a4f7f6dbf9547506e1f3f07b8ad02f5",
+      "sha256Verified": true,
+      "diagnosticSha256": "4ae7c7266b048b62e39ebce9aba939959e10577dc715b7aab52422eb93030c0b",
+      "controls": [
+        {
+          "path": "_root.widthSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.widthSlider",
+          "kind": "slider_endpoint",
+          "expected": 20,
+          "observed": 20,
+          "passed": true
+        },
+        {
+          "character": 8,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "width": 10
+          },
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.widthSlider=1",
+          "parameters": {
+            "width": 1
+          },
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 1.3877787807814457e-17,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.widthSlider=20",
+          "parameters": {
+            "width": 20
+          },
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 5.551115123125783e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-8",
+          "parameters": {
+            "width": 20
+          },
+          "missing": [],
+          "comparisons": 22,
+          "maxAbsoluteError": 5.551115123125783e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 88,
+      "passed": true
+    },
+    {
+      "id": "flash-19c7704c53dfca0a",
+      "type": "double",
+      "sha256": "3606cf2c283759bfe6d338361462a00581144eecd9a3a0ab321fee276f888c3a",
+      "sha256Verified": true,
+      "diagnosticSha256": "244c10f4bfc4ebe2b1b0bc33d3d73e1db3ce6c8fa211b9e93d23d52bcf536ef7",
+      "controls": [
+        {
+          "path": "_root.dSlider",
+          "kind": "slider_endpoint",
+          "expected": 50,
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "path": "_root.dSlider",
+          "kind": "slider_endpoint",
+          "expected": 200,
+          "observed": 200,
+          "passed": true
+        },
+        {
+          "path": "_root.bSlider",
+          "kind": "slider_endpoint",
+          "expected": 50,
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "path": "_root.bSlider",
+          "kind": "slider_endpoint",
+          "expected": 200,
+          "observed": 200,
+          "passed": true
+        },
+        {
+          "path": "_root.wlSlider",
+          "kind": "slider_endpoint",
+          "expected": 380,
+          "observed": 380,
+          "passed": true
+        },
+        {
+          "path": "_root.wlSlider",
+          "kind": "slider_endpoint",
+          "expected": 680,
+          "observed": 680,
+          "passed": true
+        },
+        {
+          "character": 16,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 37,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 16,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 16,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "d": 100,
+            "b": 100,
+            "wl": 500
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.dSlider=50",
+          "parameters": {
+            "d": 50,
+            "b": 100,
+            "wl": 500
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 3.3306690738754696e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.dSlider=200",
+          "parameters": {
+            "d": 200,
+            "b": 100,
+            "wl": 500
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 3.3306690738754696e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.bSlider=50",
+          "parameters": {
+            "d": 200,
+            "b": 50,
+            "wl": 500
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 2.220446049250313e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.bSlider=200",
+          "parameters": {
+            "d": 200,
+            "b": 200,
+            "wl": 500
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.wlSlider=380",
+          "parameters": {
+            "d": 200,
+            "b": 200,
+            "wl": 380
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.wlSlider=680",
+          "parameters": {
+            "d": 200,
+            "b": 200,
+            "wl": 680
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-16",
+          "parameters": {
+            "d": 200,
+            "b": 200,
+            "wl": 680
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-37",
+          "parameters": {
+            "d": 200,
+            "b": 200,
+            "wl": 680
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-16",
+          "parameters": {
+            "d": 200,
+            "b": 200,
+            "wl": 680
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-16",
+          "parameters": {
+            "d": 200,
+            "b": 200,
+            "wl": 680
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.440892098500626e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 121,
+      "passed": true
+    },
+    {
+      "id": "flash-afdeaa47932f1e10",
+      "type": "single",
+      "sha256": "c10dbf0ae825518c3fde989b77ce6da873c06750fdc10e6358e0631e27e5171a",
+      "sha256Verified": true,
+      "diagnosticSha256": "8479180ca7417d438312bbad9dca62c4c317f5e01c381c0abda6b15eadfc4975",
+      "controls": [
+        {
+          "path": "_root.bSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.bSlider",
+          "kind": "slider_endpoint",
+          "expected": 10,
+          "observed": 10,
+          "passed": true
+        },
+        {
+          "character": 18,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 45,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "amp": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.996003610813204e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.bSlider=1",
+          "parameters": {
+            "amp": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.996003610813204e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.bSlider=10",
+          "parameters": {
+            "amp": 10
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.884981308350689e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-18",
+          "parameters": {
+            "amp": 10
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.884981308350689e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-45",
+          "parameters": {
+            "amp": 10
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.884981308350689e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 55,
+      "passed": true
+    },
+    {
+      "id": "flash-d9d8fe1d85953624",
+      "type": "circular",
+      "sha256": "222c2cdf5c42e6fb1e39dedd4ef0a9d9306a5262294ac34270035a67ef00a703",
+      "sha256Verified": true,
+      "diagnosticSha256": "e855782a92eeab8c722e8783da8078df0550a71cdd3d47f9b89bb3ee5ab7b47f",
+      "controls": [
+        {
+          "path": "_root.bSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.bSlider",
+          "kind": "slider_endpoint",
+          "expected": 10,
+          "observed": 10,
+          "passed": true
+        },
+        {
+          "character": 18,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 45,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "amp": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.6653345369377348e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.bSlider=1",
+          "parameters": {
+            "amp": 1
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.6653345369377348e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.bSlider=10",
+          "parameters": {
+            "amp": 10
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.7763568394002505e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-18",
+          "parameters": {
+            "amp": 10
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.7763568394002505e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-45",
+          "parameters": {
+            "amp": 10
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.7763568394002505e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 55,
+      "passed": true
+    },
+    {
+      "id": "flash-e652493a50449269",
+      "type": "airy",
+      "sha256": "3ccfd8e34f3fdcede63381ab73b8c0ddeb8ac915ba4dcd3fd479c7eb6dcfbc52",
+      "sha256Verified": true,
+      "diagnosticSha256": "13503818ee514b80289917cf7e7e01fb6194ec4ab78c058343b558b3dcb8e08c",
+      "controls": [
+        {
+          "path": "_root.RSlider",
+          "kind": "slider_endpoint",
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "path": "_root.RSlider",
+          "kind": "slider_endpoint",
+          "expected": 0.99,
+          "observed": 0.99,
+          "passed": true
+        },
+        {
+          "character": 9,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 15,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "R": 0.5
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.996003610813204e-16,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.RSlider=0",
+          "parameters": {
+            "R": 0
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 0,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.RSlider=0.99",
+          "parameters": {
+            "R": 0.99
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.0657581468206416e-20,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-9",
+          "parameters": {
+            "R": 0.99
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.0657581468206416e-20,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-15",
+          "parameters": {
+            "R": 0.99
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 4.0657581468206416e-20,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Same default static scene, unmodified versus diagnostic movie. Zero differences confirms this default scene only.",
+      "comparisons": 55,
+      "passed": true
+    },
+    {
+      "id": "flash-39380a9856082c2c",
+      "type": "elliptic",
+      "sha256": "2c6f8f28860ebabda7661d29b4c265e2efbfff678f3ffdc9adcc5b9c426d3220",
+      "sha256Verified": true,
+      "diagnosticSha256": "127967d7c3d6bc2ed7274ff44a04e3eb8964a7d878883408cfbe0a2b7baa2c54",
+      "controls": [
+        {
+          "path": "_root.xAmpSlider",
+          "kind": "slider_endpoint",
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "path": "_root.xAmpSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.yAmpSlider",
+          "kind": "slider_endpoint",
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "path": "_root.yAmpSlider",
+          "kind": "slider_endpoint",
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "path": "_root.phaseSlider",
+          "kind": "slider_endpoint",
+          "expected": -180,
+          "observed": -180,
+          "passed": true
+        },
+        {
+          "path": "_root.phaseSlider",
+          "kind": "slider_endpoint",
+          "expected": 180,
+          "observed": 180,
+          "passed": true
+        },
+        {
+          "character": 6,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 6,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 6,
+          "kind": "button_click",
+          "semanticVerified": false
+        },
+        {
+          "character": 43,
+          "kind": "button_click",
+          "semanticVerified": false
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "Ax": 0.7,
+            "Ay": 0.9,
+            "phase": 44.999999999999986
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 2.55351295663786e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.xAmpSlider=0",
+          "parameters": {
+            "Ax": 0,
+            "Ay": 0.9,
+            "phase": 44.999999999999986
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 2.55351295663786e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.xAmpSlider=1",
+          "parameters": {
+            "Ax": 1,
+            "Ay": 0.9,
+            "phase": 44.999999999999986
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 3.1363800445660672e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.yAmpSlider=0",
+          "parameters": {
+            "Ax": 1,
+            "Ay": 0,
+            "phase": 44.999999999999986
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 3.1363800445660672e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.yAmpSlider=1",
+          "parameters": {
+            "Ax": 1,
+            "Ay": 1,
+            "phase": 44.999999999999986
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 3.3306690738754696e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.phaseSlider=-180",
+          "parameters": {
+            "Ax": 1,
+            "Ay": 1,
+            "phase": -179.99999999999983
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 5.88418203051333e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "_root.phaseSlider=180",
+          "parameters": {
+            "Ax": 1,
+            "Ay": 1,
+            "phase": 179.99999999999983
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 5.88418203051333e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-6",
+          "parameters": {
+            "Ax": 1,
+            "Ay": 1,
+            "phase": 179.99999999999983
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 5.88418203051333e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-6",
+          "parameters": {
+            "Ax": 1,
+            "Ay": 1,
+            "phase": 179.99999999999983
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 5.88418203051333e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-6",
+          "parameters": {
+            "Ax": 1,
+            "Ay": 1,
+            "phase": 179.99999999999983
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 5.88418203051333e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        },
+        {
+          "name": "button-43",
+          "parameters": {
+            "Ax": 1,
+            "Ay": 1,
+            "phase": 179.99999999999983
+          },
+          "missing": [],
+          "comparisons": 44,
+          "maxAbsoluteError": 5.88418203051333e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 0,
+      "pixelComparisonScope": "Timed or random initial scenes; phase or random parameters may differ. No equality assertion.",
+      "comparisons": 484,
+      "passed": true
+    },
+    {
+      "id": "flash-4be53bf71c29ce03",
+      "type": "probability",
+      "sha256": "25150df544aec1ac7230d1756008c32d6aa825833f9913f5058904164dec321b",
+      "sha256Verified": true,
+      "diagnosticSha256": "21376b2e787c5fd2a74c66ef01bec58c9938cd9ca56a39311701423d59d967c9",
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "shape": 3,
+            "wavelength": 52.7818526350893,
+            "phase": 0.278858662894576,
+            "delta": 1904.78470968083
+          },
+          "missing": [],
+          "comparisons": 11,
+          "maxAbsoluteError": 1.1102230246251565e-15,
+          "unreadable": 0,
+          "mismatches": [],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "defaultPixelsChanged": 11332,
+      "pixelComparisonScope": "Timed or random initial scenes; phase or random parameters may differ. No equality assertion.",
+      "comparisons": 11,
+      "passed": true
+    }
+  ],
+  "nativeModelHashes": {
+    "assets/native-analytic.mjs": "6f52dad40f79b2cd4a35faa2b38ef755208279a9f7d122f7fa66cdb181721370",
+    "assets/analytic-specs.mjs": "349345d6b21b302099ace7c6e5d8eda5246125c76b5bf7ddc65ac421ef238f2c"
+  }
+}
