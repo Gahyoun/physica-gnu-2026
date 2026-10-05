@@ -257,7 +257,7 @@
     "initialTime": 0,
     "threeD": true,
     "group": "structure",
-    "note": "원본의 원자 중심 또는 파면 좌표를 유지하고, 도형·색상·글자를 새 SVG로 구성했습니다. 시점을 끌거나 화살표 키로 회전할 수 있습니다. 원본의 hexaarray/hexaArray 대소문자 오차로 누락된 윤곽선은 제외하고 원자 좌표와 두 평면을 유지합니다.",
+    "note": "원본의 원자 중심, 외곽선 48개와 두 평면을 유지하고, 도형·색상·글자를 새 SVG로 구성했습니다. 시점을 끌거나 화살표 키로 회전할 수 있습니다.",
     "comparisonStatus": "source-scoped; original runtime exhaustive equivalence pending"
   },
   {
@@ -1631,13 +1631,13 @@
         "origin": "remaster"
       }
     ],
-    "animated": false,
+    "animated": true,
     "timeEnd": 1000,
-    "rate": 0,
+    "rate": 5,
     "initialTime": 0,
     "threeD": true,
     "group": "structure",
-    "note": "원본의 원자 중심 또는 파면 좌표를 유지하고, 도형·색상·글자를 새 SVG로 구성했습니다. 시점을 끌거나 화살표 키로 회전할 수 있습니다.",
+    "note": "22개 파면이 파벡터 방향으로 진행합니다. 원본의 두 프레임 계산 주기(초당 5단계)와 20눈금 반복을 유지하며, 재생·일시정지·시간 탐색을 제공합니다. CSV에는 현재 파면 꼭짓점도 포함합니다.",
     "comparisonStatus": "source-scoped; original runtime exhaustive equivalence pending"
   },
   {

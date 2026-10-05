@@ -1,0 +1,1566 @@
+{
+  "date": "2026-10-05T23:41:19.792Z",
+  "nativeModelHashes": {
+    "assets/expansion-physics.mjs": "2fcf3569d1d837e5c1ff6bb813eec822d1f7502f962c0377a387464a6472091d",
+    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
+  },
+  "method": "Original naturally played semantic position and velocity-vector arrays versus independent HTML orbit equations",
+  "files": 3,
+  "comparisons": 3476,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-b2963c6429d6fe13",
+      "kind": "expansion-flash-b2963c6429d6fe13",
+      "type": "angularenergy",
+      "sha256": "8b3b1a8463266eafbcd4e1e3e0f876895e0de9476e905481d14561c76df0bd3b",
+      "sha256Verified": true,
+      "diagnosticSha256": "86693016cee066bc65d1d93a8f421ba06063460f5ed7eec0f2b8bf3bb8d3b206",
+      "tagDiscoveryDiagnosticSha256": "c9fb39f10ea7d4e5c625d6f5414578af247b7ac0e763b37992390bdd02153d45",
+      "paths": {
+        "ball1Tag": "point_0",
+        "ball2Tag": "point_1",
+        "velocity1Tag": "arrow_0",
+        "velocity2Tag": "arrow_1"
+      },
+      "comparisons": 1738,
+      "maxAbsoluteError": 5.115907697472721e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "time": 4,
+          "phase": 4
+        },
+        {
+          "name": "natural phase 5",
+          "time": 5,
+          "phase": 5
+        },
+        {
+          "name": "natural phase 6",
+          "time": 6,
+          "phase": 6
+        },
+        {
+          "name": "natural phase 7",
+          "time": 7,
+          "phase": 7
+        },
+        {
+          "name": "natural phase 8",
+          "time": 8,
+          "phase": 8
+        },
+        {
+          "name": "natural phase 9",
+          "time": 9,
+          "phase": 9
+        },
+        {
+          "name": "natural phase 10",
+          "time": 10,
+          "phase": 10
+        },
+        {
+          "name": "natural phase 11",
+          "time": 11,
+          "phase": 11
+        },
+        {
+          "name": "natural phase 12",
+          "time": 12,
+          "phase": 12
+        },
+        {
+          "name": "natural phase 13",
+          "time": 13,
+          "phase": 13
+        },
+        {
+          "name": "natural phase 14",
+          "time": 14,
+          "phase": 14
+        },
+        {
+          "name": "natural phase 15",
+          "time": 15,
+          "phase": 15
+        },
+        {
+          "name": "natural phase 16",
+          "time": 16,
+          "phase": 16
+        },
+        {
+          "name": "natural phase 17",
+          "time": 17,
+          "phase": 17
+        },
+        {
+          "name": "natural phase 18",
+          "time": 18,
+          "phase": 18
+        },
+        {
+          "name": "natural phase 19",
+          "time": 19,
+          "phase": 19
+        },
+        {
+          "name": "natural phase 20",
+          "time": 20,
+          "phase": 20
+        },
+        {
+          "name": "natural phase 21",
+          "time": 21,
+          "phase": 21
+        },
+        {
+          "name": "natural phase 22",
+          "time": 22,
+          "phase": 22
+        },
+        {
+          "name": "natural phase 23",
+          "time": 23,
+          "phase": 23
+        },
+        {
+          "name": "natural phase 24",
+          "time": 24,
+          "phase": 24
+        },
+        {
+          "name": "natural phase 25",
+          "time": 25,
+          "phase": 25
+        },
+        {
+          "name": "natural phase 26",
+          "time": 26,
+          "phase": 26
+        },
+        {
+          "name": "natural phase 27",
+          "time": 27,
+          "phase": 27
+        },
+        {
+          "name": "natural phase 28",
+          "time": 28,
+          "phase": 28
+        },
+        {
+          "name": "natural phase 29",
+          "time": 29,
+          "phase": 29
+        },
+        {
+          "name": "natural phase 30",
+          "time": 30,
+          "phase": 30
+        },
+        {
+          "name": "natural phase 31",
+          "time": 31,
+          "phase": 31
+        },
+        {
+          "name": "natural phase 32",
+          "time": 32,
+          "phase": 32
+        },
+        {
+          "name": "natural phase 33",
+          "time": 33,
+          "phase": 33
+        },
+        {
+          "name": "natural phase 34",
+          "time": 34,
+          "phase": 34
+        },
+        {
+          "name": "natural phase 35",
+          "time": 35,
+          "phase": 35
+        },
+        {
+          "name": "natural phase 36",
+          "time": 36,
+          "phase": 36
+        },
+        {
+          "name": "natural phase 37",
+          "time": 37,
+          "phase": 37
+        },
+        {
+          "name": "natural phase 38",
+          "time": 38,
+          "phase": 38
+        },
+        {
+          "name": "natural phase 39",
+          "time": 39,
+          "phase": 39
+        },
+        {
+          "name": "natural phase 40",
+          "time": 40,
+          "phase": 40
+        },
+        {
+          "name": "natural phase 41",
+          "time": 41,
+          "phase": 41
+        },
+        {
+          "name": "natural phase 42",
+          "time": 42,
+          "phase": 42
+        },
+        {
+          "name": "natural phase 43",
+          "time": 43,
+          "phase": 43
+        },
+        {
+          "name": "natural phase 44",
+          "time": 44,
+          "phase": 44
+        },
+        {
+          "name": "natural phase 45",
+          "time": 45,
+          "phase": 45
+        },
+        {
+          "name": "natural phase 46",
+          "time": 46,
+          "phase": 46
+        },
+        {
+          "name": "natural phase 47",
+          "time": 47,
+          "phase": 47
+        },
+        {
+          "name": "natural phase 48",
+          "time": 48,
+          "phase": 48
+        },
+        {
+          "name": "natural phase 49",
+          "time": 49,
+          "phase": 49
+        },
+        {
+          "name": "natural phase 50",
+          "time": 50,
+          "phase": 50
+        },
+        {
+          "name": "natural phase 51",
+          "time": 51,
+          "phase": 51
+        },
+        {
+          "name": "natural phase 52",
+          "time": 52,
+          "phase": 52
+        },
+        {
+          "name": "natural phase 53",
+          "time": 53,
+          "phase": 53
+        },
+        {
+          "name": "natural phase 54",
+          "time": 54,
+          "phase": 54
+        },
+        {
+          "name": "natural phase 55",
+          "time": 55,
+          "phase": 55
+        },
+        {
+          "name": "natural phase 56",
+          "time": 56,
+          "phase": 56
+        },
+        {
+          "name": "natural phase 57",
+          "time": 57,
+          "phase": 57
+        },
+        {
+          "name": "natural phase 58",
+          "time": 58,
+          "phase": 58
+        },
+        {
+          "name": "natural phase 59",
+          "time": 59,
+          "phase": 59
+        },
+        {
+          "name": "natural phase 60",
+          "time": 60,
+          "phase": 60
+        },
+        {
+          "name": "natural phase 61",
+          "time": 61,
+          "phase": 61
+        },
+        {
+          "name": "natural phase 62",
+          "time": 62,
+          "phase": 62
+        },
+        {
+          "name": "natural phase 63",
+          "time": 63,
+          "phase": 63
+        },
+        {
+          "name": "natural phase 64",
+          "time": 64,
+          "phase": 64
+        },
+        {
+          "name": "natural phase 65",
+          "time": 65,
+          "phase": 65
+        },
+        {
+          "name": "natural phase 66",
+          "time": 66,
+          "phase": 66
+        },
+        {
+          "name": "natural phase 67",
+          "time": 67,
+          "phase": 67
+        },
+        {
+          "name": "natural phase 68",
+          "time": 68,
+          "phase": 68
+        },
+        {
+          "name": "natural phase 69",
+          "time": 69,
+          "phase": 69
+        },
+        {
+          "name": "natural phase 70",
+          "time": 70,
+          "phase": 70
+        },
+        {
+          "name": "natural phase 71",
+          "time": 71,
+          "phase": 71
+        },
+        {
+          "name": "natural phase 0",
+          "time": 72,
+          "phase": 0
+        },
+        {
+          "name": "natural phase 1",
+          "time": 73,
+          "phase": 1
+        },
+        {
+          "name": "natural phase 2",
+          "time": 74,
+          "phase": 2
+        },
+        {
+          "name": "natural phase 3",
+          "time": 75,
+          "phase": 3
+        },
+        {
+          "name": "natural phase 4",
+          "time": 76,
+          "phase": 4
+        },
+        {
+          "name": "right held",
+          "time": 83,
+          "phase": 11
+        },
+        {
+          "name": "right released",
+          "time": 85,
+          "phase": 13
+        },
+        {
+          "name": "up held",
+          "time": 91,
+          "phase": 19
+        },
+        {
+          "name": "up released",
+          "time": 93,
+          "phase": 21
+        },
+        {
+          "name": "diagonal held",
+          "time": 99,
+          "phase": 27
+        },
+        {
+          "name": "diagonal released",
+          "time": 101,
+          "phase": 29
+        }
+      ],
+      "controls": [
+        {
+          "name": "full natural orbital phase cycle",
+          "passed": true
+        },
+        {
+          "name": "right",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "naturalPhases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "passed": true,
+      "scope": "Read-only actual Ruffle clip-binding discovery followed by point and velocity-arrow endpoints at all 72 naturally played orbital phases and three real press-drag camera settings. Energy model phase repeats within its longer 720-step root loop; the complete 720-step timeline is outside scope. Arrow artwork, fixed angular-momentum/magnetic-moment symbols, projected pixels, wall-clock rate and all camera paths are outside scope. HTML graphs and playback buttons are remaster additions."
+    },
+    {
+      "id": "flash-64b616332433cef2",
+      "kind": "expansion-flash-64b616332433cef2",
+      "type": "angulargyro",
+      "sha256": "1f88826169c5337fb22fe10610417d21bb347a9312c2c24687d5ea1bd175bc13",
+      "sha256Verified": true,
+      "diagnosticSha256": "476cb0f00c9ae2b873749edda482af285291e61c0f76e3c80231fc2498e168f1",
+      "tagDiscoveryDiagnosticSha256": "e2d50960f717e7f25d7e812e51a77ba4de0e8f91e67084fd054e74107937b0fa",
+      "paths": {
+        "ballTag": "point_0",
+        "velocityTag": "arrow_0"
+      },
+      "comparisons": 869,
+      "maxAbsoluteError": 5.115907697472721e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "time": 4,
+          "phase": 4
+        },
+        {
+          "name": "natural phase 5",
+          "time": 5,
+          "phase": 5
+        },
+        {
+          "name": "natural phase 6",
+          "time": 6,
+          "phase": 6
+        },
+        {
+          "name": "natural phase 7",
+          "time": 7,
+          "phase": 7
+        },
+        {
+          "name": "natural phase 8",
+          "time": 8,
+          "phase": 8
+        },
+        {
+          "name": "natural phase 9",
+          "time": 9,
+          "phase": 9
+        },
+        {
+          "name": "natural phase 10",
+          "time": 10,
+          "phase": 10
+        },
+        {
+          "name": "natural phase 11",
+          "time": 11,
+          "phase": 11
+        },
+        {
+          "name": "natural phase 12",
+          "time": 12,
+          "phase": 12
+        },
+        {
+          "name": "natural phase 13",
+          "time": 13,
+          "phase": 13
+        },
+        {
+          "name": "natural phase 14",
+          "time": 14,
+          "phase": 14
+        },
+        {
+          "name": "natural phase 15",
+          "time": 15,
+          "phase": 15
+        },
+        {
+          "name": "natural phase 16",
+          "time": 16,
+          "phase": 16
+        },
+        {
+          "name": "natural phase 17",
+          "time": 17,
+          "phase": 17
+        },
+        {
+          "name": "natural phase 18",
+          "time": 18,
+          "phase": 18
+        },
+        {
+          "name": "natural phase 19",
+          "time": 19,
+          "phase": 19
+        },
+        {
+          "name": "natural phase 20",
+          "time": 20,
+          "phase": 20
+        },
+        {
+          "name": "natural phase 21",
+          "time": 21,
+          "phase": 21
+        },
+        {
+          "name": "natural phase 22",
+          "time": 22,
+          "phase": 22
+        },
+        {
+          "name": "natural phase 23",
+          "time": 23,
+          "phase": 23
+        },
+        {
+          "name": "natural phase 24",
+          "time": 24,
+          "phase": 24
+        },
+        {
+          "name": "natural phase 25",
+          "time": 25,
+          "phase": 25
+        },
+        {
+          "name": "natural phase 26",
+          "time": 26,
+          "phase": 26
+        },
+        {
+          "name": "natural phase 27",
+          "time": 27,
+          "phase": 27
+        },
+        {
+          "name": "natural phase 28",
+          "time": 28,
+          "phase": 28
+        },
+        {
+          "name": "natural phase 29",
+          "time": 29,
+          "phase": 29
+        },
+        {
+          "name": "natural phase 30",
+          "time": 30,
+          "phase": 30
+        },
+        {
+          "name": "natural phase 31",
+          "time": 31,
+          "phase": 31
+        },
+        {
+          "name": "natural phase 32",
+          "time": 32,
+          "phase": 32
+        },
+        {
+          "name": "natural phase 33",
+          "time": 33,
+          "phase": 33
+        },
+        {
+          "name": "natural phase 34",
+          "time": 34,
+          "phase": 34
+        },
+        {
+          "name": "natural phase 35",
+          "time": 35,
+          "phase": 35
+        },
+        {
+          "name": "natural phase 36",
+          "time": 36,
+          "phase": 36
+        },
+        {
+          "name": "natural phase 37",
+          "time": 37,
+          "phase": 37
+        },
+        {
+          "name": "natural phase 38",
+          "time": 38,
+          "phase": 38
+        },
+        {
+          "name": "natural phase 39",
+          "time": 39,
+          "phase": 39
+        },
+        {
+          "name": "natural phase 40",
+          "time": 40,
+          "phase": 40
+        },
+        {
+          "name": "natural phase 41",
+          "time": 41,
+          "phase": 41
+        },
+        {
+          "name": "natural phase 42",
+          "time": 42,
+          "phase": 42
+        },
+        {
+          "name": "natural phase 43",
+          "time": 43,
+          "phase": 43
+        },
+        {
+          "name": "natural phase 44",
+          "time": 44,
+          "phase": 44
+        },
+        {
+          "name": "natural phase 45",
+          "time": 45,
+          "phase": 45
+        },
+        {
+          "name": "natural phase 46",
+          "time": 46,
+          "phase": 46
+        },
+        {
+          "name": "natural phase 47",
+          "time": 47,
+          "phase": 47
+        },
+        {
+          "name": "natural phase 48",
+          "time": 48,
+          "phase": 48
+        },
+        {
+          "name": "natural phase 49",
+          "time": 49,
+          "phase": 49
+        },
+        {
+          "name": "natural phase 50",
+          "time": 50,
+          "phase": 50
+        },
+        {
+          "name": "natural phase 51",
+          "time": 51,
+          "phase": 51
+        },
+        {
+          "name": "natural phase 52",
+          "time": 52,
+          "phase": 52
+        },
+        {
+          "name": "natural phase 53",
+          "time": 53,
+          "phase": 53
+        },
+        {
+          "name": "natural phase 54",
+          "time": 54,
+          "phase": 54
+        },
+        {
+          "name": "natural phase 55",
+          "time": 55,
+          "phase": 55
+        },
+        {
+          "name": "natural phase 56",
+          "time": 56,
+          "phase": 56
+        },
+        {
+          "name": "natural phase 57",
+          "time": 57,
+          "phase": 57
+        },
+        {
+          "name": "natural phase 58",
+          "time": 58,
+          "phase": 58
+        },
+        {
+          "name": "natural phase 59",
+          "time": 59,
+          "phase": 59
+        },
+        {
+          "name": "natural phase 60",
+          "time": 60,
+          "phase": 60
+        },
+        {
+          "name": "natural phase 61",
+          "time": 61,
+          "phase": 61
+        },
+        {
+          "name": "natural phase 62",
+          "time": 62,
+          "phase": 62
+        },
+        {
+          "name": "natural phase 63",
+          "time": 63,
+          "phase": 63
+        },
+        {
+          "name": "natural phase 64",
+          "time": 64,
+          "phase": 64
+        },
+        {
+          "name": "natural phase 65",
+          "time": 65,
+          "phase": 65
+        },
+        {
+          "name": "natural phase 66",
+          "time": 66,
+          "phase": 66
+        },
+        {
+          "name": "natural phase 67",
+          "time": 67,
+          "phase": 67
+        },
+        {
+          "name": "natural phase 68",
+          "time": 68,
+          "phase": 68
+        },
+        {
+          "name": "natural phase 69",
+          "time": 69,
+          "phase": 69
+        },
+        {
+          "name": "natural phase 70",
+          "time": 70,
+          "phase": 70
+        },
+        {
+          "name": "natural phase 71",
+          "time": 71,
+          "phase": 71
+        },
+        {
+          "name": "natural phase 0",
+          "time": 0,
+          "phase": 0
+        },
+        {
+          "name": "natural phase 1",
+          "time": 1,
+          "phase": 1
+        },
+        {
+          "name": "natural phase 2",
+          "time": 2,
+          "phase": 2
+        },
+        {
+          "name": "natural phase 3",
+          "time": 3,
+          "phase": 3
+        },
+        {
+          "name": "natural phase 4",
+          "time": 4,
+          "phase": 4
+        },
+        {
+          "name": "right held",
+          "time": 11,
+          "phase": 11
+        },
+        {
+          "name": "right released",
+          "time": 13,
+          "phase": 13
+        },
+        {
+          "name": "up held",
+          "time": 19,
+          "phase": 19
+        },
+        {
+          "name": "up released",
+          "time": 21,
+          "phase": 21
+        },
+        {
+          "name": "diagonal held",
+          "time": 27,
+          "phase": 27
+        },
+        {
+          "name": "diagonal released",
+          "time": 29,
+          "phase": 29
+        }
+      ],
+      "controls": [
+        {
+          "name": "full natural orbital phase cycle",
+          "passed": true
+        },
+        {
+          "name": "right",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "naturalPhases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "passed": true,
+      "scope": "Read-only actual Ruffle clip-binding discovery followed by point and velocity-arrow endpoints at all 72 naturally played orbital phases and three real press-drag camera settings. Energy model phase repeats within its longer 720-step root loop; the complete 720-step timeline is outside scope. Arrow artwork, fixed angular-momentum/magnetic-moment symbols, projected pixels, wall-clock rate and all camera paths are outside scope. HTML graphs and playback buttons are remaster additions."
+    },
+    {
+      "id": "flash-4fbf5eb7a9e44f21",
+      "kind": "expansion-flash-4fbf5eb7a9e44f21",
+      "type": "angularmomentum",
+      "sha256": "fc815e6eaf0664202546d532a27d42671fcd3b87f093f9219319dfe5aeebabe8",
+      "sha256Verified": true,
+      "diagnosticSha256": "e35c6762c33f0203b84c7e0c739b603c073331b77e8e84958288af9ce83b8603",
+      "tagDiscoveryDiagnosticSha256": "0c2988473fa377d1d0b843841de507b70eb8eb8b243254d76949fef7e2b14be8",
+      "paths": {
+        "ballTag": "point_0",
+        "velocityTag": "arrow_0"
+      },
+      "comparisons": 869,
+      "maxAbsoluteError": 4.689582056016661e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "time": 4,
+          "phase": 4
+        },
+        {
+          "name": "natural phase 5",
+          "time": 5,
+          "phase": 5
+        },
+        {
+          "name": "natural phase 6",
+          "time": 6,
+          "phase": 6
+        },
+        {
+          "name": "natural phase 7",
+          "time": 7,
+          "phase": 7
+        },
+        {
+          "name": "natural phase 8",
+          "time": 8,
+          "phase": 8
+        },
+        {
+          "name": "natural phase 9",
+          "time": 9,
+          "phase": 9
+        },
+        {
+          "name": "natural phase 10",
+          "time": 10,
+          "phase": 10
+        },
+        {
+          "name": "natural phase 11",
+          "time": 11,
+          "phase": 11
+        },
+        {
+          "name": "natural phase 12",
+          "time": 12,
+          "phase": 12
+        },
+        {
+          "name": "natural phase 13",
+          "time": 13,
+          "phase": 13
+        },
+        {
+          "name": "natural phase 14",
+          "time": 14,
+          "phase": 14
+        },
+        {
+          "name": "natural phase 15",
+          "time": 15,
+          "phase": 15
+        },
+        {
+          "name": "natural phase 16",
+          "time": 16,
+          "phase": 16
+        },
+        {
+          "name": "natural phase 17",
+          "time": 17,
+          "phase": 17
+        },
+        {
+          "name": "natural phase 18",
+          "time": 18,
+          "phase": 18
+        },
+        {
+          "name": "natural phase 19",
+          "time": 19,
+          "phase": 19
+        },
+        {
+          "name": "natural phase 20",
+          "time": 20,
+          "phase": 20
+        },
+        {
+          "name": "natural phase 21",
+          "time": 21,
+          "phase": 21
+        },
+        {
+          "name": "natural phase 22",
+          "time": 22,
+          "phase": 22
+        },
+        {
+          "name": "natural phase 23",
+          "time": 23,
+          "phase": 23
+        },
+        {
+          "name": "natural phase 24",
+          "time": 24,
+          "phase": 24
+        },
+        {
+          "name": "natural phase 25",
+          "time": 25,
+          "phase": 25
+        },
+        {
+          "name": "natural phase 26",
+          "time": 26,
+          "phase": 26
+        },
+        {
+          "name": "natural phase 27",
+          "time": 27,
+          "phase": 27
+        },
+        {
+          "name": "natural phase 28",
+          "time": 28,
+          "phase": 28
+        },
+        {
+          "name": "natural phase 29",
+          "time": 29,
+          "phase": 29
+        },
+        {
+          "name": "natural phase 30",
+          "time": 30,
+          "phase": 30
+        },
+        {
+          "name": "natural phase 31",
+          "time": 31,
+          "phase": 31
+        },
+        {
+          "name": "natural phase 32",
+          "time": 32,
+          "phase": 32
+        },
+        {
+          "name": "natural phase 33",
+          "time": 33,
+          "phase": 33
+        },
+        {
+          "name": "natural phase 34",
+          "time": 34,
+          "phase": 34
+        },
+        {
+          "name": "natural phase 35",
+          "time": 35,
+          "phase": 35
+        },
+        {
+          "name": "natural phase 36",
+          "time": 36,
+          "phase": 36
+        },
+        {
+          "name": "natural phase 37",
+          "time": 37,
+          "phase": 37
+        },
+        {
+          "name": "natural phase 38",
+          "time": 38,
+          "phase": 38
+        },
+        {
+          "name": "natural phase 39",
+          "time": 39,
+          "phase": 39
+        },
+        {
+          "name": "natural phase 40",
+          "time": 40,
+          "phase": 40
+        },
+        {
+          "name": "natural phase 41",
+          "time": 41,
+          "phase": 41
+        },
+        {
+          "name": "natural phase 42",
+          "time": 42,
+          "phase": 42
+        },
+        {
+          "name": "natural phase 43",
+          "time": 43,
+          "phase": 43
+        },
+        {
+          "name": "natural phase 44",
+          "time": 44,
+          "phase": 44
+        },
+        {
+          "name": "natural phase 45",
+          "time": 45,
+          "phase": 45
+        },
+        {
+          "name": "natural phase 46",
+          "time": 46,
+          "phase": 46
+        },
+        {
+          "name": "natural phase 47",
+          "time": 47,
+          "phase": 47
+        },
+        {
+          "name": "natural phase 48",
+          "time": 48,
+          "phase": 48
+        },
+        {
+          "name": "natural phase 49",
+          "time": 49,
+          "phase": 49
+        },
+        {
+          "name": "natural phase 50",
+          "time": 50,
+          "phase": 50
+        },
+        {
+          "name": "natural phase 51",
+          "time": 51,
+          "phase": 51
+        },
+        {
+          "name": "natural phase 52",
+          "time": 52,
+          "phase": 52
+        },
+        {
+          "name": "natural phase 53",
+          "time": 53,
+          "phase": 53
+        },
+        {
+          "name": "natural phase 54",
+          "time": 54,
+          "phase": 54
+        },
+        {
+          "name": "natural phase 55",
+          "time": 55,
+          "phase": 55
+        },
+        {
+          "name": "natural phase 56",
+          "time": 56,
+          "phase": 56
+        },
+        {
+          "name": "natural phase 57",
+          "time": 57,
+          "phase": 57
+        },
+        {
+          "name": "natural phase 58",
+          "time": 58,
+          "phase": 58
+        },
+        {
+          "name": "natural phase 59",
+          "time": 59,
+          "phase": 59
+        },
+        {
+          "name": "natural phase 60",
+          "time": 60,
+          "phase": 60
+        },
+        {
+          "name": "natural phase 61",
+          "time": 61,
+          "phase": 61
+        },
+        {
+          "name": "natural phase 62",
+          "time": 62,
+          "phase": 62
+        },
+        {
+          "name": "natural phase 63",
+          "time": 63,
+          "phase": 63
+        },
+        {
+          "name": "natural phase 64",
+          "time": 64,
+          "phase": 64
+        },
+        {
+          "name": "natural phase 65",
+          "time": 65,
+          "phase": 65
+        },
+        {
+          "name": "natural phase 66",
+          "time": 66,
+          "phase": 66
+        },
+        {
+          "name": "natural phase 67",
+          "time": 67,
+          "phase": 67
+        },
+        {
+          "name": "natural phase 68",
+          "time": 68,
+          "phase": 68
+        },
+        {
+          "name": "natural phase 69",
+          "time": 69,
+          "phase": 69
+        },
+        {
+          "name": "natural phase 70",
+          "time": 70,
+          "phase": 70
+        },
+        {
+          "name": "natural phase 71",
+          "time": 71,
+          "phase": 71
+        },
+        {
+          "name": "natural phase 0",
+          "time": 0,
+          "phase": 0
+        },
+        {
+          "name": "natural phase 1",
+          "time": 1,
+          "phase": 1
+        },
+        {
+          "name": "natural phase 2",
+          "time": 2,
+          "phase": 2
+        },
+        {
+          "name": "natural phase 3",
+          "time": 3,
+          "phase": 3
+        },
+        {
+          "name": "natural phase 4",
+          "time": 4,
+          "phase": 4
+        },
+        {
+          "name": "right held",
+          "time": 10,
+          "phase": 10
+        },
+        {
+          "name": "right released",
+          "time": 12,
+          "phase": 12
+        },
+        {
+          "name": "up held",
+          "time": 18,
+          "phase": 18
+        },
+        {
+          "name": "up released",
+          "time": 20,
+          "phase": 20
+        },
+        {
+          "name": "diagonal held",
+          "time": 26,
+          "phase": 26
+        },
+        {
+          "name": "diagonal released",
+          "time": 28,
+          "phase": 28
+        }
+      ],
+      "controls": [
+        {
+          "name": "full natural orbital phase cycle",
+          "passed": true
+        },
+        {
+          "name": "right",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "naturalPhases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "passed": true,
+      "scope": "Read-only actual Ruffle clip-binding discovery followed by point and velocity-arrow endpoints at all 72 naturally played orbital phases and three real press-drag camera settings. Energy model phase repeats within its longer 720-step root loop; the complete 720-step timeline is outside scope. Arrow artwork, fixed angular-momentum/magnetic-moment symbols, projected pixels, wall-clock rate and all camera paths are outside scope. HTML graphs and playback buttons are remaster additions."
+    }
+  ]
+}

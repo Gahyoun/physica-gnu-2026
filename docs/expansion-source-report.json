@@ -1,7 +1,7 @@
 {
   "method": "Private original numerical functions/coordinates versus fresh semantic geometry and independent equations. Source-scoped checks, not full Flash runtime equivalence.",
   "files": 50,
-  "comparisons": 1319203,
+  "comparisons": 1319727,
   "results": [
     {
       "id": "flash-b3ea515ce40e22af",
@@ -12,7 +12,7 @@
       "comparisons": 500,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -24,7 +24,7 @@
       "comparisons": 756,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -36,7 +36,7 @@
       "comparisons": 704,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -48,7 +48,7 @@
       "comparisons": 240,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -60,7 +60,7 @@
       "comparisons": 4576,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -72,7 +72,7 @@
       "comparisons": 4576,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -81,10 +81,10 @@
       "type": "calcite",
       "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/calcite.swf",
       "sha256": "18a5279a374eafba2b9c0e26f66b8ba75ab7cd246a174a943cd8c8ca7d9651c4",
-      "comparisons": 361,
+      "comparisons": 594,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -96,7 +96,7 @@
       "comparisons": 432,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -105,10 +105,10 @@
       "type": "al2o3_rubby",
       "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserkind/al2o3_rubby.swf",
       "sha256": "155bce15dba1dd3afe110479aabff8a377252e422f4159f3f3d10b4352f12e7c",
-      "comparisons": 236,
+      "comparisons": 524,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -540,7 +540,7 @@
       "comparisons": 294,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -561,10 +561,10 @@
       "type": "wavevector",
       "source": "http://physica.gnu.ac.kr/phtml/wave/wave/represent/wavevector.swf",
       "sha256": "c76e3058f3e5e2c73e058ec24982ba1dabc6c46bdd7879e32939c4230cf58830",
-      "comparisons": 81,
+      "comparisons": 84,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All numerical atom/label centres, display sizes, bonds, and plane vertices from source InitScene. Fresh geometry; optional Ruby outline omitted for original case mismatch.",
+      "scope": "All numerical atom/label centres, display sizes, individual bond segments with source endpoint trimming, and plane vertices from source InitScene. Legacy case-insensitive Ruby outline included. Source execution is separate from actual runtime evidence.",
       "sourceRuntimeExhaustive": false
     },
     {

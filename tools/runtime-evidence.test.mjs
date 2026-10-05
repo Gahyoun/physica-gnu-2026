@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
-import {runtimeEvidence} from './runtime-evidence.mjs';
+import {runtimeEvidence,numericalGroups} from './runtime-evidence.mjs';
 const root=new URL('../',import.meta.url);
 const manifest=JSON.parse(fs.readFileSync(new URL('src/flash-manifest.json',root)));
 const evidence=runtimeEvidence();
@@ -20,8 +20,11 @@ test('Every preserved original has actual playback evidence matching its current
  }
 });
 test('Runtime numerical, slider and frame claims retain separate finite scopes',()=>{
- assert.equal(evidence.numericalFilesPassed,78);
- assert.equal(evidence.numericalComparisons,210927);
+ assert.equal(evidence.numericalFilesPassed,92);
+ const reports=numericalGroups.map(g=>JSON.parse(fs.readFileSync(new URL('docs/'+g+'-runtime-report.json',root))));
+ assert.equal(new Set(reports.flatMap(r=>r.results.map(v=>v.id))).size,92);
+ for(const r of reports){for(const [file,hash]of Object.entries(r.nativeModelHashes))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(file,root))).digest('hex'),hash,'Stale report dependency: '+file);assert.equal(r.files,r.results.length);assert.equal(r.comparisons,r.results.reduce((n,v)=>n+(v.numeric||v).comparisons,0));}
+ assert.equal(evidence.numericalComparisons,reports.reduce((n,r)=>n+r.comparisons,0));
  assert.equal(evidence.rootTimelineFilesPassed,29);
  assert.equal(evidence.rootTimelineFrames,805);
  assert.equal(evidence.sliderCandidates,125);

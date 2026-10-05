@@ -1,3 +1,4 @@
+import {compareFinite} from './runtime-comparison.mjs';
 import fs from 'node:fs';import crypto from 'node:crypto';
 import {opticsSpecs,wavePhasor,fresnel,fresnelPhase,slitPhasor,slitPath} from '../assets/native-optics.mjs';
 import {inspectSWF,instrumentObserver} from './swf-runtime-probe.mjs';
@@ -18,9 +19,9 @@ try{for(const [kind,s]of Object.entries(opticsSpecs)){
  const record={id:r.id,kind,type:s.type,sha256:r.sha256,sha256Verified:hash(bytes)===r.sha256,diagnosticSha256:hash(probe.bytes),comparisons:0,maxAbsoluteError:0,mismatches:[],cases:[],controls:[],fullEquivalence:false};
  await runtime.load(r,probe.bytes);const get=(t,k)=>t['_root.'+k];
  function eq(a,b,name,key,tolerance=2e-8){
-  const error=Number.isFinite(a)&&Number.isFinite(b)?Math.abs(a-b):Infinity;
+  const {error,passed}=compareFinite(a,b,0,tolerance);
   record.comparisons++;if(Number.isFinite(error))record.maxAbsoluteError=Math.max(record.maxAbsoluteError,error);
-  if(error>tolerance*Math.max(1,Math.abs(a),Math.abs(b))&&record.mismatches.length<30)record.mismatches.push({name,key,expected:a,observed:b,error:Number.isFinite(error)?error:'unreadable'});
+  if(!passed&&record.mismatches.length<30)record.mismatches.push({name,key,expected:a,observed:b,error:Number.isFinite(error)?error:'unreadable'});
  }
  function compare(t,name){
   const p={wavelength:get(t,'wavelength'),n:get(t,'n'),phase:get(t,'angSlider.level'),angle:get(t,'angSlider.level'),distance:get(t,'dSlider.level')};

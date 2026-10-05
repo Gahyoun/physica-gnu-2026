@@ -6,11 +6,11 @@
 |---|---:|---|
 | 원본 로드·재생 관찰·렌더러 정지·재개·재로딩 | 518/518 | Chromium, 로컬 Ruffle 0.6.0, Canvas 렌더러 |
 | 원본 버튼 위치 클릭 | 456회 | 화면 변화 관찰. 버튼 의미·모든 분기 검증은 별도 |
-| 실제 원본 실행값과 HTML 수치 모델 | 78개, 210,927회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개·전기장 5개·광학 6개·반사/굴절 벡터 5개·박막 6개·편광 9개, 기록한 상태·위치·시간 표본 |
+| 실제 원본 실행값과 HTML 수치 모델 | 92개, 355,930회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개·전기장 5개·광학 6개·반사/굴절 벡터 5개·박막 6개·편광 9개·결정/파면 11개·각운동량 3개, 기록한 상태·위치·시간 표본 |
 | AS2 슬라이더 후보 | 125개 모두 조작 | 250개 끝값: nominal 범위 일치 244개, 원본 특수 변환 6개 |
 | 루트 타임라인 | 29개, 805프레임 | 자연 재생에서 전체 루트 프레임 방문·순서 확인 |
 
-합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`field-runtime`](field-runtime-report.json), [`optics-runtime`](optics-runtime-report.json), [`refraction-runtime`](refraction-runtime-report.json), [`film-runtime`](film-runtime-report.json), [`polarization-runtime`](polarization-runtime-report.json), [`polarization-marker-runtime`](polarization-marker-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
+합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`field-runtime`](field-runtime-report.json), [`optics-runtime`](optics-runtime-report.json), [`refraction-runtime`](refraction-runtime-report.json), [`film-runtime`](film-runtime-report.json), [`polarization-runtime`](polarization-runtime-report.json), [`polarization-marker-runtime`](polarization-marker-runtime-report.json), [`structure-runtime`](structure-runtime-report.json), [`angular-runtime`](angular-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
 
 ## 실제로 수정한 차이
 
@@ -37,6 +37,21 @@
 선편광·원편광 표식 4개는 **100개 관찰 상태, 300개 좌표 대조**를 추가했다. 이름 없는 원본 클립 2개를 실제 런타임 이름으로 연결하고 각 클립의 국소 시간값으로 움직이는 축을 계산했다. 좌표 오차는 0.05 px twip 이내였다. 선편광의 움직이지 않는 배치 축, 원본 화살표 도형·회전 및 500단계 이후 초기화는 별도 과제로 남긴다. 이 네 원본에는 슬라이더나 재생 버튼이 없으며 HTML의 재생 조작은 리마스터 추가 기능이다.
 
 확대 기록을 반영한 전체 자동 검사 **93개**, 교재 빌드와 Pages 배포용 파일 생성 검사가 통과했다.
+
+## 결정·파면 11개 재점검과 수정
+
+실제 원본의 원자·좌표 표지, 결합선, 화살표, 평면 꼭짓점을 기본 상태와 세 방향의 실제 포인터 조작에서 읽어 **141,515회** 비교했다. 움직이는 평면파는 자연 재생에서 **20개 위상값 모두**를 관찰했다. 수정 후 원시 기하 좌표의 최대 절대 오차는 약 5.4×10⁻¹³이며, 원본 표시 중심의 오차는 0.05 px twip 이내였다.
+
+- 다이아몬드 단위격자·실리콘·갈륨인: 대각 결합 끝점이 원자 중심까지 이어져 있었다. 원본의 각각 10·3.5·5 눈금 끝점 여백을 복원했다.
+- 방해석: 원본의 닫힌 다중 선을 하나의 선으로 취급한 소스 검사 때문에 후속 원자 생성도 줄어들었다. 원자 **46→66개**, 개별 선분 **40→55개**로 수정했다. 기존 데이터의 19개 다중 선을 선분으로 펼치면 40개였으며, 수정된 데이터는 55개 개별 선분을 직접 저장한다.
+- 루비: SWF 버전 6의 대소문자를 구분하지 않는 AVM1 변수를 JavaScript와 동일하게 해석한 기존 검사가 잘못되었다. 실제 원본에는 외곽선이 있으며 **48개 외곽선과 두 평면**을 보존했다. 과거의 “원본 오타로 누락” 판단을 철회했다.
+- 평면파의 진행: 정적 파면만 있던 HTML에 **22개 파면의 진행**, 원본의 두 프레임 계산 주기(초당 5단계), 20눈금 반복을 추가했다. 재생·정지·시간 탐색 및 현재 88개 파면 꼭짓점 CSV를 제공한다. [HTML 운동 검사](wavefront-motion-ui-report.json)는 실제 SVG 경로 이동, 노드 재사용, 주기 복귀, 정지와 하단 진행 막대 위치를 확인한다.
+
+원본 카메라를 읽어 투영된 표지 중심·크기의 내부 일관성도 비교했다. 두 파면 모형의 원본 y축 부호를 반영하고, 평면파 진행은 거리 700인 원본 투영을 별도로 적용했다. 리마스터의 직교 투영·기본 시점·원자 표시 크기·색상은 새 디자인이며 원본 화면의 픽셀 일치를 주장하지 않는다. 8개 원본은 누른 상태의 끌기를, 방해석·NaCl·루비는 누르지 않은 포인터의 중심 변위를 따라 회전하는 방식을 따로 기록했다. 리마스터는 증분 끌기로 통일했다. 모든 카메라 경로·깊이별 그리기 순서·장시간 자동 회전은 검사 범위 밖이다. 필요한 수치가 없거나 유한수가 아니면 비교 실패로 기록하도록 기존 역학·파동·광학 검사도 보강하고 30개 원본을 다시 실행했다.
+
+각운동량 3개는 실제 원본 자연 재생의 **72개 궤도 위상 모두**와 세 방향의 누름/끌기 상태에서 위치·속도 화살표 끝점을 **3,476회** 비교했다. 최대 절대 오차는 약 5.2×10⁻¹³이다. 회전 에너지 원본의 더 긴 720단계 루트 타임라인 전체, 고정 각운동량/자기모멘트 기호 도형과 투영 픽셀은 별도 미완료 범위로 남긴다.
+
+이번 수정 후 자동 검사 **104개**, 교재 빌드 및 Pages 배포 파일 구성 검사를 통과했다.
 
 ## 원본에서 확인한 슬라이더 예외
 
@@ -75,6 +90,9 @@ node tools/refraction-runtime-check.mjs
 node tools/film-runtime-check.mjs
 node tools/polarization-runtime-check.mjs
 node tools/polarization-marker-runtime-check.mjs
+node tools/structure-runtime-check.mjs
+node tools/angular-runtime-check.mjs
+node tools/wavefront-browser-check.mjs
 node tools/flash-slider-runtime-check.mjs
 node tools/timeline-runtime-check.mjs
 node tools/runtime-evidence.mjs

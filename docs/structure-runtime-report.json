@@ -1,0 +1,2649 @@
+{
+  "date": "2026-10-05T23:39:43.630Z",
+  "nativeModelHashes": {
+    "assets/expansion-physics.mjs": "2fcf3569d1d837e5c1ff6bb813eec822d1f7502f962c0377a387464a6472091d",
+    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f",
+    "assets/native-refraction.mjs": "fe90d6a1581a33b8b6c9ae9e566eb2e4acd1b061fded4a8b2e009a6a7510bebd"
+  },
+  "method": "Read-only original Ruffle AVM1 geometry and camera arrays versus HTML semantic coordinate data and independent perspective formula",
+  "files": 11,
+  "comparisons": 141515,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-b3ea515ce40e22af",
+      "kind": "expansion-flash-b3ea515ce40e22af",
+      "type": "nacl2",
+      "sha256": "c43d121e5a155384338405163b7b082861277313bd229180bef39222dcc55933",
+      "sha256Verified": true,
+      "diagnosticSha256": "3a2178ca938ca07d8d0d5465a3d3a4946ce7095c4fa77dee20646d89ec407c31",
+      "comparisons": 7003,
+      "maxAbsoluteError": 0.049903089568857695,
+      "maxGeometryError": 0,
+      "maxProjectionError": 0.049903089568857695,
+      "maxScaleError": 5.684341886080801e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.626697126283084,
+            -0.165912388318629,
+            -0.761395949103311,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.761395949103311,
+            0.338398199601472,
+            0.55295828703036
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": "",
+          "pressed": false,
+          "animated": ""
+        },
+        {
+          "name": "right held",
+          "camera": [
+            0.807080686541158,
+            -0.0696400932554366,
+            -0.586319898028053,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.566651431494408,
+            0.370392385859217,
+            0.736013339337581
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": "",
+          "pressed": true,
+          "animated": ""
+        },
+        {
+          "name": "right released",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.529771419133753,
+            0.373150173493936,
+            0.761643743157164
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": "",
+          "pressed": false,
+          "animated": ""
+        },
+        {
+          "name": "up held",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.272703541885285,
+            0.828125202525009,
+            -0.489736079114183,
+            0.483546745797966,
+            0.558040714312458,
+            0.674368672016903
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": "",
+          "pressed": true,
+          "animated": ""
+        },
+        {
+          "name": "up released",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.289457208986365,
+            0.808090590036503,
+            -0.513034231275341,
+            0.473707928257915,
+            0.586677414071738,
+            0.656818399958234
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": "",
+          "pressed": false,
+          "animated": ""
+        },
+        {
+          "name": "diagonal held",
+          "camera": [
+            0.710603915160255,
+            -0.160929722967936,
+            -0.68494065438137,
+            -0.202921173740848,
+            0.88524927647072,
+            -0.418517282505398,
+            0.673695089047377,
+            0.436388981040459,
+            0.596405553478434
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": "",
+          "pressed": true,
+          "animated": ""
+        },
+        {
+          "name": "diagonal released",
+          "camera": [
+            0.686507914534297,
+            -0.17571283726148,
+            -0.705572024745377,
+            -0.185709744722307,
+            0.895808643823251,
+            -0.403780589388251,
+            0.703006951599304,
+            0.408230170949022,
+            0.582348137740636
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": "",
+          "pressed": false,
+          "animated": ""
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 125,
+        "lines": 0,
+        "arrows": 0,
+        "surfaces": 0
+      },
+      "observedCounts": {
+        "points": 125,
+        "lines": 0,
+        "arrows": "",
+        "surfaces": 0
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "press-drag",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-3333c8da2f06e02a",
+      "kind": "expansion-flash-3333c8da2f06e02a",
+      "type": "cscl",
+      "sha256": "0012b239d02d7cb2812f0b8ebf6c36c8a2e74386cb37da4bb6750b3edf7f6429",
+      "sha256Verified": true,
+      "diagnosticSha256": "e2bd5a49e56ac1db2648646c5d84e1896f42b8feaaf6bc97c397dc65fb5d1543",
+      "comparisons": 10587,
+      "maxAbsoluteError": 0.04997420684435383,
+      "maxGeometryError": 0,
+      "maxProjectionError": 0.04997420684435383,
+      "maxScaleError": 5.684341886080801e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.626697126283084,
+            -0.165912388318629,
+            -0.761395949103311,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.761395949103311,
+            0.338398199601472,
+            0.55295828703036
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "right held",
+          "camera": [
+            0.807080686541158,
+            -0.0696400932554366,
+            -0.586319898028053,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.566651431494408,
+            0.370392385859217,
+            0.736013339337581
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "right released",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.529771419133753,
+            0.373150173493936,
+            0.761643743157164
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "up held",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.272703541885285,
+            0.828125202525009,
+            -0.489736079114183,
+            0.483546745797966,
+            0.558040714312458,
+            0.674368672016903
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "up released",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.289457208986365,
+            0.808090590036503,
+            -0.513034231275341,
+            0.473707928257915,
+            0.586677414071738,
+            0.656818399958234
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "diagonal held",
+          "camera": [
+            0.710603915160255,
+            -0.160929722967936,
+            -0.68494065438137,
+            -0.202921173740848,
+            0.88524927647072,
+            -0.418517282505398,
+            0.673695089047377,
+            0.436388981040459,
+            0.596405553478434
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "diagonal released",
+          "camera": [
+            0.686507914534297,
+            -0.17571283726148,
+            -0.705572024745377,
+            -0.185709744722307,
+            0.895808643823251,
+            -0.403780589388251,
+            0.703006951599304,
+            0.408230170949022,
+            0.582348137740636
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 189,
+        "lines": 0,
+        "arrows": 0,
+        "surfaces": 0
+      },
+      "observedCounts": {
+        "points": 189,
+        "lines": 0,
+        "arrows": null,
+        "surfaces": 0
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "press-drag",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-639776e56583ea2d",
+      "kind": "expansion-flash-639776e56583ea2d",
+      "type": "diamond",
+      "sha256": "e7ae2068191a58fa7aa9e584233ba34fcd568fd22281f6a67315a269a96db230",
+      "sha256Verified": true,
+      "diagnosticSha256": "13f68a13d423f583595df047285421ebb313fd2b1bcedf52c1accc80f12fad4d",
+      "comparisons": 7969,
+      "maxAbsoluteError": 0.049915575724170935,
+      "maxGeometryError": 0,
+      "maxProjectionError": 0.049915575724170935,
+      "maxScaleError": 5.684341886080801e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.626697126283084,
+            -0.165912388318629,
+            -0.761395949103311,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.761395949103311,
+            0.338398199601472,
+            0.55295828703036
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "right held",
+          "camera": [
+            0.807080686541158,
+            -0.0696400932554366,
+            -0.586319898028053,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.566651431494408,
+            0.370392385859217,
+            0.736013339337581
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "right released",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.529771419133753,
+            0.373150173493936,
+            0.761643743157164
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "up held",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.272703541885285,
+            0.828125202525009,
+            -0.489736079114183,
+            0.483546745797966,
+            0.558040714312458,
+            0.674368672016903
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "up released",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.289457208986365,
+            0.808090590036503,
+            -0.513034231275341,
+            0.473707928257915,
+            0.586677414071738,
+            0.656818399958234
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "diagonal held",
+          "camera": [
+            0.710603915160255,
+            -0.160929722967936,
+            -0.68494065438137,
+            -0.202921173740848,
+            0.88524927647072,
+            -0.418517282505398,
+            0.673695089047377,
+            0.436388981040459,
+            0.596405553478434
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "diagonal released",
+          "camera": [
+            0.686507914534297,
+            -0.17571283726148,
+            -0.705572024745377,
+            -0.185709744722307,
+            0.895808643823251,
+            -0.403780589388251,
+            0.703006951599304,
+            0.408230170949022,
+            0.582348137740636
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 95,
+        "lines": 54,
+        "arrows": 0,
+        "surfaces": 0
+      },
+      "observedCounts": {
+        "points": 95,
+        "lines": 54,
+        "arrows": null,
+        "surfaces": 0
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "press-drag",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-1feaf29d97ccedc3",
+      "kind": "expansion-flash-1feaf29d97ccedc3",
+      "type": "diamond2",
+      "sha256": "5b8164e3e69c6e74912bfce0a060d589aa17497b92dcce13d52c996ff8559aef",
+      "sha256Verified": true,
+      "diagnosticSha256": "61fd827c795105b8c4a55c3630b7ad6b2ac1b71dd2feb80b17fbb9addfb0b41d",
+      "comparisons": 2383,
+      "maxAbsoluteError": 0.04993633874414627,
+      "maxGeometryError": 4.263256414560601e-14,
+      "maxProjectionError": 0.04993633874414627,
+      "maxScaleError": 5.400124791776761e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.626697126283084,
+            -0.165912388318629,
+            -0.761395949103311,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.761395949103311,
+            0.338398199601472,
+            0.55295828703036
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "right held",
+          "camera": [
+            0.807080686541158,
+            -0.0696400932554366,
+            -0.586319898028053,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.566651431494408,
+            0.370392385859217,
+            0.736013339337581
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "right released",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.529771419133753,
+            0.373150173493936,
+            0.761643743157164
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "up held",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.272703541885285,
+            0.828125202525009,
+            -0.489736079114183,
+            0.483546745797966,
+            0.558040714312458,
+            0.674368672016903
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "up released",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.289457208986365,
+            0.808090590036503,
+            -0.513034231275341,
+            0.473707928257915,
+            0.586677414071738,
+            0.656818399958234
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "diagonal held",
+          "camera": [
+            0.710603915160255,
+            -0.160929722967936,
+            -0.68494065438137,
+            -0.202921173740848,
+            0.88524927647072,
+            -0.418517282505398,
+            0.673695089047377,
+            0.436388981040459,
+            0.596405553478434
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "diagonal released",
+          "camera": [
+            0.686507914534297,
+            -0.17571283726148,
+            -0.705572024745377,
+            -0.185709744722307,
+            0.895808643823251,
+            -0.403780589388251,
+            0.703006951599304,
+            0.408230170949022,
+            0.582348137740636
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 18,
+        "lines": 28,
+        "arrows": 0,
+        "surfaces": 0
+      },
+      "observedCounts": {
+        "points": 18,
+        "lines": 28,
+        "arrows": null,
+        "surfaces": 0
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "press-drag",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-ff4f9f4a43f7d624",
+      "kind": "expansion-flash-ff4f9f4a43f7d624",
+      "type": "diamond3p",
+      "sha256": "cd7dab95a35eb3b82063e3498dcc382d3ec93b26fc1ab089ef3cbc1a44fecb0a",
+      "sha256Verified": true,
+      "diagnosticSha256": "04a2973321c1d34c129334119dd3740f0404d35a7d0df630e9d677a25579421c",
+      "comparisons": 43907,
+      "maxAbsoluteError": 0.049989349485969115,
+      "maxGeometryError": 1.0658141036401503e-14,
+      "maxProjectionError": 0.049989349485969115,
+      "maxScaleError": 8.526512829121202e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.626697126283084,
+            -0.165912388318629,
+            -0.761395949103311,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.761395949103311,
+            0.338398199601472,
+            0.55295828703036
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "right held",
+          "camera": [
+            0.831754364503979,
+            -0.0529075619600329,
+            -0.552616926103451,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.529771419133753,
+            0.373150173493936,
+            0.761643743157164
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "right released",
+          "camera": [
+            0.854744024085557,
+            -0.0360679109299459,
+            -0.517795093730308,
+            -0.165912388318629,
+            0.926261160747276,
+            -0.338398199601472,
+            0.49181880066996,
+            0.375152459531133,
+            0.785732078647235
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "up held",
+          "camera": [
+            0.854744024085557,
+            -0.0360679109299459,
+            -0.517795093730308,
+            -0.280251561335685,
+            0.807604922894145,
+            -0.518877009402086,
+            0.436888676505744,
+            0.588619906491695,
+            0.680187393313614
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "up released",
+          "camera": [
+            0.854744024085557,
+            -0.0360679109299459,
+            -0.517795093730308,
+            -0.295367906711919,
+            0.786512824568068,
+            -0.542360928233754,
+            0.42681430736873,
+            0.61651981524612,
+            0.661613833315359
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "diagonal held",
+          "camera": [
+            0.720003180634513,
+            -0.167035294422505,
+            -0.673568578760448,
+            -0.19912444710403,
+            0.880060955634182,
+            -0.431094153212225,
+            0.664789345914703,
+            0.444513132298067,
+            0.600385876560121
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "diagonal released",
+          "camera": [
+            0.696214689568503,
+            -0.182101196799468,
+            -0.694351683337222,
+            -0.182132667771166,
+            0.890822314474869,
+            -0.41624907851453,
+            0.694343428974158,
+            0.416262847438777,
+            0.587037004355408
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 280,
+        "lines": 576,
+        "arrows": 0,
+        "surfaces": 0
+      },
+      "observedCounts": {
+        "points": 280,
+        "lines": 576,
+        "arrows": null,
+        "surfaces": 0
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "press-drag",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-fe0d464bdaec3364",
+      "kind": "expansion-flash-fe0d464bdaec3364",
+      "type": "ZnS_diamondp",
+      "sha256": "66b66fb15413c147dbf270d8b404e4005a5c12bf801e600c65380a6746811b50",
+      "sha256Verified": true,
+      "diagnosticSha256": "ce39f1254d422b88436237f1040ef0575baa38eca71d239f7d7e6394d5120b00",
+      "comparisons": 43907,
+      "maxAbsoluteError": 0.049996875234228355,
+      "maxGeometryError": 2.842170943040401e-14,
+      "maxProjectionError": 0.049996875234228355,
+      "maxScaleError": 5.115907697472721e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.999783515126033,
+            -0.00147977368648908,
+            0.0207541116907107,
+            -0.00147977368648908,
+            0.989885066226117,
+            0.141863899327322,
+            -0.0207541116907107,
+            -0.141863899327322,
+            0.98966858135215
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "right held",
+          "camera": [
+            0.944160580232316,
+            -0.0453587361469048,
+            0.326348561802457,
+            -0.00147977368648908,
+            0.989885066226117,
+            0.141863899327322,
+            -0.329482334890982,
+            -0.134425223517282,
+            0.934543337827153
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "right released",
+          "camera": [
+            0.928383077388864,
+            -0.0513599118578941,
+            0.368058447901868,
+            -0.00147977368648908,
+            0.989885066226117,
+            0.141863899327322,
+            -0.371621678441691,
+            -0.132248686634178,
+            0.918916542998175
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "up held",
+          "camera": [
+            0.928383077388864,
+            -0.0513599118578941,
+            0.368058447901868,
+            0.0760209534564127,
+            0.995706744763442,
+            -0.0528099712948888,
+            -0.363765963572131,
+            0.0770080378047536,
+            0.928301721349208
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "up released",
+          "camera": [
+            0.928383077388864,
+            -0.0513599118578941,
+            0.368058447901868,
+            0.0887036048488017,
+            0.992402205567067,
+            -0.0852615556534621,
+            -0.360882989492177,
+            0.111803496544473,
+            0.925885222938362
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        },
+        {
+          "name": "diagonal held",
+          "camera": [
+            0.989703640335881,
+            -0.0556955696553868,
+            0.131851082007946,
+            0.0449032027437893,
+            0.995499103993848,
+            0.0834579914136246,
+            -0.135905874373606,
+            -0.0766781420497943,
+            0.987749996629987
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": true,
+          "animated": null
+        },
+        {
+          "name": "diagonal released",
+          "camera": [
+            0.993872421515842,
+            -0.0525430900966894,
+            0.0972462515129916,
+            0.0419255019009605,
+            0.993247332880492,
+            0.10817572748145,
+            -0.102273466943237,
+            -0.103435774318557,
+            0.989364027317818
+          ],
+          "width": 250,
+          "height": 250,
+          "perspective": 1000,
+          "time": null,
+          "pressed": false,
+          "animated": null
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 280,
+        "lines": 576,
+        "arrows": 0,
+        "surfaces": 0
+      },
+      "observedCounts": {
+        "points": 280,
+        "lines": 576,
+        "arrows": null,
+        "surfaces": 0
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "press-drag",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-023950ca3f3c71eb",
+      "kind": "expansion-flash-023950ca3f3c71eb",
+      "type": "calcite",
+      "sha256": "18a5279a374eafba2b9c0e26f66b8ba75ab7cd246a174a943cd8c8ca7d9651c4",
+      "sha256Verified": true,
+      "diagnosticSha256": "986e429800aba3b0f000054e5721c6993d875a318990eaf347a8a6209077dd60",
+      "comparisons": 6394,
+      "maxAbsoluteError": 0.049940598297126826,
+      "maxGeometryError": 1.7053025658242404e-13,
+      "maxProjectionError": 0.049940598297126826,
+      "maxScaleError": 5.400124791776761e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.99680341187731,
+            -0.00319658812268941,
+            -0.0798294425267178,
+            -0.00319658812268941,
+            0.99680341187731,
+            -0.0798294425267178,
+            0.0798294425267178,
+            0.0798294425267178,
+            0.993606823754621
+          ],
+          "width": 370,
+          "height": 360,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "right pointer offset",
+          "camera": [
+            0.997184509279466,
+            -0.00180316156837649,
+            -0.0749653457367403,
+            -0.00718273658027138,
+            0.992817263419728,
+            -0.119424828871469,
+            0.0746422316673953,
+            0.119627045705056,
+            0.990009043992827
+          ],
+          "width": 370,
+          "height": 360,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "right continued hover",
+          "camera": [
+            0.999532797241556,
+            0.00358006422956183,
+            -0.0303540833922304,
+            -0.00718273658027138,
+            0.992817263419728,
+            -0.119424828871469,
+            0.0297085094491241,
+            0.119587058647135,
+            0.99237913111393
+          ],
+          "width": 370,
+          "height": 360,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "up pointer offset",
+          "camera": [
+            0.999948186240081,
+            0.00626963986078403,
+            -0.00801975381101462,
+            -0.00743075503837038,
+            0.988028410057285,
+            -0.154092974529122,
+            0.00695763715157305,
+            0.154144583218773,
+            0.988023804748437
+          ],
+          "width": 370,
+          "height": 360,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "up continued hover",
+          "camera": [
+            0.999948186240081,
+            0.00626963986078403,
+            -0.00801975381101462,
+            -0.00766967175074083,
+            0.982029345442488,
+            -0.188572375561839,
+            0.00669335270317532,
+            0.188624113797296,
+            0.982026548889477
+          ],
+          "width": 370,
+          "height": 360,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "diagonal pointer offset",
+          "camera": [
+            0.99910294343379,
+            -0.000506212600640253,
+            -0.0423444467520794,
+            -0.00718188019428915,
+            0.983418117142408,
+            -0.181210450782936,
+            0.0417340271099209,
+            0.181352007501663,
+            0.982532299904846
+          ],
+          "width": 370,
+          "height": 360,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "diagonal continued hover",
+          "camera": [
+            0.997027705018488,
+            -0.00642108684554967,
+            -0.0767758104437126,
+            -0.00569956704050192,
+            0.987643027317344,
+            -0.156616619574627,
+            0.0768327427671159,
+            0.156588697660957,
+            0.984670863488774
+          ],
+          "width": 370,
+          "height": 360,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "pointer-offset",
+          "heldPressed": "",
+          "releasedPressed": "",
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "pointer-offset",
+          "heldPressed": "",
+          "releasedPressed": "",
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "pointer-offset",
+          "heldPressed": "",
+          "releasedPressed": "",
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 66,
+        "lines": 55,
+        "arrows": 0,
+        "surfaces": 0
+      },
+      "observedCounts": {
+        "points": 66,
+        "lines": 55,
+        "arrows": "",
+        "surfaces": 0
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "pointer-offset",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-877ba0c94ae79fe3",
+      "kind": "expansion-flash-877ba0c94ae79fe3",
+      "type": "nacl",
+      "sha256": "76a7d3dee9bce309f3b1906707b80e2cf64fe702df28545f75d40aeb1b9a25fb",
+      "sha256Verified": true,
+      "diagnosticSha256": "0bc5d1143a07e516745543ae99b6f850412eed91c9705796552d73e0a45d3896",
+      "comparisons": 4161,
+      "maxAbsoluteError": 0.0498480815663811,
+      "maxGeometryError": 0,
+      "maxProjectionError": 0.0498480815663811,
+      "maxScaleError": 5.684341886080801e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.99680341187731,
+            -0.00319658812268941,
+            -0.0798294425267178,
+            -0.00319658812268941,
+            0.99680341187731,
+            -0.0798294425267178,
+            0.0798294425267178,
+            0.0798294425267178,
+            0.993606823754621
+          ],
+          "width": 200,
+          "height": 200,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "right pointer offset",
+          "camera": [
+            0.997184509279466,
+            -0.00180316156837649,
+            -0.0749653457367403,
+            -0.00718273658027138,
+            0.992817263419728,
+            -0.119424828871469,
+            0.0746422316673953,
+            0.119627045705056,
+            0.990009043992827
+          ],
+          "width": 200,
+          "height": 200,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "right continued hover",
+          "camera": [
+            0.999532797241556,
+            0.00358006422956183,
+            -0.0303540833922304,
+            -0.00718273658027138,
+            0.992817263419728,
+            -0.119424828871469,
+            0.0297085094491241,
+            0.119587058647135,
+            0.99237913111393
+          ],
+          "width": 200,
+          "height": 200,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "up pointer offset",
+          "camera": [
+            0.999948186240081,
+            0.00626963986078403,
+            -0.00801975381101462,
+            -0.00743075503837038,
+            0.988028410057285,
+            -0.154092974529122,
+            0.00695763715157305,
+            0.154144583218773,
+            0.988023804748437
+          ],
+          "width": 200,
+          "height": 200,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "up continued hover",
+          "camera": [
+            0.999948186240081,
+            0.00626963986078403,
+            -0.00801975381101462,
+            -0.00766967175074083,
+            0.982029345442488,
+            -0.188572375561839,
+            0.00669335270317532,
+            0.188624113797296,
+            0.982026548889477
+          ],
+          "width": 200,
+          "height": 200,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "diagonal pointer offset",
+          "camera": [
+            0.99910294343379,
+            -0.000506212600640253,
+            -0.0423444467520794,
+            -0.00718188019428915,
+            0.983418117142408,
+            -0.181210450782936,
+            0.0417340271099209,
+            0.181352007501663,
+            0.982532299904846
+          ],
+          "width": 200,
+          "height": 200,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "diagonal continued hover",
+          "camera": [
+            0.997027705018488,
+            -0.00642108684554967,
+            -0.0767758104437126,
+            -0.00569956704050192,
+            0.987643027317344,
+            -0.156616619574627,
+            0.0768327427671159,
+            0.156588697660957,
+            0.984670863488774
+          ],
+          "width": 200,
+          "height": 200,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "pointer-offset",
+          "heldPressed": "",
+          "releasedPressed": "",
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "pointer-offset",
+          "heldPressed": "",
+          "releasedPressed": "",
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "pointer-offset",
+          "heldPressed": "",
+          "releasedPressed": "",
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 27,
+        "lines": 54,
+        "arrows": 0,
+        "surfaces": 0
+      },
+      "observedCounts": {
+        "points": 27,
+        "lines": 54,
+        "arrows": "",
+        "surfaces": 0
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "pointer-offset",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-c327860ecff6978c",
+      "kind": "expansion-flash-c327860ecff6978c",
+      "type": "al2o3_rubby",
+      "sha256": "155bce15dba1dd3afe110479aabff8a377252e422f4159f3f3d10b4352f12e7c",
+      "sha256Verified": true,
+      "diagnosticSha256": "061283ba899d71704049cef764b9e1fe67d075a2a02d898391b671395fcaec33",
+      "comparisons": 5421,
+      "maxAbsoluteError": 0.0499512788567813,
+      "maxGeometryError": 3.979039320256561e-13,
+      "maxProjectionError": 0.0499512788567813,
+      "maxScaleError": 5.115907697472721e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.999200213310579,
+            -0.000799786689420889,
+            -0.0399786700797399,
+            -0.000799786689420889,
+            0.999200213310579,
+            -0.0399786700797399,
+            0.0399786700797399,
+            0.0399786700797399,
+            0.998400426621158
+          ],
+          "width": 400,
+          "height": 400,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "right pointer offset",
+          "camera": [
+            0.999455117663268,
+            -0.000180404479568612,
+            -0.0330065937492245,
+            -0.00179892025916663,
+            0.998201079740833,
+            -0.059928025915557,
+            0.0329580288033698,
+            0.059954748422942,
+            0.997656853070703
+          ],
+          "width": 400,
+          "height": 400,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "right continued hover",
+          "camera": [
+            0.999886422789552,
+            0.00089875194170955,
+            -0.0150443931768856,
+            -0.00179892025916663,
+            0.998201079740833,
+            -0.059928025915557,
+            0.0149634690835584,
+            0.0599482831212186,
+            0.998089323629806
+          ],
+          "width": 400,
+          "height": 400,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "up pointer offset",
+          "camera": [
+            0.99998059706647,
+            0.00143824280690567,
+            -0.00606110123776809,
+            -0.00192375854828798,
+            0.996722383905281,
+            -0.0808751418868722,
+            0.00592491718372322,
+            0.0808852327671881,
+            0.996705811399013
+          ],
+          "width": 400,
+          "height": 400,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "up continued hover",
+          "camera": [
+            0.99998059706647,
+            0.00143824280690567,
+            -0.00606110123776809,
+            -0.00200651615396608,
+            0.995492350439478,
+            -0.0948206417896827,
+            0.00589740481143723,
+            0.0948309636886172,
+            0.995475920824999
+          ],
+          "width": 400,
+          "height": 400,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "diagonal pointer offset",
+          "camera": [
+            0.999636257281515,
+            -0.000542901696684599,
+            -0.026964020211245,
+            -0.00180179150181335,
+            0.99621925286867,
+            -0.0868559368216928,
+            0.0269092303046498,
+            0.086872927149588,
+            0.995855907173761
+          ],
+          "width": 400,
+          "height": 400,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        },
+        {
+          "name": "diagonal continued hover",
+          "camera": [
+            0.999161458583206,
+            -0.00168927584679868,
+            -0.0409087524741846,
+            -0.00146264957444961,
+            0.997038091547323,
+            -0.0768954137767359,
+            0.0409174820596655,
+            0.0768907689569202,
+            0.99619956299484
+          ],
+          "width": 400,
+          "height": 400,
+          "perspective": 1000,
+          "time": "",
+          "pressed": "",
+          "animated": true
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "pointer-offset",
+          "heldPressed": "",
+          "releasedPressed": "",
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "pointer-offset",
+          "heldPressed": "",
+          "releasedPressed": "",
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "pointer-offset",
+          "heldPressed": "",
+          "releasedPressed": "",
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 50,
+        "lines": 48,
+        "arrows": 0,
+        "surfaces": 2
+      },
+      "observedCounts": {
+        "points": 50,
+        "lines": 48,
+        "arrows": "",
+        "surfaces": 2
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "pointer-offset",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-f5d4401128ea0c06",
+      "kind": "expansion-flash-f5d4401128ea0c06",
+      "type": "wavefronta",
+      "sha256": "79bd844569c7f8dd28f12d0b034f98ced36955ee79b3c97e0a10a4892253e21b",
+      "sha256Verified": true,
+      "diagnosticSha256": "d750a958a38b66e27c9ffe252c8f12eeaf7b1ad6afbce01b17b3813c6b9cf04f",
+      "comparisons": 8967,
+      "maxAbsoluteError": 0.04973206214356907,
+      "maxGeometryError": 5.400124791776761e-13,
+      "maxProjectionError": 0.04973206214356907,
+      "maxScaleError": 4.689582056016661e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.943305066428134,
+            -0.0566949335718662,
+            -0.327049287047527,
+            -0.0566949335718662,
+            0.943305066428134,
+            -0.327049287047527,
+            0.327049287047527,
+            0.327049287047527,
+            0.886610132856268
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 4,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "right held",
+          "camera": [
+            0.978739911314091,
+            -0.0121614198904575,
+            -0.204744440381501,
+            -0.0566949335718662,
+            0.943305066428134,
+            -0.327049287047527,
+            0.197113851639523,
+            0.331704162646871,
+            0.922560826165175
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 11,
+          "pressed": true,
+          "animated": false
+        },
+        {
+          "name": "right released",
+          "camera": [
+            0.982926865688577,
+            -0.00469562770504087,
+            -0.183936749422419,
+            -0.0566949335718662,
+            0.943305066428134,
+            -0.327049287047527,
+            0.175044169325664,
+            0.331893812433239,
+            0.926933674031545
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 13,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "up held",
+          "camera": [
+            0.982926865688577,
+            -0.00469562770504087,
+            -0.183936749422419,
+            -0.0380368059757147,
+            0.972894723798708,
+            -0.228098789553564,
+            0.180022160021471,
+            0.231200794732827,
+            0.956105754828468
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 0,
+          "pressed": true,
+          "animated": false
+        },
+        {
+          "name": "up released",
+          "camera": [
+            0.982926865688577,
+            -0.00469562770504087,
+            -0.183936749422419,
+            -0.0348807547366473,
+            0.976791560491735,
+            -0.211332866116758,
+            0.180660204961226,
+            0.214140604352788,
+            0.959950879946881
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 2,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "diagonal held",
+          "camera": [
+            0.958736422233601,
+            -0.0309329823575086,
+            -0.282608604407554,
+            -0.0521596429187732,
+            0.958050592882829,
+            -0.281812762534711,
+            0.279470650218053,
+            0.284924923583967,
+            0.916904544425084
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 9,
+          "pressed": true,
+          "animated": false
+        },
+        {
+          "name": "diagonal released",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 11,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 12",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 12,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 13",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 13,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 14",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 14,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 15",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 15,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 16",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 16,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 17",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 17,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 18",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 18,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 19",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 19,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 0",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 0,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 1",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 1,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 2",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 2,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 3",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 3,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 4",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 4,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 5",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 5,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 6",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 6,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 7",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 7,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 8",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 8,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 9",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 9,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 10",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 10,
+          "pressed": false,
+          "animated": false
+        },
+        {
+          "name": "natural phase 11",
+          "camera": [
+            0.953704966724825,
+            -0.0360188304918982,
+            -0.298579102239923,
+            -0.0557535397107563,
+            0.954417844215408,
+            -0.293220260986403,
+            0.295530673964858,
+            0.296292461080617,
+            0.90822486106287
+          ],
+          "width": 280,
+          "height": 280,
+          "perspective": 700,
+          "time": 11,
+          "pressed": false,
+          "animated": false
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "natural full 20-step phase cycle",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 3,
+        "lines": 3,
+        "arrows": 0,
+        "surfaces": 22
+      },
+      "observedCounts": {
+        "points": 3,
+        "lines": 3,
+        "arrows": "",
+        "surfaces": 22
+      },
+      "absentZeroCounters": [
+        "arrows"
+      ],
+      "originalInteraction": "press-drag",
+      "naturalPhases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    },
+    {
+      "id": "flash-530f19839bfab5f5",
+      "kind": "expansion-flash-530f19839bfab5f5",
+      "type": "wavevector",
+      "sha256": "c76e3058f3e5e2c73e058ec24982ba1dabc6c46bdd7879e32939c4230cf58830",
+      "sha256Verified": true,
+      "diagnosticSha256": "3249e8f37d3f55ad6cea679bdbc918753bba78baae1623f1c133ff9268456bba",
+      "comparisons": 816,
+      "maxAbsoluteError": 0.04950958997321209,
+      "maxGeometryError": 4.440892098500626e-14,
+      "maxProjectionError": 0.04950958997321209,
+      "maxScaleError": 4.831690603168681e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "camera": [
+            0.961347028003078,
+            -0.0414138985681307,
+            -0.272207238616165,
+            -0.0414138985681307,
+            0.95562796581986,
+            -0.291650612803034,
+            0.272207238616165,
+            0.291650612803034,
+            0.916974993822938
+          ],
+          "width": 230,
+          "height": 230,
+          "perspective": 1000,
+          "time": 6,
+          "pressed": false,
+          "animated": ""
+        },
+        {
+          "name": "right held",
+          "camera": [
+            0.996031465807448,
+            0.0164713833901332,
+            -0.0874643507417957,
+            -0.0414138985681307,
+            0.95562796581986,
+            -0.291650612803034,
+            0.0787794905216908,
+            0.294115427123794,
+            0.95251766776314
+          ],
+          "width": 230,
+          "height": 230,
+          "perspective": 1000,
+          "time": 16,
+          "pressed": true,
+          "animated": ""
+        },
+        {
+          "name": "right released",
+          "camera": [
+            0.997551744961402,
+            0.0230842530117652,
+            -0.0660123729868222,
+            -0.0414138985681307,
+            0.95562796581986,
+            -0.291650612803034,
+            0.0563507331793571,
+            0.293670407439847,
+            0.954244353750267
+          ],
+          "width": 230,
+          "height": 230,
+          "perspective": 1000,
+          "time": 17,
+          "pressed": false,
+          "animated": ""
+        },
+        {
+          "name": "up held",
+          "camera": [
+            0.997551744961402,
+            0.0230842530117652,
+            -0.0660123729868222,
+            -0.0332684384781549,
+            0.986940915546451,
+            -0.157609771973566,
+            0.0615120079796436,
+            0.159420031624709,
+            0.985292609528301
+          ],
+          "width": 230,
+          "height": 230,
+          "perspective": 1000,
+          "time": 25,
+          "pressed": true,
+          "animated": ""
+        },
+        {
+          "name": "up released",
+          "camera": [
+            0.997551744961402,
+            0.0230842530117652,
+            -0.0660123729868222,
+            -0.0321869391823552,
+            0.989579502232553,
+            -0.140343898005021,
+            0.0620847571512838,
+            0.142125036584203,
+            0.987899770677879
+          ],
+          "width": 230,
+          "height": 230,
+          "perspective": 1000,
+          "time": 26,
+          "pressed": false,
+          "animated": ""
+        },
+        {
+          "name": "diagonal held",
+          "camera": [
+            0.979767175159855,
+            -0.00335974767129621,
+            -0.200112454821947,
+            -0.0448852294127713,
+            0.970701483023268,
+            -0.236059202398448,
+            0.195042556022637,
+            0.240265151347452,
+            0.950910646900193
+          ],
+          "width": 230,
+          "height": 230,
+          "perspective": 1000,
+          "time": 34,
+          "pressed": true,
+          "animated": ""
+        },
+        {
+          "name": "diagonal released",
+          "camera": [
+            0.976209081593912,
+            -0.00766971566094082,
+            -0.21669564941469,
+            -0.0474267248170164,
+            0.967622934459236,
+            -0.247904341393265,
+            0.211581035980792,
+            0.252283634368498,
+            0.94423854668358
+          ],
+          "width": 230,
+          "height": 230,
+          "perspective": 1000,
+          "time": 35,
+          "pressed": false,
+          "animated": ""
+        }
+      ],
+      "controls": [
+        {
+          "name": "right",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "up",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        },
+        {
+          "name": "diagonal",
+          "interaction": "press-drag",
+          "heldPressed": true,
+          "releasedPressed": false,
+          "cameraChanged": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "geometryCounts": {
+        "points": 6,
+        "lines": 2,
+        "arrows": 4,
+        "surfaces": 2
+      },
+      "observedCounts": {
+        "points": 6,
+        "lines": 2,
+        "arrows": 4,
+        "surfaces": 2
+      },
+      "absentZeroCounters": [],
+      "originalInteraction": "press-drag",
+      "passed": true,
+      "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite."
+    }
+  ]
+}

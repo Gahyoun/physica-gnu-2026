@@ -3,6 +3,11 @@ import {expansionSpecs,structureData} from './expansion-specs.mjs';
 export {expansionSpecs,structureData};
 export const defaults=s=>Object.fromEntries(s.controls.map(c=>[c.key,c.initial]));
 const tau=Math.PI*2,sin=Math.sin,cos=Math.cos;
+export function structureFaces(type,n=0){
+ if(type!=='wavefronta')return structureData[type].faces;
+ const phase=((n%20)+20)%20,a=55*Math.PI/180,dx=phase*sin(a),dy=-phase*cos(a);
+ return structureData[type].faces.map(face=>face.map(([x,y,z])=>[x+dx,y+dy,z]));
+}
 export function hsv(h,s,v,original=true){h=h===1?0:h>=0&&h<1?h:((h%1)+1)%1;const q=h*6,i=Math.floor(q),f=q-i,a=v*(1-s),b=v*(1-s*f),c=v*(1-s*(1-f)),rgb=[[v,c,a],[b,v,a],[a,v,c],[a,b,v],[c,a,v],[v,a,b]][i];return rgb.map(x=>Math.min(255,Math.max(0,original?Math.floor(x*256):Math.round(x*255))));}
 export function colorValue(type,p){return type==='RGBmodel'?[p.r,p.g,p.b]:type==='CMYmodel'?[255-p.c,255-p.m,255-p.y]:hsv(p.h,p.s,p.v);}
 // Complex characteristic matrices at normal incidence; imaginary entries stored separately.
@@ -57,4 +62,4 @@ export function moireProfile(type,p,n,x,g=moireGeometry(type,p,n)){ // Supplemen
  if(type==='moire3'){const a1=Math.atan2(x-110,y-110),r=Math.hypot(x-110,y-110);a=r<=110&&((a1/tau*100%1)+1)%1<.52?1:0;b=r<=100&&(((a1+n/100)/tau*p.divisions%1)+1)%1<.5?1:0;}
  return [a,b,a*b];
 }
-export function modelValues(s,p,n){const t=s.type;if(s.group==='structure')return {nodes:structureData[t].nodes.length,lines:structureData[t].lines.length,planes:structureData[t].faces.length};if(s.group==='angular')return angularState(t,n);if(s.group==='polarization')return polarization(t,p,n,p.probe);if(s.group==='molecule')return moleculeState(t,p,n);if(s.group==='film')return filmValue(t,p,p.probe);if(s.group==='color')return {rgb:colorValue(t,p)};if(s.group==='complex')return {real:p.real,imag:p.imag,norm:Math.hypot(p.real,p.imag),phase:Math.atan2(p.imag,p.real)};if(s.group==='moire'){const g=moireGeometry(t,p,n);return {lines:g.lines.length,circles:g.circles.length,sectors:g.polys.length,sources:g.sources};}return {values:waveValue(t,p,n,p.probe)};}
+export function modelValues(s,p,n){const t=s.type;if(s.group==='structure')return {nodes:structureData[t].nodes.length,lines:structureData[t].lines.length,planes:structureData[t].faces.length,...(t==='wavefronta'?{phase:n%20,planeCentre:structureFaces(t,n)[11].reduce((sum,q)=>sum.map((v,i)=>v+q[i]/4),[0,0,0])}:{})};if(s.group==='angular')return angularState(t,n);if(s.group==='polarization')return polarization(t,p,n,p.probe);if(s.group==='molecule')return moleculeState(t,p,n);if(s.group==='film')return filmValue(t,p,p.probe);if(s.group==='color')return {rgb:colorValue(t,p)};if(s.group==='complex')return {real:p.real,imag:p.imag,norm:Math.hypot(p.real,p.imag),phase:Math.atan2(p.imag,p.real)};if(s.group==='moire'){const g=moireGeometry(t,p,n);return {lines:g.lines.length,circles:g.circles.length,sectors:g.polys.length,sources:g.sources};}return {values:waveValue(t,p,n,p.probe)};}

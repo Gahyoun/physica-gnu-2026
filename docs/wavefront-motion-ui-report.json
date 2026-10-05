@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-05T23:36:29.555Z",
+  "id": "flash-f5d4401128ea0c06",
+  "nativeModelHashes": {
+    "assets/native-expansion.mjs": "5ed8b352104c62ce6056991f8ea36089ac87ce649fe3dab12624867caa94da76",
+    "assets/expansion-physics.mjs": "2fcf3569d1d837e5c1ff6bb813eec822d1f7502f962c0377a387464a6472091d",
+    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
+  },
+  "passed": true,
+  "planes": 22,
+  "csvPlaneVertices": 88,
+  "csvPhase": 7,
+  "svgMoves": true,
+  "svgNodesRetained": true,
+  "phase20ReturnsToStart": true,
+  "pauseStopsPlanes": true,
+  "progressPositionStable": true,
+  "scope": "Targeted HTML DOM motion, CSV numeric vertices, source 20-step wrap and playback controls; independent of original runtime audit."
+}

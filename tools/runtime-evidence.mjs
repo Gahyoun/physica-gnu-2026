@@ -5,12 +5,21 @@ import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root)));
 
+export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular'];
+
 export function runtimeEvidence(){
   const manifest=read('src/flash-manifest.json');
   const startup=read('docs/flash-runtime-report.json');
   const slider=read('docs/flash-slider-runtime-report.json');
   const timeline=read('docs/timeline-runtime-report.json');
-  const groups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker'].map(name=>({name,report:read(`docs/${name}-runtime-report.json`)}));
+  const groups=numericalGroups.map(name=>({name,report:read(`docs/${name}-runtime-report.json`)}));
+  const nativeModelHashes={};
+  for(const g of groups)for(const [file,hash]of Object.entries(g.report.nativeModelHashes)){
+    if(nativeModelHashes[file]&&nativeModelHashes[file]!==hash)throw Error('Conflicting runtime evidence hashes: '+file+' in '+g.name);
+    nativeModelHashes[file]=hash;
+  }
+  const numericalIDs=groups.flatMap(g=>g.report.results.map(r=>r.id));
+  if(new Set(numericalIDs).size!==numericalIDs.length)throw Error('Overlapping numerical runtime groups');
   const endpoints=slider.results.flatMap(r=>r.sliders.flatMap(s=>s.endpoints));
   const files=manifest.files.map(r=>{
     const original=startup.results.find(x=>x.id===r.id);
@@ -54,7 +63,7 @@ export function runtimeEvidence(){
   });
   return {
     date:new Date().toISOString(),engine:startup.engine,
-    nativeModelHashes:Object.assign({},...groups.map(g=>g.report.nativeModelHashes)),total:manifest.files.length,originalPlaybackPassed:files.filter(r=>r.originalPlayback?.passed).length,
+    nativeModelHashes,total:manifest.files.length,originalPlaybackPassed:files.filter(r=>r.originalPlayback?.passed).length,
     originalPointerProbes:startup.clickProbes,
     numericalFiles:files.filter(r=>r.numerical).length,
     numericalFilesPassed:files.filter(r=>r.numerical?.passed).length,

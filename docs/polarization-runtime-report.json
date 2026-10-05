@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-05T23:15:12.729Z",
+  "date": "2026-10-05T23:38:11.506Z",
   "nativeModelHashes": {
-    "assets/expansion-physics.mjs": "9992851933fc34e69467cb0f3b843901a607148a0146b348445ce85e9ef016ec",
-    "assets/expansion-specs.mjs": "2eac11a6ed566a49a5e8d58257cf41779075881891df0404e079e5df08b216c4"
+    "assets/expansion-physics.mjs": "2fcf3569d1d837e5c1ff6bb813eec822d1f7502f962c0377a387464a6472091d",
+    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
   },
   "method": "Actual Ruffle AVM1 display telemetry with read-only observer and original pointer controls, versus independent HTML polarization equations",
   "files": 5,

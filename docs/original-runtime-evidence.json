@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-05T23:16:30.465Z",
+  "date": "2026-10-05T23:41:48.717Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -14,15 +14,15 @@
     "assets/optics-specs.mjs": "5d9a5635182da8a00f22b6535684b53e2b9a7891c8683a7dfb83584b9fb53b81",
     "assets/native-refraction.mjs": "fe90d6a1581a33b8b6c9ae9e566eb2e4acd1b061fded4a8b2e009a6a7510bebd",
     "assets/refraction-specs.mjs": "83711da60628a5d9df4e3850f46db0f2c9b72180ab5ad6b96c51dc8c8a79d272",
-    "assets/expansion-physics.mjs": "9992851933fc34e69467cb0f3b843901a607148a0146b348445ce85e9ef016ec",
-    "assets/expansion-specs.mjs": "2eac11a6ed566a49a5e8d58257cf41779075881891df0404e079e5df08b216c4"
+    "assets/expansion-physics.mjs": "2fcf3569d1d837e5c1ff6bb813eec822d1f7502f962c0377a387464a6472091d",
+    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 78,
-  "numericalFilesPassed": 78,
-  "numericalComparisons": 210927,
+  "numericalFiles": 92,
+  "numericalFilesPassed": 92,
+  "numericalComparisons": 355930,
   "rootTimelineFiles": 29,
   "rootTimelineFilesPassed": 29,
   "rootTimelineFrames": 805,
@@ -102,7 +102,7 @@
         "report": "docs/fundamental-runtime-report.json",
         "sha256": "9e65043095659d6a589b85adb63d55eecb83107b30922d9293854a9d4deb6543",
         "passed": true,
-        "comparisons": 15,
+        "comparisons": 18,
         "scope": "Consecutive sampled actual AVM1 steps in steady sample windows, with live parameter values and live state as seed. MovieClip display coordinates have 0.05 px twip quantization; internal numeric states use relative tolerance 1e-8. This does not verify every control combination or all initializations.",
         "maxAbsoluteError": 7.105427357601002e-14
       },
@@ -843,7 +843,7 @@
         "report": "docs/fundamental-runtime-report.json",
         "sha256": "abfcd39b929a050d603d8b06e1ea24c4e2509dee2e56b704637b92426b85cffe",
         "passed": true,
-        "comparisons": 100,
+        "comparisons": 104,
         "scope": "Consecutive sampled actual AVM1 steps in steady sample windows, with live parameter values and live state as seed. MovieClip display coordinates have 0.05 px twip quantization; internal numeric states use relative tolerance 1e-8. This does not verify every control combination or all initializations.",
         "maxAbsoluteError": 0
       },
@@ -868,7 +868,7 @@
         "report": "docs/fundamental-runtime-report.json",
         "sha256": "327d923cc65d6330ca5fd0d5cb4a2390910f52810f20f758e4aee1d81cc4a911",
         "passed": true,
-        "comparisons": 50,
+        "comparisons": 52,
         "scope": "Consecutive sampled actual AVM1 steps in steady sample windows, with live parameter values and live state as seed. MovieClip display coordinates have 0.05 px twip quantization; internal numeric states use relative tolerance 1e-8. This does not verify every control combination or all initializations.",
         "maxAbsoluteError": 0
       },
@@ -931,7 +931,7 @@
         "passed": true,
         "comparisons": 92,
         "scope": "Consecutive sampled actual AVM1 steps in steady sample windows, with live parameter values and live state as seed. MovieClip display coordinates have 0.05 px twip quantization; internal numeric states use relative tolerance 1e-8. This does not verify every control combination or all initializations.",
-        "maxAbsoluteError": 8.952838470577262e-13
+        "maxAbsoluteError": 9.663381206337363e-13
       },
       "sliders": null,
       "rootTimeline": null
@@ -1406,9 +1406,9 @@
         "report": "docs/fundamental-runtime-report.json",
         "sha256": "b6dd4a466ae16e08a8819cb01c7351af6345d0383002b9e7d4c64771099b0fe3",
         "passed": true,
-        "comparisons": 72,
+        "comparisons": 76,
         "scope": "Consecutive sampled actual AVM1 steps in steady sample windows, with live parameter values and live state as seed. MovieClip display coordinates have 0.05 px twip quantization; internal numeric states use relative tolerance 1e-8. This does not verify every control combination or all initializations.",
-        "maxAbsoluteError": 6.252776074688882e-13
+        "maxAbsoluteError": 8.526512829121202e-13
       },
       "sliders": null,
       "rootTimeline": null
@@ -1431,7 +1431,7 @@
         "report": "docs/fundamental-runtime-report.json",
         "sha256": "b883a807ffac0f9b0e8c7d78182c295b02cc25e208f78c4ca3b025a319732abc",
         "passed": true,
-        "comparisons": 96,
+        "comparisons": 92,
         "scope": "Consecutive sampled actual AVM1 steps in steady sample windows, with live parameter values and live state as seed. MovieClip display coordinates have 0.05 px twip quantization; internal numeric states use relative tolerance 1e-8. This does not verify every control combination or all initializations.",
         "maxAbsoluteError": 8.881784197001252e-15
       },
@@ -1483,7 +1483,7 @@
         "report": "docs/fundamental-runtime-report.json",
         "sha256": "145adc9a8c9bce265f9ac75617c1206f9496805023fd64139847c2f7002dc4f1",
         "passed": true,
-        "comparisons": 112,
+        "comparisons": 116,
         "scope": "Consecutive sampled actual AVM1 steps in steady sample windows, with live parameter values and live state as seed. MovieClip display coordinates have 0.05 px twip quantization; internal numeric states use relative tolerance 1e-8. This does not verify every control combination or all initializations.",
         "maxAbsoluteError": 7.105427357601002e-15
       },
@@ -1990,7 +1990,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/angular-runtime-report.json",
+        "sha256": "8b3b1a8463266eafbcd4e1e3e0f876895e0de9476e905481d14561c76df0bd3b",
+        "passed": true,
+        "comparisons": 1738,
+        "scope": "Read-only actual Ruffle clip-binding discovery followed by point and velocity-arrow endpoints at all 72 naturally played orbital phases and three real press-drag camera settings. Energy model phase repeats within its longer 720-step root loop; the complete 720-step timeline is outside scope. Arrow artwork, fixed angular-momentum/magnetic-moment symbols, projected pixels, wall-clock rate and all camera paths are outside scope. HTML graphs and playback buttons are remaster additions.",
+        "maxAbsoluteError": 5.115907697472721e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2231,7 +2238,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/angular-runtime-report.json",
+        "sha256": "1f88826169c5337fb22fe10610417d21bb347a9312c2c24687d5ea1bd175bc13",
+        "passed": true,
+        "comparisons": 869,
+        "scope": "Read-only actual Ruffle clip-binding discovery followed by point and velocity-arrow endpoints at all 72 naturally played orbital phases and three real press-drag camera settings. Energy model phase repeats within its longer 720-step root loop; the complete 720-step timeline is outside scope. Arrow artwork, fixed angular-momentum/magnetic-moment symbols, projected pixels, wall-clock rate and all camera paths are outside scope. HTML graphs and playback buttons are remaster additions.",
+        "maxAbsoluteError": 5.115907697472721e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2249,7 +2263,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/angular-runtime-report.json",
+        "sha256": "fc815e6eaf0664202546d532a27d42671fcd3b87f093f9219319dfe5aeebabe8",
+        "passed": true,
+        "comparisons": 869,
+        "scope": "Read-only actual Ruffle clip-binding discovery followed by point and velocity-arrow endpoints at all 72 naturally played orbital phases and three real press-drag camera settings. Energy model phase repeats within its longer 720-step root loop; the complete 720-step timeline is outside scope. Arrow artwork, fixed angular-momentum/magnetic-moment symbols, projected pixels, wall-clock rate and all camera paths are outside scope. HTML graphs and playback buttons are remaster additions.",
+        "maxAbsoluteError": 4.689582056016661e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3695,7 +3716,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "0012b239d02d7cb2812f0b8ebf6c36c8a2e74386cb37da4bb6750b3edf7f6429",
+        "passed": true,
+        "comparisons": 10587,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.04997420684435383
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3713,7 +3741,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "e7ae2068191a58fa7aa9e584233ba34fcd568fd22281f6a67315a269a96db230",
+        "passed": true,
+        "comparisons": 7969,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.049915575724170935
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3731,7 +3766,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "5b8164e3e69c6e74912bfce0a060d589aa17497b92dcce13d52c996ff8559aef",
+        "passed": true,
+        "comparisons": 2383,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.04993633874414627
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3767,7 +3809,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "c43d121e5a155384338405163b7b082861277313bd229180bef39222dcc55933",
+        "passed": true,
+        "comparisons": 7003,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.049903089568857695
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3911,7 +3960,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "66b66fb15413c147dbf270d8b404e4005a5c12bf801e600c65380a6746811b50",
+        "passed": true,
+        "comparisons": 43907,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.049996875234228355
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3929,7 +3985,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "cd7dab95a35eb3b82063e3498dcc382d3ec93b26fc1ab089ef3cbc1a44fecb0a",
+        "passed": true,
+        "comparisons": 43907,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.049989349485969115
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6831,7 +6894,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "155bce15dba1dd3afe110479aabff8a377252e422f4159f3f3d10b4352f12e7c",
+        "passed": true,
+        "comparisons": 5421,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.0499512788567813
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -8036,7 +8106,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "18a5279a374eafba2b9c0e26f66b8ba75ab7cd246a174a943cd8c8ca7d9651c4",
+        "passed": true,
+        "comparisons": 6394,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.049940598297126826
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -8144,7 +8221,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "76a7d3dee9bce309f3b1906707b80e2cf64fe702df28545f75d40aeb1b9a25fb",
+        "passed": true,
+        "comparisons": 4161,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.0498480815663811
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10498,7 +10582,7 @@
         "report": "docs/wave-runtime-report.json",
         "sha256": "d8d78f6313bb537d10a130e8270f1f84b220069a35c643d1afc82fbeebcf147b",
         "passed": true,
-        "comparisons": 32,
+        "comparisons": 31,
         "scope": "Actual original projection versus original phase counter, including 0.05 px display quantization.",
         "maxAbsoluteError": 0.04999999999998295
       },
@@ -10691,7 +10775,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "79bd844569c7f8dd28f12d0b034f98ced36955ee79b3c97e0a10a4892253e21b",
+        "passed": true,
+        "comparisons": 8967,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.04973206214356907
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10727,7 +10818,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/structure-runtime-report.json",
+        "sha256": "c76e3058f3e5e2c73e058ec24982ba1dabc6c46bdd7879e32939c4230cf58830",
+        "passed": true,
+        "comparisons": 816,
+        "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
+        "maxAbsoluteError": 0.04950958997321209
+      },
       "sliders": null,
       "rootTimeline": null
     },

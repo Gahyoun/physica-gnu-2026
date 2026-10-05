@@ -153,7 +153,7 @@
         1360
       ],
       "darkMode": true,
-      "csvRows": 46
+      "csvRows": 66
     },
     {
       "id": "flash-877ba0c94ae79fe3",
@@ -973,14 +973,14 @@
       "id": "flash-f5d4401128ea0c06",
       "kind": "expansion-flash-f5d4401128ea0c06",
       "type": "wavefronta",
-      "states": 9,
+      "states": 12,
       "svg": true,
       "appliedParameters": true,
       "originalArtworkNotLoaded": true,
       "sourceRuntimeExhaustive": false,
-      "playPause": false,
-      "offscreenPause": false,
-      "stableLowerProgress": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
       "curveAlpha": 0.65,
       "threeDCamera": true,
       "widths": [
@@ -989,7 +989,7 @@
         1360
       ],
       "darkMode": true,
-      "csvRows": 3
+      "csvRows": 91
     },
     {
       "id": "flash-8be3cc20b646c2de",
