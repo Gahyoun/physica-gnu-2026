@@ -1,0 +1,266 @@
+{
+  "environment": "Local headless Chromium, no throttle; synchronous 100-seek workload, first 10 excluded. Not a universal FPS guarantee.",
+  "results": [
+    {
+      "id": "flash-31cea67f9129e363",
+      "updates": 100,
+      "averageMs": 0.0399999996026357,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-f47d0eca9fde5de1",
+      "updates": 100,
+      "averageMs": 0.13333333333333333,
+      "p95Ms": 0.20000004768371582,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-86c6937d3223e221",
+      "updates": 100,
+      "averageMs": 0.4044444441795349,
+      "p95Ms": 0.6000000238418579,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-1b925babd506e814",
+      "updates": 100,
+      "averageMs": 0.0533333334657881,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-8b751b3b05357028",
+      "updates": 100,
+      "averageMs": 0.22777777777777777,
+      "p95Ms": 0.30000001192092896,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-71bec128658be611",
+      "updates": 100,
+      "averageMs": 0.016666666004392837,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-58f17839e11262fb",
+      "updates": 100,
+      "averageMs": 0.03777777817514208,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-7c3ee7209b3bb2ab",
+      "updates": 100,
+      "averageMs": 0.06111111111111111,
+      "p95Ms": 0.19999998807907104,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-e2974791f44c4535",
+      "updates": 100,
+      "averageMs": 0.15333333412806194,
+      "p95Ms": 0.20000004768371582,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-c90349afd6430c0c",
+      "updates": 100,
+      "averageMs": 0.12777777844005161,
+      "p95Ms": 0.20000004768371582,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-c1c45d5f38d3a3e9",
+      "updates": 100,
+      "averageMs": 0.22555555568801033,
+      "p95Ms": 0.30000001192092896,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-a294f23b6da56bc6",
+      "updates": 100,
+      "averageMs": 0.007777777645323012,
+      "p95Ms": 0.09999996423721313,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-161c9fe8dc555146",
+      "updates": 100,
+      "averageMs": 0.006666666931576199,
+      "p95Ms": 0.09999996423721313,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-4ef8a415791f9f08",
+      "updates": 100,
+      "averageMs": 0.054444445504082575,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-6220ee45ef766518",
+      "updates": 100,
+      "averageMs": 0.05666666626930237,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-9f71f89051b20d51",
+      "updates": 100,
+      "averageMs": 0.05222222142749362,
+      "p95Ms": 0.19999998807907104,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-5947604c1e72cf39",
+      "updates": 100,
+      "averageMs": 0.05222222275204129,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-32be025121f95f04",
+      "updates": 100,
+      "averageMs": 0.058888889021343656,
+      "p95Ms": 0.19999998807907104,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-e219d169019985a6",
+      "updates": 100,
+      "averageMs": 0.052222222089767456,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-d1d923dd5fa3eb34",
+      "updates": 100,
+      "averageMs": 0.05111111203829447,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-8c349a23e0f06709",
+      "updates": 100,
+      "averageMs": 0.055555554893281726,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-1aa6ef7f6b40a090",
+      "updates": 100,
+      "averageMs": 0.04333333240614997,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-217cd7a186a32dda",
+      "updates": 100,
+      "averageMs": 0.05444444417953491,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-127d794bbbed8817",
+      "updates": 100,
+      "averageMs": 0.04333333373069763,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-740d69947e42efa5",
+      "updates": 100,
+      "averageMs": 0.04777777791023254,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-9acfa71f457f7af4",
+      "updates": 100,
+      "averageMs": 0.06555555595291986,
+      "p95Ms": 0.19999998807907104,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-7ffd51a2745cde34",
+      "updates": 100,
+      "averageMs": 0.04999999933772617,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-daf828eb53ee8563",
+      "updates": 100,
+      "averageMs": 0.035555555423100786,
+      "p95Ms": 0.10000002384185791,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    },
+    {
+      "id": "flash-828bb6f008342a30",
+      "updates": 100,
+      "averageMs": 0.11333333386315239,
+      "p95Ms": 0.19999998807907104,
+      "sameSVGRoot": true,
+      "rendered": true,
+      "canvasOrIframe": 0
+    }
+  ]
+}

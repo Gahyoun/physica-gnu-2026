@@ -6,7 +6,11 @@ import {waveSpecs} from '../assets/native-waves.mjs';
 import {chainSpecs} from '../assets/native-chain.mjs';
 const timelines=JSON.parse(fs.readFileSync(new URL('../src/native-timelines.json',import.meta.url)));
 const timelineSpecs=Object.fromEntries(timelines.map(r=>['timeline-'+r.id,{...r}]));
-const nativeSpecs={...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
+const analytics=JSON.parse(fs.readFileSync(new URL('../src/native-analytic.json',import.meta.url)));
+const analyticSpecs=Object.fromEntries(analytics.map(r=>['analytic-'+r.id,{...r}]));
+fs.writeFileSync(new URL('../assets/analytic-specs.mjs',import.meta.url),'export const analyticSpecs='+JSON.stringify(analyticSpecs)+';\n');
+fs.writeFileSync(new URL('../assets/timeline-specs.mjs',import.meta.url),'export const timelineSpecs='+JSON.stringify(Object.fromEntries(timelines.map(r=>[r.id,r])))+';\n');
+const nativeSpecs={...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
 const quantumNative={distributionftn:'distribution-comparison.html#distributions',distributionftnx:'distribution-comparison.html#scaled-distributions',fddistftn:'distribution-comparison.html#fermi-edge',mode1dim:'density-of-states.html#mode-1d',mode2dim:'density-of-states.html#mode-2d',mode3dim:'density-of-states.html#mode-3d',grblackbody:'blackbody.html#blackbody',solidosc:'heat-capacity.html#lattice',freeelectronftn:'free-electrons.html#free-electrons'};
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function flash(root){
@@ -40,7 +44,7 @@ export function flash(root){
    const kind=spec?.[0]||(r.source.endsWith('/harmoniccircular.swf')?'harmonic':null);
    if(!kind){nativeHTML+=`<p><a href="${r.nativeHref}">${esc(r.title)} · 리마스터</a> · <a href="${r.href}">원본과 비교</a></p>`;continue;}
    const equations=kind==='potential'?`<div class="remaster-equations"><p>${math('u=(x-200)/200',false)} · 위치는 원본 눈금입니다.</p>${['u^2','|u|','u^4','u^8','2.5(u-0.6)^2(u+0.6)^2',String.raw`\begin{cases}4(u-0.5)^2&u>0.5\\(u-0.5)^2/2.25&u\le0.5\end{cases}`].map((eq,i)=>`<div data-potential-equation="${i+1}" ${i?'hidden':''}>${math('V/200='+eq,true)}</div>`).join('')}</div>`:'';
-   nativeHTML+=`<figure class="interactive" id="native-${kind}"><header class="figure-heading"><h3>${esc(spec?.[1].title||'조화진동과 시간 그래프')}</h3><a href="${r.href}">원본과 비교</a></header>${kind.startsWith('timeline-')?`<div data-flash-timeline="${r.id}" data-timeline-title="${esc(r.title)}" data-timeline-width="${r.width}" data-timeline-height="${r.height}" data-timeline-fps="${r.frameRate}" data-timeline-cycle="${spec[1].cycle}"></div>`:`<div data-flash-native="${kind}"></div>`}${equations}<figcaption>리마스터 애니메이션 · 정기수 교수님 원작 · ${kind.startsWith('timeline-')?'원본 벡터 그림과 프레임을 HTML Canvas로 옮겼습니다.':'움직임과 그래프를 같은 계산으로 연결합니다.'}</figcaption></figure>`;
+   nativeHTML+=`<figure class="interactive" id="native-${kind}"><header class="figure-heading"><h3>${esc(spec?.[1].title||'조화진동과 시간 그래프')}</h3><a href="${r.href}">원본과 비교</a></header>${kind.startsWith('timeline-')?`<div data-flash-timeline="${r.id}" data-timeline-title="${esc(r.title)}" data-timeline-width="${r.width}" data-timeline-height="${r.height}" data-timeline-fps="${r.frameRate}" data-timeline-cycle="${spec[1].cycle}"></div>`:`<div data-flash-native="${kind}"></div>`}${equations}<figcaption>리마스터 애니메이션 · 정기수 교수님 원작 · ${kind.startsWith('timeline-')?'새 SVG 도형과 텍스트로 다시 구성했습니다.':'움직임과 그래프를 같은 계산으로 연결합니다.'}</figcaption></figure>`;
   }
   return nativeHTML;
  };

@@ -31,4 +31,6 @@ for(const r of inventory){
  if(useSVG){const view=`<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${r.titles[0]}</title><style>html,body{margin:0;background:${background}}canvas{display:block;width:100%;height:auto}</style><canvas id="myCanvas" width="${r.width}" height="${r.height}" aria-label="${r.titles[0]}"></canvas><script src="../../remaster-palette.js"></script><script src="../../timeline-svg-renderer.js"></script><script>window.timelineMetadata=${JSON.stringify(metadata)};installSVGTimeline(timelineMetadata);</script></html>`;fs.writeFileSync(new URL('view.html',dest),view);}
  specs.push({...metadata,source:r.source.split('/').pop(),originalSource:r.source,lesson:r.lessons[0],sha256:r.sha256,format:useSVG?'svg-vector-timeline':'canvas-vector-timeline',spriteFrames:r.spriteFrames});
 }
-fs.writeFileSync(new URL('src/native-timelines.json',root),JSON.stringify(specs,null,2)+'\n');console.log('Converted '+specs.length+' vector timelines; no scripts or Flash runtime.');
+const current=JSON.parse(fs.readFileSync(new URL('src/native-timelines.json',root)));
+const merged=specs.map(s=>current.find(r=>r.id===s.id)?.format==='independent-svg-diagram'?{...s,originalExportFormat:s.format,format:'independent-svg-diagram'}:s);
+fs.writeFileSync(new URL('src/native-timelines.json',root),JSON.stringify(merged,null,2)+'\n');console.log('Converted '+specs.length+' vector timelines; no scripts or Flash runtime.');

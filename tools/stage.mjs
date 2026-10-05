@@ -7,11 +7,11 @@ const dest=path.join(root,'_site');
 await fs.rm(dest,{recursive:true,force:true});
 await fs.mkdir(dest,{recursive:true});
 for(const file of await fs.readdir(root))if(file.endsWith('.html'))await fs.copyFile(path.join(root,file),path.join(dest,file));
-for(const dir of ['assets','docs'])await fs.cp(path.join(root,dir),path.join(dest,dir),{recursive:true});
+for(const dir of ['assets','docs'])await fs.cp(path.join(root,dir),path.join(dest,dir),{recursive:true,filter:p=>!p.includes(path.sep+'timelines'+path.sep)&&!p.endsWith(path.sep+'timelines')&&!p.endsWith('timeline-svg-renderer.js')&&!p.endsWith('remaster-palette.js')});
 await fs.mkdir(path.join(dest,'vendor/katex'),{recursive:true});
 for(const file of ['katex.min.css','LICENSE'])await fs.copyFile(path.join(root,'vendor/katex',file),path.join(dest,'vendor/katex',file));
 await fs.cp(path.join(root,'vendor/katex/fonts'),path.join(dest,'vendor/katex/fonts'),{recursive:true});
-await fs.cp(path.join(root,'vendor/ffdec-canvas'),path.join(dest,'vendor/ffdec-canvas'),{recursive:true});
+// Historical FFDec diagnostic assets stay in the repository; the remaster doesn't ship them.
 await fs.mkdir(path.join(dest,'vendor/ruffle'),{recursive:true});
 for(const file of await fs.readdir(path.join(root,'vendor/ruffle')))
  if(file.endsWith('.js')||file.endsWith('.wasm')||file.startsWith('LICENSE')||file==='package.json')

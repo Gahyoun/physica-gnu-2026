@@ -1139,3 +1139,27 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 .remaster-legend i.chain-color-19{border-color:#aab0b3}[data-theme="dark"] .remaster-legend i.chain-color-19{border-color:#c3c7ca}
 
 .native-curve.wave-combined{stroke-width:3.5}
+/* Native SVG remaster: crisp, scalable shapes; GNU blue and neutral grey. */
+.timeline-native-stage svg{display:block;width:100%;height:auto;background:var(--ui-bg);border-block:1px solid var(--border)}
+.timeline-native-stage svg text{font-family:inherit;font-size:16px;fill:var(--ui-text);stroke:none}
+.timeline-native-stage svg path,.timeline-native-stage svg ellipse{fill:none;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.diagram-line,.diagram-orbit{stroke:var(--plot-muted);stroke-width:1.5;fill:none}
+.diagram-dashed{stroke:var(--plot-muted);stroke-width:1.5;stroke-dasharray:5 5;fill:none}
+.diagram-ray,.diagram-wave{stroke:var(--plot-action);stroke-width:2;stroke-opacity:.65;fill:none}
+.diagram-secondary{stroke:var(--plot-muted);stroke-dasharray:7 3}
+.diagram-electron{fill:var(--plot-action);stroke:var(--ui-bg);stroke-width:1}
+.diagram-nucleus{fill:var(--plot-muted);stroke:var(--ui-bg);stroke-width:1}
+.diagram-metal{fill:var(--plot-muted);fill-opacity:.25;stroke:var(--plot-muted);stroke-width:1.5}
+.diagram-glass{fill:var(--plot-action);fill-opacity:.08;stroke:var(--plot-muted);stroke-width:1.5}
+.timeline-native-stage svg path.diagram-glass{fill:var(--plot-action)}
+.diagram-cloud{fill:var(--plot-action);fill-opacity:.06;stroke:none}
+.diagram-vacancy{fill:var(--ui-bg);stroke:var(--plot-action);stroke-width:2}
+.diagram-leaf,.diagram-mirror{stroke:var(--plot-muted);stroke-width:4;fill:none}
+.timeline-native-stage svg .diagram-charge{fill:var(--ui-bg);font-size:12px}
+.timeline-native-stage svg .diagram-field{fill:var(--plot-muted);opacity:.35}
+.timeline-native-stage{aspect-ratio:auto;min-height:0}
+
+.timeline-native-stage{background:var(--ui-bg);border-color:var(--ui-line)}
+@media(max-width:600px){.timeline-native-stage{overflow:auto}.timeline-native-stage svg{min-width:600px}[data-analytic-scene]{overflow:auto}[data-analytic-scene] svg{min-width:560px}}
+.timeline-native-stage svg .diagram-charge{fill:var(--ui-text)}
+.timeline-native-stage svg .diagram-electron+.diagram-charge,.timeline-native-stage svg .diagram-nucleus+.diagram-charge{fill:var(--ui-bg)}

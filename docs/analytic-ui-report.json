@@ -1,0 +1,539 @@
+{
+  "results": [
+    {
+      "kind": "analytic-flash-4e2aa01bdcd918f5",
+      "id": "flash-4e2aa01bdcd918f5",
+      "states": 9,
+      "controls": [
+        "half"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-48261b9163199530",
+      "id": "flash-48261b9163199530",
+      "states": 9,
+      "controls": [
+        "Q"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-489c28f2d5c3293d",
+      "id": "flash-489c28f2d5c3293d",
+      "states": 9,
+      "controls": [
+        "width"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-6b1175cc8bfaae1f",
+      "id": "flash-6b1175cc8bfaae1f",
+      "states": 13,
+      "controls": [
+        "T",
+        "A"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-55be1d6879deae3d",
+      "id": "flash-55be1d6879deae3d",
+      "states": 13,
+      "controls": [
+        "T",
+        "A"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-6e51aa8032f59ffa",
+      "id": "flash-6e51aa8032f59ffa",
+      "states": 11,
+      "controls": [
+        "U",
+        "R"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-b5bbaa2b07617f5a",
+      "id": "flash-b5bbaa2b07617f5a",
+      "states": 8,
+      "controls": [
+        "T"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-f06496ed00440e3c",
+      "id": "flash-f06496ed00440e3c",
+      "states": 5,
+      "controls": [],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-4dec799b85744aef",
+      "id": "flash-4dec799b85744aef",
+      "states": 9,
+      "controls": [
+        "width"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-1209a261b94cf80e",
+      "id": "flash-1209a261b94cf80e",
+      "states": 8,
+      "controls": [
+        "n"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-c2d9375e2ad3a7be",
+      "id": "flash-c2d9375e2ad3a7be",
+      "states": 11,
+      "controls": [
+        "n",
+        "k"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-fb7365a95caba392",
+      "id": "flash-fb7365a95caba392",
+      "states": 11,
+      "controls": [
+        "l",
+        "m"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-11fe8e3398e06d3b",
+      "id": "flash-11fe8e3398e06d3b",
+      "states": 8,
+      "controls": [
+        "n"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-4870ee7f00d41eab",
+      "id": "flash-4870ee7f00d41eab",
+      "states": 5,
+      "controls": [],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-06f7597d6674e49b",
+      "id": "flash-06f7597d6674e49b",
+      "states": 5,
+      "controls": [],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-5746e144e65ebb06",
+      "id": "flash-5746e144e65ebb06",
+      "states": 11,
+      "controls": [
+        "k",
+        "L"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-a1841b7d02d2841f",
+      "id": "flash-a1841b7d02d2841f",
+      "states": 9,
+      "controls": [
+        "m"
+      ],
+      "playPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-63f0f814d900d37e",
+      "id": "flash-63f0f814d900d37e",
+      "states": 5,
+      "controls": [],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-81063489d20af602",
+      "id": "flash-81063489d20af602",
+      "states": 9,
+      "controls": [
+        "width"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-b3945a9acd6dfd3e",
+      "id": "flash-b3945a9acd6dfd3e",
+      "states": 9,
+      "controls": [
+        "distance"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-19c7704c53dfca0a",
+      "id": "flash-19c7704c53dfca0a",
+      "states": 14,
+      "controls": [
+        "d",
+        "b",
+        "wl"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-afdeaa47932f1e10",
+      "id": "flash-afdeaa47932f1e10",
+      "states": 9,
+      "controls": [
+        "amp"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-d9d8fe1d85953624",
+      "id": "flash-d9d8fe1d85953624",
+      "states": 9,
+      "controls": [
+        "amp"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-e652493a50449269",
+      "id": "flash-e652493a50449269",
+      "states": 8,
+      "controls": [
+        "R"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-5df0e84f9248399d",
+      "id": "flash-5df0e84f9248399d",
+      "states": 14,
+      "controls": [
+        "w0",
+        "z0",
+        "z"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-45d46c7ca4e8470d",
+      "id": "flash-45d46c7ca4e8470d",
+      "states": 11,
+      "controls": [
+        "w0",
+        "z0"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-989668ab4b30a4ab",
+      "id": "flash-989668ab4b30a4ab",
+      "states": 15,
+      "controls": [
+        "wx",
+        "wy",
+        "phase"
+      ],
+      "playPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-39380a9856082c2c",
+      "id": "flash-39380a9856082c2c",
+      "states": 16,
+      "controls": [
+        "Ax",
+        "Ay",
+        "phase"
+      ],
+      "playPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "analytic-flash-4be53bf71c29ce03",
+      "id": "flash-4be53bf71c29ce03",
+      "states": 18,
+      "controls": [
+        "shape",
+        "wavelength",
+        "phase",
+        "delta"
+      ],
+      "playPause": false,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "svgAlpha": 0.65,
+      "sourceRuntimeExhaustive": false
+    }
+  ],
+  "errors": [],
+  "states": 291,
+  "flashRuntimeRequested": false
+}

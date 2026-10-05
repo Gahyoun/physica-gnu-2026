@@ -1,3 +1,4 @@
+import './native-analytic.mjs';
 import {patchMarkup,frameBatch} from './render-utils.mjs';
 import './native-timelines.mjs';
 import './native-chain.mjs';

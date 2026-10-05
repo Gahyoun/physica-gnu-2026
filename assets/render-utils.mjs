@@ -3,7 +3,9 @@ const previous=new WeakMap();
 export function patchMarkup(host,markup){
  if(previous.get(host)===markup)return;
  previous.set(host,markup);
- const template=document.createElement('template');template.innerHTML=markup;
+ const template=document.createElement('template'),isSVG=host.namespaceURI==='http://www.w3.org/2000/svg';
+ // Fragments placed inside <g>/<svg> must be parsed as SVG, not HTML.
+ template.innerHTML=isSVG?'<svg xmlns="http://www.w3.org/2000/svg">'+markup+'</svg>':markup;
  function sync(target,source){
   const children=[...source.childNodes];
   children.forEach((next,i)=>{
@@ -18,7 +20,7 @@ export function patchMarkup(host,markup){
   });
   while(target.childNodes.length>children.length)target.lastChild.remove();
  }
- sync(host,template.content);
+ sync(host,isSVG?template.content.firstElementChild:template.content);
 }
 
 // Pointer events can arrive faster than the display can paint. Keep the latest

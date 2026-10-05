@@ -1,0 +1,1123 @@
+[
+  {
+    "id": "flash-4e2aa01bdcd918f5",
+    "source": "nuclear/nucleardecay/decaylaw/graph_decay.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/nuclear/nucleardecay/decaylaw/graph_decay.swf",
+    "lesson": "7-2-2-1",
+    "title": "반감기와 평균수명",
+    "type": "decay",
+    "x": [
+      0,
+      20
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "half",
+        "label": "반감기 / 원본 시간 눈금",
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "value": 5
+      }
+    ],
+    "labels": [
+      "잔존 비율"
+    ],
+    "sha256": "585b0f8e0c64de0e9362c233ef8716b35d59a3db50a95ca9db8009009518a836",
+    "fill": true,
+    "showMarkers": false,
+    "probe": 10.0
+  },
+  {
+    "id": "flash-48261b9163199530",
+    "source": "nuclear/nucleardecay/betadecay/graph_betaE.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/nuclear/nucleardecay/betadecay/graph_betaE.swf",
+    "lesson": "7-2-5-2",
+    "title": "베타붕괴의 전자의 상태밀도",
+    "type": "beta",
+    "x": [
+      0,
+      3
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "Q",
+        "label": "붕괴 에너지 Q / MeV",
+        "min": 1,
+        "max": 3,
+        "step": 0.1,
+        "value": 2.1
+      }
+    ],
+    "labels": [
+      "전자 분포"
+    ],
+    "sha256": "46ee6f520b91a8fcf810d0b18e47bbc3dfff209755d51bc6f14dd60ad1078c85",
+    "fill": true,
+    "showMarkers": false,
+    "probe": 1.5
+  },
+  {
+    "id": "flash-489c28f2d5c3293d",
+    "source": "nuclear/nucleardecay/decaylaw/graph_lorentz.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/nuclear/nucleardecay/decaylaw/graph_lorentz.swf",
+    "lesson": "7-2-2-5",
+    "title": "로렌츠 분포함수",
+    "type": "lorentz",
+    "x": [
+      -20,
+      20
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "width",
+        "label": "선폭 / 원본 눈금",
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "labels": [
+      "로렌츠",
+      "가우스"
+    ],
+    "sha256": "4dfd66ccf90d2cfc3b407ee794bb4f885a4f7f6dbf9547506e1f3f07b8ad02f5",
+    "fill": true,
+    "showMarkers": false,
+    "probe": 0.0
+  },
+  {
+    "id": "flash-6b1175cc8bfaae1f",
+    "source": "thermodynamics/kinetictheory/idealgas/graph_vdistri.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/thermodynamics/kinetictheory/idealgas/graph_vdistri.swf",
+    "lesson": "3-1-2-5",
+    "title": "맥스웰-볼츠만 속력분포함수",
+    "type": "speed",
+    "x": [
+      0,
+      2000
+    ],
+    "y": [
+      0,
+      300
+    ],
+    "controls": [
+      {
+        "key": "T",
+        "label": "온도 / K",
+        "min": 100,
+        "max": 1500,
+        "step": 1,
+        "value": 300
+      },
+      {
+        "key": "A",
+        "label": "질량수",
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 32
+      }
+    ],
+    "labels": [
+      "속력 분포"
+    ],
+    "sha256": "b84899136e7215eac1705d46a8e3a43a2991329997d82198c2aed51bb2e4667f",
+    "fill": true,
+    "showMarkers": true,
+    "probe": 1000.0
+  },
+  {
+    "id": "flash-55be1d6879deae3d",
+    "source": "optics/laser/laserpri/graph_vxdistri.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/graph_vxdistri.swf",
+    "lesson": "5-6-2-5",
+    "title": "기체의 속도 분포함수",
+    "type": "velocity",
+    "x": [
+      -1000,
+      1000
+    ],
+    "y": [
+      0,
+      300
+    ],
+    "controls": [
+      {
+        "key": "T",
+        "label": "온도 / K",
+        "min": 100,
+        "max": 1500,
+        "step": 1,
+        "value": 300
+      },
+      {
+        "key": "A",
+        "label": "질량수",
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 32
+      }
+    ],
+    "labels": [
+      "속도 성분 분포"
+    ],
+    "sha256": "f34618474bd66e49f88d923300eb8110318b65af4a7e8262548537fb17fce309",
+    "fill": true,
+    "showMarkers": true,
+    "probe": 200
+  },
+  {
+    "id": "flash-6e51aa8032f59ffa",
+    "source": "thermodynamics/phase/realgas/vanderforce.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/thermodynamics/phase/realgas/vanderforce.swf",
+    "lesson": "3-2-1-2",
+    "title": "르나드-존스 퍼텐셜",
+    "type": "lj",
+    "x": [
+      0,
+      2.5
+    ],
+    "y": [
+      -100,
+      100
+    ],
+    "controls": [
+      {
+        "key": "U",
+        "label": "퍼텐셜 깊이 / 원본 눈금",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "value": 50
+      },
+      {
+        "key": "R",
+        "label": "평형 거리 / 원본 눈금",
+        "min": 0.1,
+        "max": 1,
+        "step": 0.01,
+        "value": 0.6
+      }
+    ],
+    "labels": [
+      "퍼텐셜"
+    ],
+    "sha256": "17f286d295a98bd372fab848ad5334a61e6278dbe0eff9a3063d0fe1c5eec0fd",
+    "fill": false,
+    "showMarkers": false,
+    "probe": 0.6
+  },
+  {
+    "id": "flash-b5bbaa2b07617f5a",
+    "source": "thermodynamics/phase/realgas/vanderEOS.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/thermodynamics/phase/realgas/vanderEOS.swf",
+    "lesson": "3-2-1-1",
+    "title": "판데르발스 상태방정식의 P-V 도표",
+    "type": "vdw",
+    "x": [
+      0,
+      5
+    ],
+    "y": [
+      0,
+      2
+    ],
+    "controls": [
+      {
+        "key": "T",
+        "label": "환산 온도",
+        "min": 0.85,
+        "max": 3,
+        "step": 0.01,
+        "value": 0.86
+      }
+    ],
+    "labels": [
+      "선택한 등온선",
+      "T = 0.85",
+      "T = 0.9",
+      "T = 0.95",
+      "T = 1.0",
+      "T = 1.05",
+      "T = 1.1",
+      "T = 1.15",
+      "T = 1.2",
+      "T = 1.25",
+      "T = 1.3",
+      "T = 1.35",
+      "T = 1.4",
+      "T = 1.45",
+      "T = 1.5",
+      "T = 1.55",
+      "T = 1.6",
+      "T = 1.65",
+      "T = 1.7",
+      "T = 1.75",
+      "T = 1.8",
+      "T = 1.85",
+      "T = 1.9",
+      "T = 1.95"
+    ],
+    "sha256": "eb023ff19b488d7db1d4f479f9633870d41b60961bb96c93aab122434c385ef3",
+    "fill": false,
+    "showMarkers": false,
+    "probe": 1
+  },
+  {
+    "id": "flash-f06496ed00440e3c",
+    "source": "modern/relativity/timedilation/graph_gamma.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/relativity/timedilation/graph_gamma.swf",
+    "lesson": "6-1-3-2",
+    "title": "로렌츠 인수의 그래프",
+    "type": "gamma",
+    "x": [
+      0,
+      1
+    ],
+    "y": [
+      0,
+      10
+    ],
+    "controls": [],
+    "labels": [
+      "로렌츠 인수",
+      "그 역수"
+    ],
+    "sha256": "69811e53033264af080ca8fb49d467b837ad7b6105c6e8795967b2fc48adc301",
+    "fill": false,
+    "showMarkers": false,
+    "probe": 0.5
+  },
+  {
+    "id": "flash-4dec799b85744aef",
+    "source": "modern/q_mechanics/perturbation/graph_transition.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/q_mechanics/perturbation/graph_transition.swf",
+    "lesson": "6-4-9-3",
+    "title": "섭동에 의한 에너지의 변화",
+    "type": "transition",
+    "x": [
+      -20,
+      20
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "width",
+        "label": "작용 시간 / 원본 눈금",
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "labels": [
+      "전이 곡선"
+    ],
+    "sha256": "17d536f8e85ac1c0a7462dc2ebc9cfcabc3f3a8ec09e7c941035d34a2f3c0871",
+    "fill": true,
+    "showMarkers": false,
+    "probe": 0.0
+  },
+  {
+    "id": "flash-1209a261b94cf80e",
+    "source": "modern/q_mechanics/harmonicquantum/hermite.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/q_mechanics/harmonicquantum/hermite.swf",
+    "lesson": "6-4-5-1",
+    "title": "에르미트 다항식",
+    "type": "hermite",
+    "x": [
+      -3,
+      3
+    ],
+    "y": [
+      -250,
+      250
+    ],
+    "controls": [
+      {
+        "key": "n",
+        "label": "차수 n",
+        "min": 0,
+        "max": 7,
+        "step": 1,
+        "value": 3
+      }
+    ],
+    "labels": [
+      "선택 차수",
+      "n = 0",
+      "n = 1",
+      "n = 2",
+      "n = 3",
+      "n = 4",
+      "n = 5",
+      "n = 6",
+      "n = 7"
+    ],
+    "sha256": "9586ec48d51dbf0df7bcf3cd5ce0bb82048539216f888659aad2077b7d7486f4",
+    "probe": 0.0
+  },
+  {
+    "id": "flash-c2d9375e2ad3a7be",
+    "source": "modern/q_mechanics/hydrogen/laguerre.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/q_mechanics/hydrogen/laguerre.swf",
+    "lesson": "6-4-6-3",
+    "title": "라게르 연관다항식",
+    "type": "laguerre",
+    "x": [
+      0,
+      6
+    ],
+    "y": [
+      -5,
+      5
+    ],
+    "controls": [
+      {
+        "key": "n",
+        "label": "차수 n",
+        "min": 0,
+        "max": 7,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "key": "k",
+        "label": "매개변수 k",
+        "min": 0,
+        "max": 7,
+        "step": 0.5,
+        "value": 0
+      }
+    ],
+    "labels": [
+      "선택 차수",
+      "n = 0",
+      "n = 1",
+      "n = 2",
+      "n = 3",
+      "n = 4",
+      "n = 5",
+      "n = 6",
+      "n = 7"
+    ],
+    "sha256": "cb445363779aa1dc6cde368fa6d9a833a9a2b39c6585cd54a537bd694037ff93",
+    "probe": 3.0
+  },
+  {
+    "id": "flash-fb7365a95caba392",
+    "source": "modern/q_mechanics/hydrogen/legendre.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/q_mechanics/hydrogen/legendre.swf",
+    "lesson": "6-4-6-4",
+    "title": "르장드르 연관다항식",
+    "type": "legendre",
+    "x": [
+      -1,
+      1
+    ],
+    "y": [
+      -2,
+      2
+    ],
+    "controls": [
+      {
+        "key": "l",
+        "label": "차수 l",
+        "min": 0,
+        "max": 7,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "key": "m",
+        "label": "차수 m",
+        "min": -3,
+        "max": 3,
+        "step": 1,
+        "value": 0
+      }
+    ],
+    "labels": [
+      "연관 다항식"
+    ],
+    "sha256": "7aa32e32d6887f4b35d8f3ca0dee45a98865ade60e2b7483bfc82e02dc2a34e8",
+    "probe": 0.0
+  },
+  {
+    "id": "flash-11fe8e3398e06d3b",
+    "source": "wave/superpose/resonant/bessel.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/resonant/bessel.swf",
+    "lesson": "2-2-4-7",
+    "title": "베셀 함수",
+    "type": "bessel",
+    "x": [
+      0,
+      24
+    ],
+    "y": [
+      -1,
+      1
+    ],
+    "controls": [
+      {
+        "key": "n",
+        "label": "차수 n",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "value": 3
+      }
+    ],
+    "labels": [
+      "선택 차수",
+      "n = 0",
+      "n = 1",
+      "n = 2",
+      "n = 3",
+      "n = 4",
+      "n = 5",
+      "n = 6",
+      "n = 7",
+      "n = 8",
+      "n = 9",
+      "n = 10"
+    ],
+    "sha256": "4b66b715cc7d22d749419e51c3878a415bc35acce686330c135aeb198350eede",
+    "probe": 12.0
+  },
+  {
+    "id": "flash-4870ee7f00d41eab",
+    "source": "optics/laser/holography/bessel0th.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/holography/bessel0th.swf",
+    "lesson": "5-6-7-6",
+    "title": "0차 베셀 함수",
+    "type": "bessel0",
+    "x": [
+      0,
+      24
+    ],
+    "y": [
+      -1,
+      1
+    ],
+    "controls": [],
+    "labels": [
+      "J₀",
+      "J₀²"
+    ],
+    "sha256": "3305a35cc37efc4471a5ada31f80c947a492d508f7e8daba8350ffb91667d12b",
+    "probe": 12.0
+  },
+  {
+    "id": "flash-06f7597d6674e49b",
+    "source": "modern/q_mechanics/hydrogen/hydrogenenergy.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/q_mechanics/hydrogen/hydrogenenergy.swf",
+    "lesson": "6-4-6-2",
+    "title": "수소원자의 양자수와 에너지 준위",
+    "type": "hydrogen",
+    "x": [
+      1,
+      7
+    ],
+    "y": [
+      -14,
+      0
+    ],
+    "controls": [],
+    "labels": [
+      "에너지 준위"
+    ],
+    "sha256": "689a02122e5ddec7befab13552b74a7fe8476363a612c0a8fbe3f3c245a562b7",
+    "probe": 1
+  },
+  {
+    "id": "flash-5746e144e65ebb06",
+    "source": "modern/q_mechanics/harmonicquantum/harmoniceigen.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/q_mechanics/harmonicquantum/harmoniceigen.swf",
+    "lesson": "6-4-5-2",
+    "title": "조화진동자와 상자의 에너지 준위",
+    "type": "eigen",
+    "x": [
+      -3,
+      3
+    ],
+    "y": [
+      0,
+      250
+    ],
+    "controls": [
+      {
+        "key": "k",
+        "label": "용수철 상수 / 원본 눈금",
+        "min": 5,
+        "max": 500,
+        "step": 5,
+        "value": 50
+      },
+      {
+        "key": "L",
+        "label": "상자 길이 / 원본 눈금",
+        "min": 1,
+        "max": 5.8,
+        "step": 0.1,
+        "value": 3
+      }
+    ],
+    "labels": [
+      "조화진동자",
+      "상자"
+    ],
+    "sha256": "9cefeb0813ea07fae2a73a6cce8069c3beb0d98829964c61ed5344c39a0da0bd",
+    "probe": 0.0
+  },
+  {
+    "id": "flash-a1841b7d02d2841f",
+    "source": "modern/q_mechanics/hydrogen/phiftn.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/q_mechanics/hydrogen/phiftn.swf",
+    "lesson": "6-4-6-2",
+    "title": "방위각에 대한 파동함수",
+    "type": "phi",
+    "x": [
+      0,
+      6.283185307179586
+    ],
+    "y": [
+      -35,
+      35
+    ],
+    "controls": [
+      {
+        "key": "m",
+        "label": "방위각 양자수 m",
+        "min": -5,
+        "max": 5,
+        "step": 1,
+        "value": 2
+      }
+    ],
+    "labels": [
+      "실수 성분",
+      "허수 성분"
+    ],
+    "sha256": "aca6982d93cd0980222e74b3d86f96e417953a4a9f56e951af1fb603f7528a1f",
+    "timeEnd": 100,
+    "timeStep": 0.05,
+    "rate": 1,
+    "probe": 3.141592653589793
+  },
+  {
+    "id": "flash-63f0f814d900d37e",
+    "source": "modern/wave_particle/uncertainty/uncertainty2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/wave_particle/uncertainty/uncertainty2.swf",
+    "lesson": "6-3-4-2",
+    "title": "전자의 단일슬릿 회절과 불확정성원리",
+    "type": "uncertainty",
+    "x": [
+      -10,
+      10
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [],
+    "labels": [
+      "상대 세기"
+    ],
+    "sha256": "22887970263bf66dd1f2f02639fbea963f7ef2b72849e4aa10ad215f47c828d3",
+    "probe": 0.0
+  },
+  {
+    "id": "flash-81063489d20af602",
+    "source": "optics/laser/laserpri/graph_lorentz.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/graph_lorentz.swf",
+    "lesson": "5-6-2-5",
+    "title": "로렌츠 선폭함수",
+    "type": "lorentz",
+    "x": [
+      -20,
+      20
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "width",
+        "label": "선폭 / 원본 눈금",
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "labels": [
+      "로렌츠",
+      "가우스"
+    ],
+    "sha256": "4dfd66ccf90d2cfc3b407ee794bb4f885a4f7f6dbf9547506e1f3f07b8ad02f5",
+    "fill": true,
+    "showMarkers": false,
+    "probe": 0.0
+  },
+  {
+    "id": "flash-b3945a9acd6dfd3e",
+    "source": "modern/molecular/mocombine/h2p.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/molecular/mocombine/h2p.swf",
+    "lesson": "6-6-1-2",
+    "title": "H2+의 퍼텐셜",
+    "type": "h2",
+    "x": [
+      -200,
+      200
+    ],
+    "y": [
+      -200,
+      0
+    ],
+    "controls": [
+      {
+        "key": "distance",
+        "label": "핵 간격 / 원본 슬라이더",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "value": 50
+      }
+    ],
+    "labels": [
+      "퍼텐셜",
+      "대칭 상태",
+      "반대칭 상태"
+    ],
+    "sha256": "6048b3ea1ad205ca36436c82fec7f025246d85d4753cd4338792f520d216c22b",
+    "probe": 0.0
+  },
+  {
+    "id": "flash-19c7704c53dfca0a",
+    "source": "optics/interference/young/gr_2slit.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/interference/young/gr_2slit.swf",
+    "lesson": "5-4-3-1",
+    "title": "이중슬릿 간섭무늬와 그래프",
+    "type": "double",
+    "x": [
+      -10,
+      10
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "d",
+        "label": "슬릿 간격 / 원본 눈금",
+        "min": 50,
+        "max": 200,
+        "step": 10,
+        "value": 100
+      },
+      {
+        "key": "b",
+        "label": "스크린 거리 / 원본 눈금",
+        "min": 50,
+        "max": 200,
+        "step": 10,
+        "value": 100
+      },
+      {
+        "key": "wl",
+        "label": "파장 / nm",
+        "min": 380,
+        "max": 680,
+        "step": 10,
+        "value": 500
+      }
+    ],
+    "labels": [
+      "상대 세기"
+    ],
+    "sha256": "3606cf2c283759bfe6d338361462a00581144eecd9a3a0ab321fee276f888c3a",
+    "fill": false,
+    "showMarkers": false,
+    "probe": 0.0
+  },
+  {
+    "id": "flash-afdeaa47932f1e10",
+    "source": "optics/diffraction/single/gr_1slit_diff.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/diffraction/single/gr_1slit_diff.swf",
+    "lesson": "5-5-1-1",
+    "title": "단일슬릿 회절의 밝기 분포",
+    "type": "single",
+    "x": [
+      -10,
+      10
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "amp",
+        "label": "배율",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "value": 1,
+        "values": [
+          1,
+          2,
+          5,
+          10
+        ]
+      }
+    ],
+    "labels": [
+      "상대 세기"
+    ],
+    "sha256": "c10dbf0ae825518c3fde989b77ce6da873c06750fdc10e6358e0631e27e5171a",
+    "fill": false,
+    "showMarkers": false,
+    "probe": 0.0
+  },
+  {
+    "id": "flash-d9d8fe1d85953624",
+    "source": "optics/diffraction/circle/gr_cir_diff.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/diffraction/circle/gr_cir_diff.swf",
+    "lesson": "5-5-2-1",
+    "title": "원형구멍 회절의 밝기 분포",
+    "type": "circular",
+    "x": [
+      -10,
+      10
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "amp",
+        "label": "배율",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "value": 1,
+        "values": [
+          1,
+          2,
+          5,
+          10
+        ]
+      }
+    ],
+    "labels": [
+      "상대 세기"
+    ],
+    "sha256": "222c2cdf5c42e6fb1e39dedd4ef0a9d9306a5262294ac34270035a67ef00a703",
+    "fill": false,
+    "showMarkers": false,
+    "probe": 0.0
+  },
+  {
+    "id": "flash-e652493a50449269",
+    "source": "optics/interference/multiinter/airyftn.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/interference/multiinter/airyftn.swf",
+    "lesson": "5-4-5-1",
+    "title": "에어리 함수",
+    "type": "airy",
+    "x": [
+      0,
+      25.132741228718345
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "R",
+        "label": "반사율",
+        "min": 0,
+        "max": 0.99,
+        "step": 0.01,
+        "value": 0.5
+      }
+    ],
+    "labels": [
+      "투과율"
+    ],
+    "sha256": "3ccfd8e34f3fdcede63381ab73b8c0ddeb8ac915ba4dcd3fd479c7eb6dcfbc52",
+    "fill": false,
+    "showMarkers": false,
+    "probe": 12.566370614359172
+  },
+  {
+    "id": "flash-5df0e84f9248399d",
+    "source": "optics/laser/gaussianbeam/gaussiansa.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/gaussianbeam/gaussiansa.swf",
+    "lesson": "5-6-5-2",
+    "title": "가우스 빔의 밝기 분포",
+    "type": "beam-intensity",
+    "x": [
+      -2.4,
+      2.4
+    ],
+    "y": [
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "key": "w0",
+        "label": "빔 허리 반경 / 원본 눈금",
+        "min": 0.4,
+        "max": 2,
+        "step": 0.01,
+        "value": 0.5
+      },
+      {
+        "key": "z0",
+        "label": "특성 거리 / 원본 눈금",
+        "min": 0.2,
+        "max": 2,
+        "step": 0.01,
+        "value": 0.5
+      },
+      {
+        "key": "z",
+        "label": "관측 위치 / 원본 눈금",
+        "min": -3.6,
+        "max": 3.6,
+        "step": 0.01,
+        "value": 0
+      }
+    ],
+    "labels": [
+      "진폭",
+      "세기"
+    ],
+    "sha256": "e30afc8ef9852ec7640b56eac3b7e7c315658394ff23c71b020ae1638e823885",
+    "probe": 0.0
+  },
+  {
+    "id": "flash-45d46c7ca4e8470d",
+    "source": "optics/laser/gaussianbeam/gaussiansb.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/gaussianbeam/gaussiansb.swf",
+    "lesson": "5-6-5-2",
+    "title": "가우스 빔의 파면",
+    "type": "beam-front",
+    "x": [
+      -6,
+      6
+    ],
+    "y": [
+      -2.4,
+      2.4
+    ],
+    "controls": [
+      {
+        "key": "w0",
+        "label": "빔 허리 반경 / 원본 눈금",
+        "min": 0.4,
+        "max": 2,
+        "step": 0.01,
+        "value": 0.5
+      },
+      {
+        "key": "z0",
+        "label": "특성 거리 / 원본 눈금",
+        "min": 0.2,
+        "max": 5.6,
+        "step": 0.01,
+        "value": 0.5
+      }
+    ],
+    "labels": [
+      "빔 윤곽",
+      "파면 · λ 간격",
+      "파면 · λ/2 간격"
+    ],
+    "sha256": "75d23853939a833d7127255ff729681a95d307dd48c23655d6367c4ee7d59d8b",
+    "probe": 0.0
+  },
+  {
+    "id": "flash-989668ab4b30a4ab",
+    "source": "mechanics/oscillation/relcircular/graph_lissajous.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/mechanics/oscillation/relcircular/graph_lissajous.swf",
+    "lesson": "1-2-4-3",
+    "title": "2차원 리사주 곡선",
+    "type": "lissajous",
+    "x": [
+      -1,
+      1
+    ],
+    "y": [
+      -1,
+      1
+    ],
+    "controls": [
+      {
+        "key": "wx",
+        "label": "x 진동수 / 원본 눈금",
+        "min": 1,
+        "max": 15,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "key": "wy",
+        "label": "y 진동수 / 원본 눈금",
+        "min": 1,
+        "max": 15,
+        "step": 1,
+        "value": 2
+      },
+      {
+        "key": "phase",
+        "label": "위상차 / °",
+        "min": -180,
+        "max": 180,
+        "step": 5,
+        "value": 0
+      }
+    ],
+    "labels": [
+      "궤적 · x 성분",
+      "y 성분"
+    ],
+    "sha256": "3640326fc9a2f72e04c34cc23625f9874732cfc52f1363af29de954426fac610",
+    "timeEnd": 6.28,
+    "timeStep": 0.01,
+    "rate": 1,
+    "probe": 0.0
+  },
+  {
+    "id": "flash-39380a9856082c2c",
+    "source": "optics/polarization/polarization/graph_elliptic.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarization/graph_elliptic.swf",
+    "lesson": "5-3-1-4",
+    "title": "다양한 타원편광의 진동모양",
+    "type": "elliptic",
+    "x": [
+      -1,
+      1
+    ],
+    "y": [
+      -1,
+      1
+    ],
+    "controls": [
+      {
+        "key": "Ax",
+        "label": "원본 Ax 슬라이더",
+        "min": 0,
+        "max": 1,
+        "step": 0.1,
+        "value": 0.7
+      },
+      {
+        "key": "Ay",
+        "label": "원본 Ay 슬라이더",
+        "min": 0,
+        "max": 1,
+        "step": 0.1,
+        "value": 0.9
+      },
+      {
+        "key": "phase",
+        "label": "위상차 / °",
+        "min": -180,
+        "max": 180,
+        "step": 5,
+        "value": 45
+      }
+    ],
+    "labels": [
+      "전기장",
+      "자기장"
+    ],
+    "sha256": "2c6f8f28860ebabda7661d29b4c265e2efbfff678f3ffdc9adcc5b9c426d3220",
+    "timeEnd": 6.28,
+    "timeStep": 0.1,
+    "rate": 0.75,
+    "probe": 0.0
+  },
+  {
+    "id": "flash-4be53bf71c29ce03",
+    "source": "modern/q_mechanics/schrondinger/probality2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/q_mechanics/schrondinger/probality2.swf",
+    "lesson": "6-4-1-4",
+    "title": "확률밀도함수",
+    "type": "probability",
+    "x": [
+      0,
+      480
+    ],
+    "y": [
+      -1,
+      2
+    ],
+    "controls": [
+      {
+        "key": "shape",
+        "label": "원본 파형 종류",
+        "min": 0,
+        "max": 3,
+        "step": 1,
+        "value": 0
+      },
+      {
+        "key": "wavelength",
+        "label": "파장 매개변수 / 원본 눈금",
+        "min": 40,
+        "max": 65,
+        "step": 0.01,
+        "value": 50
+      },
+      {
+        "key": "phase",
+        "label": "위상 / rad",
+        "min": 0,
+        "max": 3.1415926,
+        "step": 0.0001,
+        "value": 0
+      },
+      {
+        "key": "delta",
+        "label": "가우스 폭의 제곱",
+        "min": 1000,
+        "max": 2000,
+        "step": 1,
+        "value": 1500
+      }
+    ],
+    "labels": [
+      "파동함수",
+      "절댓값 제곱"
+    ],
+    "sha256": "25150df544aec1ac7230d1756008c32d6aa825833f9913f5058904164dec321b",
+    "random": true,
+    "probe": 240.0
+  }
+]

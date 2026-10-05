@@ -1,10 +1,11 @@
 {
   "date": "2026-10-05",
   "total": 518,
-  "htmlImplemented": 71,
-  "htmlPending": 447,
-  "vectorFilesCompared": 29,
-  "vectorFramesCompared": 2306,
+  "htmlImplemented": 100,
+  "htmlPending": 418,
+  "svgDiagramsRedesigned": 29,
+  "historicalVectorExportsCompared": 29,
+  "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "allOriginalRuntimeControlsAndNumericsCompared": false,
   "definition": "A collected SWF, successful Ruffle playback, script export, or supplementary graph does not count as an individual HTML migration or exhaustive equivalence check.",
@@ -21,15 +22,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-4-1-1-2.html#native-timeline-flash-31cea67f9129e363",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 190,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 190,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -53,15 +54,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-4-1-1-1.html#native-timeline-flash-f47d0eca9fde5de1",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 30,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 30,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -253,15 +254,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-4-1-3-3.html#native-timeline-flash-86c6937d3223e221",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 114,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 114,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -285,15 +286,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-4-1-3-3.html#native-timeline-flash-1b925babd506e814",
-      "migration": "svg-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 64,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 64,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -341,15 +342,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-4-4-2-1.html#native-timeline-flash-8b751b3b05357028",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 50,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 50,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -469,15 +470,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-4-2-3-1.html#native-timeline-flash-71bec128658be611",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 1,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 1,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -597,15 +598,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-4-5-1-3.html#native-timeline-flash-58f17839e11262fb",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 40,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 40,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -1475,18 +1476,25 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-4-3.html#native-analytic-flash-989668ab4b30a4ab",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 89824,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-e6959cc845156cf9",
@@ -2171,18 +2179,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-1-2.html#native-analytic-flash-b3945a9acd6dfd3e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 39258,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5c5cd22a874aa2b1",
@@ -2435,18 +2450,25 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-5-2.html#native-analytic-flash-5746e144e65ebb06",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 48733,
+        "maxAbsoluteError": 4.547473508864641e-13,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d1d9f570ca5d2720",
@@ -2483,18 +2505,25 @@
       "actionScript": 2,
       "scriptFiles": 6,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-5-1.html#native-analytic-flash-1209a261b94cf80e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 4411,
+        "maxAbsoluteError": 3.8198777474462986e-11,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-3c987ba991ee4873",
@@ -2627,18 +2656,25 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-2.html#native-analytic-flash-06f7597d6674e49b",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 70,
+        "maxAbsoluteError": 1.1102230246251565e-16,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c2d9375e2ad3a7be",
@@ -2651,18 +2687,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-3.html#native-analytic-flash-c2d9375e2ad3a7be",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 11228,
+        "maxAbsoluteError": 2.7284841053187847e-12,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-09a05b2b617f6d26",
@@ -2699,18 +2742,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-4.html#native-analytic-flash-fb7365a95caba392",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 7218,
+        "maxAbsoluteError": 1.1368683772161603e-13,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a1841b7d02d2841f",
@@ -2723,18 +2773,25 @@
       "actionScript": 2,
       "scriptFiles": 19,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-2.html#native-analytic-flash-a1841b7d02d2841f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 56140,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-83c94f7fc62445f9",
@@ -2819,18 +2876,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-9-3.html#native-analytic-flash-4dec799b85744aef",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 21253,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-ed9c176e3d02983b",
@@ -3059,18 +3123,25 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-1-4.html#native-analytic-flash-4be53bf71c29ce03",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 28021880,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-9f21bf8b172a3ac9",
@@ -4100,18 +4171,25 @@
       "actionScript": 2,
       "scriptFiles": 8,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-1-3-2.html#native-analytic-flash-f06496ed00440e3c",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 1604,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-535584938ba80b5b",
@@ -4749,15 +4827,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-6-8-4-2.html#native-timeline-flash-7c3ee7209b3bb2ab",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 52,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 52,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -4829,15 +4907,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-6-8-4-3.html#native-timeline-flash-e2974791f44c4535",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 125,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 125,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -4957,15 +5035,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-6-3-1-2.html#native-timeline-flash-c90349afd6430c0c",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 241,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 241,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -5132,18 +5210,25 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-3-4-2.html#native-analytic-flash-63f0f814d900d37e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 802,
+        "maxAbsoluteError": 2.220446049250313e-16,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-61b4de4a4b39250d",
@@ -5252,18 +5337,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-2-5-2.html#native-analytic-flash-48261b9163199530",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 9624,
+        "maxAbsoluteError": 8.881784197001252e-16,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4e2aa01bdcd918f5",
@@ -5276,18 +5368,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-2-2-1.html#native-analytic-flash-4e2aa01bdcd918f5",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 9223,
+        "maxAbsoluteError": 1.1102230246251565e-16,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-489c28f2d5c3293d",
@@ -5300,18 +5399,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-2-2-5.html#native-analytic-flash-489c28f2d5c3293d",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 18446,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-fcebbc075faedcd3",
@@ -5397,15 +5503,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-7-2-1-1.html#native-timeline-flash-c1c45d5f38d3a3e9",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 35,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 35,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -5693,15 +5799,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-5-6-1.html#native-timeline-flash-a294f23b6da56bc6",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 1,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 1,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -5725,15 +5831,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-5-6-3.html#native-timeline-flash-161c9fe8dc555146",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 1,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 1,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -5876,18 +5982,25 @@
       "actionScript": 2,
       "scriptFiles": 8,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-5-2-1.html#native-analytic-flash-d9d8fe1d85953624",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 2807,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c8db27599ba6e756",
@@ -6092,18 +6205,25 @@
       "actionScript": 2,
       "scriptFiles": 8,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-5-1-1.html#native-analytic-flash-afdeaa47932f1e10",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 2807,
+        "maxAbsoluteError": 1.7763568394002505e-15,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-7d4ace9ec2459aef",
@@ -6357,15 +6477,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-2-10-1.html#native-timeline-flash-4ef8a415791f9f08",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 70,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 70,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -6413,15 +6533,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-2-9-1.html#native-timeline-flash-6220ee45ef766518",
-      "migration": "svg-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 60,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 60,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -7189,15 +7309,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-2-1-3.html#native-timeline-flash-9f71f89051b20d51",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 85,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 85,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -7269,15 +7389,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-2-1-1.html#native-timeline-flash-5947604c1e72cf39",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 70,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 70,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -7469,15 +7589,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-2-8-1.html#native-timeline-flash-32be025121f95f04",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 60,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 60,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -7501,15 +7621,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-2-8-5.html#native-timeline-flash-e219d169019985a6",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 60,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 60,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -7652,18 +7772,25 @@
       "actionScript": 2,
       "scriptFiles": 8,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-5-1.html#native-analytic-flash-e652493a50449269",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 41303,
+        "maxAbsoluteError": 2.220446049250313e-16,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-e0a9be444c2273af",
@@ -7844,18 +7971,25 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-3-1.html#native-analytic-flash-19c7704c53dfca0a",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 28872,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-326e10f58c5fc432",
@@ -7964,18 +8098,25 @@
       "actionScript": 2,
       "scriptFiles": 18,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-5-2.html#native-analytic-flash-5df0e84f9248399d",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 859744,
+        "maxAbsoluteError": 2.220446049250313e-16,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-45d46c7ca4e8470d",
@@ -7988,18 +8129,25 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-5-2.html#native-analytic-flash-45d46c7ca4e8470d",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 283507,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a796f564221b88fb",
@@ -8084,18 +8232,25 @@
       "actionScript": 2,
       "scriptFiles": 5,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-7-6.html#native-analytic-flash-4870ee7f00d41eab",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 1604,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d1d923dd5fa3eb34",
@@ -8109,15 +8264,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-6-7-3.html#native-timeline-flash-d1d923dd5fa3eb34",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 195,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 195,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -8141,15 +8296,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-6-7-3.html#native-timeline-flash-8c349a23e0f06709",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 200,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 200,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -8173,15 +8328,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-6-1-3.html#native-timeline-flash-1aa6ef7f6b40a090",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 41,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 41,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -8253,15 +8408,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-6-3-2.html#native-timeline-flash-217cd7a186a32dda",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 81,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 81,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -8452,18 +8607,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-2-5.html#native-analytic-flash-81063489d20af602",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 18446,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-55be1d6879deae3d",
@@ -8476,18 +8638,25 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-2-5.html#native-analytic-flash-55be1d6879deae3d",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 583856,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-58bd5e6343d0b297",
@@ -8573,15 +8742,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-6-2-1.html#native-timeline-flash-127d794bbbed8817",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 60,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 60,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -8605,15 +8774,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-6-2-1.html#native-timeline-flash-740d69947e42efa5",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 60,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 60,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -8637,15 +8806,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-6-2-1.html#native-timeline-flash-9acfa71f457f7af4",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 60,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 60,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -9485,15 +9654,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-5-1-3-1.html#native-timeline-flash-7ffd51a2745cde34",
-      "migration": "svg-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 60,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 60,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -10212,18 +10381,25 @@
       "actionScript": 2,
       "scriptFiles": 15,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-1-4.html#native-analytic-flash-39380a9856082c2c",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 166816,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-91f67484966b3794",
@@ -10716,18 +10892,25 @@
       "actionScript": 2,
       "scriptFiles": 13,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-1-2-5.html#native-analytic-flash-6b1175cc8bfaae1f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 583856,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d9fe51b58f69c06c",
@@ -10860,18 +11043,25 @@
       "actionScript": 2,
       "scriptFiles": 8,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-2-1-1.html#native-analytic-flash-b5bbaa2b07617f5a",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 87819,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-6e51aa8032f59ffa",
@@ -10884,18 +11074,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-2-1-2.html#native-analytic-flash-6e51aa8032f59ffa",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 78997,
+        "maxAbsoluteError": 1.1368683772161603e-12,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-93eaa83ad5b418b5",
@@ -10971,15 +11168,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-2-3-1-4.html#native-timeline-flash-daf828eb53ee8563",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 50,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 50,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"
@@ -11431,18 +11628,25 @@
       "actionScript": 2,
       "scriptFiles": 6,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-4-7.html#native-analytic-flash-11fe8e3398e06d3b",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Privately extracted original numerical/drawing functions vs independent HTML equations; no source scripts published.",
+        "comparisons": 5614,
+        "maxAbsoluteError": 0,
+        "scope": "Every control value individually, corner combinations, and 401 axis samples; static level geometry or five phase times where applicable. Not a Flash runtime/UI replay.",
+        "report": "docs/analytic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/analytic-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-fa99f99b491eb9c9",
@@ -11992,15 +12196,15 @@
       "scriptFiles": 0,
       "sourceInspection": "exported",
       "htmlHref": "lesson-2-2-5-4.html#native-timeline-flash-828bb6f008342a30",
-      "migration": "canvas-vector-timeline",
+      "migration": "independent-svg-diagram",
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
-        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
-        "frames": 150,
-        "passed": true,
-        "report": "docs/timeline-frame-report.json"
+        "status": "redesigned_svg_not_pixel_equivalent",
+        "historicalExportReport": "docs/timeline-frame-report.json",
+        "historicalFrames": 150,
+        "report": "docs/timeline-ui-report.json",
+        "scope": "Fresh semantic SVG diagrams; original artwork is not loaded. Source transition keyframes audited for sponem, stimab and stimem; remaining per-frame visual equivalence is pending."
       },
       "numericalComparison": {
         "status": "not_applicable"

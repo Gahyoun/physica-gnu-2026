@@ -12,11 +12,12 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/charge/charge/ca_1.swf",
     "lesson": "4-1-1-2",
     "sha256": "f12a5570b88c9081ff43d2e22d71ff1b81a98fadf83f5505e01d95641d0a9122",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1,
       190
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-f47d0eca9fde5de1",
@@ -31,12 +32,13 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/charge/charge/ca_4.swf",
     "lesson": "4-1-1-1",
     "sha256": "dd5a3f5b39a0c25268a2198976b78e58e20e83344ed9f259e40525616053844a",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       30,
       30,
       30
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-86c6937d3223e221",
@@ -51,8 +53,9 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/charge/electricfield/h2odia.swf",
     "lesson": "4-1-3-3",
     "sha256": "35451d66c489df38c2eed7de11ed7227c68cc355ceb577f8e0cba9daf9c2b490",
-    "format": "canvas-vector-timeline",
-    "spriteFrames": []
+    "format": "independent-svg-diagram",
+    "spriteFrames": [],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-1b925babd506e814",
@@ -67,12 +70,13 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/charge/electricfield/millikan.swf",
     "lesson": "4-1-3-3",
     "sha256": "985920e7a07d4109754876c25e3997b3139f19695421dfcef90792ef7d150232",
-    "format": "svg-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       64,
       1,
       2
-    ]
+    ],
+    "originalExportFormat": "svg-vector-timeline"
   },
   {
     "id": "flash-8b751b3b05357028",
@@ -87,8 +91,9 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/current/registance/current2.swf",
     "lesson": "4-4-2-1",
     "sha256": "2f2ae23104ff6e4f7c5a0c8d0c9ef418a7dcfc1f78f05e5e60ad6e13631113ed",
-    "format": "canvas-vector-timeline",
-    "spriteFrames": []
+    "format": "independent-svg-diagram",
+    "spriteFrames": [],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-71bec128658be611",
@@ -103,10 +108,11 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/gauss/gaussapp/gauss1.swf",
     "lesson": "4-2-3-1",
     "sha256": "481f6cdfec766580ee7496cde6322214116401744bb043baaf8bdfc13eefdace",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-58f17839e11262fb",
@@ -121,10 +127,11 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/magnetic/mfield/mf_3.swf",
     "lesson": "4-5-1-3",
     "sha256": "e0789ba04b35a48fc1686804114cadeea2ee722fc2893b8ece6c714b4cb172f7",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       40
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-7c3ee7209b3bb2ab",
@@ -139,13 +146,14 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/semiconductorphysics/holecarrier.swf",
     "lesson": "6-8-4-2",
     "sha256": "4c522871bdda7d1347286b686f2340663ec02aaa92cf9c44428deaa6eb2e49ac",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1,
       1,
       1,
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-e2974791f44c4535",
@@ -160,7 +168,7 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/semiconductorphysics/pnjuction2.swf",
     "lesson": "6-8-4-3",
     "sha256": "5e6e10653167a62dafb8c3943eff924ff55c06eb52e9aa526e778a75faf7868a",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1,
       1,
@@ -169,7 +177,8 @@
       1,
       1,
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-c90349afd6430c0c",
@@ -184,11 +193,12 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/modern/wave_particle/matterwave/electrondiff.swf",
     "lesson": "6-3-1-2",
     "sha256": "f629d3190bc5c462cd1faa4e9da4ced0d07f281852f6d052bfb02faa96c06204",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1,
       241
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-c1c45d5f38d3a3e9",
@@ -203,13 +213,14 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/nuclear/nucleardecay/radioactivedecay/rad3type.swf",
     "lesson": "7-2-1-1",
     "sha256": "39f88aae184de309225ce158b8affd1b1c51561e3a8fb873028125addf1893f1",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1,
       1,
       1,
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-a294f23b6da56bc6",
@@ -224,8 +235,9 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/abergeometry.swf",
     "lesson": "5-5-6-1",
     "sha256": "96e33d920cb2653d5450bcec853d4fac38ca5c4268659fb4908c42db6e408efb",
-    "format": "canvas-vector-timeline",
-    "spriteFrames": []
+    "format": "independent-svg-diagram",
+    "spriteFrames": [],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-161c9fe8dc555146",
@@ -240,8 +252,9 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/abergeometry2.swf",
     "lesson": "5-5-6-3",
     "sha256": "690a32cd5bd073235628b23f3d304bc8f26e878f9b343cc0119e3d6cc013f02c",
-    "format": "canvas-vector-timeline",
-    "spriteFrames": []
+    "format": "independent-svg-diagram",
+    "spriteFrames": [],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-4ef8a415791f9f08",
@@ -256,11 +269,12 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/sphere2.swf",
     "lesson": "5-2-10-1",
     "sha256": "348a5c61de6090bbed246e9fc5df8cda6dc481a14472e14d09dd66c27dfd4877",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1,
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-6220ee45ef766518",
@@ -275,11 +289,12 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/GRIN1.swf",
     "lesson": "5-2-9-1",
     "sha256": "be56d1cbac909343fce2789e06c9056d2f7caca2dbff202074d3deb04233c7a0",
-    "format": "svg-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       60,
       1
-    ]
+    ],
+    "originalExportFormat": "svg-vector-timeline"
   },
   {
     "id": "flash-9f71f89051b20d51",
@@ -294,11 +309,12 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/lens.swf",
     "lesson": "5-2-1-3",
     "sha256": "e4c6335f6847c206bde15c2a83b98bab750fd8caeec54266fe991249c2434d64",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1,
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-5947604c1e72cf39",
@@ -313,11 +329,12 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/sphere.swf",
     "lesson": "5-2-1-1",
     "sha256": "29fbed96ae85b5d36dc6d40f222d191317a49a10f6e8c9842bbf515c3a671491",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1,
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-32be025121f95f04",
@@ -332,11 +349,12 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/thicklens1.swf",
     "lesson": "5-2-8-1",
     "sha256": "7b709f4cdc3b167faf906a52f2235bbed82dacc002b3f7c7cd8f94917131f9bc",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       60,
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-e219d169019985a6",
@@ -351,11 +369,12 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/thicklens2.swf",
     "lesson": "5-2-8-5",
     "sha256": "5764f048eb9fc98830ea9b47e17b3ec6cbb4ad80ab5b319d747fbad3f95ba16b",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       60,
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-d1d923dd5fa3eb34",
@@ -370,10 +389,11 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/holography/refholosetup.swf",
     "lesson": "5-6-7-3",
     "sha256": "fb5105164a2f2332ba9212752b13dc9d67eb61f81ddc9d62ded7b999fd1eadf0",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       195
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-8c349a23e0f06709",
@@ -388,10 +408,11 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/holography/trans_setup.swf",
     "lesson": "5-6-7-3",
     "sha256": "63667d04228e3b60a24737c37481e43df6f82876bdd806e4900efc2a15449b84",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       200
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-1aa6ef7f6b40a090",
@@ -406,10 +427,11 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/lasergen/lasermechism.swf",
     "lesson": "5-6-1-3",
     "sha256": "fb71411fb93426d4b42d7ca59446fe2ccf4a30a28975d46596cf8a0452deac09",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-217cd7a186a32dda",
@@ -424,13 +446,14 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserkind/henepump.swf",
     "lesson": "5-6-3-2",
     "sha256": "78cfddc59262d53b0a320a192e96602464e7aff7112f4fb8744444680af5b09c",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       1,
       1,
       1,
       1
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-127d794bbbed8817",
@@ -445,10 +468,11 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/sponem.swf",
     "lesson": "5-6-2-1",
     "sha256": "e4e28bde4ece0c874414583304e490223d7f718fcdfe8bd9e2db465433e6704a",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       60
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-740d69947e42efa5",
@@ -463,10 +487,11 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/stimab.swf",
     "lesson": "5-6-2-1",
     "sha256": "84ef62f4fdcec608c23bdd1cea5ee89011ba31d8688a9f7fb9c0bb104aa33ad3",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       60
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-9acfa71f457f7af4",
@@ -481,10 +506,11 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/stimem.swf",
     "lesson": "5-6-2-1",
     "sha256": "e8a3bbaaa09f08535254be5f2731fbdda757be5ad1feb7f38727d3f6774a3349",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       60
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-7ffd51a2745cde34",
@@ -499,11 +525,12 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/optics/light/reflect/mirror1.swf",
     "lesson": "5-1-3-1",
     "sha256": "c88dc039d7d56956f2e16f81bb425b27253332b39c2e554dc1768bfef4be0520",
-    "format": "svg-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       60,
       1
-    ]
+    ],
+    "originalExportFormat": "svg-vector-timeline"
   },
   {
     "id": "flash-daf828eb53ee8563",
@@ -518,10 +545,11 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/wave/sound/sound/invsqr.swf",
     "lesson": "2-3-1-4",
     "sha256": "a4aa8386954d8efc290b80098742021fddf040c479f753718a2e7ebc7ec50f57",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       50
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   },
   {
     "id": "flash-828bb6f008342a30",
@@ -536,9 +564,10 @@
     "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/sonicinter.swf",
     "lesson": "2-2-5-4",
     "sha256": "656ede835c752cb52ac7958fb7c6592353ee354a9cf3af9bd8f3bd4cd5a712cc",
-    "format": "canvas-vector-timeline",
+    "format": "independent-svg-diagram",
     "spriteFrames": [
       150
-    ]
+    ],
+    "originalExportFormat": "canvas-vector-timeline"
   }
 ]
