@@ -1,3 +1,4 @@
+import './native-timelines.mjs';
 import './native-chain.mjs';
 import './native-mechanics.mjs';
 import './native-oscillators.mjs';

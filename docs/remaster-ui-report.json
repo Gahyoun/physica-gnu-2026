@@ -10,7 +10,10 @@
     "longitudinal",
     "planar",
     "chain2",
-    "chain3"
+    "chain3",
+    "chain5",
+    "chain12",
+    "chain20"
   ],
   "inlineChainPlacement": true,
   "localWaveSections": 7,
@@ -34,7 +37,7 @@
     1360
   ],
   "darkMode": true,
-  "remasterCatalog": 21,
+  "remasterCatalog": 53,
   "originalPlaybackExamples": 2,
   "noFlashOnReadingPage": true,
   "errors": []
