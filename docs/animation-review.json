@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "total": 518,
-  "implemented": 161,
-  "pending": 357,
+  "implemented": 181,
+  "pending": 337,
   "scope": "Full catalogue structural review; not visual or exhaustive control testing of every original. Native and original runtime equivalence remain separate.",
   "chapters": [
     {
       "chapter": 1,
       "title": "힘과 운동",
       "total": 29,
-      "implemented": 8,
-      "pending": 21
+      "implemented": 22,
+      "pending": 7
     },
     {
       "chapter": 2,
@@ -30,8 +30,8 @@
       "chapter": 4,
       "title": "전기와 자기",
       "total": 36,
-      "implemented": 8,
-      "pending": 28
+      "implemented": 14,
+      "pending": 22
     },
     {
       "chapter": 5,
@@ -56,8 +56,8 @@
     }
   ],
   "nextGroups": [
-    "힘과 운동 · 용수철·단진자·충돌",
-    "전기와 자기 · 쿨롱 힘·전기장",
+    "힘과 운동 · 탄성 진자·강제진동·다입자계",
+    "전기와 자기 · 수치 전위·전류·자기장·회로",
     "빛 · 평면파의 반사·굴절·편광 개별 프로그램",
     "기존 개념 SVG 26개 · 원본 프레임 사건 대조"
   ],
@@ -116,7 +116,7 @@
       "lessons": [
         "4-1-2-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-4-1-2-1.html#native-fundamental-flash-8cd1b69a0017cc1c",
       "sourceInspection": "exported",
       "scriptFiles": 10,
       "controlCandidates": 0,
@@ -126,10 +126,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-9f37474387ee4146",
@@ -162,7 +162,7 @@
       "lessons": [
         "4-1-3-2"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-4-1-3-2.html#native-field-flash-3e95e04b2f93f063",
       "sourceInspection": "exported",
       "scriptFiles": 9,
       "controlCandidates": 0,
@@ -172,10 +172,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-fe23ebb7c00a785f",
@@ -185,7 +185,7 @@
       "lessons": [
         "4-1-3-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-4-1-3-1.html#native-field-flash-fe23ebb7c00a785f",
       "sourceInspection": "exported",
       "scriptFiles": 13,
       "controlCandidates": 0,
@@ -195,10 +195,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-4a0e1789a0e7f884",
@@ -208,7 +208,7 @@
       "lessons": [
         "4-1-3-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-4-1-3-1.html#native-field-flash-4a0e1789a0e7f884",
       "sourceInspection": "exported",
       "scriptFiles": 13,
       "controlCandidates": 0,
@@ -218,10 +218,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-32d1a157f597ea62",
@@ -231,7 +231,7 @@
       "lessons": [
         "4-1-3-2"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-4-1-3-2.html#native-field-flash-32d1a157f597ea62",
       "sourceInspection": "exported",
       "scriptFiles": 10,
       "controlCandidates": 0,
@@ -241,10 +241,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-88a45295e0343222",
@@ -714,7 +714,7 @@
       "lessons": [
         "4-3-1-3"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-4-3-1-3.html#native-field-flash-b47dd6c6d38c2105",
       "sourceInspection": "exported",
       "scriptFiles": 9,
       "controlCandidates": 0,
@@ -724,10 +724,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-f3ab84b3b8f2ee77",
@@ -898,7 +898,7 @@
       "lessons": [
         "1-1-4-3"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-1-4-3.html#native-fundamental-flash-fd1dd08a58155d74",
       "sourceInspection": "exported",
       "scriptFiles": 3,
       "controlCandidates": 0,
@@ -908,10 +908,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-5cc33098a15684c7",
@@ -921,7 +921,7 @@
       "lessons": [
         "1-1-4-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-1-4-1.html#native-fundamental-flash-5cc33098a15684c7",
       "sourceInspection": "exported",
       "scriptFiles": 3,
       "controlCandidates": 0,
@@ -931,10 +931,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-0b1dd9882779ff0a",
@@ -990,7 +990,7 @@
       "lessons": [
         "1-1-1-2"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-1-1-2.html#native-fundamental-flash-e83dad4349d2dead",
       "sourceInspection": "exported",
       "scriptFiles": 9,
       "controlCandidates": 0,
@@ -1000,10 +1000,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-5961c63760e6b6f2",
@@ -1059,7 +1059,7 @@
       "lessons": [
         "1-2-5-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-5-1.html#native-fundamental-flash-5802e076d45adf57",
       "sourceInspection": "exported",
       "scriptFiles": 16,
       "controlCandidates": 1,
@@ -1069,10 +1069,10 @@
         "drag": 1,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-ced2cd23979a29dc",
@@ -1082,7 +1082,7 @@
       "lessons": [
         "1-2-5-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-5-1.html#native-fundamental-flash-ced2cd23979a29dc",
       "sourceInspection": "exported",
       "scriptFiles": 16,
       "controlCandidates": 1,
@@ -1092,10 +1092,10 @@
         "drag": 1,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-60bbd9b257ac7ced",
@@ -1220,7 +1220,7 @@
       "lessons": [
         "1-2-1-2"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-1-2.html#native-fundamental-flash-56a6d23341185a0b",
       "sourceInspection": "exported",
       "scriptFiles": 10,
       "controlCandidates": 0,
@@ -1230,10 +1230,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-16cdb397dda311b1",
@@ -1243,7 +1243,7 @@
       "lessons": [
         "1-2-1-3"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-1-3.html#native-fundamental-flash-16cdb397dda311b1",
       "sourceInspection": "exported",
       "scriptFiles": 18,
       "controlCandidates": 1,
@@ -1253,10 +1253,10 @@
         "drag": 1,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-92a5d41f9bb1846e",
@@ -1266,7 +1266,7 @@
       "lessons": [
         "1-2-1-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-1-1.html#native-fundamental-flash-92a5d41f9bb1846e",
       "sourceInspection": "exported",
       "scriptFiles": 3,
       "controlCandidates": 0,
@@ -1276,10 +1276,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-056e2206e6a4b171",
@@ -1312,7 +1312,7 @@
       "lessons": [
         "1-2-1-3"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-1-3.html#native-fundamental-flash-b1362cc3cafd734f",
       "sourceInspection": "exported",
       "scriptFiles": 11,
       "controlCandidates": 0,
@@ -1322,10 +1322,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-3789183f8bcf208f",
@@ -1358,7 +1358,7 @@
       "lessons": [
         "1-2-2-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-2-1.html#native-fundamental-flash-aaaa1dbeda010831",
       "sourceInspection": "exported",
       "scriptFiles": 9,
       "controlCandidates": 0,
@@ -1368,10 +1368,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-2e0022d7475b5ce4",
@@ -1381,7 +1381,7 @@
       "lessons": [
         "1-2-4-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-4-1.html#native-fundamental-flash-2e0022d7475b5ce4",
       "sourceInspection": "exported",
       "scriptFiles": 7,
       "controlCandidates": 0,
@@ -1391,10 +1391,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-989668ab4b30a4ab",
@@ -1427,7 +1427,7 @@
       "lessons": [
         "1-2-4-2"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-4-2.html#native-fundamental-flash-e6959cc845156cf9",
       "sourceInspection": "exported",
       "scriptFiles": 9,
       "controlCandidates": 0,
@@ -1437,10 +1437,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-d273a477ec0c73e3",
@@ -1450,7 +1450,7 @@
       "lessons": [
         "1-2-4-4"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-4-4.html#native-fundamental-flash-d273a477ec0c73e3",
       "sourceInspection": "exported",
       "scriptFiles": 18,
       "controlCandidates": 2,
@@ -1460,10 +1460,10 @@
         "drag": 1,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-045a77ab16629fda",
@@ -1496,7 +1496,7 @@
       "lessons": [
         "1-2-3-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-3-1.html#native-fundamental-flash-a47cea8ca74c47d1",
       "sourceInspection": "exported",
       "scriptFiles": 12,
       "controlCandidates": 0,
@@ -1506,10 +1506,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-d0e93f29a173b135",

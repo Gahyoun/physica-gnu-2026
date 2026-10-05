@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "total": 518,
-  "htmlImplemented": 161,
-  "htmlPending": 357,
+  "htmlImplemented": 181,
+  "htmlPending": 337,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
@@ -85,18 +85,25 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-4-1-2-1.html#native-fundamental-flash-8cd1b69a0017cc1c",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 474,
+        "maxAbsoluteError": 5.684341886080802e-14,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-9f37474387ee4146",
@@ -133,18 +140,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-4-1-3-2.html#native-field-flash-3e95e04b2f93f063",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root geometry and vector calculation versus fresh SVG model",
+        "comparisons": 54,
+        "maxAbsoluteError": 0,
+        "scope": "All distance/dipole direction endpoints and label midpoints at defaults/control boundaries.",
+        "report": "docs/field-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/field-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-fe23ebb7c00a785f",
@@ -157,18 +171,25 @@
       "actionScript": 2,
       "scriptFiles": 13,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-4-1-3-1.html#native-field-flash-fe23ebb7c00a785f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root geometry and vector calculation versus fresh SVG model",
+        "comparisons": 19165,
+        "maxAbsoluteError": 2.842170943040401e-14,
+        "scope": "Every original grid cell, exclusion mask, vector endpoint/direction and magnitude colour coefficient at default/control boundaries. Source probe branches compared for efield1/efield3; efield2 probe is a remaster addition. GNU blue replaces original colour.",
+        "report": "docs/field-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/field-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4a0e1789a0e7f884",
@@ -181,18 +202,25 @@
       "actionScript": 2,
       "scriptFiles": 13,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-4-1-3-1.html#native-field-flash-4a0e1789a0e7f884",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root geometry and vector calculation versus fresh SVG model",
+        "comparisons": 19811,
+        "maxAbsoluteError": 5.684341886080802e-14,
+        "scope": "Every original grid cell, exclusion mask, vector endpoint/direction and magnitude colour coefficient at default/control boundaries. Source probe branches compared for efield1/efield3; efield2 probe is a remaster addition. GNU blue replaces original colour.",
+        "report": "docs/field-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/field-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-32d1a157f597ea62",
@@ -205,18 +233,25 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-4-1-3-2.html#native-field-flash-32d1a157f597ea62",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root geometry and vector calculation versus fresh SVG model",
+        "comparisons": 25169,
+        "maxAbsoluteError": 1.1368683772161603e-13,
+        "scope": "Every original grid cell, exclusion mask, vector endpoint/direction and magnitude colour coefficient at default/control boundaries. Source probe branches compared for efield1/efield3; efield2 probe is a remaster addition. GNU blue replaces original colour.",
+        "report": "docs/field-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/field-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-88a45295e0343222",
@@ -756,18 +791,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-4-3-1-3.html#native-field-flash-b47dd6c6d38c2105",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root geometry and vector calculation versus fresh SVG model",
+        "comparisons": 54,
+        "maxAbsoluteError": 0,
+        "scope": "Original boundary/end-point geometry; independently added interpolation checked at boundaries. Equal-x handling is an explicit remaster guard.",
+        "report": "docs/field-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/field-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-f3ab84b3b8f2ee77",
@@ -948,18 +990,25 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-1-4-3.html#native-fundamental-flash-fd1dd08a58155d74",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 596,
+        "maxAbsoluteError": 2.842170943040401e-14,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5cc33098a15684c7",
@@ -972,18 +1021,25 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-1-4-1.html#native-fundamental-flash-5cc33098a15684c7",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 148,
+        "maxAbsoluteError": 0,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-0b1dd9882779ff0a",
@@ -1044,18 +1100,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-1-1-2.html#native-fundamental-flash-e83dad4349d2dead",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 20000,
+        "maxAbsoluteError": 0,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5961c63760e6b6f2",
@@ -1118,18 +1181,25 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-5-1.html#native-fundamental-flash-5802e076d45adf57",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 36000,
+        "maxAbsoluteError": 0,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-ced2cd23979a29dc",
@@ -1142,18 +1212,25 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-5-1.html#native-fundamental-flash-ced2cd23979a29dc",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 21000,
+        "maxAbsoluteError": 4.831690557431354e-15,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-60bbd9b257ac7ced",
@@ -1289,18 +1366,25 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-1-2.html#native-fundamental-flash-56a6d23341185a0b",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 21000,
+        "maxAbsoluteError": 4.711508960753008e-15,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-16cdb397dda311b1",
@@ -1313,18 +1397,25 @@
       "actionScript": 2,
       "scriptFiles": 18,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-1-3.html#native-fundamental-flash-16cdb397dda311b1",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 21000,
+        "maxAbsoluteError": 1.3954115640757436e-14,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-92a5d41f9bb1846e",
@@ -1337,18 +1428,25 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-1-1.html#native-fundamental-flash-92a5d41f9bb1846e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 3000,
+        "maxAbsoluteError": 0,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-056e2206e6a4b171",
@@ -1386,18 +1484,25 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-1-3.html#native-fundamental-flash-b1362cc3cafd734f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 15000,
+        "maxAbsoluteError": 4.093947403305265e-15,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-3789183f8bcf208f",
@@ -1435,18 +1540,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-2-1.html#native-fundamental-flash-aaaa1dbeda010831",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 30000,
+        "maxAbsoluteError": 4.829470157119431e-15,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-2e0022d7475b5ce4",
@@ -1459,18 +1571,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-4-1.html#native-fundamental-flash-2e0022d7475b5ce4",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 1450,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-989668ab4b30a4ab",
@@ -1514,18 +1633,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-4-2.html#native-fundamental-flash-e6959cc845156cf9",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 36000,
+        "maxAbsoluteError": 3.410605131648481e-13,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d273a477ec0c73e3",
@@ -1538,18 +1664,25 @@
       "actionScript": 2,
       "scriptFiles": 18,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-4-4.html#native-fundamental-flash-d273a477ec0c73e3",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 36000,
+        "maxAbsoluteError": 3.907985046680551e-14,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-045a77ab16629fda",
@@ -1586,18 +1719,25 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-3-1.html#native-fundamental-flash-a47cea8ca74c47d1",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+        "comparisons": 28000,
+        "maxAbsoluteError": 9.643952303406422e-12,
+        "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+        "report": "docs/fundamental-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/fundamental-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d0e93f29a173b135",

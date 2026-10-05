@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{fieldSpecs,defaults,grid,probeAt,dipole,potential}from '../assets/field-physics.mjs';
+const find=t=>Object.values(fieldSpecs).find(s=>s.type===t);
+test('Point charge reverses field direction but preserves its inverse-square magnitude',()=>{const p=defaults(find('efield1')),a=probeAt('efield1',{...p,xpt:255,ypt:155}),b=probeAt('efield1',{...p,xpt:205,ypt:155}),c=probeAt('efield1',{...p,xpt:255,ypt:155,sign:-1});assert.equal(b.ex/a.ex,4);assert.equal(c.ex,-a.ex);assert.equal(a.ey,0);});
+test('Direction-only view preserves equal arrow lengths and its original intensity coefficient',()=>{for(const a of grid('efield2',defaults(find('efield2'))))if(a.visible){assert.equal(a.length,15);assert.ok(a.strength>0&&a.strength<=255);}});
+test('Dipole midpoint has the axial field direction and zero transverse component',()=>{const p={...defaults(find('efield3')),xpt:235,ypt:160},a=probeAt('efield3',p);assert.ok(a.ex>0);assert.equal(a.ey,0);});
+test('Singular charge centres are masked, rather than emitting nonfinite coordinates',()=>{for(const t of ['efield1','efield2','efield3']){const p=defaults(find(t)),x=p.xq??p.xqR,y=p.yq??p.yqR;assert.equal(probeAt(t,{...p,xpt:x,ypt:y}).visible,false);}});
+test('Linear potential has correct endpoint values and rejects coincident x boundaries',()=>{const p=defaults(find('laplace1dim'));assert.equal(potential(p,p.x1),80);assert.equal(potential(p,p.x2),180);assert.equal(potential({...p,x2:p.x1},p.x1),null);});
+test('Dipole geometry permits coincident charges without a nonfinite direction arrow',()=>{const p=defaults(find('dipole'));assert.equal(dipole({...p,xqR:p.xqB,yqR:p.yqB}).distance,0);});

@@ -1,0 +1,97 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "results": [
+    {
+      "id": "flash-fe23ebb7c00a785f",
+      "kind": "field-flash-fe23ebb7c00a785f",
+      "type": "efield1",
+      "states": 21,
+      "svg": true,
+      "appliedParameters": true,
+      "drag": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csv": true,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-4a0e1789a0e7f884",
+      "kind": "field-flash-4a0e1789a0e7f884",
+      "type": "efield2",
+      "states": 21,
+      "svg": true,
+      "appliedParameters": true,
+      "drag": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csv": true,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-32d1a157f597ea62",
+      "kind": "field-flash-32d1a157f597ea62",
+      "type": "efield3",
+      "states": 25,
+      "svg": true,
+      "appliedParameters": true,
+      "drag": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csv": true,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-3e95e04b2f93f063",
+      "kind": "field-flash-3e95e04b2f93f063",
+      "type": "dipole",
+      "states": 19,
+      "svg": true,
+      "appliedParameters": true,
+      "drag": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csv": true,
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-b47dd6c6d38c2105",
+      "kind": "field-flash-b47dd6c6d38c2105",
+      "type": "laplace1dim",
+      "states": 20,
+      "svg": true,
+      "appliedParameters": true,
+      "drag": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csv": true,
+      "sourceRuntimeExhaustive": false
+    }
+  ],
+  "errors": [],
+  "noFlashOnReadingPage": true
+}

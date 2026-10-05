@@ -1,0 +1,172 @@
+{
+  "method": "Private original root function versus independently implemented numerical recurrence or scripted positions",
+  "files": 15,
+  "comparisons": 269668,
+  "results": [
+    {
+      "id": "flash-b1362cc3cafd734f",
+      "kind": "fundamental-flash-b1362cc3cafd734f",
+      "type": "springmot1",
+      "sha256": "ea85ddd02162d14b2ab36a09bbdba3b5fb226c49e2e9cc4b89475c527211d317",
+      "comparisons": 15000,
+      "maxAbsoluteError": 4.093947403305265e-15,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-ced2cd23979a29dc",
+      "kind": "fundamental-flash-ced2cd23979a29dc",
+      "type": "springmot_damped",
+      "sha256": "255eed0250f32e3d019c39e11f0ead87c1c20cee19c7ff17d12ace43bfd8f854",
+      "comparisons": 21000,
+      "maxAbsoluteError": 4.831690557431354e-15,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-56a6d23341185a0b",
+      "kind": "fundamental-flash-56a6d23341185a0b",
+      "type": "hooklaw",
+      "sha256": "e4d51e34e24ed41e174c73891af0c2cb42cb20b050cff0d21a20e65ccfce05fe",
+      "comparisons": 21000,
+      "maxAbsoluteError": 4.711508960753008e-15,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-aaaa1dbeda010831",
+      "kind": "fundamental-flash-aaaa1dbeda010831",
+      "type": "oscpoten2",
+      "sha256": "878a3bcf29688d886088e10793b1a7211afd4c3c32dec2a6dd10792d9b280f48",
+      "comparisons": 30000,
+      "maxAbsoluteError": 4.829470157119431e-15,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-16cdb397dda311b1",
+      "kind": "fundamental-flash-16cdb397dda311b1",
+      "type": "osc_harm1",
+      "sha256": "34cc3ec814926eaf8b3536c4b9f11ed9fd551c273fa5387b5db26ac5366897b5",
+      "comparisons": 21000,
+      "maxAbsoluteError": 1.3954115640757436e-14,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-a47cea8ca74c47d1",
+      "kind": "fundamental-flash-a47cea8ca74c47d1",
+      "type": "pendulum1patch",
+      "sha256": "145adc9a8c9bce265f9ac75617c1206f9496805023fd64139847c2f7002dc4f1",
+      "comparisons": 28000,
+      "maxAbsoluteError": 9.643952303406422e-12,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-5802e076d45adf57",
+      "kind": "fundamental-flash-5802e076d45adf57",
+      "type": "pendulum_damp",
+      "sha256": "35092a44ea19ab7beee3ac73bc5d683015058d08d51d2d7d576097a5953ff248",
+      "comparisons": 36000,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-e6959cc845156cf9",
+      "kind": "fundamental-flash-e6959cc845156cf9",
+      "type": "osc_2d1",
+      "sha256": "b6dd4a466ae16e08a8819cb01c7351af6345d0383002b9e7d4c64771099b0fe3",
+      "comparisons": 36000,
+      "maxAbsoluteError": 3.410605131648481e-13,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-d273a477ec0c73e3",
+      "kind": "fundamental-flash-d273a477ec0c73e3",
+      "type": "osc_2d3",
+      "sha256": "b883a807ffac0f9b0e8c7d78182c295b02cc25e208f78c4ca3b025a319732abc",
+      "comparisons": 36000,
+      "maxAbsoluteError": 3.907985046680551e-14,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-2e0022d7475b5ce4",
+      "kind": "fundamental-flash-2e0022d7475b5ce4",
+      "type": "cir_osc",
+      "sha256": "800b1b751b3cf0655003a6fd4fefa329bfdbb3af94822e197cceef895fc45f63",
+      "comparisons": 1450,
+      "maxAbsoluteError": 1.4210854715202004e-14,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-e83dad4349d2dead",
+      "kind": "fundamental-flash-e83dad4349d2dead",
+      "type": "cnstmom2",
+      "sha256": "ca698f80fa9f701384720acb0577f5b6a8aee992d544fd4a1be6a9f9fa9d76ad",
+      "comparisons": 20000,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-92a5d41f9bb1846e",
+      "kind": "fundamental-flash-92a5d41f9bb1846e",
+      "type": "osckind1",
+      "sha256": "03883afa8e28a4113f88dc67ef1c4747839ac737736b1c13134c90187cf1fd9b",
+      "comparisons": 3000,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-5cc33098a15684c7",
+      "kind": "fundamental-flash-5cc33098a15684c7",
+      "type": "col1d",
+      "sha256": "327d923cc65d6330ca5fd0d5cb4a2390910f52810f20f758e4aee1d81cc4a911",
+      "comparisons": 148,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-fd1dd08a58155d74",
+      "kind": "fundamental-flash-fd1dd08a58155d74",
+      "type": "ballisticpen",
+      "sha256": "abfcd39b929a050d603d8b06e1ea24c4e2509dee2e56b704637b92426b85cffe",
+      "comparisons": 596,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-8cd1b69a0017cc1c",
+      "kind": "fundamental-flash-8cd1b69a0017cc1c",
+      "type": "coulomblaw",
+      "sha256": "9e65043095659d6a589b85adb63d55eecb83107b30922d9293854a9d4deb6543",
+      "comparisons": 474,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "passed": true,
+      "scope": "Source root recurrence / positions at initial controls and each control endpoint, up to 1000 steps. Source controller values inspected; remaster drag and controls tested separately. Graphs share these states. Not Flash runtime exhaustive equivalence.",
+      "sourceRuntimeExhaustive": false
+    }
+  ]
+}

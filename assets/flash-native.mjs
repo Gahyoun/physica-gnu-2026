@@ -1,3 +1,5 @@
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="field-"]'))await import('./native-fields.mjs');
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="fundamental-"]'))await import('./native-fundamentals.mjs');
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="expansion-"]'))await import('./native-expansion.mjs');
 import './native-analytic.mjs';
 import './native-optics.mjs';

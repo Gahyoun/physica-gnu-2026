@@ -1,0 +1,62 @@
+{
+  "method": "Private original root geometry and vector calculation versus fresh SVG model",
+  "files": 5,
+  "comparisons": 64253,
+  "results": [
+    {
+      "id": "flash-fe23ebb7c00a785f",
+      "kind": "field-flash-fe23ebb7c00a785f",
+      "type": "efield1",
+      "sha256": "7e400e205a94ab3f19d2b94a269a16e3152f7565c1f12207b57f2e4a9f140ed3",
+      "passed": true,
+      "comparisons": 19165,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "scope": "Every original grid cell, exclusion mask, vector endpoint/direction and magnitude colour coefficient at default/control boundaries. Source probe branches compared for efield1/efield3; efield2 probe is a remaster addition. GNU blue replaces original colour.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-4a0e1789a0e7f884",
+      "kind": "field-flash-4a0e1789a0e7f884",
+      "type": "efield2",
+      "sha256": "97530cbe72362051766b1cccef104be5c569dfd764ff448eff418ac561d94766",
+      "passed": true,
+      "comparisons": 19811,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "scope": "Every original grid cell, exclusion mask, vector endpoint/direction and magnitude colour coefficient at default/control boundaries. Source probe branches compared for efield1/efield3; efield2 probe is a remaster addition. GNU blue replaces original colour.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-32d1a157f597ea62",
+      "kind": "field-flash-32d1a157f597ea62",
+      "type": "efield3",
+      "sha256": "427afc2494a3585b9230a1a25b272a1aa66e6c0378d87bbe1f4d00ba179cd3e8",
+      "passed": true,
+      "comparisons": 25169,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "scope": "Every original grid cell, exclusion mask, vector endpoint/direction and magnitude colour coefficient at default/control boundaries. Source probe branches compared for efield1/efield3; efield2 probe is a remaster addition. GNU blue replaces original colour.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-3e95e04b2f93f063",
+      "kind": "field-flash-3e95e04b2f93f063",
+      "type": "dipole",
+      "sha256": "49b1d38f53ddf00d46c7989c3df63e6894a80e0b96d15b054c41a13dacf929cd",
+      "passed": true,
+      "comparisons": 54,
+      "maxAbsoluteError": 0,
+      "scope": "All distance/dipole direction endpoints and label midpoints at defaults/control boundaries.",
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "id": "flash-b47dd6c6d38c2105",
+      "kind": "field-flash-b47dd6c6d38c2105",
+      "type": "laplace1dim",
+      "sha256": "4fc49f31566c05c0ee37abb2ebe4ba9fcf2c479741ea24feb0cec565471009e4",
+      "passed": true,
+      "comparisons": 54,
+      "maxAbsoluteError": 0,
+      "scope": "Original boundary/end-point geometry; independently added interpolation checked at boundaries. Equal-x handling is an explicit remaster guard.",
+      "sourceRuntimeExhaustive": false
+    }
+  ]
+}

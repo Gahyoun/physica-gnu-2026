@@ -1,0 +1,21 @@
+// Source-specific recurrences, in source units. No original artwork or script is bundled.
+import {fundamentalSpecs} from './fundamental-specs.mjs';
+export {fundamentalSpecs};
+export const defaults=s=>Object.fromEntries(s.controls.map(c=>[c.key,c.initial]));
+export function initial(s,p){const c=s.constants;return {x:p.x??0,y:p.y??0,v:p.v??0,vx:p.vx??0,vy:p.vy??0,angle:p.angle??0,w:p.w??0,F:0,T:0,n:0,...(s.group==='momentum'?{x:50,y:150}:{}),...(s.group==='kinds'?{x:-99,v:0,time:0,time3:0,bx:101,by:71,fall:20,shuttle:112.5}:{}),...(s.group==='coulomb'?{x:p.position,v:0,stopped:false}:{}),...(s.group==='circular'?{x:100,y:0}:{}),...(s.group==='collision'?{x:25,y:110}:{}),...(s.group==='ballistic'?{x:20,y:130,woodX:200,woodY:130,shiftX:0,shiftY:100,angle:0}:{}),dt:c.dt};}
+export function step(s,p,a){const b={...a,n:a.n+1},c={...s.constants,...p},dt=c.dt;
+ if(['spring','vertical'].includes(s.group)){const h=dt/c.substeps;for(let i=0;i<c.substeps;i++){b.F=-c.damping*b.v-c.k*b.x;b.v+=b.F/c.mass*h;b.x+=b.v*h;}if(c.limit&&Math.abs(b.x)>c.limit){b.x=Math.sign(b.x)*c.limit;b.v=0;}}
+ else if(s.group==='pendulum'){const h=dt/c.substeps;for(let i=0;i<c.substeps;i++){b.T=c.mass*c.g*Math.cos(b.angle);b.F=-c.damping*c.length*b.w-c.mass*c.g*Math.sin(b.angle);b.w+=b.F/(c.length*c.mass)*h;b.angle+=b.w*h;}}
+ else if(s.group==='rubber'){let fx=0,fy=0;for(const [x,y,k] of [[0,-200,c.kx],[0,200,c.kx],[-200,0,c.ky],[200,0,c.ky]]){const d=Math.hypot(b.x-x,b.y-y),f=-k*(d-50)/d;fx+=f*(b.x-x);fy+=f*(b.y-y);}b.vx+=(-c.damping*b.vx+fx)*dt;b.vy+=(-c.damping*b.vy+fy)*dt;b.x+=b.vx*dt;b.y+=b.vy*dt;}
+ else if(s.group==='lissajous'){const h=dt/c.substeps;for(let i=0;i<c.substeps;i++){b.vx+=(-c.damping*b.vx-c.mass*c.wx**2*b.x)/c.mass*h;b.vy+=(-c.damping*b.vy-c.mass*c.wy**2*b.y)/c.mass*h;b.x+=b.vx*h;b.y+=b.vy*h;}for(const [x,v] of [['x','vx'],['y','vy']])if(Math.abs(b[x])>1.5){b[x]=Math.sign(b[x])*1.5;b[v]=0;}}
+ else if(s.group==='circular'){b.x=100*Math.cos(.1745329777777778*b.n);b.y=100*Math.sin(.1745329777777778*b.n);}
+ else if(s.group==='momentum'){b.x+=b.vx*dt;b.y+=b.vy*dt;for(const [x,v,lo,hi] of [['x','vx',30,470],['y','vy',30,170]]){if(b[x]<lo){b[x]=2*lo-b[x];b[v]=-b[v];}else if(b[x]>hi){b[x]=2*hi-b[x];b[v]=-b[v];}}}
+ else if(s.group==='kinds'){b.time=(a.time+1)>40?0:a.time+1;b.time3=(a.time3+1)>=46?0:a.time3+1;b.fall=20+.5*(b.time<20?b.time**2:(40-b.time)**2);if(b.x<-99||b.x>99){b.x=Math.max(-99,Math.min(99,b.x));b.v=0;}const slope=b.x/Math.sqrt(2500-b.x*b.x/4),theta=Math.atan(slope);b.v-=Math.sin(theta);b.bx=b.x-14*Math.sin(theta)+200;b.by=71-(50-Math.sqrt(2500-b.x*b.x/4)+14*Math.cos(theta));b.x+=b.v*Math.cos(theta);b.shuttle=112.5+7.777777777777778*(b.time3<23?b.time3:46-b.time3);}
+ else if(s.group==='collision'){const n=b.n;if(n<=1){b.x=25;b.y=110;}else if(n>=10&&n<30){b.x=25+5*(n-10);b.y=110+2*(n-10);}else if(n===30){b.x=125;b.y=150;}else if(n>30&&n<50){b.x=125+n-30;b.y=150+4*(n-30);}else if(n===50){b.x=145;b.y=230;}}
+ else if(s.group==='ballistic'){const n=b.n;if(n<=1){Object.assign(b,{x:20,y:130,woodX:200,woodY:130,shiftX:0,shiftY:100,angle:0});}else if(n>=15&&n<=30)b.x=20+10*(n-15);else if(n>=30&&n<100){b.angle=1-((n-100)/70)**2;b.shiftX=100*Math.sin(b.angle);b.shiftY=100*Math.cos(b.angle);b.x=170+b.shiftX;b.y=30+b.shiftY;b.woodX=200+b.shiftX;b.woodY=30+b.shiftY;}}
+ else if(s.group==='coulomb'&&!a.stopped){const h=dt/c.substeps;for(let i=0;i<c.substeps;i++){b.F=-c.damping*b.v+c.sign*600/(20-b.x)**2;b.v+=b.F/c.mass*h;b.x+=b.v*h/.001;}if(b.x<60||b.x>450){b.x=c.sign===1?450:60;b.v=0;b.stopped=true;}}
+ return b;
+}
+export function trajectory(s,p){const a=initial(s,p),values=[a];for(let n=1;n<=s.end;n++)values.push(step(s,p,values.at(-1)));return values;}
+export function energy(s,p,a){const c={...s.constants,...p};if(['spring','vertical'].includes(s.group)){const U=.5*c.k*a.x*a.x,K=.5*c.mass*a.v*a.v;return [U,K,U+K];}if(s.group==='pendulum'){const U=c.mass*c.g*c.length*(1-Math.cos(a.angle)),K=.5*c.mass*(c.length*a.w)**2;return [U,K,U+K];}return [];}
+export function series(s,p,a){if(s.group==='pendulum')return [a.angle,a.w];if(['spring','vertical','coulomb'].includes(s.group))return [a.x,a.v];if(s.group==='momentum')return [a.vx,a.vy];if(s.group==='kinds')return [a.fall,a.bx,a.shuttle];if(s.group==='ballistic')return [a.x,a.woodX];return [a.x,a.y];}

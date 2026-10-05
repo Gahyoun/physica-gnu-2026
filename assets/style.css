@@ -1225,3 +1225,8 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 .expansion-host .native-curve {stroke-opacity:.65;}
 .expansion-host .book-readouts dd {font-variant-numeric:tabular-nums;}
 @media(max-width:600px){.expansion-host .exp-progress {grid-template-columns:1fr 1fr;}.exp-progress > label:first-child {grid-column:1/-1;}.expansion-host .exp-controls {grid-template-columns:1fr;}.expansion-host .exp-scene svg {min-width:500px;}.exp-scene {overflow-x:auto;}.expansion-host .exp-graph svg {min-width:500px;}.exp-graph {overflow-x:auto;}.expansion-host .book-readouts {grid-template-columns:repeat(2,minmax(0,1fr));}}
+
+/* Decorative vectors must not intercept a draggable charge or oscillator. */
+.fundamental-host [data-fund-scene] path,.fundamental-host [data-fund-scene] text,.field-host [data-field-scene] path,.field-host [data-field-scene] text {pointer-events:none;}
+.fundamental-host [data-fund-bob],.field-host [data-field-handle] {cursor:grab;touch-action:none;}
+.fundamental-host [data-fund-scene],.field-host [data-field-scene] {user-select:none;touch-action:none;}

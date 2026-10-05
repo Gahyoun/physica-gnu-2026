@@ -1,0 +1,322 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "results": [
+    {
+      "id": "flash-b1362cc3cafd734f",
+      "kind": "fundamental-flash-b1362cc3cafd734f",
+      "type": "springmot1",
+      "states": 13,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 2001
+    },
+    {
+      "id": "flash-ced2cd23979a29dc",
+      "kind": "fundamental-flash-ced2cd23979a29dc",
+      "type": "springmot_damped",
+      "states": 15,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 2001
+    },
+    {
+      "id": "flash-56a6d23341185a0b",
+      "kind": "fundamental-flash-56a6d23341185a0b",
+      "type": "hooklaw",
+      "states": 15,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 2001
+    },
+    {
+      "id": "flash-aaaa1dbeda010831",
+      "kind": "fundamental-flash-aaaa1dbeda010831",
+      "type": "oscpoten2",
+      "states": 13,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 5001
+    },
+    {
+      "id": "flash-16cdb397dda311b1",
+      "kind": "fundamental-flash-16cdb397dda311b1",
+      "type": "osc_harm1",
+      "states": 16,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 2001
+    },
+    {
+      "id": "flash-a47cea8ca74c47d1",
+      "kind": "fundamental-flash-a47cea8ca74c47d1",
+      "type": "pendulum1patch",
+      "states": 15,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 5001
+    },
+    {
+      "id": "flash-5802e076d45adf57",
+      "kind": "fundamental-flash-5802e076d45adf57",
+      "type": "pendulum_damp",
+      "states": 18,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 2001
+    },
+    {
+      "id": "flash-e6959cc845156cf9",
+      "kind": "fundamental-flash-e6959cc845156cf9",
+      "type": "osc_2d1",
+      "states": 19,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 2001
+    },
+    {
+      "id": "flash-d273a477ec0c73e3",
+      "kind": "fundamental-flash-d273a477ec0c73e3",
+      "type": "osc_2d3",
+      "states": 17,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 3001
+    },
+    {
+      "id": "flash-2e0022d7475b5ce4",
+      "kind": "fundamental-flash-2e0022d7475b5ce4",
+      "type": "cir_osc",
+      "states": 6,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 726
+    },
+    {
+      "id": "flash-e83dad4349d2dead",
+      "kind": "fundamental-flash-e83dad4349d2dead",
+      "type": "cnstmom2",
+      "states": 12,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 2001
+    },
+    {
+      "id": "flash-92a5d41f9bb1846e",
+      "kind": "fundamental-flash-92a5d41f9bb1846e",
+      "type": "osckind1",
+      "states": 6,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-5cc33098a15684c7",
+      "kind": "fundamental-flash-5cc33098a15684c7",
+      "type": "col1d",
+      "states": 6,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 75
+    },
+    {
+      "id": "flash-fd1dd08a58155d74",
+      "kind": "fundamental-flash-fd1dd08a58155d74",
+      "type": "ballisticpen",
+      "states": 6,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 150
+    },
+    {
+      "id": "flash-8cd1b69a0017cc1c",
+      "kind": "fundamental-flash-8cd1b69a0017cc1c",
+      "type": "coulomblaw",
+      "states": 12,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 2001
+    }
+  ],
+  "errors": [],
+  "noFlashOnReadingPage": true
+}
