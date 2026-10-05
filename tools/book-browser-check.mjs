@@ -26,7 +26,7 @@ try{
   for(const input of await page.locator('.book-lab input[type=range]').all())for(const bound of ['min','max']){
    await input.evaluate((e,b)=>{e.value=e[b];e.dispatchEvent(new Event('input',{bubbles:true}));},bound);
    assert.equal(await page.locator('svg [d*="NaN"],svg [d*="Infinity"]').count(),0,lesson.file);
-   assert.ok(!/NaN|Infinity|undefined/.test(await page.locator('.book-readouts').innerText()),lesson.file);report.sliderChecks++;
+   assert.ok(!/NaN|Infinity|undefined/.test(await page.locator('.book-lab .book-readouts').innerText()),lesson.file);report.sliderChecks++;
   }
   await page.locator('[data-book-reset]').click();
   for(const width of report.widths){await page.setViewportSize({width,height:950});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),lesson.file+' @ '+width);}

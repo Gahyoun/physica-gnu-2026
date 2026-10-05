@@ -1,3 +1,4 @@
+import {motionModels,probeModels,motionState,probeHistory} from './book-motion.mjs';
 import {models,PI} from './book-models.mjs';
 import {notation} from './math-labels.mjs';
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
@@ -16,7 +17,7 @@ function axes(r){
  }
  body+=line(64,44,64,268)+line(64,268,704,268);return {body,X,Y};
 }
-function chart(r,time,animate){
+function chart(r,time,animate,probe=null){
  const {body,X,Y}=axes(r);let paths='';
  r.curves.forEach((c,j)=>{let d='',lastY=null;
   for(let i=0;i<=240;i++){
@@ -29,7 +30,8 @@ function chart(r,time,animate){
   }
   paths+=`<path d="${d}" fill="none" stroke="${colors[j%3]}" stroke-width="2.5" ${j===1?'stroke-dasharray="8 5"':j===2?'stroke-dasharray="2 4"':''}/>`;
  });
- if(animate&&r.xlabel.startsWith('시간')){const xx=r.xmin+time%(r.xmax-r.xmin);for(const [i,c] of r.curves.entries()){const yy=c.fn(xx);if(Number.isFinite(yy)&&yy>=r.ymin&&yy<=r.ymax)paths+=circle(X(xx),Y(yy),4,colors[i%3]);}}
+ if(animate&&r.xlabel.startsWith('시간')){const xx=Math.max(r.xmin,Math.min(r.xmax,time));for(const [i,c] of r.curves.entries()){const yy=c.fn(xx);if(Number.isFinite(yy)&&yy>=r.ymin&&yy<=r.ymax)paths+=circle(X(xx),Y(yy),4,colors[i%3]);}}
+ if(probe!==null){const y=r.curves.at(-1).fn(probe);if(Number.isFinite(y))paths+=line(X(probe),44,X(probe),268,'var(--plot-muted)',1,'stroke-dasharray="4 4"')+circle(X(probe),Y(y),7,colors[1]);}
  return body+`<defs><clipPath id="book-plot-clip"><rect x="64" y="44" width="640" height="224"/></clipPath></defs><g clip-path="url(#book-plot-clip)">${paths}</g>`;
 }
 function rayDiagram(r){
@@ -61,23 +63,37 @@ function special(r){
 }
 for(const host of document.querySelectorAll('[data-book-lab]')){
  const model=models[host.dataset.bookLab];if(!model)throw Error('Unknown supplementary model: '+host.dataset.bookLab);
+ const key=host.dataset.bookLab,hasMotion=motionModels.has(key),hasProbe=probeModels.has(key);
  const state=Object.fromEntries(model.controls.map(c=>[c.key,c.value]));
- host.innerHTML=`<h4>${esc(model.title)}</h4><div data-book-view tabindex="0" aria-label="탐구 그림"></div><div class="legend" data-book-legend></div><div class="controls">${model.controls.map(c=>`<label class="control"><span class="control-head"><span>${esc(c.label)}</span><output data-for="${c.key}"></output></span><input type="range" data-key="${c.key}" min="${c.min}" max="${c.max}" step="${c.step}" value="${c.value}" aria-label="${esc(c.label)}"></label>`).join('')}</div><div class="button-row">${model.animate?'<button class="primary" data-book-play aria-pressed="false">재생</button>':''}<button data-book-reset>초기화</button></div><dl class="book-readouts" data-book-readouts></dl><p class="figure-note">${esc(model.note)}</p>`;
+ const initial=model.calculate(state,0),timeGraph=model.animate&&initial.curves&&initial.xlabel.startsWith('시간'),end=timeGraph?initial.xmax:20;let probe=hasProbe?(initial.xmin+initial.xmax)/2:null;
+
+ host.innerHTML=`<h4>${esc(model.title)}</h4>${hasMotion?'<div data-book-motion aria-label="그래프와 연결된 운동 화면"></div>':''}<div data-book-view tabindex="0" aria-label="탐구 그림"></div><div class="legend" data-book-legend></div><div class="controls">${model.controls.map(c=>`<label class="control"><span class="control-head"><span>${esc(c.label)}</span><output data-for="${c.key}"></output></span><input type="range" data-key="${c.key}" min="${c.min}" max="${c.max}" step="${c.step}" value="${c.value}" aria-label="${esc(c.label)}"></label>`).join('')}</div>${hasProbe?'<div data-book-probe-view></div><label class="book-time-control">기록점 좌표 <output data-book-probe-label></output><input data-book-probe type="range" aria-label="기록점 위치"></label>':''}${model.animate?`<label class="book-time-control">시간 <output data-book-time-label>0</output><input data-book-time type="range" min="0" max="${end}" step=".01" value="0" aria-label="탐구 시간"></label>`:''}<div class="button-row">${model.animate?'<button class="primary" data-book-play aria-pressed="false">재생</button>':''}<button data-book-reset>초기화</button></div><dl class="book-readouts" data-book-readouts></dl><p class="figure-note">${esc(model.note)}</p>`;
  let time=0,running=false,visible=true,frame=0,last=0,lastPaint=0;
  function update(){
   const result=model.calculate(state,time);
-  host.querySelector('[data-book-view]').innerHTML=`<svg class="plot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 340" role="img" aria-label="${esc(model.title)}"><title>${esc(model.title)}</title><desc>${esc(model.note)}</desc>${result.curves?chart(result,time,model.animate):special(result)}</svg>`;
+  host.querySelector('[data-book-view]').innerHTML=`<svg class="plot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 340" role="img" aria-label="${esc(model.title)}"><title>${esc(model.title)}</title><desc>${esc(model.note)}</desc>${result.curves?chart(result,time,model.animate,probe):special(result)}</svg>`;
+  if(hasMotion)drawMotion(motionState(key,state,time,result));
+  if(hasProbe){const e=host.querySelector('[data-book-probe]');e.min=result.xmin;e.max=result.xmax;e.step=(result.xmax-result.xmin)/100;e.value=probe;host.querySelector('[data-book-probe-label]').textContent=fmt(probe);const pts=probeHistory(model,state,probe),lim=Math.max(.01,...pts.map(p=>Math.abs(p.y)));host.querySelector('[data-book-probe-view]').innerHTML=`<svg class="plot" viewBox="0 0 740 170" role="img" aria-label="고정 기록점의 시간 변화"><text x="64" y="20">기록점의 시간 그래프 · x=${fmt(probe)}</text><path d="M64 40V140 M64 90H704" class="native-axis"/><path d="${pts.map((p,i)=>(i?'L':'M')+(64+32*p.t)+','+(90-45*p.y/lim)).join(' ')}" class="native-curve native-velocity"/><circle cx="${64+32*(Math.min(20,time))}" cy="${90-45*model.calculate(state,Math.min(20,time)).curves.at(-1).fn(probe)/lim}" r="5" class="native-velocity"/><text x="64" y="165">0</text><text x="350" y="165">시간 t</text><text x="685" y="165">20</text></svg>`;}
+  if(model.animate){host.querySelector('[data-book-time-label]').textContent=fmt(time);host.querySelector('[data-book-time]').value=time;}
   const dl=host.querySelector('[data-book-readouts]');const html=Object.entries(result.values||{}).map(([k,v])=>`<div><dt>${mathLabel(k)}</dt><dd>${fmt(v)}</dd></div>`).join('');if(dl.innerHTML!==html)dl.innerHTML=html;
   host.querySelector('[data-book-legend]').innerHTML=(result.curves||[]).map((c,i)=>`<span><i style="border-color:${colors[i%3]};${i===1?'border-top-style:dashed':i===2?'border-top-style:dotted':''}"></i>${esc(c.label)}</span>`).join('');
   for(const c of model.controls)host.querySelector(`[data-for="${c.key}"]`).textContent=fmt(state[c.key])+' '+c.unit;
   host.dataset.rendered='true';host.dataset.time=String(time);
  }
- function tick(now){frame=0;if(!running||!visible||document.hidden)return;if(last)time+=Math.min(.06,(now-last)/1000);last=now;if(now-lastPaint>=70){update();lastPaint=now;}frame=requestAnimationFrame(tick);}
- function resume(){if(running&&visible&&!document.hidden&&!frame){last=0;frame=requestAnimationFrame(tick);}}
+ function drawMotion(m){
+  let body='';if(m.type==='bobs'){body=line(64,70,704,70)+line(384,25,384,115,'var(--plot-muted)',1,'stroke-dasharray="4 4"');m.positions.forEach((x,i)=>{const px=384+260*x/m.scale,y=60+i*50;body+=`<path d="M64 ${y}L${px} ${y}" class="native-axis"/>`+circle(px,y,12,colors[i])+text(px,y+25,fmt(x)+' '+m.unit,'text-anchor="middle"');});}
+  if(m.type==='force')body=line(100,75,100+500*m.force/m.scale,75,colors[0],5)+(m.force>0?`<path d="M${100+500*m.force/m.scale} 75l-14 -8v16Z" fill="${colors[0]}"/>`:'')+text(100,110,'힘 '+fmt(m.force)+' N');
+  if(m.type==='population'){body=text(64,25,'평균 개체수 비율 · 실제 개별 붕괴 시각 아님');m.fractions.forEach((f,i)=>{body+=`<rect x="64" y="${40+i*45}" width="640" height="22" fill="var(--ui-surface)"/><rect x="64" y="${40+i*45}" width="${640*f}" height="22" fill="${colors[i]}"/>`+text(64,78+i*45,(i?'딸핵':'생존')+' '+fmt(f));});}
+  host.querySelector('[data-book-motion]').innerHTML=`<svg class="plot" viewBox="0 0 740 150" role="img" aria-label="그래프와 시간·입력을 공유하는 운동">${body}</svg>`;host.dataset.motionTime=String(time);host.dataset.motionX=m.positions?.[0]??'';
+ }
+ function tick(now){frame=0;if(!running||!visible||document.hidden)return;if(last)time+=Math.min(.06,(now-last)/1000);if(timeGraph||hasProbe)time=Math.min(end,time);last=now;if(now-lastPaint>=70){update();lastPaint=now;}if((timeGraph||hasProbe)&&time>=end){running=false;host.querySelector('[data-book-play]').textContent='재생';host.querySelector('[data-book-play]').setAttribute('aria-pressed','false');update();}else frame=requestAnimationFrame(tick);}
+ function resume(){if(running&&visible&&!document.hidden&&!frame){last=0;if((timeGraph||hasProbe)&&time>=end){running=false;host.querySelector('[data-book-play]').textContent='재생';host.querySelector('[data-book-play]').setAttribute('aria-pressed','false');update();}else frame=requestAnimationFrame(tick);}}
  function pause(){if(frame)cancelAnimationFrame(frame);frame=0;last=0;}
- host.addEventListener('input',e=>{const key=e.target.dataset.key;if(!key)return;state[key]=Number(e.target.value);update();});
+ host.addEventListener('input',e=>{const key=e.target.dataset.key;if(!key)return;state[key]=Number(e.target.value);time=0;last=0;update();});
  host.querySelector('[data-book-reset]').addEventListener('click',()=>{for(const c of model.controls){state[c.key]=c.value;host.querySelector(`[data-key="${c.key}"]`).value=c.value;}time=0;last=0;update();});
- host.querySelector('[data-book-play]')?.addEventListener('click',e=>{running=!running;e.target.textContent=running?'일시정지':'재생';e.target.setAttribute('aria-pressed',String(running));running?resume():pause();});
+ host.querySelector('[data-book-play]')?.addEventListener('click',e=>{if((timeGraph||hasProbe)&&time>=end)time=0;running=!running;e.target.textContent=running?'일시정지':'재생';e.target.setAttribute('aria-pressed',String(running));running?resume():pause();});
+ host.querySelector('[data-book-time]')?.addEventListener('input',e=>{running=false;pause();time=Number(e.target.value);const b=host.querySelector('[data-book-play]');b.textContent='재생';b.setAttribute('aria-pressed','false');update();});
+ host.querySelector('[data-book-probe]')?.addEventListener('input',e=>{probe=Number(e.target.value);update();});
  if(model.animate){new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;if(visible)resume();else pause();}).observe(host);document.addEventListener('visibilitychange',()=>document.hidden?pause():resume());}
  update();
 }

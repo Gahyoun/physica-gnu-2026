@@ -1,0 +1,80 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "checks": [
+    {
+      "kind": "dampedExperiment",
+      "source": "osc_damp.swf",
+      "controls": [
+        "b",
+        "m",
+        "k",
+        "x0"
+      ],
+      "playPauseReset": true,
+      "timeAndGraphSynchronized": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1024,
+        1360
+      ],
+      "darkMode": true
+    },
+    {
+      "kind": "drivenExperiment",
+      "source": "drivenosc2.swf",
+      "controls": [
+        "b",
+        "w"
+      ],
+      "playPauseReset": true,
+      "timeAndGraphSynchronized": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1024,
+        1360
+      ],
+      "darkMode": true
+    },
+    {
+      "kind": "damped",
+      "source": "graph_damp.swf",
+      "controls": [
+        "b",
+        "k"
+      ],
+      "playPauseReset": true,
+      "timeAndGraphSynchronized": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1024,
+        1360
+      ],
+      "darkMode": true
+    },
+    {
+      "kind": "driven",
+      "source": "graph_driven.swf",
+      "controls": [
+        "b",
+        "w"
+      ],
+      "playPauseReset": true,
+      "timeAndGraphSynchronized": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1024,
+        1360
+      ],
+      "darkMode": true
+    }
+  ],
+  "errors": []
+}

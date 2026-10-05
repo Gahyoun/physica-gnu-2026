@@ -1,0 +1,22 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "checked": [
+    "oscillator",
+    "coupled",
+    "damped",
+    "momentum",
+    "impulse",
+    "decay",
+    "decay-chain",
+    "wave",
+    "reflection",
+    "standing",
+    "interference"
+  ],
+  "widths": [
+    320,
+    768,
+    1360
+  ],
+  "errors": []
+}

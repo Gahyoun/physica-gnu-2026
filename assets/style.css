@@ -1064,3 +1064,16 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 
 .flash-stage{margin-inline:auto;max-height:none}.flash-stage:fullscreen{width:100vw!important;height:100vh!important}.native-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;padding:20px}.native-controls label{display:grid;gap:8px}.native-controls output{color:var(--ui-action);font-weight:700}.native-controls input{width:100%}.native-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:0 20px}.native-toolbar label{display:flex;align-items:center;flex-wrap:wrap;gap:10px}.native-toolbar input{max-width:200px}.native-axis{stroke:var(--plot-muted);stroke-width:1;fill:none}.native-displacement{stroke:#2d7953;fill:#2d7953}.native-velocity{stroke:#0069b4;fill:#0069b4}.native-acceleration{stroke:#9c5a78;fill:#9c5a78}.native-orbit{fill:#0069b4}.native-bob{fill:#2d7953}.native-curve{stroke-width:2;fill:none}.native-cursor{stroke:var(--plot-muted);stroke-width:1;stroke-dasharray:4 4}.native-graphs{overflow:auto;margin:12px 20px}.native-graphs svg{display:block;min-width:560px;width:100%}.native-graphs text,[data-flash-native] svg text{fill:currentColor;font-family:PhysicaText,sans-serif;font-size:14px}[data-flash-native]>svg{display:block;width:100%;height:auto}[data-flash-native] .editor-note{margin:20px}[data-flash-native] .book-readouts{margin-inline:20px}
 [data-theme="dark"] .native-displacement{stroke:#93cfab;fill:#93cfab}[data-theme="dark"] .native-velocity{stroke:#73b8e8;fill:#73b8e8}[data-theme="dark"] .native-acceleration{stroke:#d8a4bf;fill:#d8a4bf}
+
+/* Separate edition label preserves the approved original wordmark. */
+.brand-home{display:inline-flex;flex-direction:column;align-items:flex-start;text-decoration:none;gap:7px}
+.remaster-label{font-family:PhysicaTitle,sans-serif;font-size:17px;font-weight:700;line-height:1;letter-spacing:.16em;color:var(--ui-action)}
+.source-credit{font-size:16px;font-weight:600;line-height:1.65;margin-top:15px;max-width:570px;color:var(--ui-text)}
+.source-credit a{color:var(--ui-text)}
+.source-credit strong{color:var(--ui-action)}
+@media(max-width:800px){.remaster-label{font-size:14px}.source-credit{font-size:14px;margin-top:12px}}
+@media print{.remaster-label{font-size:11px}.source-credit{font-size:11px}}
+
+.book-time-control{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:16px 20px;font-size:14px}.book-time-control input{flex:1;min-width:160px}.book-time-control output{min-width:45px;color:var(--ui-action)}
+
+.book-lab [data-book-motion],.book-lab [data-book-probe-view]{overflow-x:auto;min-width:0}

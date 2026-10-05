@@ -1,3 +1,4 @@
+import './native-oscillators.mjs';
 // Independent HTML/SVG implementation of harmoniccircular.swf.
 // Source ranges: A=20..100 (75), omega=.1..5 (2), phi=-3.14..3.14 (0).
 export const harmonic=(A,w,phi,t)=>({x:A*Math.sin(phi+w*t),v:A*w*Math.cos(phi+w*t),a:-A*w*w*Math.sin(phi+w*t),cx:A*Math.cos(phi+w*t),frequency:w/(2*Math.PI),period:2*Math.PI/w});

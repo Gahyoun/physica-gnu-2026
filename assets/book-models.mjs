@@ -118,3 +118,6 @@ export const models={
 // Some topic guides use a simple representative model rather than their complete
 // original demonstration. The UI names that representative model explicitly.
 models.phase.title='잠열을 포함한 가열곡선';
+
+// These time-domain graphs share playback with their companion physical diagrams.
+for(const key of ['momentum','impulse','damped','decay','decay-chain'])models[key].animate=true;

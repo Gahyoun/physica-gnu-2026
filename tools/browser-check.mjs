@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import {pages} from '../src/content.mjs';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.PHYSICA_PLAYWRIGHT || 'playwright');
-const base=process.env.PHYSICA_BASE_URL || 'http://127.0.0.1:8774/';
+const base=process.env.PHYSICA_BASE_URL || 'http://127.0.0.1:8775/';
 const output=new URL('../preview/',import.meta.url);
 await fs.mkdir(output,{recursive:true});
 const browser=await chromium.launch({headless:true});
@@ -35,7 +35,7 @@ try{
     assert.equal(data.widgets,data.rendered,file);
     assert.equal(await page.locator('.identity img').getAttribute('alt'),'물리의 이해');
     assert.ok(await page.locator('.identity img').evaluate(im=>im.complete&&im.naturalWidth>0),'Wordmark loads');
-    assert.ok((await page.locator('.source-credit').innerText()).includes('정기수 경상국립대 명예교수님 작'));
+    assert.ok((await page.locator('.source-credit').innerText()).includes('경상국립대학교 물리학과 정기수 명예교수님 작'));
     assert.ok((await page.locator('.site-footer').innerText()).includes('(공식이 될 수 있도록 곧 허락 받아올게요)'));
     assert.ok(!(await page.locator('.site-header').innerText()).includes('정기수 교수님의 웹교재 · 동문 복원'));assert.deepEqual(data.duplicates,[],file);
     assert.deepEqual(data.badHashes,[],file);assert.equal(data.brokenMath,0,file);
