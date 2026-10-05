@@ -1,7 +1,7 @@
 {
   "method": "Private original root geometry and vector calculation versus fresh SVG model",
   "files": 5,
-  "comparisons": 64253,
+  "comparisons": 64177,
   "results": [
     {
       "id": "flash-fe23ebb7c00a785f",
@@ -9,8 +9,8 @@
       "type": "efield1",
       "sha256": "7e400e205a94ab3f19d2b94a269a16e3152f7565c1f12207b57f2e4a9f140ed3",
       "passed": true,
-      "comparisons": 19165,
-      "maxAbsoluteError": 2.842170943040401e-14,
+      "comparisons": 19153,
+      "maxAbsoluteError": 5.684341886080802e-14,
       "scope": "Every original grid cell, exclusion mask, vector endpoint/direction and magnitude colour coefficient at default/control boundaries. Source probe branches compared for efield1/efield3; efield2 probe is a remaster addition. GNU blue replaces original colour.",
       "sourceRuntimeExhaustive": false
     },
@@ -20,7 +20,7 @@
       "type": "efield2",
       "sha256": "97530cbe72362051766b1cccef104be5c569dfd764ff448eff418ac561d94766",
       "passed": true,
-      "comparisons": 19811,
+      "comparisons": 19795,
       "maxAbsoluteError": 5.684341886080802e-14,
       "scope": "Every original grid cell, exclusion mask, vector endpoint/direction and magnitude colour coefficient at default/control boundaries. Source probe branches compared for efield1/efield3; efield2 probe is a remaster addition. GNU blue replaces original colour.",
       "sourceRuntimeExhaustive": false
@@ -31,7 +31,7 @@
       "type": "efield3",
       "sha256": "427afc2494a3585b9230a1a25b272a1aa66e6c0378d87bbe1f4d00ba179cd3e8",
       "passed": true,
-      "comparisons": 25169,
+      "comparisons": 25121,
       "maxAbsoluteError": 1.1368683772161603e-13,
       "scope": "Every original grid cell, exclusion mask, vector endpoint/direction and magnitude colour coefficient at default/control boundaries. Source probe branches compared for efield1/efield3; efield2 probe is a remaster addition. GNU blue replaces original colour.",
       "sourceRuntimeExhaustive": false

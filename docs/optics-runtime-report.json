@@ -1,0 +1,1428 @@
+{
+  "date": "2026-10-05T22:51:21.466Z",
+  "nativeModelHashes": {
+    "assets/native-optics.mjs": "ca9e687ce6b02b2fbc4c5f350cb989ac4890173350d8653955db88f03dbc0481",
+    "assets/optics-specs.mjs": "5d9a5635182da8a00f22b6535684b53e2b9a7891c8683a7dfb83584b9fb53b81"
+  },
+  "method": "Actual original AVM1 function queries or read-only telemetry in Ruffle, with pointer control changes; independent HTML optics equations. No extracted scripts or diagnostic SWFs distributed.",
+  "files": 6,
+  "comparisons": 1749,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-c6e5e2c87923451c",
+      "kind": "optics-flash-c6e5e2c87923451c",
+      "type": "wave-phasor",
+      "sha256": "939c1282662663ce5aff65cd932298747127a5af0642cc642ac763de439db5b5",
+      "sha256Verified": true,
+      "diagnosticSha256": "84b527c9102a5e309deb7b9a6ffde1f648d331e5c7a52791da3f1685bea50008",
+      "comparisons": 396,
+      "maxAbsoluteError": 2.149391775674303e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "wavelength": 150,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 0",
+          "parameters": {
+            "wavelength": 75,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 0.25",
+          "parameters": {
+            "wavelength": 106,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 0.5",
+          "parameters": {
+            "wavelength": 137,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 0.75",
+          "parameters": {
+            "wavelength": 169,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 1",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wave selection 60",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wave selection 200",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wave selection 350",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "running phase 0",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 1.5
+        },
+        {
+          "name": "running phase 1",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 1.65
+        },
+        {
+          "name": "running phase 2",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 1.85
+        },
+        {
+          "name": "running phase 3",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2
+        },
+        {
+          "name": "running phase 4",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.15
+        },
+        {
+          "name": "running phase 5",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.35
+        },
+        {
+          "name": "running phase 6",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.5
+        },
+        {
+          "name": "running phase 7",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.65
+        },
+        {
+          "name": "paused phase",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.7
+        }
+      ],
+      "controls": [
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 0,
+          "target": 75,
+          "observed": 75,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 0.25,
+          "target": 106.25,
+          "observed": 106,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 0.5,
+          "target": 137.5,
+          "observed": 137,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 0.75,
+          "target": 168.75,
+          "observed": 169,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 1,
+          "target": 200,
+          "observed": 200,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "name": "wave selection",
+          "target": 60,
+          "observed": [
+            60
+          ],
+          "passed": true
+        },
+        {
+          "name": "wave selection",
+          "target": 200,
+          "observed": [
+            200
+          ],
+          "passed": true
+        },
+        {
+          "name": "wave selection",
+          "target": 350,
+          "observed": [
+            350
+          ],
+          "passed": true
+        },
+        {
+          "name": "start advances phase",
+          "before": 0.05,
+          "observed": 1.35,
+          "passed": true
+        },
+        {
+          "name": "pause stops phase",
+          "before": 2.7,
+          "observed": 2.7,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope."
+    },
+    {
+      "id": "flash-efe8053a4fc6890f",
+      "kind": "optics-flash-efe8053a4fc6890f",
+      "type": "wave-sum",
+      "sha256": "53c83ae76439f51c25ad4c85142665df271e63fa718561008fcabcf4e9c3fe48",
+      "sha256Verified": true,
+      "diagnosticSha256": "0fb7357cb36e905912ad61790f95f7a12d2ef54fba7209ffceb34b70ea8c3a2c",
+      "comparisons": 396,
+      "maxAbsoluteError": 1.6342482922482304e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "wavelength": 150,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 0",
+          "parameters": {
+            "wavelength": 75,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 0.25",
+          "parameters": {
+            "wavelength": 106,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 0.5",
+          "parameters": {
+            "wavelength": 137,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 0.75",
+          "parameters": {
+            "wavelength": 169,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wavelengthSlider fraction 1",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wave selection 60",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wave selection 200",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "wave selection 350",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 0.05
+        },
+        {
+          "name": "running phase 0",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 1.5
+        },
+        {
+          "name": "running phase 1",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 1.65
+        },
+        {
+          "name": "running phase 2",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 1.8
+        },
+        {
+          "name": "running phase 3",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2
+        },
+        {
+          "name": "running phase 4",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.15
+        },
+        {
+          "name": "running phase 5",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.3
+        },
+        {
+          "name": "running phase 6",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.5
+        },
+        {
+          "name": "running phase 7",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.65
+        },
+        {
+          "name": "paused phase",
+          "parameters": {
+            "wavelength": 200,
+            "n": null,
+            "phase": null,
+            "angle": null,
+            "distance": null
+          },
+          "time": 2.7
+        }
+      ],
+      "controls": [
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 0,
+          "target": 75,
+          "observed": 75,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 0.25,
+          "target": 106.25,
+          "observed": 106,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 0.5,
+          "target": 137.5,
+          "observed": 137,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 0.75,
+          "target": 168.75,
+          "observed": 169,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wavelengthSlider",
+          "fraction": 1,
+          "target": 200,
+          "observed": 200,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "name": "wave selection",
+          "target": 60,
+          "observed": [
+            10,
+            60
+          ],
+          "passed": true
+        },
+        {
+          "name": "wave selection",
+          "target": 200,
+          "observed": [
+            200,
+            60
+          ],
+          "passed": true
+        },
+        {
+          "name": "wave selection",
+          "target": 350,
+          "observed": [
+            200,
+            350
+          ],
+          "passed": true
+        },
+        {
+          "name": "start advances phase",
+          "before": 0.05,
+          "observed": 1.35,
+          "passed": true
+        },
+        {
+          "name": "pause stops phase",
+          "before": 2.7,
+          "observed": 2.7,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope."
+    },
+    {
+      "id": "flash-ecc72a738cffed91",
+      "kind": "optics-flash-ecc72a738cffed91",
+      "type": "slit-phasor",
+      "sha256": "fb6bdc820f578da8d65674731f4d202681bac0a1369118bf01e2306ea5b4dac1",
+      "sha256Verified": true,
+      "diagnosticSha256": "1f8005a70628acfddf906df81f0a3a67e15c3fed9669f2b9005fb3b11c537b1a",
+      "comparisons": 18,
+      "maxAbsoluteError": 4.3902124909631426e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "wavelength": "",
+            "n": "",
+            "phase": 50,
+            "angle": 50,
+            "distance": ""
+          }
+        },
+        {
+          "name": "angSlider fraction 0",
+          "parameters": {
+            "wavelength": "",
+            "n": "",
+            "phase": -540,
+            "angle": -540,
+            "distance": ""
+          }
+        },
+        {
+          "name": "angSlider fraction 0.25",
+          "parameters": {
+            "wavelength": "",
+            "n": "",
+            "phase": -270,
+            "angle": -270,
+            "distance": ""
+          }
+        },
+        {
+          "name": "angSlider fraction 0.5",
+          "parameters": {
+            "wavelength": "",
+            "n": "",
+            "phase": 0,
+            "angle": 0,
+            "distance": ""
+          }
+        },
+        {
+          "name": "angSlider fraction 0.75",
+          "parameters": {
+            "wavelength": "",
+            "n": "",
+            "phase": 270,
+            "angle": 270,
+            "distance": ""
+          }
+        },
+        {
+          "name": "angSlider fraction 1",
+          "parameters": {
+            "wavelength": "",
+            "n": "",
+            "phase": 540,
+            "angle": 540,
+            "distance": ""
+          }
+        }
+      ],
+      "controls": [
+        {
+          "clip": "angSlider",
+          "fraction": 0,
+          "target": -540,
+          "observed": -540,
+          "tolerance": 2.5,
+          "passed": true
+        },
+        {
+          "clip": "angSlider",
+          "fraction": 0.25,
+          "target": -270,
+          "observed": -270,
+          "tolerance": 2.5,
+          "passed": true
+        },
+        {
+          "clip": "angSlider",
+          "fraction": 0.5,
+          "target": 0,
+          "observed": 0,
+          "tolerance": 2.5,
+          "passed": true
+        },
+        {
+          "clip": "angSlider",
+          "fraction": 0.75,
+          "target": 270,
+          "observed": 270,
+          "tolerance": 2.5,
+          "passed": true
+        },
+        {
+          "clip": "angSlider",
+          "fraction": 1,
+          "target": 540,
+          "observed": 540,
+          "tolerance": 2.5,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope."
+    },
+    {
+      "id": "flash-2214747d49473d02",
+      "kind": "optics-flash-2214747d49473d02",
+      "type": "slit-path",
+      "sha256": "273fbcd708ca7d1d86e55bfac20e7ad693a7e3b60dc145797ee4f1f6cbac03f7",
+      "sha256Verified": true,
+      "diagnosticSha256": "5fed80a5fca20e0a6c1a4698f25280c3cdf5954040cb4e7cbedd4a42e6bffbe4",
+      "comparisons": 48,
+      "maxAbsoluteError": 3.979039320256561e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "wavelength": 40,
+            "n": "",
+            "phase": 20,
+            "angle": 20,
+            "distance": 50
+          }
+        },
+        {
+          "name": "angSlider fraction 0",
+          "parameters": {
+            "wavelength": 40,
+            "n": "",
+            "phase": -30,
+            "angle": -30,
+            "distance": 50
+          }
+        },
+        {
+          "name": "angSlider fraction 0.25",
+          "parameters": {
+            "wavelength": 40,
+            "n": "",
+            "phase": -15,
+            "angle": -15,
+            "distance": 50
+          }
+        },
+        {
+          "name": "angSlider fraction 0.5",
+          "parameters": {
+            "wavelength": 40,
+            "n": "",
+            "phase": 0,
+            "angle": 0,
+            "distance": 50
+          }
+        },
+        {
+          "name": "angSlider fraction 0.75",
+          "parameters": {
+            "wavelength": 40,
+            "n": "",
+            "phase": 15,
+            "angle": 15,
+            "distance": 50
+          }
+        },
+        {
+          "name": "angSlider fraction 1",
+          "parameters": {
+            "wavelength": 40,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 50
+          }
+        },
+        {
+          "name": "wlSlider fraction 0",
+          "parameters": {
+            "wavelength": 10,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 50
+          }
+        },
+        {
+          "name": "wlSlider fraction 0.25",
+          "parameters": {
+            "wavelength": 33,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 50
+          }
+        },
+        {
+          "name": "wlSlider fraction 0.5",
+          "parameters": {
+            "wavelength": 55,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 50
+          }
+        },
+        {
+          "name": "wlSlider fraction 0.75",
+          "parameters": {
+            "wavelength": 78,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 50
+          }
+        },
+        {
+          "name": "wlSlider fraction 1",
+          "parameters": {
+            "wavelength": 100,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 50
+          }
+        },
+        {
+          "name": "dSlider fraction 0",
+          "parameters": {
+            "wavelength": 100,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 20
+          }
+        },
+        {
+          "name": "dSlider fraction 0.25",
+          "parameters": {
+            "wavelength": 100,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 45
+          }
+        },
+        {
+          "name": "dSlider fraction 0.5",
+          "parameters": {
+            "wavelength": 100,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 70
+          }
+        },
+        {
+          "name": "dSlider fraction 0.75",
+          "parameters": {
+            "wavelength": 100,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 95
+          }
+        },
+        {
+          "name": "dSlider fraction 1",
+          "parameters": {
+            "wavelength": 100,
+            "n": "",
+            "phase": 30,
+            "angle": 30,
+            "distance": 120
+          }
+        }
+      ],
+      "controls": [
+        {
+          "clip": "angSlider",
+          "fraction": 0,
+          "target": -30,
+          "observed": -30,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "angSlider",
+          "fraction": 0.25,
+          "target": -15,
+          "observed": -15,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "angSlider",
+          "fraction": 0.5,
+          "target": 0,
+          "observed": 0,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "angSlider",
+          "fraction": 0.75,
+          "target": 15,
+          "observed": 15,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "angSlider",
+          "fraction": 1,
+          "target": 30,
+          "observed": 30,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wlSlider",
+          "fraction": 0,
+          "target": 10,
+          "observed": 10,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wlSlider",
+          "fraction": 0.25,
+          "target": 32.5,
+          "observed": 33,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wlSlider",
+          "fraction": 0.5,
+          "target": 55,
+          "observed": 55,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wlSlider",
+          "fraction": 0.75,
+          "target": 77.5,
+          "observed": 78,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "wlSlider",
+          "fraction": 1,
+          "target": 100,
+          "observed": 100,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "dSlider",
+          "fraction": 0,
+          "target": 20,
+          "observed": 20,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "dSlider",
+          "fraction": 0.25,
+          "target": 45,
+          "observed": 45,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "dSlider",
+          "fraction": 0.5,
+          "target": 70,
+          "observed": 70,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "dSlider",
+          "fraction": 0.75,
+          "target": 95,
+          "observed": 95,
+          "tolerance": 0.5,
+          "passed": true
+        },
+        {
+          "clip": "dSlider",
+          "fraction": 1,
+          "target": 120,
+          "observed": 120,
+          "tolerance": 0.5,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope."
+    },
+    {
+      "id": "flash-9425af3ed691082a",
+      "kind": "optics-flash-9425af3ed691082a",
+      "type": "fresnel",
+      "sha256": "f1b6dfa4374011faca6c10789a8a04a7b1579d08e74bc4ba41bfc0ae817917da",
+      "sha256Verified": true,
+      "diagnosticSha256": "3984bfe44f0d8095d1b215c52f43944231d9876162392ea77691580f463029f6",
+      "comparisons": 528,
+      "maxAbsoluteError": 4.440892098500626e-15,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "wavelength": "",
+            "n": 1.5,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 0",
+          "parameters": {
+            "wavelength": "",
+            "n": 0.3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 0.25",
+          "parameters": {
+            "wavelength": "",
+            "n": 0.98,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 0.5",
+          "parameters": {
+            "wavelength": "",
+            "n": 1.65,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 0.75",
+          "parameters": {
+            "wavelength": "",
+            "n": 2.33,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 1",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "angle 0",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "angle 30",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "angle 60",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "angle 90",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "showT on",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "showR on",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        }
+      ],
+      "controls": [
+        {
+          "clip": "nSlider",
+          "fraction": 0,
+          "target": 0.3,
+          "observed": 0.3,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "clip": "nSlider",
+          "fraction": 0.25,
+          "target": 0.9750000000000001,
+          "observed": 0.98,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "clip": "nSlider",
+          "fraction": 0.5,
+          "target": 1.6500000000000001,
+          "observed": 1.65,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "clip": "nSlider",
+          "fraction": 0.75,
+          "target": 2.325,
+          "observed": 2.33,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "clip": "nSlider",
+          "fraction": 1,
+          "target": 3,
+          "observed": 3,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "incident angle click",
+          "target": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "incident angle click",
+          "target": 30,
+          "observed": 30,
+          "passed": true
+        },
+        {
+          "name": "incident angle click",
+          "target": 60,
+          "observed": 60,
+          "passed": true
+        },
+        {
+          "name": "incident angle click",
+          "target": 90,
+          "observed": 90,
+          "passed": true
+        },
+        {
+          "name": "showT toggle",
+          "before": false,
+          "observed": true,
+          "passed": true
+        },
+        {
+          "name": "showR toggle",
+          "before": false,
+          "observed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope."
+    },
+    {
+      "id": "flash-f6a468982b8ad966",
+      "kind": "optics-flash-f6a468982b8ad966",
+      "type": "fresnel-phase",
+      "sha256": "4f08632b859022a717be38669488cbcede4b45ddf54a9225db79c8c3753219b1",
+      "sha256Verified": true,
+      "diagnosticSha256": "7521eca98131c4226d48e401e9933e9c01dd9f2110783916bf524d6a841b1025",
+      "comparisons": 363,
+      "maxAbsoluteError": 9.992007221626409e-16,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "wavelength": "",
+            "n": 0.67,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 0",
+          "parameters": {
+            "wavelength": "",
+            "n": 0.3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 0.25",
+          "parameters": {
+            "wavelength": "",
+            "n": 0.98,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 0.5",
+          "parameters": {
+            "wavelength": "",
+            "n": 1.65,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 0.75",
+          "parameters": {
+            "wavelength": "",
+            "n": 2.33,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "nSlider fraction 1",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "angle 0",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "angle 30",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "angle 60",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "angle 90",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        },
+        {
+          "name": "showT on",
+          "parameters": {
+            "wavelength": "",
+            "n": 3,
+            "phase": "",
+            "angle": "",
+            "distance": ""
+          }
+        }
+      ],
+      "controls": [
+        {
+          "clip": "nSlider",
+          "fraction": 0,
+          "target": 0.3,
+          "observed": 0.3,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "clip": "nSlider",
+          "fraction": 0.25,
+          "target": 0.9750000000000001,
+          "observed": 0.98,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "clip": "nSlider",
+          "fraction": 0.5,
+          "target": 1.6500000000000001,
+          "observed": 1.65,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "clip": "nSlider",
+          "fraction": 0.75,
+          "target": 2.325,
+          "observed": 2.33,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "clip": "nSlider",
+          "fraction": 1,
+          "target": 3,
+          "observed": 3,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "incident angle click",
+          "target": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "incident angle click",
+          "target": 30,
+          "observed": 30,
+          "passed": true
+        },
+        {
+          "name": "incident angle click",
+          "target": 60,
+          "observed": 60,
+          "passed": true
+        },
+        {
+          "name": "incident angle click",
+          "target": 90,
+          "observed": 90,
+          "passed": true
+        },
+        {
+          "name": "showT toggle",
+          "before": false,
+          "observed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope."
+    }
+  ]
+}

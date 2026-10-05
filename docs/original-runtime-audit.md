@@ -6,11 +6,11 @@
 |---|---:|---|
 | 원본 로드·재생 관찰·렌더러 정지·재개·재로딩 | 518/518 | Chromium, 로컬 Ruffle 0.6.0, Canvas 렌더러 |
 | 원본 버튼 위치 클릭 | 456회 | 화면 변화 관찰. 버튼 의미·모든 분기 검증은 별도 |
-| 실제 원본 실행값과 HTML 수치 모델 | 47개, 7,223회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개, 기록한 상태·위치·시간 표본 |
+| 실제 원본 실행값과 HTML 수치 모델 | 58개, 45,926회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개·전기장 5개·광학 6개, 기록한 상태·위치·시간 표본 |
 | AS2 슬라이더 후보 | 125개 모두 조작 | 250개 끝값: nominal 범위 일치 244개, 원본 특수 변환 6개 |
 | 루트 타임라인 | 29개, 805프레임 | 자연 재생에서 전체 루트 프레임 방문·순서 확인 |
 
-합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
+합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`field-runtime`](field-runtime-report.json), [`optics-runtime`](optics-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
 
 ## 실제로 수정한 차이
 
@@ -19,6 +19,16 @@
 `driverTrajectory()`에 원본의 좌표 저장 방식을 반영했다. 실제 Ruffle의 기본 시작 조건으로 관찰한 **0…120단계, 121개 좌표**에서 수정 후 위치 오차는 0이었다. 수정 전 방식은 같은 구간에서 최대 약 **0.213 px** 차이가 났다. 속도 및 단계별 계산도 별도로 대조했다. 모든 드래그 조합이나 2000단계 전체 실측을 뜻하지 않는다. 비공개 원본 함수의 별도 2000단계 계산 검사에는 관찰된 좌표 저장 규칙을 명시적으로 적용했다.
 
 수정 후 파동 모형 18개의 브라우저 조작·그래프 동기화·화면 밖 정지·CSV·반응형 표시 검사를 통과했다. 전체 자동 검사 85개도 통과했다.
+
+전기장·쌍극자·전위 5개는 **35개 실제 입력 상태, 36,954개 좌표·방향·길이 대조**를 추가했다. 점전하 두 모형과 쌍극자장의 모든 격자 화살표를 읽고 전하 끌기, 부호 전환, 관측점 클릭 이후의 상태를 확인했다. 관측된 최대 좌표 오차 0.049991 px는 원본의 0.05 px twip 저장 범위 안이며 방향·길이 오차도 지정된 0.0001 범위 안이었다. 읽기 전용 관찰자이며 원본 함수를 호출하지 않는다. 단면 그래프, 전위 보간, 새 관측점 초기값과 GNU 색상은 리마스터 추가 표현으로 구분한다.
+
+원본에서 전하·경계점을 끌 때는 그림 영역 가장자리에서 20 눈금 안쪽까지만 이동할 수 있었다. HTML의 이동 범위를 실제 원본 한계로 수정했다. 점전하 x/y는 **30…280**, 쌍극자장은 x **30…440**·y **30…290**, 쌍극자는 x/y **30…170**, 전위 경계는 x **40…360**·y **30…210**이다. HTML 슬라이더와 SVG 끌기가 같은 범위를 쓴다. 수정 후 5개 모형의 브라우저 검사(106개 상태, 320/768/1360 px, 라이트/다크, 끌기·CSV)를 통과했다.
+
+광학 6개는 **81개 관찰 상태, 1,749개 수치 대조**를 추가했다. 원본 슬라이더마다 양 끝과 중간 3개 위치를 실제로 조작했다. 파동 위상자·합성 파동의 위치 선택과 재생/정지 시간값, 이중슬릿 경로차·위상차·원본 반올림 세기, 프레넬 계수·위상과 각도 선택/표시 전환을 확인했다. 수치 최대 절대 오차는 약 4.4×10⁻¹³이다. 광학 함수 질의는 실제 Ruffle에서 실행하며 임시 계산 변수에 영향을 줄 수 있다. 파장 컴포넌트는 최종 마우스 이벤트까지 처리되어야 목표 값이 반영되었으므로, 최종 위치에 도달한 뒤 sub-twip 이동 이벤트까지 전달했다. 이 검사에 포함한 클래스형 파장 컴포넌트 2개는 기존 125개 슬라이더 후보 집계와 별도로 기록한다.
+
+이번 확대 대조도 기록한 입력 상태와 표본에 한정된다. 긴 시간의 위상 초기화, 모든 조합, 곡선 전체 픽셀이나 중첩 타임라인의 동등성을 의미하지 않는다.
+
+범위 수정과 확대 기록을 반영한 전체 자동 검사 **89개**, 교재 빌드와 Pages 배포용 파일 생성 검사가 통과했다.
 
 ## 원본에서 확인한 슬라이더 예외
 
@@ -51,6 +61,8 @@ node tools/flash-runtime-audit.mjs
 node tools/fundamental-runtime-check.mjs
 node tools/analytic-runtime-check.mjs
 node tools/wave-runtime-check.mjs
+node tools/field-runtime-check.mjs
+node tools/optics-runtime-check.mjs
 node tools/flash-slider-runtime-check.mjs
 node tools/timeline-runtime-check.mjs
 node tools/runtime-evidence.mjs

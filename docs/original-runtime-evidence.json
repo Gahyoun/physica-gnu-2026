@@ -1,19 +1,24 @@
 {
-  "date": "2026-10-05T22:37:58.360Z",
+  "date": "2026-10-05T22:51:47.126Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
     "assets/fundamental-specs.mjs": "49d598c0201b042afcffa245cad83553e73fb6ddedcb600bae69d114243288ef",
     "assets/native-analytic.mjs": "6f52dad40f79b2cd4a35faa2b38ef755208279a9f7d122f7fa66cdb181721370",
     "assets/analytic-specs.mjs": "349345d6b21b302099ace7c6e5d8eda5246125c76b5bf7ddc65ac421ef238f2c",
-    "assets/native-waves.mjs": "c7a39f16226448ea5bb88d7715f471d69d484fc69d17630bf369639d10b6d611"
+    "assets/native-waves.mjs": "c7a39f16226448ea5bb88d7715f471d69d484fc69d17630bf369639d10b6d611",
+    "assets/field-physics.mjs": "9b3fca6b25a036638cbaf4f3a2044efadeae3375fdb1b5da6843ed2296a70f51",
+    "assets/field-specs.mjs": "00f036e23987ad63fcd9f25378de2fc2d1f61502d5e275a6902516e4c8282cf9",
+    "assets/native-fields.mjs": "379c98ed6b118563477e46f558200d722e2dcc80e9ba7e7289d3abe32b9f8de4",
+    "assets/native-optics.mjs": "ca9e687ce6b02b2fbc4c5f350cb989ac4890173350d8653955db88f03dbc0481",
+    "assets/optics-specs.mjs": "5d9a5635182da8a00f22b6535684b53e2b9a7891c8683a7dfb83584b9fb53b81"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 47,
-  "numericalFilesPassed": 47,
-  "numericalComparisons": 7223,
+  "numericalFiles": 58,
+  "numericalFilesPassed": 58,
+  "numericalComparisons": 45926,
   "rootTimelineFiles": 29,
   "rootTimelineFilesPassed": 29,
   "rootTimelineFrames": 805,
@@ -141,7 +146,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/field-runtime-report.json",
+        "sha256": "49b1d38f53ddf00d46c7989c3df63e6894a80e0b96d15b054c41a13dacf929cd",
+        "passed": true,
+        "comparisons": 84,
+        "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer.",
+        "maxAbsoluteError": 4.831690603168681e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -159,7 +171,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/field-runtime-report.json",
+        "sha256": "7e400e205a94ab3f19d2b94a269a16e3152f7565c1f12207b57f2e4a9f140ed3",
+        "passed": true,
+        "comparisons": 12190,
+        "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer.",
+        "maxAbsoluteError": 0.04984854603566191
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -177,7 +196,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/field-runtime-report.json",
+        "sha256": "97530cbe72362051766b1cccef104be5c569dfd764ff448eff418ac561d94766",
+        "passed": true,
+        "comparisons": 7205,
+        "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer.",
+        "maxAbsoluteError": 0.049991112296126516
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -195,7 +221,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/field-runtime-report.json",
+        "sha256": "427afc2494a3585b9230a1a25b272a1aa66e6c0378d87bbe1f4d00ba179cd3e8",
+        "passed": true,
+        "comparisons": 17447,
+        "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer.",
+        "maxAbsoluteError": 5.684341886080801e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -644,7 +677,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/field-runtime-report.json",
+        "sha256": "4fc49f31566c05c0ee37abb2ebe4ba9fcf2c479741ea24feb0cec565471009e4",
+        "passed": true,
+        "comparisons": 28,
+        "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer.",
+        "maxAbsoluteError": 3.979039320256561e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6182,7 +6222,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-runtime-report.json",
+        "sha256": "939c1282662663ce5aff65cd932298747127a5af0642cc642ac763de439db5b5",
+        "passed": true,
+        "comparisons": 396,
+        "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope.",
+        "maxAbsoluteError": 2.149391775674303e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6200,7 +6247,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-runtime-report.json",
+        "sha256": "53c83ae76439f51c25ad4c85142665df271e63fa718561008fcabcf4e9c3fe48",
+        "passed": true,
+        "comparisons": 396,
+        "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope.",
+        "maxAbsoluteError": 1.6342482922482304e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6430,7 +6484,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-runtime-report.json",
+        "sha256": "fb6bdc820f578da8d65674731f4d202681bac0a1369118bf01e2306ea5b4dac1",
+        "passed": true,
+        "comparisons": 18,
+        "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope.",
+        "maxAbsoluteError": 4.3902124909631426e-13
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "fb6bdc820f578da8d65674731f4d202681bac0a1369118bf01e2306ea5b4dac1",
@@ -6457,7 +6518,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-runtime-report.json",
+        "sha256": "273fbcd708ca7d1d86e55bfac20e7ad693a7e3b60dc145797ee4f1f6cbac03f7",
+        "passed": true,
+        "comparisons": 48,
+        "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope.",
+        "maxAbsoluteError": 3.979039320256561e-13
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "273fbcd708ca7d1d86e55bfac20e7ad693a7e3b60dc145797ee4f1f6cbac03f7",
@@ -7256,7 +7324,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-runtime-report.json",
+        "sha256": "4f08632b859022a717be38669488cbcede4b45ddf54a9225db79c8c3753219b1",
+        "passed": true,
+        "comparisons": 363,
+        "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope.",
+        "maxAbsoluteError": 9.992007221626409e-16
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "4f08632b859022a717be38669488cbcede4b45ddf54a9225db79c8c3753219b1",
@@ -7283,7 +7358,14 @@
         "clickProbes": 4,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-runtime-report.json",
+        "sha256": "f1b6dfa4374011faca6c10789a8a04a7b1579d08e74bc4ba41bfc0ae817917da",
+        "passed": true,
+        "comparisons": 528,
+        "scope": "Actual Ruffle numerical queries at 11 axis positions/components, or read-only slit path/phasor endpoints and original rounded intensity, at defaults and five actual pointer settings per slider. Wave selection, start/pause and Fresnel angle/toggles checked where present. Query calls may update original temporary variables. Full displayed curve pixels, every combination and long-time wraparound are outside scope.",
+        "maxAbsoluteError": 4.440892098500626e-15
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "f1b6dfa4374011faca6c10789a8a04a7b1579d08e74bc4ba41bfc0ae817917da",

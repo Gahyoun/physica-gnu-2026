@@ -10,7 +10,7 @@ export function runtimeEvidence(){
   const startup=read('docs/flash-runtime-report.json');
   const slider=read('docs/flash-slider-runtime-report.json');
   const timeline=read('docs/timeline-runtime-report.json');
-  const groups=['fundamental','analytic','wave'].map(name=>({name,report:read(`docs/${name}-runtime-report.json`)}));
+  const groups=['fundamental','analytic','wave','field','optics'].map(name=>({name,report:read(`docs/${name}-runtime-report.json`)}));
   const endpoints=slider.results.flatMap(r=>r.sliders.flatMap(s=>s.endpoints));
   const files=manifest.files.map(r=>{
     const original=startup.results.find(x=>x.id===r.id);

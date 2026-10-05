@@ -13,16 +13,16 @@
         "key": "xq",
         "label": "전하 x / 원본 눈금",
         "initial": 155,
-        "min": 10,
-        "max": 300,
+        "min": 30,
+        "max": 280,
         "step": 1
       },
       {
         "key": "yq",
         "label": "전하 y / 원본 눈금",
         "initial": 155,
-        "min": 10,
-        "max": 300,
+        "min": 30,
+        "max": 280,
         "step": 1
       },
       {
@@ -66,16 +66,16 @@
         "key": "xq",
         "label": "전하 x / 원본 눈금",
         "initial": 155,
-        "min": 10,
-        "max": 300,
+        "min": 30,
+        "max": 280,
         "step": 1
       },
       {
         "key": "yq",
         "label": "전하 y / 원본 눈금",
         "initial": 155,
-        "min": 10,
-        "max": 300,
+        "min": 30,
+        "max": 280,
         "step": 1
       },
       {
@@ -119,32 +119,32 @@
         "key": "xqR",
         "label": "양전하 x",
         "initial": 160,
-        "min": 10,
-        "max": 460,
+        "min": 30,
+        "max": 440,
         "step": 1
       },
       {
         "key": "yqR",
         "label": "양전하 y",
         "initial": 160,
-        "min": 10,
-        "max": 310,
+        "min": 30,
+        "max": 290,
         "step": 1
       },
       {
         "key": "xqB",
         "label": "음전하 x",
         "initial": 310,
-        "min": 10,
-        "max": 460,
+        "min": 30,
+        "max": 440,
         "step": 1
       },
       {
         "key": "yqB",
         "label": "음전하 y",
         "initial": 160,
-        "min": 10,
-        "max": 310,
+        "min": 30,
+        "max": 290,
         "step": 1
       },
       {
@@ -180,32 +180,32 @@
         "key": "xqR",
         "label": "양전하 x",
         "initial": 160,
-        "min": 10,
-        "max": 190,
+        "min": 30,
+        "max": 170,
         "step": 1
       },
       {
         "key": "yqR",
         "label": "양전하 y",
         "initial": 60,
-        "min": 10,
-        "max": 190,
+        "min": 30,
+        "max": 170,
         "step": 1
       },
       {
         "key": "xqB",
         "label": "음전하 x",
         "initial": 60,
-        "min": 10,
-        "max": 190,
+        "min": 30,
+        "max": 170,
         "step": 1
       },
       {
         "key": "yqB",
         "label": "음전하 y",
         "initial": 160,
-        "min": 10,
-        "max": 190,
+        "min": 30,
+        "max": 170,
         "step": 1
       }
     ],
@@ -225,32 +225,32 @@
         "key": "x1",
         "label": "경계점 1 x",
         "initial": 50,
-        "min": 20,
-        "max": 380,
+        "min": 40,
+        "max": 360,
         "step": 1
       },
       {
         "key": "y1",
         "label": "경계점 1 y",
         "initial": 150,
-        "min": 10,
-        "max": 230,
+        "min": 30,
+        "max": 210,
         "step": 1
       },
       {
         "key": "x2",
         "label": "경계점 2 x",
         "initial": 300,
-        "min": 20,
-        "max": 380,
+        "min": 40,
+        "max": 360,
         "step": 1
       },
       {
         "key": "y2",
         "label": "경계점 2 y",
         "initial": 50,
-        "min": 10,
-        "max": 230,
+        "min": 30,
+        "max": 210,
         "step": 1
       }
     ],

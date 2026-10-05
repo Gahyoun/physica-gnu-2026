@@ -1,0 +1,1377 @@
+{
+  "date": "2026-10-05T22:50:02.022Z",
+  "nativeModelHashes": {
+    "assets/field-physics.mjs": "9b3fca6b25a036638cbaf4f3a2044efadeae3375fdb1b5da6843ed2296a70f51",
+    "assets/field-specs.mjs": "00f036e23987ad63fcd9f25378de2fc2d1f61502d5e275a6902516e4c8282cf9",
+    "assets/native-fields.mjs": "379c98ed6b118563477e46f558200d722e2dcc80e9ba7e7289d3abe32b9f8de4"
+  },
+  "method": "Actual original Ruffle AVM1 display telemetry, read-only observer; original pointer actions versus independent HTML field geometry",
+  "files": 5,
+  "comparisons": 36954,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-fe23ebb7c00a785f",
+      "kind": "field-flash-fe23ebb7c00a785f",
+      "type": "efield1",
+      "sha256": "7e400e205a94ab3f19d2b94a269a16e3152f7565c1f12207b57f2e4a9f140ed3",
+      "sha256Verified": true,
+      "diagnosticSha256": "3413b8c1efa12a436fabe9538e21a7551f27c58f010f185b22ddde9b43744edb",
+      "comparisons": 12190,
+      "maxAbsoluteError": 0.04984854603566191,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "xq": 155,
+            "yq": 155,
+            "charge": 30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballR interior",
+          "parameters": {
+            "xq": 155,
+            "yq": 109,
+            "charge": 30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballR lower-bound",
+          "parameters": {
+            "xq": 30,
+            "yq": 30,
+            "charge": 30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballR upper-bound",
+          "parameters": {
+            "xq": 280,
+            "yq": 280,
+            "charge": 30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": 1
+          }
+        },
+        {
+          "name": "negative charge",
+          "parameters": {
+            "xq": 280,
+            "yq": 280,
+            "charge": -30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": -1
+          }
+        },
+        {
+          "name": "probe 240,220",
+          "parameters": {
+            "xq": 280,
+            "yq": 280,
+            "charge": -30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": 240,
+            "ypt": 220,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": -1
+          }
+        },
+        {
+          "name": "probe 60,75",
+          "parameters": {
+            "xq": 280,
+            "yq": 280,
+            "charge": -30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": 60,
+            "ypt": 75,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": -1
+          }
+        }
+      ],
+      "controls": [
+        {
+          "clip": "ballR",
+          "name": "interior",
+          "target": [
+            155,
+            109
+          ],
+          "expected": [
+            155,
+            109
+          ],
+          "observed": [
+            155,
+            109
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballR",
+          "name": "lower-bound",
+          "target": [
+            12,
+            12
+          ],
+          "expected": [
+            30,
+            30
+          ],
+          "observed": [
+            30,
+            30
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballR",
+          "name": "upper-bound",
+          "target": [
+            298,
+            298
+          ],
+          "expected": [
+            280,
+            280
+          ],
+          "observed": [
+            280,
+            280
+          ],
+          "passed": true
+        },
+        {
+          "name": "sign toggle",
+          "before": 30000,
+          "observed": -30000,
+          "passed": true
+        },
+        {
+          "name": "probe click",
+          "target": [
+            240,
+            220
+          ],
+          "observed": [
+            240,
+            220
+          ],
+          "passed": true
+        },
+        {
+          "name": "probe click",
+          "target": [
+            60,
+            75
+          ],
+          "observed": [
+            60,
+            75
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer."
+    },
+    {
+      "id": "flash-4a0e1789a0e7f884",
+      "kind": "field-flash-4a0e1789a0e7f884",
+      "type": "efield2",
+      "sha256": "97530cbe72362051766b1cccef104be5c569dfd764ff448eff418ac561d94766",
+      "sha256Verified": true,
+      "diagnosticSha256": "a71961a78eb3ff1c6e1f3b02b909cf90ef68525891147535abc96c278f974033",
+      "comparisons": 7205,
+      "maxAbsoluteError": 0.049991112296126516,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "xq": 155,
+            "yq": 155,
+            "charge": 30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballR interior",
+          "parameters": {
+            "xq": 155,
+            "yq": 109,
+            "charge": 30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballR lower-bound",
+          "parameters": {
+            "xq": 30,
+            "yq": 30,
+            "charge": 30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballR upper-bound",
+          "parameters": {
+            "xq": 280,
+            "yq": 280,
+            "charge": 30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": 1
+          }
+        },
+        {
+          "name": "negative charge",
+          "parameters": {
+            "xq": 280,
+            "yq": 280,
+            "charge": -30000,
+            "xqR": "",
+            "yqR": "",
+            "xqB": "",
+            "yqB": "",
+            "xpt": -100,
+            "ypt": -100,
+            "x1": "",
+            "y1": "",
+            "x2": "",
+            "y2": "",
+            "xLeft": 10,
+            "xRight": 300,
+            "yTop": 10,
+            "yBottom": 300,
+            "sign": -1
+          }
+        }
+      ],
+      "controls": [
+        {
+          "clip": "ballR",
+          "name": "interior",
+          "target": [
+            155,
+            109
+          ],
+          "expected": [
+            155,
+            109
+          ],
+          "observed": [
+            155,
+            109
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballR",
+          "name": "lower-bound",
+          "target": [
+            12,
+            12
+          ],
+          "expected": [
+            30,
+            30
+          ],
+          "observed": [
+            30,
+            30
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballR",
+          "name": "upper-bound",
+          "target": [
+            298,
+            298
+          ],
+          "expected": [
+            280,
+            280
+          ],
+          "observed": [
+            280,
+            280
+          ],
+          "passed": true
+        },
+        {
+          "name": "sign toggle",
+          "before": 30000,
+          "observed": -30000,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer."
+    },
+    {
+      "id": "flash-32d1a157f597ea62",
+      "kind": "field-flash-32d1a157f597ea62",
+      "type": "efield3",
+      "sha256": "427afc2494a3585b9230a1a25b272a1aa66e6c0378d87bbe1f4d00ba179cd3e8",
+      "sha256Verified": true,
+      "diagnosticSha256": "2911f475954c2e4240e1015de930f98659540879d25d0566f93aec42863d70f1",
+      "comparisons": 17447,
+      "maxAbsoluteError": 5.684341886080801e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": 30000,
+            "xqR": 160,
+            "yqR": 160,
+            "xqB": 310,
+            "yqB": 160,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 460,
+            "yTop": 10,
+            "yBottom": 310,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballR interior",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": 30000,
+            "xqR": 235,
+            "yqR": 112,
+            "xqB": 310,
+            "yqB": 160,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 460,
+            "yTop": 10,
+            "yBottom": 310,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballR lower-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": 30000,
+            "xqR": 30,
+            "yqR": 30,
+            "xqB": 310,
+            "yqB": 160,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 460,
+            "yTop": 10,
+            "yBottom": 310,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballR upper-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": 30000,
+            "xqR": 440,
+            "yqR": 290,
+            "xqB": 310,
+            "yqB": 160,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 460,
+            "yTop": 10,
+            "yBottom": 310,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballB interior",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": 30000,
+            "xqR": 440,
+            "yqR": 290,
+            "xqB": 235,
+            "yqB": 112,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 460,
+            "yTop": 10,
+            "yBottom": 310,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballB lower-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": 30000,
+            "xqR": 440,
+            "yqR": 290,
+            "xqB": 30,
+            "yqB": 30,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 460,
+            "yTop": 10,
+            "yBottom": 310,
+            "sign": 1
+          }
+        },
+        {
+          "name": "ballB upper-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": 30000,
+            "xqR": 440,
+            "yqR": 290,
+            "xqB": 440,
+            "yqB": 290,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 460,
+            "yTop": 10,
+            "yBottom": 310,
+            "sign": 1
+          }
+        },
+        {
+          "name": "probe 240,220",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": 30000,
+            "xqR": 440,
+            "yqR": 290,
+            "xqB": 440,
+            "yqB": 290,
+            "xpt": 240,
+            "ypt": 220,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 460,
+            "yTop": 10,
+            "yBottom": 310,
+            "sign": 1
+          }
+        },
+        {
+          "name": "probe 60,75",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": 30000,
+            "xqR": 440,
+            "yqR": 290,
+            "xqB": 440,
+            "yqB": 290,
+            "xpt": 60,
+            "ypt": 75,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 460,
+            "yTop": 10,
+            "yBottom": 310,
+            "sign": 1
+          }
+        }
+      ],
+      "controls": [
+        {
+          "clip": "ballR",
+          "name": "interior",
+          "target": [
+            235,
+            112
+          ],
+          "expected": [
+            235,
+            112
+          ],
+          "observed": [
+            235,
+            112
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballR",
+          "name": "lower-bound",
+          "target": [
+            12,
+            12
+          ],
+          "expected": [
+            30,
+            30
+          ],
+          "observed": [
+            30,
+            30
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballR",
+          "name": "upper-bound",
+          "target": [
+            458,
+            308
+          ],
+          "expected": [
+            440,
+            290
+          ],
+          "observed": [
+            440,
+            290
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballB",
+          "name": "interior",
+          "target": [
+            235,
+            112
+          ],
+          "expected": [
+            235,
+            112
+          ],
+          "observed": [
+            235,
+            112
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballB",
+          "name": "lower-bound",
+          "target": [
+            12,
+            12
+          ],
+          "expected": [
+            30,
+            30
+          ],
+          "observed": [
+            30,
+            30
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballB",
+          "name": "upper-bound",
+          "target": [
+            458,
+            308
+          ],
+          "expected": [
+            440,
+            290
+          ],
+          "observed": [
+            440,
+            290
+          ],
+          "passed": true
+        },
+        {
+          "name": "probe click",
+          "target": [
+            240,
+            220
+          ],
+          "observed": [
+            240,
+            220
+          ],
+          "passed": true
+        },
+        {
+          "name": "probe click",
+          "target": [
+            60,
+            75
+          ],
+          "observed": [
+            60,
+            75
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer."
+    },
+    {
+      "id": "flash-3e95e04b2f93f063",
+      "kind": "field-flash-3e95e04b2f93f063",
+      "type": "dipole",
+      "sha256": "49b1d38f53ddf00d46c7989c3df63e6894a80e0b96d15b054c41a13dacf929cd",
+      "sha256Verified": true,
+      "diagnosticSha256": "052547e2746aec1215ddef35ac064dafaaa9c1f0e9f984b648e418508dbf56cf",
+      "comparisons": 84,
+      "maxAbsoluteError": 4.831690603168681e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": 160,
+            "yqR": 60,
+            "xqB": 60,
+            "yqB": 160,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 190,
+            "yTop": 10,
+            "yBottom": 190,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ballR interior",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": 100,
+            "yqR": 70,
+            "xqB": 60,
+            "yqB": 160,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 190,
+            "yTop": 10,
+            "yBottom": 190,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ballR lower-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": 30,
+            "yqR": 30,
+            "xqB": 60,
+            "yqB": 160,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 190,
+            "yTop": 10,
+            "yBottom": 190,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ballR upper-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": 170,
+            "yqR": 170,
+            "xqB": 60,
+            "yqB": 160,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 190,
+            "yTop": 10,
+            "yBottom": 190,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ballB interior",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": 170,
+            "yqR": 170,
+            "xqB": 100,
+            "yqB": 70,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 190,
+            "yTop": 10,
+            "yBottom": 190,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ballB lower-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": 170,
+            "yqR": 170,
+            "xqB": 30,
+            "yqB": 30,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 190,
+            "yTop": 10,
+            "yBottom": 190,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ballB upper-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": 170,
+            "yqR": 170,
+            "xqB": 170,
+            "yqB": 170,
+            "xpt": -100,
+            "ypt": -100,
+            "x1": null,
+            "y1": null,
+            "x2": null,
+            "y2": null,
+            "xLeft": 10,
+            "xRight": 190,
+            "yTop": 10,
+            "yBottom": 190,
+            "sign": 0
+          }
+        }
+      ],
+      "controls": [
+        {
+          "clip": "ballR",
+          "name": "interior",
+          "target": [
+            100,
+            70
+          ],
+          "expected": [
+            100,
+            70
+          ],
+          "observed": [
+            100,
+            70
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballR",
+          "name": "lower-bound",
+          "target": [
+            12,
+            12
+          ],
+          "expected": [
+            30,
+            30
+          ],
+          "observed": [
+            30,
+            30
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballR",
+          "name": "upper-bound",
+          "target": [
+            188,
+            188
+          ],
+          "expected": [
+            170,
+            170
+          ],
+          "observed": [
+            170,
+            170
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballB",
+          "name": "interior",
+          "target": [
+            100,
+            70
+          ],
+          "expected": [
+            100,
+            70
+          ],
+          "observed": [
+            100,
+            70
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballB",
+          "name": "lower-bound",
+          "target": [
+            12,
+            12
+          ],
+          "expected": [
+            30,
+            30
+          ],
+          "observed": [
+            30,
+            30
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ballB",
+          "name": "upper-bound",
+          "target": [
+            188,
+            188
+          ],
+          "expected": [
+            170,
+            170
+          ],
+          "observed": [
+            170,
+            170
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer."
+    },
+    {
+      "id": "flash-b47dd6c6d38c2105",
+      "kind": "field-flash-b47dd6c6d38c2105",
+      "type": "laplace1dim",
+      "sha256": "4fc49f31566c05c0ee37abb2ebe4ba9fcf2c479741ea24feb0cec565471009e4",
+      "sha256Verified": true,
+      "diagnosticSha256": "5ca7eeee09f2db1d6e324c9848c0c44826a0b390bd5c48ee70a125fc5f5b635f",
+      "comparisons": 28,
+      "maxAbsoluteError": 3.979039320256561e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": null,
+            "yqR": null,
+            "xqB": null,
+            "yqB": null,
+            "xpt": null,
+            "ypt": null,
+            "x1": 50,
+            "y1": 150,
+            "x2": 300,
+            "y2": 50,
+            "xLeft": 20,
+            "xRight": 380,
+            "yTop": 10,
+            "yBottom": 230,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ball1 interior",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": null,
+            "yqR": null,
+            "xqB": null,
+            "yqB": null,
+            "xpt": null,
+            "ypt": null,
+            "x1": 200,
+            "y1": 84,
+            "x2": 300,
+            "y2": 50,
+            "xLeft": 20,
+            "xRight": 380,
+            "yTop": 10,
+            "yBottom": 230,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ball1 lower-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": null,
+            "yqR": null,
+            "xqB": null,
+            "yqB": null,
+            "xpt": null,
+            "ypt": null,
+            "x1": 40,
+            "y1": 30,
+            "x2": 300,
+            "y2": 50,
+            "xLeft": 20,
+            "xRight": 380,
+            "yTop": 10,
+            "yBottom": 230,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ball1 upper-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": null,
+            "yqR": null,
+            "xqB": null,
+            "yqB": null,
+            "xpt": null,
+            "ypt": null,
+            "x1": 360,
+            "y1": 210,
+            "x2": 300,
+            "y2": 50,
+            "xLeft": 20,
+            "xRight": 380,
+            "yTop": 10,
+            "yBottom": 230,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ball2 interior",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": null,
+            "yqR": null,
+            "xqB": null,
+            "yqB": null,
+            "xpt": null,
+            "ypt": null,
+            "x1": 360,
+            "y1": 210,
+            "x2": 200,
+            "y2": 84,
+            "xLeft": 20,
+            "xRight": 380,
+            "yTop": 10,
+            "yBottom": 230,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ball2 lower-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": null,
+            "yqR": null,
+            "xqB": null,
+            "yqB": null,
+            "xpt": null,
+            "ypt": null,
+            "x1": 360,
+            "y1": 210,
+            "x2": 40,
+            "y2": 30,
+            "xLeft": 20,
+            "xRight": 380,
+            "yTop": 10,
+            "yBottom": 230,
+            "sign": 0
+          }
+        },
+        {
+          "name": "ball2 upper-bound",
+          "parameters": {
+            "xq": null,
+            "yq": null,
+            "charge": null,
+            "xqR": null,
+            "yqR": null,
+            "xqB": null,
+            "yqB": null,
+            "xpt": null,
+            "ypt": null,
+            "x1": 360,
+            "y1": 210,
+            "x2": 360,
+            "y2": 210,
+            "xLeft": 20,
+            "xRight": 380,
+            "yTop": 10,
+            "yBottom": 230,
+            "sign": 0
+          }
+        }
+      ],
+      "controls": [
+        {
+          "clip": "ball1",
+          "name": "interior",
+          "target": [
+            200,
+            84
+          ],
+          "expected": [
+            200,
+            84
+          ],
+          "observed": [
+            200,
+            84
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ball1",
+          "name": "lower-bound",
+          "target": [
+            22,
+            12
+          ],
+          "expected": [
+            40,
+            30
+          ],
+          "observed": [
+            40,
+            30
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ball1",
+          "name": "upper-bound",
+          "target": [
+            378,
+            228
+          ],
+          "expected": [
+            360,
+            210
+          ],
+          "observed": [
+            360,
+            210
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ball2",
+          "name": "interior",
+          "target": [
+            200,
+            84
+          ],
+          "expected": [
+            200,
+            84
+          ],
+          "observed": [
+            200,
+            84
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ball2",
+          "name": "lower-bound",
+          "target": [
+            22,
+            12
+          ],
+          "expected": [
+            40,
+            30
+          ],
+          "observed": [
+            40,
+            30
+          ],
+          "passed": true
+        },
+        {
+          "clip": "ball2",
+          "name": "upper-bound",
+          "target": [
+            378,
+            228
+          ],
+          "expected": [
+            360,
+            210
+          ],
+          "observed": [
+            360,
+            210
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Every original grid arrow at default and recorded real pointer drags, sign toggles and probe clicks, or dipole/potential line geometry. Coordinate tolerance is one 0.05 px twip; rotation/scale tolerances 0.0001. Hidden arrow stale rotations, original color coefficients, added HTML cross-section graphs/interpolation and all combinations are outside scope. No source functions are invoked by the observer."
+    }
+  ]
+}
