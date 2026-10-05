@@ -1162,8 +1162,8 @@
         "drag": 0,
         "change": 0
       },
-      "nativeMigration": "pending",
-      "nativeHref": null,
+      "nativeMigration": "native-counterpart-available",
+      "nativeHref": "lesson-1-2-1-1.html#native-potential",
       "originalControlsVerified": false,
       "originalNumericsVerified": false
     },
@@ -1200,8 +1200,8 @@
         "drag": 0,
         "change": 0
       },
-      "nativeMigration": "pending",
-      "nativeHref": null,
+      "nativeMigration": "native-counterpart-available",
+      "nativeHref": "lesson-1-2-1-1.html#native-stick",
       "originalControlsVerified": false,
       "originalNumericsVerified": false
     },
@@ -10295,8 +10295,8 @@
         "drag": 0,
         "change": 0
       },
-      "nativeMigration": "pending",
-      "nativeHref": null,
+      "nativeMigration": "native-counterpart-available",
+      "nativeHref": "lesson-2-1-2-1.html#native-planar",
       "originalControlsVerified": false,
       "originalNumericsVerified": false
     },
@@ -10333,8 +10333,8 @@
         "drag": 0,
         "change": 0
       },
-      "nativeMigration": "pending",
-      "nativeHref": null,
+      "nativeMigration": "native-counterpart-available",
+      "nativeHref": "lesson-2-1-2-1.html#native-longitudinal",
       "originalControlsVerified": false,
       "originalNumericsVerified": false
     },
@@ -10399,8 +10399,8 @@
         "drag": 0,
         "change": 0
       },
-      "nativeMigration": "pending",
-      "nativeHref": null,
+      "nativeMigration": "native-counterpart-available",
+      "nativeHref": "lesson-2-1-2-1.html#native-transverse",
       "originalControlsVerified": false,
       "originalNumericsVerified": false
     },
@@ -10456,8 +10456,8 @@
         "drag": 0,
         "change": 0
       },
-      "nativeMigration": "pending",
-      "nativeHref": null,
+      "nativeMigration": "native-counterpart-available",
+      "nativeHref": "lesson-2-1-2-1.html#native-chain2",
       "originalControlsVerified": false,
       "originalNumericsVerified": false
     },
@@ -10513,8 +10513,8 @@
         "drag": 0,
         "change": 0
       },
-      "nativeMigration": "pending",
-      "nativeHref": null,
+      "nativeMigration": "native-counterpart-available",
+      "nativeHref": "lesson-2-1-2-1.html#native-chain3",
       "originalControlsVerified": false,
       "originalNumericsVerified": false
     },

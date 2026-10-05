@@ -13,6 +13,8 @@ test('all chapter pages keep original order and have learning material and valid
  for(const p of pages){
   assert.ok(p.sections.flatMap(s=>s.blocks).some(b=>b.type==='p'&&b.text.length>30),p.id);
   assert.ok(p.sections.flatMap(s=>s.blocks).some(b=>b.type==='questions'),p.id);
+  assert.ok(!p.sections.flatMap(s=>s.blocks).some(b=>b.type==='source-link'),`Forwarding-only block: ${p.id}`);
+  for(const section of p.sections)assert.ok(section.blocks.length,`${p.id}: ${section.title}`);
   for(const b of p.sections.flatMap(s=>s.blocks)){
    if(b.type==='equation')assert.doesNotThrow(()=>katex.renderToString(b.tex,{displayMode:true,throwOnError:true,strict:'ignore',macros:b.legacy?legacyMacros:{}}),p.id);
    if(b.type==='lab')assert.ok(models[b.model],p.id);
@@ -51,4 +53,9 @@ test('optical limits and probability normalization',()=>{
 test('daughter nucleus equal-rate limit and Laplace convergence',()=>{
  const a=.5;for(const t of [0,1,10]){near(daughter(t,a,a),a*t*Math.exp(-a*t));near(daughter(t,a,a+1e-6),daughter(t,a,a),1e-6);}
  const initial=laplace(1),final=laplace(1000);assert.ok(final.residual<initial.residual/1000);for(const row of final.grid)for(const v of row)assert.ok(v>=0&&v<=1);
+});
+
+test('Source-section rewrites cover exact source headings with explanations, not forwarding links',async()=>{
+ const {sectionContent}=await import('../src/section-content.mjs');
+ for(const [id,sections] of Object.entries(sectionContent)){const page=pages.find(p=>p.id===id);assert.ok(page);for(const [title,blocks] of Object.entries(sections)){const section=page.sections.find(s=>s.title===title);assert.ok(section,`${id}: ${title}`);assert.ok(blocks.some(b=>b.type==='p'&&b.text.length>80));assert.ok(!section.blocks.some(b=>b.type==='source-link'));assert.deepEqual(section.blocks,blocks);}}
 });

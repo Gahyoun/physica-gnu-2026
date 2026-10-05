@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import {pages as detailedPages} from './content.mjs';
 import {guides} from './topic-guides.mjs';
+import {sectionContent} from './section-content.mjs';
 export const sourceOf=p=>p.source.startsWith('http')?p.source:'http://physica.gnu.ac.kr/phtml/modern/q_statistics/'+p.source;
 const catalog=JSON.parse(fs.readFileSync(new URL('./catalog.json',import.meta.url)));
 const survey=JSON.parse(fs.readFileSync(new URL('./book-survey.json',import.meta.url)));
@@ -26,7 +27,7 @@ export const pages=catalog.lessons.map(lesson=>{
  const safeSections=lesson.title==='핵무기'?[]:record.sections.map(s=>({...s,equations:s.equations.filter(tex=>!(lesson.id==='1-1-1-1'&&tex.includes('\\frac{dm}{dt}'))).map(tex=>lesson.id==='4-7-2-4'?tex.replace('\\varepsilon \\mu \\omega +','\\varepsilon \\mu \\omega^2 +'):tex)}));
  const anchors=new Set();
  const sections=[{id:'guide',title:'학습 핵심',blocks:[p(guide.intro),p(guide.insight)]},
-  ...safeSections.map((s,i)=>{const anchor=s.anchor&&!anchors.has(s.anchor)?s.anchor:'';if(anchor)anchors.add(anchor);return {id:'source-'+i,title:s.title,originalAnchor:anchor,blocks:s.equations.length?s.equations.map(eq):[{type:'source-link',source:lesson.source+(s.anchor?'#'+encodeURIComponent(s.anchor):''),title:s.title}]};})];
+  ...safeSections.map((s,i)=>{const anchor=s.anchor&&!anchors.has(s.anchor)?s.anchor:'';if(anchor)anchors.add(anchor);return {id:'source-'+i,title:s.title,originalAnchor:anchor,blocks:sectionContent[lesson.id]?.[s.title]|| (s.equations.length?s.equations.map(eq):(()=>{throw Error('Missing section explanation: '+lesson.id+' / '+s.title);})())};})];
  sections.push({id:'summary',title:'핵심 관계와 탐구',blocks:[eq(guide.tex),{type:'questions',items:[guide.question]}]});
  if(guide.model)sections.push({id:'lab',title:'직접 살펴보기',blocks:[{type:'lab',id:'topic-lab',model:guide.model,topic:lesson.title,caption:'이 주제의 기본 관계를 살펴보는 보충 탐구입니다. 원본의 개별 애니메이션을 재현한 프로그램은 아닙니다.'}]});
  return {...lesson,file:'lesson-'+lesson.id+'.html',subtitle:lesson.title+' · '+lesson.page+'쪽',group:lesson.subsection,edition:'learning',sections,

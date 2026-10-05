@@ -1,0 +1,41 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "nativeModels": [
+    "stick",
+    "potential"
+  ],
+  "potentialModes": 6,
+  "chainModels": [
+    "transverse",
+    "longitudinal",
+    "planar",
+    "chain2",
+    "chain3"
+  ],
+  "inlineChainPlacement": true,
+  "localWaveSections": 7,
+  "initialPositionsPerMode": 3,
+  "timeSteps": [
+    0,
+    119,
+    120,
+    239,
+    240,
+    1999,
+    2000
+  ],
+  "drag": true,
+  "keyboard": true,
+  "playPause": true,
+  "csvRows": 2001,
+  "widths": [
+    320,
+    768,
+    1360
+  ],
+  "darkMode": true,
+  "remasterCatalog": 21,
+  "originalPlaybackExamples": 2,
+  "noFlashOnReadingPage": true,
+  "errors": []
+}

@@ -1077,3 +1077,13 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 .book-time-control{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:16px 20px;font-size:14px}.book-time-control input{flex:1;min-width:160px}.book-time-control output{min-width:45px;color:var(--ui-action)}
 
 .book-lab [data-book-motion],.book-lab [data-book-probe-view]{overflow-x:auto;min-width:0}
+
+.remaster-scene{margin:16px 20px}.remaster-scene svg{display:block;width:100%;height:auto}.remaster-wall{fill:var(--gnu-grey)}
+.remaster-legend{padding:0 20px}.remaster-legend .remaster-green{border-color:var(--concept-green)}.remaster-legend .remaster-blue{border-color:var(--ui-action)}.remaster-legend .remaster-grey{border-color:var(--ui-muted);border-top-style:dashed}
+.remaster-original-links{display:flex;flex-wrap:wrap;gap:12px 20px;border-top:1px solid var(--ui-line);padding-top:16px;margin-top:20px;font-size:14px}
+.remaster-equations{padding:12px 20px}.remaster-equations [hidden]{display:none}.remaster-equations .equation{margin:0}
+
+.remaster-scene [data-beam]{fill:none}.remaster-scene [data-drag-tip]{cursor:grab;touch-action:none}.remaster-scene [data-drag-tip]:active{cursor:grabbing}[data-theme="dark"] .native-orbit{fill:#73b8e8}
+
+.chain-spring{stroke:#2d7953;stroke-width:2;fill:none}.chain-side-force{stroke:var(--plot-muted);stroke-width:1.5}.chain-net-force{stroke:var(--ui-action);stroke-width:2.5}.chain-color-0{stroke:#0069b4;fill:#0069b4;background:#0069b4}.chain-color-1{stroke:#9c5a78;fill:#9c5a78;background:#9c5a78}.chain-color-2{stroke:#a78037;fill:#a78037;background:#a78037}.native-curve.chain-color-0,.native-curve.chain-color-1,.native-curve.chain-color-2{fill:none}.chain-bob{cursor:grab;touch-action:none}[data-theme="dark"] .chain-spring{stroke:#93cfab}[data-theme="dark"] .chain-color-0{stroke:#73b8e8;fill:#73b8e8;background:#73b8e8}[data-theme="dark"] .chain-color-1{stroke:#d8a4bf;fill:#d8a4bf;background:#d8a4bf}[data-theme="dark"] .chain-color-2{stroke:#d5b875;fill:#d5b875;background:#d5b875}[data-theme="dark"] .native-curve.chain-color-0,[data-theme="dark"] .native-curve.chain-color-1,[data-theme="dark"] .native-curve.chain-color-2{fill:none}
+[data-flash-native] .native-curve{fill:none}.remaster-legend i.chain-color-0{border-color:#0069b4}.remaster-legend i.chain-color-1{border-color:#9c5a78}.remaster-legend i.chain-color-2{border-color:#a78037}[data-theme="dark"] .remaster-legend i.chain-color-0{border-color:#73b8e8}[data-theme="dark"] .remaster-legend i.chain-color-1{border-color:#d8a4bf}[data-theme="dark"] .remaster-legend i.chain-color-2{border-color:#d5b875}

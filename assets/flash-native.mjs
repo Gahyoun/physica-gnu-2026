@@ -1,3 +1,5 @@
+import './native-chain.mjs';
+import './native-mechanics.mjs';
 import './native-oscillators.mjs';
 // Independent HTML/SVG implementation of harmoniccircular.swf.
 // Source ranges: A=20..100 (75), omega=.1..5 (2), phi=-3.14..3.14 (0).

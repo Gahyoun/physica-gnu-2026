@@ -36,9 +36,9 @@ for(const container of document.querySelectorAll('[data-catalog]')){
   paging.hidden=count<=50;prev.disabled=page===0;next.disabled=to>=count;
   container.querySelector('[data-page-count]').textContent=`${page+1} / ${Math.max(1,Math.ceil(count/50))}`;
  }
- function filter(){page=0;const q=words(input.value);matches=rows.flatMap((r,i)=>includes(texts[i],q)&&(!type||type.value==='전체'||r.dataset.type===type.value)&&(status.value==='all'||r.dataset.restored===(status.value==='restored'?'true':'false'))?[i]:[]);render();}
+ function filter(){page=0;const q=words(input.value);matches=rows.flatMap((r,i)=>includes(texts[i],q)&&(!type||type.value==='전체'||r.dataset.type===type.value)&&(!status||status.value==='all'||r.dataset.restored===(status.value==='restored'?'true':'false'))?[i]:[]);render();}
  container.querySelector('form').addEventListener('submit',e=>{e.preventDefault();clearTimeout(timer);filter();});
- input.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(filter,120);});type?.addEventListener('change',filter);status.addEventListener('change',filter);
+ input.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(filter,120);});type?.addEventListener('change',filter);status?.addEventListener('change',filter);
  prev.addEventListener('click',()=>{page--;render();container.querySelector('.catalog-count').scrollIntoView({block:'start'});});
  next.addEventListener('click',()=>{page++;render();container.querySelector('.catalog-count').scrollIntoView({block:'start'});});filter();
 }
@@ -48,7 +48,7 @@ function link(text,href){const a=document.createElement('a');a.textContent=text;
 function resultRow(r){
  const li=document.createElement('li'),body=document.createElement('div'),path=document.createElement('small'),meta=document.createElement('div'),badge=document.createElement('small');
  body.append(link(r.title.replaceAll('$',''),r.href));path.className='catalog-path';path.textContent=[r.section,r.subsection,r.type].filter(Boolean).join(' · ');body.append(path);
- meta.className='catalog-meta';badge.className='status'+(r.restored?' restored':'');badge.textContent=r.edition==='compatibility'?'원본 웹 재생':r.restored?'복원됨':'복원 준비 중';if(r.edition!=='learning')meta.append(badge);meta.append(link('원본 ↗',r.source));li.append(body,meta);return li;
+ meta.className='catalog-meta';badge.className='status'+(r.restored?' restored':'');badge.textContent=r.edition==='remaster'?'리마스터 애니메이션':r.edition==='compatibility'?'원본 애니메이션':r.restored?'복원됨':'복원 준비 중';if(r.edition!=='learning')meta.append(badge);meta.append(link('원본 ↗',r.source));li.append(body,meta);return li;
 }
 const form=document.querySelector('[data-search]');
 if(form){
