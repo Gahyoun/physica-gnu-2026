@@ -1,0 +1,3034 @@
+{
+  "date": "2026-10-05T23:04:26.914Z",
+  "nativeModelHashes": {
+    "assets/expansion-physics.mjs": "9992851933fc34e69467cb0f3b843901a607148a0146b348445ce85e9ef016ec",
+    "assets/expansion-specs.mjs": "2eac11a6ed566a49a5e8d58257cf41779075881891df0404e079e5df08b216c4"
+  },
+  "method": "Actual Ruffle AVM1 film function queries at live original pointer settings versus independent complex characteristic-matrix HTML equations",
+  "files": 6,
+  "comparisons": 3378,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-fbe18387787bdd59",
+      "kind": "expansion-flash-fbe18387787bdd59",
+      "type": "multilayer2",
+      "sha256": "7e8a81a73a9530d3cf5b93828975cbd9f24577bbb5d0122c28dbc7cfcfef2384",
+      "sha256Verified": true,
+      "diagnosticSha256": "041c11ef717301e8897c06d60ba27168a7572850903c0efa825fb34901bd5036",
+      "comparisons": 297,
+      "maxAbsoluteError": 6.661338147750939e-16,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "thickness": 100,
+            "n": 1.22
+          }
+        },
+        {
+          "name": "thicknessSlider drag 0",
+          "parameters": {
+            "thickness": 50,
+            "n": 1.22
+          }
+        },
+        {
+          "name": "thicknessSlider drag 0.25",
+          "parameters": {
+            "thickness": 115,
+            "n": 1.22
+          }
+        },
+        {
+          "name": "thicknessSlider drag 0.5",
+          "parameters": {
+            "thickness": 175,
+            "n": 1.22
+          }
+        },
+        {
+          "name": "thicknessSlider drag 0.75",
+          "parameters": {
+            "thickness": 240,
+            "n": 1.22
+          }
+        },
+        {
+          "name": "thicknessSlider drag 1",
+          "parameters": {
+            "thickness": 300,
+            "n": 1.22
+          }
+        },
+        {
+          "name": "nSlider drag 0",
+          "parameters": {
+            "thickness": 300,
+            "n": 1
+          }
+        },
+        {
+          "name": "nSlider drag 0.25",
+          "parameters": {
+            "thickness": 300,
+            "n": 1.25
+          }
+        },
+        {
+          "name": "nSlider drag 0.5",
+          "parameters": {
+            "thickness": 300,
+            "n": 1.5
+          }
+        },
+        {
+          "name": "nSlider drag 0.75",
+          "parameters": {
+            "thickness": 300,
+            "n": 1.75
+          }
+        },
+        {
+          "name": "nSlider drag 1",
+          "parameters": {
+            "thickness": 300,
+            "n": 2
+          }
+        },
+        {
+          "name": "selected wavelength 301",
+          "parameters": {
+            "thickness": 300,
+            "n": 2
+          }
+        },
+        {
+          "name": "selected wavelength 550",
+          "parameters": {
+            "thickness": 300,
+            "n": 2
+          }
+        },
+        {
+          "name": "selected wavelength 799",
+          "parameters": {
+            "thickness": 300,
+            "n": 2
+          }
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "thickness",
+          "expected": [
+            50,
+            300
+          ],
+          "observed": [
+            50,
+            300
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 0,
+          "expected": 50,
+          "dragObserved": 50,
+          "fineAdjustments": [],
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 0.25,
+          "expected": 115,
+          "dragObserved": 115,
+          "fineAdjustments": [],
+          "observed": 115,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 0.5,
+          "expected": 175,
+          "dragObserved": 175,
+          "fineAdjustments": [],
+          "observed": 175,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 0.75,
+          "expected": 240,
+          "dragObserved": 240,
+          "fineAdjustments": [],
+          "observed": 240,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness",
+          "fraction": 1,
+          "expected": 300,
+          "dragObserved": 300,
+          "fineAdjustments": [],
+          "observed": 300,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "n",
+          "expected": [
+            1,
+            2
+          ],
+          "observed": [
+            1,
+            2
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1,
+          "fineAdjustments": [],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n",
+          "fraction": 0.25,
+          "expected": 1.25,
+          "dragObserved": 1.25,
+          "fineAdjustments": [],
+          "observed": 1.25,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n",
+          "fraction": 0.5,
+          "expected": 1.5,
+          "dragObserved": 1.5,
+          "fineAdjustments": [],
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n",
+          "fraction": 0.75,
+          "expected": 1.75,
+          "dragObserved": 1.75,
+          "fineAdjustments": [],
+          "observed": 1.75,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n",
+          "fraction": 1,
+          "expected": 2,
+          "dragObserved": 2,
+          "fineAdjustments": [],
+          "observed": 2,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 301,
+          "observed": 300.9,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 550,
+          "observed": 550,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 799,
+          "observed": 799.1,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates."
+    },
+    {
+      "id": "flash-dd65d0a3d3bef74e",
+      "kind": "expansion-flash-dd65d0a3d3bef74e",
+      "type": "multilayer3",
+      "sha256": "5f203ccdb09258c3d682c26a5f783ed99e10b561404450d83945c2bfee15cc21",
+      "sha256Verified": true,
+      "diagnosticSha256": "0863f4aca5116e63fe9ec90f2aed78d6efd478f2f78f9276493b9ae9edbe779c",
+      "comparisons": 843,
+      "maxAbsoluteError": 2.248201624865942e-15,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "thickness1": 90.6,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 0",
+          "parameters": {
+            "thickness1": 20.1,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0 0",
+          "parameters": {
+            "thickness1": 20,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 0.25",
+          "parameters": {
+            "thickness1": 64,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 0",
+          "parameters": {
+            "thickness1": 64.1,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 1",
+          "parameters": {
+            "thickness1": 64.2,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 2",
+          "parameters": {
+            "thickness1": 64.3,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 3",
+          "parameters": {
+            "thickness1": 64.4,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 4",
+          "parameters": {
+            "thickness1": 64.5,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 5",
+          "parameters": {
+            "thickness1": 64.6,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 6",
+          "parameters": {
+            "thickness1": 64.7,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 7",
+          "parameters": {
+            "thickness1": 64.8,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 8",
+          "parameters": {
+            "thickness1": 64.9,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 9",
+          "parameters": {
+            "thickness1": 65,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 0.5",
+          "parameters": {
+            "thickness1": 110.1,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.5 0",
+          "parameters": {
+            "thickness1": 110,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 0.75",
+          "parameters": {
+            "thickness1": 155.1,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.75 0",
+          "parameters": {
+            "thickness1": 155,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 1",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 1.38,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "nSlider1 drag 0",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 1,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "nSlider1 drag 0.25",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 1.5,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "nSlider1 drag 0.5",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 2,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "nSlider1 drag 0.75",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 2.5,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "nSlider1 drag 1",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 76.7,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 0",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 20,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 0.25",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 65.1,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider2 fine 0.25 0",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 65,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 0.5",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 110.1,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider2 fine 0.5 0",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 110,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 0.75",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 155.1,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider2 fine 0.75 0",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 155,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 1",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 200,
+            "n2": 1.63
+          }
+        },
+        {
+          "name": "nSlider2 drag 0",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 200,
+            "n2": 1
+          }
+        },
+        {
+          "name": "nSlider2 drag 0.25",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 200,
+            "n2": 1.5
+          }
+        },
+        {
+          "name": "nSlider2 drag 0.5",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 200,
+            "n2": 2
+          }
+        },
+        {
+          "name": "nSlider2 drag 0.75",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 200,
+            "n2": 2.5
+          }
+        },
+        {
+          "name": "nSlider2 drag 1",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 200,
+            "n2": 3
+          }
+        },
+        {
+          "name": "selected wavelength 301",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 200,
+            "n2": 3
+          }
+        },
+        {
+          "name": "selected wavelength 550",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 200,
+            "n2": 3
+          }
+        },
+        {
+          "name": "selected wavelength 799",
+          "parameters": {
+            "thickness1": 200,
+            "n1": 3,
+            "thickness2": 200,
+            "n2": 3
+          }
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "thickness1",
+          "expected": [
+            20,
+            200
+          ],
+          "observed": [
+            20,
+            200
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 0,
+          "expected": 20,
+          "dragObserved": 20.1,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 20.1,
+              "observed": 20
+            }
+          ],
+          "observed": 20,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 0.25,
+          "expected": 65,
+          "dragObserved": 64,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 64,
+              "observed": 64.1
+            },
+            {
+              "direction": "increment",
+              "before": 64.1,
+              "observed": 64.2
+            },
+            {
+              "direction": "increment",
+              "before": 64.2,
+              "observed": 64.3
+            },
+            {
+              "direction": "increment",
+              "before": 64.3,
+              "observed": 64.4
+            },
+            {
+              "direction": "increment",
+              "before": 64.4,
+              "observed": 64.5
+            },
+            {
+              "direction": "increment",
+              "before": 64.5,
+              "observed": 64.6
+            },
+            {
+              "direction": "increment",
+              "before": 64.6,
+              "observed": 64.7
+            },
+            {
+              "direction": "increment",
+              "before": 64.7,
+              "observed": 64.8
+            },
+            {
+              "direction": "increment",
+              "before": 64.8,
+              "observed": 64.9
+            },
+            {
+              "direction": "increment",
+              "before": 64.9,
+              "observed": 65
+            }
+          ],
+          "observed": 65,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 0.5,
+          "expected": 110,
+          "dragObserved": 110.1,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 110.1,
+              "observed": 110
+            }
+          ],
+          "observed": 110,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 0.75,
+          "expected": 155,
+          "dragObserved": 155.1,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 155.1,
+              "observed": 155
+            }
+          ],
+          "observed": 155,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 1,
+          "expected": 200,
+          "dragObserved": 200,
+          "fineAdjustments": [],
+          "observed": 200,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "n1",
+          "expected": [
+            1,
+            3
+          ],
+          "observed": [
+            1,
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1,
+          "fineAdjustments": [],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0.25,
+          "expected": 1.5,
+          "dragObserved": 1.5,
+          "fineAdjustments": [],
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0.5,
+          "expected": 2,
+          "dragObserved": 2,
+          "fineAdjustments": [],
+          "observed": 2,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0.75,
+          "expected": 2.5,
+          "dragObserved": 2.5,
+          "fineAdjustments": [],
+          "observed": 2.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 1,
+          "expected": 3,
+          "dragObserved": 3,
+          "fineAdjustments": [],
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "thickness2",
+          "expected": [
+            20,
+            200
+          ],
+          "observed": [
+            20,
+            200
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 0,
+          "expected": 20,
+          "dragObserved": 20,
+          "fineAdjustments": [],
+          "observed": 20,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 0.25,
+          "expected": 65,
+          "dragObserved": 65.1,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 65.1,
+              "observed": 65
+            }
+          ],
+          "observed": 65,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 0.5,
+          "expected": 110,
+          "dragObserved": 110.1,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 110.1,
+              "observed": 110
+            }
+          ],
+          "observed": 110,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 0.75,
+          "expected": 155,
+          "dragObserved": 155.1,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 155.1,
+              "observed": 155
+            }
+          ],
+          "observed": 155,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 1,
+          "expected": 200,
+          "dragObserved": 200,
+          "fineAdjustments": [],
+          "observed": 200,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "n2",
+          "expected": [
+            1,
+            3
+          ],
+          "observed": [
+            1,
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1,
+          "fineAdjustments": [],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0.25,
+          "expected": 1.5,
+          "dragObserved": 1.5,
+          "fineAdjustments": [],
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0.5,
+          "expected": 2,
+          "dragObserved": 2,
+          "fineAdjustments": [],
+          "observed": 2,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0.75,
+          "expected": 2.5,
+          "dragObserved": 2.5,
+          "fineAdjustments": [],
+          "observed": 2.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 1,
+          "expected": 3,
+          "dragObserved": 3,
+          "fineAdjustments": [],
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 301,
+          "observed": 300.9,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 550,
+          "observed": 550,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 799,
+          "observed": 799.1,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates."
+    },
+    {
+      "id": "flash-5c950261eda4e922",
+      "kind": "expansion-flash-5c950261eda4e922",
+      "type": "multilayer31",
+      "sha256": "905f140c092848c88fcf65b97ddf7b69c10fdaab0c5553eca1956d6392efd847",
+      "sha256Verified": true,
+      "diagnosticSha256": "b3c31f0403c6c53e9968f1430c2b651ac8de21486b456fd3a15055ee2a741f47",
+      "comparisons": 633,
+      "maxAbsoluteError": 4.842723444475894e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "thickness1": 500,
+            "thickness2": 250,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 0",
+          "parameters": {
+            "thickness1": 20,
+            "thickness2": 250,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 0.25",
+          "parameters": {
+            "thickness1": 260,
+            "thickness2": 250,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider1 fine 0.25 0",
+          "parameters": {
+            "thickness1": 265,
+            "thickness2": 250,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 0.5",
+          "parameters": {
+            "thickness1": 510,
+            "thickness2": 250,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 0.75",
+          "parameters": {
+            "thickness1": 755,
+            "thickness2": 250,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider1 drag 1",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 250,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 0",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 20,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 0.25",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 265,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 0.5",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 510,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 0.75",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 755,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "thicknessSlider2 drag 1",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 1.2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider1 drag 0",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 1,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider1 drag 0.25",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 1.5,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider1 drag 0.5",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 2,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider1 drag 0.75",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 2.5,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider1 drag 1",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 1.47,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider2 drag 0",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 1,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider2 drag 0.25",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 1.5,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider2 drag 0.5",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 2,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider2 drag 0.75",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 2.5,
+            "layers": 3
+          }
+        },
+        {
+          "name": "nSlider2 drag 1",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 3,
+            "layers": 3
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 3,
+            "layers": 1
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0.25",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 3,
+            "layers": 8
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0.5",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 3,
+            "layers": 16
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0.75",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 3,
+            "layers": 23
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 1",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 3,
+            "layers": 30
+          }
+        },
+        {
+          "name": "selected wavelength 301",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 3,
+            "layers": 30
+          }
+        },
+        {
+          "name": "selected wavelength 550",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 3,
+            "layers": 30
+          }
+        },
+        {
+          "name": "selected wavelength 799",
+          "parameters": {
+            "thickness1": 1000,
+            "thickness2": 1000,
+            "n1": 3,
+            "n2": 3,
+            "layers": 30
+          }
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "thickness1",
+          "expected": [
+            20,
+            1000
+          ],
+          "observed": [
+            20,
+            1000
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 0,
+          "expected": 20,
+          "dragObserved": 20,
+          "fineAdjustments": [],
+          "observed": 20,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 0.25,
+          "expected": 265,
+          "dragObserved": 260,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 260,
+              "observed": 265
+            }
+          ],
+          "observed": 265,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 0.5,
+          "expected": 510,
+          "dragObserved": 510,
+          "fineAdjustments": [],
+          "observed": 510,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 0.75,
+          "expected": 755,
+          "dragObserved": 755,
+          "fineAdjustments": [],
+          "observed": 755,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness1",
+          "fraction": 1,
+          "expected": 1000,
+          "dragObserved": 1000,
+          "fineAdjustments": [],
+          "observed": 1000,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "thickness2",
+          "expected": [
+            20,
+            1000
+          ],
+          "observed": [
+            20,
+            1000
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 0,
+          "expected": 20,
+          "dragObserved": 20,
+          "fineAdjustments": [],
+          "observed": 20,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 0.25,
+          "expected": 265,
+          "dragObserved": 265,
+          "fineAdjustments": [],
+          "observed": 265,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 0.5,
+          "expected": 510,
+          "dragObserved": 510,
+          "fineAdjustments": [],
+          "observed": 510,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 0.75,
+          "expected": 755,
+          "dragObserved": 755,
+          "fineAdjustments": [],
+          "observed": 755,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "thickness2",
+          "fraction": 1,
+          "expected": 1000,
+          "dragObserved": 1000,
+          "fineAdjustments": [],
+          "observed": 1000,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "n1",
+          "expected": [
+            1,
+            3
+          ],
+          "observed": [
+            1,
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1,
+          "fineAdjustments": [],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0.25,
+          "expected": 1.5,
+          "dragObserved": 1.5,
+          "fineAdjustments": [],
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0.5,
+          "expected": 2,
+          "dragObserved": 2,
+          "fineAdjustments": [],
+          "observed": 2,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0.75,
+          "expected": 2.5,
+          "dragObserved": 2.5,
+          "fineAdjustments": [],
+          "observed": 2.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 1,
+          "expected": 3,
+          "dragObserved": 3,
+          "fineAdjustments": [],
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "n2",
+          "expected": [
+            1,
+            3
+          ],
+          "observed": [
+            1,
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1,
+          "fineAdjustments": [],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0.25,
+          "expected": 1.5,
+          "dragObserved": 1.5,
+          "fineAdjustments": [],
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0.5,
+          "expected": 2,
+          "dragObserved": 2,
+          "fineAdjustments": [],
+          "observed": 2,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0.75,
+          "expected": 2.5,
+          "dragObserved": 2.5,
+          "fineAdjustments": [],
+          "observed": 2.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 1,
+          "expected": 3,
+          "dragObserved": 3,
+          "fineAdjustments": [],
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "layers",
+          "expected": [
+            1,
+            30
+          ],
+          "observed": [
+            1,
+            30
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1,
+          "fineAdjustments": [],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0.25,
+          "expected": 8,
+          "dragObserved": 8,
+          "fineAdjustments": [],
+          "observed": 8,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0.5,
+          "expected": 16,
+          "dragObserved": 16,
+          "fineAdjustments": [],
+          "observed": 16,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0.75,
+          "expected": 23,
+          "dragObserved": 23,
+          "fineAdjustments": [],
+          "observed": 23,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 1,
+          "expected": 30,
+          "dragObserved": 30,
+          "fineAdjustments": [],
+          "observed": 30,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 301,
+          "observed": 300.9,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 550,
+          "observed": 550,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 799,
+          "observed": 799.1,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates."
+    },
+    {
+      "id": "flash-177b9d1961cebb71",
+      "kind": "expansion-flash-177b9d1961cebb71",
+      "type": "multilayer4",
+      "sha256": "c12c7bab52a0d99767e899d9d42ecc020445f96b6d398af9e745fe6088555c31",
+      "sha256Verified": true,
+      "diagnosticSha256": "2369da4c9bf9a4bc9c2f649cbc4129334b035ac8695d22f3d05bb4b5ce628d91",
+      "comparisons": 402,
+      "maxAbsoluteError": 2.6145752229922437e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "central": 550,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0",
+          "parameters": {
+            "central": 302,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 0 0",
+          "parameters": {
+            "central": 301,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 0 1",
+          "parameters": {
+            "central": 300,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0.25",
+          "parameters": {
+            "central": 425,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0.5",
+          "parameters": {
+            "central": 547,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 0.5 0",
+          "parameters": {
+            "central": 548,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 0.5 1",
+          "parameters": {
+            "central": 549,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 0.5 2",
+          "parameters": {
+            "central": 550,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0.75",
+          "parameters": {
+            "central": 675,
+            "layers": 3
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 1",
+          "parameters": {
+            "central": 800,
+            "layers": 3
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0",
+          "parameters": {
+            "central": 800,
+            "layers": 1
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0.25",
+          "parameters": {
+            "central": 800,
+            "layers": 6
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0.5",
+          "parameters": {
+            "central": 800,
+            "layers": 11
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0.75",
+          "parameters": {
+            "central": 800,
+            "layers": 15
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 1",
+          "parameters": {
+            "central": 800,
+            "layers": 20
+          }
+        },
+        {
+          "name": "selected wavelength 301",
+          "parameters": {
+            "central": 800,
+            "layers": 20
+          }
+        },
+        {
+          "name": "selected wavelength 550",
+          "parameters": {
+            "central": 800,
+            "layers": 20
+          }
+        },
+        {
+          "name": "selected wavelength 799",
+          "parameters": {
+            "central": 800,
+            "layers": 20
+          }
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "central",
+          "expected": [
+            300,
+            800
+          ],
+          "observed": [
+            300,
+            800
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0,
+          "expected": 300,
+          "dragObserved": 302,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 302,
+              "observed": 301
+            },
+            {
+              "direction": "decrement",
+              "before": 301,
+              "observed": 300
+            }
+          ],
+          "observed": 300,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0.25,
+          "expected": 425,
+          "dragObserved": 425,
+          "fineAdjustments": [],
+          "observed": 425,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0.5,
+          "expected": 550,
+          "dragObserved": 547,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 547,
+              "observed": 548
+            },
+            {
+              "direction": "increment",
+              "before": 548,
+              "observed": 549
+            },
+            {
+              "direction": "increment",
+              "before": 549,
+              "observed": 550
+            }
+          ],
+          "observed": 550,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0.75,
+          "expected": 675,
+          "dragObserved": 675,
+          "fineAdjustments": [],
+          "observed": 675,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 1,
+          "expected": 800,
+          "dragObserved": 800,
+          "fineAdjustments": [],
+          "observed": 800,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "layers",
+          "expected": [
+            1,
+            20
+          ],
+          "observed": [
+            1,
+            20
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1,
+          "fineAdjustments": [],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0.25,
+          "expected": 6,
+          "dragObserved": 6,
+          "fineAdjustments": [],
+          "observed": 6,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0.5,
+          "expected": 11,
+          "dragObserved": 11,
+          "fineAdjustments": [],
+          "observed": 11,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0.75,
+          "expected": 15,
+          "dragObserved": 15,
+          "fineAdjustments": [],
+          "observed": 15,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 1,
+          "expected": 20,
+          "dragObserved": 20,
+          "fineAdjustments": [],
+          "observed": 20,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 301,
+          "observed": 300.9,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 550,
+          "observed": 550,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 799,
+          "observed": 799.1,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates."
+    },
+    {
+      "id": "flash-fa503c8120743619",
+      "kind": "expansion-flash-fa503c8120743619",
+      "type": "multilayer5",
+      "sha256": "1013c08745076fede9d31c073ecbb9768c0825ff5600e166126e04de9bf386a9",
+      "sha256Verified": true,
+      "diagnosticSha256": "42d67267b98f71254878a233477a3d1ec747d9ce9712218020350e0683abf120",
+      "comparisons": 318,
+      "maxAbsoluteError": 1.2545520178264269e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "central": 550,
+            "layers": 2
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0",
+          "parameters": {
+            "central": 500,
+            "layers": 2
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0.25",
+          "parameters": {
+            "central": 525,
+            "layers": 2
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0.5",
+          "parameters": {
+            "central": 549,
+            "layers": 2
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 0.5 0",
+          "parameters": {
+            "central": 550,
+            "layers": 2
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0.75",
+          "parameters": {
+            "central": 575,
+            "layers": 2
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 1",
+          "parameters": {
+            "central": 600,
+            "layers": 2
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0",
+          "parameters": {
+            "central": 600,
+            "layers": 1
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0.25",
+          "parameters": {
+            "central": 600,
+            "layers": 3
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0.5",
+          "parameters": {
+            "central": 600,
+            "layers": 6
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 0.75",
+          "parameters": {
+            "central": 600,
+            "layers": 8
+          }
+        },
+        {
+          "name": "layerNumberSlider drag 1",
+          "parameters": {
+            "central": 600,
+            "layers": 10
+          }
+        },
+        {
+          "name": "selected wavelength 501",
+          "parameters": {
+            "central": 600,
+            "layers": 10
+          }
+        },
+        {
+          "name": "selected wavelength 550",
+          "parameters": {
+            "central": 600,
+            "layers": 10
+          }
+        },
+        {
+          "name": "selected wavelength 599",
+          "parameters": {
+            "central": 600,
+            "layers": 10
+          }
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "central",
+          "expected": [
+            500,
+            600
+          ],
+          "observed": [
+            500,
+            600
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0,
+          "expected": 500,
+          "dragObserved": 500,
+          "fineAdjustments": [],
+          "observed": 500,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0.25,
+          "expected": 525,
+          "dragObserved": 525,
+          "fineAdjustments": [],
+          "observed": 525,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0.5,
+          "expected": 550,
+          "dragObserved": 549,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 549,
+              "observed": 550
+            }
+          ],
+          "observed": 550,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0.75,
+          "expected": 575,
+          "dragObserved": 575,
+          "fineAdjustments": [],
+          "observed": 575,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 1,
+          "expected": 600,
+          "dragObserved": 600,
+          "fineAdjustments": [],
+          "observed": 600,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "layers",
+          "expected": [
+            1,
+            10
+          ],
+          "observed": [
+            1,
+            10
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1,
+          "fineAdjustments": [],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0.25,
+          "expected": 3,
+          "dragObserved": 3,
+          "fineAdjustments": [],
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0.5,
+          "expected": 6,
+          "dragObserved": 6,
+          "fineAdjustments": [],
+          "observed": 6,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 0.75,
+          "expected": 8,
+          "dragObserved": 8,
+          "fineAdjustments": [],
+          "observed": 8,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "layers",
+          "fraction": 1,
+          "expected": 10,
+          "dragObserved": 10,
+          "fineAdjustments": [],
+          "observed": 10,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 501,
+          "observed": 500.9,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 550,
+          "observed": 550,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 599,
+          "observed": 599.1,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates."
+    },
+    {
+      "id": "flash-293483988ad9def3",
+      "kind": "expansion-flash-293483988ad9def3",
+      "type": "multilayer6",
+      "sha256": "97d06529850c8452c9a37abeb4493f3cce24a587b58cffe11caf9e14fcfbf54c",
+      "sha256Verified": true,
+      "diagnosticSha256": "c12da7f0eb15964d95e08b63a28fd0f03132eb02867d7dffa0763c4b5a6c0820",
+      "comparisons": 885,
+      "maxAbsoluteError": 1.4432899320127035e-15,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "n1": 1.38,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 drag 0",
+          "parameters": {
+            "n1": 1.01,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 fine 0 0",
+          "parameters": {
+            "n1": 1,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 drag 0.25",
+          "parameters": {
+            "n1": 1.49,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 fine 0.25 0",
+          "parameters": {
+            "n1": 1.5,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 drag 0.5",
+          "parameters": {
+            "n1": 2.01,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 fine 0.5 0",
+          "parameters": {
+            "n1": 2,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 drag 0.75",
+          "parameters": {
+            "n1": 2.51,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 fine 0.75 0",
+          "parameters": {
+            "n1": 2.5,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 drag 1",
+          "parameters": {
+            "n1": 2.99,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider1 fine 1 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 2.1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider2 drag 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 1,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider2 drag 0.25",
+          "parameters": {
+            "n1": 3,
+            "n2": 1.49,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider2 fine 0.25 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 1.5,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider2 drag 0.5",
+          "parameters": {
+            "n1": 3,
+            "n2": 2.01,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider2 fine 0.5 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 2,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider2 drag 0.75",
+          "parameters": {
+            "n1": 3,
+            "n2": 2.51,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider2 fine 0.75 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 2.5,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider2 drag 1",
+          "parameters": {
+            "n1": 3,
+            "n2": 2.99,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider2 fine 1 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 1.63,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 drag 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 1.01,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 fine 0 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 1,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 drag 0.25",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 1.49,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 fine 0.25 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 1.5,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 drag 0.5",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 2.01,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 fine 0.5 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 2,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 drag 0.75",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 2.51,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 fine 0.75 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 2.5,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 drag 1",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 2.99,
+            "central": 500
+          }
+        },
+        {
+          "name": "nSlider3 fine 1 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 500
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 400
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0.25",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 474
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 0.25 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 475
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0.5",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 551
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 0.5 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 550
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 0.75",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 624
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 0.75 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 625
+          }
+        },
+        {
+          "name": "centralWavelengthSlider drag 1",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 699
+          }
+        },
+        {
+          "name": "centralWavelengthSlider fine 1 0",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 700
+          }
+        },
+        {
+          "name": "selected wavelength 301",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 700
+          }
+        },
+        {
+          "name": "selected wavelength 550",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 700
+          }
+        },
+        {
+          "name": "selected wavelength 799",
+          "parameters": {
+            "n1": 3,
+            "n2": 3,
+            "n3": 3,
+            "central": 700
+          }
+        }
+      ],
+      "controls": [
+        {
+          "name": "slider limits",
+          "key": "n1",
+          "expected": [
+            1,
+            3
+          ],
+          "observed": [
+            1,
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1.01,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 1.01,
+              "observed": 1
+            }
+          ],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0.25,
+          "expected": 1.5,
+          "dragObserved": 1.49,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 1.49,
+              "observed": 1.5
+            }
+          ],
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0.5,
+          "expected": 2,
+          "dragObserved": 2.01,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 2.01,
+              "observed": 2
+            }
+          ],
+          "observed": 2,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 0.75,
+          "expected": 2.5,
+          "dragObserved": 2.51,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 2.51,
+              "observed": 2.5
+            }
+          ],
+          "observed": 2.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n1",
+          "fraction": 1,
+          "expected": 3,
+          "dragObserved": 2.99,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 2.99,
+              "observed": 3
+            }
+          ],
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "n2",
+          "expected": [
+            1,
+            3
+          ],
+          "observed": [
+            1,
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1,
+          "fineAdjustments": [],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0.25,
+          "expected": 1.5,
+          "dragObserved": 1.49,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 1.49,
+              "observed": 1.5
+            }
+          ],
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0.5,
+          "expected": 2,
+          "dragObserved": 2.01,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 2.01,
+              "observed": 2
+            }
+          ],
+          "observed": 2,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 0.75,
+          "expected": 2.5,
+          "dragObserved": 2.51,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 2.51,
+              "observed": 2.5
+            }
+          ],
+          "observed": 2.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n2",
+          "fraction": 1,
+          "expected": 3,
+          "dragObserved": 2.99,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 2.99,
+              "observed": 3
+            }
+          ],
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "n3",
+          "expected": [
+            1,
+            3
+          ],
+          "observed": [
+            1,
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n3",
+          "fraction": 0,
+          "expected": 1,
+          "dragObserved": 1.01,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 1.01,
+              "observed": 1
+            }
+          ],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n3",
+          "fraction": 0.25,
+          "expected": 1.5,
+          "dragObserved": 1.49,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 1.49,
+              "observed": 1.5
+            }
+          ],
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n3",
+          "fraction": 0.5,
+          "expected": 2,
+          "dragObserved": 2.01,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 2.01,
+              "observed": 2
+            }
+          ],
+          "observed": 2,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n3",
+          "fraction": 0.75,
+          "expected": 2.5,
+          "dragObserved": 2.51,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 2.51,
+              "observed": 2.5
+            }
+          ],
+          "observed": 2.5,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "n3",
+          "fraction": 1,
+          "expected": 3,
+          "dragObserved": 2.99,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 2.99,
+              "observed": 3
+            }
+          ],
+          "observed": 3,
+          "passed": true
+        },
+        {
+          "name": "slider limits",
+          "key": "central",
+          "expected": [
+            400,
+            700
+          ],
+          "observed": [
+            400,
+            700
+          ],
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0,
+          "expected": 400,
+          "dragObserved": 400,
+          "fineAdjustments": [],
+          "observed": 400,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0.25,
+          "expected": 475,
+          "dragObserved": 474,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 474,
+              "observed": 475
+            }
+          ],
+          "observed": 475,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0.5,
+          "expected": 550,
+          "dragObserved": 551,
+          "fineAdjustments": [
+            {
+              "direction": "decrement",
+              "before": 551,
+              "observed": 550
+            }
+          ],
+          "observed": 550,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 0.75,
+          "expected": 625,
+          "dragObserved": 624,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 624,
+              "observed": 625
+            }
+          ],
+          "observed": 625,
+          "passed": true
+        },
+        {
+          "name": "slider change",
+          "key": "central",
+          "fraction": 1,
+          "expected": 700,
+          "dragObserved": 699,
+          "fineAdjustments": [
+            {
+              "direction": "increment",
+              "before": 699,
+              "observed": 700
+            }
+          ],
+          "observed": 700,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 301,
+          "observed": 300.9,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 550,
+          "observed": 550,
+          "passed": true
+        },
+        {
+          "name": "graph wavelength selection",
+          "expected": 799,
+          "observed": 799.1,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-05T22:51:47.126Z",
+  "date": "2026-10-05T23:07:28.016Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -11,14 +11,18 @@
     "assets/field-specs.mjs": "00f036e23987ad63fcd9f25378de2fc2d1f61502d5e275a6902516e4c8282cf9",
     "assets/native-fields.mjs": "379c98ed6b118563477e46f558200d722e2dcc80e9ba7e7289d3abe32b9f8de4",
     "assets/native-optics.mjs": "ca9e687ce6b02b2fbc4c5f350cb989ac4890173350d8653955db88f03dbc0481",
-    "assets/optics-specs.mjs": "5d9a5635182da8a00f22b6535684b53e2b9a7891c8683a7dfb83584b9fb53b81"
+    "assets/optics-specs.mjs": "5d9a5635182da8a00f22b6535684b53e2b9a7891c8683a7dfb83584b9fb53b81",
+    "assets/native-refraction.mjs": "fe90d6a1581a33b8b6c9ae9e566eb2e4acd1b061fded4a8b2e009a6a7510bebd",
+    "assets/refraction-specs.mjs": "83711da60628a5d9df4e3850f46db0f2c9b72180ab5ad6b96c51dc8c8a79d272",
+    "assets/expansion-physics.mjs": "9992851933fc34e69467cb0f3b843901a607148a0146b348445ce85e9ef016ec",
+    "assets/expansion-specs.mjs": "2eac11a6ed566a49a5e8d58257cf41779075881891df0404e079e5df08b216c4"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 58,
-  "numericalFilesPassed": 58,
-  "numericalComparisons": 45926,
+  "numericalFiles": 69,
+  "numericalFilesPassed": 69,
+  "numericalComparisons": 130094,
   "rootTimelineFiles": 29,
   "rootTimelineFilesPassed": 29,
   "rootTimelineFrames": 805,
@@ -6324,7 +6328,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/film-runtime-report.json",
+        "sha256": "7e8a81a73a9530d3cf5b93828975cbd9f24577bbb5d0122c28dbc7cfcfef2384",
+        "passed": true,
+        "comparisons": 297,
+        "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates.",
+        "maxAbsoluteError": 6.661338147750939e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6342,7 +6353,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/film-runtime-report.json",
+        "sha256": "5f203ccdb09258c3d682c26a5f783ed99e10b561404450d83945c2bfee15cc21",
+        "passed": true,
+        "comparisons": 843,
+        "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates.",
+        "maxAbsoluteError": 2.248201624865942e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6360,7 +6378,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/film-runtime-report.json",
+        "sha256": "905f140c092848c88fcf65b97ddf7b69c10fdaab0c5553eca1956d6392efd847",
+        "passed": true,
+        "comparisons": 633,
+        "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates.",
+        "maxAbsoluteError": 4.842723444475894e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6378,7 +6403,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/film-runtime-report.json",
+        "sha256": "c12c7bab52a0d99767e899d9d42ecc020445f96b6d398af9e745fe6088555c31",
+        "passed": true,
+        "comparisons": 402,
+        "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates.",
+        "maxAbsoluteError": 2.6145752229922437e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6396,7 +6428,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/film-runtime-report.json",
+        "sha256": "1013c08745076fede9d31c073ecbb9768c0825ff5600e166126e04de9bf386a9",
+        "passed": true,
+        "comparisons": 318,
+        "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates.",
+        "maxAbsoluteError": 1.2545520178264269e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6414,7 +6453,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/film-runtime-report.json",
+        "sha256": "97d06529850c8452c9a37abeb4493f3cce24a587b58cffe11caf9e14fcfbf54c",
+        "passed": true,
+        "comparisons": 885,
+        "scope": "21 wavelength queries in actual Ruffle at default and five actual settings per original class-based slider, with original limits checked. Raw drags retained; original +/- triangle clicks reach fine settings between screen pixels. Three original graph clicks (one nm inside each border and midpoint) compare wavelength and four-decimal reflectance/transmittance readout. Query calls may update temporary original matrix variables. Exact border hit tests, all combinations, full curve pixels, copied clipboard data and source color swatches are outside scope. These class-based components are separate from the earlier 125 AS2 candidates.",
+        "maxAbsoluteError": 1.4432899320127035e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7392,7 +7438,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/refraction-runtime-report.json",
+        "sha256": "d97ba3c03c74029f1ebfa151a6765a2edb38e19174af054f537177f0863181c9",
+        "passed": true,
+        "comparisons": 8460,
+        "scope": "Read-only original AVM1 coordinates for all 150 animated E/B segments or all static signed vectors and six wavefront planes, at recorded original time/drag states. Initial and consecutive-step rotation matrices compared with independent HTML equations, only when both adjacent samples are held pressed. Press/release transition ordering, drawn path pixels, painter depth order, all gestures and 2000-step history are not asserted. Original sustained-displacement camera rotation differs intentionally from the HTML incremental pointer interface.",
+        "maxAbsoluteError": 4.973799150320701e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7410,7 +7463,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/refraction-runtime-report.json",
+        "sha256": "1998672029b2fe1f90e09041356ca970a642a55d539dada4c4499fe2dba4aa5d",
+        "passed": true,
+        "comparisons": 30771,
+        "scope": "Read-only original AVM1 coordinates for all 150 animated E/B segments or all static signed vectors and six wavefront planes, at recorded original time/drag states. Initial and consecutive-step rotation matrices compared with independent HTML equations, only when both adjacent samples are held pressed. Press/release transition ordering, drawn path pixels, painter depth order, all gestures and 2000-step history are not asserted. Original sustained-displacement camera rotation differs intentionally from the HTML incremental pointer interface.",
+        "maxAbsoluteError": 4.973799150320701e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7428,7 +7488,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/refraction-runtime-report.json",
+        "sha256": "ee8e45838bdcbf11c108ce9dd69049460b2070eca3d19997d55c010f5c1e3eef",
+        "passed": true,
+        "comparisons": 5394,
+        "scope": "Read-only original AVM1 coordinates for all 150 animated E/B segments or all static signed vectors and six wavefront planes, at recorded original time/drag states. Initial and consecutive-step rotation matrices compared with independent HTML equations, only when both adjacent samples are held pressed. Press/release transition ordering, drawn path pixels, painter depth order, all gestures and 2000-step history are not asserted. Original sustained-displacement camera rotation differs intentionally from the HTML incremental pointer interface.",
+        "maxAbsoluteError": 4.263256414560601e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7446,7 +7513,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/refraction-runtime-report.json",
+        "sha256": "0b2d1ab0c1fadb8cad48dc4934f90698b2f5ec91b795f4e740032e6acddc27a3",
+        "passed": true,
+        "comparisons": 30771,
+        "scope": "Read-only original AVM1 coordinates for all 150 animated E/B segments or all static signed vectors and six wavefront planes, at recorded original time/drag states. Initial and consecutive-step rotation matrices compared with independent HTML equations, only when both adjacent samples are held pressed. Press/release transition ordering, drawn path pixels, painter depth order, all gestures and 2000-step history are not asserted. Original sustained-displacement camera rotation differs intentionally from the HTML incremental pointer interface.",
+        "maxAbsoluteError": 4.973799150320701e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7464,7 +7538,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/refraction-runtime-report.json",
+        "sha256": "c71e46cda006252700b8e1a6fb89b0af6fe01d8ede16c3297e68e4d4cccd94f8",
+        "passed": true,
+        "comparisons": 5394,
+        "scope": "Read-only original AVM1 coordinates for all 150 animated E/B segments or all static signed vectors and six wavefront planes, at recorded original time/drag states. Initial and consecutive-step rotation matrices compared with independent HTML equations, only when both adjacent samples are held pressed. Press/release transition ordering, drawn path pixels, painter depth order, all gestures and 2000-step history are not asserted. Original sustained-displacement camera rotation differs intentionally from the HTML incremental pointer interface.",
+        "maxAbsoluteError": 4.263256414560601e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
