@@ -1185,3 +1185,14 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 @media(max-width:600px){.optics-scene,.optics-graph{overflow-x:auto}.optics-scene svg,.optics-graph svg{min-width:600px}}
 .optics-legend i{border-color:var(--optics-color);opacity:.65}
 .optics-legend i.optics-series-1,.optics-legend i.optics-series-3,.optics-legend i.optics-series-5{border-top-style:dashed}
+
+.refraction-toolbar{padding-top:20px}
+.refraction-help{margin:14px 20px}
+.refraction-scene svg{display:block;width:100%;height:auto;touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab}
+.refraction-scene svg:active{cursor:grabbing}
+.refraction-interface{fill:var(--plot-action);fill-opacity:.07;stroke:var(--plot-muted);stroke-width:1}
+.refraction-plane{fill:var(--plot-muted);fill-opacity:.04;stroke:var(--plot-muted);stroke-width:1;stroke-dasharray:5 3}
+.refraction-wavefront{fill:var(--plot-action);fill-opacity:.12;stroke:var(--plot-action);stroke-width:1;stroke-opacity:.65}
+.refraction-legend{margin-inline:20px}
+[data-flash-native^="refraction-"] [data-refraction-play]{min-width:7em}
+@media(max-width:600px){.refraction-scene{overflow-x:auto}.refraction-scene svg{min-width:600px}}

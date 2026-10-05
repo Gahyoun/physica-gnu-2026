@@ -1,0 +1,92 @@
+[
+  {
+    "id": "flash-39443811378c968a",
+    "source": "optics/light/fresneleq/refref.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/light/fresneleq/refref.swf",
+    "sha256": "d97ba3c03c74029f1ebfa151a6765a2edb38e19174af054f537177f0863181c9",
+    "lesson": "5-1-4-1",
+    "title": "평면파의 반사와 굴절",
+    "type": "wavefronts",
+    "animated": false,
+    "sourceFrameRate": 15.0,
+    "rate": 0,
+    "camera": [
+      150,
+      -140,
+      0
+    ],
+    "timeEnd": 2000
+  },
+  {
+    "id": "flash-15cd627de7afb253",
+    "source": "optics/light/fresneleq/refrefp.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/light/fresneleq/refrefp.swf",
+    "sha256": "1998672029b2fe1f90e09041356ca970a642a55d539dada4c4499fe2dba4aa5d",
+    "lesson": "5-1-4-3",
+    "title": "전기장이 입사면 방향인 입사파의 반사와 굴절",
+    "type": "p-wave",
+    "animated": true,
+    "sourceFrameRate": 5.0,
+    "rate": 2.5,
+    "camera": [
+      150,
+      -80,
+      0
+    ],
+    "timeEnd": 2000
+  },
+  {
+    "id": "flash-4bfd7f3721c437f9",
+    "source": "optics/light/fresneleq/refrefs.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/light/fresneleq/refrefs.swf",
+    "sha256": "0b2d1ab0c1fadb8cad48dc4934f90698b2f5ec91b795f4e740032e6acddc27a3",
+    "lesson": "5-1-4-2",
+    "title": "전기장이 입사면에 수직인 입사파의 반사와 굴절",
+    "type": "s-wave",
+    "animated": true,
+    "sourceFrameRate": 5.0,
+    "rate": 2.5,
+    "camera": [
+      150,
+      -80,
+      0
+    ],
+    "timeEnd": 2000
+  },
+  {
+    "id": "flash-c2a3fd1b6ed42eb4",
+    "source": "optics/light/fresneleq/refrefpp.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/light/fresneleq/refrefpp.swf",
+    "sha256": "ee8e45838bdcbf11c108ce9dd69049460b2070eca3d19997d55c010f5c1e3eef",
+    "lesson": "5-1-4-3",
+    "title": "p-편광의 전기장, 자기장의 부호의 규약",
+    "type": "p-sign",
+    "animated": false,
+    "sourceFrameRate": 15.0,
+    "rate": 0,
+    "camera": [
+      150,
+      -140,
+      0
+    ],
+    "timeEnd": 2000
+  },
+  {
+    "id": "flash-f2f3f67d9066a848",
+    "source": "optics/light/fresneleq/refrefss.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/light/fresneleq/refrefss.swf",
+    "sha256": "c71e46cda006252700b8e1a6fb89b0af6fe01d8ede16c3297e68e4d4cccd94f8",
+    "lesson": "5-1-4-2",
+    "title": "s-편광의 전기장, 자기장의 부호의 규약",
+    "type": "s-sign",
+    "animated": false,
+    "sourceFrameRate": 15.0,
+    "rate": 0,
+    "camera": [
+      150,
+      -140,
+      0
+    ],
+    "timeEnd": 2000
+  }
+]

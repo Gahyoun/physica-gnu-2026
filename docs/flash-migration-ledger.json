@@ -1,8 +1,8 @@
 {
   "date": "2026-10-05",
   "total": 518,
-  "htmlImplemented": 106,
-  "htmlPending": 412,
+  "htmlImplemented": 111,
+  "htmlPending": 407,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
@@ -9119,18 +9119,25 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-4-1.html#native-refraction-flash-39443811378c968a",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry and matrix functions versus independent vector/field equations; no source scripts published",
+        "comparisons": 4062,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "Source normal and k vectors, six wavefront plane coordinates, perspective and incremental rotations",
+        "report": "docs/refraction-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/refraction-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-15cd627de7afb253",
@@ -9143,18 +9150,25 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-4-3.html#native-refraction-flash-15cd627de7afb253",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry and matrix functions versus independent vector/field equations; no source scripts published",
+        "comparisons": 1804854,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "All 2001 time steps × 25 distances × six field segments; source perspective and incremental rotations",
+        "report": "docs/refraction-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/refraction-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c2a3fd1b6ed42eb4",
@@ -9167,18 +9181,25 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-4-3.html#native-refraction-flash-c2a3fd1b6ed42eb4",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry and matrix functions versus independent vector/field equations; no source scripts published",
+        "comparisons": 4020,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "All source E/B/k signed vector endpoints; perspective and incremental rotations",
+        "report": "docs/refraction-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/refraction-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4bfd7f3721c437f9",
@@ -9191,18 +9212,25 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-4-2.html#native-refraction-flash-4bfd7f3721c437f9",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry and matrix functions versus independent vector/field equations; no source scripts published",
+        "comparisons": 1804854,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "All 2001 time steps × 25 distances × six field segments; source perspective and incremental rotations",
+        "report": "docs/refraction-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/refraction-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-f2f3f67d9066a848",
@@ -9215,18 +9243,25 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-4-2.html#native-refraction-flash-f2f3f67d9066a848",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry and matrix functions versus independent vector/field equations; no source scripts published",
+        "comparisons": 4020,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "All source E/B/k signed vector endpoints; perspective and incremental rotations",
+        "report": "docs/refraction-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/refraction-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4536001836ccd77c",

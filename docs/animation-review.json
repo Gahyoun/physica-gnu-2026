@@ -1,8 +1,8 @@
 {
   "date": "2026-10-05",
   "total": 518,
-  "implemented": 106,
-  "pending": 412,
+  "implemented": 111,
+  "pending": 407,
   "scope": "Full catalogue structural review; not visual or exhaustive control testing of every original. Native and original runtime equivalence remain separate.",
   "chapters": [
     {
@@ -37,8 +37,8 @@
       "chapter": 5,
       "title": "빛",
       "total": 202,
-      "implemented": 32,
-      "pending": 170
+      "implemented": 37,
+      "pending": 165
     },
     {
       "chapter": 6,
@@ -8373,7 +8373,7 @@
       "lessons": [
         "5-1-4-1"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-4-1.html#native-refraction-flash-39443811378c968a",
       "sourceInspection": "exported",
       "scriptFiles": 4,
       "controlCandidates": 0,
@@ -8383,10 +8383,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-15cd627de7afb253",
@@ -8396,7 +8396,7 @@
       "lessons": [
         "5-1-4-3"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-4-3.html#native-refraction-flash-15cd627de7afb253",
       "sourceInspection": "exported",
       "scriptFiles": 4,
       "controlCandidates": 0,
@@ -8406,10 +8406,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-c2a3fd1b6ed42eb4",
@@ -8419,7 +8419,7 @@
       "lessons": [
         "5-1-4-3"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-4-3.html#native-refraction-flash-c2a3fd1b6ed42eb4",
       "sourceInspection": "exported",
       "scriptFiles": 4,
       "controlCandidates": 0,
@@ -8429,10 +8429,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-4bfd7f3721c437f9",
@@ -8442,7 +8442,7 @@
       "lessons": [
         "5-1-4-2"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-4-2.html#native-refraction-flash-4bfd7f3721c437f9",
       "sourceInspection": "exported",
       "scriptFiles": 4,
       "controlCandidates": 0,
@@ -8452,10 +8452,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-f2f3f67d9066a848",
@@ -8465,7 +8465,7 @@
       "lessons": [
         "5-1-4-2"
       ],
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-4-2.html#native-refraction-flash-f2f3f67d9066a848",
       "sourceInspection": "exported",
       "scriptFiles": 4,
       "controlCandidates": 0,
@@ -8475,10 +8475,10 @@
         "drag": 0,
         "change": 0
       },
-      "nativeStatus": "pending",
+      "nativeStatus": "independent-numeric-model",
       "review": "catalogue metadata, source export inventory and migration evidence checked",
       "originalRuntimeFullEquivalence": false,
-      "next": "Inspect equations and controls; build a distinct HTML/SVG scene; compare numerical and native UI evidence"
+      "next": "Complete documented original behavior gaps and runtime comparisons"
     },
     {
       "id": "flash-4536001836ccd77c",

@@ -1,0 +1,152 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "results": [
+    {
+      "kind": "refraction-flash-39443811378c968a",
+      "id": "flash-39443811378c968a",
+      "states": 8,
+      "svg": true,
+      "appliedFramesAndProbe": false,
+      "drag": true,
+      "keyboard": true,
+      "cameraPresets": true,
+      "curveAlpha": 0.65,
+      "sourcePlayRate": null,
+      "playPause": false,
+      "offscreenPause": false,
+      "csvRows": 0,
+      "stableLowerProgress": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "localPerformance": {
+        "samples": 100,
+        "averageMs": 0.04799999952316284,
+        "p95Ms": 0.10000002384185791,
+        "sameSVG": true
+      },
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "refraction-flash-15cd627de7afb253",
+      "id": "flash-15cd627de7afb253",
+      "states": 17,
+      "svg": true,
+      "appliedFramesAndProbe": true,
+      "drag": true,
+      "keyboard": true,
+      "cameraPresets": true,
+      "curveAlpha": 0.65,
+      "sourcePlayRate": 2.5,
+      "playPause": true,
+      "offscreenPause": true,
+      "csvRows": 2001,
+      "stableLowerProgress": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "localPerformance": {
+        "samples": 100,
+        "averageMs": 0.33300000011920927,
+        "p95Ms": 0.5,
+        "sameSVG": true
+      },
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "refraction-flash-4bfd7f3721c437f9",
+      "id": "flash-4bfd7f3721c437f9",
+      "states": 17,
+      "svg": true,
+      "appliedFramesAndProbe": true,
+      "drag": true,
+      "keyboard": true,
+      "cameraPresets": true,
+      "curveAlpha": 0.65,
+      "sourcePlayRate": 2.5,
+      "playPause": true,
+      "offscreenPause": true,
+      "csvRows": 2001,
+      "stableLowerProgress": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "localPerformance": {
+        "samples": 100,
+        "averageMs": 0.315,
+        "p95Ms": 0.40000003576278687,
+        "sameSVG": true
+      },
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "refraction-flash-c2a3fd1b6ed42eb4",
+      "id": "flash-c2a3fd1b6ed42eb4",
+      "states": 8,
+      "svg": true,
+      "appliedFramesAndProbe": false,
+      "drag": true,
+      "keyboard": true,
+      "cameraPresets": true,
+      "curveAlpha": 0.65,
+      "sourcePlayRate": null,
+      "playPause": false,
+      "offscreenPause": false,
+      "csvRows": 0,
+      "stableLowerProgress": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "localPerformance": {
+        "samples": 100,
+        "averageMs": 0.03199999988079071,
+        "p95Ms": 0.10000002384185791,
+        "sameSVG": true
+      },
+      "sourceRuntimeExhaustive": false
+    },
+    {
+      "kind": "refraction-flash-f2f3f67d9066a848",
+      "id": "flash-f2f3f67d9066a848",
+      "states": 8,
+      "svg": true,
+      "appliedFramesAndProbe": false,
+      "drag": true,
+      "keyboard": true,
+      "cameraPresets": true,
+      "curveAlpha": 0.65,
+      "sourcePlayRate": null,
+      "playPause": false,
+      "offscreenPause": false,
+      "csvRows": 0,
+      "stableLowerProgress": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "localPerformance": {
+        "samples": 100,
+        "averageMs": 0.03099999964237213,
+        "p95Ms": 0.10000002384185791,
+        "sameSVG": true
+      },
+      "sourceRuntimeExhaustive": false
+    }
+  ],
+  "errors": [],
+  "noFlashOnReadingPage": true
+}
