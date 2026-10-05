@@ -1,3 +1,4 @@
+import {patchMarkup,frameBatch} from './render-utils.mjs';
 import './native-timelines.mjs';
 import './native-chain.mjs';
 import './native-mechanics.mjs';
@@ -32,11 +33,11 @@ function init(host){
   for(const [key,,color] of curves){const svg=get('[data-curve="'+key+'"]'),magnitude=key==='x'?A:key==='v'?A*w:A*w*w;svg.querySelector('[data-cursor]').setAttribute('x1',65+time*27);svg.querySelector('[data-cursor]').setAttribute('x2',65+time*27);svg.querySelector('[data-dot]').setAttribute('cx',65+time*27);svg.querySelector('[data-dot]').setAttribute('cy',85-55*s[key]/magnitude);}
   for(const [k,v] of Object.entries(values()))get('[data-value="'+k+'"]').textContent=fmt(v);
   get('[data-value=time]').textContent=fmt(time);timeInput.value=time;
-  get('[data-native-readouts]').innerHTML=[['시간 / s',time],['변위 / 눈금',s.x],['속도 / 눈금·s⁻¹',s.v],['가속도 / 눈금·s⁻²',s.a],['진동수 / Hz',s.frequency],['주기 / s',s.period]].map(([k,v])=>`<div><dt>${k}</dt><dd>${fmt(v)}</dd></div>`).join('');
+  patchMarkup(get('[data-native-readouts]'),[['시간 / s',time],['변위 / 눈금',s.x],['속도 / 눈금·s⁻¹',s.v],['가속도 / 눈금·s⁻²',s.a],['진동수 / Hz',s.frequency],['주기 / s',s.period]].map(([k,v])=>`<div><dt>${k}</dt><dd>${fmt(v)}</dd></div>`).join(''));
   host.dataset.nativeTime=time;host.dataset.nativeX=s.x;host.dataset.nativeReady='true';
  }
  function pause(){running=false;cancelAnimationFrame(frame);get('[data-native-play]').textContent='재생';last=0;}
- function tick(now){if(!running)return;if(last)time=(time+Math.min((now-last)/1000,.1))%20;last=now;draw();frame=requestAnimationFrame(tick);}
+ function tick(now){if(!running)return;if(last)time=(time+Math.min((now-last)/1000,.1))%20;last=now;if(!host._lastPaint||now-host._lastPaint>=1000/30){draw();host._lastPaint=now;}frame=requestAnimationFrame(tick);}
  get('[data-native-play]').addEventListener('click',()=>{if(running)pause();else{running=true;get('[data-native-play]').textContent='일시정지';frame=requestAnimationFrame(tick);}});
  get('[data-native-reset]').addEventListener('click',()=>{pause();time=0;inputs.A.value=75;inputs.w.value=2;inputs.phi.value=0;rebuild();});
  for(const e of Object.values(inputs))e.addEventListener('input',()=>{time=0;rebuild();});

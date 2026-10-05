@@ -1,7 +1,9 @@
 /* JPEXS FFDec 26.3.0 canvas helper. LGPL-3.0-or-later.
- * Modified: dynamic eval replaced with named drawing function calls.
+ * Modified: named drawing calls, bounded path-token cache, GNU colour mapping hook.
  * Original: https://github.com/jindrapetrik/jpexs-decompiler/blob/master/libsrc/ffdec_lib/src/com/jpexs/helpers/resource/canvas.js
  * See COPYING and COPYING.LESSER in this directory. */
+var remasterPathTokens=new Map();
+function cachedPathTokens(p){if(!remasterPathTokens.has(p)){if(remasterPathTokens.size>=2048)remasterPathTokens.clear();remasterPathTokens.set(p,p.split(" "));}return remasterPathTokens.get(p).slice();}
 /**
  *  JPEXS Free Flash Decompiler Filters
  */
@@ -1188,13 +1190,14 @@ var place = function (obj, canvas, ctx, matrix, ctrans, blendMode, frame, ratio,
 }
 
 var tocolor = function (c) {
+    if(window.remasterColor)c=window.remasterColor(c);
     var r = "rgba(" + c[0] + "," + c[1] + "," + c[2] + "," + c[3] + ")";
     return r;
 };
 
 
 function drawMorphPath(ctx, p, ratio, doStroke, scaleMode) {
-    var parts = p.split(" ");
+    var parts = cachedPathTokens(p);
     var len = parts.length;
     if (doStroke) {
         for (var i = 0; i < len; i++) {
@@ -1273,7 +1276,7 @@ function useRatio(v1, v2, ratio) {
 
 function drawPath(ctx, p, doStroke, scaleMode) {
 //console.log("drawing "+p)
-    var parts = p.split(" ");
+    var parts = cachedPathTokens(p);
     var len = parts.length;
     if (doStroke) {
         for (var i = 0; i < len; i++) {

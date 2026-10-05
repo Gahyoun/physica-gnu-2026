@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-05T06:17:24.161Z",
+  "date": "2026-10-05T08:59:06.040Z",
   "results": [
     {
       "id": "flash-31cea67f9129e363",
       "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/charge/charge/ca_1.swf",
       "sha256": "f12a5570b88c9081ff43d2e22d71ff1b81a98fadf83f5505e01d95641d0a9122",
       "framesCompared": 190,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.3551866666666668,
       "worstChangedPixelFraction": 0.01414,
       "thresholds": {
@@ -20,7 +20,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/charge/charge/ca_4.swf",
       "sha256": "dd5a3f5b39a0c25268a2198976b78e58e20e83344ed9f259e40525616053844a",
       "framesCompared": 30,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.1577894736842105,
       "worstChangedPixelFraction": 0.005485380116959065,
       "thresholds": {
@@ -34,7 +34,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/charge/electricfield/h2odia.swf",
       "sha256": "35451d66c489df38c2eed7de11ed7227c68cc355ceb577f8e0cba9daf9c2b490",
       "framesCompared": 114,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.538780701754386,
       "worstChangedPixelFraction": 0.013596491228070176,
       "thresholds": {
@@ -48,7 +48,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/charge/electricfield/millikan.swf",
       "sha256": "985920e7a07d4109754876c25e3997b3139f19695421dfcef90792ef7d150232",
       "framesCompared": 64,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.2722522522522524,
       "worstChangedPixelFraction": 0.007837837837837838,
       "thresholds": {
@@ -62,7 +62,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/current/registance/current2.swf",
       "sha256": "2f2ae23104ff6e4f7c5a0c8d0c9ef418a7dcfc1f78f05e5e60ad6e13631113ed",
       "framesCompared": 50,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.8601041666666667,
       "worstChangedPixelFraction": 0.009916666666666667,
       "thresholds": {
@@ -76,7 +76,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/gauss/gaussapp/gauss1.swf",
       "sha256": "481f6cdfec766580ee7496cde6322214116401744bb043baaf8bdfc13eefdace",
       "framesCompared": 1,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.9002298850574713,
       "worstChangedPixelFraction": 0.008243534482758622,
       "thresholds": {
@@ -90,7 +90,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/magnetic/mfield/mf_3.swf",
       "sha256": "e0789ba04b35a48fc1686804114cadeea2ee722fc2893b8ece6c714b4cb172f7",
       "framesCompared": 40,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.6389786059351277,
       "worstChangedPixelFraction": 0.0012111801242236024,
       "thresholds": {
@@ -104,7 +104,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/semiconductorphysics/holecarrier.swf",
       "sha256": "4c522871bdda7d1347286b686f2340663ec02aaa92cf9c44428deaa6eb2e49ac",
       "framesCompared": 52,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.5468024691358024,
       "worstChangedPixelFraction": 0.0027407407407407406,
       "thresholds": {
@@ -118,7 +118,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/semiconductorphysics/pnjuction2.swf",
       "sha256": "5e6e10653167a62dafb8c3943eff924ff55c06eb52e9aa526e778a75faf7868a",
       "framesCompared": 125,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.188896103896104,
       "worstChangedPixelFraction": 0.001829004329004329,
       "thresholds": {
@@ -132,7 +132,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/modern/wave_particle/matterwave/electrondiff.swf",
       "sha256": "f629d3190bc5c462cd1faa4e9da4ced0d07f281852f6d052bfb02faa96c06204",
       "framesCompared": 241,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.8109722222222222,
       "worstChangedPixelFraction": 0.005658333333333333,
       "thresholds": {
@@ -146,7 +146,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/nuclear/nucleardecay/radioactivedecay/rad3type.swf",
       "sha256": "39f88aae184de309225ce158b8affd1b1c51561e3a8fb873028125addf1893f1",
       "framesCompared": 35,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.5923945578231293,
       "worstChangedPixelFraction": 0.021755102040816328,
       "thresholds": {
@@ -160,7 +160,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/abergeometry.swf",
       "sha256": "96e33d920cb2653d5450bcec853d4fac38ca5c4268659fb4908c42db6e408efb",
       "framesCompared": 1,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.9153408480944712,
       "worstChangedPixelFraction": 0.008993558776167471,
       "thresholds": {
@@ -174,7 +174,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/abergeometry2.swf",
       "sha256": "690a32cd5bd073235628b23f3d304bc8f26e878f9b343cc0119e3d6cc013f02c",
       "framesCompared": 1,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.8926221148684916,
       "worstChangedPixelFraction": 0.009009661835748792,
       "thresholds": {
@@ -188,7 +188,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/sphere2.swf",
       "sha256": "348a5c61de6090bbed246e9fc5df8cda6dc481a14472e14d09dd66c27dfd4877",
       "framesCompared": 70,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.563498427672956,
       "worstChangedPixelFraction": 0.00045990566037735846,
       "thresholds": {
@@ -202,7 +202,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/GRIN1.swf",
       "sha256": "be56d1cbac909343fce2789e06c9056d2f7caca2dbff202074d3deb04233c7a0",
       "framesCompared": 60,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.74204307568438,
       "worstChangedPixelFraction": 0.0007065217391304348,
       "thresholds": {
@@ -216,7 +216,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/lens.swf",
       "sha256": "e4c6335f6847c206bde15c2a83b98bab750fd8caeec54266fe991249c2434d64",
       "framesCompared": 85,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.5735924528301887,
       "worstChangedPixelFraction": 0.002128301886792453,
       "thresholds": {
@@ -230,7 +230,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/sphere.swf",
       "sha256": "29fbed96ae85b5d36dc6d40f222d191317a49a10f6e8c9842bbf515c3a671491",
       "framesCompared": 70,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.5508306595365419,
       "worstChangedPixelFraction": 0.0005026737967914438,
       "thresholds": {
@@ -244,7 +244,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/thicklens1.swf",
       "sha256": "7b709f4cdc3b167faf906a52f2235bbed82dacc002b3f7c7cd8f94917131f9bc",
       "framesCompared": 60,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.5465257648953301,
       "worstChangedPixelFraction": 0.00034420289855072465,
       "thresholds": {
@@ -258,7 +258,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/thicklens2.swf",
       "sha256": "5764f048eb9fc98830ea9b47e17b3ec6cbb4ad80ab5b319d747fbad3f95ba16b",
       "framesCompared": 60,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.2659319645732689,
       "worstChangedPixelFraction": 0.00024758454106280195,
       "thresholds": {
@@ -272,7 +272,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/laser/holography/refholosetup.swf",
       "sha256": "fb5105164a2f2332ba9212752b13dc9d67eb61f81ddc9d62ded7b999fd1eadf0",
       "framesCompared": 195,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.0188679245283019,
       "worstChangedPixelFraction": 0.003038728897715988,
       "thresholds": {
@@ -286,7 +286,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/laser/holography/trans_setup.swf",
       "sha256": "63667d04228e3b60a24737c37481e43df6f82876bdd806e4900efc2a15449b84",
       "framesCompared": 200,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.4752442528735632,
       "worstChangedPixelFraction": 0.009576149425287356,
       "thresholds": {
@@ -300,7 +300,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/laser/lasergen/lasermechism.swf",
       "sha256": "fb71411fb93426d4b42d7ca59446fe2ccf4a30a28975d46596cf8a0452deac09",
       "framesCompared": 41,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.7655580357142857,
       "worstChangedPixelFraction": 0.005736607142857143,
       "thresholds": {
@@ -314,7 +314,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserkind/henepump.swf",
       "sha256": "78cfddc59262d53b0a320a192e96602464e7aff7112f4fb8744444680af5b09c",
       "framesCompared": 81,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.812979797979798,
       "worstChangedPixelFraction": 0.004783549783549784,
       "thresholds": {
@@ -328,7 +328,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/sponem.swf",
       "sha256": "e4e28bde4ece0c874414583304e490223d7f718fcdfe8bd9e2db465433e6704a",
       "framesCompared": 60,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.1151179487179488,
       "worstChangedPixelFraction": 0.009353846153846154,
       "thresholds": {
@@ -342,7 +342,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/stimab.swf",
       "sha256": "84ef62f4fdcec608c23bdd1cea5ee89011ba31d8688a9f7fb9c0bb104aa33ad3",
       "framesCompared": 60,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.7789166666666667,
       "worstChangedPixelFraction": 0.0059,
       "thresholds": {
@@ -356,7 +356,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/stimem.swf",
       "sha256": "e8a3bbaaa09f08535254be5f2731fbdda757be5ad1feb7f38727d3f6774a3349",
       "framesCompared": 60,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 0.8019988242210464,
       "worstChangedPixelFraction": 0.007319223985890653,
       "thresholds": {
@@ -370,7 +370,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/optics/light/reflect/mirror1.swf",
       "sha256": "c88dc039d7d56956f2e16f81bb425b27253332b39c2e554dc1768bfef4be0520",
       "framesCompared": 60,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.1952100840336135,
       "worstChangedPixelFraction": 0.009397759103641457,
       "thresholds": {
@@ -384,7 +384,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/wave/sound/sound/invsqr.swf",
       "sha256": "a4aa8386954d8efc290b80098742021fddf040c479f753718a2e7ebc7ec50f57",
       "framesCompared": 50,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 2.2835591133004924,
       "worstChangedPixelFraction": 0.012795566502463053,
       "thresholds": {
@@ -398,7 +398,7 @@
       "source": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/sonicinter.swf",
       "sha256": "656ede835c752cb52ac7958fb7c6592353ee354a9cf3af9bd8f3bd4cd5a712cc",
       "framesCompared": 150,
-      "reference": "FFDec 26.3.0 SWF raster renderer; not a Ruffle runtime comparison",
+      "reference": "Original-colour diagnostic mode vs FFDec 26.3.0 SWF raster renderer; remaster colours intentionally differ; not a Ruffle runtime comparison",
       "worstMeanChannelError": 1.3916055555555555,
       "worstChangedPixelFraction": 0.013608333333333333,
       "thresholds": {

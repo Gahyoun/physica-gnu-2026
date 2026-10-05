@@ -25,7 +25,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 190,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -56,7 +57,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 30,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -255,7 +257,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 114,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -286,7 +289,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 64,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -341,7 +345,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 50,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -468,7 +473,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 1,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -595,7 +601,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 40,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -4746,7 +4753,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 52,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -4825,7 +4833,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 125,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -4952,7 +4961,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 241,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -5391,7 +5401,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 35,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -5686,7 +5697,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 1,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -5717,7 +5729,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 1,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -6348,7 +6361,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 70,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -6403,7 +6417,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 60,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -7178,7 +7193,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 85,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -7257,7 +7273,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 70,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -7456,7 +7473,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 60,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -7487,7 +7505,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 60,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -8094,7 +8113,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 195,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -8125,7 +8145,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 200,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -8156,7 +8177,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 41,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -8235,7 +8257,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 81,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -8554,7 +8577,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 60,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -8585,7 +8609,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 60,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -8616,7 +8641,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 60,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -9463,7 +9489,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 60,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -10934,7 +10961,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 50,
         "passed": true,
         "report": "docs/timeline-frame-report.json"
@@ -11877,7 +11905,8 @@
       "originalControlsApplicable": false,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": {
-        "engine": "FFDec SWF raster vs native browser",
+        "engine": "Original-colour diagnostic mode: FFDec SWF raster vs native browser",
+        "remasterStyle": "GNU blue/grey; intentional colour changes excluded from source pixel comparison",
         "frames": 150,
         "passed": true,
         "report": "docs/timeline-frame-report.json"

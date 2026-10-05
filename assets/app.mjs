@@ -1,3 +1,4 @@
+import {patchMarkup} from './render-utils.mjs';
 import * as P from './physics.mjs';
 import {notation} from './math-labels.mjs';
 const BLUE='var(--plot-action)', CYAN='var(--plot-secondary)', GREY='var(--plot-muted)', LIGHT='var(--plot-line)';
@@ -46,7 +47,7 @@ function chart({title,xmin=0,xmax=8,ymin=0,ymax=1.2,xlabel='ε / eV',ylabel='평
   return d;
  }
  for(const a of areas) paths.push(`<path d="${pathFor(a.fn,a.a,a.b,true)}" fill="${a.color||CYAN}" opacity="${a.opacity||.18}"/>`);
- for(const c of curves)paths.push(`<path d="${pathFor(c.fn)}" fill="none" stroke="${c.color||BLUE}" stroke-width="${c.width||2.6}" ${c.dash?`stroke-dasharray="${c.dash}"`:''}/>`);
+ for(const c of curves)paths.push(`<path class="graph-curve" d="${pathFor(c.fn)}" fill="none" stroke="${c.color||BLUE}" stroke-width="${c.width||2.6}" ${c.dash?`stroke-dasharray="${c.dash}"`:''}/>`);
  for(const m of markers) if(m.x>=xmin&&m.x<=xmax){paths.push(line(X(m.x),top,X(m.x),bottom,m.color||GREY,1.5,'5 4'));body+=text(X(m.x),top-9,m.label||'',`text-anchor="middle"`);}
  if(point)paths.push(circle(X(point.x),Y(point.y),4,BLUE));
  const clip=`clip-${++chart.counter}`;
@@ -61,10 +62,10 @@ function mount(el,state,controls,draw,{animate=false,actions=[]}={}) {
  let running=false,visible=true,time=0,last=0,lastPaint=0,frame=0;
  function update() {
   const result=draw(state,time);
-  el.querySelector('[data-view]').innerHTML=result.svg;
+  patchMarkup(el.querySelector('[data-view]'),result.svg);
   const r=el.querySelector('[data-readouts]');
-  if(r.innerHTML!==result.readouts)r.innerHTML=result.readouts||'';
-  el.querySelector('[data-note]').innerHTML=mathText(escaped(result.note||''));
+  patchMarkup(r,result.readouts||'');
+  patchMarkup(el.querySelector('[data-note]'),mathText(escaped(result.note||'')));
   el.querySelectorAll('input[data-key]').forEach(input=>{
    input.value=state[input.dataset.key];
    const out=el.querySelector(`[data-for="${input.dataset.key}"]`);
@@ -90,7 +91,7 @@ function mount(el,state,controls,draw,{animate=false,actions=[]}={}) {
   if(a==='visible'){state.low=400;state.high=700;update();}
   if(a==='sun'){state.T=5800;update();}
  });
- if(animate){new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;if(!visible){cancelAnimationFrame(frame);frame=0;}resume();},{rootMargin:'100px'}).observe(el);document.addEventListener('visibilitychange',resume);}
+ if(animate){new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;if(!visible){cancelAnimationFrame(frame);frame=0;}resume();},{rootMargin:'100px'}).observe(el);document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(frame);frame=0;last=0;}else resume();});}
  update();return {state,update};
 }
 
@@ -154,7 +155,7 @@ function densityWidget(el) {
 function mode1Widget(el) {
  mount(el,{j:10},slider('j','모드수 j',1,30,1,10), (s,t)=>{
   let d='';for(let i=0;i<=400;i++){const x=i/400;d+=`${i?'L':'M'}${65+x*620},${95-54*P.modeWave(x,s.j,t*.65)}`;}
-  let body=line(65,95,685,95,LIGHT)+line(65,32,65,158,GREY,3)+line(685,32,685,158,GREY,3)+`<path d="${d}" fill="none" stroke="${BLUE}" stroke-width="3"/>`;
+  let body=line(65,95,685,95,LIGHT)+line(65,32,65,158,GREY,3)+line(685,32,685,158,GREY,3)+`<path class="graph-curve" d="${d}" fill="none" stroke="${BLUE}" stroke-width="3"/>`;
   for(let i=0;i<=s.j;i++)body+=circle(65+620*i/s.j,95,2.5,GREY);
   body+=text(375,185,'고정된 양 끝 · L=1 m','text-anchor="middle"');
   for(let j=1;j<=30;j++)body+=circle(65+(j-1)*620/29,230,j===s.j?7:3,j===s.j?BLUE:(j>=18&&j<=19?CYAN:GREY));
@@ -260,7 +261,7 @@ function starWidget(el) {
   for(const [i,[label,color]] of layers.entries()){const y=80+i*49;body+=`<rect data-layer-swatch="${i}" x="285" y="${y-12}" width="16" height="16" fill="${color}"/>`+text(312,y+2,label);}
   body+=text(565,25,'원본 교육 모형 · R ∝ M⁻¹ᐟ³','text-anchor="middle"');
   let path='';for(let i=0;i<=100;i++){const mass=.5+i*.02,R=P.neutronStar(mass).R/1000;path+=`${i?'L':'M'}${425+i*2.5},${277-(R-8)*23}`;}
-  body+=line(425,60,425,277)+line(425,277,690,277)+`<path d="${path}" fill="none" stroke="${BLUE}" stroke-width="3"/>`+circle(425+(s.mass-.5)/2*250,277-(model.R/1000-8)*23,5,BLUE);
+  body+=line(425,60,425,277)+line(425,277,690,277)+`<path class="graph-curve" d="${path}" fill="none" stroke="${BLUE}" stroke-width="3"/>`+circle(425+(s.mass-.5)/2*250,277-(model.R/1000-8)*23,5,BLUE);
   body+=text(425,302,'0.5')+text(680,302,'2.5','text-anchor="end"')+text(557,326,'질량 / 태양질량','text-anchor="middle"')+text(425,44,'반경 / km')+text(412,277,'8','text-anchor="end"')+text(412,70,'17','text-anchor="end"');
   return {svg:svg('중성자별의 층 구조 개념도와 교육 모형의 질량–반경 관계',body,345),readouts:readout('R',fmt(model.R/1000,5)+' km')+readout('밀도',sci(model.rho)+' kg/m³')+readout('축퇴압력',sci(model.pressure)+' Pa')+readout('중성자 εF',fmt(model.efMEV,5)+' MeV'),note:'층 구조는 원본 도식의 개념을 새로 그린 것으로 계산 모형의 균일밀도와 구별한다. 슬라이더 결과는 상대론·핵력·실제 상태방정식을 포함하지 않는다.'};
  });
