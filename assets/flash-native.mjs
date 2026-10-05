@@ -1,6 +1,7 @@
 import {patchMarkup,frameBatch} from './render-utils.mjs';
 import './native-timelines.mjs';
 import './native-chain.mjs';
+import './native-waves.mjs';
 import './native-mechanics.mjs';
 import './native-oscillators.mjs';
 // Independent HTML/SVG implementation of harmoniccircular.swf.

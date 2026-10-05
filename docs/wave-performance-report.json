@@ -1,0 +1,150 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "method": "110 synchronous seek updates per model; measurements are machine-specific, not a promised browser FPS",
+  "results": [
+    {
+      "kind": "wave-driver",
+      "updates": 110,
+      "totalMs": 5.900000035762787,
+      "meanMs": 0.05363636396147988,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-harmonic",
+      "updates": 110,
+      "totalMs": 3.5,
+      "meanMs": 0.031818181818181815,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-circle",
+      "updates": 110,
+      "totalMs": 2.699999988079071,
+      "meanMs": 0.024545454437082465,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-same",
+      "updates": 110,
+      "totalMs": 9.800000011920929,
+      "meanMs": 0.08909090919928117,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-two",
+      "updates": 110,
+      "totalMs": 14.800000011920929,
+      "meanMs": 0.13454545465382664,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-three",
+      "updates": 110,
+      "totalMs": 20.599999964237213,
+      "meanMs": 0.18727272694761102,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-standing",
+      "updates": 110,
+      "totalMs": 10.300000011920929,
+      "meanMs": 0.09363636374473572,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-beat",
+      "updates": 110,
+      "totalMs": 12.900000035762787,
+      "meanMs": 0.11727272759784352,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-packet",
+      "updates": 110,
+      "totalMs": 15,
+      "meanMs": 0.13636363636363635,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-string-fixed",
+      "updates": 110,
+      "totalMs": 16.5,
+      "meanMs": 0.15,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-string-mixed",
+      "updates": 110,
+      "totalMs": 16.69999998807907,
+      "meanMs": 0.15181818170980974,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-string-free",
+      "updates": 110,
+      "totalMs": 16.30000001192093,
+      "meanMs": 0.14818181829019025,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-air",
+      "updates": 110,
+      "totalMs": 20.69999998807907,
+      "meanMs": 0.1881818180734461,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-pipe-fixed",
+      "updates": 110,
+      "totalMs": 22.100000023841858,
+      "meanMs": 0.20090909112583508,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-pipe-mixed",
+      "updates": 110,
+      "totalMs": 32.80000001192093,
+      "meanMs": 0.29818181829019025,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wave-pipe-free",
+      "updates": 110,
+      "totalMs": 26.200000047683716,
+      "meanMs": 0.23818181861530652,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wavefront-radial",
+      "updates": 110,
+      "totalMs": 2.5,
+      "meanMs": 0.022727272727272728,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    },
+    {
+      "kind": "wavefront-plane",
+      "updates": 110,
+      "totalMs": 3,
+      "meanMs": 0.02727272727272727,
+      "svgRootsAdded": 0,
+      "scenePreserved": true
+    }
+  ]
+}

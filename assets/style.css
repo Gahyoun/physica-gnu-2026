@@ -1137,3 +1137,5 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 .remaster-legend i.chain-color-17{border-color:#57bfe7}[data-theme="dark"] .remaster-legend i.chain-color-17{border-color:#89d2ee}
 .remaster-legend i.chain-color-18{border-color:#838d92}[data-theme="dark"] .remaster-legend i.chain-color-18{border-color:#a8afb3}
 .remaster-legend i.chain-color-19{border-color:#aab0b3}[data-theme="dark"] .remaster-legend i.chain-color-19{border-color:#c3c7ca}
+
+.native-curve.wave-combined{stroke-width:3.5}

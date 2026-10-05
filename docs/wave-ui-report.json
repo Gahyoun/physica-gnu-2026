@@ -1,0 +1,296 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "originalRuntimeExhaustive": false,
+  "noFlashOnReadingPages": true,
+  "results": [
+    {
+      "kind": "wave-driver",
+      "source": "harmonicwave1.swf",
+      "numericalUIStates": 60,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-harmonic",
+      "source": "harmonicwave3.swf",
+      "numericalUIStates": 20,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-circle",
+      "source": "circularosc.swf",
+      "numericalUIStates": 5,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-same",
+      "source": "superpose1.swf",
+      "numericalUIStates": 60,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-two",
+      "source": "superpose2.swf",
+      "numericalUIStates": 90,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-three",
+      "source": "superpose3.swf",
+      "numericalUIStates": 120,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-standing",
+      "source": "standing1.swf",
+      "numericalUIStates": 70,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-beat",
+      "source": "beat1.swf",
+      "numericalUIStates": 20,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-packet",
+      "source": "packet1.swf",
+      "numericalUIStates": 35,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-string-fixed",
+      "source": "stringResonance.swf",
+      "numericalUIStates": 20,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-string-mixed",
+      "source": "stringResonance2.swf",
+      "numericalUIStates": 20,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-string-free",
+      "source": "stringResonance3.swf",
+      "numericalUIStates": 20,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-air",
+      "source": "sound1.swf",
+      "numericalUIStates": 50,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-pipe-fixed",
+      "source": "sound2.swf",
+      "numericalUIStates": 45,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-pipe-mixed",
+      "source": "sound3.swf",
+      "numericalUIStates": 45,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wave-pipe-free",
+      "source": "sound4.swf",
+      "numericalUIStates": 45,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wavefront-radial",
+      "source": "wavefront.swf",
+      "numericalUIStates": 15,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    },
+    {
+      "kind": "wavefront-plane",
+      "source": "wavefront2.swf",
+      "numericalUIStates": 15,
+      "playPause": true,
+      "offscreenPause": true,
+      "csv": true,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "graphOpacity": 0.65,
+      "errors": []
+    }
+  ],
+  "errors": []
+}

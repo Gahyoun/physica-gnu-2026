@@ -2,10 +2,11 @@ import fs from 'node:fs';
 import {pages} from '../src/book.mjs';
 import {oscillatorSpecs} from '../assets/native-oscillators.mjs';
 import {mechanicsSpecs} from '../assets/native-mechanics.mjs';
+import {waveSpecs} from '../assets/native-waves.mjs';
 import {chainSpecs} from '../assets/native-chain.mjs';
 const timelines=JSON.parse(fs.readFileSync(new URL('../src/native-timelines.json',import.meta.url)));
 const timelineSpecs=Object.fromEntries(timelines.map(r=>['timeline-'+r.id,{...r}]));
-const nativeSpecs={...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...timelineSpecs};
+const nativeSpecs={...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
 const quantumNative={distributionftn:'distribution-comparison.html#distributions',distributionftnx:'distribution-comparison.html#scaled-distributions',fddistftn:'distribution-comparison.html#fermi-edge',mode1dim:'density-of-states.html#mode-1d',mode2dim:'density-of-states.html#mode-2d',mode3dim:'density-of-states.html#mode-3d',grblackbody:'blackbody.html#blackbody',solidosc:'heat-capacity.html#lattice',freeelectronftn:'free-electrons.html#free-electrons'};
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function flash(root){

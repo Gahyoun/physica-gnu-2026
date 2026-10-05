@@ -1,8 +1,8 @@
 {
   "date": "2026-10-05",
   "total": 518,
-  "htmlImplemented": 53,
-  "htmlPending": 465,
+  "htmlImplemented": 71,
+  "htmlPending": 447,
   "vectorFilesCompared": 29,
   "vectorFramesCompared": 2306,
   "allFilesMigrated": false,
@@ -10908,18 +10908,25 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-3-3-2.html#native-wave-pipe-mixed",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 327101,
+        "maxAbsoluteError": 1.7763568394002505e-14,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5da45fc523787a28",
@@ -10932,18 +10939,25 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-3-3-2.html#native-wave-pipe-free",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 312058,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-daf828eb53ee8563",
@@ -11012,18 +11026,25 @@
       "actionScript": 2,
       "scriptFiles": 14,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-3-1-1.html#native-wave-air",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 946200,
+        "maxAbsoluteError": 1.41797684705125e-12,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-63059d3d00cd8eb6",
@@ -11180,18 +11201,25 @@
       "actionScript": 2,
       "scriptFiles": 17,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-3-1.html#native-wave-two",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 182952,
+        "maxAbsoluteError": 3.6550318327499554e-11,
+        "scope": "Every discrete control value individually plus boundary combinations; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-73f1cee567e5907d",
@@ -11204,18 +11232,25 @@
       "actionScript": 2,
       "scriptFiles": 19,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-3-1.html#native-wave-three",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 469248,
+        "maxAbsoluteError": 5.482547749124933e-11,
+        "scope": "Every discrete control value individually plus boundary combinations; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-63168a81b3894bdc",
@@ -11444,18 +11479,25 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-4-3.html#native-wave-pipe-fixed",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 300179,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c4617c90f4637806",
@@ -11468,18 +11510,25 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-4-1.html#native-wave-standing",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 2053296,
+        "maxAbsoluteError": 2.504885188159278e-12,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d14abe800a03964c",
@@ -11492,18 +11541,25 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-4-2.html#native-wave-string-fixed",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 972486,
+        "maxAbsoluteError": 9.592326932761353e-14,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-36978748fc7152df",
@@ -11516,18 +11572,25 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-4-2.html#native-wave-string-mixed",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 972486,
+        "maxAbsoluteError": 9.681144774731365e-14,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-04f8d9f159db621b",
@@ -11540,18 +11603,25 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-4-2.html#native-wave-string-free",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 972486,
+        "maxAbsoluteError": 9.947598300641403e-14,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-edfd93bc203f3a7c",
@@ -11660,18 +11730,25 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-1-3.html#native-wave-beat",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 102000,
+        "maxAbsoluteError": 3.552713678800501e-14,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5d529375bd0b3d6a",
@@ -11684,18 +11761,25 @@
       "actionScript": 2,
       "scriptFiles": 13,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-1-4.html#native-wave-packet",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 1169280,
+        "maxAbsoluteError": 8.526512829121202e-14,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-7fcf5f845493e800",
@@ -11732,18 +11816,25 @@
       "actionScript": 2,
       "scriptFiles": 15,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-1-2.html#native-wave-same",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 2832984,
+        "maxAbsoluteError": 2.8492763703980017e-12,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5902d7f2b622b0a1",
@@ -12430,18 +12521,25 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-3-3.html#native-wave-circle",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 1452,
+        "maxAbsoluteError": 1.4350796484312311e-12,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-6480a997f3ba9170",
@@ -12454,18 +12552,25 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-3-2.html#native-wave-driver",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 984000,
+        "maxAbsoluteError": 1.0231815394945443e-12,
+        "scope": "Every discrete control value individually plus boundary combinations; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-58ca7560b196cc7c",
@@ -12502,18 +12607,25 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-3-2.html#native-wave-harmonic",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 50300,
+        "maxAbsoluteError": 7.105427357601002e-15,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-9cfa1b9936f1373f",
@@ -12622,18 +12734,25 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-3-6.html#native-wavefront-radial",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 380,
+        "maxAbsoluteError": 0,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-6cbea09d1ec181fc",
@@ -12646,18 +12765,25 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-3-6.html#native-wavefront-plane",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted numerical/drawing functions in Node VM vs independent HTML equations. Flash UI and full runtime are not emulated.",
+        "comparisons": 620,
+        "maxAbsoluteError": 0,
+        "scope": "Cartesian product of discrete control values; finite documented time/drawing sample sweep",
+        "report": "docs/wave-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/wave-ui-report.json",
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-f5d4401128ea0c06",
