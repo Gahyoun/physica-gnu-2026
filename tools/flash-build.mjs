@@ -26,7 +26,10 @@ fs.writeFileSync(new URL('../assets/fundamental-specs.mjs',import.meta.url),'exp
 const fields=JSON.parse(fs.readFileSync(new URL('../src/native-fields.json',import.meta.url)));
 const fieldSpecs=Object.fromEntries(fields.map(r=>['field-'+r.id,r]));
 fs.writeFileSync(new URL('../assets/field-specs.mjs',import.meta.url),'export const fieldSpecs='+JSON.stringify(fieldSpecs)+';\n');
-const nativeSpecs={...fieldSpecs,...fundamentalSpecs,...expansionSpecs,...refractionSpecs,...opticsSpecs,...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
+const scenes=JSON.parse(fs.readFileSync(new URL('../src/native-scenes.json',import.meta.url)));
+const sceneSpecs=Object.fromEntries(scenes.map(r=>['scene-'+r.id,r]));
+fs.writeFileSync(new URL('../assets/scene-specs.mjs',import.meta.url),'export const sceneSpecs='+JSON.stringify(sceneSpecs)+';\n');
+const nativeSpecs={...sceneSpecs,...fieldSpecs,...fundamentalSpecs,...expansionSpecs,...refractionSpecs,...opticsSpecs,...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
 const quantumNative={distributionftn:'distribution-comparison.html#distributions',distributionftnx:'distribution-comparison.html#scaled-distributions',fddistftn:'distribution-comparison.html#fermi-edge',mode1dim:'density-of-states.html#mode-1d',mode2dim:'density-of-states.html#mode-2d',mode3dim:'density-of-states.html#mode-3d',grblackbody:'blackbody.html#blackbody',solidosc:'heat-capacity.html#lattice',freeelectronftn:'free-electrons.html#free-electrons'};
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function flash(root){

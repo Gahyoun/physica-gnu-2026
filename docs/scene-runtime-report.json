@@ -1,0 +1,2452 @@
+{
+  "date": "2026-10-06T14:59:27.089Z",
+  "files": 16,
+  "comparisons": 74355,
+  "nativeModelHashes": {
+    "assets/scene-physics.mjs": "ca7c46f2a70cd69cba9336c5317221ee0bfce5756a23887debd4811211377a3a",
+    "assets/scene-specs.mjs": "7712e3123e9d74aaf0448a3e6ecc5a7e5909086f50be77251419c5342a60a4a2",
+    "assets/native-chain.mjs": "a6925476cd97e102ea9f512490e7e43f99b74638f8192df5996db773a2cb53fc"
+  },
+  "method": "Actual Ruffle geometry and numerical steps; real original slider arrows and pointer drags; private read-only telemetry in diagnostic copies",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-7165070536a3fbdf",
+      "type": "cov",
+      "sha256": "fe95eb6c13a2dae93f220ebe75168c2bb46aac6b7f98179a89fc7e3d1777bb05",
+      "comparisons": 16880,
+      "maxAbsoluteError": 0.04988605908926047,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.867280738142145,
+            0.346120120531015,
+            -0.288212743494973,
+            -0.52789907731122,
+            -0.264373402046782,
+            0.850027988728712,
+            0.171016623231717,
+            0.897110676814074,
+            0.445966179059492
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.817706448495005,
+            0.513390364955227,
+            -0.196337119113445,
+            -0.52789907731122,
+            -0.264373402046782,
+            0.850027988728712,
+            0.335825443145169,
+            0.81304184238042,
+            0.493360065303278
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.817706448495005,
+            0.513390364955227,
+            -0.196337119113445,
+            -0.485087997508069,
+            -0.16765694722083,
+            0.901808128468838,
+            0.395152880241684,
+            0.838344488393483,
+            0.390760585379035
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.854832012355309,
+            0.41339003692349,
+            -0.246665367176037,
+            -0.522213561368373,
+            -0.267657275252567,
+            0.851479880406246,
+            0.238023584914467,
+            0.867161034858444,
+            0.467587649429792
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-1ce26839ccbde4c7",
+      "type": "h2o",
+      "sha256": "9647d2b4d94bc78f7a53645b3eab6fdd889b5109b2fd79220271d4e05d7195d6",
+      "comparisons": 15144,
+      "maxAbsoluteError": 0.04951148757163537,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.867280738142145,
+            0.346120120531015,
+            -0.288212743494973,
+            -0.52789907731122,
+            -0.264373402046782,
+            0.850027988728712,
+            0.171016623231717,
+            0.897110676814074,
+            0.445966179059492
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.828032398738156,
+            0.487114632626976,
+            -0.21202143091015,
+            -0.52789907731122,
+            -0.264373402046782,
+            0.850027988728712,
+            0.309491374377218,
+            0.829051288504454,
+            0.486825770900262
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.828032398738156,
+            0.487114632626976,
+            -0.21202143091015,
+            -0.488162058865878,
+            -0.165788112589787,
+            0.901045359065376,
+            0.368998849488402,
+            0.854244482806065,
+            0.384270963958456
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.862020377458196,
+            0.385429154409979,
+            -0.261481537699164,
+            -0.522150037585918,
+            -0.267473590806784,
+            0.851585252276363,
+            0.210666103338564,
+            0.880001275653469,
+            0.459271122048715
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-749a9164586121bc",
+      "type": "covx",
+      "sha256": "0c23e4f1a261fe7e642551c6bbe835587ede9ba406500609b65d296703e9ec55",
+      "comparisons": 16664,
+      "maxAbsoluteError": 5.115907697472721e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.867280738142145,
+            0.346120120531015,
+            -0.288212743494973,
+            -0.52789907731122,
+            -0.264373402046782,
+            0.850027988728712,
+            0.171016623231717,
+            0.897110676814074,
+            0.445966179059492
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.828032398738156,
+            0.487114632626976,
+            -0.21202143091015,
+            -0.52789907731122,
+            -0.264373402046782,
+            0.850027988728712,
+            0.309491374377218,
+            0.829051288504454,
+            0.486825770900262
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.828032398738156,
+            0.487114632626976,
+            -0.21202143091015,
+            -0.478785505834928,
+            -0.144382418958259,
+            0.910369570480412,
+            0.381086323609664,
+            0.858121816396977,
+            0.361627097958827
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.868652549753296,
+            0.362634872209703,
+            -0.2700451427254,
+            -0.519405656850068,
+            -0.268862179375533,
+            0.852345858665162,
+            0.189104498728208,
+            0.889218239780815,
+            0.452859976269449
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-f407d9c2c7b73356",
+      "type": "fourierdiff",
+      "sha256": "4202d5d8ca180100f04cf714d8547ebdaa19ef715fc5e3d136f3d2be81b9ab54",
+      "comparisons": 1860,
+      "maxAbsoluteError": 0.0498019430681893,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.517832229874227,
+            -0.10726193526065,
+            0.848731205357518,
+            0.289624934551789,
+            0.955503428172962,
+            -0.0559517295138326,
+            -0.804964085527645,
+            0.2747873286632,
+            0.525856201843037
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.449314246315905,
+            -0.0841115129184134,
+            0.889405397696768,
+            0.289624934551789,
+            0.955503428172962,
+            -0.0559517295138326,
+            -0.845123721914988,
+            0.282733889274514,
+            0.453682094105846
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.449314246315905,
+            -0.0841115129184134,
+            0.889405397696768,
+            0.23885721690366,
+            0.97062530868947,
+            -0.0288745573907177,
+            -0.860850705982523,
+            0.225414647984659,
+            0.4562064209142
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.499257009198723,
+            -0.0990761771298847,
+            0.860770788242301,
+            0.288799979786478,
+            0.955660644477998,
+            -0.0575091668451836,
+            -0.816906977838527,
+            0.277302440885805,
+            0.505733473123442
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-7fdad8223dbf5e26",
+      "type": "rectwindow",
+      "sha256": "9776f3c9905c37d1f3589947d52a91acd4152585ba315ad22359b1b80f3bd869",
+      "comparisons": 824,
+      "maxAbsoluteError": 0.04818162949879934,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 6,
+          "camera": [
+            0.54069179629745,
+            0.045930820370255,
+            0.839965916663737,
+            0.045930820370255,
+            0.995406917962974,
+            -0.0839965916663737,
+            -0.839965916663737,
+            0.0839965916663737,
+            0.536098714260425
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 15,
+          "camera": [
+            0.427241120016281,
+            0.0564320773698508,
+            0.902374892165644,
+            0.045930820370255,
+            0.995406917962974,
+            -0.0839965916663737,
+            -0.902970312417496,
+            0.0773336169797801,
+            0.42268679489366
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 23,
+          "camera": [
+            0.427241120016281,
+            0.0564320773698508,
+            0.902374892165644,
+            -0.0376712324192101,
+            0.998294641202793,
+            -0.0445947036519492,
+            -0.903352590971683,
+            -0.0149408831569788,
+            0.428638386516231
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 31,
+          "camera": [
+            0.508898864751905,
+            0.0533043490117459,
+            0.859174366371958,
+            0.043986512316415,
+            0.995166912844688,
+            -0.0877952294456346,
+            -0.85970176932961,
+            0.0824709764438847,
+            0.504094639780997
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-e49a1ba665a39803",
+      "type": "michelson",
+      "sha256": "e0ece2831a5a6eba298d4d989a774b58369e16e5ffa33e36964fcb76da44e90b",
+      "comparisons": 584,
+      "maxAbsoluteError": 0.049507693692788735,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 4,
+          "camera": [
+            0.874352136282477,
+            -0.437783614051126,
+            -0.209413106195871,
+            0.437783614051126,
+            0.525330292622692,
+            0.729639356751876,
+            -0.209413106195871,
+            -0.729639356751876,
+            0.650978156340215
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 10,
+          "camera": [
+            0.778084501809012,
+            -0.627987396700981,
+            -0.0147084203552352,
+            0.437783614051126,
+            0.525330292622692,
+            0.729639356751876,
+            -0.450477541407956,
+            -0.574160180818629,
+            0.683673951126823
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 15,
+          "camera": [
+            0.778084501809012,
+            -0.627987396700981,
+            -0.0147084203552352,
+            0.335484845413853,
+            0.395646179104566,
+            0.854935096634592,
+            -0.531069135369647,
+            -0.670146200873125,
+            0.518526414865292
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 20,
+          "camera": [
+            0.862959530883787,
+            -0.485819344791648,
+            -0.138853924262323,
+            0.420359874488629,
+            0.537814231013899,
+            0.730789592727505,
+            -0.280354104619029,
+            -0.689010462290046,
+            0.668330875299144
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-f3d6af90718a32d1",
+      "type": "young",
+      "sha256": "fb952663361b584c1ed57a852a3dd7e334c460154434b8780856fed24419be43",
+      "comparisons": 460,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 4,
+          "camera": [
+            0.874352136282477,
+            -0.437783614051126,
+            -0.209413106195871,
+            0.437783614051126,
+            0.525330292622692,
+            0.729639356751876,
+            -0.209413106195871,
+            -0.729639356751876,
+            0.650978156340215
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 10,
+          "camera": [
+            0.778084501809012,
+            -0.627987396700981,
+            -0.0147084203552352,
+            0.437783614051126,
+            0.525330292622692,
+            0.729639356751876,
+            -0.450477541407956,
+            -0.574160180818629,
+            0.683673951126823
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 15,
+          "camera": [
+            0.778084501809012,
+            -0.627987396700981,
+            -0.0147084203552352,
+            0.335484845413853,
+            0.395646179104566,
+            0.854935096634592,
+            -0.531069135369647,
+            -0.670146200873125,
+            0.518526414865292
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 20,
+          "camera": [
+            0.862959530883787,
+            -0.485819344791648,
+            -0.138853924262323,
+            0.420359874488629,
+            0.537814231013899,
+            0.730789592727505,
+            -0.280354104619029,
+            -0.689010462290046,
+            0.668330875299144
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-d819dcc8391d6719",
+      "type": "grating",
+      "sha256": "10105460581e3d77a7d03731c0f57e66cd03775ef3397e7a29e1a08441e107e6",
+      "comparisons": 1948,
+      "maxAbsoluteError": 0.044835533274152795,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.877684969775079,
+            -0.0244630060449842,
+            -0.478613262630865,
+            -0.0244630060449842,
+            0.995107398791003,
+            -0.095722652526173,
+            0.478613262630865,
+            0.095722652526173,
+            0.872792368566082
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.944705387289458,
+            -0.00830964450882754,
+            -0.327815010386058,
+            -0.0244630060449842,
+            0.995107398791003,
+            -0.095722652526173,
+            0.327006563483851,
+            0.0984490461078233,
+            0.939880041685609
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.944705387289458,
+            -0.00830964450882754,
+            -0.327815010386058,
+            0.014532003016353,
+            0.999757657304964,
+            0.0165362495271003,
+            0.327598156457889,
+            -0.0203856927335503,
+            0.944597200618955
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.899129099087335,
+            -0.0128985769549365,
+            -0.437493416964112,
+            -0.0310442851857703,
+            0.995168724858855,
+            -0.0931421570509537,
+            0.43658116717479,
+            0.0973284941594061,
+            0.894384731920755
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-e64805a6c29df8a9",
+      "type": "prizm",
+      "sha256": "deb3bb702d9114fcd7a7472365cfc73ca09b6863870e23d669325cec950b2c08",
+      "comparisons": 1300,
+      "maxAbsoluteError": 0.049319080996809816,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.877684969775079,
+            -0.0244630060449842,
+            -0.478613262630865,
+            -0.0244630060449842,
+            0.995107398791003,
+            -0.095722652526173,
+            0.478613262630865,
+            0.095722652526173,
+            0.872792368566082
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.944705387289458,
+            -0.00830964450882754,
+            -0.327815010386058,
+            -0.0244630060449842,
+            0.995107398791003,
+            -0.095722652526173,
+            0.327006563483851,
+            0.0984490461078233,
+            0.939880041685609
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.944705387289458,
+            -0.00830964450882754,
+            -0.327815010386058,
+            0.014532003016353,
+            0.999757657304964,
+            0.0165362495271003,
+            0.327598156457889,
+            -0.0203856927335503,
+            0.944597200618955
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            0.899129099087335,
+            -0.0128985769549365,
+            -0.437493416964112,
+            -0.0310442851857703,
+            0.995168724858855,
+            -0.0931421570509537,
+            0.43658116717479,
+            0.0973284941594061,
+            0.894384731920755
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-b053ae67e4e3776c",
+      "type": "gravitylens",
+      "sha256": "d1e35aa9af3bd9ed244ce2c4beffa017535191f1212f20fb2112b11c211b65c7",
+      "comparisons": 2288,
+      "maxAbsoluteError": 0.04896943640022755,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.415690729950352,
+            0.0424707218985106,
+            0.908513871558802,
+            0.0424707218985106,
+            0.998725878343045,
+            -0.0272554161467641,
+            -0.908513871558802,
+            0.0272554161467641,
+            -0.416964851607307
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.489579806794892,
+            0.0445841185131272,
+            0.87081793111711,
+            0.0424707218985106,
+            0.998725878343045,
+            -0.0272554161467641,
+            -0.87092356183542,
+            0.023640564805464,
+            -0.490849542258708
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.489579806794892,
+            0.0445841185131272,
+            0.87081793111711,
+            -0.00939381582175783,
+            0.998364313986664,
+            -0.0563955032094268,
+            -0.871907890205716,
+            -0.0357904028245702,
+            -0.488360192954619
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {},
+          "step": 0,
+          "camera": [
+            -0.436879761978767,
+            0.0448660753028168,
+            0.898400305465386,
+            0.0433062289943675,
+            0.998646270776353,
+            -0.028813128861151,
+            -0.898476846726538,
+            0.0263184564783705,
+            -0.438231325608899
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-792e2adace7b1d1c",
+      "type": "spin2",
+      "sha256": "cfce3fd6f59e662d8fa6651685ff34659f953378ab5b4133c813d74a90008dac",
+      "comparisons": 3170,
+      "maxAbsoluteError": 0.04973651628483822,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "l": 0.5,
+            "m": 0.5
+          },
+          "step": 4,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 0,0",
+          "parameters": {
+            "l": 0,
+            "m": 0
+          },
+          "step": 12,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 0.5,-0.5",
+          "parameters": {
+            "l": 0.5,
+            "m": -0.5
+          },
+          "step": 24,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 0.5,0.5",
+          "parameters": {
+            "l": 0.5,
+            "m": 0.5
+          },
+          "step": 32,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1,-1",
+          "parameters": {
+            "l": 1,
+            "m": -1
+          },
+          "step": 48,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1,0",
+          "parameters": {
+            "l": 1,
+            "m": 0
+          },
+          "step": 56,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1,1",
+          "parameters": {
+            "l": 1,
+            "m": 1
+          },
+          "step": 64,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1.5,-1.5",
+          "parameters": {
+            "l": 1.5,
+            "m": -1.5
+          },
+          "step": 84,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1.5,-0.5",
+          "parameters": {
+            "l": 1.5,
+            "m": -0.5
+          },
+          "step": 92,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1.5,0.5",
+          "parameters": {
+            "l": 1.5,
+            "m": 0.5
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1.5,1.5",
+          "parameters": {
+            "l": 1.5,
+            "m": 1.5
+          },
+          "step": 8,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {
+            "l": 1.5,
+            "m": 1.5
+          },
+          "step": 17,
+          "camera": [
+            -0.283317382873539,
+            0.956644158182877,
+            0.0174099943471906,
+            -0.32,
+            0,
+            0.98,
+            0.936713008643357,
+            0.281659288173807,
+            0.209277070164963
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {
+            "l": 1.5,
+            "m": 1.5
+          },
+          "step": 26,
+          "camera": [
+            -0.283317382873539,
+            0.956644158182877,
+            0.0174099943471906,
+            -0.263732182889361,
+            0.0167488410489634,
+            0.990710429003757,
+            0.954084166240118,
+            0.281160863098142,
+            0.150631132107621
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {
+            "l": 1.5,
+            "m": 1.5
+          },
+          "step": 35,
+          "camera": [
+            -0.339050648614455,
+            0.938212810674155,
+            0.00667456831771654,
+            -0.319465448630276,
+            -0.00168250645975862,
+            0.979975002974282,
+            0.918197410585313,
+            0.338014631427275,
+            0.210010579931887
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_component_arrow",
+          "l": 0,
+          "m": 0,
+          "observed": {
+            "l": 0,
+            "m": 0
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 0.5,
+          "m": -0.5,
+          "observed": {
+            "l": 0.5,
+            "m": -0.5
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 0.5,
+          "m": 0.5,
+          "observed": {
+            "l": 0.5,
+            "m": 0.5
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 1,
+          "m": -1,
+          "observed": {
+            "l": 1,
+            "m": -1
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 1,
+          "m": 0,
+          "observed": {
+            "l": 1,
+            "m": 0
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 1,
+          "m": 1,
+          "observed": {
+            "l": 1,
+            "m": 1
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 1.5,
+          "m": -1.5,
+          "observed": {
+            "l": 1.5,
+            "m": -1.5
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 1.5,
+          "m": -0.5,
+          "observed": {
+            "l": 1.5,
+            "m": -0.5
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 1.5,
+          "m": 0.5,
+          "observed": {
+            "l": 1.5,
+            "m": 0.5
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 1.5,
+          "m": 1.5,
+          "observed": {
+            "l": 1.5,
+            "m": 1.5
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "finiteInputCombinations": {
+        "expected": 10,
+        "observed": 10,
+        "complete": true,
+        "scope": "Every physically allowed l,m tuple selected with original component arrow clicks; sampled original phase geometry. All 100 phase steps additionally covered in private source-function comparison. This excludes transient invalid m after l changes and arbitrary camera histories."
+      },
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-dded3f6c30cbcb0d",
+      "type": "angularmomentum2",
+      "sha256": "5a0474a8ae146cda4f21647314258442daf99623a19dc38f6aaf42882f1ee01d",
+      "comparisons": 4305,
+      "maxAbsoluteError": 0.04973651628483822,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "l": 2,
+            "m": 2
+          },
+          "step": 4,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1,-1",
+          "parameters": {
+            "l": 1,
+            "m": -1
+          },
+          "step": 20,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1,0",
+          "parameters": {
+            "l": 1,
+            "m": 0
+          },
+          "step": 28,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 1,1",
+          "parameters": {
+            "l": 1,
+            "m": 1
+          },
+          "step": 36,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 2,-2",
+          "parameters": {
+            "l": 2,
+            "m": -2
+          },
+          "step": 56,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 2,-1",
+          "parameters": {
+            "l": 2,
+            "m": -1
+          },
+          "step": 64,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 2,0",
+          "parameters": {
+            "l": 2,
+            "m": 0
+          },
+          "step": 72,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 2,1",
+          "parameters": {
+            "l": 2,
+            "m": 1
+          },
+          "step": 80,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 2,2",
+          "parameters": {
+            "l": 2,
+            "m": 2
+          },
+          "step": 88,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 3,-3",
+          "parameters": {
+            "l": 3,
+            "m": -3
+          },
+          "step": 16,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 3,-2",
+          "parameters": {
+            "l": 3,
+            "m": -2
+          },
+          "step": 24,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 3,-1",
+          "parameters": {
+            "l": 3,
+            "m": -1
+          },
+          "step": 32,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 3,0",
+          "parameters": {
+            "l": 3,
+            "m": 0
+          },
+          "step": 40,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 3,1",
+          "parameters": {
+            "l": 3,
+            "m": 1
+          },
+          "step": 48,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 3,2",
+          "parameters": {
+            "l": 3,
+            "m": 2
+          },
+          "step": 56,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "slider tuple 3,3",
+          "parameters": {
+            "l": 3,
+            "m": 3
+          },
+          "step": 64,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {
+            "l": 3,
+            "m": 3
+          },
+          "step": 74,
+          "camera": [
+            -0.284722133127607,
+            0.956220593184573,
+            0.0170960592734215,
+            -0.32,
+            0,
+            0.98,
+            0.936286978926475,
+            0.283093937006329,
+            0.209302949710031
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {
+            "l": 3,
+            "m": 3
+          },
+          "step": 83,
+          "camera": [
+            -0.284722133127607,
+            0.956220593184573,
+            0.0170960592734215,
+            -0.263757516703333,
+            0.0168341522965093,
+            0.990711967928283,
+            0.953658890426633,
+            0.282592973172019,
+            0.150656965856173
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {
+            "l": 3,
+            "m": 3
+          },
+          "step": 92,
+          "camera": [
+            -0.339509576584331,
+            0.938043687492159,
+            0.00656917512231549,
+            -0.318544960160057,
+            -0.00134275339590472,
+            0.980185083777177,
+            0.918347622506944,
+            0.338485209971471,
+            0.209031211733895
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_component_arrow",
+          "l": 1,
+          "m": -1,
+          "observed": {
+            "l": 1,
+            "m": -1
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 1,
+          "m": 0,
+          "observed": {
+            "l": 1,
+            "m": 0
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 1,
+          "m": 1,
+          "observed": {
+            "l": 1,
+            "m": 1
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 2,
+          "m": -2,
+          "observed": {
+            "l": 2,
+            "m": -2
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 2,
+          "m": -1,
+          "observed": {
+            "l": 2,
+            "m": -1
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 2,
+          "m": 0,
+          "observed": {
+            "l": 2,
+            "m": 0
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 2,
+          "m": 1,
+          "observed": {
+            "l": 2,
+            "m": 1
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 2,
+          "m": 2,
+          "observed": {
+            "l": 2,
+            "m": 2
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 3,
+          "m": -3,
+          "observed": {
+            "l": 3,
+            "m": -3
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 3,
+          "m": -2,
+          "observed": {
+            "l": 3,
+            "m": -2
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 3,
+          "m": -1,
+          "observed": {
+            "l": 3,
+            "m": -1
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 3,
+          "m": 0,
+          "observed": {
+            "l": 3,
+            "m": 0
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 3,
+          "m": 1,
+          "observed": {
+            "l": 3,
+            "m": 1
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 3,
+          "m": 2,
+          "observed": {
+            "l": 3,
+            "m": 2
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_component_arrow",
+          "l": 3,
+          "m": 3,
+          "observed": {
+            "l": 3,
+            "m": 3
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "finiteInputCombinations": {
+        "expected": 15,
+        "observed": 15,
+        "complete": true,
+        "scope": "Every physically allowed l,m tuple selected with original component arrow clicks; sampled original phase geometry. All 100 phase steps additionally covered in private source-function comparison. This excludes transient invalid m after l changes and arbitrary camera histories."
+      },
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-83c94f7fc62445f9",
+      "type": "sphericalcoord",
+      "sha256": "f02713ff570c8615c0c24f45f2f4464e5325b4d2b4500cf874dec49a52b27faa",
+      "comparisons": 5088,
+      "maxAbsoluteError": 0.045242745557715125,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "r": 125,
+            "theta": 50.000000000000014,
+            "phi": 44.999999999999986
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "spherical pointer tuple 25,0,0",
+          "parameters": {
+            "r": 25,
+            "theta": 0,
+            "phi": 0
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "spherical pointer tuple 180,180,450",
+          "parameters": {
+            "r": 180,
+            "theta": 179.99999999999983,
+            "phi": 449.99999999999983
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "spherical pointer tuple 125,50,45",
+          "parameters": {
+            "r": 125,
+            "theta": 50.000000000000014,
+            "phi": 44.999999999999986
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "spherical pointer tuple 25,90,450",
+          "parameters": {
+            "r": 25,
+            "theta": 90.0000000000002,
+            "phi": 449.99999999999983
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "spherical pointer tuple 180,0,45",
+          "parameters": {
+            "r": 180,
+            "theta": 0,
+            "phi": 44.999999999999986
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "spherical pointer tuple 125,180,0",
+          "parameters": {
+            "r": 125,
+            "theta": 179.99999999999983,
+            "phi": 0
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "spherical pointer tuple 180,90,360",
+          "parameters": {
+            "r": 180,
+            "theta": 90.0000000000002,
+            "phi": 360.0000000000002
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "spherical pointer tuple 25,175,180",
+          "parameters": {
+            "r": 25,
+            "theta": 175.00000000000017,
+            "phi": 179.99999999999983
+          },
+          "step": 0,
+          "camera": [
+            -0.36,
+            0.93,
+            0,
+            -0.32,
+            0,
+            0.98,
+            0.91,
+            0.36,
+            0.21
+          ]
+        },
+        {
+          "name": "right drag",
+          "parameters": {
+            "r": 25,
+            "theta": 175.00000000000017,
+            "phi": 179.99999999999983
+          },
+          "step": 0,
+          "camera": [
+            -0.269705736972948,
+            0.960627509295523,
+            0.0204425753375601,
+            -0.32,
+            0,
+            0.98,
+            0.940722496512058,
+            0.267758825036037,
+            0.209002634226385
+          ]
+        },
+        {
+          "name": "up drag",
+          "parameters": {
+            "r": 25,
+            "theta": 175.00000000000017,
+            "phi": 179.99999999999983
+          },
+          "step": 0,
+          "camera": [
+            -0.269705736972948,
+            0.960627509295523,
+            0.0204425753375601,
+            -0.253419510120524,
+            0.0187278146227727,
+            0.992218219587052,
+            0.960800378504377,
+            0.267103083741342,
+            0.139946796437319
+          ]
+        },
+        {
+          "name": "diagonal drag",
+          "parameters": {
+            "r": 25,
+            "theta": 175.00000000000017,
+            "phi": 179.99999999999983
+          },
+          "step": 0,
+          "camera": [
+            -0.335571355262189,
+            0.9395633556022,
+            0.0081832988883607,
+            -0.319285128409765,
+            -0.00233633907054996,
+            0.979958943137852,
+            0.91953731425313,
+            0.334238301708946,
+            0.210032148452199
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_three_slider_drag",
+          "requested": [
+            25,
+            0,
+            0
+          ],
+          "observed": {
+            "r": 25,
+            "theta": 0,
+            "phi": 0
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_three_slider_drag",
+          "requested": [
+            180,
+            180,
+            450
+          ],
+          "observed": {
+            "r": 180,
+            "theta": 179.99999999999983,
+            "phi": 449.99999999999983
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_three_slider_drag",
+          "requested": [
+            125,
+            50,
+            45
+          ],
+          "observed": {
+            "r": 125,
+            "theta": 50.000000000000014,
+            "phi": 44.999999999999986
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_three_slider_drag",
+          "requested": [
+            25,
+            90,
+            450
+          ],
+          "observed": {
+            "r": 25,
+            "theta": 90.0000000000002,
+            "phi": 449.99999999999983
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_three_slider_drag",
+          "requested": [
+            180,
+            0,
+            45
+          ],
+          "observed": {
+            "r": 180,
+            "theta": 0,
+            "phi": 44.999999999999986
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_three_slider_drag",
+          "requested": [
+            125,
+            180,
+            0
+          ],
+          "observed": {
+            "r": 125,
+            "theta": 179.99999999999983,
+            "phi": 0
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_three_slider_drag",
+          "requested": [
+            180,
+            90,
+            360
+          ],
+          "observed": {
+            "r": 180,
+            "theta": 90.0000000000002,
+            "phi": 360.0000000000002
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_three_slider_drag",
+          "requested": [
+            25,
+            175,
+            180
+          ],
+          "observed": {
+            "r": 25,
+            "theta": 175.00000000000017,
+            "phi": 179.99999999999983
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "right",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "up",
+          "changed": true,
+          "passed": true
+        },
+        {
+          "kind": "original_camera_drag",
+          "name": "diagonal",
+          "changed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "sphericalPointerTuples": 8,
+      "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-40d552b8badcaf26",
+      "type": "oscl10",
+      "sha256": "a37982238583f24fb3ef9299929cae274b42606b285939103b4aa81112d845da",
+      "comparisons": 1280,
+      "maxAbsoluteError": 0.049796767022655786,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default equilibrium",
+          "step": 0
+        },
+        {
+          "name": "original bob drag -45",
+          "steps": 16
+        },
+        {
+          "name": "original bob drag 45",
+          "steps": 16
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_bob_drag",
+          "delta": -45,
+          "passed": true
+        },
+        {
+          "kind": "original_bob_drag",
+          "delta": 45,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "Actual original first-bob drag in both directions, followed by all ten particles compared for consecutive recurrence steps; source display coordinates retain 0.05 px quantization. Continuous multi-bob drag combinations are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-1350b84c91be2ad1",
+      "type": "oscv10",
+      "sha256": "f2ed1a1a5601af333624d2c7463f66f0e8050aa85d8913cd0dfaaa0683b433b9",
+      "comparisons": 1280,
+      "maxAbsoluteError": 0.049796767022655786,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default equilibrium",
+          "step": 0
+        },
+        {
+          "name": "original bob drag -45",
+          "steps": 16
+        },
+        {
+          "name": "original bob drag 45",
+          "steps": 16
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_bob_drag",
+          "delta": -45,
+          "passed": true
+        },
+        {
+          "kind": "original_bob_drag",
+          "delta": 45,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "Actual original first-bob drag in both directions, followed by all ten particles compared for consecutive recurrence steps; source display coordinates retain 0.05 px quantization. Continuous multi-bob drag combinations are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-b9eb242a7011b37a",
+      "type": "osca10",
+      "sha256": "62a6517d288cdd93f6334588fcab3ddcb008f057bb7c57308029f47499b27cd9",
+      "comparisons": 1280,
+      "maxAbsoluteError": 0.049987499999986085,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default equilibrium",
+          "step": 0
+        },
+        {
+          "name": "original bob drag -45",
+          "steps": 16
+        },
+        {
+          "name": "original bob drag 45",
+          "steps": 16
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original_bob_drag",
+          "delta": -45,
+          "passed": true
+        },
+        {
+          "kind": "original_bob_drag",
+          "delta": 45,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "sha256Verified": true,
+      "scope": "Actual original first-bob drag in both directions, followed by all ten particles compared for consecutive recurrence steps; source display coordinates retain 0.05 px quantization. Continuous multi-bob drag combinations are not exhausted.",
+      "passed": true
+    }
+  ]
+}

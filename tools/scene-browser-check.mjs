@@ -1,0 +1,37 @@
+import fs from 'node:fs';import crypto from 'node:crypto';import assert from 'node:assert/strict';import {createRequire} from 'node:module';
+import {sceneSpecs} from '../assets/scene-physics.mjs';
+const root=new URL('../',import.meta.url),catalog=JSON.parse(fs.readFileSync(new URL('assets/flash-catalog.json',root))).files,require=createRequire(import.meta.url),{chromium}=require(process.env.PHYSICA_PLAYWRIGHT||'playwright'),browser=await chromium.launch({headless:true}),base=process.env.PHYSICA_BASE_URL||'http://127.0.0.1:8775/',results=[],errors=[];
+const dependencies=['assets/native-scenes.mjs','assets/scene-specs.mjs','assets/scene-physics.mjs','assets/native-chain.mjs','assets/native-refraction.mjs','assets/render-utils.mjs','assets/style.css'];
+const nativeModelHashes=Object.fromEntries(dependencies.map(f=>[f,crypto.createHash('sha256').update(fs.readFileSync(new URL(f,root))).digest('hex')]));
+const set=async(e,value)=>{await e.evaluate((e,v)=>{e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}));},value);await e.page().waitForTimeout(35);};
+const shapes=h=>h.locator('[data-scene-drawing] > *').evaluateAll(es=>JSON.stringify(es.map(e=>[e.tagName,[...e.attributes].map(a=>[a.name,a.value]).sort(([a],[b])=>a.localeCompare(b)),e.textContent])));
+try{const page=await browser.newPage({acceptDownloads:true});page.on('pageerror',e=>errors.push(e.message));
+for(const width of [320,1360]){
+ await page.setViewportSize({width,height:1000});
+ for(const s of Object.values(sceneSpecs)){
+  const r=catalog.find(r=>r.id===s.id);await page.goto(base+r.nativeHref);const h=page.locator(`[data-flash-native="scene-${s.id}"]`);await h.scrollIntoViewIfNeeded();await page.waitForFunction(id=>document.querySelector(`[data-flash-native="scene-${id}"]`)?.dataset.nativeReady==='true',s.id);
+  const v={id:s.id,width,type:s.type};const svg=h.locator('[data-scene-view]');await svg.focus();const before=await shapes(h);await svg.press('ArrowRight');assert.notEqual(await shapes(h),before);await svg.press('Home');assert.equal(await shapes(h),before);v.keyboardCamera=true;
+  const box=await svg.boundingBox();await page.mouse.move(box.x+box.width*.5,box.y+box.height*.5);await page.mouse.down();await page.mouse.move(box.x+box.width*.65,box.y+box.height*.58,{steps:4});await page.mouse.up();assert.notEqual(await shapes(h),before);v.pointerCamera=true;
+  const faceCount=()=>h.locator('[data-scene-drawing] path[fill-opacity]').count(),faces=await faceCount();await h.locator('[data-scene-surfaces]').uncheck();assert.equal(await faceCount(),0);await h.locator('[data-scene-surfaces]').check();assert.equal(await faceCount(),faces);v.surfaceVisibility=true;
+  await h.locator('[data-scene-reset]').click();let tuples=0;
+  if(s.animated){for(const l of s.type==='spin2'?[0,.5,1,1.5]:[1,2,3]){await set(h.locator('[data-scene-control="l"]'),l);for(let m=-l;m<=l;m++){await h.locator('[data-scene-m]').selectOption(String(m));for(const n of [0,25,50,99]){await set(h.locator('[data-scene-seek]'),n);const p=JSON.parse(await h.getAttribute('data-scene-parameters'));assert.deepEqual(p,{l,m:m||0});assert.equal(+await h.getAttribute('data-scene-step'),n);assert.ok(!/NaN|Infinity/.test(await shapes(h)));}tuples++;}}v.validSliderTuples=tuples;}
+  if(s.type==='sphericalcoord'){await set(h.locator('[data-scene-control="r"]'),126);assert.equal(JSON.parse(await h.getAttribute('data-scene-parameters')).r,127);v.sourceRadiusRounding=true;for(const r of [25,125,180])for(const theta of [0,5,50,90,175,180])for(const phi of [0,45,180,360,450]){for(const [k,val]of Object.entries({r,theta,phi}))await set(h.locator(`[data-scene-control="${k}"]`),val);assert.deepEqual(JSON.parse(await h.getAttribute('data-scene-parameters')),{r,theta,phi});assert.ok(!/NaN|Infinity/.test(await shapes(h)));tuples++;}v.radiusAngleTuples=tuples;}
+  const downloadEvent=page.waitForEvent('download');await h.locator('[data-scene-csv]').click();const download=await downloadEvent;const text=fs.readFileSync(await download.path(),'utf8');assert.match(text,/object,vertex,x,y,z/);assert.ok(!/NaN|Infinity/.test(text));v.csvFiniteCoordinates=true;
+  await h.locator('[data-scene-reset]').click();const bounds=await svg.evaluate(e=>{const b=e.querySelector('g').getBBox();return {x:b.x,y:b.y,right:b.x+b.width,bottom:b.y+b.height};});assert.ok(bounds.x>=0&&bounds.y>=0&&bounds.right<=720&&bounds.bottom<=470,s.type+' default drawing clipped '+JSON.stringify(bounds));v.defaultDrawingFits=true;
+  if(width===1360&&['h2o','michelson','spin2'].includes(s.type))await h.screenshot({path:'/private/tmp/physica-scene-'+s.type+'.png'});v.passed=true;results.push(v);
+ }
+ await page.goto(base+'lesson-2-1-2-4.html');
+ for(const [kind,id,mode]of [['chain10longitudinal','flash-40d552b8badcaf26',2],['chain10transverse','flash-1350b84c91be2ad1',1],['chain10planar','flash-b9eb242a7011b37a',3]]){
+  const h=page.locator(`[data-flash-native="${kind}"]`);await h.scrollIntoViewIfNeeded();await page.waitForFunction(kind=>document.querySelector(`[data-flash-native="${kind}"]`)?.dataset.nativeReady==='true',kind);const y0=mode===2?25:150;
+  if(mode===3)assert.equal(await h.locator('[data-chain-x]').count(),10);
+  for(let i=0;i<10;i++){await h.locator('[data-chain-reset]').click();const bob=h.locator(`[data-chain-bob="${i}"]`);await bob.focus();if(mode!==1)await bob.press('ArrowRight');if(mode!==2)await bob.press('ArrowDown');const state=JSON.parse(await h.getAttribute('data-native-state'));state.forEach((q,j)=>{assert.equal(q.x,130+100*j+(j===i&&mode!==1?1:0));assert.equal(q.y,y0+(j===i&&mode!==2?1:0));});}
+  await h.locator('[data-chain-reset]').click();const bob=h.locator('[data-chain-bob="8"]');await bob.scrollIntoViewIfNeeded();const b=await bob.boundingBox();await page.mouse.move(b.x+b.width/2,b.y+b.height/2);await page.mouse.down();await page.mouse.move(b.x+b.width/2+(mode===1?0:-20),b.y+b.height/2+(mode===2?0:20),{steps:3});await page.mouse.up();await page.waitForTimeout(100);assert.equal(await h.locator('[data-chain-play]').textContent(),'일시정지');await h.locator('[data-chain-play]').click();const state=JSON.parse(await h.getAttribute('data-native-state'));assert.ok(Math.abs(state[8][mode===2?'x':'y']-(mode===2?930:y0))>1);assert.equal(state[0].x,130);assert.equal(state[0].y,y0);
+  const downloadEvent=page.waitForEvent('download');await h.locator('[data-chain-csv]').click();const download=await downloadEvent,text=fs.readFileSync(await download.path(),'utf8');assert.ok(!/NaN|Infinity/.test(text));assert.match(text,/step,x1,y1,vx1,vy1/);
+  results.push({id,width,type:kind,everyBobIndependentXY:mode===3,everyBobIndependent:true,pointerMovesSelectedBob:true,csvFiniteCoordinates:true,passed:true});
+  if(width===1360&&mode===3){await page.emulateMedia({colorScheme:'dark'});await h.screenshot({path:'/private/tmp/physica-chain10-dark.png'});}
+ }
+
+}
+assert.deepEqual(errors,[]);
+}finally{await browser.close();fs.writeFileSync(new URL('docs/scene-ui-report.json',root),JSON.stringify({date:new Date().toISOString(),nativeModelHashes,scope:'Actual HTML camera pointer/keyboard, reset, face visibility, CSV and default bounds at 320/1360 widths. Every allowed quantum tuple at four phase steps; 90 spherical tuples; independent X/Y controls for every planar bob. Original runtime has a separate finite report.',results,errors,passed:results.length===32&&results.every(v=>v.passed)&&errors.length===0},null,2)+'\n');}
+console.log('Scene controls: '+results.length+' passed');

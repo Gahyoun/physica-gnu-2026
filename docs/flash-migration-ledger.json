@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-06T15:07:50.878Z",
   "total": 518,
-  "htmlImplemented": 181,
-  "htmlPending": 337,
+  "htmlImplemented": 197,
+  "htmlPending": 321,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 543,
-    "observed": 543,
+    "expected": 591,
+    "observed": 591,
     "viewports": [
       320,
       768,
@@ -22,11 +22,11 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 113,
-    "numericalComparisons": 658245,
-    "numericalSampleComparisons": 459645,
+    "numericalFilesPassed": 129,
+    "numericalComparisons": 732600,
+    "numericalSampleComparisons": 534000,
     "additionalCombinationComparisons": 198600,
-    "finiteCombinationScopesPassed": 2,
+    "finiteCombinationScopesPassed": 4,
     "rootTimelineFilesPassed": 29,
     "rootTimelineFrames": 805,
     "sliderEndpointChecks": 250,
@@ -3095,18 +3095,38 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-1-1.html#native-scene-flash-792e2adace7b1d1c",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-792e2adace7b1d1c",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
-        "finiteCombinationEvidence": [],
+        "numericalPassed": true,
+        "numericalComparisons": 3170,
+        "finiteCombinationEvidence": [
+          {
+            "report": "docs/scene-runtime-report.json",
+            "sha256": "cfce3fd6f59e662d8fa6651685ff34659f953378ab5b4133c813d74a90008dac",
+            "passed": true,
+            "expected": 10,
+            "observed": 10,
+            "complete": true,
+            "scope": "Every physically allowed l,m tuple selected with original component arrow clicks; sampled original phase geometry. All 100 phase steps additionally covered in private source-function comparison. This excludes transient invalid m after l changes and arbitrary camera histories.",
+            "comparisonsIncludedInPrimaryNumerical": true
+          }
+        ],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
         "sliderEndpointChecks": 0,
@@ -3115,12 +3135,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 189000,
+        "maxAbsoluteError": 2.842170943040401e-14,
+        "scope": "Every allowed l,m tuple and all 100 phase frames, versus private original remake function. Source-zero vector handling retained; HTML enforces physically allowed m after l changes.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-476dcd0dbb91746c",
@@ -3779,17 +3810,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-1-3.html#native-scene-flash-7165070536a3fbdf",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-7165070536a3fbdf",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 16880,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3799,12 +3839,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 3870,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-73be9774daba6348",
@@ -3855,17 +3906,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-1-3.html#native-scene-flash-1ce26839ccbde4c7",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1ce26839ccbde4c7",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 15144,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3875,12 +3935,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 3477,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-b3945a9acd6dfd3e",
@@ -4667,18 +4738,38 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-6.html#native-scene-flash-dded3f6c30cbcb0d",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-dded3f6c30cbcb0d",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
-        "finiteCombinationEvidence": [],
+        "numericalPassed": true,
+        "numericalComparisons": 4305,
+        "finiteCombinationEvidence": [
+          {
+            "report": "docs/scene-runtime-report.json",
+            "sha256": "5a0474a8ae146cda4f21647314258442daf99623a19dc38f6aaf42882f1ee01d",
+            "passed": true,
+            "expected": 15,
+            "observed": 15,
+            "complete": true,
+            "scope": "Every physically allowed l,m tuple selected with original component arrow clicks; sampled original phase geometry. All 100 phase steps additionally covered in private source-function comparison. This excludes transient invalid m after l changes and arbitrary camera histories.",
+            "comparisonsIncludedInPrimaryNumerical": true
+          }
+        ],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
         "sliderEndpointChecks": 0,
@@ -4687,12 +4778,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 283500,
+        "maxAbsoluteError": 2.842170943040401e-14,
+        "scope": "Every allowed l,m tuple and all 100 phase frames, versus private original remake function. Source-zero vector handling retained; HTML enforces physically allowed m after l changes.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-bfbe6ef3e38e7376",
@@ -4997,17 +5099,26 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-1.html#native-scene-flash-83c94f7fc62445f9",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-83c94f7fc62445f9",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 5088,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -5017,12 +5128,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 32670,
+        "maxAbsoluteError": 7.105427357601002e-15,
+        "scope": "All 90 declared radius/angle tuples; source quadratic-curve control coordinates, including separate theta z denominator.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d33d3a108845b4a6",
@@ -6867,17 +6989,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-1-9-2.html#native-scene-flash-b053ae67e4e3776c",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-b053ae67e4e3776c",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 2288,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6887,12 +7018,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 486,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5efb27434a79dfc0",
@@ -7567,17 +7709,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-8-1-3.html#native-scene-flash-749a9164586121bc",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-749a9164586121bc",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 16664,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -7587,12 +7738,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 3843,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-af4f16212ccf8747",
@@ -10369,17 +10531,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-5-4-1.html#native-scene-flash-f407d9c2c7b73356",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-f407d9c2c7b73356",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1860,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -10389,12 +10560,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 378,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-404e561fe682b574",
@@ -10559,17 +10741,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-5-5-2.html#native-scene-flash-7fdad8223dbf5e26",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-7fdad8223dbf5e26",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 824,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -10579,12 +10770,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 156,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c56ad78bfeebee1f",
@@ -12957,17 +13159,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-1-2.html#native-scene-flash-e49a1ba665a39803",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e49a1ba665a39803",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 584,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -12977,12 +13188,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 123,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d5e8fdefecec59bb",
@@ -13033,17 +13255,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-1-2.html#native-scene-flash-f3d6af90718a32d1",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-f3d6af90718a32d1",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 460,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13053,12 +13284,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 105,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c6e5e2c87923451c",
@@ -15344,17 +15586,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-6-1.html#native-scene-flash-d819dcc8391d6719",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-d819dcc8391d6719",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1948,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -15364,12 +15615,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 447,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-e64805a6c29df8a9",
@@ -15382,17 +15644,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-6-1.html#native-scene-flash-e64805a6c29df8a9",
+      "migration": "independent-svg-3d-scene",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e64805a6c29df8a9",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1300,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -15402,12 +15673,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source geometry versus independently drawn HTML geometry; original scripts not shipped",
+        "comparisons": 297,
+        "maxAbsoluteError": 0,
+        "scope": "Every numerical point, segment, curve control point and face from original InitScene; no exported artwork.",
+        "report": "docs/scene-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c7fdcdfe618cca96",
@@ -21188,17 +21470,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-2-4.html#native-chain10planar",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-b9eb242a7011b37a",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1280,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -21208,12 +21499,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "independent source-coordinate recurrence",
+        "test": "tools/native-mechanics.test.mjs",
+        "steps": 2000,
+        "masses": [
+          20
+        ],
+        "scope": "boundary and basis perturbations of each oscillator; not all simultaneous drag combinations"
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-bfc916726b6abfc5",
@@ -21281,17 +21584,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-2-4.html#native-chain10longitudinal",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-40d552b8badcaf26",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1280,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -21301,12 +21613,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "independent source-coordinate recurrence",
+        "test": "tools/native-mechanics.test.mjs",
+        "steps": 2000,
+        "masses": [
+          20
+        ],
+        "scope": "boundary and basis perturbations of each oscillator; not all simultaneous drag combinations"
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-609175641dfc40eb",
@@ -21412,17 +21736,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-2-4.html#native-chain10transverse",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1350b84c91be2ad1",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1280,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -21432,12 +21765,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "independent source-coordinate recurrence",
+        "test": "tools/native-mechanics.test.mjs",
+        "steps": 2000,
+        "masses": [
+          20
+        ],
+        "scope": "boundary and basis perturbations of each oscillator; not all simultaneous drag combinations"
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/scene-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c637632d6f67819b",

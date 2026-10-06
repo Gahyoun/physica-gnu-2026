@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06T14:18:21.432Z",
+  "date": "2026-10-06T15:01:12.910Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -16,18 +16,21 @@
     "assets/refraction-specs.mjs": "83711da60628a5d9df4e3850f46db0f2c9b72180ab5ad6b96c51dc8c8a79d272",
     "assets/expansion-physics.mjs": "c4dcacfe60f669039e37d10f9ab12c3b7c55e3b12171a98c4aa406562a24a876",
     "assets/expansion-specs.mjs": "851e6eb0aea808abc2733250e1279915113a50f586ec26f0a5f260607f2d9072",
-    "assets/moire-controls.mjs": "c44440da93f658048e3e010f12af5799751ac7483b58666a1ae0abc49e01a970"
+    "assets/moire-controls.mjs": "c44440da93f658048e3e010f12af5799751ac7483b58666a1ae0abc49e01a970",
+    "assets/scene-physics.mjs": "ca7c46f2a70cd69cba9336c5317221ee0bfce5756a23887debd4811211377a3a",
+    "assets/scene-specs.mjs": "7712e3123e9d74aaf0448a3e6ecc5a7e5909086f50be77251419c5342a60a4a2",
+    "assets/native-chain.mjs": "a6925476cd97e102ea9f512490e7e43f99b74638f8192df5996db773a2cb53fc"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 113,
-  "numericalFilesPassed": 113,
-  "numericalSampleComparisons": 459645,
+  "numericalFiles": 129,
+  "numericalFilesPassed": 129,
+  "numericalSampleComparisons": 534000,
   "combinationComparisons": 198600,
-  "numericalComparisons": 658245,
-  "finiteCombinationScopes": 2,
-  "finiteCombinationScopesPassed": 2,
+  "numericalComparisons": 732600,
+  "finiteCombinationScopes": 4,
+  "finiteCombinationScopesPassed": 4,
   "rootTimelineFiles": 29,
   "rootTimelineFilesPassed": 29,
   "rootTimelineFrames": 805,
@@ -1637,7 +1640,18 @@
       "id": "flash-792e2adace7b1d1c",
       "sha256": "cfce3fd6f59e662d8fa6651685ff34659f953378ab5b4133c813d74a90008dac",
       "fullEquivalence": false,
-      "finiteCombinationEvidence": [],
+      "finiteCombinationEvidence": [
+        {
+          "report": "docs/scene-runtime-report.json",
+          "sha256": "cfce3fd6f59e662d8fa6651685ff34659f953378ab5b4133c813d74a90008dac",
+          "passed": true,
+          "expected": 10,
+          "observed": 10,
+          "complete": true,
+          "scope": "Every physically allowed l,m tuple selected with original component arrow clicks; sampled original phase geometry. All 100 phase steps additionally covered in private source-function comparison. This excludes transient invalid m after l changes and arbitrary camera histories.",
+          "comparisonsIncludedInPrimaryNumerical": true
+        }
+      ],
       "originalPlayback": {
         "report": "docs/flash-runtime-report.json",
         "sha256": "cfce3fd6f59e662d8fa6651685ff34659f953378ab5b4133c813d74a90008dac",
@@ -1648,7 +1662,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "cfce3fd6f59e662d8fa6651685ff34659f953378ab5b4133c813d74a90008dac",
+        "passed": true,
+        "comparisons": 3170,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.04973651628483822
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1990,7 +2011,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "fe95eb6c13a2dae93f220ebe75168c2bb46aac6b7f98179a89fc7e3d1777bb05",
+        "passed": true,
+        "comparisons": 16880,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.04988605908926047
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2028,7 +2056,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "9647d2b4d94bc78f7a53645b3eab6fdd889b5109b2fd79220271d4e05d7195d6",
+        "passed": true,
+        "comparisons": 15144,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.04951148757163537
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2401,7 +2436,18 @@
       "id": "flash-dded3f6c30cbcb0d",
       "sha256": "5a0474a8ae146cda4f21647314258442daf99623a19dc38f6aaf42882f1ee01d",
       "fullEquivalence": false,
-      "finiteCombinationEvidence": [],
+      "finiteCombinationEvidence": [
+        {
+          "report": "docs/scene-runtime-report.json",
+          "sha256": "5a0474a8ae146cda4f21647314258442daf99623a19dc38f6aaf42882f1ee01d",
+          "passed": true,
+          "expected": 15,
+          "observed": 15,
+          "complete": true,
+          "scope": "Every physically allowed l,m tuple selected with original component arrow clicks; sampled original phase geometry. All 100 phase steps additionally covered in private source-function comparison. This excludes transient invalid m after l changes and arbitrary camera histories.",
+          "comparisonsIncludedInPrimaryNumerical": true
+        }
+      ],
       "originalPlayback": {
         "report": "docs/flash-runtime-report.json",
         "sha256": "5a0474a8ae146cda4f21647314258442daf99623a19dc38f6aaf42882f1ee01d",
@@ -2412,7 +2458,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "5a0474a8ae146cda4f21647314258442daf99623a19dc38f6aaf42882f1ee01d",
+        "passed": true,
+        "comparisons": 4305,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.04973651628483822
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2566,7 +2619,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "f02713ff570c8615c0c24f45f2f4464e5325b4d2b4500cf874dec49a52b27faa",
+        "passed": true,
+        "comparisons": 5088,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.045242745557715125
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3463,7 +3523,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "d1e35aa9af3bd9ed244ce2c4beffa017535191f1212f20fb2112b11c211b65c7",
+        "passed": true,
+        "comparisons": 2288,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.04896943640022755
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3821,7 +3888,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "0c23e4f1a261fe7e642551c6bbe835587ede9ba406500609b65d296703e9ec55",
+        "passed": true,
+        "comparisons": 16664,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 5.115907697472721e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5246,7 +5320,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "4202d5d8ca180100f04cf714d8547ebdaa19ef715fc5e3d136f3d2be81b9ab54",
+        "passed": true,
+        "comparisons": 1860,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.0498019430681893
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5341,7 +5422,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "9776f3c9905c37d1f3589947d52a91acd4152585ba315ad22359b1b80f3bd869",
+        "passed": true,
+        "comparisons": 824,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.04818162949879934
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6566,7 +6654,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "e0ece2831a5a6eba298d4d989a774b58369e16e5ffa33e36964fcb76da44e90b",
+        "passed": true,
+        "comparisons": 584,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.049507693692788735
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6613,7 +6708,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "fb952663361b584c1ed57a852a3dd7e334c460154434b8780856fed24419be43",
+        "passed": true,
+        "comparisons": 460,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7802,7 +7904,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "10105460581e3d77a7d03731c0f57e66cd03775ef3397e7a29e1a08441e107e6",
+        "passed": true,
+        "comparisons": 1948,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.044835533274152795
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7821,7 +7930,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "deb3bb702d9114fcd7a7472365cfc73ca09b6863870e23d669325cec950b2c08",
+        "passed": true,
+        "comparisons": 1300,
+        "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
+        "maxAbsoluteError": 0.049319080996809816
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10931,7 +11047,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "62a6517d288cdd93f6334588fcab3ddcb008f057bb7c57308029f47499b27cd9",
+        "passed": true,
+        "comparisons": 1280,
+        "scope": "Actual original first-bob drag in both directions, followed by all ten particles compared for consecutive recurrence steps; source display coordinates retain 0.05 px quantization. Continuous multi-bob drag combinations are not exhausted.",
+        "maxAbsoluteError": 0.049987499999986085
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10969,7 +11092,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "a37982238583f24fb3ef9299929cae274b42606b285939103b4aa81112d845da",
+        "passed": true,
+        "comparisons": 1280,
+        "scope": "Actual original first-bob drag in both directions, followed by all ten particles compared for consecutive recurrence steps; source display coordinates retain 0.05 px quantization. Continuous multi-bob drag combinations are not exhausted.",
+        "maxAbsoluteError": 0.049796767022655786
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11035,7 +11165,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/scene-runtime-report.json",
+        "sha256": "f2ed1a1a5601af333624d2c7463f66f0e8050aa85d8913cd0dfaaa0683b433b9",
+        "passed": true,
+        "comparisons": 1280,
+        "scope": "Actual original first-bob drag in both directions, followed by all ten particles compared for consecutive recurrence steps; source display coordinates retain 0.05 px quantization. Continuous multi-bob drag combinations are not exhausted.",
+        "maxAbsoluteError": 0.049796767022655786
+      },
       "sliders": null,
       "rootTimeline": null
     },
