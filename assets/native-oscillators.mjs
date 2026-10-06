@@ -1,4 +1,4 @@
-import {patchMarkup,frameBatch} from './render-utils.mjs';
+import {patchMarkup,frameBatch,observePlayback} from './render-utils.mjs';
 import {experimentSpecs,trajectory} from './native-integrators.mjs';
 // Independently written source-derived oscillator models; extracted AS is not shipped.
 export const oscillatorSpecs={
@@ -62,14 +62,16 @@ function init(host){
  function measuredAmplitude(t){return grid[Math.min(grid.length-1,Math.round(t/(1/15)))].measured;}
  function pause(){running=false;cancelAnimationFrame(frame);last=0;get('[data-native-play]').textContent='재생';}
  function tick(now){if(!running)return;if(last)time=Math.min(20,time+Math.min(.1,(now-last)/1000));last=now;if(!host._lastPaint||now-host._lastPaint>=1000/30){draw();host._lastPaint=now;}if(time>=20)pause();else frame=requestAnimationFrame(tick);}
- get('[data-native-play]').addEventListener('click',()=>{if(running)pause();else{if(time>=20)time=0;running=true;get('[data-native-play]').textContent='일시정지';frame=requestAnimationFrame(tick);}});
+ get('[data-native-play]').addEventListener('click',()=>{if(running)pause();else{if(time>=20-1e-9)time=0;running=true;last=0;draw();get('[data-native-play]').textContent='일시정지';frame=requestAnimationFrame(tick);}});
  get('[data-native-reset]').addEventListener('click',()=>{pause();time=0;for(const [k,,,,,v] of spec.parameters)inputs[k].value=v;if(mode)mode.value='source';rebuild();});
  for(const e of [...Object.values(inputs),...(mode?[mode]:[])])e.addEventListener('input',()=>{pause();time=0;rebuild();});
  get('[data-native-time]').addEventListener('input',()=>{pause();time=+get('[data-native-time]').value;if(experiment)time=Math.round(time/(isDamped?.1:1/15))*(isDamped?.1:1/15);draw();});
  get('[data-native-csv]').addEventListener('click',()=>{const csv='# '+JSON.stringify({...values(),mode:mode?.value||'steady-state'})+'\ntime_s,x,v,a\n'+grid.map(p=>[p.t,p.x,p.v,p.a].join(',')).join('\n'),url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=kind+'-motion.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
- if(experiment){get('[data-native-time]').step=isDamped?.1:1/15;}
+ if(experiment){// A decimal serialization of 1/15 makes the range's nominal 20 s endpoint
+ // unreachable in browsers. Snap in the input handler, not HTML range arithmetic.
+ get('[data-native-time]').step=isDamped?.1:'any';}
  
  if(kind==='dampedExperiment'){const bob=get('[data-bob]'),svg=bob.ownerSVGElement,dragUpdate=frameBatch(rebuild);let dragging=false;bob.style.touchAction='none';bob.style.cursor='grab';bob.addEventListener('pointerdown',e=>{pause();dragging=true;bob.setPointerCapture(e.pointerId);});bob.addEventListener('pointermove',e=>{if(!dragging)return;const pt=new DOMPoint(e.clientX,e.clientY).matrixTransform(svg.getScreenCTM().inverse());inputs.x0.value=Math.max(-.2,Math.min(.2,(pt.x-340)*.2/180));time=0;dragUpdate.schedule();});bob.addEventListener('pointerup',()=>{dragUpdate.flush();dragging=false;});bob.addEventListener('pointercancel',()=>{dragUpdate.flush();dragging=false;});}
- new IntersectionObserver(es=>{if(!es[0].isIntersecting)pause();}).observe(host);document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});rebuild();
+ observePlayback(host,visible=>{if(!visible)pause();});document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});rebuild();
 }
 if(typeof document!=='undefined')for(const host of document.querySelectorAll('[data-flash-native]'))if(oscillatorSpecs[host.dataset.flashNative])init(host);

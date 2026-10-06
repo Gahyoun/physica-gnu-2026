@@ -31,3 +31,19 @@ export function frameBatch(callback){
  const schedule=()=>{if(!frame)frame=requestAnimationFrame(()=>{frame=0;callback();});};
  return {schedule,flush};
 }
+
+// Observer notifications can lag behind a scroll or click. Confirm the current
+// rectangle before treating an old offscreen notification as a stop request.
+export function inViewport(host,viewport=globalThis){
+ const r=host.getBoundingClientRect();
+ return r.width>0&&r.height>0&&r.bottom>0&&r.right>0&&r.top<viewport.innerHeight&&r.left<viewport.innerWidth;
+}
+export function observePlayback(host,onVisible){
+ let frame=0;
+ const observer=new IntersectionObserver(()=>{
+  if(frame)cancelAnimationFrame(frame);
+  // Other widgets in the same observer delivery can change document layout.
+  frame=requestAnimationFrame(()=>{frame=0;onVisible(inViewport(host));});
+ });
+ observer.observe(host);return observer;
+}

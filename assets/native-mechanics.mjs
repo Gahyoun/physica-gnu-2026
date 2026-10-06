@@ -1,4 +1,4 @@
-import {patchMarkup,frameBatch} from './render-utils.mjs';
+import {patchMarkup,frameBatch,observePlayback} from './render-utils.mjs';
 // Independently authored HTML/SVG remasters, derived from the two original models.
 export const mechanicsSpecs={
  stick:{source:'stickmotion.swf',lesson:'1-2-1-1',title:'막대의 진동'},
@@ -57,12 +57,12 @@ function init(host){
   host.closest('figure').querySelectorAll('[data-potential-equation]').forEach(e=>e.hidden=+e.dataset.potentialEquation!==mode());Object.assign(host.dataset,{nativeReady:'true',nativeStep:String(n),nativeX:String(x)});
  }
  function pause(){running=false;cancelAnimationFrame(frame);last=0;carry=0;get('[data-mechanics-play]').textContent='재생';get('[data-mechanics-play]').setAttribute('aria-pressed','false');}
- function play(){if(running)return;if(n>=2000)n=0;running=true;last=0;get('[data-mechanics-play]').textContent='일시정지';get('[data-mechanics-play]').setAttribute('aria-pressed','true');frame=requestAnimationFrame(tick);}
+ function play(){if(running)return;if(n>=2000)n=0;running=true;last=0;carry=0;draw();get('[data-mechanics-play]').textContent='일시정지';get('[data-mechanics-play]').setAttribute('aria-pressed','true');frame=requestAnimationFrame(tick);}
  function tick(now){if(!running)return;if(last)carry+=Math.min(.1,(now-last)/1000)*Number(rateInput.value);last=now;if(carry>=1){const inc=Math.floor(carry);carry-=inc;n=Math.min(2000,n+inc);draw();}if(n===2000)pause();else frame=requestAnimationFrame(tick);}
  get('[data-mechanics-play]').addEventListener('click',()=>running?pause():play());initial.addEventListener('input',()=>{pause();n=0;rebuild();});rateInput.addEventListener('input',draw);modeInput?.addEventListener('change',()=>{pause();n=0;rebuild();});
  stepInput.addEventListener('input',()=>{pause();n=+stepInput.value;draw();});get('[data-mechanics-reset]').addEventListener('click',()=>{pause();n=0;draw();});get('[data-equilibrium]')?.addEventListener('click',()=>{pause();initial.value=0;n=0;rebuild();});
  get('[data-random-mode]')?.addEventListener('click',()=>{pause();const previous=mode();modeInput.value=1+(previous+Math.floor(Math.random()*5))%6;n=0;rebuild();play();});
  get('[data-mechanics-csv]').addEventListener('click',()=>{const csv='# '+JSON.stringify({model:kind,initial:A(),mode:mode(),units:'original scale; time is calculation step'})+'\nstep,position'+(isStick?'':',velocity')+'\n'+samples.map(p=>[p.n,p.x,...(isStick?[]:[p.v])].join(',')).join('\n'),url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=kind+'-remaster.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
- new IntersectionObserver(es=>{if(!es[0].isIntersecting)pause();}).observe(host);document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});rebuild();
+ observePlayback(host,visible=>{if(!visible)pause();});document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});rebuild();
 }
 if(typeof document!=='undefined')for(const host of document.querySelectorAll('[data-flash-native]'))if(mechanicsSpecs[host.dataset.flashNative])init(host);

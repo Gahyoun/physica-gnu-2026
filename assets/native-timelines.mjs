@@ -1,6 +1,6 @@
 // Fresh SVG diagrams: no original glyph paths, canvas bitmap, or Flash player.
 import {diagramMarkup} from "./native-diagrams.mjs";
-import {patchMarkup} from "./render-utils.mjs";
+import {patchMarkup,observePlayback} from "./render-utils.mjs";
 import {timelineSpecs} from "./timeline-specs.mjs";
 function init(host){
  const {flashTimeline:id,timelineTitle:title,timelineWidth:width,timelineHeight:height,timelineFps:fps,timelineCycle:cycle}=host.dataset,total=Number(cycle);let step=0,running=false,frame=0,last=0,carry=0,ready=false,painting=false,queued=false;
@@ -11,10 +11,12 @@ function init(host){
   finally{painting=false;}
  }
  function pause(){running=false;cancelAnimationFrame(frame);last=0;carry=0;get('[data-timeline-play]').textContent='재생';get('[data-timeline-play]').setAttribute('aria-pressed','false');}
- function play(){if(!ready||running||total===1)return;running=true;last=0;get('[data-timeline-play]').textContent='일시정지';get('[data-timeline-play]').setAttribute('aria-pressed','true');frame=requestAnimationFrame(tick);}
+ function play(){if(!ready)prepare();if(running||total===1)return;if(step>=total-1){step=0;draw();}running=true;last=0;carry=0;get('[data-timeline-play]').textContent='일시정지';get('[data-timeline-play]').setAttribute('aria-pressed','true');frame=requestAnimationFrame(tick);}
  function tick(now){if(!running)return;if(last)carry+=Math.min(.25,(now-last)/1000)*Number(fps)*Number(get('[data-timeline-speed]').value);last=now;if(carry>=1){const count=Math.floor(carry);carry-=count;const next=step+count;if(next>=total&&!get('[data-timeline-loop]').checked){step=total-1;draw();pause();return;}step=next%total;draw();}frame=requestAnimationFrame(tick);}
  const seek=n=>{pause();step=Math.max(0,Math.min(total-1,n));draw();};get('[data-timeline-play]').addEventListener('click',()=>running?pause():play());get('[data-timeline-reset]').addEventListener('click',()=>seek(0));get('[data-timeline-back]').addEventListener('click',()=>seek(step-1));get('[data-timeline-forward]').addEventListener('click',()=>seek(step+1));get('[data-timeline-step]').addEventListener('input',e=>seek(Number(e.target.value)));
- let loaded=false;new IntersectionObserver(entries=>{if(!entries[0].isIntersecting){pause();return;}if(loaded)return;loaded=true;const stage=get('.timeline-native-stage');stage.innerHTML=`<svg viewBox="0 0 760 360" role="img" aria-label="${title} · SVG 리마스터"><g data-diagram-body></g></svg>`;ready=true;Object.assign(host.dataset,{nativeRenderer:'independent-svg-diagram'});if(total===1){get('[data-timeline-play]').disabled=true;get('[data-timeline-play]').textContent='정지 그림';}draw();}).observe(host);
+ let loaded=false;
+ function prepare(){if(loaded)return;loaded=true;const stage=get('.timeline-native-stage');stage.innerHTML=`<svg viewBox="0 0 760 360" role="img" aria-label="${title} · SVG 리마스터"><g data-diagram-body></g></svg>`;ready=true;Object.assign(host.dataset,{nativeRenderer:'independent-svg-diagram'});if(total===1){get('[data-timeline-play]').disabled=true;get('[data-timeline-play]').textContent='정지 그림';}draw();}
+ observePlayback(host,visible=>{if(!visible){pause();return;}prepare();});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});
 }
 if(typeof document!=='undefined')for(const host of document.querySelectorAll('[data-flash-timeline]'))init(host);

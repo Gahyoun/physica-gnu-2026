@@ -4,7 +4,7 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="e
 import './native-analytic.mjs';
 import './native-optics.mjs';
 import './native-refraction.mjs';
-import {patchMarkup,frameBatch} from './render-utils.mjs';
+import {patchMarkup,frameBatch,observePlayback} from './render-utils.mjs';
 import './native-timelines.mjs';
 import './native-chain.mjs';
 import './native-waves.mjs';
@@ -45,7 +45,7 @@ function init(host){
  }
  function pause(){running=false;cancelAnimationFrame(frame);get('[data-native-play]').textContent='재생';last=0;}
  function tick(now){if(!running)return;if(last)time=(time+Math.min((now-last)/1000,.1))%20;last=now;if(!host._lastPaint||now-host._lastPaint>=1000/30){draw();host._lastPaint=now;}frame=requestAnimationFrame(tick);}
- get('[data-native-play]').addEventListener('click',()=>{if(running)pause();else{running=true;get('[data-native-play]').textContent='일시정지';frame=requestAnimationFrame(tick);}});
+ get('[data-native-play]').addEventListener('click',()=>{if(running)pause();else{running=true;last=0;draw();get('[data-native-play]').textContent='일시정지';frame=requestAnimationFrame(tick);}});
  get('[data-native-reset]').addEventListener('click',()=>{pause();time=0;inputs.A.value=75;inputs.w.value=2;inputs.phi.value=0;rebuild();});
  for(const e of Object.values(inputs))e.addEventListener('input',()=>{time=0;rebuild();});
  timeInput.addEventListener('input',()=>{pause();time=Number(timeInput.value);draw();});
@@ -53,7 +53,7 @@ function init(host){
   const {A,w,phi}=values();const csv='# A='+A+', omega_rad_s='+w+', phi_rad='+phi+'\ntime_s,displacement_original_scale,velocity_scale_per_s,acceleration_scale_per_s2\n'+grid.map(p=>[p.t,p.x,p.v,p.a].join(',')).join('\n');
   const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='harmonic-motion.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
  });
- const observer=new IntersectionObserver(es=>{if(!es[0].isIntersecting)pause();});observer.observe(host);
+ observePlayback(host,visible=>{if(!visible)pause();});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});rebuild();
 }
 if(typeof document!=='undefined')document.querySelectorAll('[data-flash-native="harmonic"]').forEach(init);

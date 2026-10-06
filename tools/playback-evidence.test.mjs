@@ -1,0 +1,14 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';
+const root=new URL('../',import.meta.url),read=f=>JSON.parse(fs.readFileSync(new URL(f,root))),current=r=>{for(const [f,h]of Object.entries(r.nativeModelHashes))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(f,root))).digest('hex'),h,'Stale playback QA: '+f);};
+test('Every current HTML counterpart has scene-geometry playback QA at three viewport widths',()=>{
+ const report=read('docs/playback-ui-report.json'),files=read('assets/flash-catalog.json').files.filter(r=>r.nativeHref);current(report);assert.deepEqual(report.widths,[320,768,1360]);assert.equal(report.expected,files.length*3);assert.equal(report.observed,report.expected);assert.equal(report.results.length,report.expected);assert.deepEqual(report.errors,[]);assert.equal(report.summary.failed,0);
+ assert.equal(new Set(report.results.map(v=>v.id+':'+v.width)).size,report.expected);
+ for(const file of files)for(const width of report.widths){const v=report.results.find(r=>r.id===file.id&&r.width===width);assert.ok(v);assert.equal(v.href,file.nativeHref);assert.equal(v.passed,true,file.title+' '+width);if(v.classification==='static')continue;assert.ok(['animated','equilibrium-input-tested'].includes(v.classification));const motion=v.afterAuthoredWait||v.nonzeroPlayback||v.defaultPlayback;assert.equal(motion.geometryChanged,true,file.title+' actual scene');assert.equal(motion.playActivated,true);assert.equal(v.pauseStopsGeometry,true);assert.equal(v.resumeActive,true);assert.notEqual(v.replayFromEnd,false);}
+});
+test('Reported motion, exact terminal seek, lazy preparation and both transition panels retain current UI evidence',()=>{
+ const r=read('docs/playback-regressions-ui-report.json');current(r);assert.equal(r.passed,true);assert.deepEqual(r.errors,[]);
+ for(const id of ['flash-92a5d41f9bb1846e','flash-5cc33098a15684c7'])for(const width of [320,768,1360]){const v=r.results.find(v=>v.id===id&&v.width===width);for(const key of ['particleCoordinatesMove','pauseStopsParticles','endReplay','lowerProgressStable'])assert.equal(v[key],true,id+' '+key);}
+ for(const width of [320,768,1360]){const v=r.results.find(v=>v.width===width&&v.transitionFramesChecked);assert.equal(v.transitionFramesChecked,180);assert.equal(v.normalizedOrbitAndEnergySynchronized,true);const endpoint=r.results.find(v=>v.width===width&&v.exact20SecondSeek);assert.equal(endpoint.endReplay,true);}
+ assert.ok(r.results.filter(v=>v.id==='flash-92a5d41f9bb1846e').every(v=>v.reportedFourTimesSpeedNoLoop&&v.completionMessage));
+ assert.ok(r.results.some(v=>v.observerNotificationWithheld&&v.explicitPlayPreparesAndAnimates));
+});

@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-05T23:22:19.193Z",
+  "date": "2026-10-06T14:13:30.692Z",
   "nativeModelHashes": {
-    "assets/native-waves.mjs": "c7a39f16226448ea5bb88d7715f471d69d484fc69d17630bf369639d10b6d611"
+    "assets/native-waves.mjs": "509bae9e6b232837c3e946baf16e617095521357e5bf7d2953540913c7877bd4"
   },
   "method": "Actual Ruffle AVM1 telemetry and numerical queries versus independent HTML wave model",
   "files": 9,
-  "comparisons": 4451,
+  "comparisons": 4452,
   "fullEquivalence": false,
   "results": [
     {
@@ -155,7 +155,7 @@
       "kind": "wave-circle",
       "sha256": "d8d78f6313bb537d10a130e8270f1f84b220069a35c643d1afc82fbeebcf147b",
       "sha256Verified": true,
-      "comparisons": 31,
+      "comparisons": 32,
       "maxAbsoluteError": 0.04999999999998295,
       "mismatches": [],
       "originalSamples": [],

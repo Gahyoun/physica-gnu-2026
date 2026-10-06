@@ -1230,3 +1230,15 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 .fundamental-host [data-fund-scene] path,.fundamental-host [data-fund-scene] text,.field-host [data-field-scene] path,.field-host [data-field-scene] text {pointer-events:none;}
 .fundamental-host [data-fund-bob],.field-host [data-field-handle] {cursor:grab;touch-action:none;}
 .fundamental-host [data-fund-scene],.field-host [data-field-scene] {user-select:none;touch-action:none;}
+
+/* The play label must not reflow the toolbar while a simulation starts. */
+.native-toolbar button[data-fund-play],.native-toolbar button[data-exp-play],
+.native-toolbar button[data-native-play],.native-toolbar button[data-chain-play],
+.native-toolbar button[data-mechanics-play],.native-toolbar button[data-wave-play],
+.native-toolbar button[data-refraction-play]{min-inline-size:7em}
+.playback-status{padding:8px 20px;margin:0;min-height:2.2em;color:var(--text-muted)}
+
+/* Reserve the new SVG's dimensions before lazy preparation; loading another
+   figure must not move a play button or strand an intersection notification. */
+.timeline-native-stage{aspect-ratio:760/360}
+@media(max-width:600px){.timeline-native-stage{aspect-ratio:auto;min-height:285px}}

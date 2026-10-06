@@ -12,13 +12,23 @@ const particle=(x,y,label='−',r=7)=>circle(x,y,r)+text(x,y+4,label,'text-ancho
 const nucleus=(x,y)=>circle(x,y,13,'diagram-nucleus')+text(x,y+5,'+','text-anchor="middle" class="diagram-charge"');
 const ellipse=(x,y,rx,ry,angle=0)=>`<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" transform="rotate(${angle} ${x} ${y})" class="diagram-orbit"/>`;
 function rayProgress(points,t){const lengths=points.slice(1).map((p,i)=>Math.hypot(p[0]-points[i][0],p[1]-points[i][1])),sum=lengths.reduce((a,b)=>a+b,0);let length=clamp(t)*sum;for(let i=0;i<lengths.length;i++){if(length<=lengths[i])return [points[i][0]+(points[i+1][0]-points[i][0])*length/lengths[i],points[i][1]+(points[i+1][1]-points[i][1])*length/lengths[i]];length-=lengths[i];}return points.at(-1);}
-export function transitionState(source,step){const f=transitionMotion[source][step];return {radius:f.radius,excitation:clamp((f.radius-.595)/.405),photonCount:f.photons.length};}
-function transition(s,step){const m=transitionState(s.source,step),absorb=s.source==='stimab.swf',p=m.excitation;let out=circle(175,180,95,'diagram-orbit')+circle(175,180,57,'diagram-orbit')+nucleus(175,180)+particle(175,180-95*m.radius,'−',9)+text(175,310,'원자','text-anchor="middle"');
+const transitionRanges=Object.fromEntries(Object.entries(transitionMotion).map(([source,frames])=>[source,{ground:Math.min(...frames.map(f=>f.radius)),excited:Math.max(...frames.map(f=>f.radius))}]));
+export function transitionState(source,step){
+ const frame=transitionMotion[source][step],range=transitionRanges[source],excitation=clamp((frame.radius-range.ground)/(range.excited-range.ground));
+ return {radius:frame.radius,excitation,photonCount:frame.photons.length};
+}
+export function transitionMarkers(source,step){
+ const state=transitionState(source,step),p=state.excitation;
+ // Both panels use the same normalized source keyframe, with exact shared ends.
+ return {...state,orbitRadius:57+38*p,orbitY:180-(57+38*p),energyY:225-150*p,phase:p===0?'ground':p===1?'excited':'transition'};
+}
+function transition(s,step){const m=transitionMarkers(s.source,step),absorb=s.source==='stimab.swf',p=m.excitation;let out=circle(175,180,95,'diagram-orbit')+circle(175,180,57,'diagram-orbit')+nucleus(175,180)+circle(175,m.orbitY,9,'diagram-electron',`data-transition-orbit data-excitation="${p}"`)+text(175,m.orbitY+4,'−','text-anchor="middle" class="diagram-charge"')+text(175,310,'원자','text-anchor="middle"');
  const frames=transitionMotion[s.source][step].photons;
- frames.forEach(([x,y],i)=>{const px=absorb?320+120*x:300+80*x,py=absorb?180+35*y:148+36*y;out+=photon(Math.max(35,Math.min(670,px)),Math.max(40,Math.min(290,py)),absorb?25:25,i);});
- out+=line(470,75,675,75)+line(470,225,675,225)+text(682,80,'E₂')+text(682,230,'E₁')+circle(570,225-150*p,7);
- if(!absorb&&step>=20&&step<40)out+=arrow(540,90,540,210);if(absorb&&step>=25&&step<45)out+=arrow(540,210,540,90);
- out+=text(470,285,'ΔE = hν')+text(470,312,absorb?'광자 흡수 → 들뜸':s.source==='stimem.swf'?'입사 광자 → 같은 위상의 두 광자':'들뜬 상태 → 광자 방출');return out;}
+ frames.forEach(([x,y],i)=>{const px=absorb?320+120*x:300+80*x,py=absorb?180+35*y:148+36*y;out+=photon(Math.max(35,Math.min(670,px)),Math.max(40,Math.min(290,py)),25,i);});
+ out+=line(470,75,675,75)+line(470,225,675,225)+text(682,80,'E₂')+text(682,230,'E₁')+circle(570,m.energyY,9,'diagram-electron',`data-transition-energy data-excitation="${p}"`)+text(570,m.energyY+4,'−','text-anchor="middle" class="diagram-charge"');
+ if(m.phase==='transition')out+=absorb?arrow(540,210,540,90):arrow(540,90,540,210);
+ const phase=m.phase==='ground'?'바닥 상태 E₁':m.phase==='excited'?'들뜬 상태 E₂':absorb?'흡수 · 전이 중':'방출 · 전이 중';
+ out+=text(305,330,phase,'text-anchor="middle" data-transition-phase="'+m.phase+'"')+text(470,285,'ΔE = hν')+text(470,312,absorb?'광자 흡수 → 들뜸':s.source==='stimem.swf'?'입사 광자 → 같은 위상의 두 광자':'들뜬 상태 → 광자 방출');return out;}
 function lithium(s,step){let out='';const phase=2*Math.PI*step/30;[3,2,4].forEach((count,j)=>{const x=130+j*250,y=165;out+=circle(x,y,j===1?67:107,'diagram-cloud')+circle(x,y,57,'diagram-cloud')+ellipse(x,y,57,24,50)+ellipse(x,y,57,24,-50);if(count>=3)out+=ellipse(x,y,107,31);if(count===4)out+=ellipse(x,y,31,107);out+=nucleus(x,y);for(let e=0;e<count;e++){const t=phase+(e%2)*Math.PI,rx=e<2?57:e===2?107:31,ry=e<2?24:e===2?31:107,angle=e<2?(e?50:-50)*Math.PI/180:0;const a=rx*Math.cos(t),b=ry*Math.sin(t);out+=particle(x+a*Math.cos(angle)-b*Math.sin(angle),y+a*Math.sin(angle)+b*Math.cos(angle));}out+=text(x,315,['Li 원자 · 전자 3개','Li⁺ 이온 · 전자 2개','Li⁻ 이온 · 전자 4개'][j],'text-anchor="middle"');});return out;}
 function electroscope(s,step){const phase=step/s.cycle,spread=phase<.2?0:phase<.6?clamp((phase-.2)/.4):clamp((1-phase)/.4),a=spread*.55;let out=`<path d="M215 160V210L175 300Q175 315 200 315H325Q345 315 340 300L300 210V160Z" class="diagram-glass"/>`+rect(215,148,85,12,'diagram-metal')+line(257,130,257,250)+circle(257,113,16,'diagram-metal');for(const sign of [-1,1])out+=line(257,250,257+sign*65*Math.sin(a),250+65*Math.cos(a),'diagram-leaf');out+=`<g transform="translate(${F(345-40*spread)} 75) rotate(-30)">${rect(0,0,110,18,'diagram-metal')}${[15,35,55,75,95].map(x=>text(x,14,'+')).join('')}</g>`+text(425,168,spread>.1?'전하가 잎으로 이동합니다.':'금속박이 나란히 놓입니다.')+text(425,203,'같은 부호의 전하 → 반발')+text(425,250,'검전기 · 금속박');return out;}
 function water(s,step){const p=step/s.cycle,bend=p>.18&&p<.88?Math.sin(Math.PI*(p-.18)/.7):0;let out=rect(425,132,180,22,'diagram-metal')+text(465,122,'대전된 막대')+text(485,151,'− − − − −','class="diagram-charge"')+text(90,310,'물의 전기 쌍극자가 전기장에 정렬됩니다.');for(let row=0;row<10;row++)for(let col=0;col<3;col++){const y=35+row*25,x=245+col*22+bend*90*(y/285)**2,angle=90-75*bend;out+=`<g transform="translate(${F(x)} ${y}) rotate(${F(angle)})">${circle(0,0,6,'diagram-nucleus')}${circle(8,-4,3)}${circle(8,4,3)}${arrow(-10,0,12,0,'diagram-line')}</g>`;}return out;}
