@@ -1,3 +1,4 @@
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="quantum-"]'))await import('./native-quantum.mjs');
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="scene-"]'))await import('./native-scenes.mjs');
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="field-"]'))await import('./native-fields.mjs');
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="fundamental-"]'))await import('./native-fundamentals.mjs');

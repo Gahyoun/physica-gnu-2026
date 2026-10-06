@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06T15:07:51.231Z",
+  "date": "2026-10-06T15:53:49.387Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -28,6 +28,17 @@
       "observed": 15,
       "complete": true,
       "scope": "Every physically allowed l,m tuple selected with original component arrow clicks; sampled original phase geometry. All 100 phase steps additionally covered in private source-function comparison. This excludes transient invalid m after l changes and arbitrary camera histories.",
+      "comparisonsIncludedInPrimaryNumerical": true
+    },
+    {
+      "id": "flash-ba7a9fe7bc7b2293",
+      "report": "docs/quantum-runtime-report.json",
+      "sha256": "d6d238e7be2730331ab358c49128dc87785a01fc58110953054e3978a8222e4e",
+      "passed": true,
+      "expected": 25,
+      "observed": 25,
+      "complete": true,
+      "scope": "All 25 n1,n2 mode selections through original checkbox clicks, nine wave positions at sampled original times. Play/pause transitions and continuous time histories are separate; no claim of full waveform/runtime equivalence.",
       "comparisonsIncludedInPrimaryNumerical": true
     },
     {
@@ -4160,7 +4171,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 29,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-5-2.html#native-quantum-flash-d1d9f570ca5d2720",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -4174,14 +4185,17 @@
         "drag": 0,
         "change": 7
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -4546,7 +4560,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 7,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-6-3.html#native-quantum-flash-09a05b2b617f6d26",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -4579,14 +4593,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -4765,7 +4782,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 7,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-6-4.html#native-quantum-flash-d33d3a108845b4a6",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -4798,14 +4815,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -5568,7 +5588,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 12,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-4-6.html#native-quantum-flash-9100fc0ef2626c09",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -5601,14 +5621,17 @@
         "drag": 0,
         "change": 6
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -5623,7 +5646,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 12,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-4-2.html#native-quantum-flash-a7fc2a9c6abc8f97",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -5637,14 +5660,17 @@
         "drag": 0,
         "change": 3
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -5659,7 +5685,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 20,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-4-4.html#native-quantum-flash-a7c3c975d17f7e73",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -5692,14 +5718,17 @@
         "drag": 0,
         "change": 7
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -5714,7 +5743,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 19,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-4-7.html#native-quantum-flash-cde8693c6c86e299",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -5756,14 +5785,17 @@
         "drag": 0,
         "change": 8
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -5778,7 +5810,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 18,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-4-5.html#native-quantum-flash-a93515d3ae34b2ca",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -5811,14 +5843,17 @@
         "drag": 0,
         "change": 7
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -5833,7 +5868,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 14,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-4-2.html#native-quantum-flash-48fb1fd8001a4ea9",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -5847,14 +5882,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -5869,7 +5907,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 19,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-4-3.html#native-quantum-flash-ba7a9fe7bc7b2293",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -5883,14 +5921,17 @@
         "drag": 0,
         "change": 6
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -5905,7 +5946,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 1,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-4-4-1.html#native-quantum-flash-39ca829162ba4b56",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -5919,14 +5960,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -8331,7 +8375,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 28,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-3-5-1.html#native-quantum-flash-5d4dc50064b241a0",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -8427,14 +8471,17 @@
         "drag": 0,
         "change": 6
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -8480,7 +8527,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 24,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-3-3-1.html#native-quantum-flash-01e1f49a3cd41a01",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -8639,14 +8686,17 @@
         "drag": 0,
         "change": 20
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -8661,7 +8711,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 10,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-3-3-2.html#native-quantum-flash-420a639d05481e0f",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -8694,14 +8744,17 @@
         "drag": 0,
         "change": 6
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -8755,7 +8808,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 13,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-3-2-3.html#native-quantum-flash-0e75decee513ac42",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -8769,14 +8822,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -8791,7 +8847,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 1,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-3-2-1.html#native-quantum-flash-ccfda3270970bbae",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -8805,14 +8861,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -20851,7 +20910,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 16,
-      "htmlHref": null,
+      "htmlHref": "lesson-2-2-2-1.html#native-quantum-flash-eb06907beb17a943",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -20902,14 +20961,17 @@
         "drag": 0,
         "change": 9
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "passed": true,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

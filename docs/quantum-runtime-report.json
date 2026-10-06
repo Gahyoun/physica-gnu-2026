@@ -1,0 +1,5049 @@
+{
+  "date": "2026-10-06T15:52:30.103Z",
+  "nativeModelHashes": {
+    "assets/quantum-physics.mjs": "e5beba1ef9093a27890ebf248ba60af2d254ba39615c8c26fc9150e3edc018e5",
+    "assets/quantum-specs.mjs": "15979194f35e3c65ca69ac2adf47aac17eff73b078f19e64a70002d047885413"
+  },
+  "files": 17,
+  "comparisons": 3690,
+  "method": "Actual Ruffle original numerical queries after original arrow clicks, slider drags, mode checkboxes and interval marker drags; no original inputs forced or runtime replaced",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-39ca829162ba4b56",
+      "type": "tftn",
+      "sha256": "46ade4a2638662bc03976a881f102bc1881ab7cf40fab4f154f8812db3810180",
+      "sha256Verified": true,
+      "comparisons": 2,
+      "maxAbsoluteError": 2.220446049250313e-16,
+      "mismatches": [],
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "time": 0.55
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-48fb1fd8001a4ea9",
+      "type": "standingwave",
+      "sha256": "8a8868a2ca2804edcb48ab4ce2a9229b074983152d06c5c868de63fd8474bcf9",
+      "sha256Verified": true,
+      "comparisons": 180,
+      "maxAbsoluteError": 4.618527782440651e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk5",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk6",
+          "target": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "kind": "original_play",
+          "timeBefore": 0,
+          "timeAfter": 0.7,
+          "passed": true
+        },
+        {
+          "kind": "original_pause",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "mode": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "chk1",
+          "parameters": {
+            "mode": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "chk2",
+          "parameters": {
+            "mode": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "chk3",
+          "parameters": {
+            "mode": 3
+          },
+          "time": 0
+        },
+        {
+          "name": "chk4",
+          "parameters": {
+            "mode": 4
+          },
+          "time": 0
+        },
+        {
+          "name": "chk5",
+          "parameters": {
+            "mode": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "chk6",
+          "parameters": {
+            "mode": 6
+          },
+          "time": 0
+        },
+        {
+          "name": "actual play",
+          "parameters": {
+            "mode": 2
+          },
+          "time": 0.35
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "mode": 2
+          },
+          "time": 0.7
+        },
+        {
+          "name": "actual pause",
+          "parameters": {
+            "mode": 2
+          },
+          "time": 0.7
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-a7fc2a9c6abc8f97",
+      "type": "boxprobality",
+      "sha256": "52f330d64edd0ef9b9a70995a52f4c336f80502a9af16606d2afe820bf6c0898",
+      "sha256Verified": true,
+      "comparisons": 300,
+      "maxAbsoluteError": 5.551115123125783e-16,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_interval_drag",
+          "clip": "ball1",
+          "target": 20,
+          "actual": 20,
+          "passed": true
+        },
+        {
+          "kind": "original_interval_drag",
+          "clip": "ball2",
+          "target": 420,
+          "actual": 420,
+          "passed": true
+        },
+        {
+          "kind": "original_interval_drag",
+          "clip": "ball1",
+          "target": 220,
+          "actual": 220,
+          "passed": true
+        },
+        {
+          "kind": "original_interval_drag",
+          "clip": "ball2",
+          "target": 100,
+          "actual": 100,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "xs": 218.9,
+            "xe": 257.4
+          },
+          "time": 0
+        },
+        {
+          "name": "interval ball1 20",
+          "parameters": {
+            "xs": 0,
+            "xe": 257.4
+          },
+          "time": 0
+        },
+        {
+          "name": "interval ball2 420",
+          "parameters": {
+            "xs": 0,
+            "xe": 400
+          },
+          "time": 0
+        },
+        {
+          "name": "interval ball1 220",
+          "parameters": {
+            "xs": 200,
+            "xe": 400
+          },
+          "time": 0
+        },
+        {
+          "name": "interval ball2 100",
+          "parameters": {
+            "xs": 80,
+            "xe": 200
+          },
+          "time": 0
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-ba7a9fe7bc7b2293",
+      "type": "standingwavemix",
+      "sha256": "d6d238e7be2730331ab358c49128dc87785a01fc58110953054e3978a8222e4e",
+      "sha256Verified": true,
+      "comparisons": 612,
+      "maxAbsoluteError": 7.638334409421077e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp5",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp5",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp5",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp5",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk5",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chkp5",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_play",
+          "timeBefore": 0,
+          "timeAfter": 0.7,
+          "passed": true
+        },
+        {
+          "kind": "original_pause",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 3
+          },
+          "time": 0
+        },
+        {
+          "name": "chk1",
+          "parameters": {
+            "mode1": 1,
+            "mode2": 3
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp1",
+          "parameters": {
+            "mode1": 1,
+            "mode2": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp2",
+          "parameters": {
+            "mode1": 1,
+            "mode2": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp3",
+          "parameters": {
+            "mode1": 1,
+            "mode2": 3
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp4",
+          "parameters": {
+            "mode1": 1,
+            "mode2": 4
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp5",
+          "parameters": {
+            "mode1": 1,
+            "mode2": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "chk2",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp1",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp2",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp3",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 3
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp4",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 4
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp5",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "chk3",
+          "parameters": {
+            "mode1": 3,
+            "mode2": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp1",
+          "parameters": {
+            "mode1": 3,
+            "mode2": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp2",
+          "parameters": {
+            "mode1": 3,
+            "mode2": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp3",
+          "parameters": {
+            "mode1": 3,
+            "mode2": 3
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp4",
+          "parameters": {
+            "mode1": 3,
+            "mode2": 4
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp5",
+          "parameters": {
+            "mode1": 3,
+            "mode2": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "chk4",
+          "parameters": {
+            "mode1": 4,
+            "mode2": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp1",
+          "parameters": {
+            "mode1": 4,
+            "mode2": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp2",
+          "parameters": {
+            "mode1": 4,
+            "mode2": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp3",
+          "parameters": {
+            "mode1": 4,
+            "mode2": 3
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp4",
+          "parameters": {
+            "mode1": 4,
+            "mode2": 4
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp5",
+          "parameters": {
+            "mode1": 4,
+            "mode2": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "chk5",
+          "parameters": {
+            "mode1": 5,
+            "mode2": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp1",
+          "parameters": {
+            "mode1": 5,
+            "mode2": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp2",
+          "parameters": {
+            "mode1": 5,
+            "mode2": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp3",
+          "parameters": {
+            "mode1": 5,
+            "mode2": 3
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp4",
+          "parameters": {
+            "mode1": 5,
+            "mode2": 4
+          },
+          "time": 0
+        },
+        {
+          "name": "chkp5",
+          "parameters": {
+            "mode1": 5,
+            "mode2": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "actual play",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 3
+          },
+          "time": 0.35
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 3
+          },
+          "time": 0.7
+        },
+        {
+          "name": "actual pause",
+          "parameters": {
+            "mode1": 2,
+            "mode2": 3
+          },
+          "time": 0.7
+        }
+      ],
+      "fullEquivalence": false,
+      "finiteInputCombinations": {
+        "expected": 25,
+        "observed": 25,
+        "complete": true,
+        "scope": "All 25 n1,n2 mode selections through original checkbox clicks, nine wave positions at sampled original times. Play/pause transitions and continuous time histories are separate; no claim of full waveform/runtime equivalence."
+      },
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-a7c3c975d17f7e73",
+      "type": "planestate",
+      "sha256": "bb9d5844cb398fcb63434d7620e14c9e295811fd22607052489a06e9328aa6c4",
+      "sha256Verified": true,
+      "comparisons": 240,
+      "maxAbsoluteError": 6.394884621840902e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "energy",
+          "clip": "ESlider",
+          "target": 1,
+          "actual": 1,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "energy",
+          "clip": "ESlider",
+          "target": 5.5,
+          "actual": 5.5,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "energy",
+          "clip": "ESlider",
+          "target": 10,
+          "actual": 10,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "mix",
+          "clip": "MixSlider",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "mix",
+          "clip": "MixSlider",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "mix",
+          "clip": "MixSlider",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_play",
+          "timeBefore": 0,
+          "timeAfter": 0.7,
+          "passed": true
+        },
+        {
+          "kind": "original_pause",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "mode": 1,
+            "energy": 3,
+            "mix": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "ESlider 1",
+          "parameters": {
+            "mode": 1,
+            "energy": 1,
+            "mix": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "ESlider 5.5",
+          "parameters": {
+            "mode": 1,
+            "energy": 5.5,
+            "mix": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "ESlider 10",
+          "parameters": {
+            "mode": 1,
+            "energy": 10,
+            "mix": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "MixSlider 0",
+          "parameters": {
+            "mode": 3,
+            "energy": 3,
+            "mix": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "MixSlider 50",
+          "parameters": {
+            "mode": 3,
+            "energy": 3,
+            "mix": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "MixSlider 100",
+          "parameters": {
+            "mode": 3,
+            "energy": 3,
+            "mix": 100
+          },
+          "time": 0
+        },
+        {
+          "name": "chk1",
+          "parameters": {
+            "mode": 1,
+            "energy": 3,
+            "mix": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "chk2",
+          "parameters": {
+            "mode": 2,
+            "energy": 3,
+            "mix": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "chk3",
+          "parameters": {
+            "mode": 3,
+            "energy": 3,
+            "mix": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "actual play",
+          "parameters": {
+            "mode": 1,
+            "energy": 3,
+            "mix": 50
+          },
+          "time": 0.35
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "mode": 1,
+            "energy": 3,
+            "mix": 50
+          },
+          "time": 0.7
+        },
+        {
+          "name": "actual pause",
+          "parameters": {
+            "mode": 1,
+            "energy": 3,
+            "mix": 50
+          },
+          "time": 0.7
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-a93515d3ae34b2ca",
+      "type": "potentialstep",
+      "sha256": "37b81e9e27c56259f1e5b63148895ecc44b999415cba58d71629263a48d3a9b7",
+      "sha256Verified": true,
+      "comparisons": 186,
+      "maxAbsoluteError": 4.884981308350689e-15,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "energy",
+          "clip": "ESlider",
+          "target": 0.1,
+          "actual": 0.1,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "energy",
+          "clip": "ESlider",
+          "target": 10,
+          "actual": 10,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "energy",
+          "clip": "ESlider",
+          "target": 20,
+          "actual": 20,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "height",
+          "clip": "heightSlider",
+          "target": -50,
+          "actual": -50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "height",
+          "clip": "heightSlider",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "height",
+          "clip": "heightSlider",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_play",
+          "timeBefore": 0,
+          "timeAfter": 0.7,
+          "passed": true
+        },
+        {
+          "kind": "original_pause",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "energy": 10,
+            "height": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "ESlider 0.1",
+          "parameters": {
+            "energy": 0.1,
+            "height": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "ESlider 10",
+          "parameters": {
+            "energy": 10,
+            "height": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "ESlider 20",
+          "parameters": {
+            "energy": 20,
+            "height": 5
+          },
+          "time": 0
+        },
+        {
+          "name": "heightSlider -50",
+          "parameters": {
+            "energy": 10,
+            "height": -50
+          },
+          "time": 0
+        },
+        {
+          "name": "heightSlider 0",
+          "parameters": {
+            "energy": 10,
+            "height": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "heightSlider 50",
+          "parameters": {
+            "energy": 10,
+            "height": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "actual play",
+          "parameters": {
+            "energy": 10,
+            "height": 5
+          },
+          "time": 0.35
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "energy": 10,
+            "height": 5
+          },
+          "time": 0.7
+        },
+        {
+          "name": "actual pause",
+          "parameters": {
+            "energy": 10,
+            "height": 5
+          },
+          "time": 0.75
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-9100fc0ef2626c09",
+      "type": "barriergraph",
+      "sha256": "5e5640cebbd273e47ab4f7cb90b8445731d56a2270e97170a4ed4da2646a450a",
+      "sha256Verified": true,
+      "comparisons": 132,
+      "maxAbsoluteError": 3.1810981226954027e-7,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "height",
+          "clip": "heightSlider",
+          "target": -50,
+          "actual": -50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "height",
+          "clip": "heightSlider",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "height",
+          "clip": "heightSlider",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "width",
+          "clip": "widthSlider",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "width",
+          "clip": "widthSlider",
+          "target": 2,
+          "actual": 2,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "width",
+          "clip": "widthSlider",
+          "target": 4,
+          "actual": 4,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "height": 20,
+            "width": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "heightSlider -50",
+          "parameters": {
+            "height": -50,
+            "width": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "heightSlider 0",
+          "parameters": {
+            "height": 0,
+            "width": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "heightSlider 50",
+          "parameters": {
+            "height": 50,
+            "width": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "widthSlider 0",
+          "parameters": {
+            "height": 20,
+            "width": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "widthSlider 2",
+          "parameters": {
+            "height": 20,
+            "width": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "widthSlider 4",
+          "parameters": {
+            "height": 20,
+            "width": 4
+          },
+          "time": 0
+        }
+      ],
+      "fullEquivalence": false,
+      "reviewedDifferences": [
+        "E=V uses a stable threshold limit in HTML. Original q=1e-10 coefficient cancellation permits 1e-6 absolute tolerance in percentage units only at that boundary."
+      ],
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-cde8693c6c86e299",
+      "type": "potentialbarrier",
+      "sha256": "458afb9c601dde48179538edbf2c222e13345b04d791bbcb8e72440563b9946c",
+      "sha256Verified": true,
+      "comparisons": 243,
+      "maxAbsoluteError": 5.329070518200751e-15,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "energy",
+          "clip": "ESlider",
+          "target": 0.1,
+          "actual": 0.1,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "energy",
+          "clip": "ESlider",
+          "target": 10,
+          "actual": 10,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "energy",
+          "clip": "ESlider",
+          "target": 20,
+          "actual": 20,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "height",
+          "clip": "heightSlider",
+          "target": -100,
+          "actual": -100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "height",
+          "clip": "heightSlider",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "height",
+          "clip": "heightSlider",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "width",
+          "clip": "widthSlider",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "width",
+          "clip": "widthSlider",
+          "target": 2,
+          "actual": 2,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "width",
+          "clip": "widthSlider",
+          "target": 4,
+          "actual": 4,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_play",
+          "timeBefore": 0,
+          "timeAfter": 0.7,
+          "passed": true
+        },
+        {
+          "kind": "original_pause",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "energy": 10,
+            "height": 15,
+            "width": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "ESlider 0.1",
+          "parameters": {
+            "energy": 0.1,
+            "height": 15,
+            "width": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "ESlider 10",
+          "parameters": {
+            "energy": 10,
+            "height": 15,
+            "width": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "ESlider 20",
+          "parameters": {
+            "energy": 20,
+            "height": 15,
+            "width": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "heightSlider -100",
+          "parameters": {
+            "energy": 10,
+            "height": -100,
+            "width": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "heightSlider 0",
+          "parameters": {
+            "energy": 10,
+            "height": 0,
+            "width": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "heightSlider 100",
+          "parameters": {
+            "energy": 10,
+            "height": 100,
+            "width": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "widthSlider 0",
+          "parameters": {
+            "energy": 10,
+            "height": 15,
+            "width": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "widthSlider 2",
+          "parameters": {
+            "energy": 10,
+            "height": 15,
+            "width": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "widthSlider 4",
+          "parameters": {
+            "energy": 10,
+            "height": 15,
+            "width": 4
+          },
+          "time": 0
+        },
+        {
+          "name": "actual play",
+          "parameters": {
+            "energy": 10,
+            "height": 15,
+            "width": 1
+          },
+          "time": 0.35
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "energy": 10,
+            "height": 15,
+            "width": 1
+          },
+          "time": 0.7
+        },
+        {
+          "name": "actual pause",
+          "parameters": {
+            "energy": 10,
+            "height": 15,
+            "width": 1
+          },
+          "time": 0.7
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-0e75decee513ac42",
+      "type": "complexwave",
+      "sha256": "6d39d5644a0ca92a4870edf577d0585b77f304398e84482a35e2aee05965c104",
+      "sha256Verified": true,
+      "comparisons": 144,
+      "maxAbsoluteError": 4.973799150320701e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_play",
+          "timeBefore": 0,
+          "timeAfter": 0.7,
+          "passed": true
+        },
+        {
+          "kind": "original_pause",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "mode": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "chk1",
+          "parameters": {
+            "mode": 1
+          },
+          "time": 0
+        },
+        {
+          "name": "chk2",
+          "parameters": {
+            "mode": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "chk3",
+          "parameters": {
+            "mode": 3
+          },
+          "time": 0
+        },
+        {
+          "name": "chk4",
+          "parameters": {
+            "mode": 4
+          },
+          "time": 0
+        },
+        {
+          "name": "actual play",
+          "parameters": {
+            "mode": 1
+          },
+          "time": 0.35
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "mode": 1
+          },
+          "time": 0.7
+        },
+        {
+          "name": "actual pause",
+          "parameters": {
+            "mode": 1
+          },
+          "time": 0.7
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-ccfda3270970bbae",
+      "type": "probality",
+      "sha256": "8dc0b9e35b310ce65a5c5627a9a0d4c82c6e53d92e5f77e3443f045c78eeeaf2",
+      "sha256Verified": true,
+      "comparisons": 36,
+      "maxAbsoluteError": 3.502753642692369e-14,
+      "mismatches": [],
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "shape": 2,
+            "phase": 2.94360837592234,
+            "wavelength": 23.2435050630011
+          },
+          "time": 0
+        },
+        {
+          "name": "original random reload 0",
+          "parameters": {
+            "shape": 2,
+            "phase": 1.95523084766738,
+            "wavelength": 32.2218612860888
+          },
+          "time": 0
+        },
+        {
+          "name": "original random reload 1",
+          "parameters": {
+            "shape": 2,
+            "phase": 1.45894384138691,
+            "wavelength": 21.8276367383078
+          },
+          "time": 0
+        },
+        {
+          "name": "original random reload 2",
+          "parameters": {
+            "shape": 3,
+            "phase": 1.52417335761972,
+            "wavelength": 32.1269691549242
+          },
+          "time": 0
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-eb06907beb17a943",
+      "type": "wavepacket",
+      "sha256": "57eba7abe54def6627d72814e4c97fb7e7be61bdb9e5489b85b7f77413fe3452",
+      "sha256Verified": true,
+      "comparisons": 300,
+      "maxAbsoluteError": 1.1546319456101628e-13,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "k1",
+          "clip": "k1Slider",
+          "target": 10,
+          "actual": 10,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "k1",
+          "clip": "k1Slider",
+          "target": 25,
+          "actual": 25,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "k1",
+          "clip": "k1Slider",
+          "target": 40,
+          "actual": 40,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "k2",
+          "clip": "k2Slider",
+          "target": 10,
+          "actual": 10,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "k2",
+          "clip": "k2Slider",
+          "target": 25,
+          "actual": 25,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "k2",
+          "clip": "k2Slider",
+          "target": 40,
+          "actual": 40,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "w1",
+          "clip": "w1Slider",
+          "target": 10,
+          "actual": 10,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "w1",
+          "clip": "w1Slider",
+          "target": 25,
+          "actual": 25,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "w1",
+          "clip": "w1Slider",
+          "target": 40,
+          "actual": 40,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "w2",
+          "clip": "w2Slider",
+          "target": 10,
+          "actual": 10,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "w2",
+          "clip": "w2Slider",
+          "target": 25,
+          "actual": 25,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "w2",
+          "clip": "w2Slider",
+          "target": 40,
+          "actual": 40,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_play",
+          "timeBefore": 0,
+          "timeAfter": 0.7,
+          "passed": true
+        },
+        {
+          "kind": "original_pause",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "k1Slider 10",
+          "parameters": {
+            "k1": 10,
+            "k2": 25,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "k1Slider 25",
+          "parameters": {
+            "k1": 25,
+            "k2": 25,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "k1Slider 40",
+          "parameters": {
+            "k1": 40,
+            "k2": 25,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "k2Slider 10",
+          "parameters": {
+            "k1": 20,
+            "k2": 10,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "k2Slider 25",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "k2Slider 40",
+          "parameters": {
+            "k1": 20,
+            "k2": 40,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "w1Slider 10",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 10,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "w1Slider 25",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 25,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "w1Slider 40",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 40,
+            "w2": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "w2Slider 10",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 20,
+            "w2": 10
+          },
+          "time": 0
+        },
+        {
+          "name": "w2Slider 25",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 20,
+            "w2": 25
+          },
+          "time": 0
+        },
+        {
+          "name": "w2Slider 40",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 20,
+            "w2": 40
+          },
+          "time": 0
+        },
+        {
+          "name": "actual play",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0.35
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0.7
+        },
+        {
+          "name": "actual pause",
+          "parameters": {
+            "k1": 20,
+            "k2": 25,
+            "w1": 20,
+            "w2": 30
+          },
+          "time": 0.75
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-01e1f49a3cd41a01",
+      "type": "wavemix",
+      "sha256": "c3d18d0e688d162b9df2a6f4643adbd25ada5c8a738031cace4404c84d3b6e6e",
+      "sha256Verified": true,
+      "comparisons": 489,
+      "maxAbsoluteError": 9.947598300641403e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "a1",
+          "clip": "sl1",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a1",
+          "clip": "sl1",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a1",
+          "clip": "sl1",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a2",
+          "clip": "sl2",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a2",
+          "clip": "sl2",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a2",
+          "clip": "sl2",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a3",
+          "clip": "sl3",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a3",
+          "clip": "sl3",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a3",
+          "clip": "sl3",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a4",
+          "clip": "sl4",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a4",
+          "clip": "sl4",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a4",
+          "clip": "sl4",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a5",
+          "clip": "sl5",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a5",
+          "clip": "sl5",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a5",
+          "clip": "sl5",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a6",
+          "clip": "sl6",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a6",
+          "clip": "sl6",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a6",
+          "clip": "sl6",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a7",
+          "clip": "sl7",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a7",
+          "clip": "sl7",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a7",
+          "clip": "sl7",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a8",
+          "clip": "sl8",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a8",
+          "clip": "sl8",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a8",
+          "clip": "sl8",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a9",
+          "clip": "sl9",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a9",
+          "clip": "sl9",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a9",
+          "clip": "sl9",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a10",
+          "clip": "sl10",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a10",
+          "clip": "sl10",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a10",
+          "clip": "sl10",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a11",
+          "clip": "sl11",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a11",
+          "clip": "sl11",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a11",
+          "clip": "sl11",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a12",
+          "clip": "sl12",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a12",
+          "clip": "sl12",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a12",
+          "clip": "sl12",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a13",
+          "clip": "sl13",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a13",
+          "clip": "sl13",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a13",
+          "clip": "sl13",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a14",
+          "clip": "sl14",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a14",
+          "clip": "sl14",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a14",
+          "clip": "sl14",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a15",
+          "clip": "sl15",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a15",
+          "clip": "sl15",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a15",
+          "clip": "sl15",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a16",
+          "clip": "sl16",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a16",
+          "clip": "sl16",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a16",
+          "clip": "sl16",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": -90,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl1 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl1 50",
+          "parameters": {
+            "a1": 50,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl1 100",
+          "parameters": {
+            "a1": 100,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl2 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl2 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 50,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl2 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 100,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl3 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl3 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 50,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl3 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 100,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl4 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl4 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 50,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl4 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 100,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl5 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl5 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 50,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl5 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 100,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl6 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl6 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 50,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl6 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 100,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl7 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl7 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 50,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl7 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 100,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl8 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 0,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl8 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 50,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl8 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 100,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl9 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 0,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl9 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 50,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl9 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 100,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl10 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl10 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 50,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl10 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 100,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl11 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl11 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 50,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl11 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 100,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl12 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl12 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 50,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl12 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 100,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl13 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl13 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 50,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl13 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 100,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl14 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl14 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 50,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl14 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 100,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl15 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl15 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 50,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl15 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 100,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl16 0",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl16 50",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl16 100",
+          "parameters": {
+            "a1": 0,
+            "a2": 0,
+            "a3": 0,
+            "a4": 0,
+            "a5": 0,
+            "a6": 0,
+            "a7": 0,
+            "a8": 75,
+            "a9": 75,
+            "a10": 0,
+            "a11": 0,
+            "a12": 0,
+            "a13": 0,
+            "a14": 0,
+            "a15": 0,
+            "a16": 100
+          },
+          "time": 0
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-420a639d05481e0f",
+      "type": "wavemix2",
+      "sha256": "9abdc397a89eace2b0496ef468229816bba822ff10cc039edea4a1a9e77105e2",
+      "sha256Verified": true,
+      "comparisons": 69,
+      "maxAbsoluteError": 5.551115123125783e-17,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "bandwidth",
+          "clip": "widthSlider",
+          "target": 1,
+          "actual": 1,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "bandwidth",
+          "clip": "widthSlider",
+          "target": 3,
+          "actual": 3,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "bandwidth",
+          "clip": "widthSlider",
+          "target": 5,
+          "actual": 5,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "center",
+          "clip": "centerSlider",
+          "target": 15,
+          "actual": 15,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "center",
+          "clip": "centerSlider",
+          "target": 30,
+          "actual": 30,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "center",
+          "clip": "centerSlider",
+          "target": 45,
+          "actual": 45,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "bandwidth": 2.6,
+            "center": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "widthSlider 1",
+          "parameters": {
+            "bandwidth": 1,
+            "center": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "widthSlider 3",
+          "parameters": {
+            "bandwidth": 3,
+            "center": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "widthSlider 5",
+          "parameters": {
+            "bandwidth": 5,
+            "center": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "centerSlider 15",
+          "parameters": {
+            "bandwidth": 2.6,
+            "center": 15
+          },
+          "time": 0
+        },
+        {
+          "name": "centerSlider 30",
+          "parameters": {
+            "bandwidth": 2.6,
+            "center": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "centerSlider 45",
+          "parameters": {
+            "bandwidth": 2.6,
+            "center": 45
+          },
+          "time": 0
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-5d4dc50064b241a0",
+      "type": "wavemixdispersion",
+      "sha256": "a55ea6d9b1d634d89c3ddf8ec8ff014fe16a0c313d19d5ba799e0fd304ac1483",
+      "sha256Verified": true,
+      "comparisons": 450,
+      "maxAbsoluteError": 1.0658141036401503e-13,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "a1",
+          "clip": "sl1",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a1",
+          "clip": "sl1",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a1",
+          "clip": "sl1",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a2",
+          "clip": "sl2",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a2",
+          "clip": "sl2",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a2",
+          "clip": "sl2",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a3",
+          "clip": "sl3",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a3",
+          "clip": "sl3",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a3",
+          "clip": "sl3",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a4",
+          "clip": "sl4",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a4",
+          "clip": "sl4",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a4",
+          "clip": "sl4",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a5",
+          "clip": "sl5",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a5",
+          "clip": "sl5",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a5",
+          "clip": "sl5",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a6",
+          "clip": "sl6",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a6",
+          "clip": "sl6",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a6",
+          "clip": "sl6",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a7",
+          "clip": "sl7",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a7",
+          "clip": "sl7",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a7",
+          "clip": "sl7",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a8",
+          "clip": "sl8",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a8",
+          "clip": "sl8",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a8",
+          "clip": "sl8",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a9",
+          "clip": "sl9",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a9",
+          "clip": "sl9",
+          "target": 50,
+          "actual": 50,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "a9",
+          "clip": "sl9",
+          "target": 100,
+          "actual": 100,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk5",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk6",
+          "target": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk7",
+          "target": 7,
+          "actual": 7,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk8",
+          "target": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "kind": "original_play",
+          "timeBefore": 0,
+          "timeAfter": 0.7,
+          "passed": true
+        },
+        {
+          "kind": "original_pause",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl1 0",
+          "parameters": {
+            "preset": 1,
+            "a1": 0,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl1 50",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl1 100",
+          "parameters": {
+            "preset": 1,
+            "a1": 100,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl2 0",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 0,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl2 50",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl2 100",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 100,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl3 0",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 0,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl3 50",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl3 100",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 100,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl4 0",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 0,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl4 50",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl4 100",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 100,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl5 0",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 0,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl5 50",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl5 100",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 100,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl6 0",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 0,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl6 50",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl6 100",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 100,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl7 0",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 0,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl7 50",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl7 100",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 100,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl8 0",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 0,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl8 50",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl8 100",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 100,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl9 0",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "sl9 50",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "sl9 100",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 100
+          },
+          "time": 0
+        },
+        {
+          "name": "chk1",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0
+        },
+        {
+          "name": "chk2",
+          "parameters": {
+            "preset": 2,
+            "a1": 40,
+            "a2": 43,
+            "a3": 45,
+            "a4": 48,
+            "a5": 50,
+            "a6": 53,
+            "a7": 55,
+            "a8": 58,
+            "a9": 60
+          },
+          "time": 0
+        },
+        {
+          "name": "chk3",
+          "parameters": {
+            "preset": 3,
+            "a1": 56,
+            "a2": 54,
+            "a3": 53,
+            "a4": 51,
+            "a5": 50,
+            "a6": 49,
+            "a7": 48,
+            "a8": 47,
+            "a9": 46
+          },
+          "time": 0
+        },
+        {
+          "name": "chk4",
+          "parameters": {
+            "preset": 4,
+            "a1": 45,
+            "a2": 46,
+            "a3": 47,
+            "a4": 49,
+            "a5": 50,
+            "a6": 51,
+            "a7": 52,
+            "a8": 54,
+            "a9": 55
+          },
+          "time": 0
+        },
+        {
+          "name": "chk5",
+          "parameters": {
+            "preset": 5,
+            "a1": 63,
+            "a2": 59,
+            "a3": 56,
+            "a4": 53,
+            "a5": 50,
+            "a6": 48,
+            "a7": 45,
+            "a8": 43,
+            "a9": 42
+          },
+          "time": 0
+        },
+        {
+          "name": "chk6",
+          "parameters": {
+            "preset": 6,
+            "a1": 88,
+            "a2": 76,
+            "a3": 67,
+            "a4": 58,
+            "a5": 50,
+            "a6": 43,
+            "a7": 36,
+            "a8": 30,
+            "a9": 25
+          },
+          "time": 0
+        },
+        {
+          "name": "chk7",
+          "parameters": {
+            "preset": 7,
+            "a1": 30,
+            "a2": 39,
+            "a3": 45,
+            "a4": 49,
+            "a5": 50,
+            "a6": 49,
+            "a7": 45,
+            "a8": 39,
+            "a9": 30
+          },
+          "time": 0
+        },
+        {
+          "name": "chk8",
+          "parameters": {
+            "preset": 8,
+            "a1": 70,
+            "a2": 61,
+            "a3": 55,
+            "a4": 51,
+            "a5": 50,
+            "a6": 51,
+            "a7": 55,
+            "a8": 61,
+            "a9": 70
+          },
+          "time": 0
+        },
+        {
+          "name": "actual play",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0.35
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0.7
+        },
+        {
+          "name": "actual pause",
+          "parameters": {
+            "preset": 1,
+            "a1": 50,
+            "a2": 50,
+            "a3": 50,
+            "a4": 50,
+            "a5": 50,
+            "a6": 50,
+            "a7": 50,
+            "a8": 50,
+            "a9": 50
+          },
+          "time": 0.75
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-d1d9f570ca5d2720",
+      "type": "harmonichermite",
+      "sha256": "933f69dff84267e205ad239caa5a9822c8da464626710d27580c12476b903bb3",
+      "sha256Verified": true,
+      "comparisons": 190,
+      "maxAbsoluteError": 0.041499105018715454,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk0",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk1",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk2",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk3",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk4",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk5",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk6",
+          "target": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk7",
+          "target": 7,
+          "actual": 7,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk8",
+          "target": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk9",
+          "target": 9,
+          "actual": 9,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk10",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk11",
+          "target": 11,
+          "actual": 11,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk12",
+          "target": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk13",
+          "target": 13,
+          "actual": 13,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk14",
+          "target": 14,
+          "actual": 14,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk15",
+          "target": 15,
+          "actual": 15,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk16",
+          "target": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "kind": "original_mode_checkbox",
+          "clip": "chk17",
+          "target": 17,
+          "actual": 17,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "mode": 7
+          },
+          "time": 1.1
+        },
+        {
+          "name": "chk0",
+          "parameters": {
+            "mode": 0
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk1",
+          "parameters": {
+            "mode": 1
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk2",
+          "parameters": {
+            "mode": 2
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk3",
+          "parameters": {
+            "mode": 3
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk4",
+          "parameters": {
+            "mode": 4
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk5",
+          "parameters": {
+            "mode": 5
+          },
+          "time": 0.7
+        },
+        {
+          "name": "chk6",
+          "parameters": {
+            "mode": 6
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk7",
+          "parameters": {
+            "mode": 7
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk8",
+          "parameters": {
+            "mode": 8
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk9",
+          "parameters": {
+            "mode": 9
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk10",
+          "parameters": {
+            "mode": 10
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk11",
+          "parameters": {
+            "mode": 11
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk12",
+          "parameters": {
+            "mode": 12
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk13",
+          "parameters": {
+            "mode": 13
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk14",
+          "parameters": {
+            "mode": 14
+          },
+          "time": 0.7
+        },
+        {
+          "name": "chk15",
+          "parameters": {
+            "mode": 15
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk16",
+          "parameters": {
+            "mode": 16
+          },
+          "time": 0.8
+        },
+        {
+          "name": "chk17",
+          "parameters": {
+            "mode": 17
+          },
+          "time": 0.8
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-09a05b2b617f6d26",
+      "type": "laguerreradial",
+      "sha256": "74f4348b0ecc8a1df3c10f2cd973f943d03fde9242ea8997c8f001a7ea70ab5c",
+      "sha256Verified": true,
+      "comparisons": 50,
+      "maxAbsoluteError": 2.3592239273284576e-16,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "n",
+          "clip": "nSlider",
+          "target": 1,
+          "actual": 1,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "n",
+          "clip": "nSlider",
+          "target": 4,
+          "actual": 4,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "n",
+          "clip": "nSlider",
+          "target": 7,
+          "actual": 7,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "l",
+          "clip": "lSlider",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "n": 1,
+            "l": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "nSlider 1",
+          "parameters": {
+            "n": 1,
+            "l": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "nSlider 4",
+          "parameters": {
+            "n": 4,
+            "l": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "nSlider 7",
+          "parameters": {
+            "n": 7,
+            "l": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "lSlider 0",
+          "parameters": {
+            "n": 1,
+            "l": 0
+          },
+          "time": 0
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    },
+    {
+      "id": "flash-d33d3a108845b4a6",
+      "type": "sphericalharmonics",
+      "sha256": "3d2a164ffb4befcd07ced75821806ed897055b1f4e05b351c7240276f4aeffd0",
+      "sha256Verified": true,
+      "comparisons": 67,
+      "maxAbsoluteError": 1.1102230246251565e-15,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_slider_pointer",
+          "key": "l",
+          "clip": "lSlider",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "l",
+          "clip": "lSlider",
+          "target": 4,
+          "actual": 4,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "l",
+          "clip": "lSlider",
+          "target": 7,
+          "actual": 7,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "m",
+          "clip": "mSlider",
+          "target": 0,
+          "actual": 0,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "m",
+          "clip": "mSlider",
+          "target": 2,
+          "actual": 2,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_slider_pointer",
+          "key": "m",
+          "clip": "mSlider",
+          "target": 3,
+          "actual": 3,
+          "sourceRotationDegrees": 0,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "l": 3,
+            "m": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "lSlider 0",
+          "parameters": {
+            "l": 0,
+            "m": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "lSlider 4",
+          "parameters": {
+            "l": 4,
+            "m": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "lSlider 7",
+          "parameters": {
+            "l": 7,
+            "m": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "mSlider 0",
+          "parameters": {
+            "l": 3,
+            "m": 0
+          },
+          "time": 0
+        },
+        {
+          "name": "mSlider 2",
+          "parameters": {
+            "l": 3,
+            "m": 2
+          },
+          "time": 0
+        },
+        {
+          "name": "mSlider 3",
+          "parameters": {
+            "l": 3,
+            "m": 3
+          },
+          "time": 0
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+      "passed": true
+    }
+  ]
+}

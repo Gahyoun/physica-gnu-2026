@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-06T15:07:50.878Z",
+  "date": "2026-10-06T15:53:49.205Z",
   "total": 518,
-  "htmlImplemented": 197,
-  "htmlPending": 321,
+  "htmlImplemented": 214,
+  "htmlPending": 304,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 591,
-    "observed": 591,
+    "expected": 642,
+    "observed": 642,
     "viewports": [
       320,
       768,
@@ -22,11 +22,11 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 129,
-    "numericalComparisons": 732600,
-    "numericalSampleComparisons": 534000,
+    "numericalFilesPassed": 146,
+    "numericalComparisons": 736290,
+    "numericalSampleComparisons": 537690,
     "additionalCombinationComparisons": 198600,
-    "finiteCombinationScopesPassed": 4,
+    "finiteCombinationScopesPassed": 5,
     "rootTimelineFilesPassed": 29,
     "rootTimelineFrames": 805,
     "sliderEndpointChecks": 250,
@@ -4500,17 +4500,26 @@
       "actionScript": 2,
       "scriptFiles": 29,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-5-2.html#native-quantum-flash-d1d9f570ca5d2720",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-d1d9f570ca5d2720",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 190,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -4520,12 +4529,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 15352,
+        "maxAbsoluteError": 1.1234069230425803e-13,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1209a261b94cf80e",
@@ -4953,17 +4973,26 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-3.html#native-quantum-flash-09a05b2b617f6d26",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-09a05b2b617f6d26",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 50,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -4973,12 +5002,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 5858,
+        "maxAbsoluteError": 6.938893903907228e-17,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-fb7365a95caba392",
@@ -5157,17 +5197,26 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-4.html#native-quantum-flash-d33d3a108845b4a6",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-d33d3a108845b4a6",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 67,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -5177,12 +5226,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 7474,
+        "maxAbsoluteError": 1.6653345369377348e-16,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-ad95a3397c4300e3",
@@ -5949,17 +6009,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-4-6.html#native-quantum-flash-9100fc0ef2626c09",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-9100fc0ef2626c09",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 132,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -5969,12 +6038,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 36966,
+        "maxAbsoluteError": 4.13701838897218e-8,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a7fc2a9c6abc8f97",
@@ -5987,17 +6067,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-4-2.html#native-quantum-flash-a7fc2a9c6abc8f97",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a7fc2a9c6abc8f97",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 300,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6007,12 +6096,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 9699636,
+        "maxAbsoluteError": 2.220446049250313e-16,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a7c3c975d17f7e73",
@@ -6025,17 +6125,26 @@
       "actionScript": 2,
       "scriptFiles": 20,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-4-4.html#native-quantum-flash-a7c3c975d17f7e73",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a7c3c975d17f7e73",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 240,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6045,12 +6154,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 93728,
+        "maxAbsoluteError": 7.105427357601002e-15,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-cde8693c6c86e299",
@@ -6063,17 +6183,26 @@
       "actionScript": 2,
       "scriptFiles": 19,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-4-7.html#native-quantum-flash-cde8693c6c86e299",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-cde8693c6c86e299",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 243,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6083,12 +6212,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 485612,
+        "maxAbsoluteError": 3.3771577478969306e-8,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a93515d3ae34b2ca",
@@ -6101,17 +6241,26 @@
       "actionScript": 2,
       "scriptFiles": 18,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-4-5.html#native-quantum-flash-a93515d3ae34b2ca",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a93515d3ae34b2ca",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 186,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6121,12 +6270,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 244016,
+        "maxAbsoluteError": 2.1149748619109232e-14,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-48fb1fd8001a4ea9",
@@ -6139,17 +6299,26 @@
       "actionScript": 2,
       "scriptFiles": 14,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-4-2.html#native-quantum-flash-48fb1fd8001a4ea9",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-48fb1fd8001a4ea9",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 180,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6159,12 +6328,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 5656,
+        "maxAbsoluteError": 2.220446049250313e-15,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-ba7a9fe7bc7b2293",
@@ -6177,18 +6357,38 @@
       "actionScript": 2,
       "scriptFiles": 19,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-4-3.html#native-quantum-flash-ba7a9fe7bc7b2293",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-ba7a9fe7bc7b2293",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
-        "finiteCombinationEvidence": [],
+        "numericalPassed": true,
+        "numericalComparisons": 612,
+        "finiteCombinationEvidence": [
+          {
+            "report": "docs/quantum-runtime-report.json",
+            "sha256": "d6d238e7be2730331ab358c49128dc87785a01fc58110953054e3978a8222e4e",
+            "passed": true,
+            "expected": 25,
+            "observed": 25,
+            "complete": true,
+            "scope": "All 25 n1,n2 mode selections through original checkbox clicks, nine wave positions at sampled original times. Play/pause transitions and continuous time histories are separate; no claim of full waveform/runtime equivalence.",
+            "comparisonsIncludedInPrimaryNumerical": true
+          }
+        ],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
         "sliderEndpointChecks": 0,
@@ -6197,12 +6397,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 29088,
+        "maxAbsoluteError": 1.609823385706477e-15,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-39ca829162ba4b56",
@@ -6215,17 +6426,26 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-4-1.html#native-quantum-flash-39ca829162ba4b56",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-39ca829162ba4b56",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 2,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6235,12 +6455,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 808,
+        "maxAbsoluteError": 0,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-353b0298fae417b7",
@@ -8847,17 +9078,26 @@
       "actionScript": 2,
       "scriptFiles": 28,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-3-5-1.html#native-quantum-flash-5d4dc50064b241a0",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-5d4dc50064b241a0",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 450,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -8867,12 +9107,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 741744,
+        "maxAbsoluteError": 0,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c90349afd6430c0c",
@@ -8940,17 +9191,26 @@
       "actionScript": 2,
       "scriptFiles": 24,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-3-3-1.html#native-quantum-flash-01e1f49a3cd41a01",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-01e1f49a3cd41a01",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 489,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -8960,12 +9220,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 68074,
+        "maxAbsoluteError": 0,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-420a639d05481e0f",
@@ -8978,17 +9249,26 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-3-3-2.html#native-quantum-flash-420a639d05481e0f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-420a639d05481e0f",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 69,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -8998,12 +9278,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 10706,
+        "maxAbsoluteError": 0,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-8be3cc20b646c2de",
@@ -9070,17 +9361,26 @@
       "actionScript": 2,
       "scriptFiles": 13,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-3-2-3.html#native-quantum-flash-0e75decee513ac42",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-0e75decee513ac42",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 144,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -9090,12 +9390,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 4040,
+        "maxAbsoluteError": 1.1102230246251565e-16,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-ccfda3270970bbae",
@@ -9108,17 +9419,26 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-3-2-1.html#native-quantum-flash-ccfda3270970bbae",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-ccfda3270970bbae",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 36,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -9128,12 +9448,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 229270,
+        "maxAbsoluteError": 2.1094237467877974e-15,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-93a971b4d807ed76",
@@ -21339,17 +21670,26 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-2-1.html#native-quantum-flash-eb06907beb17a943",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-eb06907beb17a943",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 300,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -21359,12 +21699,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original numerical functions, no source artwork or scripts published",
+        "comparisons": 101000,
+        "maxAbsoluteError": 7.105427357601002e-15,
+        "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted.",
+        "report": "docs/quantum-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/quantum-ui-report.json",
+        "viewports": [
+          320,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-df88a01f28e2add7",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06T15:01:12.910Z",
+  "date": "2026-10-06T15:52:56.560Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -19,18 +19,20 @@
     "assets/moire-controls.mjs": "c44440da93f658048e3e010f12af5799751ac7483b58666a1ae0abc49e01a970",
     "assets/scene-physics.mjs": "ca7c46f2a70cd69cba9336c5317221ee0bfce5756a23887debd4811211377a3a",
     "assets/scene-specs.mjs": "7712e3123e9d74aaf0448a3e6ecc5a7e5909086f50be77251419c5342a60a4a2",
-    "assets/native-chain.mjs": "a6925476cd97e102ea9f512490e7e43f99b74638f8192df5996db773a2cb53fc"
+    "assets/native-chain.mjs": "a6925476cd97e102ea9f512490e7e43f99b74638f8192df5996db773a2cb53fc",
+    "assets/quantum-physics.mjs": "e5beba1ef9093a27890ebf248ba60af2d254ba39615c8c26fc9150e3edc018e5",
+    "assets/quantum-specs.mjs": "15979194f35e3c65ca69ac2adf47aac17eff73b078f19e64a70002d047885413"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 129,
-  "numericalFilesPassed": 129,
-  "numericalSampleComparisons": 534000,
+  "numericalFiles": 146,
+  "numericalFilesPassed": 146,
+  "numericalSampleComparisons": 537690,
   "combinationComparisons": 198600,
-  "numericalComparisons": 732600,
-  "finiteCombinationScopes": 4,
-  "finiteCombinationScopesPassed": 4,
+  "numericalComparisons": 736290,
+  "finiteCombinationScopes": 5,
+  "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
   "rootTimelineFilesPassed": 29,
   "rootTimelineFrames": 805,
@@ -2331,7 +2333,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "933f69dff84267e205ad239caa5a9822c8da464626710d27580c12476b903bb3",
+        "passed": true,
+        "comparisons": 190,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 0.041499105018715454
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2548,7 +2557,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "74f4348b0ecc8a1df3c10f2cd973f943d03fde9242ea8997c8f001a7ea70ab5c",
+        "passed": true,
+        "comparisons": 50,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 2.3592239273284576e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2645,7 +2661,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "3d2a164ffb4befcd07ced75821806ed897055b1f4e05b351c7240276f4aeffd0",
+        "passed": true,
+        "comparisons": 67,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 1.1102230246251565e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3048,7 +3071,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "5e5640cebbd273e47ab4f7cb90b8445731d56a2270e97170a4ed4da2646a450a",
+        "passed": true,
+        "comparisons": 132,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 3.1810981226954027e-7
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3067,7 +3097,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "52f330d64edd0ef9b9a70995a52f4c336f80502a9af16606d2afe820bf6c0898",
+        "passed": true,
+        "comparisons": 300,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 5.551115123125783e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3086,7 +3123,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "bb9d5844cb398fcb63434d7620e14c9e295811fd22607052489a06e9328aa6c4",
+        "passed": true,
+        "comparisons": 240,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 6.394884621840902e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3105,7 +3149,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "458afb9c601dde48179538edbf2c222e13345b04d791bbcb8e72440563b9946c",
+        "passed": true,
+        "comparisons": 243,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 5.329070518200751e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3124,7 +3175,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "37b81e9e27c56259f1e5b63148895ecc44b999415cba58d71629263a48d3a9b7",
+        "passed": true,
+        "comparisons": 186,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 4.884981308350689e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3143,7 +3201,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "8a8868a2ca2804edcb48ab4ce2a9229b074983152d06c5c868de63fd8474bcf9",
+        "passed": true,
+        "comparisons": 180,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 4.618527782440651e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3151,7 +3216,18 @@
       "id": "flash-ba7a9fe7bc7b2293",
       "sha256": "d6d238e7be2730331ab358c49128dc87785a01fc58110953054e3978a8222e4e",
       "fullEquivalence": false,
-      "finiteCombinationEvidence": [],
+      "finiteCombinationEvidence": [
+        {
+          "report": "docs/quantum-runtime-report.json",
+          "sha256": "d6d238e7be2730331ab358c49128dc87785a01fc58110953054e3978a8222e4e",
+          "passed": true,
+          "expected": 25,
+          "observed": 25,
+          "complete": true,
+          "scope": "All 25 n1,n2 mode selections through original checkbox clicks, nine wave positions at sampled original times. Play/pause transitions and continuous time histories are separate; no claim of full waveform/runtime equivalence.",
+          "comparisonsIncludedInPrimaryNumerical": true
+        }
+      ],
       "originalPlayback": {
         "report": "docs/flash-runtime-report.json",
         "sha256": "d6d238e7be2730331ab358c49128dc87785a01fc58110953054e3978a8222e4e",
@@ -3162,7 +3238,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "d6d238e7be2730331ab358c49128dc87785a01fc58110953054e3978a8222e4e",
+        "passed": true,
+        "comparisons": 612,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 7.638334409421077e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3181,7 +3264,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "46ade4a2638662bc03976a881f102bc1881ab7cf40fab4f154f8812db3810180",
+        "passed": true,
+        "comparisons": 2,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 2.220446049250313e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4445,7 +4535,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "a55ea6d9b1d634d89c3ddf8ec8ff014fe16a0c313d19d5ba799e0fd304ac1483",
+        "passed": true,
+        "comparisons": 450,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 1.0658141036401503e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4490,7 +4587,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "c3d18d0e688d162b9df2a6f4643adbd25ada5c8a738031cace4404c84d3b6e6e",
+        "passed": true,
+        "comparisons": 489,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 9.947598300641403e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4509,7 +4613,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "9abdc397a89eace2b0496ef468229816bba822ff10cc039edea4a1a9e77105e2",
+        "passed": true,
+        "comparisons": 69,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 5.551115123125783e-17
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4554,7 +4665,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "6d39d5644a0ca92a4870edf577d0585b77f304398e84482a35e2aee05965c104",
+        "passed": true,
+        "comparisons": 144,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 4.973799150320701e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4573,7 +4691,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "8dc0b9e35b310ce65a5c5627a9a0d4c82c6e53d92e5f77e3443f045c78eeeaf2",
+        "passed": true,
+        "comparisons": 36,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 3.502753642692369e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10990,7 +11115,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/quantum-runtime-report.json",
+        "sha256": "57eba7abe54def6627d72814e4c97fb7e7be61bdb9e5489b85b7f77413fe3452",
+        "passed": true,
+        "comparisons": 300,
+        "scope": "Nine original wave-function positions after default and each original slider min/mid/max (other controls reset to default), actual mode checkbox clicks, interval drags, play/pause or random reload as applicable. Discrete waveform modes are all selected; multi-slider combinations and arbitrary time histories are not exhausted. Queries may update temporary numerical variables.",
+        "maxAbsoluteError": 1.1546319456101628e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },

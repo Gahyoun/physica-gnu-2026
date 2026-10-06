@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-06T15:44:41.677Z",
+  "nativeModelHashes": {
+    "assets/quantum-physics.mjs": "e5beba1ef9093a27890ebf248ba60af2d254ba39615c8c26fc9150e3edc018e5",
+    "assets/quantum-specs.mjs": "15979194f35e3c65ca69ac2adf47aac17eff73b078f19e64a70002d047885413"
+  },
+  "method": "Private original numerical functions, no source artwork or scripts published",
+  "files": 17,
+  "comparisons": 11779028,
+  "results": [
+    {
+      "id": "flash-39ca829162ba4b56",
+      "type": "tftn",
+      "comparisons": 808,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-48fb1fd8001a4ea9",
+      "type": "standingwave",
+      "comparisons": 5656,
+      "maxAbsoluteError": 2.220446049250313e-15,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 7,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-a7fc2a9c6abc8f97",
+      "type": "boxprobality",
+      "comparisons": 9699636,
+      "maxAbsoluteError": 2.220446049250313e-16,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 8003,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-ba7a9fe7bc7b2293",
+      "type": "standingwavemix",
+      "comparisons": 29088,
+      "maxAbsoluteError": 1.609823385706477e-15,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 36,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-a7c3c975d17f7e73",
+      "type": "planestate",
+      "comparisons": 93728,
+      "maxAbsoluteError": 7.105427357601002e-15,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 116,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-a93515d3ae34b2ca",
+      "type": "potentialstep",
+      "comparisons": 244016,
+      "maxAbsoluteError": 2.1149748619109232e-14,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 302,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-9100fc0ef2626c09",
+      "type": "barriergraph",
+      "comparisons": 36966,
+      "maxAbsoluteError": 4.13701838897218e-8,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 183,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-cde8693c6c86e299",
+      "type": "potentialbarrier",
+      "comparisons": 485612,
+      "maxAbsoluteError": 3.3771577478969306e-8,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [
+        {
+          "cases": 2,
+          "description": "At E=V the native barrier uses the continuous linear threshold wave instead of cancellation of huge original A/B coefficients; only reflection/transmission are compared at that boundary."
+        }
+      ],
+      "parameterSets": 603,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-0e75decee513ac42",
+      "type": "complexwave",
+      "comparisons": 4040,
+      "maxAbsoluteError": 1.1102230246251565e-16,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 5,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-ccfda3270970bbae",
+      "type": "probality",
+      "comparisons": 229270,
+      "maxAbsoluteError": 2.1094237467877974e-15,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1135,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-eb06907beb17a943",
+      "type": "wavepacket",
+      "comparisons": 101000,
+      "maxAbsoluteError": 7.105427357601002e-15,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 125,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-01e1f49a3cd41a01",
+      "type": "wavemix",
+      "comparisons": 68074,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 337,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-420a639d05481e0f",
+      "type": "wavemix2",
+      "comparisons": 10706,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 53,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-5d4dc50064b241a0",
+      "type": "wavemixdispersion",
+      "comparisons": 741744,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 918,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-d1d9f570ca5d2720",
+      "type": "harmonichermite",
+      "comparisons": 15352,
+      "maxAbsoluteError": 1.1234069230425803e-13,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 19,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-09a05b2b617f6d26",
+      "type": "laguerreradial",
+      "comparisons": 5858,
+      "maxAbsoluteError": 6.938893903907228e-17,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 29,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    },
+    {
+      "id": "flash-d33d3a108845b4a6",
+      "type": "sphericalharmonics",
+      "comparisons": 7474,
+      "maxAbsoluteError": 1.6653345369377348e-16,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 37,
+      "scope": "Original private numerical functions versus independent HTML equations: every declared single-control level with other controls at default, 101 spatial samples and four declared times for animated models. All 25 two-state tuples, 28 radial tuples, 36 nonnegative angular tuples and eight dispersion presets additionally included. Continuous simultaneous slider combinations are not exhausted."
+    }
+  ]
+}
