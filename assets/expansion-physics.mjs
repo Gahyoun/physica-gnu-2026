@@ -37,13 +37,13 @@ export function moleculeState(type,p,n){
  if(type==='laser_CO2N2'){const a=25*sin(.49*n);return {positions:[[-100+a,0],[100-a,0]],displacements:[a,-a],centre:0};}
  const mode=p.mode??0,a=25*sin(([.13,.25,.5])[mode]*n),positions=mode===0?[[-100,a],[0,-a],[100,a]]:mode===1?[[-100+a,0],[0,0],[100-a,0]]:[[-100+a,0],[-a,0],[100+a,0]];return {positions,displacements:mode===0?[a,-a,a]:mode===1?[a,0,-a]:[a,-a,a],centre:0};
 }
-export function pulse(shape){return Array.from({length:68},(_,i)=>{let v=0;if(shape===0){if(i>=46)v=i<58?50*(i-46)/10:50*(68-i)/10;}else if(shape===1){if(i>=38)v=i<48?50*(i-38)/10:i<58?50:50*(68-i)/10;}else if(i>=68-(shape===2?22:30))v=50*sin((i-68-(shape===2?18:26))/(shape===2?20:14)*3.1415926);if(shape>=2&&i===67)v=0;return v;});}
+export function pulse(shape,amplitude=50){return Array.from({length:68},(_,i)=>{let v=0;if(shape===0){if(i>=46)v=i<58?amplitude*(i-46)/10:amplitude*(68-i)/10;}else if(shape===1){if(i>=38)v=i<48?amplitude*(i-38)/10:i<58?amplitude:amplitude*(68-i)/10;}else if(i>=68-(shape===2?22:30))v=amplitude*sin((i-68-(shape===2?18:26))/(shape===2?20:14)*3.1415926);if(shape>=2&&i===67)v=0;return v;});}
 export function incidentShape(shape,sign,x){const a=sign? -48:48;if(shape===0)return x< -200&&x> -350?a*sin(tau*(x+350)/150):0;if(shape===1)return x< -200&&x> -350?a*sin(tau*(x+350)/300):0;if(shape===2)return x< -200&&x> -300?a*(1-Math.abs((x+250)/50)):0;if(shape===3)return x< -200&&x> -400?a*Math.min((x+400)/50,1,(-x-200)/50):0;return x< -200?48*sin(tau*(x-300)/100):0;}
 export function waveValue(type,p,n,x){
  if(type==='phasorprin2Inv'){const phase=tau/p.wavelength*(20*n*.05-x)+.1;return [100*sin(phase),100*cos(phase)*(p.sign??-1)];}
  if(type==='harmonicwave2')return [x<100?50*sin(6.283*x/40):-50*sin(6.283*x/30)];
  if(type==='waveexpweb')return [p.amplitude*sin(6.283185307*(x/p.wavelength-p.frequency*n*.05))];
- if(type==='reflect1'||type==='reflect2'){const q=pulse(p.shape),a=q[x+n]??0,b=(type==='reflect1'?-1:1)*(q[n-x]??0);return [a,b,a+b];}
+ if(type==='reflect1'||type==='reflect2'){const q=pulse(p.shape,type==='reflect2'?48:50),a=q[x+n]??0,b=(type==='reflect1'?-1:1)*(q[n-x]??0);return [a,b,a+b];}
  const a=incidentShape(p.shape1,p.direction1,x-10*n),b=incidentShape(p.shape2,p.direction2,-x-10*n);return [a,b,a+b];
 }
 export function moireGeometry(type,p,n=0){

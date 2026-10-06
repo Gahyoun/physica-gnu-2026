@@ -33,3 +33,5 @@ test('plane wave advances normal to the planes and wraps its source 20-step cycl
  assert.deepEqual(structureFaces('wavevector',19),structureData.wavevector.faces);
 });
 test('geometric moire controls vary pattern rather than treating coverage as optical intensity',()=>{const s=spec('moireint4'),p=defaults(s);assert.equal(moireGeometry(s.type,{...p,count:10}).sources.length,10);assert.equal(moireGeometry('moire3',{divisions:105}).polys.length,205);assert.notDeepEqual(moireGeometry('moire3',{divisions:105},0).polys,moireGeometry('moire3',{divisions:105},10).polys);});
+
+test('free end preserves original amplitude 48 while fixed end uses 50',()=>{near(waveValue('reflect2',{shape:1},48,0)[0],48);near(waveValue('reflect2',{shape:1},48,0)[2],96);near(waveValue('reflect1',{shape:1},48,0)[0],50);near(waveValue('reflect1',{shape:1},48,0)[2],0);});

@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-06T05:25:44.776Z",
+  "nativeModelHashes": {
+    "assets/expansion-physics.mjs": "74df25b9354f1267d858cb5aa8392237aa1e19b843f726352f6539d806c63db8",
+    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
+  },
+  "method": "Original Ruffle plane click readouts and marker coordinates versus independent HTML complex-number model",
+  "files": 1,
+  "comparisons": 364,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-8be3cc20b646c2de",
+      "kind": "expansion-flash-8be3cc20b646c2de",
+      "type": "complex",
+      "sha256": "5c072685e172472b1475d28c64ad249308fb41ccbc0035466a401e039641da0e",
+      "sha256Verified": true,
+      "diagnosticSha256": "77897284a9c3d166d367e056e1c3d2d71c6ffcc875a1288bd13309563c2eba06",
+      "comparisons": 364,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "real": 0.5,
+          "imag": 0.5,
+          "originalReal": 0.5,
+          "originalImag": 0.5,
+          "originalArgument": "0.79  (45도)"
+        },
+        {
+          "name": "plane click -0.7,-0.7",
+          "real": -0.7,
+          "imag": -0.7,
+          "originalReal": -0.7,
+          "originalImag": -0.7,
+          "originalArgument": "-2.36  (-135도)"
+        },
+        {
+          "name": "plane click -0.7,-0.5",
+          "real": -0.7,
+          "imag": -0.5,
+          "originalReal": -0.7,
+          "originalImag": -0.5,
+          "originalArgument": "-2.52  (-144.5도)"
+        },
+        {
+          "name": "plane click -0.7,0",
+          "real": -0.7,
+          "imag": 0,
+          "originalReal": -0.7,
+          "originalImag": 0,
+          "originalArgument": "3.14  (180도)"
+        },
+        {
+          "name": "plane click -0.7,0.5",
+          "real": -0.7,
+          "imag": 0.5,
+          "originalReal": -0.7,
+          "originalImag": 0.5,
+          "originalArgument": "2.52  (144.5도)"
+        },
+        {
+          "name": "plane click -0.7,0.7",
+          "real": -0.7,
+          "imag": 0.7,
+          "originalReal": -0.7,
+          "originalImag": 0.7,
+          "originalArgument": "2.36  (135도)"
+        },
+        {
+          "name": "plane click -0.5,-0.7",
+          "real": -0.5,
+          "imag": -0.7,
+          "originalReal": -0.5,
+          "originalImag": -0.7,
+          "originalArgument": "-2.19  (-125.5도)"
+        },
+        {
+          "name": "plane click -0.5,-0.5",
+          "real": -0.5,
+          "imag": -0.5,
+          "originalReal": -0.5,
+          "originalImag": -0.5,
+          "originalArgument": "-2.36  (-135도)"
+        },
+        {
+          "name": "plane click -0.5,0",
+          "real": -0.5,
+          "imag": 0,
+          "originalReal": -0.5,
+          "originalImag": 0,
+          "originalArgument": "3.14  (180도)"
+        },
+        {
+          "name": "plane click -0.5,0.5",
+          "real": -0.5,
+          "imag": 0.5,
+          "originalReal": -0.5,
+          "originalImag": 0.5,
+          "originalArgument": "2.36  (135도)"
+        },
+        {
+          "name": "plane click -0.5,0.7",
+          "real": -0.5,
+          "imag": 0.7,
+          "originalReal": -0.5,
+          "originalImag": 0.7,
+          "originalArgument": "2.19  (125.5도)"
+        },
+        {
+          "name": "plane click 0,-0.7",
+          "real": 0,
+          "imag": -0.7,
+          "originalReal": 0,
+          "originalImag": -0.7,
+          "originalArgument": "-1.57  (-90도)"
+        },
+        {
+          "name": "plane click 0,-0.5",
+          "real": 0,
+          "imag": -0.5,
+          "originalReal": 0,
+          "originalImag": -0.5,
+          "originalArgument": "-1.57  (-90도)"
+        },
+        {
+          "name": "plane click 0,0",
+          "real": 0,
+          "imag": 0,
+          "originalReal": 0,
+          "originalImag": 0,
+          "originalArgument": "0  (0도)"
+        },
+        {
+          "name": "plane click 0,0.5",
+          "real": 0,
+          "imag": 0.5,
+          "originalReal": 0,
+          "originalImag": 0.5,
+          "originalArgument": "1.57  (90도)"
+        },
+        {
+          "name": "plane click 0,0.7",
+          "real": 0,
+          "imag": 0.7,
+          "originalReal": 0,
+          "originalImag": 0.7,
+          "originalArgument": "1.57  (90도)"
+        },
+        {
+          "name": "plane click 0.5,-0.7",
+          "real": 0.5,
+          "imag": -0.7,
+          "originalReal": 0.5,
+          "originalImag": -0.7,
+          "originalArgument": "-0.95  (-54.5도)"
+        },
+        {
+          "name": "plane click 0.5,-0.5",
+          "real": 0.5,
+          "imag": -0.5,
+          "originalReal": 0.5,
+          "originalImag": -0.5,
+          "originalArgument": "-0.79  (-45도)"
+        },
+        {
+          "name": "plane click 0.5,0",
+          "real": 0.5,
+          "imag": 0,
+          "originalReal": 0.5,
+          "originalImag": 0,
+          "originalArgument": "0  (0도)"
+        },
+        {
+          "name": "plane click 0.5,0.5",
+          "real": 0.5,
+          "imag": 0.5,
+          "originalReal": 0.5,
+          "originalImag": 0.5,
+          "originalArgument": "0.79  (45도)"
+        },
+        {
+          "name": "plane click 0.5,0.7",
+          "real": 0.5,
+          "imag": 0.7,
+          "originalReal": 0.5,
+          "originalImag": 0.7,
+          "originalArgument": "0.95  (54.5도)"
+        },
+        {
+          "name": "plane click 0.7,-0.7",
+          "real": 0.7,
+          "imag": -0.7,
+          "originalReal": 0.7,
+          "originalImag": -0.7,
+          "originalArgument": "-0.79  (-45도)"
+        },
+        {
+          "name": "plane click 0.7,-0.5",
+          "real": 0.7,
+          "imag": -0.5,
+          "originalReal": 0.7,
+          "originalImag": -0.5,
+          "originalArgument": "-0.62  (-35.5도)"
+        },
+        {
+          "name": "plane click 0.7,0",
+          "real": 0.7,
+          "imag": 0,
+          "originalReal": 0.7,
+          "originalImag": 0,
+          "originalArgument": "0  (0도)"
+        },
+        {
+          "name": "plane click 0.7,0.5",
+          "real": 0.7,
+          "imag": 0.5,
+          "originalReal": 0.7,
+          "originalImag": 0.5,
+          "originalArgument": "0.62  (35.5도)"
+        },
+        {
+          "name": "plane click 0.7,0.7",
+          "real": 0.7,
+          "imag": 0.7,
+          "originalReal": 0.7,
+          "originalImag": 0.7,
+          "originalArgument": "0.79  (45도)"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Default plus 25 actual clicks inside the original square hit area (coordinates ±0.7, ±0.5 and 0), checking real/imaginary readouts, two-decimal norm/argument and all four marker/text anchor pairs. Independent HTML unrounded norm and phase are rounded only for comparison with original text. Exact hit-area border, all continuous positions, graphic line geometry and clipboard output are outside scope. No original functions called or input variables forced."
+    }
+  ]
+}

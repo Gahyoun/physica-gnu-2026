@@ -576,7 +576,7 @@
       "comparisons": 112064,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All four original random pulse branches, all 137 integer time steps × 68 positions; fixed/free boundary sign and superposition. Native dropdown exposes branches deterministically.",
+      "scope": "Original fixed/free amplitudes 50/48, all four random pulse branches, all 137 integer time steps × 68 positions; fixed/free boundary sign and superposition. Native dropdown exposes branches deterministically.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -588,7 +588,7 @@
       "comparisons": 112064,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "All four original random pulse branches, all 137 integer time steps × 68 positions; fixed/free boundary sign and superposition. Native dropdown exposes branches deterministically.",
+      "scope": "Original fixed/free amplitudes 50/48, all four random pulse branches, all 137 integer time steps × 68 positions; fixed/free boundary sign and superposition. Native dropdown exposes branches deterministically.",
       "sourceRuntimeExhaustive": false
     },
     {

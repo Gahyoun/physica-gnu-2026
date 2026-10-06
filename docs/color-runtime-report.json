@@ -1,0 +1,976 @@
+{
+  "date": "2026-10-06T05:26:15.794Z",
+  "nativeModelHashes": {
+    "assets/expansion-physics.mjs": "74df25b9354f1267d858cb5aa8392237aa1e19b843f726352f6539d806c63db8",
+    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
+  },
+  "method": "Live original Color getter after real Ruffle slider drags versus independent HTML color conversion",
+  "files": 3,
+  "comparisons": 192,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-de272dabc8ac0103",
+      "kind": "expansion-flash-de272dabc8ac0103",
+      "type": "RGBmodel",
+      "sha256": "d141e660deedb08fccbca151e3dc99300877006a0bb9dc33882b7d644464abc1",
+      "sha256Verified": true,
+      "diagnosticSha256": "b661ee64990fc43c90170bfc0deedccc146cc25264cefd9791485b4454a41be6",
+      "comparisons": 64,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "r": 180,
+            "g": 120,
+            "b": 100
+          },
+          "paint": 11827300
+        },
+        {
+          "name": "Rslider 0",
+          "parameters": {
+            "r": 0,
+            "g": 120,
+            "b": 100
+          },
+          "paint": 30820
+        },
+        {
+          "name": "Rslider 0.25",
+          "parameters": {
+            "r": 64,
+            "g": 120,
+            "b": 100
+          },
+          "paint": 4225124
+        },
+        {
+          "name": "Rslider 0.5",
+          "parameters": {
+            "r": 128,
+            "g": 120,
+            "b": 100
+          },
+          "paint": 8419428
+        },
+        {
+          "name": "Rslider 0.75",
+          "parameters": {
+            "r": 191,
+            "g": 120,
+            "b": 100
+          },
+          "paint": 12548196
+        },
+        {
+          "name": "Rslider 1",
+          "parameters": {
+            "r": 255,
+            "g": 120,
+            "b": 100
+          },
+          "paint": 16742500
+        },
+        {
+          "name": "Gslider 0",
+          "parameters": {
+            "r": 255,
+            "g": 0,
+            "b": 100
+          },
+          "paint": 16711780
+        },
+        {
+          "name": "Gslider 0.25",
+          "parameters": {
+            "r": 255,
+            "g": 64,
+            "b": 100
+          },
+          "paint": 16728164
+        },
+        {
+          "name": "Gslider 0.5",
+          "parameters": {
+            "r": 255,
+            "g": 128,
+            "b": 100
+          },
+          "paint": 16744548
+        },
+        {
+          "name": "Gslider 0.75",
+          "parameters": {
+            "r": 255,
+            "g": 191,
+            "b": 100
+          },
+          "paint": 16760676
+        },
+        {
+          "name": "Gslider 1",
+          "parameters": {
+            "r": 255,
+            "g": 255,
+            "b": 100
+          },
+          "paint": 16777060
+        },
+        {
+          "name": "Bslider 0",
+          "parameters": {
+            "r": 255,
+            "g": 255,
+            "b": 0
+          },
+          "paint": 16776960
+        },
+        {
+          "name": "Bslider 0.25",
+          "parameters": {
+            "r": 255,
+            "g": 255,
+            "b": 64
+          },
+          "paint": 16777024
+        },
+        {
+          "name": "Bslider 0.5",
+          "parameters": {
+            "r": 255,
+            "g": 255,
+            "b": 128
+          },
+          "paint": 16777088
+        },
+        {
+          "name": "Bslider 0.75",
+          "parameters": {
+            "r": 255,
+            "g": 255,
+            "b": 191
+          },
+          "paint": 16777151
+        },
+        {
+          "name": "Bslider 1",
+          "parameters": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "paint": 16777215
+        }
+      ],
+      "controls": [
+        {
+          "name": "original slider limits",
+          "key": "r",
+          "expected": [
+            0,
+            255
+          ],
+          "observed": [
+            0,
+            255
+          ],
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "r",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "r",
+          "fraction": 0.25,
+          "expected": 64,
+          "observed": 64,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "r",
+          "fraction": 0.5,
+          "expected": 128,
+          "observed": 128,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "r",
+          "fraction": 0.75,
+          "expected": 191,
+          "observed": 191,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "r",
+          "fraction": 1,
+          "expected": 255,
+          "observed": 255,
+          "passed": true
+        },
+        {
+          "name": "original slider limits",
+          "key": "g",
+          "expected": [
+            0,
+            255
+          ],
+          "observed": [
+            0,
+            255
+          ],
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "g",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "g",
+          "fraction": 0.25,
+          "expected": 64,
+          "observed": 64,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "g",
+          "fraction": 0.5,
+          "expected": 128,
+          "observed": 128,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "g",
+          "fraction": 0.75,
+          "expected": 191,
+          "observed": 191,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "g",
+          "fraction": 1,
+          "expected": 255,
+          "observed": 255,
+          "passed": true
+        },
+        {
+          "name": "original slider limits",
+          "key": "b",
+          "expected": [
+            0,
+            255
+          ],
+          "observed": [
+            0,
+            255
+          ],
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "b",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "b",
+          "fraction": 0.25,
+          "expected": 64,
+          "observed": 64,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "b",
+          "fraction": 0.5,
+          "expected": 128,
+          "observed": 128,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "b",
+          "fraction": 0.75,
+          "expected": 191,
+          "observed": 191,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "b",
+          "fraction": 1,
+          "expected": 255,
+          "observed": 255,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Read-only actual Color.getRGB() of the original color plate versus independent HTML RGB/CMY/HSV conversion, at default and five real pointer settings per original slider. Original slider limits and actual reached values are checked. Full mixed channel combinations, gamut grid cells, legacy projected cube/hexacone artwork and pixel colors are outside scope. No original equations are called or input variables forced."
+    },
+    {
+      "id": "flash-f74e616547075c69",
+      "kind": "expansion-flash-f74e616547075c69",
+      "type": "CMYmodel",
+      "sha256": "e373f72279d178c368398250898422d2f399c6dc320af29d5c2eb27b146ca66e",
+      "sha256Verified": true,
+      "diagnosticSha256": "1cd4f06c02051b9b8f2a81c0d7ffe7f874b319012a0d502b410a745d100135df",
+      "comparisons": 64,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "c": 150,
+            "m": 200,
+            "y": 150
+          },
+          "paint": 6895465
+        },
+        {
+          "name": "Rslider 0",
+          "parameters": {
+            "c": 0,
+            "m": 200,
+            "y": 150
+          },
+          "paint": 16725865
+        },
+        {
+          "name": "Rslider 0.25",
+          "parameters": {
+            "c": 64,
+            "m": 200,
+            "y": 150
+          },
+          "paint": 12531561
+        },
+        {
+          "name": "Rslider 0.5",
+          "parameters": {
+            "c": 128,
+            "m": 200,
+            "y": 150
+          },
+          "paint": 8337257
+        },
+        {
+          "name": "Rslider 0.75",
+          "parameters": {
+            "c": 191,
+            "m": 200,
+            "y": 150
+          },
+          "paint": 4208489
+        },
+        {
+          "name": "Rslider 1",
+          "parameters": {
+            "c": 255,
+            "m": 200,
+            "y": 150
+          },
+          "paint": 14185
+        },
+        {
+          "name": "Gslider 0",
+          "parameters": {
+            "c": 255,
+            "m": 0,
+            "y": 150
+          },
+          "paint": 65385
+        },
+        {
+          "name": "Gslider 0.25",
+          "parameters": {
+            "c": 255,
+            "m": 64,
+            "y": 150
+          },
+          "paint": 49001
+        },
+        {
+          "name": "Gslider 0.5",
+          "parameters": {
+            "c": 255,
+            "m": 128,
+            "y": 150
+          },
+          "paint": 32617
+        },
+        {
+          "name": "Gslider 0.75",
+          "parameters": {
+            "c": 255,
+            "m": 191,
+            "y": 150
+          },
+          "paint": 16489
+        },
+        {
+          "name": "Gslider 1",
+          "parameters": {
+            "c": 255,
+            "m": 255,
+            "y": 150
+          },
+          "paint": 105
+        },
+        {
+          "name": "Bslider 0",
+          "parameters": {
+            "c": 255,
+            "m": 255,
+            "y": 0
+          },
+          "paint": 255
+        },
+        {
+          "name": "Bslider 0.25",
+          "parameters": {
+            "c": 255,
+            "m": 255,
+            "y": 64
+          },
+          "paint": 191
+        },
+        {
+          "name": "Bslider 0.5",
+          "parameters": {
+            "c": 255,
+            "m": 255,
+            "y": 128
+          },
+          "paint": 127
+        },
+        {
+          "name": "Bslider 0.75",
+          "parameters": {
+            "c": 255,
+            "m": 255,
+            "y": 191
+          },
+          "paint": 64
+        },
+        {
+          "name": "Bslider 1",
+          "parameters": {
+            "c": 255,
+            "m": 255,
+            "y": 255
+          },
+          "paint": 0
+        }
+      ],
+      "controls": [
+        {
+          "name": "original slider limits",
+          "key": "c",
+          "expected": [
+            0,
+            255
+          ],
+          "observed": [
+            0,
+            255
+          ],
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "c",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "c",
+          "fraction": 0.25,
+          "expected": 64,
+          "observed": 64,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "c",
+          "fraction": 0.5,
+          "expected": 128,
+          "observed": 128,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "c",
+          "fraction": 0.75,
+          "expected": 191,
+          "observed": 191,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "c",
+          "fraction": 1,
+          "expected": 255,
+          "observed": 255,
+          "passed": true
+        },
+        {
+          "name": "original slider limits",
+          "key": "m",
+          "expected": [
+            0,
+            255
+          ],
+          "observed": [
+            0,
+            255
+          ],
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "m",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "m",
+          "fraction": 0.25,
+          "expected": 64,
+          "observed": 64,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "m",
+          "fraction": 0.5,
+          "expected": 128,
+          "observed": 128,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "m",
+          "fraction": 0.75,
+          "expected": 191,
+          "observed": 191,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "m",
+          "fraction": 1,
+          "expected": 255,
+          "observed": 255,
+          "passed": true
+        },
+        {
+          "name": "original slider limits",
+          "key": "y",
+          "expected": [
+            0,
+            255
+          ],
+          "observed": [
+            0,
+            255
+          ],
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "y",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "y",
+          "fraction": 0.25,
+          "expected": 64,
+          "observed": 64,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "y",
+          "fraction": 0.5,
+          "expected": 128,
+          "observed": 128,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "y",
+          "fraction": 0.75,
+          "expected": 191,
+          "observed": 191,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "y",
+          "fraction": 1,
+          "expected": 255,
+          "observed": 255,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Read-only actual Color.getRGB() of the original color plate versus independent HTML RGB/CMY/HSV conversion, at default and five real pointer settings per original slider. Original slider limits and actual reached values are checked. Full mixed channel combinations, gamut grid cells, legacy projected cube/hexacone artwork and pixel colors are outside scope. No original equations are called or input variables forced."
+    },
+    {
+      "id": "flash-52156ba16ea26699",
+      "kind": "expansion-flash-52156ba16ea26699",
+      "type": "HSVmodel",
+      "sha256": "95ac445bf2ce9da0a8db92008287a3bc460a8d3ba15933a062c4dc278f500ec3",
+      "sha256Verified": true,
+      "diagnosticSha256": "b8a2b382b3c34464bb1efe8a7dcef4a93a26b7ee9b9f9f69c25e00de234dcfd0",
+      "comparisons": 64,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "h": 0.5,
+            "s": 0.5,
+            "v": 0.5
+          },
+          "paint": 4227200
+        },
+        {
+          "name": "Hslider 0",
+          "parameters": {
+            "h": 0,
+            "s": 0.5,
+            "v": 0.5
+          },
+          "paint": 8405056
+        },
+        {
+          "name": "Hslider 0.25",
+          "parameters": {
+            "h": 0.25,
+            "s": 0.5,
+            "v": 0.5
+          },
+          "paint": 6324288
+        },
+        {
+          "name": "Hslider 0.5",
+          "parameters": {
+            "h": 0.5,
+            "s": 0.5,
+            "v": 0.5
+          },
+          "paint": 4227200
+        },
+        {
+          "name": "Hslider 0.75",
+          "parameters": {
+            "h": 0.75,
+            "s": 0.5,
+            "v": 0.5
+          },
+          "paint": 6307968
+        },
+        {
+          "name": "Hslider 1",
+          "parameters": {
+            "h": 1,
+            "s": 0.5,
+            "v": 0.5
+          },
+          "paint": 8405056
+        },
+        {
+          "name": "Sslider 0",
+          "parameters": {
+            "h": 1,
+            "s": 0,
+            "v": 0.5
+          },
+          "paint": 8421504
+        },
+        {
+          "name": "Sslider 0.25",
+          "parameters": {
+            "h": 1,
+            "s": 0.25,
+            "v": 0.5
+          },
+          "paint": 8413280
+        },
+        {
+          "name": "Sslider 0.5",
+          "parameters": {
+            "h": 1,
+            "s": 0.5,
+            "v": 0.5
+          },
+          "paint": 8405056
+        },
+        {
+          "name": "Sslider 0.75",
+          "parameters": {
+            "h": 1,
+            "s": 0.75,
+            "v": 0.5
+          },
+          "paint": 8396832
+        },
+        {
+          "name": "Sslider 1",
+          "parameters": {
+            "h": 1,
+            "s": 1,
+            "v": 0.5
+          },
+          "paint": 8388608
+        },
+        {
+          "name": "Vslider 0",
+          "parameters": {
+            "h": 1,
+            "s": 1,
+            "v": 0
+          },
+          "paint": 0
+        },
+        {
+          "name": "Vslider 0.25",
+          "parameters": {
+            "h": 1,
+            "s": 1,
+            "v": 0.25
+          },
+          "paint": 4194304
+        },
+        {
+          "name": "Vslider 0.5",
+          "parameters": {
+            "h": 1,
+            "s": 1,
+            "v": 0.5
+          },
+          "paint": 8388608
+        },
+        {
+          "name": "Vslider 0.75",
+          "parameters": {
+            "h": 1,
+            "s": 1,
+            "v": 0.75
+          },
+          "paint": 12582912
+        },
+        {
+          "name": "Vslider 1",
+          "parameters": {
+            "h": 1,
+            "s": 1,
+            "v": 1
+          },
+          "paint": 16711680
+        }
+      ],
+      "controls": [
+        {
+          "name": "original slider limits",
+          "key": "h",
+          "expected": [
+            0,
+            1
+          ],
+          "observed": [
+            0,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "h",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "h",
+          "fraction": 0.25,
+          "expected": 0.25,
+          "observed": 0.25,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "h",
+          "fraction": 0.5,
+          "expected": 0.5,
+          "observed": 0.5,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "h",
+          "fraction": 0.75,
+          "expected": 0.75,
+          "observed": 0.75,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "h",
+          "fraction": 1,
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "original slider limits",
+          "key": "s",
+          "expected": [
+            0,
+            1
+          ],
+          "observed": [
+            0,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "s",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "s",
+          "fraction": 0.25,
+          "expected": 0.25,
+          "observed": 0.25,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "s",
+          "fraction": 0.5,
+          "expected": 0.5,
+          "observed": 0.5,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "s",
+          "fraction": 0.75,
+          "expected": 0.75,
+          "observed": 0.75,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "s",
+          "fraction": 1,
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "name": "original slider limits",
+          "key": "v",
+          "expected": [
+            0,
+            1
+          ],
+          "observed": [
+            0,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "v",
+          "fraction": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "v",
+          "fraction": 0.25,
+          "expected": 0.25,
+          "observed": 0.25,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "v",
+          "fraction": 0.5,
+          "expected": 0.5,
+          "observed": 0.5,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "v",
+          "fraction": 0.75,
+          "expected": 0.75,
+          "observed": 0.75,
+          "passed": true
+        },
+        {
+          "name": "original slider drag",
+          "key": "v",
+          "fraction": 1,
+          "expected": 1,
+          "observed": 1,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Read-only actual Color.getRGB() of the original color plate versus independent HTML RGB/CMY/HSV conversion, at default and five real pointer settings per original slider. Original slider limits and actual reached values are checked. Full mixed channel combinations, gamut grid cells, legacy projected cube/hexacone artwork and pixel colors are outside scope. No original equations are called or input variables forced."
+    }
+  ]
+}

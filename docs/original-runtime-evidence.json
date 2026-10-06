@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-05T23:41:48.717Z",
+  "date": "2026-10-06T05:27:53.462Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -14,15 +14,15 @@
     "assets/optics-specs.mjs": "5d9a5635182da8a00f22b6535684b53e2b9a7891c8683a7dfb83584b9fb53b81",
     "assets/native-refraction.mjs": "fe90d6a1581a33b8b6c9ae9e566eb2e4acd1b061fded4a8b2e009a6a7510bebd",
     "assets/refraction-specs.mjs": "83711da60628a5d9df4e3850f46db0f2c9b72180ab5ad6b96c51dc8c8a79d272",
-    "assets/expansion-physics.mjs": "2fcf3569d1d837e5c1ff6bb813eec822d1f7502f962c0377a387464a6472091d",
+    "assets/expansion-physics.mjs": "74df25b9354f1267d858cb5aa8392237aa1e19b843f726352f6539d806c63db8",
     "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 92,
-  "numericalFilesPassed": 92,
-  "numericalComparisons": 355930,
+  "numericalFiles": 102,
+  "numericalFilesPassed": 102,
+  "numericalComparisons": 382382,
   "rootTimelineFiles": 29,
   "rootTimelineFilesPassed": 29,
   "rootTimelineFrames": 805,
@@ -2015,7 +2015,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/molecule-runtime-report.json",
+        "sha256": "2b68e531af4eba123e10ebbc05ab18caf1044118d95766ff7c4c70909c1c8a47",
+        "passed": true,
+        "comparisons": 2496,
+        "scope": "Read-only original anonymous-mode discovery followed by 96 naturally played local phases for every moving atom in all original modes, comparing local x/y and frequency against independent HTML equations. Static symmetric-mode carbon is also checked. Positions tolerate one original twip (0.05 px). Original tiem load typo does not prevent its legacy incrementing clock from moving in Ruffle. HTML selects a mode while originals display modes simultaneously; bond artwork, wall-clock rate, long-loop reset and graph pixels are outside scope.",
+        "maxAbsoluteError": 0.04999941936847563
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2141,7 +2148,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/molecule-runtime-report.json",
+        "sha256": "ce572fe81ee29b41f9d8f7805a883ce6eca8f65614b405130a85229107d1a0be",
+        "passed": true,
+        "comparisons": 1056,
+        "scope": "96 natural motion phases compare both mass coordinates, fixed masses, weighted centre, spring midpoint and length. The original two-frame loop calls gotoAndPlay(2), and live coordinates are compared against the current observed sec value; the unrounded clock is retained. Positions tolerate one original twip (0.05 px); spring scale tolerates combined coordinate quantization. Dragged equilibrium locations, original mass resizing, graph pixels and long-loop reset are outside scope. HTML graphs/controls are additions.",
+        "maxAbsoluteError": 0.05000000000001137
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3966,7 +3980,7 @@
         "passed": true,
         "comparisons": 43907,
         "scope": "Actual Ruffle atom/label centre arrays and reference sizes, bond endpoints, arrow endpoints and plane vertices at default and three real camera pointer gestures. Eight originals require press-drag; calcite, NaCl and Ruby rotate from pointer offset without a press, which is recorded separately. Projected atom centres/scales compared with independent perspective math at the observed original camera, using each original screen y-axis convention and measured perspective distance. Moving wavefront vertices additionally checked over all 20 naturally played phase values. Coordinate tolerance one 0.05 px twip; scale tolerance 0.0001. Remaster default camera, rendered atom artwork/radii, projected bond pixels, painter depth order, random camera distribution, all gestures and automatic long-time camera motion are outside scope. Legacy case-insensitive Ruby outline is included. Absent counters for an expected zero are recorded explicitly; required geometry and projection values must be finite.",
-        "maxAbsoluteError": 0.049996875234228355
+        "maxAbsoluteError": 0.049997944124385185
       },
       "sliders": null,
       "rootTimeline": null
@@ -4229,7 +4243,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/complex-runtime-report.json",
+        "sha256": "5c072685e172472b1475d28c64ad249308fb41ccbc0035466a401e039641da0e",
+        "passed": true,
+        "comparisons": 364,
+        "scope": "Default plus 25 actual clicks inside the original square hit area (coordinates ±0.7, ±0.5 and 0), checking real/imaginary readouts, two-decimal norm/argument and all four marker/text anchor pairs. Independent HTML unrounded norm and phase are rounded only for comparison with original text. Exact hit-area border, all continuous positions, graphic line geometry and clipboard output are outside scope. No original functions called or input variables forced.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6944,7 +6965,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/molecule-runtime-report.json",
+        "sha256": "1576e070cf4c21e95e2c49ac863ce1e1419183eecf8a166d67021d2e1401b61b",
+        "passed": true,
+        "comparisons": 2496,
+        "scope": "Read-only original anonymous-mode discovery followed by 96 naturally played local phases for every moving atom in all original modes, comparing local x/y and frequency against independent HTML equations. Static symmetric-mode carbon is also checked. Positions tolerate one original twip (0.05 px). Original tiem load typo does not prevent its legacy incrementing clock from moving in Ruffle. HTML selects a mode while originals display modes simultaneously; bond artwork, wall-clock rate, long-loop reset and graph pixels are outside scope.",
+        "maxAbsoluteError": 0.04999941936847563
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6962,7 +6990,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/molecule-runtime-report.json",
+        "sha256": "2a46eaaed8dcb53c16b224aecfee4918385deef8e9729eea2bd7fad98770e909",
+        "passed": true,
+        "comparisons": 576,
+        "scope": "Read-only original anonymous-mode discovery followed by 96 naturally played local phases for every moving atom in all original modes, comparing local x/y and frequency against independent HTML equations. Static symmetric-mode carbon is also checked. Positions tolerate one original twip (0.05 px). Original tiem load typo does not prevent its legacy incrementing clock from moving in Ruffle. HTML selects a mode while originals display modes simultaneously; bond artwork, wall-clock rate, long-loop reset and graph pixels are outside scope.",
+        "maxAbsoluteError": 0.0484300217833038
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7267,7 +7302,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/color-runtime-report.json",
+        "sha256": "e373f72279d178c368398250898422d2f399c6dc320af29d5c2eb27b146ca66e",
+        "passed": true,
+        "comparisons": 64,
+        "scope": "Read-only actual Color.getRGB() of the original color plate versus independent HTML RGB/CMY/HSV conversion, at default and five real pointer settings per original slider. Original slider limits and actual reached values are checked. Full mixed channel combinations, gamut grid cells, legacy projected cube/hexacone artwork and pixel colors are outside scope. No original equations are called or input variables forced.",
+        "maxAbsoluteError": 0
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "e373f72279d178c368398250898422d2f399c6dc320af29d5c2eb27b146ca66e",
@@ -7294,7 +7336,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/color-runtime-report.json",
+        "sha256": "95ac445bf2ce9da0a8db92008287a3bc460a8d3ba15933a062c4dc278f500ec3",
+        "passed": true,
+        "comparisons": 64,
+        "scope": "Read-only actual Color.getRGB() of the original color plate versus independent HTML RGB/CMY/HSV conversion, at default and five real pointer settings per original slider. Original slider limits and actual reached values are checked. Full mixed channel combinations, gamut grid cells, legacy projected cube/hexacone artwork and pixel colors are outside scope. No original equations are called or input variables forced.",
+        "maxAbsoluteError": 0
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "95ac445bf2ce9da0a8db92008287a3bc460a8d3ba15933a062c4dc278f500ec3",
@@ -7321,7 +7370,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/color-runtime-report.json",
+        "sha256": "d141e660deedb08fccbca151e3dc99300877006a0bb9dc33882b7d644464abc1",
+        "passed": true,
+        "comparisons": 64,
+        "scope": "Read-only actual Color.getRGB() of the original color plate versus independent HTML RGB/CMY/HSV conversion, at default and five real pointer settings per original slider. Original slider limits and actual reached values are checked. Full mixed channel combinations, gamut grid cells, legacy projected cube/hexacone artwork and pixel colors are outside scope. No original equations are called or input variables forced.",
+        "maxAbsoluteError": 0
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "d141e660deedb08fccbca151e3dc99300877006a0bb9dc33882b7d644464abc1",
@@ -10515,7 +10571,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/reflection-wave-runtime-report.json",
+        "sha256": "381281c14da07bd079b3e42b4c07a07a1ae2dffe1a6dcb66ca54e90b07f49b61",
+        "passed": true,
+        "comparisons": 9636,
+        "scope": "All four pulse branches obtained through fresh original reloads, without forcing random numbers or calling initialization functions. Full live 69-entry pulse array (including zero sentinel), original amplitude and actual boundary marker compared at default, start, pause and at least 30 naturally advancing fast-play phases per branch. Real fast/play/pause/resume controls checked. Fixed boundary stays at zero; free boundary marker follows the summed displacement. The fixed-end original clock is unset before the first play (raw blank retained); at that initial state only its pulse and fixed zero boundary are compared, and a finite advancing clock is required after play. Whole drawn spatial curves, every slow phase, separate-component switch, all initial seeds and pixel shapes remain outside scope. Native branch dropdown is a remaster addition.",
+        "maxAbsoluteError": 4.973799150320701e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10533,7 +10596,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/reflection-wave-runtime-report.json",
+        "sha256": "7388127bc20a4ec44e78c01b6b42addfd25c0f27821d8e9b8e2d3ac94c206bac",
+        "passed": true,
+        "comparisons": 9636,
+        "scope": "All four pulse branches obtained through fresh original reloads, without forcing random numbers or calling initialization functions. Full live 69-entry pulse array (including zero sentinel), original amplitude and actual boundary marker compared at default, start, pause and at least 30 naturally advancing fast-play phases per branch. Real fast/play/pause/resume controls checked. Fixed boundary stays at zero; free boundary marker follows the summed displacement. The fixed-end original clock is unset before the first play (raw blank retained); at that initial state only its pulse and fixed zero boundary are compared, and a finite advancing clock is required after play. Whole drawn spatial curves, every slow phase, separate-component switch, all initial seeds and pixel shapes remain outside scope. Native branch dropdown is a remaster addition.",
+        "maxAbsoluteError": 0.04999999999999449
+      },
       "sliders": null,
       "rootTimeline": null
     },

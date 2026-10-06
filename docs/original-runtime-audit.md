@@ -6,11 +6,11 @@
 |---|---:|---|
 | 원본 로드·재생 관찰·렌더러 정지·재개·재로딩 | 518/518 | Chromium, 로컬 Ruffle 0.6.0, Canvas 렌더러 |
 | 원본 버튼 위치 클릭 | 456회 | 화면 변화 관찰. 버튼 의미·모든 분기 검증은 별도 |
-| 실제 원본 실행값과 HTML 수치 모델 | 92개, 355,930회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개·전기장 5개·광학 6개·반사/굴절 벡터 5개·박막 6개·편광 9개·결정/파면 11개·각운동량 3개, 기록한 상태·위치·시간 표본 |
+| 실제 원본 실행값과 HTML 수치 모델 | 102개, 382,382회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개·전기장 5개·광학 6개·반사/굴절 벡터 5개·박막 6개·편광 9개·결정/파면 11개·각운동량 3개·분자 4개·색공간 3개·복소수 1개·반사파 2개, 기록한 상태·위치·시간 표본 |
 | AS2 슬라이더 후보 | 125개 모두 조작 | 250개 끝값: nominal 범위 일치 244개, 원본 특수 변환 6개 |
 | 루트 타임라인 | 29개, 805프레임 | 자연 재생에서 전체 루트 프레임 방문·순서 확인 |
 
-합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`field-runtime`](field-runtime-report.json), [`optics-runtime`](optics-runtime-report.json), [`refraction-runtime`](refraction-runtime-report.json), [`film-runtime`](film-runtime-report.json), [`polarization-runtime`](polarization-runtime-report.json), [`polarization-marker-runtime`](polarization-marker-runtime-report.json), [`structure-runtime`](structure-runtime-report.json), [`angular-runtime`](angular-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
+합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`field-runtime`](field-runtime-report.json), [`optics-runtime`](optics-runtime-report.json), [`refraction-runtime`](refraction-runtime-report.json), [`film-runtime`](film-runtime-report.json), [`polarization-runtime`](polarization-runtime-report.json), [`polarization-marker-runtime`](polarization-marker-runtime-report.json), [`structure-runtime`](structure-runtime-report.json), [`angular-runtime`](angular-runtime-report.json), [`molecule-runtime`](molecule-runtime-report.json), [`color-runtime`](color-runtime-report.json), [`complex-runtime`](complex-runtime-report.json), [`reflection-wave-runtime`](reflection-wave-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
 
 ## 실제로 수정한 차이
 
@@ -53,6 +53,19 @@
 
 이번 수정 후 자동 검사 **104개**, 교재 빌드 및 Pages 배포 파일 구성 검사를 통과했다.
 
+## 분자·색공간·복소수·반사파 10개 확대 대조
+
+이번에는 실제 Ruffle 실행값으로 **10개·26,452회**를 추가 비교했다. 누적 실행 수치 대조는 **102개·382,382회**다.
+
+- 분자·질점 진동 4개: 모형마다 자연 재생의 서로 다른 96개 시간값을 관찰해 **6,624회** 비교했다. CO₂의 굽힘·대칭 신축·비대칭 신축 세 모드와 N₂ 양 끝 원자의 국소 좌표, 두 질점의 질량·위치·질량중심·용수철 중심과 길이를 확인했다. 원자 좌표는 원본의 0.05 px twip 이내였다. 원본 CO₂는 세 모드를 동시에 표시하고 HTML은 모드를 선택한다. 원본의 `tiem` 초기화 오타는 이 SWF 버전의 실제 Ruffle 진동을 막지 않았으므로 정지된 원본이라고 판정하지 않는다. 질점의 끌기·질량 크기 변경과 긴 시간 초기화는 남은 범위다.
+- RGB·CMY·HSV 3개: 기본값 및 각 슬라이더의 양 끝과 중간 세 값, 총 **48개 상태·192회**를 비교했다. 입력 숫자만 비교하지 않고 원본 색상판의 `Color.getRGB()`를 읽어 독립 HTML 변환의 RGB 채널과 24비트 값을 확인했다. 원본의 상대 문자열 대상이 올바르게 해석되도록 읽기용 관찰자의 대상 문맥을 루트로 지정했다. 원본 식 호출·강제 변수 변경은 하지 않는다. 모든 채널의 동시 조합과 원본 색공간 격자 전체는 아직 대조하지 않았다.
+- 복소수 1개: 기본값과 평면 내부의 **25개 실제 클릭**에서 실수부·허수부, 원본의 두 자리 크기·위상, 복소수와 켤레복소수의 표지/글자 좌표를 **364회** 비교했다. 사분면·좌표축·원점을 포함하며 정확한 클릭 영역의 경계와 클립보드 출력은 범위 밖이다.
+- 고정단·자유단 반사 2개: 원본을 새로 로드해 무작위로 나오는 **네 분기 모두**를 관찰했다. 각 분기에서 69개 펄스 값과 경계점, 실제 재생·고속·정지·재개, 조작 후 자연 진행 시간값 30개 이상을 합쳐 **19,272회** 비교했다. 고정단 원본의 재생 전 시간값은 비어 있으므로 그대로 기록하고 그 상태에서는 펄스 배열과 고정된 경계만 비교했다. 재생 이후에는 유한한 시간값과 실제 진행을 요구했다. 고정단은 경계 변위 0, 자유단은 합성파의 경계 변위를 확인했다. 그려진 곡선 전체 픽셀과 모든 느린 재생 단계는 아직 대조하지 않았다.
+
+**수정한 차이:** 자유단 원본의 `amp`는 48인데 이전 HTML과 소스 검사 모두 고정단과 같은 50을 사용했다. 펄스 계산을 원본별 50/48로 나누어 입사파·반사파·합성파, 시간 그래프와 CSV에 동일하게 반영했다. 자유단의 사다리꼴 분기에서는 원본의 입사 변위 48과 경계 합성 변위 96을 보존한다. 강제로 지정한 난수로 하는 소스 검사와 실제 무작위 실행 검사는 각각 따로 기록한다.
+
+공통 계산 모듈 변경 후 기존 박막·편광·결정·각운동량 **29개**도 실제 원본으로 재검증했다. [반사 모형 브라우저 검사](reflection-wave-ui-report.json)는 두 모형의 **22개 상태**, SVG 조작·재생/정지·화면 밖 정지·CSV, 320/768/1360 px, 라이트/다크, 하단 진행 막대 위치와 그래프 불투명도 0.65를 확인했다. 비공개 소스 함수 검사도 50개 전체를 다시 실행했고 전체 자동 검사 109개를 통과했다. 원본 SWF는 변경하지 않았으며 진단 사본과 캡처는 배포하지 않는다.
+
 ## 원본에서 확인한 슬라이더 예외
 
 측정값을 nominal 범위에 맞게 고쳐 쓰지 않는다. [runtime-slider-boundaries.json](runtime-slider-boundaries.json)에 원본 해시·조건·이유를 기록한다.
@@ -92,6 +105,10 @@ node tools/polarization-runtime-check.mjs
 node tools/polarization-marker-runtime-check.mjs
 node tools/structure-runtime-check.mjs
 node tools/angular-runtime-check.mjs
+node tools/molecule-runtime-check.mjs
+node tools/color-runtime-check.mjs
+node tools/complex-runtime-check.mjs
+node tools/reflection-wave-runtime-check.mjs
 node tools/wavefront-browser-check.mjs
 node tools/flash-slider-runtime-check.mjs
 node tools/timeline-runtime-check.mjs

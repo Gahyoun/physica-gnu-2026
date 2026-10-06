@@ -1,0 +1,51 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "results": [
+    {
+      "id": "flash-bc115e8f6a7c8c3a",
+      "kind": "expansion-flash-bc115e8f6a7c8c3a",
+      "type": "reflect1",
+      "states": 11,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-089f941f0c6727cb",
+      "kind": "expansion-flash-089f941f0c6727cb",
+      "type": "reflect2",
+      "states": 11,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    }
+  ],
+  "errors": [],
+  "noFlashOnReadingPage": true
+}

@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-05T23:41:19.792Z",
+  "date": "2026-10-06T05:24:57.210Z",
   "nativeModelHashes": {
-    "assets/expansion-physics.mjs": "2fcf3569d1d837e5c1ff6bb813eec822d1f7502f962c0377a387464a6472091d",
+    "assets/expansion-physics.mjs": "74df25b9354f1267d858cb5aa8392237aa1e19b843f726352f6539d806c63db8",
     "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
   },
   "method": "Original naturally played semantic position and velocity-vector arrays versus independent HTML orbit equations",
@@ -394,33 +394,33 @@
         },
         {
           "name": "right held",
-          "time": 83,
-          "phase": 11
+          "time": 82,
+          "phase": 10
         },
         {
           "name": "right released",
-          "time": 85,
-          "phase": 13
+          "time": 84,
+          "phase": 12
         },
         {
           "name": "up held",
-          "time": 91,
-          "phase": 19
+          "time": 90,
+          "phase": 18
         },
         {
           "name": "up released",
-          "time": 93,
-          "phase": 21
+          "time": 92,
+          "phase": 20
         },
         {
           "name": "diagonal held",
-          "time": 99,
-          "phase": 27
+          "time": 98,
+          "phase": 26
         },
         {
           "name": "diagonal released",
-          "time": 101,
-          "phase": 29
+          "time": 100,
+          "phase": 28
         }
       ],
       "controls": [
@@ -911,33 +911,33 @@
         },
         {
           "name": "right held",
-          "time": 11,
-          "phase": 11
+          "time": 10,
+          "phase": 10
         },
         {
           "name": "right released",
-          "time": 13,
-          "phase": 13
+          "time": 12,
+          "phase": 12
         },
         {
           "name": "up held",
-          "time": 19,
-          "phase": 19
+          "time": 18,
+          "phase": 18
         },
         {
           "name": "up released",
-          "time": 21,
-          "phase": 21
+          "time": 20,
+          "phase": 20
         },
         {
           "name": "diagonal held",
-          "time": 27,
-          "phase": 27
+          "time": 26,
+          "phase": 26
         },
         {
           "name": "diagonal released",
-          "time": 29,
-          "phase": 29
+          "time": 28,
+          "phase": 28
         }
       ],
       "controls": [
