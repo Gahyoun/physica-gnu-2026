@@ -1,0 +1,540 @@
+{
+  "date": "2026-10-06T13:31:34.955Z",
+  "nativeModelHashes": {
+    "assets/native-expansion.mjs": "25c765655a10c7c7b09f7ec5d7637d1711ad0105e97731d2a45399337d7e3ded",
+    "assets/expansion-physics.mjs": "c4dcacfe60f669039e37d10f9ab12c3b7c55e3b12171a98c4aa406562a24a876",
+    "assets/expansion-specs.mjs": "851e6eb0aea808abc2733250e1279915113a50f586ec26f0a5f260607f2d9072",
+    "assets/moire-controls.mjs": "c44440da93f658048e3e010f12af5799751ac7483b58666a1ae0abc49e01a970"
+  },
+  "passed": true,
+  "scope": "Actual HTML pointer gestures at 320/768/1360 CSS pixels; source-unit coordinate conversion, height-dependent tilt, source center constraints, center-lock drag and drag pause/resume. Finite gesture examples, not all continuous paths.",
+  "results": [
+    {
+      "id": "flash-63168a81b3894bdc",
+      "type": "moire2",
+      "passed": true,
+      "cases": [
+        {
+          "width": 320,
+          "pressed": [
+            59.99999877361206,
+            60
+          ],
+          "current": [
+            95.0000069495317,
+            85.000000817592
+          ],
+          "parameters": {
+            "dx": 37.000006949531695,
+            "dy": 23.000000817591996,
+            "vx": 0.1,
+            "vy": 0.1
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": true
+        },
+        {
+          "width": 768,
+          "pressed": [
+            59.99999823286585,
+            60
+          ],
+          "current": [
+            94.99999734929877,
+            85.0000011780894
+          ],
+          "parameters": {
+            "dx": 36.999997349298766,
+            "dy": 23.000001178089406,
+            "vx": 0.1,
+            "vy": 0.1
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": true
+        },
+        {
+          "width": 1360,
+          "pressed": [
+            59.99999847083575,
+            59.99999999999998
+          ],
+          "current": [
+            95.0000086652639,
+            85.0000010194428
+          ],
+          "parameters": {
+            "dx": 37.000008665263906,
+            "dy": 23.000001019442806,
+            "vx": 0.1,
+            "vy": 0.1
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": true
+        }
+      ]
+    },
+    {
+      "id": "flash-7ac606a58acda7e4",
+      "type": "moire3",
+      "passed": true,
+      "cases": [
+        {
+          "width": 320,
+          "pressed": [
+            99.99999297794,
+            74.99999953845618
+          ],
+          "current": [
+            135.00000540665653,
+            100.00001509907746
+          ],
+          "parameters": {
+            "divisions": 105,
+            "dx": 35.00001242871653,
+            "dy": 25.00001556062128
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 768,
+          "pressed": [
+            99.99999805235214,
+            74.9999829937092
+          ],
+          "current": [
+            135.00000983324634,
+            99.99998498886056
+          ],
+          "parameters": {
+            "divisions": 105,
+            "dx": 35.0000117808942,
+            "dy": 25.000001995151365
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 1360,
+          "pressed": [
+            100.00001068770686,
+            74.99999942450809
+          ],
+          "current": [
+            135.00000674147665,
+            100.00001882680674
+          ],
+          "parameters": {
+            "divisions": 105,
+            "dx": 34.99999605376979,
+            "dy": 25.000019402298648
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        }
+      ]
+    },
+    {
+      "id": "flash-ac432d1dcd5d0d20",
+      "type": "moire4",
+      "passed": true,
+      "cases": [
+        {
+          "width": 320,
+          "pressed": [
+            99.99999452213385,
+            75.00002845220044
+          ],
+          "current": [
+            134.99999742458533,
+            100.00000114462878
+          ],
+          "parameters": {
+            "dx": 35.000002902451484,
+            "dy": 24.999972692428344
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 768,
+          "pressed": [
+            99.99999717258535,
+            75.0000106028047
+          ],
+          "current": [
+            134.9999962890183,
+            100.0000067151096
+          ],
+          "parameters": {
+            "dx": 34.999999116432946,
+            "dy": 24.9999961123049
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 1360,
+          "pressed": [
+            99.9999844025249,
+            75.00000917498532
+          ],
+          "current": [
+            135.00001651497354,
+            99.9999926600117
+          ],
+          "parameters": {
+            "dx": 35.000032112448636,
+            "dy": 24.999983485026377
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        }
+      ]
+    },
+    {
+      "id": "flash-458b58d57dcebb14",
+      "type": "moireint",
+      "passed": true,
+      "cases": [
+        {
+          "width": 320,
+          "pressed": [
+            100.00000181320797,
+            75.00000791218032
+          ],
+          "current": [
+            135.00000998912765,
+            99.99998945042637
+          ],
+          "parameters": {
+            "x2": 85.00000817591967,
+            "y2": 94.99998153824605
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": true
+        },
+        {
+          "width": 768,
+          "pressed": [
+            99.99999750606068,
+            75.00001140086543
+          ],
+          "current": [
+            135.00000826562734,
+            100.0000256519471
+          ],
+          "parameters": {
+            "x2": 85.00001075956666,
+            "y2": 95.00001425108167
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": true
+        },
+        {
+          "width": 1360,
+          "pressed": [
+            100.00001109877249,
+            75.00000986557559
+          ],
+          "current": [
+            134.9999965470485,
+            100.00002219754516
+          ],
+          "parameters": {
+            "x2": 84.99998544827602,
+            "y2": 95.00001233196957
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": true
+        }
+      ]
+    },
+    {
+      "id": "flash-96c645fe2411f3c1",
+      "type": "moireint2",
+      "passed": true,
+      "cases": [
+        {
+          "width": 320,
+          "pressed": [
+            100.00000181320797,
+            24.99995977975019
+          ],
+          "current": [
+            159.99999152737362,
+            24.99995977975019
+          ],
+          "parameters": {
+            "tilt": -30
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 320,
+          "pressed": [
+            100.00000181320797,
+            75.00000791218032
+          ],
+          "current": [
+            159.99999152737362,
+            75.00000791218032
+          ],
+          "parameters": {
+            "tilt": 10.000006329743172
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 320,
+          "pressed": [
+            100.00000181320797,
+            124.9999709886724
+          ],
+          "current": [
+            159.99999152737362,
+            124.9999709886724
+          ],
+          "parameters": {
+            "tilt": 30
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 768,
+          "pressed": [
+            99.99999750606068,
+            24.99998289870188
+          ],
+          "current": [
+            159.99999187688337,
+            24.99998289870188
+          ],
+          "parameters": {
+            "tilt": -30
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 768,
+          "pressed": [
+            99.99999750606068,
+            75.00001140086532
+          ],
+          "current": [
+            159.99999187688337,
+            75.00001140086532
+          ],
+          "parameters": {
+            "tilt": 10.000009120691399
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 768,
+          "pressed": [
+            99.99999750606068,
+            124.99997862337734
+          ],
+          "current": [
+            159.99999187688337,
+            124.99997862337734
+          ],
+          "parameters": {
+            "tilt": 30
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 1360,
+          "pressed": [
+            100.00001109877249,
+            24.999985201636587
+          ],
+          "current": [
+            160.00000887901797,
+            24.999985201636587
+          ],
+          "parameters": {
+            "tilt": -30
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 1360,
+          "pressed": [
+            100.00001109877249,
+            75.00000986557554
+          ],
+          "current": [
+            160.00000887901797,
+            75.00000986557554
+          ],
+          "parameters": {
+            "tilt": 10.000007892460136
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 1360,
+          "pressed": [
+            100.00001109877249,
+            124.99998150204574
+          ],
+          "current": [
+            160.00000887901797,
+            124.99998150204574
+          ],
+          "parameters": {
+            "tilt": 30
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        }
+      ]
+    },
+    {
+      "id": "flash-81529669def63e21",
+      "type": "moireint3",
+      "passed": true,
+      "cases": [
+        {
+          "width": 320,
+          "pressed": [
+            100.00000181320797,
+            140.0000109451828
+          ],
+          "current": [
+            9.999995977975008,
+            10.000004879177961
+          ],
+          "parameters": {
+            "wavelength": 10,
+            "x2": 10,
+            "y2": 130
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 320,
+          "pressed": [
+            79.99999106582976,
+            149.99999505488748
+          ],
+          "current": [
+            480.0000146375335,
+            300.0000118682706
+          ],
+          "parameters": {
+            "wavelength": 10,
+            "x2": 410.00002357170376,
+            "y2": 320.0000168133831
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 768,
+          "pressed": [
+            99.99999750606068,
+            140.0000116858869
+          ],
+          "current": [
+            9.99999828987017,
+            10.00001111584373
+          ],
+          "parameters": {
+            "wavelength": 10,
+            "x2": 10,
+            "y2": 130
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 768,
+          "pressed": [
+            80.00000448909071,
+            149.9999928744591
+          ],
+          "current": [
+            479.99997206787975,
+            300.000017101298
+          ],
+          "parameters": {
+            "wavelength": 10,
+            "x2": 409.99996757878904,
+            "y2": 320.0000242268389
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 1360,
+          "pressed": [
+            100.00001109877249,
+            140.0000207177087
+          ],
+          "current": [
+            9.999987914669774,
+            9.999999013442455
+          ],
+          "parameters": {
+            "wavelength": 10,
+            "x2": 10,
+            "y2": 130
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        },
+        {
+          "width": 1360,
+          "pressed": [
+            80.00001183869065,
+            149.99999383401527
+          ],
+          "current": [
+            479.99999704032723,
+            300.00001479836334
+          ],
+          "parameters": {
+            "wavelength": 10,
+            "x2": 409.9999852016366,
+            "y2": 320.0000209643481
+          },
+          "originalWorldCoordinates": true,
+          "dragFreezeAndResume": false
+        }
+      ]
+    },
+    {
+      "id": "flash-31962c099cc3adfb",
+      "type": "moireint4",
+      "passed": true,
+      "cases": [
+        {
+          "width": 320,
+          "authoredSliderDomain": true
+        },
+        {
+          "width": 768,
+          "authoredSliderDomain": true
+        },
+        {
+          "width": 1360,
+          "authoredSliderDomain": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

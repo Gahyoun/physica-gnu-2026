@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-06T05:51:09.295Z",
+  "date": "2026-10-06T13:34:05.179Z",
   "nativeModelHashes": {
-    "assets/expansion-physics.mjs": "74df25b9354f1267d858cb5aa8392237aa1e19b843f726352f6539d806c63db8",
-    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
+    "assets/expansion-physics.mjs": "c4dcacfe60f669039e37d10f9ab12c3b7c55e3b12171a98c4aa406562a24a876",
+    "assets/expansion-specs.mjs": "851e6eb0aea808abc2733250e1279915113a50f586ec26f0a5f260607f2d9072"
   },
   "method": "Actual Ruffle clip positions, function queries, natural motion and real pointer controls versus independent HTML wave models. Original bytes unchanged; diagnostic copies private.",
   "files": 4,
@@ -996,7 +996,7 @@
         },
         {
           "name": "natural 1",
-          "time": 1.3,
+          "time": 1.35,
           "wavelength": 200,
           "x": 400,
           "sign": -1
@@ -2012,7 +2012,7 @@
       "sha256Verified": true,
       "diagnosticSha256": "68bfb15ac27d29056de92c8871e3714bc2463797fa13015d1fdfbafae9b8a8a6",
       "comparisons": 242,
-      "maxAbsoluteError": 0.04990265482246059,
+      "maxAbsoluteError": 0.04904412866375196,
       "mismatches": [],
       "cases": [
         {
@@ -2021,9 +2021,9 @@
           "clock": 0.05,
           "parameters": {
             "stage": 2,
-            "wavelength": 112,
-            "frequency": 0.41,
-            "amplitude": 75
+            "wavelength": 259,
+            "frequency": 0.57,
+            "amplitude": 66
           },
           "trackedX": 200
         },
@@ -2033,9 +2033,9 @@
           "clock": 0,
           "parameters": {
             "stage": 2,
-            "wavelength": 126,
-            "frequency": 0.56,
-            "amplitude": 51
+            "wavelength": 144,
+            "frequency": 0.52,
+            "amplitude": 71
           },
           "trackedX": 200
         },
@@ -2045,9 +2045,9 @@
           "clock": 0,
           "parameters": {
             "stage": 2,
-            "wavelength": 299,
-            "frequency": 0.48,
-            "amplitude": 64
+            "wavelength": 217,
+            "frequency": 0.52,
+            "amplitude": 62
           },
           "trackedX": 200
         },
@@ -2057,9 +2057,9 @@
           "clock": 0,
           "parameters": {
             "stage": 2,
-            "wavelength": 158,
-            "frequency": 0.44,
-            "amplitude": 68
+            "wavelength": 166,
+            "frequency": 0.56,
+            "amplitude": 55
           },
           "trackedX": 200
         },
@@ -2069,9 +2069,9 @@
           "clock": 0,
           "parameters": {
             "stage": 2,
-            "wavelength": 253,
-            "frequency": 0.48,
-            "amplitude": 54
+            "wavelength": 270,
+            "frequency": 0.57,
+            "amplitude": 70
           },
           "trackedX": 200
         },
@@ -2081,8 +2081,8 @@
           "clock": 0,
           "parameters": {
             "stage": 2,
-            "wavelength": 283,
-            "frequency": 0.55,
+            "wavelength": 166,
+            "frequency": 0.56,
             "amplitude": 54
           },
           "trackedX": 200
@@ -2093,9 +2093,9 @@
           "clock": 0,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2105,9 +2105,9 @@
           "clock": 1.1,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2117,9 +2117,9 @@
           "clock": 1.2,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2129,9 +2129,9 @@
           "clock": 1.3,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2141,9 +2141,9 @@
           "clock": 1.4,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2153,9 +2153,9 @@
           "clock": 1.5,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2165,9 +2165,9 @@
           "clock": 1.6,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2177,9 +2177,9 @@
           "clock": 1.7,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2189,9 +2189,9 @@
           "clock": 1.8,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2201,33 +2201,33 @@
           "clock": 1.9,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 natural",
-          "time": 2,
-          "clock": 2,
+          "time": 2.05,
+          "clock": 2.05,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 natural",
-          "time": 2.1,
-          "clock": 2.1,
+          "time": 2.15,
+          "clock": 2.15,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2237,9 +2237,9 @@
           "clock": 2.25,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2249,9 +2249,9 @@
           "clock": 2.35,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2261,9 +2261,9 @@
           "clock": 2.45,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2273,9 +2273,9 @@
           "clock": 2.55,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2285,9 +2285,9 @@
           "clock": 2.65,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2297,9 +2297,9 @@
           "clock": 2.75,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2309,9 +2309,9 @@
           "clock": 2.85,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2321,9 +2321,9 @@
           "clock": 2.95,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2333,9 +2333,9 @@
           "clock": 3.05,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2345,33 +2345,33 @@
           "clock": 3.15,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 natural",
-          "time": 3.25,
-          "clock": 3.25,
+          "time": 3.3,
+          "clock": 3.3,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 natural",
-          "time": 3.35,
-          "clock": 3.35,
+          "time": 3.4,
+          "clock": 3.4,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2381,9 +2381,9 @@
           "clock": 3.5,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2393,9 +2393,9 @@
           "clock": 3.6,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2405,9 +2405,9 @@
           "clock": 3.69999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2417,9 +2417,9 @@
           "clock": 3.79999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2429,9 +2429,9 @@
           "clock": 3.89999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2441,9 +2441,9 @@
           "clock": 3.99999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2453,9 +2453,9 @@
           "clock": 4.09999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2465,9 +2465,9 @@
           "clock": 4.19999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2477,9 +2477,9 @@
           "clock": 4.29999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2489,33 +2489,33 @@
           "clock": 4.39999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 natural",
-          "time": 4.49999999999999,
-          "clock": 4.49999999999999,
+          "time": 4.54999999999999,
+          "clock": 4.54999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 natural",
-          "time": 4.59999999999999,
-          "clock": 4.59999999999999,
+          "time": 4.64999999999999,
+          "clock": 4.64999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2525,9 +2525,9 @@
           "clock": 4.74999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2537,9 +2537,9 @@
           "clock": 4.84999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2549,9 +2549,9 @@
           "clock": 4.94999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2561,9 +2561,9 @@
           "clock": 5.04999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2573,9 +2573,9 @@
           "clock": 5.14999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2585,9 +2585,9 @@
           "clock": 5.24999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2597,9 +2597,9 @@
           "clock": 5.34999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2609,9 +2609,9 @@
           "clock": 5.44999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2621,9 +2621,9 @@
           "clock": 5.54999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2633,33 +2633,33 @@
           "clock": 5.64999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 natural",
-          "time": 5.74999999999999,
-          "clock": 5.74999999999999,
+          "time": 5.79999999999999,
+          "clock": 5.79999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 natural",
-          "time": 5.84999999999999,
-          "clock": 5.84999999999999,
+          "time": 5.89999999999999,
+          "clock": 5.89999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2669,9 +2669,9 @@
           "clock": 5.99999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2681,9 +2681,9 @@
           "clock": 6.09999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2693,9 +2693,9 @@
           "clock": 6.19999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2705,33 +2705,33 @@
           "clock": 6.29999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 paused",
-          "time": 6.39999999999999,
-          "clock": 6.39999999999999,
+          "time": 6.34999999999999,
+          "clock": 6.34999999999999,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
         {
           "name": "stage 2 clock reset",
-          "time": 6.39999999999999,
+          "time": 6.34999999999999,
           "clock": 0,
           "parameters": {
             "stage": 2,
-            "wavelength": 257,
-            "frequency": 0.55,
-            "amplitude": 58
+            "wavelength": 253,
+            "frequency": 0.48,
+            "amplitude": 47
           },
           "trackedX": 200
         },
@@ -2741,9 +2741,9 @@
           "clock": 0,
           "parameters": {
             "stage": 3,
-            "wavelength": 112,
-            "frequency": 0.41,
-            "amplitude": 19
+            "wavelength": 134,
+            "frequency": 0.45,
+            "amplitude": 25
           },
           "trackedX": 200
         },
@@ -2753,9 +2753,9 @@
           "clock": 0,
           "parameters": {
             "stage": 3,
-            "wavelength": 252,
+            "wavelength": 227,
             "frequency": 0.55,
-            "amplitude": 16
+            "amplitude": 19
           },
           "trackedX": 200
         },
@@ -2765,9 +2765,9 @@
           "clock": 0,
           "parameters": {
             "stage": 3,
-            "wavelength": 219,
-            "frequency": 0.42,
-            "amplitude": 23
+            "wavelength": 104,
+            "frequency": 0.4,
+            "amplitude": 18
           },
           "trackedX": 200
         },
@@ -2777,9 +2777,9 @@
           "clock": 0,
           "parameters": {
             "stage": 3,
-            "wavelength": 236,
-            "frequency": 0.52,
-            "amplitude": 20
+            "wavelength": 157,
+            "frequency": 0.56,
+            "amplitude": 24
           },
           "trackedX": 200
         },
@@ -2789,9 +2789,9 @@
           "clock": 0,
           "parameters": {
             "stage": 3,
-            "wavelength": 227,
-            "frequency": 0.59,
-            "amplitude": 24
+            "wavelength": 252,
+            "frequency": 0.47,
+            "amplitude": 17
           },
           "trackedX": 200
         },
@@ -2801,9 +2801,9 @@
           "clock": 0,
           "parameters": {
             "stage": 3,
-            "wavelength": 151,
-            "frequency": 0.51,
-            "amplitude": 22
+            "wavelength": 105,
+            "frequency": 0.56,
+            "amplitude": 21
           },
           "trackedX": 200
         },
@@ -2813,9 +2813,9 @@
           "clock": 0,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2825,9 +2825,9 @@
           "clock": 1.1,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2837,9 +2837,9 @@
           "clock": 1.2,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2849,9 +2849,9 @@
           "clock": 1.3,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2861,9 +2861,9 @@
           "clock": 1.4,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2873,9 +2873,9 @@
           "clock": 1.5,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2885,9 +2885,9 @@
           "clock": 1.6,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2897,9 +2897,9 @@
           "clock": 1.7,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2909,9 +2909,9 @@
           "clock": 1.8,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2921,45 +2921,45 @@
           "clock": 1.9,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 2,
-          "clock": 2,
+          "time": 2.05,
+          "clock": 2.05,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 2.1,
-          "clock": 2.1,
+          "time": 2.15,
+          "clock": 2.15,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 2.2,
-          "clock": 2.2,
+          "time": 2.25,
+          "clock": 2.25,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2969,9 +2969,9 @@
           "clock": 2.35,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2981,9 +2981,9 @@
           "clock": 2.45,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -2993,9 +2993,9 @@
           "clock": 2.55,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3005,9 +3005,9 @@
           "clock": 2.65,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3017,9 +3017,9 @@
           "clock": 2.75,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3029,9 +3029,9 @@
           "clock": 2.85,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3041,9 +3041,9 @@
           "clock": 2.95,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3053,9 +3053,9 @@
           "clock": 3.05,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3065,45 +3065,45 @@
           "clock": 3.15,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 3.25,
-          "clock": 3.25,
+          "time": 3.3,
+          "clock": 3.3,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 3.35,
-          "clock": 3.35,
+          "time": 3.4,
+          "clock": 3.4,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 3.45,
-          "clock": 3.45,
+          "time": 3.5,
+          "clock": 3.5,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3113,9 +3113,9 @@
           "clock": 3.6,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3125,9 +3125,9 @@
           "clock": 3.69999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3137,9 +3137,9 @@
           "clock": 3.79999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3149,9 +3149,9 @@
           "clock": 3.89999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3161,9 +3161,9 @@
           "clock": 3.99999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3173,9 +3173,9 @@
           "clock": 4.09999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3185,9 +3185,9 @@
           "clock": 4.19999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3197,9 +3197,9 @@
           "clock": 4.29999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3209,33 +3209,33 @@
           "clock": 4.39999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 4.49999999999999,
-          "clock": 4.49999999999999,
+          "time": 4.54999999999999,
+          "clock": 4.54999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 4.59999999999999,
-          "clock": 4.59999999999999,
+          "time": 4.64999999999999,
+          "clock": 4.64999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3245,9 +3245,9 @@
           "clock": 4.74999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3257,9 +3257,9 @@
           "clock": 4.84999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3269,9 +3269,9 @@
           "clock": 4.94999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3281,9 +3281,9 @@
           "clock": 5.04999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3293,9 +3293,9 @@
           "clock": 5.14999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3305,9 +3305,9 @@
           "clock": 5.24999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3317,9 +3317,9 @@
           "clock": 5.34999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3329,9 +3329,9 @@
           "clock": 5.44999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3341,9 +3341,9 @@
           "clock": 5.54999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3353,45 +3353,45 @@
           "clock": 5.64999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 5.74999999999999,
-          "clock": 5.74999999999999,
+          "time": 5.79999999999999,
+          "clock": 5.79999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 5.84999999999999,
-          "clock": 5.84999999999999,
+          "time": 5.89999999999999,
+          "clock": 5.89999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 natural",
-          "time": 5.94999999999999,
-          "clock": 5.94999999999999,
+          "time": 5.99999999999999,
+          "clock": 5.99999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3401,9 +3401,9 @@
           "clock": 6.09999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3413,9 +3413,9 @@
           "clock": 6.19999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3425,33 +3425,33 @@
           "clock": 6.29999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 paused",
-          "time": 6.39999999999999,
-          "clock": 6.39999999999999,
+          "time": 6.34999999999999,
+          "clock": 6.34999999999999,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
         {
           "name": "stage 3 clock reset",
-          "time": 6.39999999999999,
+          "time": 6.34999999999999,
           "clock": 0,
           "parameters": {
             "stage": 3,
-            "wavelength": 274,
-            "frequency": 0.51,
-            "amplitude": 18
+            "wavelength": 130,
+            "frequency": 0.53,
+            "amplitude": 22
           },
           "trackedX": 200
         },
@@ -3461,9 +3461,9 @@
           "clock": 0,
           "parameters": {
             "stage": 2,
-            "wavelength": 176,
-            "frequency": 0.45,
-            "amplitude": 63
+            "wavelength": 196,
+            "frequency": 0.48,
+            "amplitude": 45
           },
           "trackedX": 200
         }
@@ -3512,7 +3512,7 @@
         },
         {
           "name": "clock reset preserves physical phase",
-          "phase": 6.39999999999999,
+          "phase": 6.34999999999999,
           "clock": 0,
           "passed": true
         },
@@ -3563,7 +3563,7 @@
         },
         {
           "name": "clock reset preserves physical phase",
-          "phase": 6.39999999999999,
+          "phase": 6.34999999999999,
           "clock": 0,
           "passed": true
         },
@@ -3591,450 +3591,450 @@
           "name": "default",
           "time": 0,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "components on",
           "time": 0,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 7",
           "time": 7,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 8",
           "time": 8,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 9",
           "time": 9,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 10",
           "time": 10,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 11",
           "time": 11,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 12",
           "time": 12,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 13",
           "time": 13,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 14",
           "time": 14,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 15",
           "time": 15,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 16",
           "time": 16,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 17",
           "time": 17,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 18",
           "time": 18,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 19",
           "time": 19,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 20",
           "time": 20,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 21",
           "time": 21,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 22",
           "time": 22,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 23",
           "time": 23,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 24",
           "time": 24,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 25",
           "time": 25,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 26",
           "time": 26,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 27",
           "time": 27,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 28",
           "time": 28,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 29",
           "time": 29,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 30",
           "time": 30,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 31",
           "time": 31,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 32",
           "time": 32,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 33",
           "time": 33,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 34",
           "time": 34,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 35",
           "time": 35,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 36",
           "time": 36,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 37",
           "time": 37,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 38",
           "time": 38,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 39",
           "time": 39,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 40",
           "time": 40,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 41",
           "time": 41,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 42",
           "time": 42,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 43",
           "time": 43,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 44",
           "time": 44,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 45",
           "time": 45,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 46",
           "time": 46,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "natural 47",
           "time": 47,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "paused",
-          "time": 49,
+          "time": 48,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         },
         {
           "name": "slow",
-          "time": 52.5,
+          "time": 51.5,
           "parameters": {
-            "shape1": 3,
-            "shape2": 2,
-            "direction1": 1,
-            "direction2": 0
+            "shape1": 2,
+            "shape2": 1,
+            "direction1": 0,
+            "direction2": 1
           }
         }
       ],

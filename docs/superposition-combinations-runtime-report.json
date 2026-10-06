@@ -1,0 +1,7935 @@
+{
+  "date": "2026-10-06T13:39:41.382Z",
+  "nativeModelHashes": {
+    "assets/expansion-physics.mjs": "c4dcacfe60f669039e37d10f9ab12c3b7c55e3b12171a98c4aa406562a24a876",
+    "assets/expansion-specs.mjs": "851e6eb0aea808abc2733250e1279915113a50f586ec26f0a5f260607f2d9072"
+  },
+  "method": "Complete finite initial-tuple coverage using actual Ruffle random initialization and original buttons; no forced inputs or random numbers",
+  "files": 1,
+  "comparisons": 198600,
+  "expectedTuples": 100,
+  "observedTuples": 100,
+  "missingTuples": [],
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-7fcf5f845493e800",
+      "kind": "expansion-flash-7fcf5f845493e800",
+      "type": "super1",
+      "sha256": "127422748be4d491501358a15c324dcb5b46cbfeb36dd03d5d26c59b49da4ea9",
+      "sha256Verified": true,
+      "diagnosticSha256": "5f6e316fbd06c4eca30879544206ccacf900345ebddfb31a445cfdb840107b6d",
+      "comparisons": 198600,
+      "maxAbsoluteError": 4.973799150320701e-14,
+      "mismatches": [],
+      "tuples": [
+        {
+          "key": "1,1,1,0",
+          "values": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,2,1,0",
+          "values": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,0,1,1",
+          "values": [
+            2,
+            0,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,0,0,0",
+          "values": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,2,0,0",
+          "values": [
+            4,
+            2,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,3,0,0",
+          "values": [
+            1,
+            3,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,2,1,1",
+          "values": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,2,1,1",
+          "values": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,0,1,0",
+          "values": [
+            3,
+            0,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,3,0,1",
+          "values": [
+            4,
+            3,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,0,1,1",
+          "values": [
+            3,
+            0,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,2,1,1",
+          "values": [
+            4,
+            2,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,3,0,1",
+          "values": [
+            1,
+            3,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,2,0,1",
+          "values": [
+            4,
+            2,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,4,0,1",
+          "values": [
+            2,
+            4,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,3,0,1",
+          "values": [
+            3,
+            3,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,1,0,1",
+          "values": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,3,1,0",
+          "values": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,2,1,0",
+          "values": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,3,1,1",
+          "values": [
+            3,
+            3,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,2,1,0",
+          "values": [
+            2,
+            2,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,2,0,0",
+          "values": [
+            3,
+            2,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,0,1,0",
+          "values": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,4,1,0",
+          "values": [
+            3,
+            4,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,4,0,0",
+          "values": [
+            2,
+            4,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,1,1,0",
+          "values": [
+            3,
+            1,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,3,1,0",
+          "values": [
+            1,
+            3,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,0,0,1",
+          "values": [
+            4,
+            0,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,3,1,1",
+          "values": [
+            0,
+            3,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,3,1,0",
+          "values": [
+            0,
+            3,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,0,1,0",
+          "values": [
+            2,
+            0,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,4,1,0",
+          "values": [
+            0,
+            4,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,2,0,1",
+          "values": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,1,0,0",
+          "values": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,4,1,1",
+          "values": [
+            0,
+            4,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,4,0,0",
+          "values": [
+            4,
+            4,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,3,0,0",
+          "values": [
+            4,
+            3,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,1,1,0",
+          "values": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,2,0,1",
+          "values": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,1,0,0",
+          "values": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,1,0,0",
+          "values": [
+            3,
+            1,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,2,0,0",
+          "values": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,0,0,0",
+          "values": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,1,1,1",
+          "values": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,1,1,0",
+          "values": [
+            4,
+            1,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,1,0,0",
+          "values": [
+            4,
+            1,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,3,1,0",
+          "values": [
+            4,
+            3,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,4,1,0",
+          "values": [
+            1,
+            4,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,3,1,0",
+          "values": [
+            3,
+            3,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,0,1,1",
+          "values": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,4,1,1",
+          "values": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,0,1,1",
+          "values": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,3,0,0",
+          "values": [
+            2,
+            3,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,0,0,1",
+          "values": [
+            3,
+            0,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,1,0,1",
+          "values": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,0,0,1",
+          "values": [
+            2,
+            0,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,2,0,1",
+          "values": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,1,1,1",
+          "values": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,3,1,1",
+          "values": [
+            4,
+            3,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,4,1,0",
+          "values": [
+            2,
+            4,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,0,1,0",
+          "values": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,2,1,1",
+          "values": [
+            0,
+            2,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,3,1,1",
+          "values": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,4,0,1",
+          "values": [
+            4,
+            4,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,4,1,1",
+          "values": [
+            2,
+            4,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,2,0,1",
+          "values": [
+            0,
+            2,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,0,0,0",
+          "values": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,2,0,0",
+          "values": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,4,0,0",
+          "values": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,3,0,0",
+          "values": [
+            0,
+            3,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,1,0,1",
+          "values": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,3,0,1",
+          "values": [
+            0,
+            3,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,4,0,1",
+          "values": [
+            1,
+            4,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,4,1,1",
+          "values": [
+            3,
+            4,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,0,1,0",
+          "values": [
+            4,
+            0,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,2,1,1",
+          "values": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,1,0,0",
+          "values": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,0,0,0",
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,1,0,1",
+          "values": [
+            3,
+            1,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,2,0,0",
+          "values": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,3,0,0",
+          "values": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,0,0,1",
+          "values": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,1,1,0",
+          "values": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,0,0,0",
+          "values": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,1,1,1",
+          "values": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,3,1,1",
+          "values": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,1,1,1",
+          "values": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "1,4,0,0",
+          "values": [
+            1,
+            4,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,4,1,0",
+          "values": [
+            4,
+            4,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,0,0,1",
+          "values": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,4,0,0",
+          "values": [
+            3,
+            4,
+            0,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,4,0,1",
+          "values": [
+            3,
+            4,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,4,0,1",
+          "values": [
+            0,
+            4,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "2,3,0,1",
+          "values": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,0,1,1",
+          "values": [
+            4,
+            0,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,4,1,1",
+          "values": [
+            4,
+            4,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "3,2,1,0",
+          "values": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,1,1,1",
+          "values": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "0,2,1,0",
+          "values": [
+            0,
+            2,
+            1,
+            0
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        },
+        {
+          "key": "4,1,0,1",
+          "values": [
+            4,
+            1,
+            0,
+            1
+          ],
+          "cases": [
+            {
+              "name": "default",
+              "time": 0,
+              "components": false,
+              "playing": false
+            },
+            {
+              "name": "components on",
+              "time": 0,
+              "components": true,
+              "playing": false
+            },
+            {
+              "name": "natural",
+              "time": 7,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 8,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 9,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 10,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "natural",
+              "time": 11,
+              "components": true,
+              "playing": true
+            },
+            {
+              "name": "paused",
+              "time": 12,
+              "components": true,
+              "playing": false
+            }
+          ]
+        }
+      ],
+      "reloads": 408,
+      "controls": [
+        {
+          "name": "1,1,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,1,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,1,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,1,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,1,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,0,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,3,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,2,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,2,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,2,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,4,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,3,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,0,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,4,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,3,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,2,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,0,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,1,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,1,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,1,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,1,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,1,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,3,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,0,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,4,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,1,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,0,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,2,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,1,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,3,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,0,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,3,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,4,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,4,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,0,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,2,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,1,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,3,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,4,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,2,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,1,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,1,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,2,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,3,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,0,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,1,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,3,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,1,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "1,4,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,0,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,4,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,4,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "2,3,0,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,0,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,4,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "3,2,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,1 components on",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,1 play on",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,1,1,1 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,0 components on",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,0 fast on",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,0 play on",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,0 natural phases",
+          "passed": true
+        },
+        {
+          "name": "0,2,1,0 pause freezes",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,1 components on",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,1 fast on",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,1 play on",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,1 natural phases",
+          "passed": true
+        },
+        {
+          "name": "4,1,0,1 pause freezes",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "All 5 × 5 × 2 × 2 = 100 original initial random branch/sign tuples reached through unforced original reloads. Each tuple: two incident functions at all 121 original spatial samples, actual component/fast/play/pause controls, at least five distinct naturally advancing phases and frozen paused clock; actual three center markers while components visible. Queries can update original temporary variables. Not every random seed, slow-play time step, late-time reset, pixel curve or drag position. Native dropdowns expose original random tuple choices as a remaster addition."
+    }
+  ]
+}

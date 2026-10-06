@@ -1101,13 +1101,13 @@
         "origin": "remaster"
       }
     ],
-    "animated": false,
+    "animated": true,
     "timeEnd": 1000,
-    "rate": 0,
+    "rate": 5,
     "initialTime": 0,
     "threeD": false,
     "group": "moire",
-    "note": "원본의 격자·동심원 중첩과 드래그 기능을 새 SVG로 구성했습니다. 무늬 간격 6은 리마스터 표시용 설정이며 원본 도형의 픽셀 복제는 아닙니다. 아래 그래프는 무늬의 기하학적 덮임이며 광학적 세기가 아닙니다.",
+    "note": "원본의 사각 격자 24개와 원형 격자 23개를 새 SVG로 구성했습니다. 원형 격자의 자동 이동과 중심을 잡아 끄는 조작을 연결합니다.",
     "comparisonStatus": "source-scoped; original runtime exhaustive equivalence pending"
   },
   {
@@ -1128,6 +1128,24 @@
         "step": 1,
         "initial": 105,
         "origin": "original"
+      },
+      {
+        "key": "dx",
+        "label": "두 번째 격자 가로 이동",
+        "min": -100,
+        "max": 100,
+        "step": 1,
+        "initial": 0,
+        "origin": "remaster"
+      },
+      {
+        "key": "dy",
+        "label": "두 번째 격자 세로 이동",
+        "min": -100,
+        "max": 100,
+        "step": 1,
+        "initial": 0,
+        "origin": "remaster"
       }
     ],
     "animated": true,
@@ -1206,13 +1224,13 @@
         "origin": "original"
       }
     ],
-    "animated": false,
-    "timeEnd": 1000,
-    "rate": 0,
+    "animated": true,
+    "timeEnd": 25,
+    "rate": 2.5,
     "initialTime": 0,
     "threeD": false,
     "group": "moire",
-    "note": "격자와 파면을 새 SVG로 그렸습니다. 겹침 무늬와 같은 설정의 관측선 프로파일을 함께 살펴볼 수 있습니다. 프로파일은 리마스터 보충 표시입니다.",
+    "note": "원본처럼 원의 반지름이 단계마다 0.4씩 늘어나고 26단계로 반복됩니다. 두 번째 파원을 끄는 동안 시간 진행을 멈춥니다.",
     "comparisonStatus": "source-scoped; original runtime exhaustive equivalence pending"
   },
   {
@@ -1304,10 +1322,10 @@
       {
         "key": "space",
         "label": "전체 파원 간격",
-        "min": 10,
+        "min": 50,
         "max": 250,
         "step": 1,
-        "initial": 30,
+        "initial": 150,
         "origin": "original"
       },
       {

@@ -1,0 +1,161 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "results": [
+    {
+      "id": "flash-63168a81b3894bdc",
+      "kind": "expansion-flash-63168a81b3894bdc",
+      "type": "moire2",
+      "states": 12,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-7ac606a58acda7e4",
+      "kind": "expansion-flash-7ac606a58acda7e4",
+      "type": "moire3",
+      "states": 15,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-ac432d1dcd5d0d20",
+      "kind": "expansion-flash-ac432d1dcd5d0d20",
+      "type": "moire4",
+      "states": 9,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": false,
+      "offscreenPause": false,
+      "stableLowerProgress": false,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-458b58d57dcebb14",
+      "kind": "expansion-flash-458b58d57dcebb14",
+      "type": "moireint",
+      "states": 12,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-96c645fe2411f3c1",
+      "kind": "expansion-flash-96c645fe2411f3c1",
+      "type": "moireint2",
+      "states": 6,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": false,
+      "offscreenPause": false,
+      "stableLowerProgress": false,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-81529669def63e21",
+      "kind": "expansion-flash-81529669def63e21",
+      "type": "moireint3",
+      "states": 11,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": false,
+      "offscreenPause": false,
+      "stableLowerProgress": false,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-31962c099cc3adfb",
+      "kind": "expansion-flash-31962c099cc3adfb",
+      "type": "moireint4",
+      "states": 9,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": false,
+      "offscreenPause": false,
+      "stableLowerProgress": false,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    }
+  ],
+  "errors": [],
+  "noFlashOnReadingPage": true
+}

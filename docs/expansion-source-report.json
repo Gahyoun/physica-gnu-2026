@@ -1,7 +1,7 @@
 {
   "method": "Private original numerical functions/coordinates versus fresh semantic geometry and independent equations. Source-scoped checks, not full Flash runtime equivalence.",
   "files": 50,
-  "comparisons": 1319727,
+  "comparisons": 1360909,
   "results": [
     {
       "id": "flash-b3ea515ce40e22af",
@@ -381,10 +381,10 @@
       "type": "moire2",
       "source": "http://physica.gnu.ac.kr/phtml/wave/superpose/moire/moire2.swf",
       "sha256": "a6594864d0a74eed40fba9369d3905ae05cb673fed10d726ba9f2f6fedb011aa",
-      "comparisons": 2,
+      "comparisons": 4004,
       "maxAbsoluteError": 0,
       "passed": true,
-      "scope": "Source drag and moving-overlay interaction inspected. New regular-grid/circle spacing is explicitly a remaster design parameter; original authored shape pixel geometry not matched.",
+      "scope": "Private original clip EnterFrame recurrence at all 1001 integer steps with original twip property feedback. Fresh 24 authored square extents and 23 perfect circles replace copied artwork; perfect circle shape and source projection design differences remain explicit.",
       "sourceRuntimeExhaustive": false
     },
     {
@@ -393,7 +393,7 @@
       "type": "moire3",
       "source": "http://physica.gnu.ac.kr/phtml/wave/superpose/moire/moire3.swf",
       "sha256": "a2c3a1ba083d3f22ca5dfbb4e3858ae0badf7ea552e4c46dbc0ad607a0372551",
-      "comparisons": 14520,
+      "comparisons": 34200,
       "maxAbsoluteError": 1.4210854715202004e-13,
       "passed": true,
       "scope": "Source line coordinates, ring radii/centres and sectors at defaults and control endpoints; rotation at four times for moire3. SVG perfect circles replace original eight quadratic curve approximation. Added profile is geometric coverage, not optical intensity.",
@@ -417,7 +417,7 @@
       "type": "moireint",
       "source": "http://physica.gnu.ac.kr/phtml/wave/superpose/moire/moireint.swf",
       "sha256": "be43a72f8f38e16d0319c8939a98cb9bcc0ce489adee3ddb8d2d790f96760400",
-      "comparisons": 700,
+      "comparisons": 18200,
       "maxAbsoluteError": 0,
       "passed": true,
       "scope": "Source line coordinates, ring radii/centres and sectors at defaults and control endpoints; rotation at four times for moire3. SVG perfect circles replace original eight quadratic curve approximation. Added profile is geometric coverage, not optical intensity.",
@@ -528,7 +528,7 @@
       "comparisons": 28026,
       "maxAbsoluteError": 1.2789769243681803e-13,
       "passed": true,
-      "scope": "Source transverse/longitudinal rendering equations at amplitude, frequency and wavelength endpoints and representative times; drawing gain 2 converted to stated displacement units. Quiz wall clock not retained.",
+      "scope": "Source transverse/longitudinal rendering equations at amplitude, frequency and wavelength endpoints and representative times; drawing gain 2 converted to stated displacement units. Original independent clock reset is retained in the HTML controller; this numerical equation check does not verify wall-clock explanation timing.",
       "sourceRuntimeExhaustive": false
     },
     {

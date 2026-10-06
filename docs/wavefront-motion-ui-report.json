@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-06T05:48:22.827Z",
+  "date": "2026-10-06T13:31:30.192Z",
   "id": "flash-f5d4401128ea0c06",
   "nativeModelHashes": {
-    "assets/native-expansion.mjs": "9463f96d0b4ef6472ebc5d17f0d3ed6e182988994663a5aeff0064eb18a592e0",
-    "assets/expansion-physics.mjs": "74df25b9354f1267d858cb5aa8392237aa1e19b843f726352f6539d806c63db8",
-    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
+    "assets/native-expansion.mjs": "25c765655a10c7c7b09f7ec5d7637d1711ad0105e97731d2a45399337d7e3ded",
+    "assets/expansion-physics.mjs": "c4dcacfe60f669039e37d10f9ab12c3b7c55e3b12171a98c4aa406562a24a876",
+    "assets/expansion-specs.mjs": "851e6eb0aea808abc2733250e1279915113a50f586ec26f0a5f260607f2d9072"
   },
   "passed": true,
   "planes": 22,

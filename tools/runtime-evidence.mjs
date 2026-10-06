@@ -5,7 +5,8 @@ import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root)));
 
-export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave','expansion-wave'];
+export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave','expansion-wave','moire'];
+export const combinationGroups=['superposition-combinations'];
 
 export function runtimeEvidence(){
   const manifest=read('src/flash-manifest.json');
@@ -13,8 +14,9 @@ export function runtimeEvidence(){
   const slider=read('docs/flash-slider-runtime-report.json');
   const timeline=read('docs/timeline-runtime-report.json');
   const groups=numericalGroups.map(name=>({name,report:read(`docs/${name}-runtime-report.json`)}));
+  const combinations=combinationGroups.map(name=>({name,report:read(`docs/${name}-runtime-report.json`)}));
   const nativeModelHashes={};
-  for(const g of groups)for(const [file,hash]of Object.entries(g.report.nativeModelHashes)){
+  for(const g of [...groups,...combinations])for(const [file,hash]of Object.entries(g.report.nativeModelHashes)){
     if(nativeModelHashes[file]&&nativeModelHashes[file]!==hash)throw Error('Conflicting runtime evidence hashes: '+file+' in '+g.name);
     nativeModelHashes[file]=hash;
   }
@@ -28,8 +30,10 @@ export function runtimeEvidence(){
     const group=groups.find(g=>g.report.results.some(x=>x.id===r.id));
     const numeric=group?.report.results.find(x=>x.id===r.id);
     const check=numeric?.numeric||numeric;
+    const finiteCombinationEvidence=combinations.flatMap(g=>g.report.results.filter(v=>v.id===r.id).map(v=>({report:`docs/${g.name}-runtime-report.json`,sha256:v.sha256,passed:v.passed,comparisons:v.comparisons,expected:g.report.expectedTuples,observed:g.report.observedTuples,complete:v.passed&&g.report.expectedTuples===g.report.observedTuples,scope:v.scope})));
+    if(numeric?.finiteInputCombinations)finiteCombinationEvidence.push({report:`docs/${group.name}-runtime-report.json`,sha256:numeric.sha256,passed:numeric.passed,...numeric.finiteInputCombinations,comparisonsIncludedInPrimaryNumerical:true});
     return {
-      id:r.id,sha256:r.sha256,fullEquivalence:false,
+      id:r.id,sha256:r.sha256,fullEquivalence:false,finiteCombinationEvidence,
       originalPlayback:original?{
         report:'docs/flash-runtime-report.json',sha256:original.sha256,
         passed:original.sha256Verified&&original.loaded&&original.pausePixelsChanged===0&&original.reloadVerified&&!original.error&&!original.errors.length&&!original.requests.length,
@@ -67,7 +71,11 @@ export function runtimeEvidence(){
     originalPointerProbes:startup.clickProbes,
     numericalFiles:files.filter(r=>r.numerical).length,
     numericalFilesPassed:files.filter(r=>r.numerical?.passed).length,
-    numericalComparisons:files.reduce((n,r)=>n+(r.numerical?.comparisons||0),0),
+    numericalSampleComparisons:files.reduce((n,r)=>n+(r.numerical?.comparisons||0),0),
+    combinationComparisons:combinations.reduce((n,g)=>n+g.report.comparisons,0),
+    numericalComparisons:files.reduce((n,r)=>n+(r.numerical?.comparisons||0),0)+combinations.reduce((n,g)=>n+g.report.comparisons,0),
+    finiteCombinationScopes:files.reduce((n,r)=>n+r.finiteCombinationEvidence.length,0),
+    finiteCombinationScopesPassed:files.reduce((n,r)=>n+r.finiteCombinationEvidence.filter(e=>e.passed&&e.complete).length,0),
     rootTimelineFiles:files.filter(r=>r.rootTimeline).length,
     rootTimelineFilesPassed:files.filter(r=>r.rootTimeline?.passed).length,
     rootTimelineFrames:timeline.originalFramesObserved,
@@ -76,7 +84,7 @@ export function runtimeEvidence(){
     reviewedSourceBoundaryMatches:endpoints.filter(e=>e.reviewedRuntimeBoundaryMatch).length,
     sliderCandidatesPending:files.reduce((n,r)=>n+(r.sliders?.pending.length||0),0),
     allOriginalRuntimeControlsAndNumericsCompared:false,
-    definition:'Ruffle startup across the whole collection is complete. Numerical sample windows, AS2 endpoint checks and selected root timelines have separate finite scopes. Source VM tests and successful native UI tests are not original-runtime equivalence.',
+    definition:'Ruffle startup across the whole collection is complete. Numerical sample windows, AS2 endpoint checks and selected root timelines have separate finite scopes. Complete finite initial-tuple and slider-pair domains are separately identified and do not certify every control, event order or continuous input. Additional superposition combination comparisons are added once; moire combinations are already included in the primary numerical report. Source VM tests and successful native UI tests are not original-runtime equivalence.',
     files
   };
 }

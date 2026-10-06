@@ -6,11 +6,13 @@
 |---|---:|---|
 | 원본 로드·재생 관찰·렌더러 정지·재개·재로딩 | 518/518 | Chromium, 로컬 Ruffle 0.6.0, Canvas 렌더러 |
 | 원본 버튼 위치 클릭 | 456회 | 화면 변화 관찰. 버튼 의미·모든 분기 검증은 별도 |
-| 실제 원본 실행값과 HTML 수치 모델 | 106개, 446,877회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개·전기장 5개·광학 6개·반사/굴절 벡터 5개·박막 6개·편광 9개·결정/파면 11개·각운동량 3개·분자 4개·색공간 3개·복소수 1개·반사파 2개·추가 파동 4개, 기록한 상태·위치·시간 표본 |
+| 실제 원본 실행값과 HTML 수치 모델 | 113개, 658,244회 | 역학 15개·해석 그래프 23개·줄/음파 등 9개·전기장 5개·광학 6개·반사/굴절 벡터 5개·박막 6개·편광 9개·결정/파면 11개·각운동량 3개·분자 4개·색공간 3개·복소수 1개·반사파 2개·추가 파동 4개·무아레 7개. 기존·무아레 수치 459,644회 + 추가 중첩 초기 조합 198,600회; 기록한 유한 범위 |
+| 유한 초기 파형·부호 쌍 | 100/100 | 원본 무작위 초기화로 도달; 공간 표본·버튼·자연 시간 창 |
+| 다중 파원 유한 슬라이더 쌍 | 1,809/1,809 | 원본 수 2…10 × 간격 50…250; 루트 값·그려진 바깥 경계 |
 | AS2 슬라이더 후보 | 125개 모두 조작 | 250개 끝값: nominal 범위 일치 244개, 원본 특수 변환 6개 |
 | 루트 타임라인 | 29개, 805프레임 | 자연 재생에서 전체 루트 프레임 방문·순서 확인 |
 
-합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`field-runtime`](field-runtime-report.json), [`optics-runtime`](optics-runtime-report.json), [`refraction-runtime`](refraction-runtime-report.json), [`film-runtime`](film-runtime-report.json), [`polarization-runtime`](polarization-runtime-report.json), [`polarization-marker-runtime`](polarization-marker-runtime-report.json), [`structure-runtime`](structure-runtime-report.json), [`angular-runtime`](angular-runtime-report.json), [`molecule-runtime`](molecule-runtime-report.json), [`color-runtime`](color-runtime-report.json), [`complex-runtime`](complex-runtime-report.json), [`reflection-wave-runtime`](reflection-wave-runtime-report.json), [`expansion-wave-runtime`](expansion-wave-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
+합산 기록은 [original-runtime-evidence.json](original-runtime-evidence.json), 파일별 이식 현황은 [flash-migration-ledger.json](flash-migration-ledger.json)에 있다. 보고서는 [`flash-runtime`](flash-runtime-report.json), [`fundamental-runtime`](fundamental-runtime-report.json), [`analytic-runtime`](analytic-runtime-report.json), [`wave-runtime`](wave-runtime-report.json), [`field-runtime`](field-runtime-report.json), [`optics-runtime`](optics-runtime-report.json), [`refraction-runtime`](refraction-runtime-report.json), [`film-runtime`](film-runtime-report.json), [`polarization-runtime`](polarization-runtime-report.json), [`polarization-marker-runtime`](polarization-marker-runtime-report.json), [`structure-runtime`](structure-runtime-report.json), [`angular-runtime`](angular-runtime-report.json), [`molecule-runtime`](molecule-runtime-report.json), [`color-runtime`](color-runtime-report.json), [`complex-runtime`](complex-runtime-report.json), [`reflection-wave-runtime`](reflection-wave-runtime-report.json), [`expansion-wave-runtime`](expansion-wave-runtime-report.json), [`superposition-combinations-runtime`](superposition-combinations-runtime-report.json), [`moire-runtime`](moire-runtime-report.json), [`flash-slider-runtime`](flash-slider-runtime-report.json), [`timeline-runtime`](timeline-runtime-report.json)로 나누었다.
 
 ## 실제로 수정한 차이
 
@@ -73,9 +75,23 @@
 - 서로 다른 파장의 정적 파동: 원본의 **200개 점과 200개 선분 모두**, 점 좌표·선의 중심·길이·각도를 1,200회 읽어 비교했다. 좌표에는 원본의 0.05 px twip 저장 오차를 허용한다.
 - 역방향 위상자: 원본의 실제 끝점 끌기와 증감 버튼으로 파장 **75…200의 126개 정수값 모두**를 선택했다. 각 상태의 원본 함수 101개 공간 위치, 6개 관측점 선택, 양방향 cos 선택, 재생/정지를 15,449회 비교했다. 끌기만으로는 포인터의 픽셀 반올림 때문에 일부 정수값을 건너뛰므로 원본 증감 버튼으로 정확히 확인했다. 원본 왼쪽 클릭 경계는 x=0을 선택하지 않으며, HTML의 0 선택은 추가한 끝점이다. 재생 중에는 원본이 그리기 후 시간을 증가시키므로 함수 질의의 현재 시간과 마지막에 그려진 시간은 구분했다.
 - 횡파·종파 실험: 두 단계 각각 무작위 파동 6회 재생성, 자연 진행의 서로 다른 50개 이상 시간값에서 표시 입자의 좌표, 재생·정지·단계 전환·시계 초기화를 **242회** 비교했다. 원본 시계 버튼은 화면 하단에 일부가 잘려 있으므로 보이는 윗부분을 클릭했으며 위치를 강제 이동하지 않았다. **시계 초기화는 파동의 물리 시간을 보존한다.** 이를 HTML의 별도 ‘시계 초기화’ 버튼, 물리 시간/시계 읽기값, CSV 메타데이터에 반영했다. 횡파/종파를 바꾸면 원본처럼 재생을 정지한다. 모든 난수 조합, 그려진 모든 선분과 실제 벽시계 기준 설명 표시 시점은 아직 범위 밖이다.
-- 파동 중첩: 원본 Ruffle 함수의 **5개 파형 × 2개 부호 × 81개 좌표**와 두 입사파의 실제 그리기 좌표 121개를 대조했다. 자연 진행의 서로 다른 고속 시간값 40개 이상, 개별 파형 표시·고속/저속·재생·정지와 중심 표지를 합쳐 **47,604회** 비교했다. 함수 질의가 원본의 임시 `amp`/`tempValue`를 갱신할 수 있음을 기록하며 난수·입력 변수는 강제 변경하지 않는다. 모든 초기 파형 쌍과 느린 단계 전체, 반복 초기화는 아직 별도 대조가 필요하다.
+- 파동 중첩: 원본 Ruffle 함수의 **5개 파형 × 2개 부호 × 81개 좌표**와 두 입사파의 실제 그리기 좌표 121개를 대조했다. 자연 진행의 서로 다른 고속 시간값 40개 이상, 개별 파형 표시·고속/저속·재생·정지와 중심 표지를 합쳐 **47,604회** 비교했다. 함수 질의가 원본의 임시 `amp`/`tempValue`를 갱신할 수 있음을 기록하며 난수·입력 변수는 강제 변경하지 않는다. 초기 파형 쌍은 아래 추가 조합 검사에서 확대했으며, 느린 단계 전체와 반복 초기화는 아직 별도 대조가 필요하다.
 
 [리마스터 브라우저 검사](expansion-wave-ui-report.json)는 4개·59개 입력 상태와 SVG 조작·그래프·CSV·하단 진행 막대, 320/768/1360 px와 라이트/다크를 확인했다. 시계 초기화 전후 SVG 운동과 물리 값이 동일하고, 재개하면 물리 시간과 시계가 같은 간격으로 진행하는지 검사했다. 공통 표시 모듈 수정 뒤 평면파 운동 검사도 다시 실행했다. 원본 SWF와 계산 모듈은 변경하지 않았다.
+
+## 전체 조합의 범위와 무아레 재점검
+
+[전체 518개 범위 기록](flash-combination-coverage.json)은 입력 영역 조사와 검증을 구분한다. 기존 AS2 제어기 후보 외에 클래스 생성자 후보도 모았으며, 이 목록 자체를 모든 AS2/AS3 컨트롤의 완전한 열거로 취급하지 않는다. 연속 드래그·시간의 모든 실수 입력은 유한 샘플로 전수 확인했다고 말할 수 없다. 정수·선택지처럼 유한한 영역은 실제 조작 가능한 값을 확인한 뒤 곱집합을 검사한다. `allFiniteInputCombinationsCompared`·`allEventTransitionsCompared`·`fullEquivalence`는 파일 전체 기준으로 false를 유지한다.
+
+- **파동 중첩 초기 파형 쌍 100/100 · 198,600회 대조:** [추가 보고서](superposition-combinations-runtime-report.json). 5개 파형 × 5개 파형 × 2개 부호 × 2개 부호를 원본의 실제 재로딩으로 얻는다. 각 초기 쌍에서 121개 공간 표본의 두 입사 함수, 표시 성분·고속·재생·정지 버튼, 자연 진행의 서로 다른 5개 이상 시간값, 중심 표지를 비교한다. 난수를 강제 지정하지 않는다. 원본 함수 질의는 임시 변수에 영향을 줄 수 있다. 느린 시간 단계 전체, 같은 쌍의 모든 난수 시퀀스와 반복 초기화는 범위 밖이다.
+- **다중 파원의 유한 슬라이더 쌍 1,809/1,809 · 10,858회 대조:** [무아레 보고서](moire-runtime-report.json). 파원 수 2…10 × 실제 원본 간격 50…250을 정수별로 선택해, 원본 루트 값과 실제 그려진 클립의 네 바깥 경계값을 비교한다. 검사 중 원본 SWF를 바꾸거나 입력 변수를 덮어쓰지 않으며 브라우저 표시만 4배 확대한다. 간격의 원래 초기값은 150이다. 내부의 모든 원 곡선·픽셀과 포인터 이벤트 순서까지 대조한 것은 아니다.
+- **무아레 나머지 6종:** 실제 원본 `getBounds()`와 좌표를 읽어 동심 사각형/원 60개 이동 단계, 방사 무늬의 41개 정수 분할수와 100개 회전 위상, 자유 격자 이동, 두 원형 파원의 26개 팽창 위상, 3개 누름 높이 × 5개 수평 이동의 기울기, 파장 4…20의 17개 정수와 파원 이동을 확인한다. 한 루트 클립의 경계가 같다는 결과를 내부 선·원 하나하나의 완전한 동등성으로 바꾸어 기록하지 않는다.
+
+**고친 차이:** `moire2`의 균일 격자는 원본의 동심 사각형으로, 정적이었던 두 원형 파원은 팽창하는 원으로 바꾸었다. 높이에 따라 달라지는 평행선 기울기와 방사 격자의 드래그를 반영했다. 다중 파원의 잘못된 간격 하한 10을 실제 원본 50으로, 초기값 30을 150으로 수정했다. 파원 이동의 하한만 원본에 있는 경우 임의의 상한을 제거했다. 드래그는 SVG 화면 행렬에서 원본 좌표로 변환하므로 화면 폭에 의존하지 않는다. 드래그의 소수값을 입력칸에서 반올림하지 않고 표시한다.
+
+[HTML 끌기 보고서](moire-interactions-ui-report.json)는 7종 × 320/768/1360 px에서 실제 포인터 이벤트·입력 표시·초기화·재생/정지를 확인하며 [표시 보고서](moire-ui-report.json)는 그래프·CSV·테마·하단 진행 막대를 확인한다. 원본 자동 이동을 HTML에서 끌기 동안 일시 정지하는 것은 의도적인 사용성 차이다. 완전한 SVG 원과 GNU 색상도 리마스터의 표현 차이로 유지한다.
+
+무아레 7종의 실행 수치 대조는 12,767회이며, 무아레 표본과 별도 중첩 조합을 포함한 누적은 113개·658,244회다. 소스 VM의 50개 모형·1,360,909회 검사는 별도 근거이며 이 누적에 더하지 않는다. 클래스형 생성자 후보 201개도 원본 입력 영역 조사 목록에 포함했다. 현재 세부 HTML 표시 검사 74개 상태와 실제 끌기/화면 범위 검사 30개를 확인했다.
 
 ## 원본에서 확인한 슬라이더 예외
 
@@ -121,11 +137,15 @@ node tools/color-runtime-check.mjs
 node tools/complex-runtime-check.mjs
 node tools/reflection-wave-runtime-check.mjs
 node tools/expansion-wave-runtime-check.mjs
+node tools/superposition-combinations-runtime-check.mjs
+node tools/moire-runtime-check.mjs
+node tools/moire-browser-check.mjs
 node tools/wavefront-browser-check.mjs
 node tools/flash-slider-runtime-check.mjs
 node tools/timeline-runtime-check.mjs
 node tools/runtime-evidence.mjs
 node tools/migration-ledger.mjs
+node tools/combination-coverage.mjs
 node --test tools/*.test.mjs
 ```
 

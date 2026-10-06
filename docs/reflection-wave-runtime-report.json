@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-06T05:27:35.471Z",
+  "date": "2026-10-06T13:32:38.217Z",
   "nativeModelHashes": {
-    "assets/expansion-physics.mjs": "74df25b9354f1267d858cb5aa8392237aa1e19b843f726352f6539d806c63db8",
-    "assets/expansion-specs.mjs": "d573d7f3122cb2a50f3772bd2da92b6dbd4525f7a38a789e9330c19cee68207f"
+    "assets/expansion-physics.mjs": "c4dcacfe60f669039e37d10f9ab12c3b7c55e3b12171a98c4aa406562a24a876",
+    "assets/expansion-specs.mjs": "851e6eb0aea808abc2733250e1279915113a50f586ec26f0a5f260607f2d9072"
   },
   "method": "Actual original random pulse arrays, live free/fixed boundary marker and real playback controls versus independent HTML reflection equations",
   "files": 2,
@@ -20,6 +20,237 @@
       "maxAbsoluteError": 4.973799150320701e-14,
       "mismatches": [],
       "cases": [
+        {
+          "name": "branch 1 default",
+          "shape": 1,
+          "time": "",
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 started",
+          "shape": 1,
+          "time": 18,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 paused",
+          "shape": 1,
+          "time": 21,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 42",
+          "shape": 1,
+          "time": 42,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 45",
+          "shape": 1,
+          "time": 45,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 48",
+          "shape": 1,
+          "time": 48,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 51",
+          "shape": 1,
+          "time": 51,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 54",
+          "shape": 1,
+          "time": 54,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 57",
+          "shape": 1,
+          "time": 57,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 60",
+          "shape": 1,
+          "time": 60,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 63",
+          "shape": 1,
+          "time": 63,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 66",
+          "shape": 1,
+          "time": 66,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 69",
+          "shape": 1,
+          "time": 69,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 72",
+          "shape": 1,
+          "time": 72,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 75",
+          "shape": 1,
+          "time": 75,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 78",
+          "shape": 1,
+          "time": 78,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 81",
+          "shape": 1,
+          "time": 81,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 84",
+          "shape": 1,
+          "time": 84,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 87",
+          "shape": 1,
+          "time": 87,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 90",
+          "shape": 1,
+          "time": 90,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 93",
+          "shape": 1,
+          "time": 93,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 96",
+          "shape": 1,
+          "time": 96,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 99",
+          "shape": 1,
+          "time": 99,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 102",
+          "shape": 1,
+          "time": 102,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 105",
+          "shape": 1,
+          "time": 105,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 108",
+          "shape": 1,
+          "time": 108,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 111",
+          "shape": 1,
+          "time": 111,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 114",
+          "shape": 1,
+          "time": 114,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 117",
+          "shape": 1,
+          "time": 117,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 120",
+          "shape": 1,
+          "time": 120,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 123",
+          "shape": 1,
+          "time": 123,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 126",
+          "shape": 1,
+          "time": 126,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 129",
+          "shape": 1,
+          "time": 129,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
         {
           "name": "branch 0 default",
           "shape": 0,
@@ -252,6 +483,237 @@
           "boundaryDisplacement": 0
         },
         {
+          "name": "branch 3 default",
+          "shape": 3,
+          "time": "",
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 started",
+          "shape": 3,
+          "time": 18,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 paused",
+          "shape": 3,
+          "time": 21,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 42",
+          "shape": 3,
+          "time": 42,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 45",
+          "shape": 3,
+          "time": 45,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 48",
+          "shape": 3,
+          "time": 48,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 51",
+          "shape": 3,
+          "time": 51,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 54",
+          "shape": 3,
+          "time": 54,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 57",
+          "shape": 3,
+          "time": 57,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 60",
+          "shape": 3,
+          "time": 60,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 63",
+          "shape": 3,
+          "time": 63,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 66",
+          "shape": 3,
+          "time": 66,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 69",
+          "shape": 3,
+          "time": 69,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 72",
+          "shape": 3,
+          "time": 72,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 75",
+          "shape": 3,
+          "time": 75,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 78",
+          "shape": 3,
+          "time": 78,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 81",
+          "shape": 3,
+          "time": 81,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 84",
+          "shape": 3,
+          "time": 84,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 87",
+          "shape": 3,
+          "time": 87,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 90",
+          "shape": 3,
+          "time": 90,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 93",
+          "shape": 3,
+          "time": 93,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 96",
+          "shape": 3,
+          "time": 96,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 99",
+          "shape": 3,
+          "time": 99,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 102",
+          "shape": 3,
+          "time": 102,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 105",
+          "shape": 3,
+          "time": 105,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 108",
+          "shape": 3,
+          "time": 108,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 111",
+          "shape": 3,
+          "time": 111,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 114",
+          "shape": 3,
+          "time": 114,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 117",
+          "shape": 3,
+          "time": 117,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 120",
+          "shape": 3,
+          "time": 120,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 123",
+          "shape": 3,
+          "time": 123,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 126",
+          "shape": 3,
+          "time": 126,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 129",
+          "shape": 3,
+          "time": 129,
+          "amplitude": 50,
+          "boundaryDisplacement": 0
+        },
+        {
           "name": "branch 2 default",
           "shape": 2,
           "time": "",
@@ -481,490 +943,28 @@
           "time": 129,
           "amplitude": 50,
           "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 default",
-          "shape": 3,
-          "time": "",
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 started",
-          "shape": 3,
-          "time": 18,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 paused",
-          "shape": 3,
-          "time": 21,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 42",
-          "shape": 3,
-          "time": 42,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 45",
-          "shape": 3,
-          "time": 45,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 48",
-          "shape": 3,
-          "time": 48,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 51",
-          "shape": 3,
-          "time": 51,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 54",
-          "shape": 3,
-          "time": 54,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 57",
-          "shape": 3,
-          "time": 57,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 60",
-          "shape": 3,
-          "time": 60,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 63",
-          "shape": 3,
-          "time": 63,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 66",
-          "shape": 3,
-          "time": 66,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 69",
-          "shape": 3,
-          "time": 69,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 72",
-          "shape": 3,
-          "time": 72,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 75",
-          "shape": 3,
-          "time": 75,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 78",
-          "shape": 3,
-          "time": 78,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 81",
-          "shape": 3,
-          "time": 81,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 84",
-          "shape": 3,
-          "time": 84,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 87",
-          "shape": 3,
-          "time": 87,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 90",
-          "shape": 3,
-          "time": 90,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 93",
-          "shape": 3,
-          "time": 93,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 96",
-          "shape": 3,
-          "time": 96,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 99",
-          "shape": 3,
-          "time": 99,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 102",
-          "shape": 3,
-          "time": 102,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 105",
-          "shape": 3,
-          "time": 105,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 108",
-          "shape": 3,
-          "time": 108,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 111",
-          "shape": 3,
-          "time": 111,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 114",
-          "shape": 3,
-          "time": 114,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 117",
-          "shape": 3,
-          "time": 117,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 120",
-          "shape": 3,
-          "time": 120,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 123",
-          "shape": 3,
-          "time": 123,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 126",
-          "shape": 3,
-          "time": 126,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 129",
-          "shape": 3,
-          "time": 129,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 default",
-          "shape": 1,
-          "time": "",
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 started",
-          "shape": 1,
-          "time": 18,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 paused",
-          "shape": 1,
-          "time": 21,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 42",
-          "shape": 1,
-          "time": 42,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 45",
-          "shape": 1,
-          "time": 45,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 48",
-          "shape": 1,
-          "time": 48,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 51",
-          "shape": 1,
-          "time": 51,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 54",
-          "shape": 1,
-          "time": 54,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 57",
-          "shape": 1,
-          "time": 57,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 60",
-          "shape": 1,
-          "time": 60,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 63",
-          "shape": 1,
-          "time": 63,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 66",
-          "shape": 1,
-          "time": 66,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 69",
-          "shape": 1,
-          "time": 69,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 72",
-          "shape": 1,
-          "time": 72,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 75",
-          "shape": 1,
-          "time": 75,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 78",
-          "shape": 1,
-          "time": 78,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 81",
-          "shape": 1,
-          "time": 81,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 84",
-          "shape": 1,
-          "time": 84,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 87",
-          "shape": 1,
-          "time": 87,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 90",
-          "shape": 1,
-          "time": 90,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 93",
-          "shape": 1,
-          "time": 93,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 96",
-          "shape": 1,
-          "time": 96,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 99",
-          "shape": 1,
-          "time": 99,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 102",
-          "shape": 1,
-          "time": 102,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 105",
-          "shape": 1,
-          "time": 105,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 108",
-          "shape": 1,
-          "time": 108,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 111",
-          "shape": 1,
-          "time": 111,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 114",
-          "shape": 1,
-          "time": 114,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 117",
-          "shape": 1,
-          "time": 117,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 120",
-          "shape": 1,
-          "time": 120,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 123",
-          "shape": 1,
-          "time": 123,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 126",
-          "shape": 1,
-          "time": 126,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 129",
-          "shape": 1,
-          "time": 129,
-          "amplitude": 50,
-          "boundaryDisplacement": 0
         }
       ],
       "controls": [
         {
-          "name": "fast toggle branch 0",
+          "name": "fast toggle branch 1",
           "passed": true
         },
         {
-          "name": "play branch 0",
+          "name": "play branch 1",
           "passed": true
         },
         {
-          "name": "pause branch 0",
+          "name": "pause branch 1",
           "observedTime": 21,
           "passed": true
         },
         {
-          "name": "resume branch 0",
+          "name": "resume branch 1",
           "passed": true
         },
         {
-          "name": "natural advancing phases branch 0",
+          "name": "natural advancing phases branch 1",
           "phases": [
             42,
             45,
@@ -1000,24 +1000,24 @@
           "passed": true
         },
         {
-          "name": "fast toggle branch 2",
+          "name": "fast toggle branch 0",
           "passed": true
         },
         {
-          "name": "play branch 2",
+          "name": "play branch 0",
           "passed": true
         },
         {
-          "name": "pause branch 2",
+          "name": "pause branch 0",
           "observedTime": 21,
           "passed": true
         },
         {
-          "name": "resume branch 2",
+          "name": "resume branch 0",
           "passed": true
         },
         {
-          "name": "natural advancing phases branch 2",
+          "name": "natural advancing phases branch 0",
           "phases": [
             42,
             45,
@@ -1106,24 +1106,24 @@
           "passed": true
         },
         {
-          "name": "fast toggle branch 1",
+          "name": "fast toggle branch 2",
           "passed": true
         },
         {
-          "name": "play branch 1",
+          "name": "play branch 2",
           "passed": true
         },
         {
-          "name": "pause branch 1",
+          "name": "pause branch 2",
           "observedTime": 21,
           "passed": true
         },
         {
-          "name": "resume branch 1",
+          "name": "resume branch 2",
           "passed": true
         },
         {
-          "name": "natural advancing phases branch 1",
+          "name": "natural advancing phases branch 2",
           "phases": [
             42,
             45,
@@ -1172,23 +1172,63 @@
       "reloads": [
         {
           "attempt": 0,
-          "rand": 0.776234686840326,
-          "shape": 0
+          "rand": 0.631006829440594,
+          "shape": 1
         },
         {
           "attempt": 1,
-          "rand": 0.281830855179578,
-          "shape": 2
+          "rand": 0.507954495958984,
+          "shape": 1
         },
         {
           "attempt": 2,
-          "rand": 0.235507518518716,
-          "shape": 3
+          "rand": 0.990556542761624,
+          "shape": 0
         },
         {
           "attempt": 3,
-          "rand": 0.626783188898116,
+          "rand": 0.749287655577064,
           "shape": 1
+        },
+        {
+          "attempt": 4,
+          "rand": 0.846290101762861,
+          "shape": 0
+        },
+        {
+          "attempt": 5,
+          "rand": 0.618099580518901,
+          "shape": 1
+        },
+        {
+          "attempt": 6,
+          "rand": 0.942939675878733,
+          "shape": 0
+        },
+        {
+          "attempt": 7,
+          "rand": 0.0707345767877996,
+          "shape": 3
+        },
+        {
+          "attempt": 8,
+          "rand": 0.749838613905013,
+          "shape": 1
+        },
+        {
+          "attempt": 9,
+          "rand": 0.5861134394072,
+          "shape": 1
+        },
+        {
+          "attempt": 10,
+          "rand": 0.0229490855708718,
+          "shape": 3
+        },
+        {
+          "attempt": 11,
+          "rand": 0.466847873758525,
+          "shape": 2
         }
       ],
       "fullEquivalence": false,
@@ -1206,468 +1246,6 @@
       "maxAbsoluteError": 0.04999999999999449,
       "mismatches": [],
       "cases": [
-        {
-          "name": "branch 1 default",
-          "shape": 1,
-          "time": 0,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 started",
-          "shape": 1,
-          "time": 18,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 paused",
-          "shape": 1,
-          "time": 21,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 42",
-          "shape": 1,
-          "time": 42,
-          "amplitude": 48,
-          "boundaryDisplacement": 38.4
-        },
-        {
-          "name": "branch 1 natural 45",
-          "shape": 1,
-          "time": 45,
-          "amplitude": 48,
-          "boundaryDisplacement": 67.2
-        },
-        {
-          "name": "branch 1 natural 48",
-          "shape": 1,
-          "time": 48,
-          "amplitude": 48,
-          "boundaryDisplacement": 96
-        },
-        {
-          "name": "branch 1 natural 51",
-          "shape": 1,
-          "time": 51,
-          "amplitude": 48,
-          "boundaryDisplacement": 96
-        },
-        {
-          "name": "branch 1 natural 54",
-          "shape": 1,
-          "time": 54,
-          "amplitude": 48,
-          "boundaryDisplacement": 96
-        },
-        {
-          "name": "branch 1 natural 57",
-          "shape": 1,
-          "time": 57,
-          "amplitude": 48,
-          "boundaryDisplacement": 96
-        },
-        {
-          "name": "branch 1 natural 60",
-          "shape": 1,
-          "time": 60,
-          "amplitude": 48,
-          "boundaryDisplacement": 76.8
-        },
-        {
-          "name": "branch 1 natural 63",
-          "shape": 1,
-          "time": 63,
-          "amplitude": 48,
-          "boundaryDisplacement": 48
-        },
-        {
-          "name": "branch 1 natural 66",
-          "shape": 1,
-          "time": 66,
-          "amplitude": 48,
-          "boundaryDisplacement": 19.200000000000003
-        },
-        {
-          "name": "branch 1 natural 69",
-          "shape": 1,
-          "time": 69,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 72",
-          "shape": 1,
-          "time": 72,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 75",
-          "shape": 1,
-          "time": 75,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 78",
-          "shape": 1,
-          "time": 78,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 81",
-          "shape": 1,
-          "time": 81,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 84",
-          "shape": 1,
-          "time": 84,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 87",
-          "shape": 1,
-          "time": 87,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 90",
-          "shape": 1,
-          "time": 90,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 93",
-          "shape": 1,
-          "time": 93,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 96",
-          "shape": 1,
-          "time": 96,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 99",
-          "shape": 1,
-          "time": 99,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 102",
-          "shape": 1,
-          "time": 102,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 105",
-          "shape": 1,
-          "time": 105,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 108",
-          "shape": 1,
-          "time": 108,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 111",
-          "shape": 1,
-          "time": 111,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 114",
-          "shape": 1,
-          "time": 114,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 117",
-          "shape": 1,
-          "time": 117,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 120",
-          "shape": 1,
-          "time": 120,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 123",
-          "shape": 1,
-          "time": 123,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 126",
-          "shape": 1,
-          "time": 126,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 1 natural 129",
-          "shape": 1,
-          "time": 129,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 default",
-          "shape": 3,
-          "time": 0,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 started",
-          "shape": 3,
-          "time": 18,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 paused",
-          "shape": 3,
-          "time": 21,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 42",
-          "shape": 3,
-          "time": 42,
-          "amplitude": 48,
-          "boundaryDisplacement": 75.1
-        },
-        {
-          "name": "branch 3 natural 45",
-          "shape": 3,
-          "time": 45,
-          "amplitude": 48,
-          "boundaryDisplacement": 96
-        },
-        {
-          "name": "branch 3 natural 48",
-          "shape": 3,
-          "time": 48,
-          "amplitude": 48,
-          "boundaryDisplacement": 75.1
-        },
-        {
-          "name": "branch 3 natural 51",
-          "shape": 3,
-          "time": 51,
-          "amplitude": 48,
-          "boundaryDisplacement": 21.400000000000006
-        },
-        {
-          "name": "branch 3 natural 54",
-          "shape": 3,
-          "time": 54,
-          "amplitude": 48,
-          "boundaryDisplacement": -41.650000000000006
-        },
-        {
-          "name": "branch 3 natural 57",
-          "shape": 3,
-          "time": 57,
-          "amplitude": 48,
-          "boundaryDisplacement": -86.44999999999999
-        },
-        {
-          "name": "branch 3 natural 60",
-          "shape": 3,
-          "time": 60,
-          "amplitude": 48,
-          "boundaryDisplacement": -93.55000000000001
-        },
-        {
-          "name": "branch 3 natural 63",
-          "shape": 3,
-          "time": 63,
-          "amplitude": 48,
-          "boundaryDisplacement": -59.849999999999994
-        },
-        {
-          "name": "branch 3 natural 66",
-          "shape": 3,
-          "time": 66,
-          "amplitude": 48,
-          "boundaryDisplacement": 0.04999999999999716
-        },
-        {
-          "name": "branch 3 natural 69",
-          "shape": 3,
-          "time": 69,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 72",
-          "shape": 3,
-          "time": 72,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 75",
-          "shape": 3,
-          "time": 75,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 78",
-          "shape": 3,
-          "time": 78,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 81",
-          "shape": 3,
-          "time": 81,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 84",
-          "shape": 3,
-          "time": 84,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 87",
-          "shape": 3,
-          "time": 87,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 90",
-          "shape": 3,
-          "time": 90,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 93",
-          "shape": 3,
-          "time": 93,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 96",
-          "shape": 3,
-          "time": 96,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 99",
-          "shape": 3,
-          "time": 99,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 102",
-          "shape": 3,
-          "time": 102,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 105",
-          "shape": 3,
-          "time": 105,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 108",
-          "shape": 3,
-          "time": 108,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 111",
-          "shape": 3,
-          "time": 111,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 114",
-          "shape": 3,
-          "time": 114,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 117",
-          "shape": 3,
-          "time": 117,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 120",
-          "shape": 3,
-          "time": 120,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 123",
-          "shape": 3,
-          "time": 123,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 126",
-          "shape": 3,
-          "time": 126,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
-        {
-          "name": "branch 3 natural 129",
-          "shape": 3,
-          "time": 129,
-          "amplitude": 48,
-          "boundaryDisplacement": 0
-        },
         {
           "name": "branch 2 default",
           "shape": 2,
@@ -1895,6 +1473,237 @@
         {
           "name": "branch 2 natural 129",
           "shape": 2,
+          "time": 129,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 default",
+          "shape": 1,
+          "time": 0,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 started",
+          "shape": 1,
+          "time": 18,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 paused",
+          "shape": 1,
+          "time": 21,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 42",
+          "shape": 1,
+          "time": 42,
+          "amplitude": 48,
+          "boundaryDisplacement": 38.4
+        },
+        {
+          "name": "branch 1 natural 45",
+          "shape": 1,
+          "time": 45,
+          "amplitude": 48,
+          "boundaryDisplacement": 67.2
+        },
+        {
+          "name": "branch 1 natural 48",
+          "shape": 1,
+          "time": 48,
+          "amplitude": 48,
+          "boundaryDisplacement": 96
+        },
+        {
+          "name": "branch 1 natural 51",
+          "shape": 1,
+          "time": 51,
+          "amplitude": 48,
+          "boundaryDisplacement": 96
+        },
+        {
+          "name": "branch 1 natural 54",
+          "shape": 1,
+          "time": 54,
+          "amplitude": 48,
+          "boundaryDisplacement": 96
+        },
+        {
+          "name": "branch 1 natural 57",
+          "shape": 1,
+          "time": 57,
+          "amplitude": 48,
+          "boundaryDisplacement": 96
+        },
+        {
+          "name": "branch 1 natural 60",
+          "shape": 1,
+          "time": 60,
+          "amplitude": 48,
+          "boundaryDisplacement": 76.8
+        },
+        {
+          "name": "branch 1 natural 63",
+          "shape": 1,
+          "time": 63,
+          "amplitude": 48,
+          "boundaryDisplacement": 48
+        },
+        {
+          "name": "branch 1 natural 66",
+          "shape": 1,
+          "time": 66,
+          "amplitude": 48,
+          "boundaryDisplacement": 19.200000000000003
+        },
+        {
+          "name": "branch 1 natural 69",
+          "shape": 1,
+          "time": 69,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 72",
+          "shape": 1,
+          "time": 72,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 75",
+          "shape": 1,
+          "time": 75,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 78",
+          "shape": 1,
+          "time": 78,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 81",
+          "shape": 1,
+          "time": 81,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 84",
+          "shape": 1,
+          "time": 84,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 87",
+          "shape": 1,
+          "time": 87,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 90",
+          "shape": 1,
+          "time": 90,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 93",
+          "shape": 1,
+          "time": 93,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 96",
+          "shape": 1,
+          "time": 96,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 99",
+          "shape": 1,
+          "time": 99,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 102",
+          "shape": 1,
+          "time": 102,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 105",
+          "shape": 1,
+          "time": 105,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 108",
+          "shape": 1,
+          "time": 108,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 111",
+          "shape": 1,
+          "time": 111,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 114",
+          "shape": 1,
+          "time": 114,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 117",
+          "shape": 1,
+          "time": 117,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 120",
+          "shape": 1,
+          "time": 120,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 123",
+          "shape": 1,
+          "time": 123,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 126",
+          "shape": 1,
+          "time": 126,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 1 natural 129",
+          "shape": 1,
           "time": 129,
           "amplitude": 48,
           "boundaryDisplacement": 0
@@ -2129,115 +1938,240 @@
           "time": 129,
           "amplitude": 48,
           "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 default",
+          "shape": 3,
+          "time": 0,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 started",
+          "shape": 3,
+          "time": 18,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 paused",
+          "shape": 3,
+          "time": 21,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 42",
+          "shape": 3,
+          "time": 42,
+          "amplitude": 48,
+          "boundaryDisplacement": 75.1
+        },
+        {
+          "name": "branch 3 natural 45",
+          "shape": 3,
+          "time": 45,
+          "amplitude": 48,
+          "boundaryDisplacement": 96
+        },
+        {
+          "name": "branch 3 natural 48",
+          "shape": 3,
+          "time": 48,
+          "amplitude": 48,
+          "boundaryDisplacement": 75.1
+        },
+        {
+          "name": "branch 3 natural 51",
+          "shape": 3,
+          "time": 51,
+          "amplitude": 48,
+          "boundaryDisplacement": 21.400000000000006
+        },
+        {
+          "name": "branch 3 natural 54",
+          "shape": 3,
+          "time": 54,
+          "amplitude": 48,
+          "boundaryDisplacement": -41.650000000000006
+        },
+        {
+          "name": "branch 3 natural 57",
+          "shape": 3,
+          "time": 57,
+          "amplitude": 48,
+          "boundaryDisplacement": -86.44999999999999
+        },
+        {
+          "name": "branch 3 natural 60",
+          "shape": 3,
+          "time": 60,
+          "amplitude": 48,
+          "boundaryDisplacement": -93.55000000000001
+        },
+        {
+          "name": "branch 3 natural 63",
+          "shape": 3,
+          "time": 63,
+          "amplitude": 48,
+          "boundaryDisplacement": -59.849999999999994
+        },
+        {
+          "name": "branch 3 natural 66",
+          "shape": 3,
+          "time": 66,
+          "amplitude": 48,
+          "boundaryDisplacement": 0.04999999999999716
+        },
+        {
+          "name": "branch 3 natural 69",
+          "shape": 3,
+          "time": 69,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 72",
+          "shape": 3,
+          "time": 72,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 75",
+          "shape": 3,
+          "time": 75,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 78",
+          "shape": 3,
+          "time": 78,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 81",
+          "shape": 3,
+          "time": 81,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 84",
+          "shape": 3,
+          "time": 84,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 87",
+          "shape": 3,
+          "time": 87,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 90",
+          "shape": 3,
+          "time": 90,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 93",
+          "shape": 3,
+          "time": 93,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 96",
+          "shape": 3,
+          "time": 96,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 99",
+          "shape": 3,
+          "time": 99,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 102",
+          "shape": 3,
+          "time": 102,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 105",
+          "shape": 3,
+          "time": 105,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 108",
+          "shape": 3,
+          "time": 108,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 111",
+          "shape": 3,
+          "time": 111,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 114",
+          "shape": 3,
+          "time": 114,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 117",
+          "shape": 3,
+          "time": 117,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 120",
+          "shape": 3,
+          "time": 120,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 123",
+          "shape": 3,
+          "time": 123,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 126",
+          "shape": 3,
+          "time": 126,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
+        },
+        {
+          "name": "branch 3 natural 129",
+          "shape": 3,
+          "time": 129,
+          "amplitude": 48,
+          "boundaryDisplacement": 0
         }
       ],
       "controls": [
-        {
-          "name": "fast toggle branch 1",
-          "passed": true
-        },
-        {
-          "name": "play branch 1",
-          "passed": true
-        },
-        {
-          "name": "pause branch 1",
-          "observedTime": 21,
-          "passed": true
-        },
-        {
-          "name": "resume branch 1",
-          "passed": true
-        },
-        {
-          "name": "natural advancing phases branch 1",
-          "phases": [
-            42,
-            45,
-            48,
-            51,
-            54,
-            57,
-            60,
-            63,
-            66,
-            69,
-            72,
-            75,
-            78,
-            81,
-            84,
-            87,
-            90,
-            93,
-            96,
-            99,
-            102,
-            105,
-            108,
-            111,
-            114,
-            117,
-            120,
-            123,
-            126,
-            129
-          ],
-          "passed": true
-        },
-        {
-          "name": "fast toggle branch 3",
-          "passed": true
-        },
-        {
-          "name": "play branch 3",
-          "passed": true
-        },
-        {
-          "name": "pause branch 3",
-          "observedTime": 21,
-          "passed": true
-        },
-        {
-          "name": "resume branch 3",
-          "passed": true
-        },
-        {
-          "name": "natural advancing phases branch 3",
-          "phases": [
-            42,
-            45,
-            48,
-            51,
-            54,
-            57,
-            60,
-            63,
-            66,
-            69,
-            72,
-            75,
-            78,
-            81,
-            84,
-            87,
-            90,
-            93,
-            96,
-            99,
-            102,
-            105,
-            108,
-            111,
-            114,
-            117,
-            120,
-            123,
-            126,
-            129
-          ],
-          "passed": true
-        },
         {
           "name": "fast toggle branch 2",
           "passed": true
@@ -2257,6 +2191,59 @@
         },
         {
           "name": "natural advancing phases branch 2",
+          "phases": [
+            42,
+            45,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            66,
+            69,
+            72,
+            75,
+            78,
+            81,
+            84,
+            87,
+            90,
+            93,
+            96,
+            99,
+            102,
+            105,
+            108,
+            111,
+            114,
+            117,
+            120,
+            123,
+            126,
+            129
+          ],
+          "passed": true
+        },
+        {
+          "name": "fast toggle branch 1",
+          "passed": true
+        },
+        {
+          "name": "play branch 1",
+          "passed": true
+        },
+        {
+          "name": "pause branch 1",
+          "observedTime": 21,
+          "passed": true
+        },
+        {
+          "name": "resume branch 1",
+          "passed": true
+        },
+        {
+          "name": "natural advancing phases branch 1",
           "phases": [
             42,
             45,
@@ -2345,6 +2332,59 @@
           "passed": true
         },
         {
+          "name": "fast toggle branch 3",
+          "passed": true
+        },
+        {
+          "name": "play branch 3",
+          "passed": true
+        },
+        {
+          "name": "pause branch 3",
+          "observedTime": 21,
+          "passed": true
+        },
+        {
+          "name": "resume branch 3",
+          "passed": true
+        },
+        {
+          "name": "natural advancing phases branch 3",
+          "phases": [
+            42,
+            45,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            66,
+            69,
+            72,
+            75,
+            78,
+            81,
+            84,
+            87,
+            90,
+            93,
+            96,
+            99,
+            102,
+            105,
+            108,
+            111,
+            114,
+            117,
+            120,
+            123,
+            126,
+            129
+          ],
+          "passed": true
+        },
+        {
           "name": "all four original randomly generated branches",
           "observed": [
             0,
@@ -2358,28 +2398,38 @@
       "reloads": [
         {
           "attempt": 0,
-          "rand": 0.72080344054848,
-          "shape": 1
+          "rand": 0.358358784113079,
+          "shape": 2
         },
         {
           "attempt": 1,
-          "rand": 0.0852650059387088,
-          "shape": 3
+          "rand": 0.614476883783937,
+          "shape": 1
         },
         {
           "attempt": 2,
-          "rand": 0.423455668613315,
+          "rand": 0.303860481828451,
           "shape": 2
         },
         {
           "attempt": 3,
-          "rand": 0.38440651120618,
+          "rand": 0.269188085570931,
           "shape": 2
         },
         {
           "attempt": 4,
-          "rand": 0.835316905286163,
+          "rand": 0.94844729732722,
           "shape": 0
+        },
+        {
+          "attempt": 5,
+          "rand": 0.301706192083657,
+          "shape": 2
+        },
+        {
+          "attempt": 6,
+          "rand": 0.126880951225758,
+          "shape": 3
         }
       ],
       "fullEquivalence": false,
