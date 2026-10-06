@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06T05:27:53.462Z",
+  "date": "2026-10-06T05:51:54.692Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -20,9 +20,9 @@
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 102,
-  "numericalFilesPassed": 102,
-  "numericalComparisons": 382382,
+  "numericalFiles": 106,
+  "numericalFilesPassed": 106,
+  "numericalComparisons": 446877,
   "rootTimelineFiles": 29,
   "rootTimelineFilesPassed": 29,
   "rootTimelineFrames": 805,
@@ -10114,7 +10114,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/expansion-wave-runtime-report.json",
+        "sha256": "127422748be4d491501358a15c324dcb5b46cbfeb36dd03d5d26c59b49da4ea9",
+        "passed": true,
+        "comparisons": 47604,
+        "scope": "Every original pure-function branch/sign combination at 81 x positions including support boundaries, plus both original incident functions at all 121 drawn x positions during at least 40 natural fast phases and actual component/fast/slow/play/pause controls. Function queries may update original temporary amp/tempValue variables; no inputs or random seeds forced. All initial random branch-pair combinations, every slow phase, reset wrap and drawing pixels remain outside scope.",
+        "maxAbsoluteError": 0.04999999999999716
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10701,7 +10708,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/expansion-wave-runtime-report.json",
+        "sha256": "5bd895c5c412210b182c494b2cf65f76d6097f3eb62521f80543509da811e93e",
+        "passed": true,
+        "comparisons": 1200,
+        "scope": "All 200 original dots and 200 line midpoints, lengths and rotations read from actual Ruffle clips; original twip quantization allowed. Original has no controls. Unrounded geometry uses original constants, while SVG projection is a new design.",
+        "maxAbsoluteError": 0.049999517111317004
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10737,7 +10751,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/expansion-wave-runtime-report.json",
+        "sha256": "316606d426d8376482dd88aeec0f7a6ddc5d1baac7aa53048abdc00171f6a980",
+        "passed": true,
+        "comparisons": 15449,
+        "scope": "All 126 integer wavelengths set by a lower-stop drag and 125 actual increment-arrow clicks; 101 original function values at each setting; actual selection clicks, orientation, play and pause. The original left hit-area boundary excludes x=0; HTML allows zero as an added endpoint. Displayed markers checked after paused selection/slider/orientation redraw. Original runthis draws then increments time; running function queries use current time, not a claim of exact last-drawn frame equivalence.",
+        "maxAbsoluteError": 0.04998731630342945
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10791,7 +10812,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/expansion-wave-runtime-report.json",
+        "sha256": "a856192424ae21004f0c55652293cf04eb8831ec78838a0179fd287f6cd1034f",
+        "passed": true,
+        "comparisons": 242,
+        "scope": "Both original stages, six random regenerations each, tracked particle coordinates during at least 50 naturally advancing phases per stage, real play/pause/next and independent clock reset. The clock-reset button is partially below the original stage; its visible top strip is clicked without moving the button. All random seeds, full drawn line segments, wall-clock explanation and every randomized parameter combination remain outside scope.",
+        "maxAbsoluteError": 0.04990265482246059
+      },
       "sliders": null,
       "rootTimeline": null
     },

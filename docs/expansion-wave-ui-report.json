@@ -1,0 +1,99 @@
+{
+  "base": "http://127.0.0.1:8775/",
+  "results": [
+    {
+      "id": "flash-9cfa1b9936f1373f",
+      "kind": "expansion-flash-9cfa1b9936f1373f",
+      "type": "phasorprin2Inv",
+      "states": 14,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-58ca7560b196cc7c",
+      "kind": "expansion-flash-58ca7560b196cc7c",
+      "type": "harmonicwave2",
+      "states": 6,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": false,
+      "offscreenPause": false,
+      "stableLowerProgress": false,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-cdf934c90c770bea",
+      "kind": "expansion-flash-cdf934c90c770bea",
+      "type": "waveexpweb",
+      "states": 21,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "independentClockReset": true,
+      "clockResetPreservesMotion": true,
+      "stageSwitchStops": true,
+      "clockCSV": true,
+      "csvRows": 501
+    },
+    {
+      "id": "flash-7fcf5f845493e800",
+      "kind": "expansion-flash-7fcf5f845493e800",
+      "type": "super1",
+      "states": 18,
+      "svg": true,
+      "appliedParameters": true,
+      "originalArtworkNotLoaded": true,
+      "sourceRuntimeExhaustive": false,
+      "playPause": true,
+      "offscreenPause": true,
+      "stableLowerProgress": true,
+      "curveAlpha": 0.65,
+      "threeDCamera": false,
+      "widths": [
+        320,
+        768,
+        1360
+      ],
+      "darkMode": true,
+      "csvRows": 501
+    }
+  ],
+  "errors": [],
+  "noFlashOnReadingPage": true
+}

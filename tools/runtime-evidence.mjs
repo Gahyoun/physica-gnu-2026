@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root)));
 
-export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave'];
+export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave','expansion-wave'];
 
 export function runtimeEvidence(){
   const manifest=read('src/flash-manifest.json');
