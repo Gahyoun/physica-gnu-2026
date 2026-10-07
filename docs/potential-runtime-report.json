@@ -1,0 +1,314 @@
+{
+  "date": "2026-10-07T12:36:55.679Z",
+  "nativeModelHashes": {
+    "assets/potential-physics.mjs": "e0e436f1fe8a5db55f85ffea751db50f630f5be048813b49e7cf4f11a640e86d",
+    "assets/potential-specs.mjs": "18d1e1334625d2cf9588402510a2a475314be983922cce5fa37a2ab0f5de6611"
+  },
+  "files": 4,
+  "comparisons": 15635,
+  "method": "Original Ruffle read-only numerical telemetry and real pointer controls",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-e44b6b36d1785cbf",
+      "type": "average",
+      "sha256": "264f5dfee16f6b9cadecc4aad1e93f7ca572c6e892c7a57572df5a1eed617d4c",
+      "sha256Verified": true,
+      "comparisons": 190,
+      "maxAbsoluteError": 7.460698725481052e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "gravity": false,
+          "movingTransitions": 18,
+          "stationaryTransitions": 0
+        }
+      ],
+      "controls": [
+        {
+          "kind": "actual_boundary_drag",
+          "height": 60,
+          "passed": true
+        },
+        {
+          "kind": "natural_motion_after_drag",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Flat startup, actual boundary drag and adjacent original numerical snapshots (zero or one solver callback) after release; all applicable node heights and velocities. 7×7 also real gravity off/on/off. No complete asynchronous dragging history, projection-pixel or cadence equivalence assertion.",
+      "passed": true
+    },
+    {
+      "id": "flash-1faa7d64819288e2",
+      "type": "laplace",
+      "sha256": "178b3a39fe433cb652906564b5373dcc1fe0e56fc6869222c28fd043b1387ec3",
+      "sha256Verified": true,
+      "comparisons": 8910,
+      "maxAbsoluteError": 9.947598300641403e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "gravity": false,
+          "movingTransitions": 18,
+          "stationaryTransitions": 0
+        },
+        {
+          "gravity": true,
+          "movingTransitions": 18,
+          "stationaryTransitions": 0
+        },
+        {
+          "gravity": false,
+          "movingTransitions": 18,
+          "stationaryTransitions": 0
+        }
+      ],
+      "controls": [
+        {
+          "kind": "actual_boundary_drag",
+          "height": 60,
+          "passed": true
+        },
+        {
+          "kind": "actual_gravity_toggle",
+          "gravity": false,
+          "passed": true
+        },
+        {
+          "kind": "natural_motion_after_drag",
+          "passed": true
+        },
+        {
+          "kind": "actual_gravity_toggle",
+          "gravity": true,
+          "passed": true
+        },
+        {
+          "kind": "natural_motion_after_drag",
+          "passed": true
+        },
+        {
+          "kind": "actual_gravity_toggle",
+          "gravity": false,
+          "passed": true
+        },
+        {
+          "kind": "natural_motion_after_drag",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Flat startup, actual boundary drag and adjacent original numerical snapshots (zero or one solver callback) after release; all applicable node heights and velocities. 7×7 also real gravity off/on/off. No complete asynchronous dragging history, projection-pixel or cadence equivalence assertion.",
+      "passed": true
+    },
+    {
+      "id": "flash-4a36e6b7464fc646",
+      "type": "chargeLines",
+      "sha256": "4fb90c3c8ed537d8b2fd373c0b890226e8e7bff2c450edf7afde6f73702bab95",
+      "sha256Verified": true,
+      "comparisons": 6210,
+      "maxAbsoluteError": 0.04999999999998295,
+      "mismatches": [],
+      "cases": [
+        {
+          "charge": -2,
+          "active": 27
+        },
+        {
+          "charge": -1,
+          "active": 18
+        },
+        {
+          "charge": 0,
+          "active": 10
+        },
+        {
+          "charge": 1,
+          "active": 15
+        },
+        {
+          "charge": 2,
+          "active": 23
+        }
+      ],
+      "controls": [
+        {
+          "kind": "actual_charge_slider",
+          "target": -2,
+          "observed": -2,
+          "passed": true
+        },
+        {
+          "kind": "actual_charge_slider",
+          "target": -1,
+          "observed": -1,
+          "passed": true
+        },
+        {
+          "kind": "actual_charge_slider",
+          "target": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "kind": "actual_charge_slider",
+          "target": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "kind": "actual_charge_slider",
+          "target": 2,
+          "observed": 2,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "All five charge values reached with actual original slider gestures; every displayed segment centre (one-twip tolerance), scale and normalized rotation plus every hidden segment. Fresh SVG arrows and supplementary potential graph are not pixel equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-041fd3b661cf5e64",
+      "type": "pinDrift",
+      "sha256": "2842dcfe66ea5b94c47dd8c51413ddfe6a14e4c97084e168268e70f43c2e4ca1",
+      "sha256Verified": true,
+      "comparisons": 325,
+      "maxAbsoluteError": 9.379164112033322e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "kind": "observed_collision_free_window",
+          "steps": 3
+        },
+        {
+          "kind": "observed_collision_free_window",
+          "steps": 3
+        },
+        {
+          "kind": "observed_collision_free_window",
+          "steps": 3
+        },
+        {
+          "kind": "observed_collision_free_window",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "observed_collision_free_window",
+          "steps": 3
+        },
+        {
+          "kind": "observed_collision_free_window",
+          "steps": 3
+        },
+        {
+          "kind": "observed_collision_free_window",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "observed_collision_free_window",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        },
+        {
+          "kind": "stochastic_window_excluded",
+          "steps": 3
+        }
+      ],
+      "controls": [
+        {
+          "kind": "actual_obstacle_toggle",
+          "passed": true
+        },
+        {
+          "kind": "actual_obstacle_return",
+          "passed": true
+        },
+        {
+          "kind": "actual_collision_on",
+          "passed": true
+        },
+        {
+          "kind": "actual_collision_off",
+          "passed": true
+        },
+        {
+          "kind": "actual_incline",
+          "target": 10,
+          "observed": 10,
+          "passed": true
+        },
+        {
+          "kind": "actual_incline",
+          "target": 45,
+          "observed": 45,
+          "passed": true
+        },
+        {
+          "kind": "actual_incline",
+          "target": 90,
+          "observed": 90,
+          "passed": true
+        },
+        {
+          "kind": "actual_play",
+          "passed": true
+        },
+        {
+          "kind": "actual_pause",
+          "passed": true
+        },
+        {
+          "kind": "nonzero_free_flight_compared",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual 13/25 obstacle, collision off/on, incline minimum/mid/maximum, play/pause controls. All ten particle x/y/vx/vy predicted only in observed intervals without random obstacle perturbation or reentry; stochastic intervals explicitly excluded. Source random sequence, all event histories and coincidence singularities remain outside scope.",
+      "passed": true
+    }
+  ]
+}

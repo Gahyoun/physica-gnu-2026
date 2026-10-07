@@ -44,7 +44,10 @@ fs.writeFileSync(new URL('../assets/electromagnet-specs.mjs',import.meta.url),'e
 const circuits=JSON.parse(fs.readFileSync(new URL('../src/native-circuits.json',import.meta.url)));
 const circuitSpecs=Object.fromEntries(circuits.map(r=>['circuit-'+r.id,r]));
 fs.writeFileSync(new URL('../assets/circuit-specs.mjs',import.meta.url),'export const circuitSpecs='+JSON.stringify(circuitSpecs)+';\n');
-const nativeSpecs={...circuitSpecs,...electromagnetSpecs,...dynamicsSpecs,...lightSpecs,...quantumSpecs,...sceneSpecs,...fieldSpecs,...fundamentalSpecs,...expansionSpecs,...refractionSpecs,...opticsSpecs,...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
+const potentials=JSON.parse(fs.readFileSync(new URL('../src/native-potential.json',import.meta.url)));
+const potentialSpecs=Object.fromEntries(potentials.map(r=>['potential-'+r.id,r]));
+fs.writeFileSync(new URL('../assets/potential-specs.mjs',import.meta.url),'export const potentialSpecs='+JSON.stringify(potentialSpecs)+';\n');
+const nativeSpecs={...potentialSpecs,...circuitSpecs,...electromagnetSpecs,...dynamicsSpecs,...lightSpecs,...quantumSpecs,...sceneSpecs,...fieldSpecs,...fundamentalSpecs,...expansionSpecs,...refractionSpecs,...opticsSpecs,...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
 const quantumNative={distributionftn:'distribution-comparison.html#distributions',distributionftnx:'distribution-comparison.html#scaled-distributions',fddistftn:'distribution-comparison.html#fermi-edge',mode1dim:'density-of-states.html#mode-1d',mode2dim:'density-of-states.html#mode-2d',mode3dim:'density-of-states.html#mode-3d',grblackbody:'blackbody.html#blackbody',solidosc:'heat-capacity.html#lattice',freeelectronftn:'free-electrons.html#free-electrons'};
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function flash(root){

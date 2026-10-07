@@ -63,3 +63,5 @@ function init(host){
  document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});rebuild();
 }
 if(typeof document!=='undefined')document.querySelectorAll('[data-flash-native="harmonic"]').forEach(init);
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="potential-"]'))await import('./native-potential.mjs');

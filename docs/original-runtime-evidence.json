@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T12:00:16.237Z",
+  "date": "2026-10-07T12:37:40.596Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -29,16 +29,18 @@
     "assets/electromagnet-physics.mjs": "3c2fdc1a250db94f76d220be20ef722364fc370481c089030c0388d7e1a156b4",
     "assets/electromagnet-specs.mjs": "2dae152a40cc8561f379acb1a87075bc148528cfa4a3c240d226d0bb077773f0",
     "assets/circuit-physics.mjs": "79d7142eb41168a86d6b30d033b1b41920ea6db4604b786ee5ebbb781c403211",
-    "assets/circuit-specs.mjs": "631bef28d061e811dbfaedf5c90dbb8a58ff153d5717414d6ac54f9080fc00de"
+    "assets/circuit-specs.mjs": "631bef28d061e811dbfaedf5c90dbb8a58ff153d5717414d6ac54f9080fc00de",
+    "assets/potential-physics.mjs": "e0e436f1fe8a5db55f85ffea751db50f630f5be048813b49e7cf4f11a640e86d",
+    "assets/potential-specs.mjs": "18d1e1334625d2cf9588402510a2a475314be983922cce5fa37a2ab0f5de6611"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 186,
-  "numericalFilesPassed": 186,
-  "numericalSampleComparisons": 541263,
+  "numericalFiles": 190,
+  "numericalFilesPassed": 190,
+  "numericalSampleComparisons": 556898,
   "combinationComparisons": 198600,
-  "numericalComparisons": 739863,
+  "numericalComparisons": 755498,
   "finiteCombinationScopes": 5,
   "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
@@ -433,7 +435,14 @@
         "clickProbes": 5,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/potential-runtime-report.json",
+        "sha256": "2842dcfe66ea5b94c47dd8c51413ddfe6a14e4c97084e168268e70f43c2e4ca1",
+        "passed": true,
+        "comparisons": 325,
+        "scope": "Actual 13/25 obstacle, collision off/on, incline minimum/mid/maximum, play/pause controls. All ten particle x/y/vx/vy predicted only in observed intervals without random obstacle perturbation or reentry; stochastic intervals explicitly excluded. Source random sequence, all event histories and coincidence singularities remain outside scope.",
+        "maxAbsoluteError": 9.379164112033322e-13
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "2842dcfe66ea5b94c47dd8c51413ddfe6a14e4c97084e168268e70f43c2e4ca1",
@@ -496,7 +505,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/potential-runtime-report.json",
+        "sha256": "4fb90c3c8ed537d8b2fd373c0b890226e8e7bff2c450edf7afde6f73702bab95",
+        "passed": true,
+        "comparisons": 6210,
+        "scope": "All five charge values reached with actual original slider gestures; every displayed segment centre (one-twip tolerance), scale and normalized rotation plus every hidden segment. Fresh SVG arrows and supplementary potential graph are not pixel equivalence.",
+        "maxAbsoluteError": 0.04999999999998295
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "4fb90c3c8ed537d8b2fd373c0b890226e8e7bff2c450edf7afde6f73702bab95",
@@ -850,7 +866,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/potential-runtime-report.json",
+        "sha256": "264f5dfee16f6b9cadecc4aad1e93f7ca572c6e892c7a57572df5a1eed617d4c",
+        "passed": true,
+        "comparisons": 190,
+        "scope": "Flat startup, actual boundary drag and adjacent original numerical snapshots (zero or one solver callback) after release; all applicable node heights and velocities. 7×7 also real gravity off/on/off. No complete asynchronous dragging history, projection-pixel or cadence equivalence assertion.",
+        "maxAbsoluteError": 7.460698725481052e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -869,7 +892,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/potential-runtime-report.json",
+        "sha256": "178b3a39fe433cb652906564b5373dcc1fe0e56fc6869222c28fd043b1387ec3",
+        "passed": true,
+        "comparisons": 8910,
+        "scope": "Flat startup, actual boundary drag and adjacent original numerical snapshots (zero or one solver callback) after release; all applicable node heights and velocities. 7×7 also real gravity off/on/off. No complete asynchronous dragging history, projection-pixel or cadence equivalence assertion.",
+        "maxAbsoluteError": 9.947598300641403e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },

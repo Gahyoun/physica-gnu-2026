@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T12:02:50.123Z",
+  "date": "2026-10-07T12:38:07.534Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -620,7 +620,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 17,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-4-2-2.html#native-potential-flash-041fd3b661cf5e64",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -648,14 +648,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/potential-runtime-report.json",
+        "passed": true,
+        "scope": "Actual 13/25 obstacle, collision off/on, incline minimum/mid/maximum, play/pause controls. All ten particle x/y/vx/vy predicted only in observed intervals without random obstacle perturbation or reentry; stochastic intervals explicitly excluded. Source random sequence, all event histories and coincidence singularities remain outside scope."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -719,7 +722,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 9,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-2-1-1.html#native-potential-flash-4a36e6b7464fc646",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -747,14 +750,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/potential-runtime-report.json",
+        "passed": true,
+        "scope": "All five charge values reached with actual original slider gestures; every displayed segment centre (one-twip tolerance), scale and normalized rotation plus every hidden segment. Fresh SVG arrows and supplementary potential graph are not pixel equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -1274,7 +1280,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 13,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-3-2-1.html#native-potential-flash-e44b6b36d1785cbf",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -1288,14 +1294,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/potential-runtime-report.json",
+        "passed": true,
+        "scope": "Flat startup, actual boundary drag and adjacent original numerical snapshots (zero or one solver callback) after release; all applicable node heights and velocities. 7×7 also real gravity off/on/off. No complete asynchronous dragging history, projection-pixel or cadence equivalence assertion."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -1310,7 +1319,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 14,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-3-2-1.html#native-potential-flash-1faa7d64819288e2",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -1324,14 +1333,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/potential-runtime-report.json",
+        "passed": true,
+        "scope": "Flat startup, actual boundary drag and adjacent original numerical snapshots (zero or one solver callback) after release; all applicable node heights and velocities. 7×7 also real gravity off/on/off. No complete asynchronous dragging history, projection-pixel or cadence equivalence assertion."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-07T12:37:14.173Z",
+  "nativeModelHashes": {
+    "assets/potential-physics.mjs": "e0e436f1fe8a5db55f85ffea751db50f630f5be048813b49e7cf4f11a640e86d",
+    "assets/potential-specs.mjs": "18d1e1334625d2cf9588402510a2a475314be983922cce5fa37a2ab0f5de6611"
+  },
+  "files": 4,
+  "comparisons": 16257810,
+  "method": "Original private ActionScript numerical functions in an independent VM; no artwork extraction in native UI",
+  "results": [
+    {
+      "id": "flash-e44b6b36d1785cbf",
+      "type": "average",
+      "comparisons": 30000,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "cases": 30,
+      "scope": "Individual-node basis heights -300/100/300, each applicable node, damping .999/.9, 100 source callbacks; 7×7 grid also gravity off/on. Every node height and velocity compared. Simultaneous drag event histories are not exhaustive.",
+      "passed": true
+    },
+    {
+      "id": "flash-1faa7d64819288e2",
+      "type": "laplace",
+      "comparisons": 15746400,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "cases": 972,
+      "scope": "Individual-node basis heights -300/100/300, each applicable node, damping .999/.9, 100 source callbacks; 7×7 grid also gravity off/on. Every node height and velocity compared. Simultaneous drag event histories are not exhaustive.",
+      "passed": true
+    },
+    {
+      "id": "flash-4a36e6b7464fc646",
+      "type": "chargeLines",
+      "comparisons": 6210,
+      "maxAbsoluteError": 7.105427357601002e-15,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "cases": 5,
+      "scope": "All five original charge settings, every active 15-segment line centre/length/angle and every hidden line flag. Same original fixed charge centres; displayed fresh SVG and supplementary potential cross-section are not source pixel-equivalent.",
+      "passed": true
+    },
+    {
+      "id": "flash-041fd3b661cf5e64",
+      "type": "pinDrift",
+      "comparisons": 475200,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "cases": 36,
+      "scope": "Three reproducible initial random states × three inclines × obstacle 13/25 × particle collisions off/on, 300 callbacks; all ten particle states, passage/clock counters and RNG. Original random sequence and coincidence singularities are outside scope.",
+      "passed": true
+    }
+  ]
+}
