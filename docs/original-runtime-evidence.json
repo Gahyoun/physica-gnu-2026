@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T01:04:57.324Z",
+  "date": "2026-10-07T01:32:19.205Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -25,16 +25,18 @@
     "assets/light-physics.mjs": "f52b451dbcf24b6720f4fdd1c4f4f692c71770fcd9126c6525b323f9108c48c2",
     "assets/light-specs.mjs": "5b9b011fd369442b47c457e8e0a7d146b8ce2bf133adf3c84c2dccd0e9d9b9f5",
     "assets/dynamics-physics.mjs": "0cc0b6ca9764e570cb461bd261ae44a85e68a70a4370c769cc5124d0f03ccfc4",
-    "assets/dynamics-specs.mjs": "4d74bc61f7d40194612d327d7da70c1dc7d1d38c66f86eb312c03c1d80ecba5a"
+    "assets/dynamics-specs.mjs": "4d74bc61f7d40194612d327d7da70c1dc7d1d38c66f86eb312c03c1d80ecba5a",
+    "assets/electromagnet-physics.mjs": "3c2fdc1a250db94f76d220be20ef722364fc370481c089030c0388d7e1a156b4",
+    "assets/electromagnet-specs.mjs": "2dae152a40cc8561f379acb1a87075bc148528cfa4a3c240d226d0bb077773f0"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 176,
-  "numericalFilesPassed": 176,
-  "numericalSampleComparisons": 539588,
+  "numericalFiles": 181,
+  "numericalFilesPassed": 181,
+  "numericalSampleComparisons": 540322,
   "combinationComparisons": 198600,
-  "numericalComparisons": 738188,
+  "numericalComparisons": 738922,
   "finiteCombinationScopes": 5,
   "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
@@ -141,7 +143,14 @@
         "clickProbes": 4,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "sha256": "ce328932e99e8c44d5a05dca1a96a91cccf61af7703fb8e16a69909583c51544",
+        "passed": true,
+        "comparisons": 64,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted.",
+        "maxAbsoluteError": 9.379164112033322e-13
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "ce328932e99e8c44d5a05dca1a96a91cccf61af7703fb8e16a69909583c51544",
@@ -544,7 +553,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "sha256": "7d196675ad336a407786c889fa4aa478461383f0fde503324ea34540eef5758a",
+        "passed": true,
+        "comparisons": 247,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted.",
+        "maxAbsoluteError": 0.04915028125263632
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -563,7 +579,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "sha256": "c46761b76886cfa94c9d4ceb159e984c28708dae66b878667b3c09e82871b743",
+        "passed": true,
+        "comparisons": 54,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted.",
+        "maxAbsoluteError": 0.040157480314960026
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -665,7 +688,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "sha256": "9fd065d645529c6bb5a31d152928d09ad39cabfeedd536867a0d6c27d4f3d8fa",
+        "passed": true,
+        "comparisons": 72,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted.",
+        "maxAbsoluteError": 6.252776074688882e-13
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "9fd065d645529c6bb5a31d152928d09ad39cabfeedd536867a0d6c27d4f3d8fa",
@@ -693,7 +723,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "sha256": "c7d4d1a48cff814c4dbc24b87bc670cad7d991319a3a8bae9e74341ff305da80",
+        "passed": true,
+        "comparisons": 297,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted.",
+        "maxAbsoluteError": 0.04999999999998295
+      },
       "sliders": null,
       "rootTimeline": null
     },

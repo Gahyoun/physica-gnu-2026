@@ -38,7 +38,10 @@ fs.writeFileSync(new URL('../assets/light-specs.mjs',import.meta.url),'export co
 const dynamics=JSON.parse(fs.readFileSync(new URL('../src/native-dynamics.json',import.meta.url)));
 const dynamicsSpecs=Object.fromEntries(dynamics.map(r=>['dynamics-'+r.id,r]));
 fs.writeFileSync(new URL('../assets/dynamics-specs.mjs',import.meta.url),'export const dynamicsSpecs='+JSON.stringify(dynamicsSpecs)+';\n');
-const nativeSpecs={...dynamicsSpecs,...lightSpecs,...quantumSpecs,...sceneSpecs,...fieldSpecs,...fundamentalSpecs,...expansionSpecs,...refractionSpecs,...opticsSpecs,...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
+const electromagnet=JSON.parse(fs.readFileSync(new URL('../src/native-electromagnet.json',import.meta.url)));
+const electromagnetSpecs=Object.fromEntries(electromagnet.map(r=>['electromagnet-'+r.id,r]));
+fs.writeFileSync(new URL('../assets/electromagnet-specs.mjs',import.meta.url),'export const electromagnetSpecs='+JSON.stringify(electromagnetSpecs)+';\n');
+const nativeSpecs={...electromagnetSpecs,...dynamicsSpecs,...lightSpecs,...quantumSpecs,...sceneSpecs,...fieldSpecs,...fundamentalSpecs,...expansionSpecs,...refractionSpecs,...opticsSpecs,...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
 const quantumNative={distributionftn:'distribution-comparison.html#distributions',distributionftnx:'distribution-comparison.html#scaled-distributions',fddistftn:'distribution-comparison.html#fermi-edge',mode1dim:'density-of-states.html#mode-1d',mode2dim:'density-of-states.html#mode-2d',mode3dim:'density-of-states.html#mode-3d',grblackbody:'blackbody.html#blackbody',solidosc:'heat-capacity.html#lattice',freeelectronftn:'free-electrons.html#free-electrons'};
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function flash(root){

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-07T01:21:37.640Z",
+  "nativeModelHashes": {
+    "assets/electromagnet-physics.mjs": "3c2fdc1a250db94f76d220be20ef722364fc370481c089030c0388d7e1a156b4",
+    "assets/electromagnet-specs.mjs": "2dae152a40cc8561f379acb1a87075bc148528cfa4a3c240d226d0bb077773f0"
+  },
+  "files": 5,
+  "comparisons": 1957200,
+  "method": "Private original functions versus independently authored vector models",
+  "results": [
+    {
+      "id": "flash-5d8856a5e997b813",
+      "type": "generator",
+      "comparisons": 63000,
+      "maxAbsoluteError": 0,
+      "parameterSets": 1,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original recurrences: 300 updates for all 101 charge levels crossed with both charge signs or five magnetic-field levels; finite wall/contact release positions. Full 1500-step coil rotation and arrow gate sequence. Six magnet release positions through startup, wait and repeated direction changes. Every continuous drag event order is not certified."
+    },
+    {
+      "id": "flash-450f04fc3e4b8009",
+      "type": "motor",
+      "comparisons": 61500,
+      "maxAbsoluteError": 1.4210854715202004e-14,
+      "parameterSets": 1,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original recurrences: 300 updates for all 101 charge levels crossed with both charge signs or five magnetic-field levels; finite wall/contact release positions. Full 1500-step coil rotation and arrow gate sequence. Six magnet release positions through startup, wait and repeated direction changes. Every continuous drag event order is not certified."
+    },
+    {
+      "id": "flash-151bab8b8a1bc292",
+      "type": "induction12",
+      "comparisons": 73500,
+      "maxAbsoluteError": 0,
+      "parameterSets": 7,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original recurrences: 300 updates for all 101 charge levels crossed with both charge signs or five magnetic-field levels; finite wall/contact release positions. Full 1500-step coil rotation and arrow gate sequence. Six magnet release positions through startup, wait and repeated direction changes. Every continuous drag event order is not certified."
+    },
+    {
+      "id": "flash-9f37474387ee4146",
+      "type": "eforce2",
+      "comparisons": 516000,
+      "maxAbsoluteError": 0,
+      "parameterSets": 215,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original recurrences: 300 updates for all 101 charge levels crossed with both charge signs or five magnetic-field levels; finite wall/contact release positions. Full 1500-step coil rotation and arrow gate sequence. Six magnet release positions through startup, wait and repeated direction changes. Every continuous drag event order is not certified."
+    },
+    {
+      "id": "flash-3729c6059c11ab73",
+      "type": "mforce2",
+      "comparisons": 1243200,
+      "maxAbsoluteError": 0,
+      "parameterSets": 518,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original recurrences: 300 updates for all 101 charge levels crossed with both charge signs or five magnetic-field levels; finite wall/contact release positions. Full 1500-step coil rotation and arrow gate sequence. Six magnet release positions through startup, wait and repeated direction changes. Every continuous drag event order is not certified."
+    }
+  ]
+}

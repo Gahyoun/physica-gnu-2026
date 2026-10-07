@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T01:04:57.654Z",
+  "date": "2026-10-07T01:32:19.519Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -185,7 +185,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 22,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-1-2-1.html#native-electromagnet-flash-9f37474387ee4146",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -213,14 +213,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -827,7 +830,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 4,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-6-1-1.html#native-electromagnet-flash-5d8856a5e997b813",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -841,14 +844,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -863,7 +869,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 9,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-6-1-2.html#native-electromagnet-flash-151bab8b8a1bc292",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -877,14 +883,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -1038,7 +1047,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 19,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-5-1-1.html#native-electromagnet-flash-3729c6059c11ab73",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -1079,14 +1088,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -1101,7 +1113,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-5-1-1.html#native-electromagnet-flash-450f04fc3e4b8009",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -1115,14 +1127,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/electromagnet-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original Ruffle startup and successive numerical histories; original min/mid/max charge and field sliders, sign toggles, charge dragging, magnet boundary dragging including the >400 jump to 300, automatic motion, coil positions and meter/force gate response. Coordinate comparisons allow original 0.05 px (one twip) quantization. All continuous mouse paths and event orders remain unexhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

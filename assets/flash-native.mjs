@@ -1,3 +1,4 @@
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="electromagnet-"]'))await import('./native-electromagnet.mjs');
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="dynamics-"]'))await import('./native-dynamics.mjs');
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="light-"]'))await import('./native-light.mjs');
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="quantum-"]'))await import('./native-quantum.mjs');
