@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T14:21:36.999Z",
+  "date": "2026-10-07T22:38:45.148Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -37,16 +37,18 @@
     "assets/beam-physics.mjs": "add8fc8762bb6a5c435da4f8fc230d61605553c2705f647402c7e1199d8c7c1f",
     "assets/beam-specs.mjs": "6d02684d10032d080116909e5252b44c54fe529456b166861d373c867d17f56c",
     "assets/ray-physics.mjs": "bf365710c79ac125153646d608f8273842cbd39bda312b4e5c849a74382ed010",
-    "assets/ray-specs.mjs": "9e3d7e1a77314e99ad83b2e5d618b11f3f90b37376b07d653f8e602eaabfc1b7"
+    "assets/ray-specs.mjs": "9e3d7e1a77314e99ad83b2e5d618b11f3f90b37376b07d653f8e602eaabfc1b7",
+    "assets/aperture-physics.mjs": "1522144b0f851109aac258801e4babe2d3b5c816b7d60a04a78e1ae543049503",
+    "assets/aperture-specs.mjs": "adc2bf3d5554755a28ee3ea518f45c5bb2a07b3e3307e6892eb7a40357d3872a"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 204,
-  "numericalFilesPassed": 204,
-  "numericalSampleComparisons": 600268,
+  "numericalFiles": 208,
+  "numericalFilesPassed": 208,
+  "numericalSampleComparisons": 648549,
   "combinationComparisons": 198600,
-  "numericalComparisons": 798868,
+  "numericalComparisons": 847149,
   "finiteCombinationScopes": 5,
   "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
@@ -5506,7 +5508,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/aperture-runtime-report.json",
+        "sha256": "aea86fcf13141f79a49079bfb87863e4980e63a3b797111145dd224b145a6ec1",
+        "passed": true,
+        "comparisons": 14902,
+        "scope": "Original default and real min/default/max pointer gestures for each control; downstream root and original Bessel/Fresnel numerical samples, or all 264 original pupil field values. Rectangle box toggle/exposure initialization and pupil clear/default camera matrix observed. Other joint input products and view histories remain pending.",
+        "maxAbsoluteError": 4.973799150320701e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5563,7 +5572,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/aperture-runtime-report.json",
+        "sha256": "ce12897a98a76ae9f4df40c8471fef6b247df8c598f45d5aa1ea747af6a5a83c",
+        "passed": true,
+        "comparisons": 29684,
+        "scope": "Actual pointer selection of all 72 valid m/n pairs; root m/n events and original function queries at 5 radial locations across all 72 pairs at each checkpoint. Full pixel equivalence and continuous histories are not asserted.",
+        "maxAbsoluteError": 5.684688830775997e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5582,7 +5598,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/aperture-runtime-report.json",
+        "sha256": "94e475007164412a8907a984e132f24486cc85adc0c86444549efb3ec1a61fca",
+        "passed": true,
+        "comparisons": 371,
+        "scope": "Original default and real min/default/max pointer gestures for each control; downstream root and original Bessel/Fresnel numerical samples, or all 264 original pupil field values. Rectangle box toggle/exposure initialization and pupil clear/default camera matrix observed. Other joint input products and view histories remain pending.",
+        "maxAbsoluteError": 4.973799150320701e-14
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "94e475007164412a8907a984e132f24486cc85adc0c86444549efb3ec1a61fca",
@@ -5768,7 +5791,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/aperture-runtime-report.json",
+        "sha256": "38e0e8927a45cf7db056407a0570544b0705fcde6fb6ca90cdd5f94e7381ed1b",
+        "passed": true,
+        "comparisons": 3324,
+        "scope": "Original default and real min/default/max pointer gestures for each control; downstream root and original Bessel/Fresnel numerical samples, or all 264 original pupil field values. Rectangle data-copy button/exposure initialization and pupil clear/default camera matrix observed. Other joint input products and view histories remain pending.",
+        "maxAbsoluteError": 4.884981308350689e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },

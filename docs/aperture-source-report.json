@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-07T22:32:09.976Z",
+  "method": "Independent private original AS2 functions executed in VM; new Bessel/Fresnel/Zernike implementations compared",
+  "nativeModelHashes": {
+    "assets/aperture-physics.mjs": "1522144b0f851109aac258801e4babe2d3b5c816b7d60a04a78e1ae543049503",
+    "assets/aperture-specs.mjs": "adc2bf3d5554755a28ee3ea518f45c5bb2a07b3e3307e6892eb7a40357d3872a"
+  },
+  "comparisons": 1583241,
+  "results": [
+    {
+      "id": "flash-4a1272dc865260d4",
+      "type": "circle",
+      "comparisons": 79050,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 50 brightness × 31 wavelength detents, 51 radial ring intensities each, independent original 30-term Bessel function. Colour remapping deliberately differs; continuous pointer histories remain outside this finite numeric scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-2ee5edcd3b7450ad",
+      "type": "rectangle",
+      "comparisons": 1475199,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 97 width detents separately: 100 quadrant and 201 export-axis amplitude samples; 3,001 signed C/S locations; 8 exposure × 3 width × 3 height selected field combinations with all 10,000 quadrant intensities and brightness bins. Other 97 × 97 joint width/height fields and original event histories remain pending.",
+      "passed": true
+    },
+    {
+      "id": "flash-627e023c1cb74646",
+      "type": "zernike",
+      "comparisons": 14472,
+      "maxAbsoluteError": 3.346940502524376e-10,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 72 valid m/n slider pairs and 201 radial samples, original optimized polynomials/general factorial branch versus independent coefficient series. Original pointer events are a separate runtime report.",
+      "passed": true
+    },
+    {
+      "id": "flash-26f46214c6366c80",
+      "type": "pupil",
+      "comparisons": 14520,
+      "maxAbsoluteError": 4.884981308350689e-15,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "17 coefficient min/zero/max basis perturbations about original default and four simultaneous uniform coefficient cases, all 11 × 24 original field samples. Full 31^17 products and original camera histories remain pending; added angle cross-section is analytical display.",
+      "passed": true
+    }
+  ]
+}

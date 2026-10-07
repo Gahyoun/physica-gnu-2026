@@ -1,0 +1,262 @@
+[
+  {
+    "id": "flash-4a1272dc865260d4",
+    "type": "circle",
+    "title": "원형구멍 회절무늬",
+    "source": "cir_difffr.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/diffraction/circle/cir_difffr.swf",
+    "lesson": "5-5-2-1",
+    "animated": false,
+    "controls": [
+      {
+        "key": "wl",
+        "label": "파장 / nm",
+        "min": 380,
+        "max": 680,
+        "step": 10,
+        "value": 500,
+        "clip": "wlSlider"
+      },
+      {
+        "key": "amp",
+        "label": "밝기 배율",
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 10,
+        "clip": "bSlider"
+      }
+    ]
+  },
+  {
+    "id": "flash-2ee5edcd3b7450ad",
+    "type": "rectangle",
+    "title": "직사각형구멍의 프레넬 회절무늬",
+    "source": "rectdiff.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/diffraction/fresnel/rectdiff.swf",
+    "lesson": "5-5-5-5",
+    "animated": false,
+    "controls": [
+      {
+        "key": "width",
+        "label": "구멍의 가로 / 원본 눈금",
+        "min": 0.4,
+        "max": 10,
+        "step": 0.1,
+        "value": 4,
+        "clip": "xSlider"
+      },
+      {
+        "key": "height",
+        "label": "구멍의 세로 / 원본 눈금",
+        "min": 0.4,
+        "max": 10,
+        "step": 0.1,
+        "value": 4,
+        "clip": "ySlider"
+      },
+      {
+        "key": "level",
+        "label": "노출 단계",
+        "min": 1,
+        "max": 8,
+        "step": 1,
+        "value": 2,
+        "clip": "exposureSlider"
+      }
+    ]
+  },
+  {
+    "id": "flash-627e023c1cb74646",
+    "type": "zernike",
+    "title": "제르니케 다항식",
+    "source": "zernike.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/zernike.swf",
+    "lesson": "5-5-6-2",
+    "animated": false,
+    "controls": [
+      {
+        "key": "m",
+        "label": "각도 차수 m",
+        "min": 0,
+        "max": 8,
+        "step": 1,
+        "value": 0,
+        "clip": "mSlider"
+      },
+      {
+        "key": "n",
+        "label": "반경 차수 n",
+        "min": 0,
+        "max": 14,
+        "step": 2,
+        "value": 6,
+        "clip": "nSlider"
+      }
+    ]
+  },
+  {
+    "id": "flash-26f46214c6366c80",
+    "type": "pupil",
+    "title": "파면수차 값에 따른 동공함수",
+    "source": "phaseAber.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/phaseAber.swf",
+    "lesson": "5-5-6-2",
+    "animated": false,
+    "controls": [
+      {
+        "key": "a00",
+        "label": "a00 · R(0,0) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a00Slider"
+      },
+      {
+        "key": "a02",
+        "label": "a02 · R(2,0) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a02Slider"
+      },
+      {
+        "key": "a04",
+        "label": "a04 · R(4,0) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a04Slider"
+      },
+      {
+        "key": "a11",
+        "label": "a11 · R(1,1) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a11Slider"
+      },
+      {
+        "key": "a13",
+        "label": "a13 · R(3,1) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a13Slider"
+      },
+      {
+        "key": "a15",
+        "label": "a15 · R(5,1) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a15Slider"
+      },
+      {
+        "key": "a22",
+        "label": "a22 · R(2,2) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a22Slider"
+      },
+      {
+        "key": "a24",
+        "label": "a24 · R(4,2) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a24Slider"
+      },
+      {
+        "key": "a26",
+        "label": "a26 · R(6,2) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a26Slider"
+      },
+      {
+        "key": "a33",
+        "label": "a33 · R(3,3) cos",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a33Slider"
+      },
+      {
+        "key": "a11S",
+        "label": "a11S · R(1,1) sin",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a11SliderS"
+      },
+      {
+        "key": "a13S",
+        "label": "a13S · R(3,1) sin",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 1,
+        "clip": "a13SliderS"
+      },
+      {
+        "key": "a15S",
+        "label": "a15S · R(5,1) sin",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a15SliderS"
+      },
+      {
+        "key": "a22S",
+        "label": "a22S · R(2,2) sin",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a22SliderS"
+      },
+      {
+        "key": "a24S",
+        "label": "a24S · R(4,2) sin",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a24SliderS"
+      },
+      {
+        "key": "a26S",
+        "label": "a26S · R(6,2) sin",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a26SliderS"
+      },
+      {
+        "key": "a33S",
+        "label": "a33S · R(3,3) sin",
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.1,
+        "value": 0,
+        "clip": "a33SliderS"
+      }
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T14:21:37.338Z",
+  "date": "2026-10-07T22:38:45.521Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -9924,7 +9924,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 41,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-6-2.html#native-aperture-flash-26f46214c6366c80",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -10092,14 +10092,17 @@
         "drag": 0,
         "change": 21
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/aperture-runtime-report.json",
+        "passed": true,
+        "scope": "Original default and real min/default/max pointer gestures for each control; downstream root and original Bessel/Fresnel numerical samples, or all 264 original pupil field values. Rectangle box toggle/exposure initialization and pupil clear/default camera matrix observed. Other joint input products and view histories remain pending."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -10359,7 +10362,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 8,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-6-2.html#native-aperture-flash-627e023c1cb74646",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -10392,14 +10395,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/aperture-runtime-report.json",
+        "passed": true,
+        "scope": "Actual pointer selection of all 72 valid m/n pairs; root m/n events and original function queries at 5 radial locations across all 72 pairs at each checkpoint. Full pixel equivalence and continuous histories are not asserted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -10414,7 +10420,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 11,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-2-1.html#native-aperture-flash-4a1272dc865260d4",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -10447,14 +10453,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/aperture-runtime-report.json",
+        "passed": true,
+        "scope": "Original default and real min/default/max pointer gestures for each control; downstream root and original Bessel/Fresnel numerical samples, or all 264 original pupil field values. Rectangle box toggle/exposure initialization and pupil clear/default camera matrix observed. Other joint input products and view histories remain pending."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -10748,7 +10757,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 14,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-5-5.html#native-aperture-flash-2ee5edcd3b7450ad",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -10790,14 +10799,17 @@
         "drag": 0,
         "change": 7
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/aperture-runtime-report.json",
+        "passed": true,
+        "scope": "Original default and real min/default/max pointer gestures for each control; downstream root and original Bessel/Fresnel numerical samples, or all 264 original pupil field values. Rectangle data-copy button/exposure initialization and pupil clear/default camera matrix observed. Other joint input products and view histories remain pending."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

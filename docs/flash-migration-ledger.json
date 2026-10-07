@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-07T14:25:35.868Z",
+  "date": "2026-10-07T22:44:08.839Z",
   "total": 518,
-  "htmlImplemented": 272,
-  "htmlPending": 246,
+  "htmlImplemented": 276,
+  "htmlPending": 242,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 816,
-    "observed": 816,
+    "expected": 828,
+    "observed": 828,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 204,
-    "numericalComparisons": 798868,
-    "numericalSampleComparisons": 600268,
+    "numericalFilesPassed": 208,
+    "numericalComparisons": 847149,
+    "numericalSampleComparisons": 648549,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 5,
     "rootTimelineFilesPassed": 29,
@@ -11189,17 +11189,26 @@
       "actionScript": 2,
       "scriptFiles": 41,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-5-6-2.html#native-aperture-flash-26f46214c6366c80",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-26f46214c6366c80",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 14902,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -11209,12 +11218,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original AS2 functions executed in VM; new Bessel/Fresnel/Zernike implementations compared",
+        "comparisons": 14520,
+        "maxAbsoluteError": 4.884981308350689e-15,
+        "scope": "17 coefficient min/zero/max basis perturbations about original default and four simultaneous uniform coefficient cases, all 11 × 24 original field samples. Full 31^17 products and original camera histories remain pending; added angle cross-section is analytical display.",
+        "report": "docs/aperture-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/aperture-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a503a95f16f31f43",
@@ -11303,17 +11324,26 @@
       "actionScript": 2,
       "scriptFiles": 8,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-5-6-2.html#native-aperture-flash-627e023c1cb74646",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-627e023c1cb74646",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 29684,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -11323,12 +11353,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original AS2 functions executed in VM; new Bessel/Fresnel/Zernike implementations compared",
+        "comparisons": 14472,
+        "maxAbsoluteError": 3.346940502524376e-10,
+        "scope": "All 72 valid m/n slider pairs and 201 radial samples, original optimized polynomials/general factorial branch versus independent coefficient series. Original pointer events are a separate runtime report.",
+        "report": "docs/aperture-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/aperture-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4a1272dc865260d4",
@@ -11341,17 +11383,26 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-5-2-1.html#native-aperture-flash-4a1272dc865260d4",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-4a1272dc865260d4",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 371,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -11361,12 +11412,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original AS2 functions executed in VM; new Bessel/Fresnel/Zernike implementations compared",
+        "comparisons": 79050,
+        "maxAbsoluteError": 0,
+        "scope": "All 50 brightness × 31 wavelength detents, 51 radial ring intensities each, independent original 30-term Bessel function. Colour remapping deliberately differs; continuous pointer histories remain outside this finite numeric scope.",
+        "report": "docs/aperture-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/aperture-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d9d8fe1d85953624",
@@ -11706,17 +11769,26 @@
       "actionScript": 2,
       "scriptFiles": 14,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-5-5-5.html#native-aperture-flash-2ee5edcd3b7450ad",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-2ee5edcd3b7450ad",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 3324,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -11726,12 +11798,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original AS2 functions executed in VM; new Bessel/Fresnel/Zernike implementations compared",
+        "comparisons": 1475199,
+        "maxAbsoluteError": 0,
+        "scope": "All 97 width detents separately: 100 quadrant and 201 export-axis amplitude samples; 3,001 signed C/S locations; 8 exposure × 3 width × 3 height selected field combinations with all 10,000 quadrant intensities and brightness bins. Other 97 × 97 joint width/height fields and original event histories remain pending.",
+        "report": "docs/aperture-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/aperture-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-7fdad8223dbf5e26",

@@ -1,0 +1,3002 @@
+{
+  "date": "2026-10-07T22:37:42.682Z",
+  "method": "Actual original Ruffle pointer slider gestures; root values, original numerical functions and pupil field observed through a private read-only diagnostic copy. Original input/events/equations untouched.",
+  "nativeModelHashes": {
+    "assets/aperture-physics.mjs": "1522144b0f851109aac258801e4babe2d3b5c816b7d60a04a78e1ae543049503",
+    "assets/aperture-specs.mjs": "adc2bf3d5554755a28ee3ea518f45c5bb2a07b3e3307e6892eb7a40357d3872a"
+  },
+  "files": 4,
+  "comparisons": 48281,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-4a1272dc865260d4",
+      "type": "circle",
+      "sha256": "94e475007164412a8907a984e132f24486cc85adc0c86444549efb3ec1a61fca",
+      "sha256Verified": true,
+      "comparisons": 371,
+      "maxAbsoluteError": 4.973799150320701e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wlSlider",
+          "target": 380,
+          "actual": 380,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wlSlider",
+          "target": 500,
+          "actual": 500,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wlSlider",
+          "target": 680,
+          "actual": 680,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "bSlider",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "bSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "bSlider",
+          "target": 50,
+          "actual": 50,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "parameters": {
+            "wl": 500,
+            "amp": 10
+          }
+        },
+        {
+          "label": "wlSlider 380",
+          "parameters": {
+            "wl": 380,
+            "amp": 10
+          }
+        },
+        {
+          "label": "wlSlider 500",
+          "parameters": {
+            "wl": 500,
+            "amp": 10
+          }
+        },
+        {
+          "label": "wlSlider 680",
+          "parameters": {
+            "wl": 680,
+            "amp": 10
+          }
+        },
+        {
+          "label": "bSlider 1",
+          "parameters": {
+            "wl": 680,
+            "amp": 1
+          }
+        },
+        {
+          "label": "bSlider 10",
+          "parameters": {
+            "wl": 680,
+            "amp": 10
+          }
+        },
+        {
+          "label": "bSlider 50",
+          "parameters": {
+            "wl": 680,
+            "amp": 50
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Original default and real min/default/max pointer gestures for each control; downstream root and original Bessel/Fresnel numerical samples, or all 264 original pupil field values. Rectangle box toggle/exposure initialization and pupil clear/default camera matrix observed. Other joint input products and view histories remain pending.",
+      "passed": true
+    },
+    {
+      "id": "flash-627e023c1cb74646",
+      "type": "zernike",
+      "sha256": "ce12897a98a76ae9f4df40c8471fef6b247df8c598f45d5aa1ea747af6a5a83c",
+      "sha256Verified": true,
+      "comparisons": 29684,
+      "maxAbsoluteError": 5.684688830775997e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mSlider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 14,
+          "actual": 14,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mSlider",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 7,
+          "actual": 7,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 9,
+          "actual": 9,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 11,
+          "actual": 11,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 13,
+          "actual": 13,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 15,
+          "actual": 15,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mSlider",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 14,
+          "actual": 14,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mSlider",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 7,
+          "actual": 7,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 9,
+          "actual": 9,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 11,
+          "actual": 11,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 13,
+          "actual": 13,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 15,
+          "actual": 15,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 17,
+          "actual": 17,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mSlider",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 14,
+          "actual": 14,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 18,
+          "actual": 18,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mSlider",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 7,
+          "actual": 7,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 9,
+          "actual": 9,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 11,
+          "actual": 11,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 13,
+          "actual": 13,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 15,
+          "actual": 15,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 17,
+          "actual": 17,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 19,
+          "actual": 19,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mSlider",
+          "target": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 14,
+          "actual": 14,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 18,
+          "actual": 18,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 20,
+          "actual": 20,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mSlider",
+          "target": 7,
+          "actual": 7,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 7,
+          "actual": 7,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 9,
+          "actual": 9,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 11,
+          "actual": 11,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 13,
+          "actual": 13,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 15,
+          "actual": 15,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 17,
+          "actual": 17,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 19,
+          "actual": 19,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 21,
+          "actual": 21,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mSlider",
+          "target": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 14,
+          "actual": 14,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 18,
+          "actual": 18,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 20,
+          "actual": 20,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "target": 22,
+          "actual": 22,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "parameters": {
+            "m": 0,
+            "n": 6
+          }
+        },
+        {
+          "label": "mSlider 0",
+          "parameters": {
+            "m": 0,
+            "n": 6
+          }
+        },
+        {
+          "label": "nSlider 0",
+          "parameters": {
+            "m": 0,
+            "n": 0
+          }
+        },
+        {
+          "label": "nSlider 2",
+          "parameters": {
+            "m": 0,
+            "n": 2
+          }
+        },
+        {
+          "label": "nSlider 4",
+          "parameters": {
+            "m": 0,
+            "n": 4
+          }
+        },
+        {
+          "label": "nSlider 6",
+          "parameters": {
+            "m": 0,
+            "n": 6
+          }
+        },
+        {
+          "label": "nSlider 8",
+          "parameters": {
+            "m": 0,
+            "n": 8
+          }
+        },
+        {
+          "label": "nSlider 10",
+          "parameters": {
+            "m": 0,
+            "n": 10
+          }
+        },
+        {
+          "label": "nSlider 12",
+          "parameters": {
+            "m": 0,
+            "n": 12
+          }
+        },
+        {
+          "label": "nSlider 14",
+          "parameters": {
+            "m": 0,
+            "n": 14
+          }
+        },
+        {
+          "label": "mSlider 1",
+          "parameters": {
+            "m": 1,
+            "n": 1
+          }
+        },
+        {
+          "label": "nSlider 1",
+          "parameters": {
+            "m": 1,
+            "n": 1
+          }
+        },
+        {
+          "label": "nSlider 3",
+          "parameters": {
+            "m": 1,
+            "n": 3
+          }
+        },
+        {
+          "label": "nSlider 5",
+          "parameters": {
+            "m": 1,
+            "n": 5
+          }
+        },
+        {
+          "label": "nSlider 7",
+          "parameters": {
+            "m": 1,
+            "n": 7
+          }
+        },
+        {
+          "label": "nSlider 9",
+          "parameters": {
+            "m": 1,
+            "n": 9
+          }
+        },
+        {
+          "label": "nSlider 11",
+          "parameters": {
+            "m": 1,
+            "n": 11
+          }
+        },
+        {
+          "label": "nSlider 13",
+          "parameters": {
+            "m": 1,
+            "n": 13
+          }
+        },
+        {
+          "label": "nSlider 15",
+          "parameters": {
+            "m": 1,
+            "n": 15
+          }
+        },
+        {
+          "label": "mSlider 2",
+          "parameters": {
+            "m": 2,
+            "n": 2
+          }
+        },
+        {
+          "label": "nSlider 2",
+          "parameters": {
+            "m": 2,
+            "n": 2
+          }
+        },
+        {
+          "label": "nSlider 4",
+          "parameters": {
+            "m": 2,
+            "n": 4
+          }
+        },
+        {
+          "label": "nSlider 6",
+          "parameters": {
+            "m": 2,
+            "n": 6
+          }
+        },
+        {
+          "label": "nSlider 8",
+          "parameters": {
+            "m": 2,
+            "n": 8
+          }
+        },
+        {
+          "label": "nSlider 10",
+          "parameters": {
+            "m": 2,
+            "n": 10
+          }
+        },
+        {
+          "label": "nSlider 12",
+          "parameters": {
+            "m": 2,
+            "n": 12
+          }
+        },
+        {
+          "label": "nSlider 14",
+          "parameters": {
+            "m": 2,
+            "n": 14
+          }
+        },
+        {
+          "label": "nSlider 16",
+          "parameters": {
+            "m": 2,
+            "n": 16
+          }
+        },
+        {
+          "label": "mSlider 3",
+          "parameters": {
+            "m": 3,
+            "n": 3
+          }
+        },
+        {
+          "label": "nSlider 3",
+          "parameters": {
+            "m": 3,
+            "n": 3
+          }
+        },
+        {
+          "label": "nSlider 5",
+          "parameters": {
+            "m": 3,
+            "n": 5
+          }
+        },
+        {
+          "label": "nSlider 7",
+          "parameters": {
+            "m": 3,
+            "n": 7
+          }
+        },
+        {
+          "label": "nSlider 9",
+          "parameters": {
+            "m": 3,
+            "n": 9
+          }
+        },
+        {
+          "label": "nSlider 11",
+          "parameters": {
+            "m": 3,
+            "n": 11
+          }
+        },
+        {
+          "label": "nSlider 13",
+          "parameters": {
+            "m": 3,
+            "n": 13
+          }
+        },
+        {
+          "label": "nSlider 15",
+          "parameters": {
+            "m": 3,
+            "n": 15
+          }
+        },
+        {
+          "label": "nSlider 17",
+          "parameters": {
+            "m": 3,
+            "n": 17
+          }
+        },
+        {
+          "label": "mSlider 4",
+          "parameters": {
+            "m": 4,
+            "n": 4
+          }
+        },
+        {
+          "label": "nSlider 4",
+          "parameters": {
+            "m": 4,
+            "n": 4
+          }
+        },
+        {
+          "label": "nSlider 6",
+          "parameters": {
+            "m": 4,
+            "n": 6
+          }
+        },
+        {
+          "label": "nSlider 8",
+          "parameters": {
+            "m": 4,
+            "n": 8
+          }
+        },
+        {
+          "label": "nSlider 10",
+          "parameters": {
+            "m": 4,
+            "n": 10
+          }
+        },
+        {
+          "label": "nSlider 12",
+          "parameters": {
+            "m": 4,
+            "n": 12
+          }
+        },
+        {
+          "label": "nSlider 14",
+          "parameters": {
+            "m": 4,
+            "n": 14
+          }
+        },
+        {
+          "label": "nSlider 16",
+          "parameters": {
+            "m": 4,
+            "n": 16
+          }
+        },
+        {
+          "label": "nSlider 18",
+          "parameters": {
+            "m": 4,
+            "n": 18
+          }
+        },
+        {
+          "label": "mSlider 5",
+          "parameters": {
+            "m": 5,
+            "n": 5
+          }
+        },
+        {
+          "label": "nSlider 5",
+          "parameters": {
+            "m": 5,
+            "n": 5
+          }
+        },
+        {
+          "label": "nSlider 7",
+          "parameters": {
+            "m": 5,
+            "n": 7
+          }
+        },
+        {
+          "label": "nSlider 9",
+          "parameters": {
+            "m": 5,
+            "n": 9
+          }
+        },
+        {
+          "label": "nSlider 11",
+          "parameters": {
+            "m": 5,
+            "n": 11
+          }
+        },
+        {
+          "label": "nSlider 13",
+          "parameters": {
+            "m": 5,
+            "n": 13
+          }
+        },
+        {
+          "label": "nSlider 15",
+          "parameters": {
+            "m": 5,
+            "n": 15
+          }
+        },
+        {
+          "label": "nSlider 17",
+          "parameters": {
+            "m": 5,
+            "n": 17
+          }
+        },
+        {
+          "label": "nSlider 19",
+          "parameters": {
+            "m": 5,
+            "n": 19
+          }
+        },
+        {
+          "label": "mSlider 6",
+          "parameters": {
+            "m": 6,
+            "n": 6
+          }
+        },
+        {
+          "label": "nSlider 6",
+          "parameters": {
+            "m": 6,
+            "n": 6
+          }
+        },
+        {
+          "label": "nSlider 8",
+          "parameters": {
+            "m": 6,
+            "n": 8
+          }
+        },
+        {
+          "label": "nSlider 10",
+          "parameters": {
+            "m": 6,
+            "n": 10
+          }
+        },
+        {
+          "label": "nSlider 12",
+          "parameters": {
+            "m": 6,
+            "n": 12
+          }
+        },
+        {
+          "label": "nSlider 14",
+          "parameters": {
+            "m": 6,
+            "n": 14
+          }
+        },
+        {
+          "label": "nSlider 16",
+          "parameters": {
+            "m": 6,
+            "n": 16
+          }
+        },
+        {
+          "label": "nSlider 18",
+          "parameters": {
+            "m": 6,
+            "n": 18
+          }
+        },
+        {
+          "label": "nSlider 20",
+          "parameters": {
+            "m": 6,
+            "n": 20
+          }
+        },
+        {
+          "label": "mSlider 7",
+          "parameters": {
+            "m": 7,
+            "n": 7
+          }
+        },
+        {
+          "label": "nSlider 7",
+          "parameters": {
+            "m": 7,
+            "n": 7
+          }
+        },
+        {
+          "label": "nSlider 9",
+          "parameters": {
+            "m": 7,
+            "n": 9
+          }
+        },
+        {
+          "label": "nSlider 11",
+          "parameters": {
+            "m": 7,
+            "n": 11
+          }
+        },
+        {
+          "label": "nSlider 13",
+          "parameters": {
+            "m": 7,
+            "n": 13
+          }
+        },
+        {
+          "label": "nSlider 15",
+          "parameters": {
+            "m": 7,
+            "n": 15
+          }
+        },
+        {
+          "label": "nSlider 17",
+          "parameters": {
+            "m": 7,
+            "n": 17
+          }
+        },
+        {
+          "label": "nSlider 19",
+          "parameters": {
+            "m": 7,
+            "n": 19
+          }
+        },
+        {
+          "label": "nSlider 21",
+          "parameters": {
+            "m": 7,
+            "n": 21
+          }
+        },
+        {
+          "label": "mSlider 8",
+          "parameters": {
+            "m": 8,
+            "n": 8
+          }
+        },
+        {
+          "label": "nSlider 8",
+          "parameters": {
+            "m": 8,
+            "n": 8
+          }
+        },
+        {
+          "label": "nSlider 10",
+          "parameters": {
+            "m": 8,
+            "n": 10
+          }
+        },
+        {
+          "label": "nSlider 12",
+          "parameters": {
+            "m": 8,
+            "n": 12
+          }
+        },
+        {
+          "label": "nSlider 14",
+          "parameters": {
+            "m": 8,
+            "n": 14
+          }
+        },
+        {
+          "label": "nSlider 16",
+          "parameters": {
+            "m": 8,
+            "n": 16
+          }
+        },
+        {
+          "label": "nSlider 18",
+          "parameters": {
+            "m": 8,
+            "n": 18
+          }
+        },
+        {
+          "label": "nSlider 20",
+          "parameters": {
+            "m": 8,
+            "n": 20
+          }
+        },
+        {
+          "label": "nSlider 22",
+          "parameters": {
+            "m": 8,
+            "n": 22
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual pointer selection of all 72 valid m/n pairs; root m/n events and original function queries at 5 radial locations across all 72 pairs at each checkpoint. Full pixel equivalence and continuous histories are not asserted.",
+      "passed": true
+    },
+    {
+      "id": "flash-26f46214c6366c80",
+      "type": "pupil",
+      "sha256": "aea86fcf13141f79a49079bfb87863e4980e63a3b797111145dd224b145a6ec1",
+      "sha256Verified": true,
+      "comparisons": 14902,
+      "maxAbsoluteError": 4.973799150320701e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a00Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a00Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a00Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a02Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a02Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a02Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a04Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a04Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a04Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a11Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a11Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a11Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a13Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a13Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a13Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a15Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a15Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a15Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a22Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a22Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a22Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a24Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a24Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a24Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a26Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a26Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a26Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a33Slider",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a33Slider",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a33Slider",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a11SliderS",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a11SliderS",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a11SliderS",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a13SliderS",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a13SliderS",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a13SliderS",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a15SliderS",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a15SliderS",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a15SliderS",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a22SliderS",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a22SliderS",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a22SliderS",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a24SliderS",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a24SliderS",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a24SliderS",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a26SliderS",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a26SliderS",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a26SliderS",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a33SliderS",
+          "target": -1.5,
+          "actual": -1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a33SliderS",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "a33SliderS",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "original_clear",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "parameters": {
+            "a00": 0,
+            "a02": 0,
+            "a04": 0,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a00Slider -1.5",
+          "parameters": {
+            "a00": -1.5,
+            "a02": 0,
+            "a04": 0,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a00Slider 0",
+          "parameters": {
+            "a00": 0,
+            "a02": 0,
+            "a04": 0,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a00Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 0,
+            "a04": 0,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a02Slider -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": -1.5,
+            "a04": 0,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a02Slider 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 0,
+            "a04": 0,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a02Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 0,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a04Slider -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": -1.5,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a04Slider 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 0,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a04Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a11Slider -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": -1.5,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a11Slider 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a11Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a13Slider -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": -1.5,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a13Slider 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a13Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a15Slider -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": -1.5,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a15Slider 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a15Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a22Slider -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": -1.5,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a22Slider 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a22Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a24Slider -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": -1.5,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a24Slider 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a24Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a26Slider -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": -1.5,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a26Slider 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a26Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a33Slider -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": -1.5,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a33Slider 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a33Slider 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a11SliderS -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": -1.5,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a11SliderS 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 0,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a11SliderS 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a13SliderS -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": -1.5,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a13SliderS 1",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a13SliderS 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a15SliderS -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": -1.5,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a15SliderS 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a15SliderS 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a22SliderS -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": -1.5,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a22SliderS 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a22SliderS 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a24SliderS -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": -1.5,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a24SliderS 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a24SliderS 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": 1.5,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a26SliderS -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": 1.5,
+            "a26S": -1.5,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a26SliderS 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": 1.5,
+            "a26S": 0,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a26SliderS 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": 1.5,
+            "a26S": 1.5,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a33SliderS -1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": 1.5,
+            "a26S": 1.5,
+            "a33S": -1.5
+          }
+        },
+        {
+          "label": "a33SliderS 0",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": 1.5,
+            "a26S": 1.5,
+            "a33S": 0
+          }
+        },
+        {
+          "label": "a33SliderS 1.5",
+          "parameters": {
+            "a00": 1.5,
+            "a02": 1.5,
+            "a04": 1.5,
+            "a11": 1.5,
+            "a13": 1.5,
+            "a15": 1.5,
+            "a22": 1.5,
+            "a24": 1.5,
+            "a26": 1.5,
+            "a33": 1.5,
+            "a11S": 1.5,
+            "a13S": 1.5,
+            "a15S": 1.5,
+            "a22S": 1.5,
+            "a24S": 1.5,
+            "a26S": 1.5,
+            "a33S": 1.5
+          }
+        },
+        {
+          "label": "clear",
+          "parameters": {
+            "a00": 0,
+            "a02": 0,
+            "a04": 0,
+            "a11": 0,
+            "a13": 0,
+            "a15": 0,
+            "a22": 0,
+            "a24": 0,
+            "a26": 0,
+            "a33": 0,
+            "a11S": 0,
+            "a13S": 0,
+            "a15S": 0,
+            "a22S": 0,
+            "a24S": 0,
+            "a26S": 0,
+            "a33S": 0
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Original default and real min/default/max pointer gestures for each control; downstream root and original Bessel/Fresnel numerical samples, or all 264 original pupil field values. Rectangle box toggle/exposure initialization and pupil clear/default camera matrix observed. Other joint input products and view histories remain pending.",
+      "passed": true
+    },
+    {
+      "id": "flash-2ee5edcd3b7450ad",
+      "type": "rectangle",
+      "sha256": "38e0e8927a45cf7db056407a0570544b0705fcde6fb6ca90cdd5f94e7381ed1b",
+      "sha256Verified": true,
+      "comparisons": 3324,
+      "maxAbsoluteError": 4.884981308350689e-15,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "xSlider",
+          "target": 0.4,
+          "actual": 0.4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "xSlider",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "xSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "ySlider",
+          "target": 0.4,
+          "actual": 0.4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "ySlider",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "ySlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "exposureSlider",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "exposureSlider",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "exposureSlider",
+          "target": 8,
+          "actual": 8,
+          "passed": true
+        },
+        {
+          "kind": "original_copy_button",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "parameters": {
+            "width": 4.8,
+            "height": 3,
+            "level": 2
+          },
+          "exposure": 40
+        },
+        {
+          "label": "xSlider 0.4",
+          "parameters": {
+            "width": 0.4,
+            "height": 3,
+            "level": 2
+          },
+          "exposure": 40
+        },
+        {
+          "label": "xSlider 4",
+          "parameters": {
+            "width": 4,
+            "height": 3,
+            "level": 2
+          },
+          "exposure": 40
+        },
+        {
+          "label": "xSlider 10",
+          "parameters": {
+            "width": 10,
+            "height": 3,
+            "level": 2
+          },
+          "exposure": 40
+        },
+        {
+          "label": "ySlider 0.4",
+          "parameters": {
+            "width": 10,
+            "height": 0.4,
+            "level": 2
+          },
+          "exposure": 40
+        },
+        {
+          "label": "ySlider 4",
+          "parameters": {
+            "width": 10,
+            "height": 4,
+            "level": 2
+          },
+          "exposure": 40
+        },
+        {
+          "label": "ySlider 10",
+          "parameters": {
+            "width": 10,
+            "height": 10,
+            "level": 2
+          },
+          "exposure": 40
+        },
+        {
+          "label": "exposureSlider 1",
+          "parameters": {
+            "width": 10,
+            "height": 10,
+            "level": 1
+          },
+          "exposure": 10
+        },
+        {
+          "label": "exposureSlider 2",
+          "parameters": {
+            "width": 10,
+            "height": 10,
+            "level": 2
+          },
+          "exposure": 20
+        },
+        {
+          "label": "exposureSlider 8",
+          "parameters": {
+            "width": 10,
+            "height": 10,
+            "level": 8
+          },
+          "exposure": 1280
+        },
+        {
+          "label": "original data-copy button",
+          "parameters": {
+            "width": 10,
+            "height": 10,
+            "level": 8
+          },
+          "exposure": 1280
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Original default and real min/default/max pointer gestures for each control; downstream root and original Bessel/Fresnel numerical samples, or all 264 original pupil field values. Rectangle data-copy button/exposure initialization and pupil clear/default camera matrix observed. Other joint input products and view histories remain pending.",
+      "passed": true
+    }
+  ]
+}

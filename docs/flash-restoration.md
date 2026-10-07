@@ -353,3 +353,7 @@ oscv2d7_7_laplace, oscv2d7_7_laplace2, efield4, register2를 독립 SVG와 HTML 
 ## 2026-10-07 · 렌즈 배열과 광선 공진기
 
 lenswaveguide, lenswaveguidexx, mirrorwaveguide, mirrorcavity를 독립 SVG로 추가했다. 30/17/23개 광선의 굴절·반사와 현재 상태의 그래프·반사 위치·CSV를 연결하고, 원본 중앙 광선의 반사 카운터와 자동 정지를 유지했다. [비교 범위와 표현·입력 차이](ray-migration-audit.md)를 기록한다. 현재 **272/518개**, 개별 HTML 이식 대기는 **246개**다. 원본의 모든 입력 조합 대조는 계속 미완료다.
+
+## 회절·동공함수 4종 · 2026-10-08
+
+cir_difffr, rectdiff, zernike, phaseAber를 독립 SVG 입력형 모형으로 추가했다. 원본 수치의 근사 간격·밝기 분기·17개 계수를 유지하고 무늬·파면·단면·CSV를 연결했다. 시간 재생이 없는 모형에는 프레임바를 두지 않는다. [복원·비교 범위와 차이](aperture-migration-audit.md)를 기록한다. 현재 **276/518개**, 개별 HTML 이식 대기는 **242개**다. 모든 원본 입력 조합 대조는 미완료다.
