@@ -1,0 +1,859 @@
+{
+  "date": "2026-10-07T13:51:02.283Z",
+  "nativeModelHashes": {
+    "assets/beam-physics.mjs": "add8fc8762bb6a5c435da4f8fc230d61605553c2705f647402c7e1199d8c7c1f",
+    "assets/beam-specs.mjs": "6d02684d10032d080116909e5252b44c54fe529456b166861d373c867d17f56c"
+  },
+  "files": 4,
+  "comparisons": 736,
+  "method": "Actual original Ruffle root and BeamGraph fields observed after pointer slider/drag/checkbox gestures; original input code and equations untouched",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-af8d6673c7dbed70",
+      "type": "shape",
+      "sha256": "e65fb8586175e1794ac803610c19f1b3b48d17bb7ef5f545eea01b13de873594",
+      "sha256Verified": true,
+      "comparisons": 132,
+      "maxAbsoluteError": 3.552713678800501e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "scaleSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "scaleSlider",
+          "target": 50,
+          "actual": 50,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "scaleSlider",
+          "target": 100,
+          "actual": 100,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "tanSlider",
+          "target": 0.05,
+          "actual": 0.05,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "tanSlider",
+          "target": 0.5,
+          "actual": 0.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "tanSlider",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wavelengthSlider",
+          "target": 200,
+          "actual": 200,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wavelengthSlider",
+          "target": 500,
+          "actual": 500,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wavelengthSlider",
+          "target": 1000,
+          "actual": 1000,
+          "passed": true
+        },
+        {
+          "kind": "original_checkbox",
+          "clip": "chk1",
+          "passed": true
+        },
+        {
+          "kind": "original_checkbox",
+          "clip": "chk2",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "parameters": {
+            "scale": 50,
+            "tan": 0.5,
+            "lambda": 500
+          },
+          "stable": true
+        },
+        {
+          "label": "scaleSlider 10",
+          "parameters": {
+            "scale": 10,
+            "tan": 0.5,
+            "lambda": 500
+          },
+          "stable": true
+        },
+        {
+          "label": "scaleSlider 50",
+          "parameters": {
+            "scale": 50,
+            "tan": 0.5,
+            "lambda": 500
+          },
+          "stable": true
+        },
+        {
+          "label": "scaleSlider 100",
+          "parameters": {
+            "scale": 100,
+            "tan": 0.5,
+            "lambda": 500
+          },
+          "stable": true
+        },
+        {
+          "label": "tanSlider 0.05",
+          "parameters": {
+            "scale": 100,
+            "tan": 0.05,
+            "lambda": 500
+          },
+          "stable": true
+        },
+        {
+          "label": "tanSlider 0.5",
+          "parameters": {
+            "scale": 100,
+            "tan": 0.5,
+            "lambda": 500
+          },
+          "stable": true
+        },
+        {
+          "label": "tanSlider 2",
+          "parameters": {
+            "scale": 100,
+            "tan": 2,
+            "lambda": 500
+          },
+          "stable": true
+        },
+        {
+          "label": "wavelengthSlider 200",
+          "parameters": {
+            "scale": 100,
+            "tan": 2,
+            "lambda": 200
+          },
+          "stable": true
+        },
+        {
+          "label": "wavelengthSlider 500",
+          "parameters": {
+            "scale": 100,
+            "tan": 2,
+            "lambda": 500
+          },
+          "stable": true
+        },
+        {
+          "label": "wavelengthSlider 1000",
+          "parameters": {
+            "scale": 100,
+            "tan": 2,
+            "lambda": 1000
+          },
+          "stable": true
+        },
+        {
+          "label": "chk1 toggle",
+          "parameters": {
+            "scale": 100,
+            "tan": 2,
+            "lambda": 1000
+          },
+          "stable": true
+        },
+        {
+          "label": "chk2 toggle",
+          "parameters": {
+            "scale": 100,
+            "tan": 2,
+            "lambda": 1000
+          },
+          "stable": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values.",
+      "passed": true
+    },
+    {
+      "id": "flash-94f22e791e7b32e5",
+      "type": "doubleLens",
+      "sha256": "489523422a17125db7c01e5b65e5b2171c871c262fd7d83b218047a5839b8005",
+      "sha256Verified": true,
+      "comparisons": 250,
+      "maxAbsoluteError": 4.831690603168681e-13,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_drag",
+          "clip": "ball2",
+          "axis": "x",
+          "target": 130,
+          "actual": 130,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball2",
+          "axis": "x",
+          "target": 232,
+          "actual": 232,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball2",
+          "axis": "x",
+          "target": 300,
+          "actual": 300,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball3",
+          "axis": "y",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball3",
+          "axis": "y",
+          "target": 50,
+          "actual": 50,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball3",
+          "axis": "y",
+          "target": 95,
+          "actual": 95,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball1",
+          "axis": "x",
+          "target": 200,
+          "actual": 200,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball1",
+          "axis": "x",
+          "target": 417.4,
+          "actual": 417,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball1",
+          "axis": "x",
+          "target": 600,
+          "actual": 600,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "parameters": {
+            "focusX": 232,
+            "waistY": 50,
+            "lensX": 417.4
+          },
+          "stable": true
+        },
+        {
+          "label": "ball2 130",
+          "parameters": {
+            "focusX": 130,
+            "waistY": 50,
+            "lensX": 417.4
+          },
+          "stable": true
+        },
+        {
+          "label": "ball2 232",
+          "parameters": {
+            "focusX": 232,
+            "waistY": 50,
+            "lensX": 417.4
+          },
+          "stable": true
+        },
+        {
+          "label": "ball2 300",
+          "parameters": {
+            "focusX": 300,
+            "waistY": 50,
+            "lensX": 417.4
+          },
+          "stable": true
+        },
+        {
+          "label": "ball3 5",
+          "parameters": {
+            "focusX": 300,
+            "waistY": 5,
+            "lensX": 417.4
+          },
+          "stable": true
+        },
+        {
+          "label": "ball3 50",
+          "parameters": {
+            "focusX": 300,
+            "waistY": 50,
+            "lensX": 417.4
+          },
+          "stable": true
+        },
+        {
+          "label": "ball3 95",
+          "parameters": {
+            "focusX": 300,
+            "waistY": 95,
+            "lensX": 417.4
+          },
+          "stable": true
+        },
+        {
+          "label": "ball1 200",
+          "parameters": {
+            "focusX": 300,
+            "waistY": 95,
+            "lensX": 200
+          },
+          "stable": true
+        },
+        {
+          "label": "ball1 417.4",
+          "parameters": {
+            "focusX": 300,
+            "waistY": 95,
+            "lensX": 417
+          },
+          "stable": true
+        },
+        {
+          "label": "ball1 600",
+          "parameters": {
+            "focusX": 300,
+            "waistY": 95,
+            "lensX": 600
+          },
+          "stable": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values.",
+      "passed": true
+    },
+    {
+      "id": "flash-a796f564221b88fb",
+      "type": "focus",
+      "sha256": "bbab10a9fbd6d86fcfb6f1db1715f07cb5bb5366a926a54fd770972edf4448af",
+      "sha256Verified": true,
+      "comparisons": 234,
+      "maxAbsoluteError": 2.9558577807620168e-12,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wavelengthSlider",
+          "target": 0.1,
+          "actual": 0.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wavelengthSlider",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wavelengthSlider",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "scaleSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "scaleSlider",
+          "target": 20,
+          "actual": 20,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "scaleSlider",
+          "target": 100,
+          "actual": 100,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball2",
+          "axis": "x",
+          "target": 230,
+          "actual": 230,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball2",
+          "axis": "x",
+          "target": 450,
+          "actual": 450,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball2",
+          "axis": "x",
+          "target": 580,
+          "actual": 580,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball3",
+          "axis": "y",
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball3",
+          "axis": "y",
+          "target": 50,
+          "actual": 50,
+          "passed": true
+        },
+        {
+          "kind": "original_drag",
+          "clip": "ball3",
+          "axis": "y",
+          "target": 170,
+          "actual": 170,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "parameters": {
+            "lambda": 1,
+            "scale": 20,
+            "focusX": 450,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "wavelengthSlider 0.1",
+          "parameters": {
+            "lambda": 0.1,
+            "scale": 20,
+            "focusX": 450,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "wavelengthSlider 1",
+          "parameters": {
+            "lambda": 1,
+            "scale": 20,
+            "focusX": 450,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "wavelengthSlider 2",
+          "parameters": {
+            "lambda": 2,
+            "scale": 20,
+            "focusX": 450,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "scaleSlider 10",
+          "parameters": {
+            "lambda": 2,
+            "scale": 10,
+            "focusX": 450,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "scaleSlider 20",
+          "parameters": {
+            "lambda": 2,
+            "scale": 20,
+            "focusX": 450,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "scaleSlider 100",
+          "parameters": {
+            "lambda": 2,
+            "scale": 100,
+            "focusX": 450,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "ball2 230",
+          "parameters": {
+            "lambda": 2,
+            "scale": 100,
+            "focusX": 230,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "ball2 450",
+          "parameters": {
+            "lambda": 2,
+            "scale": 100,
+            "focusX": 450,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "ball2 580",
+          "parameters": {
+            "lambda": 2,
+            "scale": 100,
+            "focusX": 580,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "ball3 5",
+          "parameters": {
+            "lambda": 2,
+            "scale": 100,
+            "focusX": 580,
+            "waistY": 5
+          },
+          "stable": true
+        },
+        {
+          "label": "ball3 50",
+          "parameters": {
+            "lambda": 2,
+            "scale": 100,
+            "focusX": 580,
+            "waistY": 50
+          },
+          "stable": true
+        },
+        {
+          "label": "ball3 170",
+          "parameters": {
+            "lambda": 2,
+            "scale": 100,
+            "focusX": 580,
+            "waistY": 170
+          },
+          "stable": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values.",
+      "passed": true
+    },
+    {
+      "id": "flash-9ec99e26a3a118b5",
+      "type": "resonator",
+      "sha256": "c1239a88786be63fea8c4770474372f9dcff2e3905b3f2013c856ca524f337ed",
+      "sha256Verified": true,
+      "comparisons": 120,
+      "maxAbsoluteError": 3.979039320256561e-13,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "R1Slider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "R1Slider",
+          "target": 25,
+          "actual": 25,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "R1Slider",
+          "target": 200,
+          "actual": 200,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "R2Slider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "R2Slider",
+          "target": 50,
+          "actual": 50,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "R2Slider",
+          "target": 100,
+          "actual": 100,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wavelengthSlider",
+          "target": 0.2,
+          "actual": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wavelengthSlider",
+          "target": 0.5,
+          "actual": 0.5,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wavelengthSlider",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "R1Slider",
+          "target": 20,
+          "actual": 20,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "R2Slider",
+          "target": 20,
+          "actual": 20,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "R1Slider",
+          "target": 21,
+          "actual": 21,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "parameters": {
+            "R1": 25,
+            "R2": 50,
+            "lambda": 0.5
+          },
+          "stable": true
+        },
+        {
+          "label": "R1Slider 10",
+          "parameters": {
+            "R1": 10,
+            "R2": 50,
+            "lambda": 0.5
+          },
+          "stable": false
+        },
+        {
+          "label": "R1Slider 25",
+          "parameters": {
+            "R1": 25,
+            "R2": 50,
+            "lambda": 0.5
+          },
+          "stable": true
+        },
+        {
+          "label": "R1Slider 200",
+          "parameters": {
+            "R1": 200,
+            "R2": 50,
+            "lambda": 0.5
+          },
+          "stable": true
+        },
+        {
+          "label": "R2Slider 10",
+          "parameters": {
+            "R1": 200,
+            "R2": 10,
+            "lambda": 0.5
+          },
+          "stable": false
+        },
+        {
+          "label": "R2Slider 50",
+          "parameters": {
+            "R1": 200,
+            "R2": 50,
+            "lambda": 0.5
+          },
+          "stable": true
+        },
+        {
+          "label": "R2Slider 100",
+          "parameters": {
+            "R1": 200,
+            "R2": 100,
+            "lambda": 0.5
+          },
+          "stable": true
+        },
+        {
+          "label": "wavelengthSlider 0.2",
+          "parameters": {
+            "R1": 200,
+            "R2": 100,
+            "lambda": 0.2
+          },
+          "stable": true
+        },
+        {
+          "label": "wavelengthSlider 0.5",
+          "parameters": {
+            "R1": 200,
+            "R2": 100,
+            "lambda": 0.5
+          },
+          "stable": true
+        },
+        {
+          "label": "wavelengthSlider 2",
+          "parameters": {
+            "R1": 200,
+            "R2": 100,
+            "lambda": 2
+          },
+          "stable": true
+        },
+        {
+          "label": "R1Slider 20",
+          "parameters": {
+            "R1": 20,
+            "R2": 100,
+            "lambda": 2
+          },
+          "stable": false
+        },
+        {
+          "label": "R2Slider 20",
+          "parameters": {
+            "R1": 20,
+            "R2": 20,
+            "lambda": 2
+          },
+          "stable": true
+        },
+        {
+          "label": "confocal branch",
+          "parameters": {
+            "R1": 20,
+            "R2": 20,
+            "lambda": 2
+          },
+          "stable": true
+        },
+        {
+          "label": "R1Slider 21",
+          "parameters": {
+            "R1": 21,
+            "R2": 20,
+            "lambda": 2
+          },
+          "stable": false
+        },
+        {
+          "label": "one flat-g boundary",
+          "parameters": {
+            "R1": 21,
+            "R2": 20,
+            "lambda": 2
+          },
+          "stable": false
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values.",
+      "passed": true
+    }
+  ]
+}

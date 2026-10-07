@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T13:22:21.778Z",
+  "date": "2026-10-07T13:52:37.300Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -33,16 +33,18 @@
     "assets/potential-physics.mjs": "e0e436f1fe8a5db55f85ffea751db50f630f5be048813b49e7cf4f11a640e86d",
     "assets/potential-specs.mjs": "18d1e1334625d2cf9588402510a2a475314be983922cce5fa37a2ab0f5de6611",
     "assets/diffraction-physics.mjs": "151e11d96c7b5014508e7234fe49f8304a1522f2492d3bd4eff60e949322ea24",
-    "assets/diffraction-specs.mjs": "3ec0e2c9647b1fc3bd582a7a9280f8d253c1c7eca85c9fa6549f18479ed2d33f"
+    "assets/diffraction-specs.mjs": "3ec0e2c9647b1fc3bd582a7a9280f8d253c1c7eca85c9fa6549f18479ed2d33f",
+    "assets/beam-physics.mjs": "add8fc8762bb6a5c435da4f8fc230d61605553c2705f647402c7e1199d8c7c1f",
+    "assets/beam-specs.mjs": "6d02684d10032d080116909e5252b44c54fe529456b166861d373c867d17f56c"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 196,
-  "numericalFilesPassed": 196,
-  "numericalSampleComparisons": 561217,
+  "numericalFiles": 200,
+  "numericalFilesPassed": 200,
+  "numericalSampleComparisons": 561953,
   "combinationComparisons": 198600,
-  "numericalComparisons": 759817,
+  "numericalComparisons": 760553,
   "finiteCombinationScopes": 5,
   "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
@@ -7544,7 +7546,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/beam-runtime-report.json",
+        "sha256": "c1239a88786be63fea8c4770474372f9dcff2e3905b3f2013c856ca524f337ed",
+        "passed": true,
+        "comparisons": 120,
+        "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values.",
+        "maxAbsoluteError": 3.979039320256561e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7601,7 +7610,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/beam-runtime-report.json",
+        "sha256": "bbab10a9fbd6d86fcfb6f1db1715f07cb5bb5366a926a54fd770972edf4448af",
+        "passed": true,
+        "comparisons": 234,
+        "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values.",
+        "maxAbsoluteError": 2.9558577807620168e-12
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7620,7 +7636,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/beam-runtime-report.json",
+        "sha256": "489523422a17125db7c01e5b65e5b2171c871c262fd7d83b218047a5839b8005",
+        "passed": true,
+        "comparisons": 250,
+        "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values.",
+        "maxAbsoluteError": 4.831690603168681e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7639,7 +7662,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/beam-runtime-report.json",
+        "sha256": "e65fb8586175e1794ac803610c19f1b3b48d17bb7ef5f545eea01b13de873594",
+        "passed": true,
+        "comparisons": 132,
+        "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values.",
+        "maxAbsoluteError": 3.552713678800501e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },

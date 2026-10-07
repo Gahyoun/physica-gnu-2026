@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root)));
 
-export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave','expansion-wave','moire','scene','quantum','light','dynamics','electromagnet','circuit','potential','diffraction'];
+export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave','expansion-wave','moire','scene','quantum','light','dynamics','electromagnet','circuit','potential','diffraction','beam'];
 export const combinationGroups=['superposition-combinations'];
 
 export function runtimeEvidence(){

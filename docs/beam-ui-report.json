@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-07T13:50:12.921Z",
+  "nativeModelHashes": {
+    "assets/native-beam.mjs": "3f36cedd6a625b0cbda9b1bd7cda0d9ae1085a8cec771f0bce8596d0f511af0d",
+    "assets/beam-physics.mjs": "add8fc8762bb6a5c435da4f8fc230d61605553c2705f647402c7e1199d8c7c1f",
+    "assets/beam-specs.mjs": "6d02684d10032d080116909e5252b44c54fe529456b166861d373c867d17f56c",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "scope": "12 native viewport cases; slider endpoints, selected complete state, real focal/waist/lens pointer drags, checkbox visibility, field CSV same-state samples, vector-only geometry, opacity .65 and light/dark; static models have no time/play controls. Original equivalence remains finite.",
+  "results": [
+    {
+      "id": "flash-af8d6673c7dbed70",
+      "type": "shape",
+      "width": 320,
+      "inputCases": 9,
+      "drags": [],
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-94f22e791e7b32e5",
+      "type": "doubleLens",
+      "width": 320,
+      "inputCases": 9,
+      "drags": [
+        "focusX",
+        "waistY",
+        "lensX"
+      ],
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-a796f564221b88fb",
+      "type": "focus",
+      "width": 320,
+      "inputCases": 12,
+      "drags": [
+        "focusX",
+        "waistY"
+      ],
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-9ec99e26a3a118b5",
+      "type": "resonator",
+      "width": 320,
+      "inputCases": 9,
+      "drags": [],
+      "unstableClearsStaleReadouts": true,
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-af8d6673c7dbed70",
+      "type": "shape",
+      "width": 768,
+      "inputCases": 9,
+      "drags": [],
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-94f22e791e7b32e5",
+      "type": "doubleLens",
+      "width": 768,
+      "inputCases": 9,
+      "drags": [
+        "focusX",
+        "waistY",
+        "lensX"
+      ],
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-a796f564221b88fb",
+      "type": "focus",
+      "width": 768,
+      "inputCases": 12,
+      "drags": [
+        "focusX",
+        "waistY"
+      ],
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-9ec99e26a3a118b5",
+      "type": "resonator",
+      "width": 768,
+      "inputCases": 9,
+      "drags": [],
+      "unstableClearsStaleReadouts": true,
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-af8d6673c7dbed70",
+      "type": "shape",
+      "width": 1360,
+      "inputCases": 9,
+      "drags": [],
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-94f22e791e7b32e5",
+      "type": "doubleLens",
+      "width": 1360,
+      "inputCases": 9,
+      "drags": [
+        "focusX",
+        "waistY",
+        "lensX"
+      ],
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-a796f564221b88fb",
+      "type": "focus",
+      "width": 1360,
+      "inputCases": 12,
+      "drags": [
+        "focusX",
+        "waistY"
+      ],
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-9ec99e26a3a118b5",
+      "type": "resonator",
+      "width": 1360,
+      "inputCases": 9,
+      "drags": [],
+      "unstableClearsStaleReadouts": true,
+      "viewToggles": true,
+      "csvMatchesState": true,
+      "staticHasNoFrameBar": true,
+      "vectorOnly": true,
+      "darkThemeFinite": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

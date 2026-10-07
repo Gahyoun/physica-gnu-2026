@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-07T13:46:38.833Z",
+  "method": "Independent private original BeamFtn, BeamGraph and root setting functions executed in a VM; fresh numerical/vector implementation compared",
+  "nativeModelHashes": {
+    "assets/beam-physics.mjs": "add8fc8762bb6a5c435da4f8fc230d61605553c2705f647402c7e1199d8c7c1f",
+    "assets/beam-specs.mjs": "6d02684d10032d080116909e5252b44c54fe529456b166861d373c867d17f56c"
+  },
+  "comparisons": 194815,
+  "files": 4,
+  "results": [
+    {
+      "id": "flash-af8d6673c7dbed70",
+      "type": "shape",
+      "comparisons": 5267,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Original root setting on defaults, 11 values per control and selected focal/waist cross-products; exact default envelope and contour commands, 81 phasefront positions per segment and sampled field/lens transform functions. Continuous drags and all simultaneous input histories remain pending.",
+      "passed": true
+    },
+    {
+      "id": "flash-94f22e791e7b32e5",
+      "type": "doubleLens",
+      "comparisons": 12970,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Original root setting on defaults, 11 values per control and selected focal/waist cross-products; exact default envelope and contour commands, 81 phasefront positions per segment and sampled field/lens transform functions. Continuous drags and all simultaneous input histories remain pending.",
+      "passed": true
+    },
+    {
+      "id": "flash-a796f564221b88fb",
+      "type": "focus",
+      "comparisons": 9164,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Original root setting on defaults, 11 values per control and selected focal/waist cross-products; exact default envelope and contour commands, 81 phasefront positions per segment and sampled field/lens transform functions. Continuous drags and all simultaneous input histories remain pending.",
+      "passed": true
+    },
+    {
+      "id": "flash-9ec99e26a3a118b5",
+      "type": "resonator",
+      "comparisons": 167414,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 191 × 91 integer mirror-radius pairs at default wavelength, 11-value sweeps for each slider, confocal/unstable boundaries. Default envelope, equi-amplitude contours, 81 phasefront locations and sampled amplitude/phase/lens transforms independently compared. Other wavelength × radius products and event histories remain pending.",
+      "passed": true
+    }
+  ]
+}

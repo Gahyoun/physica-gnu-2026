@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T13:24:53.061Z",
+  "date": "2026-10-07T13:52:37.696Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -14011,7 +14011,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 15,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-6-5-6.html#native-beam-flash-9ec99e26a3a118b5",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -14053,14 +14053,17 @@
         "drag": 0,
         "change": 6
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/beam-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -14145,7 +14148,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 17,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-6-5-5.html#native-beam-flash-a796f564221b88fb",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -14178,14 +14181,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/beam-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -14200,7 +14206,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 16,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-6-5-4.html#native-beam-flash-94f22e791e7b32e5",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -14214,14 +14220,17 @@
         "drag": 0,
         "change": 3
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/beam-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -14236,7 +14245,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 18,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-6-5-3.html#native-beam-flash-af8d6673c7dbed70",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -14278,14 +14287,17 @@
         "drag": 0,
         "change": 9
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/beam-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default, min/default/max slider pointer gestures and waist/focal/lens drags; Gaussian shape checkboxes and resonator confocal/boundary cases. Root beam values and all active BeamGraph fields (numeric tolerance 1e-7), pointer target tolerance .550001 px for fractional screen positions, not every displayed pixel or every continuous event/input combination. Original unstable branch leaves prior readouts; native suppresses stale mode values."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

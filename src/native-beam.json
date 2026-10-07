@@ -1,0 +1,168 @@
+[
+  {
+    "id": "flash-af8d6673c7dbed70",
+    "type": "shape",
+    "title": "가우스 빔",
+    "source": "gaussianshape.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/gaussianbeam/gaussianshape.swf",
+    "lesson": "5-6-5-3",
+    "animated": false,
+    "controls": [
+      {
+        "key": "scale",
+        "label": "화면 배율 / px",
+        "min": 10,
+        "max": 100,
+        "step": 10,
+        "value": 50,
+        "clip": "scaleSlider"
+      },
+      {
+        "key": "tan",
+        "label": "퍼짐각 tan(θ/2)",
+        "min": 0.05,
+        "max": 2,
+        "step": 0.01,
+        "value": 0.5,
+        "clip": "tanSlider"
+      },
+      {
+        "key": "lambda",
+        "label": "파장 / nm",
+        "min": 200,
+        "max": 1000,
+        "step": 5,
+        "value": 500,
+        "clip": "wavelengthSlider"
+      }
+    ]
+  },
+  {
+    "id": "flash-94f22e791e7b32e5",
+    "type": "doubleLens",
+    "title": "렌즈에 의한 가우스 빔의 변환",
+    "source": "gaussiansd.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/gaussianbeam/gaussiansd.swf",
+    "lesson": "5-6-5-4",
+    "animated": false,
+    "controls": [
+      {
+        "key": "focusX",
+        "label": "첫 렌즈 초점 표시 / px",
+        "min": 130,
+        "max": 300,
+        "step": 0.05,
+        "value": 232,
+        "clip": "ball2",
+        "axis": "x"
+      },
+      {
+        "key": "waistY",
+        "label": "입사 빔 반경 표시 / px",
+        "min": 5,
+        "max": 95,
+        "step": 0.05,
+        "value": 50,
+        "clip": "ball3",
+        "axis": "y"
+      },
+      {
+        "key": "lensX",
+        "label": "두 번째 렌즈 위치 / px",
+        "min": 200,
+        "max": 600,
+        "step": 0.05,
+        "value": 417.4,
+        "clip": "ball1",
+        "axis": "x"
+      }
+    ]
+  },
+  {
+    "id": "flash-a796f564221b88fb",
+    "type": "focus",
+    "title": "렌즈에 의한 빔의 집속",
+    "source": "gaussiansc.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/gaussianbeam/gaussiansc.swf",
+    "lesson": "5-6-5-5",
+    "animated": false,
+    "controls": [
+      {
+        "key": "lambda",
+        "label": "파장 / 원본 길이 눈금",
+        "min": 0.1,
+        "max": 2,
+        "step": 0.01,
+        "value": 1,
+        "clip": "wavelengthSlider"
+      },
+      {
+        "key": "scale",
+        "label": "화면 배율 / px",
+        "min": 10,
+        "max": 100,
+        "step": 10,
+        "value": 20,
+        "clip": "scaleSlider"
+      },
+      {
+        "key": "focusX",
+        "label": "렌즈 초점 표시 / px",
+        "min": 230,
+        "max": 580,
+        "step": 0.05,
+        "value": 450,
+        "clip": "ball2",
+        "axis": "x"
+      },
+      {
+        "key": "waistY",
+        "label": "입사 빔 반경 표시 / px",
+        "min": 5,
+        "max": 170,
+        "step": 0.05,
+        "value": 50,
+        "clip": "ball3",
+        "axis": "y"
+      }
+    ]
+  },
+  {
+    "id": "flash-9ec99e26a3a118b5",
+    "type": "resonator",
+    "title": "오목거울 내부의 가우스 빔의 형성",
+    "source": "gaussianresonator.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/gaussianbeam/gaussianresonator.swf",
+    "lesson": "5-6-5-6",
+    "animated": false,
+    "controls": [
+      {
+        "key": "R1",
+        "label": "왼쪽 거울 곡률반경 R₁",
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "value": 25,
+        "clip": "R1Slider"
+      },
+      {
+        "key": "R2",
+        "label": "오른쪽 거울 곡률반경 R₂",
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "value": 50,
+        "clip": "R2Slider"
+      },
+      {
+        "key": "lambda",
+        "label": "파장 / 원본 길이 눈금",
+        "min": 0.2,
+        "max": 2,
+        "step": 0.005,
+        "value": 0.5,
+        "clip": "wavelengthSlider"
+      }
+    ]
+  }
+]

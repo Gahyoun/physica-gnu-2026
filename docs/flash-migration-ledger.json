@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-07T13:30:47.364Z",
+  "date": "2026-10-07T13:58:11.257Z",
   "total": 518,
-  "htmlImplemented": 264,
-  "htmlPending": 254,
+  "htmlImplemented": 268,
+  "htmlPending": 250,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 792,
-    "observed": 792,
+    "expected": 804,
+    "observed": 804,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 196,
-    "numericalComparisons": 759817,
-    "numericalSampleComparisons": 561217,
+    "numericalFilesPassed": 200,
+    "numericalComparisons": 760553,
+    "numericalSampleComparisons": 561953,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 5,
     "rootTimelineFilesPassed": 29,
@@ -15229,17 +15229,26 @@
       "actionScript": 2,
       "scriptFiles": 15,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-5-6.html#native-beam-flash-9ec99e26a3a118b5",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-9ec99e26a3a118b5",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 120,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -15249,12 +15258,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original BeamFtn, BeamGraph and root setting functions executed in a VM; fresh numerical/vector implementation compared",
+        "comparisons": 167414,
+        "maxAbsoluteError": 2.842170943040401e-14,
+        "scope": "All 191 × 91 integer mirror-radius pairs at default wavelength, 11-value sweeps for each slider, confocal/unstable boundaries. Default envelope, equi-amplitude contours, 81 phasefront locations and sampled amplitude/phase/lens transforms independently compared. Other wavelength × radius products and event histories remain pending.",
+        "report": "docs/beam-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/beam-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5df0e84f9248399d",
@@ -15375,17 +15396,26 @@
       "actionScript": 2,
       "scriptFiles": 17,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-5-5.html#native-beam-flash-a796f564221b88fb",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a796f564221b88fb",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 234,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -15395,12 +15425,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original BeamFtn, BeamGraph and root setting functions executed in a VM; fresh numerical/vector implementation compared",
+        "comparisons": 9164,
+        "maxAbsoluteError": 0,
+        "scope": "Original root setting on defaults, 11 values per control and selected focal/waist cross-products; exact default envelope and contour commands, 81 phasefront positions per segment and sampled field/lens transform functions. Continuous drags and all simultaneous input histories remain pending.",
+        "report": "docs/beam-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/beam-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-94f22e791e7b32e5",
@@ -15413,17 +15455,26 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-5-4.html#native-beam-flash-94f22e791e7b32e5",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-94f22e791e7b32e5",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 250,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -15433,12 +15484,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original BeamFtn, BeamGraph and root setting functions executed in a VM; fresh numerical/vector implementation compared",
+        "comparisons": 12970,
+        "maxAbsoluteError": 2.842170943040401e-14,
+        "scope": "Original root setting on defaults, 11 values per control and selected focal/waist cross-products; exact default envelope and contour commands, 81 phasefront positions per segment and sampled field/lens transform functions. Continuous drags and all simultaneous input histories remain pending.",
+        "report": "docs/beam-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/beam-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-af8d6673c7dbed70",
@@ -15451,17 +15514,26 @@
       "actionScript": 2,
       "scriptFiles": 18,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-5-3.html#native-beam-flash-af8d6673c7dbed70",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-af8d6673c7dbed70",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 132,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -15471,12 +15543,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original BeamFtn, BeamGraph and root setting functions executed in a VM; fresh numerical/vector implementation compared",
+        "comparisons": 5267,
+        "maxAbsoluteError": 2.842170943040401e-14,
+        "scope": "Original root setting on defaults, 11 values per control and selected focal/waist cross-products; exact default envelope and contour commands, 81 phasefront positions per segment and sampled field/lens transform functions. Continuous drags and all simultaneous input histories remain pending.",
+        "report": "docs/beam-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/beam-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4870ee7f00d41eab",
