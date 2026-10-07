@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-07T01:43:20.930Z",
+  "nativeModelHashes": {
+    "assets/circuit-physics.mjs": "79d7142eb41168a86d6b30d033b1b41920ea6db4604b786ee5ebbb781c403211",
+    "assets/circuit-specs.mjs": "631bef28d061e811dbfaedf5c90dbb8a58ff153d5717414d6ac54f9080fc00de"
+  },
+  "files": 5,
+  "comparisons": 46213768,
+  "method": "Private original ActionScript functions executed independently; artwork never exported into native UI",
+  "results": [
+    {
+      "id": "flash-00b8dd38a6611eed",
+      "type": "resistors",
+      "comparisons": 2,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original switch/rotation action branches and capacitor 2–20 frame limits; new quantitative R/C/voltage graphs are explicitly additional teaching models."
+    },
+    {
+      "id": "flash-71ec0303f1fb9fdf",
+      "type": "capacitors",
+      "comparisons": 53,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original switch/rotation action branches and capacitor 2–20 frame limits; new quantitative R/C/voltage graphs are explicitly additional teaching models."
+    },
+    {
+      "id": "flash-5a66020c75238930",
+      "type": "transformer",
+      "comparisons": 4,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original switch/rotation action branches and capacitor 2–20 frame limits; new quantitative R/C/voltage graphs are explicitly additional teaching models."
+    },
+    {
+      "id": "flash-97a62c9e13489c99",
+      "type": "magneticOrbit",
+      "comparisons": 1,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original switch/rotation action branches and capacitor 2–20 frame limits; new quantitative R/C/voltage graphs are explicitly additional teaching models."
+    },
+    {
+      "id": "flash-c82fbf399633c8eb",
+      "type": "ohmslaw",
+      "comparisons": 46213708,
+      "maxAbsoluteError": 2.220446049250313e-16,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "35 fixed voltage/scattering combinations × 1200 updates × all 250 electrons, reproducible random streams; auto branch 5100 updates, both meter functions and graph mapping. Native discrete measurement bins normalize original floating indices; random seed and original interval scheduling equivalence are not asserted."
+    }
+  ]
+}

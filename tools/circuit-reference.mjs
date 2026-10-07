@@ -1,0 +1,8 @@
+// Execute private source functions with an independently replayable random stream.
+import fs from 'node:fs';import vm from 'node:vm';import {sourceFunction} from './scene-source-capture.mjs';
+export function ohmReference(id,state){const dir=(process.env.PHYSICA_FLASH_SCRIPTS||'/private/tmp/physica-all-flash-scripts')+'/'+id+'/scripts/',src=fs.readFileSync(dir+'frame_1/DoAction.as','utf8'),math=Object.create(Math);let rng=state.rng;math.random=()=>{rng=(Math.imul(1664525,rng)+1013904223)>>>0;return rng/4294967296;};const noop=()=>{},c=vm.createContext({Math:math,px:state.particles.map(z=>z.x),py:state.particles.map(z=>z.y),vx:state.particles.map(z=>z.vx),vy:state.particles.map(z=>z.vy),wallLeft:20,wallWidth:300,wallHalfHeight:50,wallHCenter:70,numElectron:250,volt:state.voltage,crosssection:state.crosssection,counter:state.counter,tickCounter:state.ticks,dataCounter:state.dataCounter,autoCounter:state.autoCounter,isAuto:state.auto,cCurrent:state.current,current:state.measurements.slice(),trac0:{clear:noop,lineStyle:noop,moveTo:noop,lineTo:noop},trac1:{clear:noop,lineStyle:noop,moveTo:noop,lineTo:noop},setMarker:noop,ampmeter:{setAmp:noop},frameIndex:0});
+ for(let i=0;i<250;i++)c['electron'+i]={};for(let i=0;i<20;i++)c['frame'+i]={_alpha:0};
+ c.voltSlider={set value(v){c.volt=Math.round(v/.1)*.1;c.dataCounter=0;}};
+ vm.runInContext(['runthis','moveElectron','generateStartPosition'].map(n=>sourceFunction(src,n)).join('\n'),c);
+ return {c,advance(){c.runthis();return {particles:Array.from({length:250},(_,i)=>({x:c.px[i],y:c.py[i],vx:c.vx[i],vy:c.vy[i]})),current:c.cCurrent,counter:c.counter,ticks:c.tickCounter,dataCounter:c.dataCounter,autoCounter:c.autoCounter,voltage:c.volt,rng};}};
+}

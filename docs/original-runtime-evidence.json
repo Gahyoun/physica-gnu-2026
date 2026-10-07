@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T01:32:19.205Z",
+  "date": "2026-10-07T12:00:16.237Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -27,16 +27,18 @@
     "assets/dynamics-physics.mjs": "0cc0b6ca9764e570cb461bd261ae44a85e68a70a4370c769cc5124d0f03ccfc4",
     "assets/dynamics-specs.mjs": "4d74bc61f7d40194612d327d7da70c1dc7d1d38c66f86eb312c03c1d80ecba5a",
     "assets/electromagnet-physics.mjs": "3c2fdc1a250db94f76d220be20ef722364fc370481c089030c0388d7e1a156b4",
-    "assets/electromagnet-specs.mjs": "2dae152a40cc8561f379acb1a87075bc148528cfa4a3c240d226d0bb077773f0"
+    "assets/electromagnet-specs.mjs": "2dae152a40cc8561f379acb1a87075bc148528cfa4a3c240d226d0bb077773f0",
+    "assets/circuit-physics.mjs": "79d7142eb41168a86d6b30d033b1b41920ea6db4604b786ee5ebbb781c403211",
+    "assets/circuit-specs.mjs": "631bef28d061e811dbfaedf5c90dbb8a58ff153d5717414d6ac54f9080fc00de"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 181,
-  "numericalFilesPassed": 181,
-  "numericalSampleComparisons": 540322,
+  "numericalFiles": 186,
+  "numericalFilesPassed": 186,
+  "numericalSampleComparisons": 541263,
   "combinationComparisons": 198600,
-  "numericalComparisons": 738922,
+  "numericalComparisons": 739863,
   "finiteCombinationScopes": 5,
   "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
@@ -353,7 +355,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "sha256": "8bc3672ad0117f357bd96793f18d7fc7025ec984869241c28966c1d830faf59f",
+        "passed": true,
+        "comparisons": 10,
+        "scope": "Actual original switch combinations, capacitor terminal 20 and off 1 frames, transformer 0/90/180 degree meter states. Uninterrupted capacitor per-frame artwork and every asynchronous switch order remain outside scope.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -398,7 +407,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "sha256": "3210d6f52b69df77e9ba5367a639fd150bf3aea570f83cb92dd89c4b2a2b15c1",
+        "passed": true,
+        "comparisons": 892,
+        "scope": "30 successive live windows of 20 observed electrons; only demonstrably collision-free and non-reentry trajectories are predicted, stochastic windows explicitly excluded. Meter scaling and observed marked I–V coordinates, both sliders min/mid/max, auto on/off and copy click. Clipboard content and the unseeded original random sequence are not certified.",
+        "maxAbsoluteError": 1.0231815394945443e-12
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -534,7 +550,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "sha256": "5ad47091d44c71d164a78f3c81833585f3fa4562dd552bc5d12b26d0539ff6ef",
+        "passed": true,
+        "comparisons": 15,
+        "scope": "Actual original switch combinations, capacitor terminal 20 and off 1 frames, transformer 0/90/180 degree meter states. Uninterrupted capacitor per-frame artwork and every asynchronous switch order remain outside scope.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -669,7 +692,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "sha256": "af79c3b7109a7396e469927625492fdc936d7005b60af4934506352cd32b0bbd",
+        "passed": true,
+        "comparisons": 14,
+        "scope": "12 natural rotation observations; integer degree increments and fixed original rotation centre. Fresh SVG local artwork and physical normalized coordinate graph are additions, not pixel-equivalent.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -749,7 +779,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "sha256": "6c83d13db22d38edb66fc0c353d21eeb826dfe774d5fd280924989c41c6facbf",
+        "passed": true,
+        "comparisons": 10,
+        "scope": "Actual original switch combinations, capacitor terminal 20 and off 1 frames, transformer 0/90/180 degree meter states. Uninterrupted capacitor per-frame artwork and every asynchronous switch order remain outside scope.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },

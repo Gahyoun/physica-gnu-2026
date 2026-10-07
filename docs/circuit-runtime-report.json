@@ -1,0 +1,613 @@
+{
+  "date": "2026-10-07T01:48:05.780Z",
+  "nativeModelHashes": {
+    "assets/circuit-physics.mjs": "79d7142eb41168a86d6b30d033b1b41920ea6db4604b786ee5ebbb781c403211",
+    "assets/circuit-specs.mjs": "631bef28d061e811dbfaedf5c90dbb8a58ff153d5717414d6ac54f9080fc00de"
+  },
+  "files": 5,
+  "comparisons": 941,
+  "method": "Live original Ruffle numerical states, anonymous clip discovery and actual mouse controls; read-only in-memory observer",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-00b8dd38a6611eed",
+      "type": "resistors",
+      "sha256": "8bc3672ad0117f357bd96793f18d7fc7025ec984869241c28966c1d830faf59f",
+      "sha256Verified": true,
+      "comparisons": 10,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [],
+      "controls": [
+        {
+          "kind": "actual_independent_switches",
+          "series": false,
+          "parallel": false,
+          "frames": [
+            1,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "kind": "actual_independent_switches",
+          "series": true,
+          "parallel": false,
+          "frames": [
+            2,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "kind": "actual_independent_switches",
+          "series": true,
+          "parallel": true,
+          "frames": [
+            2,
+            2
+          ],
+          "passed": true
+        },
+        {
+          "kind": "actual_independent_switches",
+          "series": false,
+          "parallel": true,
+          "frames": [
+            1,
+            2
+          ],
+          "passed": true
+        },
+        {
+          "kind": "actual_independent_switches",
+          "series": false,
+          "parallel": false,
+          "frames": [
+            1,
+            1
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original switch combinations, capacitor terminal 20 and off 1 frames, transformer 0/90/180 degree meter states. Uninterrupted capacitor per-frame artwork and every asynchronous switch order remain outside scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-71ec0303f1fb9fdf",
+      "type": "capacitors",
+      "sha256": "6c83d13db22d38edb66fc0c353d21eeb826dfe774d5fd280924989c41c6facbf",
+      "sha256Verified": true,
+      "comparisons": 10,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [],
+      "controls": [
+        {
+          "kind": "actual_independent_switches",
+          "series": false,
+          "parallel": false,
+          "frames": [
+            1,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "kind": "actual_independent_switches",
+          "series": true,
+          "parallel": false,
+          "frames": [
+            20,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "kind": "actual_independent_switches",
+          "series": true,
+          "parallel": true,
+          "frames": [
+            20,
+            20
+          ],
+          "passed": true
+        },
+        {
+          "kind": "actual_independent_switches",
+          "series": false,
+          "parallel": true,
+          "frames": [
+            1,
+            20
+          ],
+          "passed": true
+        },
+        {
+          "kind": "actual_independent_switches",
+          "series": false,
+          "parallel": false,
+          "frames": [
+            1,
+            1
+          ],
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original switch combinations, capacitor terminal 20 and off 1 frames, transformer 0/90/180 degree meter states. Uninterrupted capacitor per-frame artwork and every asynchronous switch order remain outside scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-5a66020c75238930",
+      "type": "transformer",
+      "sha256": "5ad47091d44c71d164a78f3c81833585f3fa4562dd552bc5d12b26d0539ff6ef",
+      "sha256Verified": true,
+      "comparisons": 15,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [],
+      "controls": [
+        {
+          "kind": "actual_power_switch",
+          "on": false,
+          "passed": true
+        },
+        {
+          "kind": "actual_power_switch",
+          "on": true,
+          "passed": true
+        },
+        {
+          "kind": "actual_power_switch",
+          "on": false,
+          "passed": true
+        },
+        {
+          "kind": "actual_power_switch",
+          "on": true,
+          "passed": true
+        },
+        {
+          "kind": "actual_power_switch",
+          "on": false,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original switch combinations, capacitor terminal 20 and off 1 frames, transformer 0/90/180 degree meter states. Uninterrupted capacitor per-frame artwork and every asynchronous switch order remain outside scope.",
+      "passed": true
+    },
+    {
+      "id": "flash-97a62c9e13489c99",
+      "type": "magneticOrbit",
+      "sha256": "af79c3b7109a7396e469927625492fdc936d7005b60af4934506352cd32b0bbd",
+      "sha256Verified": true,
+      "comparisons": 14,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "rotation": 15,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 20,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 25,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 30,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 35,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 40,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 45,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 50,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 55,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 60,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 65,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        },
+        {
+          "rotation": 70,
+          "centre": [
+            156.75,
+            112.15
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        },
+        {
+          "kind": "natural_rotating_clip",
+          "delta": 5,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "12 natural rotation observations; integer degree increments and fixed original rotation centre. Fresh SVG local artwork and physical normalized coordinate graph are additions, not pixel-equivalent.",
+      "passed": true
+    },
+    {
+      "id": "flash-c82fbf399633c8eb",
+      "type": "ohmslaw",
+      "sha256": "3210d6f52b69df77e9ba5367a639fd150bf3aea570f83cb92dd89c4b2a2b15c1",
+      "sha256Verified": true,
+      "comparisons": 892,
+      "maxAbsoluteError": 1.0231815394945443e-12,
+      "mismatches": [],
+      "cases": [
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 9,
+          "stochasticParticlesExcluded": 11
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 5,
+          "stochasticParticlesExcluded": 15
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 7,
+          "stochasticParticlesExcluded": 13
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 5,
+          "stochasticParticlesExcluded": 15
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 9,
+          "stochasticParticlesExcluded": 11
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 7,
+          "stochasticParticlesExcluded": 13
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 6,
+          "stochasticParticlesExcluded": 14
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 5,
+          "stochasticParticlesExcluded": 15
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 7,
+          "stochasticParticlesExcluded": 13
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 8,
+          "stochasticParticlesExcluded": 12
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 11,
+          "stochasticParticlesExcluded": 9
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 10,
+          "stochasticParticlesExcluded": 10
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 8,
+          "stochasticParticlesExcluded": 12
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 5,
+          "stochasticParticlesExcluded": 15
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 4,
+          "stochasticParticlesExcluded": 16
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 5,
+          "stochasticParticlesExcluded": 15
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 9,
+          "stochasticParticlesExcluded": 11
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 9,
+          "stochasticParticlesExcluded": 11
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 7,
+          "stochasticParticlesExcluded": 13
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 5,
+          "stochasticParticlesExcluded": 15
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 7,
+          "stochasticParticlesExcluded": 13
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 6,
+          "stochasticParticlesExcluded": 14
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 4,
+          "stochasticParticlesExcluded": 16
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 5,
+          "stochasticParticlesExcluded": 15
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 8,
+          "stochasticParticlesExcluded": 12
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 7,
+          "stochasticParticlesExcluded": 13
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 7,
+          "stochasticParticlesExcluded": 13
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 5,
+          "stochasticParticlesExcluded": 15
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 4,
+          "stochasticParticlesExcluded": 16
+        },
+        {
+          "kind": "observed_free_flight_window",
+          "updates": 10,
+          "comparedParticles": 5,
+          "stochasticParticlesExcluded": 15
+        },
+        {
+          "kind": "copy_button_clicked",
+          "clipboardContentVerified": false
+        }
+      ],
+      "controls": [
+        {
+          "kind": "actual_slider",
+          "clip": "voltSlider",
+          "target": 1,
+          "attempts": [
+            1
+          ],
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "kind": "actual_slider",
+          "clip": "voltSlider",
+          "target": 5.5,
+          "attempts": [
+            5.4,
+            5.6,
+            5.5
+          ],
+          "observed": 5.5,
+          "passed": true
+        },
+        {
+          "kind": "actual_slider",
+          "clip": "voltSlider",
+          "target": 10,
+          "attempts": [
+            10
+          ],
+          "observed": 10,
+          "passed": true
+        },
+        {
+          "kind": "actual_slider",
+          "clip": "crosssectionSlider",
+          "target": 2,
+          "attempts": [
+            2
+          ],
+          "observed": 2,
+          "passed": true
+        },
+        {
+          "kind": "actual_slider",
+          "clip": "crosssectionSlider",
+          "target": 3.5,
+          "attempts": [
+            3.5
+          ],
+          "observed": 3.5,
+          "passed": true
+        },
+        {
+          "kind": "actual_slider",
+          "clip": "crosssectionSlider",
+          "target": 5,
+          "attempts": [
+            5
+          ],
+          "observed": 5,
+          "passed": true
+        },
+        {
+          "kind": "actual_auto_on",
+          "passed": true
+        },
+        {
+          "kind": "actual_auto_off",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "30 successive live windows of 20 observed electrons; only demonstrably collision-free and non-reentry trajectories are predicted, stochastic windows explicitly excluded. Meter scaling and observed marked I–V coordinates, both sliders min/mid/max, auto on/off and copy click. Clipboard content and the unseeded original random sequence are not certified.",
+      "passed": true
+    }
+  ]
+}

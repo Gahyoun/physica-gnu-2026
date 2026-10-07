@@ -1,0 +1,170 @@
+[
+  {
+    "id": "flash-00b8dd38a6611eed",
+    "type": "resistors",
+    "title": "저항의 직렬연결과 병렬연결",
+    "source": "phtml/electromagnetic/current/dccircuit/current11.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/current/dccircuit/current11.swf",
+    "lesson": "4-4-3-1",
+    "animated": false,
+    "fps": 12,
+    "timeMax": 0,
+    "controls": [
+      {
+        "key": "voltage",
+        "label": "전원 전압 / V",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 6,
+        "extension": true
+      },
+      {
+        "key": "value1",
+        "label": "저항 R1 / Ω",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 3,
+        "extension": true
+      },
+      {
+        "key": "value2",
+        "label": "저항 R2 / Ω",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 3,
+        "extension": true
+      },
+      {
+        "key": "value3",
+        "label": "저항 R3 / Ω",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 3,
+        "extension": true
+      }
+    ],
+    "note": "원본의 세 전구와 직렬·병렬 스위치를 새 회로 기호로 구성했습니다. 저항과 전압 입력, 전류·전력 수치는 학습용 추가 기능입니다."
+  },
+  {
+    "id": "flash-71ec0303f1fb9fdf",
+    "type": "capacitors",
+    "title": "축전기의 병렬 및 직렬연결",
+    "source": "phtml/electromagnetic/potential/capacitor/cp_1.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/potential/capacitor/cp_1.swf",
+    "lesson": "4-3-3-1",
+    "animated": true,
+    "fps": 12,
+    "timeMax": 19,
+    "controls": [
+      {
+        "key": "voltage",
+        "label": "전원 전압 / V",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 6,
+        "extension": true
+      },
+      {
+        "key": "value1",
+        "label": "축전기 C1 / μF",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 3,
+        "extension": true
+      },
+      {
+        "key": "value2",
+        "label": "축전기 C2 / μF",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 3,
+        "extension": true
+      },
+      {
+        "key": "value3",
+        "label": "축전기 C3 / μF",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 3,
+        "extension": true
+      }
+    ],
+    "note": "원본의 두 스위치와 2–20 프레임의 충전 표시를 따릅니다. 충전 표시의 진행은 원본 그림의 전환 비율이며 RC 지수 충전의 수치해석이 아닙니다. 용량·전압과 전하 수치는 학습용 추가 기능입니다."
+  },
+  {
+    "id": "flash-5a66020c75238930",
+    "type": "transformer",
+    "title": "변압기의 작동",
+    "source": "phtml/electromagnetic/induction/inductance/id_1.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/induction/inductance/id_1.swf",
+    "lesson": "4-6-2-1",
+    "animated": false,
+    "fps": 12,
+    "timeMax": 0,
+    "controls": [
+      {
+        "key": "voltage",
+        "label": "일차 전압 / V · 학습용",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 6,
+        "extension": true
+      }
+    ],
+    "note": "원본의 1 : 2 권선비와 켜기·끄기, 계기의 두 상태를 복원했습니다. 표시한 이상적인 전압비 계산은 학습용 추가 기능이며 실제 손실을 계산하지 않습니다."
+  },
+  {
+    "id": "flash-97a62c9e13489c99",
+    "type": "magneticOrbit",
+    "title": "균일한 자기장에서 전하의 운동",
+    "source": "phtml/electromagnetic/magnetic/mfield/mf_8.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/magnetic/mfield/mf_8.swf",
+    "lesson": "4-5-1-1",
+    "animated": true,
+    "fps": 24,
+    "timeMax": 720,
+    "controls": [],
+    "note": "원본의 프레임마다 1°씩 회전하는 전하와 속도·힘 방향을 새 SVG로 그렸습니다. 24 fps와 시계 방향, 원본 바깥 방향 자기장을 유지합니다. 좌표 그래프는 학습용 추가 기능입니다."
+  },
+  {
+    "id": "flash-c82fbf399633c8eb",
+    "type": "ohmslaw",
+    "title": "옴의 법칙 모의실험2",
+    "source": "phtml/electromagnetic/current/registance/ohmslaw.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/electromagnetic/current/registance/ohmslaw.swf",
+    "lesson": "4-4-2-3",
+    "animated": true,
+    "fps": 40,
+    "timeMax": 5000,
+    "controls": [
+      {
+        "key": "voltage",
+        "label": "전압 / 원본 V 눈금",
+        "min": 1,
+        "max": 10,
+        "step": 0.1,
+        "value": 5,
+        "clip": "voltSlider"
+      },
+      {
+        "key": "crosssection",
+        "label": "산란 단면적 상수 / 원본 %",
+        "min": 2,
+        "max": 5,
+        "step": 0.5,
+        "value": 4,
+        "clip": "crosssectionSlider"
+      }
+    ],
+    "note": "원본의 250개 전자, 전압 가속·격자 산란·벽 반사·재유입·통과 횟수 전류와 계기 응답을 재구현했습니다. 고정 난수 시드는 재현을 위한 HTML 기능이며 원본의 무작위 궤적과 픽셀 일치를 뜻하지 않습니다."
+  }
+]

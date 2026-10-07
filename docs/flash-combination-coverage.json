@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T01:32:19.519Z",
+  "date": "2026-10-07T12:02:50.123Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -492,7 +492,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 8,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-4-3-1.html#native-circuit-flash-00b8dd38a6611eed",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -506,14 +506,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original switch combinations, capacitor terminal 20 and off 1 frames, transformer 0/90/180 degree meter states. Uninterrupted capacitor per-frame artwork and every asynchronous switch order remain outside scope."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -559,7 +562,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 15,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-4-2-3.html#native-circuit-flash-c82fbf399633c8eb",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -592,14 +595,17 @@
         "drag": 0,
         "change": 7
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "passed": true,
+        "scope": "30 successive live windows of 20 observed electrons; only demonstrably collision-free and non-reentry trajectories are predicted, stochastic windows explicitly excluded. Meter scaling and observed marked I–V coordinates, both sliders min/mid/max, auto on/off and copy click. Clipboard content and the unseeded original random sequence are not certified."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -794,7 +800,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-6-2-1.html#native-circuit-flash-5a66020c75238930",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -808,14 +814,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original switch combinations, capacitor terminal 20 and off 1 frames, transformer 0/90/180 degree meter states. Uninterrupted capacitor per-frame artwork and every asynchronous switch order remain outside scope."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -1011,7 +1020,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 1,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-5-1-1.html#native-circuit-flash-97a62c9e13489c99",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -1025,14 +1034,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "passed": true,
+        "scope": "12 natural rotation observations; integer degree increments and fixed original rotation centre. Fresh SVG local artwork and physical normalized coordinate graph are additions, not pixel-equivalent."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -1152,7 +1164,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 8,
-      "htmlHref": null,
+      "htmlHref": "lesson-4-3-3-1.html#native-circuit-flash-71ec0303f1fb9fdf",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -1166,14 +1178,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/circuit-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original switch combinations, capacitor terminal 20 and off 1 frames, transformer 0/90/180 degree meter states. Uninterrupted capacitor per-frame artwork and every asynchronous switch order remain outside scope."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
