@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-07T13:24:55.916Z",
+  "nativeModelHashes": {
+    "assets/native-diffraction.mjs": "d7c268865981ff586c32f07c57c108b2682fbe224d3bb881390f1bcd184e703a",
+    "assets/diffraction-physics.mjs": "151e11d96c7b5014508e7234fe49f8304a1522f2492d3bd4eff60e949322ea24",
+    "assets/diffraction-specs.mjs": "3ec0e2c9647b1fc3bd582a7a9280f8d253c1c7eca85c9fa6549f18479ed2d33f",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "scope": "18 native viewport cases; original control endpoints, selected state/CSV/curve consistency, real scan geometry/pause/seek/end replay, fixed lower progress, static no bars, vector-only scene, opacity .65 and light/dark. Not exhaustive original equivalence.",
+  "results": [
+    {
+      "id": "flash-404e561fe682b574",
+      "type": "cornuDetail",
+      "width": 320,
+      "inputCases": 3,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-5e3e61b395e7d81f",
+      "type": "cornu",
+      "width": 320,
+      "inputCases": 0,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-73f279197d7f3c70",
+      "type": "fresnel",
+      "width": 320,
+      "inputCases": 9,
+      "sharedStateAndSeek": true,
+      "actualSceneMotion": true,
+      "pauseStopsMotion": true,
+      "fixedBottomProgressAndReplay": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-7d4ace9ec2459aef",
+      "type": "slitRays",
+      "width": 320,
+      "inputCases": 6,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-5c35a4960e780111",
+      "type": "phasor",
+      "width": 320,
+      "inputCases": 6,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-c56ad78bfeebee1f",
+      "type": "zone",
+      "width": 320,
+      "inputCases": 3,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-404e561fe682b574",
+      "type": "cornuDetail",
+      "width": 768,
+      "inputCases": 3,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-5e3e61b395e7d81f",
+      "type": "cornu",
+      "width": 768,
+      "inputCases": 0,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-73f279197d7f3c70",
+      "type": "fresnel",
+      "width": 768,
+      "inputCases": 9,
+      "sharedStateAndSeek": true,
+      "actualSceneMotion": true,
+      "pauseStopsMotion": true,
+      "fixedBottomProgressAndReplay": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-7d4ace9ec2459aef",
+      "type": "slitRays",
+      "width": 768,
+      "inputCases": 6,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-5c35a4960e780111",
+      "type": "phasor",
+      "width": 768,
+      "inputCases": 6,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-c56ad78bfeebee1f",
+      "type": "zone",
+      "width": 768,
+      "inputCases": 3,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-404e561fe682b574",
+      "type": "cornuDetail",
+      "width": 1360,
+      "inputCases": 3,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-5e3e61b395e7d81f",
+      "type": "cornu",
+      "width": 1360,
+      "inputCases": 0,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-73f279197d7f3c70",
+      "type": "fresnel",
+      "width": 1360,
+      "inputCases": 9,
+      "sharedStateAndSeek": true,
+      "actualSceneMotion": true,
+      "pauseStopsMotion": true,
+      "fixedBottomProgressAndReplay": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-7d4ace9ec2459aef",
+      "type": "slitRays",
+      "width": 1360,
+      "inputCases": 6,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-5c35a4960e780111",
+      "type": "phasor",
+      "width": 1360,
+      "inputCases": 6,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "id": "flash-c56ad78bfeebee1f",
+      "type": "zone",
+      "width": 1360,
+      "inputCases": 3,
+      "staticHasNoFrameBar": true,
+      "csvMatchesState": true,
+      "darkThemeFinite": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

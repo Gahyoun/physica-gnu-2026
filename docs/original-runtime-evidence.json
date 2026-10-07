@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T12:37:40.596Z",
+  "date": "2026-10-07T13:22:21.778Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -31,16 +31,18 @@
     "assets/circuit-physics.mjs": "79d7142eb41168a86d6b30d033b1b41920ea6db4604b786ee5ebbb781c403211",
     "assets/circuit-specs.mjs": "631bef28d061e811dbfaedf5c90dbb8a58ff153d5717414d6ac54f9080fc00de",
     "assets/potential-physics.mjs": "e0e436f1fe8a5db55f85ffea751db50f630f5be048813b49e7cf4f11a640e86d",
-    "assets/potential-specs.mjs": "18d1e1334625d2cf9588402510a2a475314be983922cce5fa37a2ab0f5de6611"
+    "assets/potential-specs.mjs": "18d1e1334625d2cf9588402510a2a475314be983922cce5fa37a2ab0f5de6611",
+    "assets/diffraction-physics.mjs": "151e11d96c7b5014508e7234fe49f8304a1522f2492d3bd4eff60e949322ea24",
+    "assets/diffraction-specs.mjs": "3ec0e2c9647b1fc3bd582a7a9280f8d253c1c7eca85c9fa6549f18479ed2d33f"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 190,
-  "numericalFilesPassed": 190,
-  "numericalSampleComparisons": 556898,
+  "numericalFiles": 196,
+  "numericalFilesPassed": 196,
+  "numericalSampleComparisons": 561217,
   "combinationComparisons": 198600,
-  "numericalComparisons": 755498,
+  "numericalComparisons": 759817,
   "finiteCombinationScopes": 5,
   "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
@@ -5684,7 +5686,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "sha256": "247d96789a4433db7df2185050b016a24ae3200222b6ecc5903cdabcd1d7130e",
+        "passed": true,
+        "comparisons": 336,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+        "maxAbsoluteError": 5.551115123125783e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5703,7 +5712,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "sha256": "a5826e0aaaca8de7753ba3d37180318780759e278cdc196478b6770514de82e9",
+        "passed": true,
+        "comparisons": 1305,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+        "maxAbsoluteError": 0.047621135989174945
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5722,7 +5738,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "sha256": "5bdb052af365419f7201692e686c34c87e958757870bfefc58813fd707204353",
+        "passed": true,
+        "comparisons": 82,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+        "maxAbsoluteError": 4.996003610813204e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5786,7 +5809,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "sha256": "e2a2da50b3c19f9d0dccf4c691f2d648acad0dab4ddc88379775eacf7262c7b1",
+        "passed": true,
+        "comparisons": 896,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+        "maxAbsoluteError": 4.831690603168681e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5840,7 +5870,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "sha256": "a9e8c03fa421cb2f8f0af505be68b2af1a1e73380ee63dce3dc7b793da6403f7",
+        "passed": true,
+        "comparisons": 878,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+        "maxAbsoluteError": 0.04999999999998295
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "a9e8c03fa421cb2f8f0af505be68b2af1a1e73380ee63dce3dc7b793da6403f7",
@@ -5868,7 +5905,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "sha256": "451b60084001533b8f0b0646e46ecd007fa9f8a19158986c5cafca64ecf533bd",
+        "passed": true,
+        "comparisons": 822,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+        "maxAbsoluteError": 0.049999999999968736
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "451b60084001533b8f0b0646e46ecd007fa9f8a19158986c5cafca64ecf533bd",

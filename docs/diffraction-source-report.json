@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-07T13:16:51.621Z",
+  "nativeModelHashes": {
+    "assets/diffraction-physics.mjs": "151e11d96c7b5014508e7234fe49f8304a1522f2492d3bd4eff60e949322ea24",
+    "assets/diffraction-specs.mjs": "3ec0e2c9647b1fc3bd582a7a9280f8d253c1c7eca85c9fa6549f18479ed2d33f"
+  },
+  "method": "Independent private original ActionScript numerical functions in a VM, compared to freshly implemented quadrature and SVG geometry",
+  "comparisons": 465328,
+  "files": 6,
+  "results": [
+    {
+      "id": "flash-404e561fe682b574",
+      "type": "cornuDetail",
+      "comparisons": 8002,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Original fine .0001 quadrature: 4001 C/S samples 0..20 at .005, including every .05 native input detent.",
+      "passed": true
+    },
+    {
+      "id": "flash-5e3e61b395e7d81f",
+      "type": "cornu",
+      "comparisons": 802,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Original coarse .001 quadrature: all 401 displayed C/S samples -5..5; original has no input controls.",
+      "passed": true
+    },
+    {
+      "id": "flash-73f279197d7f3c70",
+      "type": "fresnel",
+      "comparisons": 176802,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Fresnel C/S grid -22..22 at .01; seven slit widths × knife/slit × all 600 scan steps × five exposure stages. Numerical grid finite; arbitrary continuous starts and all original event histories not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-7d4ace9ec2459aef",
+      "type": "slitRays",
+      "comparisons": 251198,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 29 integer divisions × all 61 original angle detents; active ray and E1..E6 explanatory geometry, slit cells and hidden ray flags.",
+      "passed": true
+    },
+    {
+      "id": "flash-5c35a4960e780111",
+      "type": "phasor",
+      "comparisons": 24940,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 29 integer phasor counts × ten boundary/transition total-phase values; every segment, resultant, hidden ray and original rounded readout. Remaining phase detents and event histories pending.",
+      "passed": true
+    },
+    {
+      "id": "flash-c56ad78bfeebee1f",
+      "type": "zone",
+      "comparisons": 3584,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 16 wavelength detents × all 56 original disk and inverse-disk x/y scales; strict <300 cutoff.",
+      "passed": true
+    }
+  ]
+}

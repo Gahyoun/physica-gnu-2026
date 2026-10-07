@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T12:38:07.534Z",
+  "date": "2026-10-07T13:24:53.061Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -10593,7 +10593,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 10,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-5-3.html#native-diffraction-flash-404e561fe682b574",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -10617,14 +10617,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -10639,7 +10642,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 18,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-5-4.html#native-diffraction-flash-73f279197d7f3c70",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -10681,14 +10684,17 @@
         "drag": 0,
         "change": 10
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -10703,7 +10709,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 6,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-5-3.html#native-diffraction-flash-5e3e61b395e7d81f",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -10717,14 +10723,17 @@
         "drag": 0,
         "change": 3
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -10842,7 +10851,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 6,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-5-1.html#native-diffraction-flash-c56ad78bfeebee1f",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -10866,14 +10875,17 @@
         "drag": 0,
         "change": 4
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -10937,7 +10949,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 8,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-1-1.html#native-diffraction-flash-7d4ace9ec2459aef",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -10970,14 +10982,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -10992,7 +11007,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 11,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-5-1-1.html#native-diffraction-flash-5c35a4960e780111",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -11025,14 +11040,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/diffraction-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

@@ -1,0 +1,670 @@
+{
+  "date": "2026-10-07T13:21:33.004Z",
+  "nativeModelHashes": {
+    "assets/diffraction-physics.mjs": "151e11d96c7b5014508e7234fe49f8304a1522f2492d3bd4eff60e949322ea24",
+    "assets/diffraction-specs.mjs": "3ec0e2c9647b1fc3bd582a7a9280f8d253c1c7eca85c9fa6549f18479ed2d33f"
+  },
+  "files": 6,
+  "comparisons": 4319,
+  "method": "Actual original Ruffle outputs, original pointer slider gestures and read-only original Fresnel function queries; original inputs/equations not replaced",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-404e561fe682b574",
+      "type": "cornuDetail",
+      "sha256": "247d96789a4433db7df2185050b016a24ae3200222b6ecc5903cdabcd1d7130e",
+      "sha256Verified": true,
+      "comparisons": 336,
+      "maxAbsoluteError": 5.551115123125783e-16,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "startSlider",
+          "fraction": 0,
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "startSlider",
+          "fraction": 0.5,
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "startSlider",
+          "fraction": 1,
+          "target": 20,
+          "actual": 20,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "tt": null,
+          "parameters": {
+            "w": 2
+          }
+        },
+        {
+          "label": "startSlider 0",
+          "tt": null,
+          "parameters": {
+            "w": 0
+          }
+        },
+        {
+          "label": "startSlider 0.5",
+          "tt": null,
+          "parameters": {
+            "w": 10
+          }
+        },
+        {
+          "label": "startSlider 1",
+          "tt": null,
+          "parameters": {
+            "w": 20
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-5e3e61b395e7d81f",
+      "type": "cornu",
+      "sha256": "5bdb052af365419f7201692e686c34c87e958757870bfefc58813fd707204353",
+      "sha256Verified": true,
+      "comparisons": 82,
+      "maxAbsoluteError": 4.996003610813204e-16,
+      "mismatches": [],
+      "controls": [],
+      "cases": [
+        {
+          "label": "default",
+          "tt": null,
+          "parameters": {}
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-73f279197d7f3c70",
+      "type": "fresnel",
+      "sha256": "a5826e0aaaca8de7753ba3d37180318780759e278cdc196478b6770514de82e9",
+      "sha256Verified": true,
+      "comparisons": 1305,
+      "maxAbsoluteError": 0.047621135989174945,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pause",
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "startSlider",
+          "fraction": 0,
+          "target": -13.3,
+          "actual": -13.3,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "startSlider",
+          "fraction": 0.5,
+          "target": -1.3000000000000007,
+          "actual": -1.3,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "startSlider",
+          "fraction": 1,
+          "target": 10.7,
+          "actual": 10.7,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "distanceSlider",
+          "fraction": 0,
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "distanceSlider",
+          "fraction": 0.5,
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "distanceSlider",
+          "fraction": 1,
+          "target": 20,
+          "actual": 20,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "exposureSlider",
+          "fraction": 0,
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "exposureSlider",
+          "fraction": 0.5,
+          "target": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "exposureSlider",
+          "fraction": 1,
+          "target": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "kind": "original_checkbox",
+          "clip": "lowerOpenCkb",
+          "passed": true
+        },
+        {
+          "kind": "original_checkbox",
+          "clip": "intensityGraphCkb",
+          "passed": true
+        },
+        {
+          "kind": "original_play",
+          "passed": true
+        },
+        {
+          "kind": "original_pause_after_play",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "tt": 29,
+          "parameters": {
+            "start": 0,
+            "width": 2.7,
+            "exposure": 1
+          }
+        },
+        {
+          "label": "startSlider 0",
+          "tt": 30,
+          "parameters": {
+            "start": -13.3,
+            "width": 2.7,
+            "exposure": 1
+          }
+        },
+        {
+          "label": "startSlider 0.5",
+          "tt": 30,
+          "parameters": {
+            "start": -1.3,
+            "width": 2.7,
+            "exposure": 1
+          }
+        },
+        {
+          "label": "startSlider 1",
+          "tt": 30,
+          "parameters": {
+            "start": 10.7,
+            "width": 2.7,
+            "exposure": 1
+          }
+        },
+        {
+          "label": "distanceSlider 0",
+          "tt": 0,
+          "parameters": {
+            "start": 10.7,
+            "width": 0,
+            "exposure": 1
+          }
+        },
+        {
+          "label": "distanceSlider 0.5",
+          "tt": 0,
+          "parameters": {
+            "start": 7,
+            "width": 10,
+            "exposure": 1
+          }
+        },
+        {
+          "label": "distanceSlider 1",
+          "tt": 0,
+          "parameters": {
+            "start": 2,
+            "width": 20,
+            "exposure": 1
+          }
+        },
+        {
+          "label": "exposureSlider 0",
+          "tt": 0,
+          "parameters": {
+            "start": 2,
+            "width": 20,
+            "exposure": 1
+          }
+        },
+        {
+          "label": "exposureSlider 0.5",
+          "tt": 0,
+          "parameters": {
+            "start": 2,
+            "width": 20,
+            "exposure": 3
+          }
+        },
+        {
+          "label": "exposureSlider 1",
+          "tt": 0,
+          "parameters": {
+            "start": 2,
+            "width": 20,
+            "exposure": 5
+          }
+        },
+        {
+          "label": "lowerOpenCkb toggled",
+          "tt": 0,
+          "parameters": {
+            "start": 2,
+            "width": 20,
+            "exposure": 5
+          }
+        },
+        {
+          "label": "intensityGraphCkb toggled",
+          "tt": 0,
+          "parameters": {
+            "start": 2,
+            "width": 20,
+            "exposure": 5
+          }
+        },
+        {
+          "label": "original live scan 0",
+          "tt": 25,
+          "parameters": {
+            "start": 2,
+            "width": 20,
+            "exposure": 5
+          }
+        },
+        {
+          "label": "original live scan 1",
+          "tt": 35,
+          "parameters": {
+            "start": 2,
+            "width": 20,
+            "exposure": 5
+          }
+        },
+        {
+          "label": "original live scan 2",
+          "tt": 46,
+          "parameters": {
+            "start": 2,
+            "width": 20,
+            "exposure": 5
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-7d4ace9ec2459aef",
+      "type": "slitRays",
+      "sha256": "a9e8c03fa421cb2f8f0af505be68b2af1a1e73380ee63dce3dc7b793da6403f7",
+      "sha256Verified": true,
+      "comparisons": 878,
+      "maxAbsoluteError": 0.04999999999998295,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "divSlider",
+          "fraction": 0,
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "divSlider",
+          "fraction": 0.5,
+          "target": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "divSlider",
+          "fraction": 1,
+          "target": 30,
+          "actual": 30,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "angSlider",
+          "fraction": 0,
+          "target": -30,
+          "actual": -30,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "angSlider",
+          "fraction": 0.5,
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "angSlider",
+          "fraction": 1,
+          "target": 30,
+          "actual": 30,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "tt": "",
+          "parameters": {
+            "count": "",
+            "angle": ""
+          }
+        },
+        {
+          "label": "divSlider 0",
+          "tt": "",
+          "parameters": {
+            "count": "",
+            "angle": ""
+          }
+        },
+        {
+          "label": "divSlider 0.5",
+          "tt": "",
+          "parameters": {
+            "count": "",
+            "angle": ""
+          }
+        },
+        {
+          "label": "divSlider 1",
+          "tt": "",
+          "parameters": {
+            "count": "",
+            "angle": ""
+          }
+        },
+        {
+          "label": "angSlider 0",
+          "tt": "",
+          "parameters": {
+            "count": "",
+            "angle": ""
+          }
+        },
+        {
+          "label": "angSlider 0.5",
+          "tt": "",
+          "parameters": {
+            "count": "",
+            "angle": ""
+          }
+        },
+        {
+          "label": "angSlider 1",
+          "tt": "",
+          "parameters": {
+            "count": "",
+            "angle": ""
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-5c35a4960e780111",
+      "type": "phasor",
+      "sha256": "451b60084001533b8f0b0646e46ecd007fa9f8a19158986c5cafca64ecf533bd",
+      "sha256Verified": true,
+      "comparisons": 822,
+      "maxAbsoluteError": 0.049999999999968736,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "divSlider",
+          "fraction": 0,
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "divSlider",
+          "fraction": 0.5,
+          "target": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "divSlider",
+          "fraction": 1,
+          "target": 30,
+          "actual": 30,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "angSlider",
+          "fraction": 0,
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "angSlider",
+          "fraction": 0.5,
+          "target": 2000,
+          "actual": 2000,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "angSlider",
+          "fraction": 1,
+          "target": 4000,
+          "actual": 4000,
+          "passed": true
+        },
+        {
+          "kind": "source_track_upper_boundary",
+          "nominalMaximum": 4000,
+          "expected": 4010,
+          "actual": 4010,
+          "passed": true,
+          "nativeDifference": "Native range caps at nominal 4000; original track geometry can reach 4010."
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "tt": null,
+          "parameters": {
+            "count": 10,
+            "angle": 50
+          }
+        },
+        {
+          "label": "divSlider 0",
+          "tt": null,
+          "parameters": {
+            "count": 2,
+            "angle": 50
+          }
+        },
+        {
+          "label": "divSlider 0.5",
+          "tt": null,
+          "parameters": {
+            "count": 16,
+            "angle": 50
+          }
+        },
+        {
+          "label": "divSlider 1",
+          "tt": null,
+          "parameters": {
+            "count": 30,
+            "angle": 50
+          }
+        },
+        {
+          "label": "angSlider 0",
+          "tt": null,
+          "parameters": {
+            "count": 30,
+            "angle": 0
+          }
+        },
+        {
+          "label": "angSlider 0.5",
+          "tt": null,
+          "parameters": {
+            "count": 30,
+            "angle": 2000
+          }
+        },
+        {
+          "label": "angSlider 1",
+          "tt": null,
+          "parameters": {
+            "count": 30,
+            "angle": 4000
+          }
+        },
+        {
+          "label": "source upper overshoot",
+          "tt": null,
+          "parameters": {
+            "count": 30,
+            "angle": 4010
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-c56ad78bfeebee1f",
+      "type": "zone",
+      "sha256": "e2a2da50b3c19f9d0dccf4c691f2d648acad0dab4ddc88379775eacf7262c7b1",
+      "sha256Verified": true,
+      "comparisons": 896,
+      "maxAbsoluteError": 4.831690603168681e-13,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "lambdaSlider",
+          "fraction": 0,
+          "target": 400,
+          "actual": 400,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "lambdaSlider",
+          "fraction": 0.5,
+          "target": 560,
+          "actual": 560,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "lambdaSlider",
+          "fraction": 1,
+          "target": 700,
+          "actual": 700,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "default",
+          "tt": null,
+          "parameters": {
+            "wavelength": 500
+          }
+        },
+        {
+          "label": "lambdaSlider 0",
+          "tt": null,
+          "parameters": {
+            "wavelength": 400
+          }
+        },
+        {
+          "label": "lambdaSlider 0.5",
+          "tt": null,
+          "parameters": {
+            "wavelength": 560
+          }
+        },
+        {
+          "label": "lambdaSlider 1",
+          "tt": null,
+          "parameters": {
+            "wavelength": 700
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original initial outputs, min/mid/max pointer slider gestures, all active ray/disk geometry, diagnostic Fresnel samples. Fresnel also original knife/intensity checkbox and play/pause with three timed scan states. Twip positions .050001 and scale .002 tolerances. Decimal trace slider values are reconstructed with original regular(value)=round(value/radix)*radix and original limit clamp before Fresnel endpoint evaluation, retaining the source binary multiply at 0.1 quadrature boundaries. This finite runtime scope does not exhaust all input combinations or Adobe Player equivalence.",
+      "passed": true
+    }
+  ]
+}

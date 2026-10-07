@@ -65,3 +65,5 @@ function init(host){
 if(typeof document!=='undefined')document.querySelectorAll('[data-flash-native="harmonic"]').forEach(init);
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="potential-"]'))await import('./native-potential.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="diffraction-"]'))await import('./native-diffraction.mjs');
