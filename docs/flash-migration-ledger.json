@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-07T13:58:11.257Z",
+  "date": "2026-10-07T14:25:35.868Z",
   "total": 518,
-  "htmlImplemented": 268,
-  "htmlPending": 250,
+  "htmlImplemented": 272,
+  "htmlPending": 246,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 804,
-    "observed": 804,
+    "expected": 816,
+    "observed": 816,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 200,
-    "numericalComparisons": 760553,
-    "numericalSampleComparisons": 561953,
+    "numericalFilesPassed": 204,
+    "numericalComparisons": 798868,
+    "numericalSampleComparisons": 600268,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 5,
     "rootTimelineFilesPassed": 29,
@@ -16047,17 +16047,26 @@
       "actionScript": 2,
       "scriptFiles": 5,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-4-2.html#native-ray-flash-a7042c43a1e0e4a4",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a7042c43a1e0e4a4",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1260,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -16067,12 +16076,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent original private Ray class and root runthis/goRay functions in a VM; all displayed segment endpoints, ray states and selected original reflection tables compared to a new implementation",
+        "comparisons": 513190,
+        "maxAbsoluteError": 0,
+        "scope": "Defaults, focal endpoint cases (mirror), and 20 source-position fans through one complete original 80/100-step episode; all rays, optics and visible segment endpoints. Original random mirror values pinned in the private reference only for these deterministic equation comparisons; actual original random clicks are separately observed at runtime.",
+        "report": "docs/ray-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/ray-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-489cf027d0aff546",
@@ -16085,17 +16106,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-4-2.html#native-ray-flash-489cf027d0aff546",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-489cf027d0aff546",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 2702,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -16105,12 +16135,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent original private Ray class and root runthis/goRay functions in a VM; all displayed segment endpoints, ray states and selected original reflection tables compared to a new implementation",
+        "comparisons": 41236976,
+        "maxAbsoluteError": 0,
+        "scope": "All 37 × 37 integer focal pairs over the original 90-step first parallel episode, plus 20 source-position fan episodes. All ray r/rp/z/out, optics and drawn segment endpoints. Live parameter changes and random reset sequences remain pending.",
+        "report": "docs/ray-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/ray-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-ab811f60887c0912",
@@ -16123,17 +16165,26 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-4-3.html#native-ray-flash-ab811f60887c0912",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-ab811f60887c0912",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 33909,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -16143,12 +16194,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent original private Ray class and root runthis/goRay functions in a VM; all displayed segment endpoints, ray states and selected original reflection tables compared to a new implementation",
+        "comparisons": 12900638,
+        "maxAbsoluteError": 0,
+        "scope": "Defaults and each slider min/default/max, up to 1800 original callbacks or original <=3-ray stop, all rays, mirror parameters, reflection counters and full 23×57 rayPos table plus visible segments. Simultaneous slider products/event histories remain pending.",
+        "report": "docs/ray-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/ray-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1723b7fd83776392",
@@ -16161,17 +16224,26 @@
       "actionScript": 2,
       "scriptFiles": 5,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-4-2.html#native-ray-flash-1723b7fd83776392",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1723b7fd83776392",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 444,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -16181,12 +16253,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent original private Ray class and root runthis/goRay functions in a VM; all displayed segment endpoints, ray states and selected original reflection tables compared to a new implementation",
+        "comparisons": 320038,
+        "maxAbsoluteError": 0,
+        "scope": "Defaults, focal endpoint cases (mirror), and 20 source-position fans through one complete original 80/100-step episode; all rays, optics and visible segment endpoints. Original random mirror values pinned in the private reference only for these deterministic equation comparisons; actual original random clicks are separately observed at runtime.",
+        "report": "docs/ray-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/ray-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-f29ceb555d78ea24",

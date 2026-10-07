@@ -1,0 +1,607 @@
+{
+  "date": "2026-10-07T14:19:10.045Z",
+  "nativeModelHashes": {
+    "assets/ray-physics.mjs": "bf365710c79ac125153646d608f8273842cbd39bda312b4e5c849a74382ed010",
+    "assets/ray-specs.mjs": "9e3d7e1a77314e99ad83b2e5d618b11f3f90b37376b07d653f8e602eaabfc1b7"
+  },
+  "files": 4,
+  "comparisons": 38315,
+  "method": "Actual original Ruffle with read-only AVM1 observers; unmodified original input handlers and optical equations; real pointer clicks and slider gestures, whole-ray state and selected complete reflection tables",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-a7042c43a1e0e4a4",
+      "type": "lensArray",
+      "sha256": "f2fa302cc5e55e0121b0957168533082eb5344c078d2816a896ed7815b79fc48",
+      "sha256Verified": true,
+      "comparisons": 1260,
+      "maxAbsoluteError": 9.094947017729282e-13,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_source_click",
+          "fan": {
+            "x": 40,
+            "y": 80
+          },
+          "parameters": {},
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "initial",
+          "callbacks": 11,
+          "parameters": {}
+        },
+        {
+          "label": "default playback 0",
+          "from": 11,
+          "to": 18,
+          "callbacks": 7,
+          "randomResetDuringWindow": false,
+          "parameters": {}
+        },
+        {
+          "label": "default playback 1",
+          "from": 18,
+          "to": 24,
+          "callbacks": 6,
+          "randomResetDuringWindow": false,
+          "parameters": {}
+        },
+        {
+          "label": "default playback 2",
+          "from": 24,
+          "to": 31,
+          "callbacks": 7,
+          "randomResetDuringWindow": false,
+          "parameters": {}
+        },
+        {
+          "label": "clicked fan playback",
+          "from": 8,
+          "to": 14,
+          "callbacks": 6,
+          "randomResetDuringWindow": false,
+          "parameters": {}
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-489cf027d0aff546",
+      "type": "alternating",
+      "sha256": "ca573a66cb8bc83d7004b44adddfc28f0a6827b21acbe550c8dc225c75a860ea",
+      "sha256Verified": true,
+      "comparisons": 2702,
+      "maxAbsoluteError": 6.679101716144942e-12,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_source_click",
+          "fan": {
+            "x": 40,
+            "y": 80
+          },
+          "parameters": {
+            "f1": 10,
+            "f2": 20
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "leftSlider",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "leftSlider",
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "leftSlider",
+          "target": 40,
+          "actual": 40,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "rightSlider",
+          "target": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "rightSlider",
+          "target": 20,
+          "actual": 20,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "rightSlider",
+          "target": 40,
+          "actual": 40,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "initial",
+          "callbacks": 11,
+          "parameters": {
+            "f1": 10,
+            "f2": 20
+          }
+        },
+        {
+          "label": "default playback 0",
+          "from": 11,
+          "to": 18,
+          "callbacks": 7,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 10,
+            "f2": 20
+          }
+        },
+        {
+          "label": "default playback 1",
+          "from": 18,
+          "to": 25,
+          "callbacks": 7,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 10,
+            "f2": 20
+          }
+        },
+        {
+          "label": "default playback 2",
+          "from": 25,
+          "to": 31,
+          "callbacks": 6,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 10,
+            "f2": 20
+          }
+        },
+        {
+          "label": "clicked fan playback",
+          "from": 8,
+          "to": 14,
+          "callbacks": 6,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 10,
+            "f2": 20
+          }
+        },
+        {
+          "label": "leftSlider 4 live playback",
+          "from": 33,
+          "to": 39,
+          "callbacks": 6,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 4,
+            "f2": 20
+          }
+        },
+        {
+          "label": "leftSlider 10 live playback",
+          "from": 57,
+          "to": 64,
+          "callbacks": 7,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 10,
+            "f2": 20
+          }
+        },
+        {
+          "label": "leftSlider 40 live playback",
+          "from": 83,
+          "to": 89,
+          "callbacks": 6,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 40,
+            "f2": 20
+          }
+        },
+        {
+          "label": "rightSlider 4 live playback",
+          "from": 16,
+          "to": 23,
+          "callbacks": 7,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 40,
+            "f2": 4
+          }
+        },
+        {
+          "label": "rightSlider 20 live playback",
+          "from": 42,
+          "to": 48,
+          "callbacks": 6,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 40,
+            "f2": 20
+          }
+        },
+        {
+          "label": "rightSlider 40 live playback",
+          "from": 67,
+          "to": 73,
+          "callbacks": 6,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 40,
+            "f2": 40
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-1723b7fd83776392",
+      "type": "mirrors",
+      "sha256": "562fcf5ab40607cde532b6ec72048501e5767788473539a5644e89ae4d7cc9cd",
+      "sha256Verified": true,
+      "comparisons": 444,
+      "maxAbsoluteError": 6.821210263296962e-13,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_source_click",
+          "fan": {
+            "x": 90,
+            "y": 80
+          },
+          "parameters": {
+            "f1": 570,
+            "f2": 130
+          },
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "initial",
+          "callbacks": 11,
+          "parameters": {
+            "f1": 100,
+            "f2": 100
+          }
+        },
+        {
+          "label": "default playback 0",
+          "from": 11,
+          "to": 18,
+          "callbacks": 7,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 100,
+            "f2": 100
+          }
+        },
+        {
+          "label": "default playback 1",
+          "from": 18,
+          "to": 24,
+          "callbacks": 6,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 100,
+            "f2": 100
+          }
+        },
+        {
+          "label": "default playback 2",
+          "from": 24,
+          "to": 31,
+          "callbacks": 7,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 100,
+            "f2": 100
+          }
+        },
+        {
+          "label": "clicked fan playback",
+          "from": 7,
+          "to": 14,
+          "callbacks": 7,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 570,
+            "f2": 130
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-ab811f60887c0912",
+      "type": "cavity",
+      "sha256": "e9c2adb5efbd1a4e2bcc346d511cf84f9ed95daa76798fd111eba4f5381c02be",
+      "sha256Verified": true,
+      "comparisons": 33909,
+      "maxAbsoluteError": 4.547473508864641e-13,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_play_button",
+          "passed": true
+        },
+        {
+          "kind": "original_pause_button",
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "leftSlider",
+          "target": 40,
+          "actual": 40,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "leftSlider",
+          "target": 200,
+          "actual": 200,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "leftSlider",
+          "target": 2000,
+          "actual": 2000,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "rightSlider",
+          "target": 40,
+          "actual": 40,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "rightSlider",
+          "target": 400,
+          "actual": 400,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "rightSlider",
+          "target": 2000,
+          "actual": 2000,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "distSlider",
+          "target": 50,
+          "actual": 50,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "distSlider",
+          "target": 400,
+          "actual": 400,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "distSlider",
+          "target": 600,
+          "actual": 600,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "initial",
+          "callbacks": 0,
+          "parameters": {
+            "f1": 200,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "default playback 0",
+          "from": 9,
+          "to": 17,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 200,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "default playback 1",
+          "from": 17,
+          "to": 26,
+          "callbacks": 9,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 200,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "default playback 2",
+          "from": 26,
+          "to": 34,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 200,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "default playback 3",
+          "from": 34,
+          "to": 42,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 200,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "paused default",
+          "from": 43,
+          "to": 43,
+          "callbacks": 0,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 200,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "leftSlider 40 playback",
+          "from": 52,
+          "to": 60,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 40,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "leftSlider 200 playback",
+          "from": 70,
+          "to": 78,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 200,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "leftSlider 2000 playback",
+          "from": 88,
+          "to": 96,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 2000,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "rightSlider 40 playback",
+          "from": 106,
+          "to": 114,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 2000,
+            "f2": 40,
+            "distance": 400
+          }
+        },
+        {
+          "label": "rightSlider 400 playback",
+          "from": 124,
+          "to": 132,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 2000,
+            "f2": 400,
+            "distance": 400
+          }
+        },
+        {
+          "label": "rightSlider 2000 playback",
+          "from": 142,
+          "to": 150,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 2000,
+            "f2": 2000,
+            "distance": 400
+          }
+        },
+        {
+          "label": "distSlider 50 playback",
+          "from": 160,
+          "to": 168,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 2000,
+            "f2": 2000,
+            "distance": 50
+          }
+        },
+        {
+          "label": "distSlider 400 playback",
+          "from": 178,
+          "to": 186,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 2000,
+            "f2": 2000,
+            "distance": 400
+          }
+        },
+        {
+          "label": "distSlider 600 playback",
+          "from": 196,
+          "to": 204,
+          "callbacks": 8,
+          "randomResetDuringWindow": false,
+          "parameters": {
+            "f1": 2000,
+            "f2": 2000,
+            "distance": 600
+          }
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence.",
+      "passed": true
+    }
+  ]
+}

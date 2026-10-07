@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T13:52:37.300Z",
+  "date": "2026-10-07T14:21:36.999Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -35,16 +35,18 @@
     "assets/diffraction-physics.mjs": "151e11d96c7b5014508e7234fe49f8304a1522f2492d3bd4eff60e949322ea24",
     "assets/diffraction-specs.mjs": "3ec0e2c9647b1fc3bd582a7a9280f8d253c1c7eca85c9fa6549f18479ed2d33f",
     "assets/beam-physics.mjs": "add8fc8762bb6a5c435da4f8fc230d61605553c2705f647402c7e1199d8c7c1f",
-    "assets/beam-specs.mjs": "6d02684d10032d080116909e5252b44c54fe529456b166861d373c867d17f56c"
+    "assets/beam-specs.mjs": "6d02684d10032d080116909e5252b44c54fe529456b166861d373c867d17f56c",
+    "assets/ray-physics.mjs": "bf365710c79ac125153646d608f8273842cbd39bda312b4e5c849a74382ed010",
+    "assets/ray-specs.mjs": "9e3d7e1a77314e99ad83b2e5d618b11f3f90b37376b07d653f8e602eaabfc1b7"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 200,
-  "numericalFilesPassed": 200,
-  "numericalSampleComparisons": 561953,
+  "numericalFiles": 204,
+  "numericalFilesPassed": 204,
+  "numericalSampleComparisons": 600268,
   "combinationComparisons": 198600,
-  "numericalComparisons": 760553,
+  "numericalComparisons": 798868,
   "finiteCombinationScopes": 5,
   "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
@@ -7915,7 +7917,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/ray-runtime-report.json",
+        "sha256": "f2fa302cc5e55e0121b0957168533082eb5344c078d2816a896ed7815b79fc48",
+        "passed": true,
+        "comparisons": 1260,
+        "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence.",
+        "maxAbsoluteError": 9.094947017729282e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7934,7 +7943,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/ray-runtime-report.json",
+        "sha256": "ca573a66cb8bc83d7004b44adddfc28f0a6827b21acbe550c8dc225c75a860ea",
+        "passed": true,
+        "comparisons": 2702,
+        "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence.",
+        "maxAbsoluteError": 6.679101716144942e-12
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7953,7 +7969,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/ray-runtime-report.json",
+        "sha256": "e9c2adb5efbd1a4e2bcc346d511cf84f9ed95daa76798fd111eba4f5381c02be",
+        "passed": true,
+        "comparisons": 33909,
+        "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence.",
+        "maxAbsoluteError": 4.547473508864641e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7972,7 +7995,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/ray-runtime-report.json",
+        "sha256": "562fcf5ab40607cde532b6ec72048501e5767788473539a5644e89ae4d7cc9cd",
+        "passed": true,
+        "comparisons": 444,
+        "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence.",
+        "maxAbsoluteError": 6.821210263296962e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },

@@ -69,3 +69,5 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="p
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="diffraction-"]'))await import('./native-diffraction.mjs');
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="beam-"]'))await import('./native-beam.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="ray-"]'))await import('./native-rays.mjs');

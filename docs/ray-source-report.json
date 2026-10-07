@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-07T14:14:17.782Z",
+  "method": "Independent original private Ray class and root runthis/goRay functions in a VM; all displayed segment endpoints, ray states and selected original reflection tables compared to a new implementation",
+  "nativeModelHashes": {
+    "assets/ray-physics.mjs": "bf365710c79ac125153646d608f8273842cbd39bda312b4e5c849a74382ed010",
+    "assets/ray-specs.mjs": "9e3d7e1a77314e99ad83b2e5d618b11f3f90b37376b07d653f8e602eaabfc1b7"
+  },
+  "files": 4,
+  "comparisons": 54970842,
+  "results": [
+    {
+      "id": "flash-a7042c43a1e0e4a4",
+      "type": "lensArray",
+      "comparisons": 513190,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Defaults, focal endpoint cases (mirror), and 20 source-position fans through one complete original 80/100-step episode; all rays, optics and visible segment endpoints. Original random mirror values pinned in the private reference only for these deterministic equation comparisons; actual original random clicks are separately observed at runtime.",
+      "passed": true
+    },
+    {
+      "id": "flash-489cf027d0aff546",
+      "type": "alternating",
+      "comparisons": 41236976,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 37 × 37 integer focal pairs over the original 90-step first parallel episode, plus 20 source-position fan episodes. All ray r/rp/z/out, optics and drawn segment endpoints. Live parameter changes and random reset sequences remain pending.",
+      "passed": true
+    },
+    {
+      "id": "flash-1723b7fd83776392",
+      "type": "mirrors",
+      "comparisons": 320038,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Defaults, focal endpoint cases (mirror), and 20 source-position fans through one complete original 80/100-step episode; all rays, optics and visible segment endpoints. Original random mirror values pinned in the private reference only for these deterministic equation comparisons; actual original random clicks are separately observed at runtime.",
+      "passed": true
+    },
+    {
+      "id": "flash-ab811f60887c0912",
+      "type": "cavity",
+      "comparisons": 12900638,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Defaults and each slider min/default/max, up to 1800 original callbacks or original <=3-ray stop, all rays, mirror parameters, reflection counters and full 23×57 rayPos table plus visible segments. Simultaneous slider products/event histories remain pending.",
+      "passed": true
+    }
+  ]
+}

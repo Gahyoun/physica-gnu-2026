@@ -1,0 +1,120 @@
+[
+  {
+    "id": "flash-a7042c43a1e0e4a4",
+    "type": "lensArray",
+    "title": "동일한 볼록렌즈 배열에서 광선의 전파",
+    "source": "lenswaveguide.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserosc/lenswaveguide.swf",
+    "lesson": "5-6-4-2",
+    "animated": true,
+    "timeMax": 80,
+    "fps": 20,
+    "count": 30,
+    "controls": []
+  },
+  {
+    "id": "flash-489cf027d0aff546",
+    "type": "alternating",
+    "title": "두 가지 볼록렌즈 배열에서 광선의 전파",
+    "source": "lenswaveguidexx.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserosc/lenswaveguidexx.swf",
+    "lesson": "5-6-4-2",
+    "animated": true,
+    "timeMax": 90,
+    "fps": 20,
+    "count": 30,
+    "controls": [
+      {
+        "key": "f1",
+        "label": "첫 번째 배열 초점거리",
+        "min": 4,
+        "max": 40,
+        "step": 1,
+        "value": 10,
+        "clip": "leftSlider"
+      },
+      {
+        "key": "f2",
+        "label": "두 번째 배열 초점거리",
+        "min": 4,
+        "max": 40,
+        "step": 1,
+        "value": 20,
+        "clip": "rightSlider"
+      }
+    ]
+  },
+  {
+    "id": "flash-1723b7fd83776392",
+    "type": "mirrors",
+    "title": "마주보는 오목거울에서의 광선의 전파",
+    "source": "mirrorwaveguide.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserosc/mirrorwaveguide.swf",
+    "lesson": "5-6-4-2",
+    "animated": true,
+    "timeMax": 100,
+    "fps": 20,
+    "count": 17,
+    "controls": [
+      {
+        "key": "f1",
+        "label": "왼쪽 거울 초점거리",
+        "min": 100,
+        "max": 590,
+        "step": 10,
+        "value": 100,
+        "added": true
+      },
+      {
+        "key": "f2",
+        "label": "오른쪽 거울 초점거리",
+        "min": 100,
+        "max": 590,
+        "step": 10,
+        "value": 100,
+        "added": true
+      }
+    ]
+  },
+  {
+    "id": "flash-ab811f60887c0912",
+    "type": "cavity",
+    "title": "공진기 모의실험",
+    "source": "mirrorcavity.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserosc/mirrorcavity.swf",
+    "lesson": "5-6-4-3",
+    "animated": true,
+    "timeMax": 1800,
+    "fps": 25,
+    "count": 23,
+    "controls": [
+      {
+        "key": "f1",
+        "label": "왼쪽 거울 초점거리",
+        "min": 40,
+        "max": 2000,
+        "step": 20,
+        "value": 200,
+        "clip": "leftSlider"
+      },
+      {
+        "key": "f2",
+        "label": "오른쪽 거울 초점거리",
+        "min": 40,
+        "max": 2000,
+        "step": 20,
+        "value": 400,
+        "clip": "rightSlider"
+      },
+      {
+        "key": "distance",
+        "label": "거울 사이 거리",
+        "min": 50,
+        "max": 600,
+        "step": 10,
+        "value": 400,
+        "clip": "distSlider"
+      }
+    ]
+  }
+]

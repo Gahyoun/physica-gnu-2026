@@ -349,3 +349,7 @@ current11, cp_1, id_1, mf_8, ohmslaw를 새 SVG 회로와 입자 모형으로 �
 ## 2026-10-07 · 전위·전기력선·입자 흐름 4종
 
 oscv2d7_7_laplace, oscv2d7_7_laplace2, efield4, register2를 독립 SVG와 HTML 조작으로 추가했다. 경계 높이·드래그·중력, 전하 5눈금, 13/25개 장애물과 입자 충돌을 다룬다. 새 시간 그래프와 CSV는 같은 계산 상태를 읽으며 되감기 후 미래 집계는 표시하지 않는다. [원본 대조와 차이](potential-migration-audit.md)를 기록했다. 누적 **258/518개**, 개별 이식 대기 **260개**다.
+
+## 2026-10-07 · 렌즈 배열과 광선 공진기
+
+lenswaveguide, lenswaveguidexx, mirrorwaveguide, mirrorcavity를 독립 SVG로 추가했다. 30/17/23개 광선의 굴절·반사와 현재 상태의 그래프·반사 위치·CSV를 연결하고, 원본 중앙 광선의 반사 카운터와 자동 정지를 유지했다. [비교 범위와 표현·입력 차이](ray-migration-audit.md)를 기록한다. 현재 **272/518개**, 개별 HTML 이식 대기는 **246개**다. 원본의 모든 입력 조합 대조는 계속 미완료다.

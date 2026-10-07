@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T13:52:37.696Z",
+  "date": "2026-10-07T14:21:37.338Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -14628,7 +14628,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 5,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-6-4-2.html#native-ray-flash-a7042c43a1e0e4a4",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -14642,14 +14642,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/ray-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -14664,7 +14667,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 12,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-6-4-2.html#native-ray-flash-489cf027d0aff546",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -14697,14 +14700,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/ray-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -14719,7 +14725,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 16,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-6-4-3.html#native-ray-flash-ab811f60887c0912",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -14761,14 +14767,17 @@
         "drag": 0,
         "change": 8
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/ray-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -14783,7 +14792,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 5,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-6-4-2.html#native-ray-flash-1723b7fd83776392",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -14797,14 +14806,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/ray-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original defaults, timed checkpoint advances of every ray r/rp/z/out and all optic f/z/type; original source pointer clicks including random mirror focal values; each original slider min/default/max through real drags; cavity play/pause and complete 23×57 reflection table at observed checkpoints. Random reset windows are labelled and excluded from numerical advance comparison. Not all input products, infinite event histories, displayed pixels, or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
