@@ -5,13 +5,13 @@
       "source": "NotoSansKR-Variable.subset.woff2",
       "family": "PhysicaText",
       "sourceBytes": 1097352,
-      "subsetBytes": 115396
+      "subsetBytes": 115664
     },
     {
       "source": "SUITE-Variable.woff2",
       "family": "PhysicaTitle",
       "sourceBytes": 535788,
-      "subsetBytes": 155020
+      "subsetBytes": 155204
     }
   ],
   "hangulCodepoints": [
@@ -76,6 +76,7 @@
     44592,
     44596,
     44600,
+    44608,
     44609,
     44618,
     44620,

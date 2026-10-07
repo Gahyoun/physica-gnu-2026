@@ -13,8 +13,8 @@ const jobs=widths.flatMap(width=>selected.map(r=>({r,width}))),results=[],errors
 const output=new URL(process.env.PHYSICA_PLAYBACK_REPORT||'docs/playback-ui-report.json',root);
 const dependencies=fs.readdirSync(new URL('assets',root)).filter(f=>f.endsWith('.mjs')||f==='style.css').map(f=>'assets/'+f);
 const nativeModelHashes=Object.fromEntries(dependencies.map(f=>[f,crypto.createHash('sha256').update(fs.readFileSync(new URL(f,root))).digest('hex')]));
-const playSelector=['fund','wave','exp','timeline','refraction','native','chain','mechanics','optics','scene','quantum','light'].map(k=>`button[data-${k}-play]`).concat('button[data-action="play"]').join(',');
-const seekSelector=['fund-seek','wave-step','exp-seek','timeline-step','refraction-step','native-time','chain-step','step','optics-time','scene-seek','quantum-seek','light-seek'].map(k=>`input[data-${k}]`).join(',');
+const playSelector=['fund','wave','exp','timeline','refraction','native','chain','mechanics','optics','scene','quantum','light','dynamics'].map(k=>`button[data-${k}-play]`).concat('button[data-action="play"]').join(',');
+const seekSelector=['fund-seek','wave-step','exp-seek','timeline-step','refraction-step','native-time','chain-step','step','optics-time','scene-seek','quantum-seek','light-seek','dynamics-seek'].map(k=>`input[data-${k}]`).join(',');
 function save(){fs.writeFileSync(output,JSON.stringify({date:new Date().toISOString(),engine,widths,expected:jobs.length,observed:results.length,nativeModelHashes,summary:{animated:results.filter(r=>r.classification==='animated').length,equilibrium:results.filter(r=>r.classification==='equilibrium-input-tested').length,static:results.filter(r=>r.classification==='static').length,failed:results.filter(r=>!r.passed).length},scope:'Reading-page play clicks with normal scrolling; timed SVG scene geometry, pause/resume, seek from end and replay. Authored waits and equilibrium/boundary defaults are explicit, with a separate nonzero-input motion test. Static models are counted separately. This is playback QA, not all original-runtime input equivalence.',results,errors},null,2)+'\n');}
 async function snapshot(h){return h.evaluate((e,selector)=>{
  const scene=e.querySelector('[data-fund-scene],[data-wave-scene],[data-exp-scene],[data-refraction-scene],.timeline-native-stage svg,[data-chain-scene],[data-optics-scene],.remaster-scene svg,[data-view] svg')||e.querySelector('svg');
@@ -39,7 +39,8 @@ try{await Promise.all(Array.from({length:Number(process.env.PHYSICA_PLAYBACK_WOR
   else{
    v.defaultPlayback=await sampleMotion(h,play,page);let trial=v.defaultPlayback;
    // Source-authored default equilibria and a boundary stop must not be called broken.
-   const adjustment=r.id==='flash-8cd1b69a0017cc1c'?['[data-fund-control="position"]',250]:r.id==='flash-56a6d23341185a0b'?['[data-fund-control="x"]',.1]:null;
+   const dynamics=JSON.parse(fs.readFileSync(new URL('src/native-dynamics.json',root))).find(s=>s.id===r.id);
+   const adjustment=dynamics?.type.startsWith('springmot')?['[data-dynamics-control="x1"]',260]:dynamics?.type==='springpen'?['[data-dynamics-control="angle"]',65]:r.id==='flash-8cd1b69a0017cc1c'?['[data-fund-control="position"]',250]:r.id==='flash-56a6d23341185a0b'?['[data-fund-control="x"]',.1]:null;
    if(adjustment){await setInput(h.locator(adjustment[0]),adjustment[1]);v.nonzeroInput={selector:adjustment[0],value:adjustment[1]};trial=v.nonzeroPlayback=await sampleMotion(h,play,page);}
    if(!trial.geometryChanged){
     const initial=h.locator('[data-chain-initial]').first();
@@ -49,7 +50,7 @@ try{await Promise.all(Array.from({length:Number(process.env.PHYSICA_PLAYBACK_WOR
    const paused=await snapshot(h);await page.waitForTimeout(200);v.pauseStopsGeometry=(await snapshot(h)).geometry===paused.geometry;
    await play.click();await page.waitForTimeout(250);v.resumeActive=(await play.textContent())==='일시정지';if(v.resumeActive)await play.click();
    const seek=h.locator(seekSelector).first();if(await seek.count()){
-    const range=await seek.evaluate(e=>({min:+e.min,max:+e.max}));const loop=h.locator('input[data-fund-loop],input[data-exp-loop],input[data-timeline-loop],input[data-scene-loop],input[data-quantum-loop],input[data-light-loop]').first();if(await loop.count())await loop.uncheck();
+    const range=await seek.evaluate(e=>({min:+e.min,max:+e.max}));const loop=h.locator('input[data-fund-loop],input[data-exp-loop],input[data-timeline-loop],input[data-scene-loop],input[data-quantum-loop],input[data-light-loop],input[data-dynamics-loop]').first();if(await loop.count())await loop.uncheck();
     await setInput(seek,range.max);v.endBeforePlay=await seek.inputValue();await play.click();await page.waitForTimeout(450);v.replayFromEnd=+await seek.inputValue()<range.max&&await play.textContent()==='일시정지';if(await play.textContent()==='일시정지')await play.click();
    }else v.replayFromEnd=null;
    v.classification=v.nonzeroInput?'equilibrium-input-tested':'animated';v.passed=trial.geometryChanged&&trial.playActivated&&v.pauseStopsGeometry&&v.resumeActive&&v.replayFromEnd!==false;

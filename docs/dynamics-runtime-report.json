@@ -1,0 +1,1760 @@
+{
+  "date": "2026-10-07T00:56:22.812Z",
+  "nativeModelHashes": {
+    "assets/dynamics-physics.mjs": "0cc0b6ca9764e570cb461bd261ae44a85e68a70a4370c769cc5124d0f03ccfc4",
+    "assets/dynamics-specs.mjs": "4d74bc61f7d40194612d327d7da70c1dc7d1d38c66f86eb312c03c1d80ecba5a"
+  },
+  "files": 5,
+  "comparisons": 178,
+  "method": "Actual original Ruffle numerical histories and original mouse gestures; observers only read values",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-d0e93f29a173b135",
+      "type": "springmot2",
+      "sha256": "7bd71dad26f845ce0c669668df038b0fda554c6139b4c03eba2a3c5793a5c8f4",
+      "sha256Verified": true,
+      "comparisons": 60,
+      "maxAbsoluteError": 8.526512829121202e-13,
+      "controls": [
+        {
+          "kind": "original_drag_release",
+          "before": [
+            205,
+            50
+          ],
+          "after": {
+            "x1": 251.597830567565,
+            "v1": -0.0369219476535403,
+            "x2": 424.440513879754,
+            "v2": 0.0398457595203452
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mass1Slider",
+          "fraction": 0,
+          "target": 0.1,
+          "actual": 0.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mass1Slider",
+          "fraction": 0.5,
+          "target": 5.1,
+          "actual": 5.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mass1Slider",
+          "fraction": 1,
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mass2Slider",
+          "fraction": 0,
+          "target": 0.1,
+          "actual": 0.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mass2Slider",
+          "fraction": 0.5,
+          "target": 5.1,
+          "actual": 5.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mass2Slider",
+          "fraction": 1,
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k1Slider",
+          "fraction": 0,
+          "target": 0.1,
+          "actual": 0.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k1Slider",
+          "fraction": 0.5,
+          "target": 5.1,
+          "actual": 5.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k1Slider",
+          "fraction": 1,
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k2Slider",
+          "fraction": 0,
+          "target": 0.1,
+          "actual": 0.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k2Slider",
+          "fraction": 0.5,
+          "target": 5.1,
+          "actual": 5.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k2Slider",
+          "fraction": 1,
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "released/default motion",
+          "parameters": {
+            "m1": 5,
+            "m2": 5,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 251.597830567565,
+            "v1": -0.0369219476535403,
+            "x2": 424.440513879754,
+            "v2": 0.0398457595203452
+          },
+          "observed": {
+            "x1": 226.316845914518,
+            "v1": -0.0568150063900467,
+            "x2": 445.934129155698,
+            "v2": 0.04207602900027
+          },
+          "expected": {
+            "x1": 226.31684591451756,
+            "v1": -0.05681500639004648,
+            "x2": 445.93412915569826,
+            "v2": 0.04207602900026999,
+            "f1": -0.023116641240389355,
+            "f2": -0.0901399694001049,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "second motion window",
+          "parameters": {
+            "m1": 5,
+            "m2": 5,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 226.316845914518,
+            "v1": -0.0568150063900467,
+            "x2": 445.934129155698,
+            "v2": 0.04207602900027
+          },
+          "observed": {
+            "x1": 201.034568230257,
+            "v1": -0.0398129913931047,
+            "x2": 462.23373388551,
+            "v2": 0.0210498300150237
+          },
+          "expected": {
+            "x1": 201.03456823025732,
+            "v1": -0.03981299139310511,
+            "x2": 462.23373388550914,
+            "v2": 0.021049830015023998,
+            "f1": 0.31742952263356594,
+            "f2": -0.3004626075212708,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "mass1Slider 0",
+          "parameters": {
+            "m1": 0.1,
+            "m2": 5,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 239.00997173751,
+            "v1": 0.159258973760388,
+            "x2": 460.322510016002,
+            "v2": -0.0179430253633997
+          },
+          "observed": {
+            "x1": 219.974956218311,
+            "v1": 0.0517925327604116,
+            "x2": 448.974561033185,
+            "v2": -0.0287374358866707
+          },
+          "expected": {
+            "x1": 219.97495621831084,
+            "v1": 0.05179253276041322,
+            "x2": 448.974561033185,
+            "v2": -0.028737435886670774,
+            "f1": 0.08766266428426814,
+            "f2": -0.15287603304894934,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "mass1Slider 0.5",
+          "parameters": {
+            "m1": 5.1,
+            "m2": 5,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 274.649026889005,
+            "v1": 0.011261281162219,
+            "x2": 422.852698863221,
+            "v2": -0.00991882081988075
+          },
+          "observed": {
+            "x1": 264.621209873615,
+            "v1": -0.0457656238221918,
+            "x2": 424.743810921197,
+            "v2": 0.0148594744061314
+          },
+          "expected": {
+            "x1": 264.6212098736146,
+            "v1": -0.04576562382219207,
+            "x2": 424.74381092119654,
+            "v2": 0.014859474406131666,
+            "f1": -0.5067341038955764,
+            "f2": 0.2067950095983825,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "mass1Slider 1",
+          "parameters": {
+            "m1": 10,
+            "m2": 5,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 200.566569456837,
+            "v1": -0.064322408897761,
+            "x2": 446.221001632221,
+            "v2": 0.0134372418885256
+          },
+          "observed": {
+            "x1": 173.205348891601,
+            "v1": -0.0441953956211513,
+            "x2": 445.459060412147,
+            "v2": -0.0166742018091042
+          },
+          "expected": {
+            "x1": 173.20534889160078,
+            "v1": -0.04419539562115127,
+            "x2": 445.45906041214613,
+            "v2": -0.016674201809104176,
+            "f1": 0.5174731094363779,
+            "f2": -0.35381860975190077,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "mass2Slider 0",
+          "parameters": {
+            "m1": 10,
+            "m2": 0.1,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 148.418298004775,
+            "v1": -0.013594825296463,
+            "x2": 375.870336724396,
+            "v2": 0.0980552141166219
+          },
+          "observed": {
+            "x1": 146.650163237407,
+            "v1": 0.00292640844144495,
+            "x2": 327.033691469224,
+            "v2": -0.00669423318994405
+          },
+          "expected": {
+            "x1": 146.65016323740738,
+            "v1": 0.002926408441444933,
+            "x2": 327.0336914692244,
+            "v2": -0.006694233189943992,
+            "f1": 0.19530292024272666,
+            "f2": 0.10480474843607743,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "mass2Slider 0.5",
+          "parameters": {
+            "m1": 10,
+            "m2": 5.1,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 164.019494972832,
+            "v1": 0.034431026098866,
+            "x2": 402.065210743633,
+            "v2": 0.0659864968700959
+          },
+          "observed": {
+            "x1": 186.192730424573,
+            "v1": 0.0523664502488286,
+            "x2": 429.362815883275,
+            "v2": 0.0442544264143519
+          },
+          "expected": {
+            "x1": 186.19273042457357,
+            "v1": 0.05236645024882849,
+            "x2": 429.3628158832752,
+            "v2": 0.04425442641435206,
+            "f1": 0.30969969726626956,
+            "f2": -0.22634919785317445,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "mass2Slider 1",
+          "parameters": {
+            "m1": 10,
+            "m2": 10,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 247.281236677209,
+            "v1": 0.0618669685067221,
+            "x2": 461.635193996241,
+            "v2": 0.0255209136647858
+          },
+          "observed": {
+            "x1": 275.225505870597,
+            "v1": 0.0489495520286276,
+            "x2": 473.730666302357,
+            "v2": 0.023658923273141
+          },
+          "expected": {
+            "x1": 275.22550587059703,
+            "v1": 0.048949552028627684,
+            "x2": 473.7306663023576,
+            "v2": 0.02365892327314094,
+            "f1": -0.35625577798788105,
+            "f2": -0.0014736740553821927,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k1Slider 0",
+          "parameters": {
+            "m1": 10,
+            "m2": 10,
+            "k1": 0.1,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 317.187136373417,
+            "v1": 0.0376051108446981,
+            "x2": 499.174729578544,
+            "v2": 0.0284568411696742
+          },
+          "observed": {
+            "x1": 334.470623841709,
+            "v1": 0.031824408730884,
+            "x2": 514.590027221297,
+            "v2": 0.0329802583999887
+          },
+          "expected": {
+            "x1": 334.4706238417087,
+            "v1": 0.031824408730884005,
+            "x2": 514.5900272212965,
+            "v2": 0.0329802583999887,
+            "f1": -0.11888074130902901,
+            "f2": 0.09306161410965363,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k1Slider 0.5",
+          "parameters": {
+            "m1": 10,
+            "m2": 10,
+            "k1": 5.1,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 338.10375678351,
+            "v1": -0.0269760916958313,
+            "x2": 547.254064792747,
+            "v2": 0.0373407005700632
+          },
+          "observed": {
+            "x1": 317.383055156874,
+            "v1": -0.0517760364867246,
+            "x2": 564.478340987748,
+            "v2": 0.0304557757161644
+          },
+          "expected": {
+            "x1": 317.38305515687443,
+            "v1": -0.051776036486724616,
+            "x2": 564.4783409877485,
+            "v2": 0.030455775716164375,
+            "f1": -0.35006254811698057,
+            "f2": -0.2280142917916493,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k1Slider 1",
+          "parameters": {
+            "m1": 10,
+            "m2": 10,
+            "k1": 10,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 244.459605874392,
+            "v1": -0.0791159443607197,
+            "x2": 575.380018872914,
+            "v2": -0.014219839498089
+          },
+          "observed": {
+            "x1": 210.617489537328,
+            "v1": -0.0543100139052919,
+            "x2": 559.087818659612,
+            "v2": -0.049329008533684
+          },
+          "expected": {
+            "x1": 210.61748953732777,
+            "v1": -0.05431001390529174,
+            "x2": 559.0878186596117,
+            "v2": -0.049329008533684,
+            "f1": 0.6785576192349916,
+            "f2": -0.7321437721908752,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k2Slider 0",
+          "parameters": {
+            "m1": 10,
+            "m2": 10,
+            "k1": 10,
+            "k2": 0.1,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 173.35530526541,
+            "v1": -0.0312220793147485,
+            "x2": 507.12250801645,
+            "v2": -0.0583313887304477
+          },
+          "observed": {
+            "x1": 162.745400551256,
+            "v1": -0.0116581503086073,
+            "x2": 477.940746910312,
+            "v2": -0.0583774056944354
+          },
+          "expected": {
+            "x1": 162.74540055125527,
+            "v1": -0.011658150308607135,
+            "x2": 477.9407469103121,
+            "v2": -0.058377405694435384,
+            "f1": 0.4329554769181035,
+            "f2": 2.157955590019467e-7,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k2Slider 0.5",
+          "parameters": {
+            "m1": 10,
+            "m2": 10,
+            "k1": 10,
+            "k2": 5.1,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 188.644678351997,
+            "v1": 0.054593492269497,
+            "x2": 403.204026333216,
+            "v2": -0.0878707159063841
+          },
+          "observed": {
+            "x1": 216.274095028313,
+            "v1": 0.0508374097094326,
+            "x2": 360.035029215527,
+            "v2": -0.0821727395512058
+          },
+          "expected": {
+            "x1": 216.2740950283127,
+            "v1": 0.05083740970943243,
+            "x2": 360.0350292155269,
+            "v2": -0.0821727395512056,
+            "f1": -0.3704170839820897,
+            "f2": 0.2808292776996066,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k2Slider 1",
+          "parameters": {
+            "m1": 10,
+            "m2": 10,
+            "k1": 10,
+            "k2": 10,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 215.275470109051,
+            "v1": -0.0596800122292683,
+            "x2": 319.515752624931,
+            "v2": 0.00841755331115177
+          },
+          "observed": {
+            "x1": 174.937002424196,
+            "v1": -0.0916016344346699,
+            "x2": 334.495933223616,
+            "v2": 0.0444862439372033
+          },
+          "expected": {
+            "x1": 174.93700242419666,
+            "v1": -0.0916016344346701,
+            "x2": 334.4959332236164,
+            "v2": 0.04448624393720331,
+            "f1": -0.16146453665411925,
+            "f2": 0.44117018279751813,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        }
+      ],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+      "passed": true
+    },
+    {
+      "id": "flash-07b9a1ea66ecdbf1",
+      "type": "springmot3",
+      "sha256": "e3900394c461c084eafcdbbcaa1e3226e2e99a2b2b18414fca5d101a1526f7a2",
+      "sha256Verified": true,
+      "comparisons": 56,
+      "maxAbsoluteError": 6.252776074688882e-13,
+      "controls": [
+        {
+          "kind": "original_drag_release",
+          "before": [
+            205,
+            30
+          ],
+          "after": {
+            "x1": 251.535973370794,
+            "v1": -0.0373422991532408,
+            "x2": 423.38527922774,
+            "v2": 0.0352860509215883
+          },
+          "passed": true
+        },
+        {
+          "kind": "authored_normal_mode",
+          "character": 81,
+          "passed": true
+        },
+        {
+          "kind": "authored_normal_mode",
+          "character": 83,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mass1Slider",
+          "fraction": 0,
+          "target": 0.1,
+          "actual": 0.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mass1Slider",
+          "fraction": 0.5,
+          "target": 5.1,
+          "actual": 5.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "mass1Slider",
+          "fraction": 1,
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k1Slider",
+          "fraction": 0,
+          "target": 0.1,
+          "actual": 0.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k1Slider",
+          "fraction": 0.5,
+          "target": 5.1,
+          "actual": 5.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k1Slider",
+          "fraction": 1,
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k2Slider",
+          "fraction": 0,
+          "target": 0.1,
+          "actual": 0.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k2Slider",
+          "fraction": 0.5,
+          "target": 5.1,
+          "actual": 5.1,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "k2Slider",
+          "fraction": 1,
+          "target": 10,
+          "actual": 10,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "released/default motion",
+          "parameters": {
+            "m1": 5,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 251.535973370794,
+            "v1": -0.0373422991532408,
+            "x2": 423.38527922774,
+            "v2": 0.0352860509215883
+          },
+          "observed": {
+            "x1": 225.574414843203,
+            "v1": -0.0593331282451239,
+            "x2": 439.896938588855,
+            "v2": 0.0263981111173256
+          },
+          "expected": {
+            "x1": 225.57441484320296,
+            "v1": -0.05933312824512431,
+            "x2": 439.89693858885505,
+            "v2": 0.026398111117326,
+            "f1": -0.05484717528491771,
+            "f2": -0.22768824692020775,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "second motion window",
+          "parameters": {
+            "m1": 5,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 225.574414843203,
+            "v1": -0.0593331282451239,
+            "x2": 439.896938588855,
+            "v2": 0.0263981111173256
+          },
+          "observed": {
+            "x1": 197.893193728052,
+            "v1": -0.0470885128334402,
+            "x2": 444.561498792374,
+            "v2": -0.0086338047468374
+          },
+          "expected": {
+            "x1": 197.89319372805227,
+            "v1": -0.047088512833440434,
+            "x2": 444.56149879237427,
+            "v2": -0.008633804746836938,
+            "f1": 0.25510624540603616,
+            "f2": -0.4261209387419679,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "normal mode 81",
+          "parameters": {
+            "m1": 5,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 347.562243085709,
+            "v1": -0.044324336592491,
+            "x2": 547.562243085709,
+            "v2": -0.044324336592491
+          },
+          "observed": {
+            "x1": 307.732275306539,
+            "v1": -0.107539364506017,
+            "x2": 507.73227530654,
+            "v2": -0.107539364506017
+          },
+          "expected": {
+            "x1": 307.73227530653963,
+            "v1": -0.10753936450601727,
+            "x2": 507.73227530654,
+            "v2": -0.10753936450601762,
+            "f1": -0.5305445799439688,
+            "f2": -0.5305445799439739,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "normal mode 83",
+          "parameters": {
+            "m1": 5,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 145.243898843884,
+            "v1": 0.06021957733302,
+            "x2": 464.756101156116,
+            "v2": -0.06021957733302
+          },
+          "observed": {
+            "x1": 194.083974021779,
+            "v1": 0.119132367658014,
+            "x2": 415.916025978221,
+            "v2": -0.119132367658014
+          },
+          "expected": {
+            "x1": 194.08397402177866,
+            "v1": 0.11913236765801444,
+            "x2": 415.9160259782214,
+            "v2": -0.11913236765801447,
+            "f1": 0.22213005849631395,
+            "f2": -0.2221300584963144,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "mass1Slider 0",
+          "parameters": {
+            "m1": 0.1,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 190.796273977917,
+            "v1": -0.0421724616147283,
+            "x2": 419.203726022084,
+            "v2": 0.0421724616147296
+          },
+          "observed": {
+            "x1": 191.297907742275,
+            "v1": -0.0591503202326098,
+            "x2": 418.702092257724,
+            "v2": 0.0591503202326085
+          },
+          "expected": {
+            "x1": 191.29790774227496,
+            "v1": -0.059150320232608175,
+            "x2": 418.7020922577241,
+            "v2": 0.059150320232610215,
+            "f1": 0.17713818757714958,
+            "f2": -0.17713818757714447,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "mass1Slider 0.5",
+          "parameters": {
+            "m1": 5.1,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 281.014912421215,
+            "v1": 0.0149220414873267,
+            "x2": 328.985087578784,
+            "v2": -0.0149220414873266
+          },
+          "observed": {
+            "x1": 252.365458250792,
+            "v1": -0.100808327311231,
+            "x2": 357.634541749208,
+            "v2": 0.100808327311231
+          },
+          "expected": {
+            "x1": 252.36545825079162,
+            "v1": -0.10080832731123014,
+            "x2": 357.6345417492075,
+            "v2": 0.1008083273112307,
+            "f1": -0.7599276226164483,
+            "f2": 0.7599276226164529,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "mass1Slider 1",
+          "parameters": {
+            "m1": 10,
+            "k1": 5,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 137.374635607461,
+            "v1": -0.0935310263661811,
+            "x2": 472.625364392539,
+            "v2": 0.0935310263661816
+          },
+          "observed": {
+            "x1": 106.559337440586,
+            "v1": -0.029979374393369,
+            "x2": 503.440662559415,
+            "v2": 0.0299793743933694
+          },
+          "expected": {
+            "x1": 106.55933744058545,
+            "v1": -0.0299793743933686,
+            "x2": 503.4406625594148,
+            "v2": 0.02997937439336907,
+            "f1": 1.4619687772310432,
+            "f2": -1.4619687772310448,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k1Slider 0",
+          "parameters": {
+            "m1": 10,
+            "k1": 0.1,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 133.192421610839,
+            "v1": 0.0704806149941543,
+            "x2": 476.807578389161,
+            "v2": -0.0704806149941539
+          },
+          "observed": {
+            "x1": 176.420727399539,
+            "v1": 0.0970575136597259,
+            "x2": 433.579272600462,
+            "v2": -0.0970575136597255
+          },
+          "expected": {
+            "x1": 176.42072739953863,
+            "v1": 0.0970575136597259,
+            "x2": 433.57927260046154,
+            "v2": -0.0970575136597255,
+            "f1": 0.32036678661972523,
+            "f2": -0.32036678661972523,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k1Slider 0.5",
+          "parameters": {
+            "m1": 10,
+            "k1": 5.1,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 269.211660006419,
+            "v1": 0.0668141274355409,
+            "x2": 340.788339993582,
+            "v2": -0.066814127435541
+          },
+          "observed": {
+            "x1": 277.99646586567,
+            "v1": -0.0476327920227813,
+            "x2": 332.003534134331,
+            "v2": 0.0476327920227809
+          },
+          "expected": {
+            "x1": 277.99646586566973,
+            "v1": -0.04763279202277977,
+            "x2": 332.00353413433095,
+            "v2": 0.04763279202277943,
+            "f1": -1.1257830047363389,
+            "f2": 1.125783004736335,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k1Slider 1",
+          "parameters": {
+            "m1": 10,
+            "k1": 10,
+            "k2": 5,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 184.499712424275,
+            "v1": -0.109326466188911,
+            "x2": 425.500287575726,
+            "v2": 0.10932646618891
+          },
+          "observed": {
+            "x1": 139.504005491837,
+            "v1": -0.0659017275039499,
+            "x2": 470.495994508163,
+            "v2": 0.065901727503949
+          },
+          "expected": {
+            "x1": 139.50400549183732,
+            "v1": -0.06590172750395,
+            "x2": 470.4959945081631,
+            "v2": 0.0659017275039486,
+            "f1": 1.2666866453238397,
+            "f2": -1.2666866453238441,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k2Slider 0",
+          "parameters": {
+            "m1": 10,
+            "k1": 10,
+            "k2": 0.1,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 122.930196764361,
+            "v1": 0.0252736056775079,
+            "x2": 487.069803235638,
+            "v2": -0.025273605677508
+          },
+          "observed": {
+            "x1": 145.946864640801,
+            "v1": 0.0624103004941058,
+            "x2": 464.053135359199,
+            "v2": -0.0624103004941055
+          },
+          "expected": {
+            "x1": 145.9468646408006,
+            "v1": 0.062410300494105876,
+            "x2": 464.0531353591987,
+            "v2": -0.06241030049410551,
+            "f1": 0.622958145098392,
+            "f2": -0.6229581450983845,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k2Slider 0.5",
+          "parameters": {
+            "m1": 10,
+            "k1": 10,
+            "k2": 5.1,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 235.673954006834,
+            "v1": 0.0917267521150353,
+            "x2": 374.326045993166,
+            "v2": -0.0917267521150344
+          },
+          "observed": {
+            "x1": 269.878331377914,
+            "v1": 0.0424572372579421,
+            "x2": 340.121668622086,
+            "v2": -0.0424572372579411
+          },
+          "expected": {
+            "x1": 269.878331377914,
+            "v1": 0.04245723725794186,
+            "x2": 340.12166862208636,
+            "v2": -0.04245723725794105,
+            "f1": -1.2824217405107767,
+            "f2": 1.2824217405107734,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "k2Slider 1",
+          "parameters": {
+            "m1": 10,
+            "k1": 10,
+            "k2": 10,
+            "x1": 205,
+            "x2": 405
+          },
+          "updates": 5,
+          "before": {
+            "x1": 221.442158071211,
+            "v1": -0.116874578188952,
+            "x2": 388.55784192879,
+            "v2": 0.116874578188952
+          },
+          "observed": {
+            "x1": 163.875315298846,
+            "v1": -0.0999331692397096,
+            "x2": 446.124684701155,
+            "v2": 0.0999331692397095
+          },
+          "expected": {
+            "x1": 163.87531529884546,
+            "v1": -0.09993316923970931,
+            "x2": 446.1246847011555,
+            "v2": 0.0999331692397088,
+            "f1": 1.1348445316383886,
+            "f2": -1.1348445316383982,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        }
+      ],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+      "passed": true
+    },
+    {
+      "id": "flash-045a77ab16629fda",
+      "type": "springpen",
+      "sha256": "3b2474fb926d7c89ad99d960e2dd92f1be89e9d6043e35bef7e1f3c3ad0d02a1",
+      "sha256Verified": true,
+      "comparisons": 12,
+      "maxAbsoluteError": 1.9095836023552692e-14,
+      "controls": [
+        {
+          "kind": "original_drag_release",
+          "before": [
+            200,
+            218
+          ],
+          "after": {
+            "x": -0.245872239403447,
+            "y": 2.3438610654794,
+            "vx": -1.6079276604681,
+            "vy": 0.650551418776016
+          },
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "released/default motion",
+          "parameters": {
+            "length": 1.98,
+            "angle": 90
+          },
+          "updates": 17,
+          "before": {
+            "x": -0.245872239403447,
+            "y": 2.3438610654794,
+            "vx": -1.6079276604681,
+            "vy": 0.650551418776016
+          },
+          "observed": {
+            "x": -0.495800460315942,
+            "y": 1.67377908362767,
+            "vx": 1.09677698747503,
+            "vy": -1.21154025348117
+          },
+          "expected": {
+            "x": -0.49580046031594216,
+            "y": 1.673779083627669,
+            "vx": 1.096776987475033,
+            "vy": -1.2115402534811668
+          },
+          "scope": "Interval count recovered from a finite 1–100 search; root has no numerical counter"
+        },
+        {
+          "name": "second motion window",
+          "parameters": {
+            "length": 1.98,
+            "angle": 90
+          },
+          "updates": 13,
+          "before": {
+            "x": -0.495800460315942,
+            "y": 1.67377908362767,
+            "vx": 1.09677698747503,
+            "vy": -1.21154025348117
+          },
+          "observed": {
+            "x": 0.3879679335283,
+            "y": 1.76502584326919,
+            "vx": 1.23096797257389,
+            "vy": 1.39596357231261
+          },
+          "expected": {
+            "x": 0.387967933528299,
+            "y": 1.765025843269186,
+            "vx": 1.2309679725738853,
+            "vy": 1.395963572312591
+          },
+          "scope": "Interval count recovered from a finite 1–100 search; root has no numerical counter"
+        }
+      ],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+      "passed": true
+    },
+    {
+      "id": "flash-d45479e57a3b72c8",
+      "type": "boxphasespace",
+      "sha256": "cf1e136cf9c78d1f1c6fe061320739f070f91d0477313d3881f5d77d13b4e4a9",
+      "sha256Verified": true,
+      "comparisons": 36,
+      "maxAbsoluteError": 1.1226575225009583e-12,
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "redSlider",
+          "fraction": 0,
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "redSlider",
+          "fraction": 0.5,
+          "target": 50,
+          "actual": 50,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "redSlider",
+          "fraction": 1,
+          "target": 100,
+          "actual": 100,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "blueSlider",
+          "fraction": 0,
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "blueSlider",
+          "fraction": 0.5,
+          "target": 50,
+          "actual": 50,
+          "passed": true
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "blueSlider",
+          "fraction": 1,
+          "target": 100,
+          "actual": 100,
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "released/default motion",
+          "parameters": {
+            "energy1": 50,
+            "energy2": 30,
+            "x1": 430,
+            "x2": 200
+          },
+          "updates": 8,
+          "before": {
+            "x1": 302.72077938642,
+            "v1": -0.141421356237309,
+            "x2": 298.590060350928,
+            "v2": 0.109544511501033
+          },
+          "observed": {
+            "x1": 189.583694396572,
+            "v1": -0.141421356237309,
+            "x2": 386.225669551752,
+            "v2": 0.109544511501033
+          },
+          "expected": {
+            "x1": 189.5836943965715,
+            "v1": -0.141421356237309,
+            "x2": 386.22566955175256,
+            "v2": 0.109544511501033,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "second motion window",
+          "parameters": {
+            "energy1": 50,
+            "energy2": 30,
+            "x1": 430,
+            "x2": 200
+          },
+          "updates": 8,
+          "before": {
+            "x1": 189.583694396572,
+            "v1": -0.141421356237309,
+            "x2": 386.225669551752,
+            "v2": 0.109544511501033
+          },
+          "observed": {
+            "x1": 79.9821433126561,
+            "v1": 0.141421356237309,
+            "x2": 470.574943407546,
+            "v2": 0.109544511501033
+          },
+          "expected": {
+            "x1": 79.98214331265723,
+            "v1": 0.141421356237309,
+            "x2": 470.5749434075456,
+            "v2": 0.109544511501033,
+            "collision": 1
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "redSlider 0",
+          "parameters": {
+            "energy1": 0,
+            "energy2": 30,
+            "x1": 430,
+            "x2": 200
+          },
+          "updates": 8,
+          "before": {
+            "x1": 113.872439931428,
+            "v1": 0,
+            "x2": 294.208279890886,
+            "v2": -0.109544511501033
+          },
+          "observed": {
+            "x1": 113.872439931428,
+            "v1": 0,
+            "x2": 206.572670690062,
+            "v2": -0.109544511501033
+          },
+          "expected": {
+            "x1": 113.872439931428,
+            "v1": 0,
+            "x2": 206.57267069006144,
+            "v2": -0.109544511501033,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "redSlider 0.5",
+          "parameters": {
+            "energy1": 50,
+            "energy2": 30,
+            "x1": 430,
+            "x2": 200
+          },
+          "updates": 8,
+          "before": {
+            "x1": 249.955699004961,
+            "v1": 0.141421356237309,
+            "x2": 134.273293099382,
+            "v2": 0.109544511501033
+          },
+          "observed": {
+            "x1": 363.09278399481,
+            "v1": 0.141421356237309,
+            "x2": 221.908902300206,
+            "v2": 0.109544511501033
+          },
+          "expected": {
+            "x1": 363.0927839948095,
+            "v1": 0.141421356237309,
+            "x2": 221.90890230020653,
+            "v2": 0.109544511501033,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "redSlider 1",
+          "parameters": {
+            "energy1": 100,
+            "energy2": 30,
+            "x1": 430,
+            "x2": 200
+          },
+          "updates": 8,
+          "before": {
+            "x1": 260.506405507318,
+            "v1": -0.2,
+            "x2": 413.064074869505,
+            "v2": 0.109544511501033
+          },
+          "observed": {
+            "x1": 117.506405507318,
+            "v1": -0.2,
+            "x2": 469.479498292536,
+            "v2": -0.109544511501033
+          },
+          "expected": {
+            "x1": 117.506405507318,
+            "v1": -0.2,
+            "x2": 469.4794982925358,
+            "v2": -0.109544511501033,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "blueSlider 0",
+          "parameters": {
+            "energy1": 100,
+            "energy2": 0,
+            "x1": 430,
+            "x2": 200
+          },
+          "updates": 8,
+          "before": {
+            "x1": 399.506405507318,
+            "v1": 0.2,
+            "x2": 442.002661113917,
+            "v2": 0
+          },
+          "observed": {
+            "x1": 420.506405507318,
+            "v1": -0.2,
+            "x2": 442.002661113917,
+            "v2": 0
+          },
+          "expected": {
+            "x1": 420.506405507318,
+            "v1": -0.2,
+            "x2": 442.002661113917,
+            "v2": 0,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "blueSlider 0.5",
+          "parameters": {
+            "energy1": 100,
+            "energy2": 50,
+            "x1": 430,
+            "x2": 200
+          },
+          "updates": 8,
+          "before": {
+            "x1": 79.5064055073177,
+            "v1": 0.2,
+            "x2": 231.473553563982,
+            "v2": -0.141421356237309
+          },
+          "observed": {
+            "x1": 239.506405507318,
+            "v1": 0.2,
+            "x2": 118.336468574134,
+            "v2": -0.141421356237309
+          },
+          "expected": {
+            "x1": 239.5064055073177,
+            "v1": 0.2,
+            "x2": 118.33646857413368,
+            "v2": -0.141421356237309,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "blueSlider 1",
+          "parameters": {
+            "energy1": 100,
+            "energy2": 100,
+            "x1": 430,
+            "x2": 200
+          },
+          "updates": 8,
+          "before": {
+            "x1": 380.506405507318,
+            "v1": -0.2,
+            "x2": 368.220437073189,
+            "v2": 0.2
+          },
+          "observed": {
+            "x1": 228.506405507318,
+            "v1": -0.2,
+            "x2": 440.220437073189,
+            "v2": -0.2
+          },
+          "expected": {
+            "x1": 228.506405507318,
+            "v1": -0.2,
+            "x2": 440.220437073189,
+            "v2": -0.2,
+            "collision": 0
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        }
+      ],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+      "passed": true
+    },
+    {
+      "id": "flash-6a165a13af1c16b0",
+      "type": "oscphasespace",
+      "sha256": "4c79864ef7040356a99267cebc06bcdfe9431d68b83168b31641dc300ecf0ac0",
+      "sha256Verified": true,
+      "comparisons": 14,
+      "maxAbsoluteError": 4.263256414560601e-13,
+      "controls": [
+        {
+          "kind": "original_damping_toggle",
+          "before": {
+            "model": 0,
+            "damping": 0,
+            "x1": 430
+          },
+          "after": {
+            "model": 0,
+            "damping": 1,
+            "x1": 430
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_model_toggle",
+          "before": {
+            "model": 0,
+            "damping": 1,
+            "x1": 430
+          },
+          "after": {
+            "model": 1,
+            "damping": 1,
+            "x1": 430
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_damping_toggle",
+          "before": {
+            "model": 1,
+            "damping": 1,
+            "x1": 430
+          },
+          "after": {
+            "model": 1,
+            "damping": 0,
+            "x1": 430
+          },
+          "passed": true
+        },
+        {
+          "kind": "original_model_toggle",
+          "before": {
+            "model": 1,
+            "damping": 0,
+            "x1": 430
+          },
+          "after": {
+            "model": 0,
+            "damping": 0,
+            "x1": 430
+          },
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "released/default motion",
+          "parameters": {
+            "model": 0,
+            "damping": 0,
+            "x1": 430
+          },
+          "updates": 5,
+          "before": {
+            "x1": 411.457591991014,
+            "v1": -0.0719139460205927
+          },
+          "observed": {
+            "x1": 360.729887456027,
+            "v1": -0.126220498072552
+          },
+          "expected": {
+            "x1": 360.7298874560269,
+            "v1": -0.12622049807255165,
+            "collision": 0,
+            "force": -0.08135973180939556
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "second motion window",
+          "parameters": {
+            "model": 0,
+            "damping": 0,
+            "x1": 430
+          },
+          "updates": 5,
+          "before": {
+            "x1": 360.729887456027,
+            "v1": -0.126220498072552
+          },
+          "observed": {
+            "x1": 290.236953169625,
+            "v1": -0.149623612037133
+          },
+          "expected": {
+            "x1": 290.236953169625,
+            "v1": -0.14962361203713312,
+            "collision": 0,
+            "force": -0.010983575542869077
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "toggle 9",
+          "parameters": {
+            "model": 0,
+            "damping": 1,
+            "x1": 430
+          },
+          "updates": 5,
+          "before": {
+            "x1": 231.253438570079,
+            "v1": -0.141293911358833
+          },
+          "observed": {
+            "x1": 169.780329593095,
+            "v1": -0.0999119171246885
+          },
+          "expected": {
+            "x1": 169.78032959309456,
+            "v1": -0.09991191712468886,
+            "collision": 0,
+            "force": 0.1112271316130233
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "toggle 37",
+          "parameters": {
+            "model": 1,
+            "damping": 1,
+            "x1": 430
+          },
+          "updates": 5,
+          "before": {
+            "x1": 157.904303588317,
+            "v1": -0.0162972481767535
+          },
+          "observed": {
+            "x1": 142.929836030041,
+            "v1": -0.0432968783578652
+          },
+          "expected": {
+            "x1": 142.92983603004132,
+            "v1": -0.04329687835786517,
+            "collision": 0,
+            "force": -0.053799026196041176
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "toggle 9",
+          "parameters": {
+            "model": 1,
+            "damping": 0,
+            "x1": 430
+          },
+          "updates": 5,
+          "before": {
+            "x1": 121.22528608497,
+            "v1": -0.0650057095401635
+          },
+          "observed": {
+            "x1": 81.8489136147946,
+            "v1": -0.0922275393597526
+          },
+          "expected": {
+            "x1": 81.84891361479447,
+            "v1": -0.0922275393597526,
+            "collision": 0,
+            "force": -0.05444352489122709
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        },
+        {
+          "name": "toggle 37",
+          "parameters": {
+            "model": 0,
+            "damping": 0,
+            "x1": 430
+          },
+          "updates": 5,
+          "before": {
+            "x1": 89.0716442735998,
+            "v1": 0.059106931534701
+          },
+          "observed": {
+            "x1": 141.010870564682,
+            "v1": 0.143477846095538
+          },
+          "expected": {
+            "x1": 141.01087056468228,
+            "v1": 0.14347784609553835,
+            "collision": 0,
+            "force": 0.139705090872589
+          },
+          "scope": "Actual source update-counter difference between two observed states"
+        }
+      ],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+      "passed": true
+    }
+  ]
+}

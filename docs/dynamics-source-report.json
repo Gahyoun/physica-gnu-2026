@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-07T01:02:52.350Z",
+  "nativeModelHashes": {
+    "assets/dynamics-physics.mjs": "0cc0b6ca9764e570cb461bd261ae44a85e68a70a4370c769cc5124d0f03ccfc4",
+    "assets/dynamics-specs.mjs": "4d74bc61f7d40194612d327d7da70c1dc7d1d38c66f86eb312c03c1d80ecba5a"
+  },
+  "files": 5,
+  "comparisons": 1569600,
+  "method": "Private source numerical functions versus independently authored SVG/HTML recurrences",
+  "results": [
+    {
+      "id": "flash-d0e93f29a173b135",
+      "type": "springmot2",
+      "comparisons": 732600,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "parameterSets": 407,
+      "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted."
+    },
+    {
+      "id": "flash-07b9a1ea66ecdbf1",
+      "type": "springmot3",
+      "comparisons": 556200,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "parameterSets": 309,
+      "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted."
+    },
+    {
+      "id": "flash-045a77ab16629fda",
+      "type": "springpen",
+      "comparisons": 8400,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "parameterSets": 7,
+      "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted."
+    },
+    {
+      "id": "flash-d45479e57a3b72c8",
+      "type": "boxphasespace",
+      "comparisons": 250800,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "parameterSets": 209,
+      "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted."
+    },
+    {
+      "id": "flash-6a165a13af1c16b0",
+      "type": "oscphasespace",
+      "comparisons": 21600,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "parameterSets": 24,
+      "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted."
+    }
+  ]
+}

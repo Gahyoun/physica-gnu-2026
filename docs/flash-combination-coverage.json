@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T00:37:23.571Z",
+  "date": "2026-10-07T01:04:57.654Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -2603,7 +2603,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 17,
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-4-2.html#native-dynamics-flash-045a77ab16629fda",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -2617,14 +2617,17 @@
         "drag": 0,
         "change": 6
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "passed": true,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -2678,7 +2681,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 20,
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-3-1.html#native-dynamics-flash-d0e93f29a173b135",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -2729,14 +2732,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "passed": true,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -2751,7 +2757,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 22,
-      "htmlHref": null,
+      "htmlHref": "lesson-1-2-3-2.html#native-dynamics-flash-07b9a1ea66ecdbf1",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -2793,14 +2799,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "passed": true,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -18650,7 +18659,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 12,
-      "htmlHref": null,
+      "htmlHref": "lesson-3-1-2-5.html#native-dynamics-flash-d45479e57a3b72c8",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -18683,14 +18692,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "passed": true,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -18835,7 +18847,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 11,
-      "htmlHref": null,
+      "htmlHref": "lesson-3-1-2-4.html#native-dynamics-flash-6a165a13af1c16b0",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -18849,14 +18861,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "passed": true,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T00:27:03.158Z",
+  "date": "2026-10-07T01:04:57.324Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -23,16 +23,18 @@
     "assets/quantum-physics.mjs": "e5beba1ef9093a27890ebf248ba60af2d254ba39615c8c26fc9150e3edc018e5",
     "assets/quantum-specs.mjs": "15979194f35e3c65ca69ac2adf47aac17eff73b078f19e64a70002d047885413",
     "assets/light-physics.mjs": "f52b451dbcf24b6720f4fdd1c4f4f692c71770fcd9126c6525b323f9108c48c2",
-    "assets/light-specs.mjs": "5b9b011fd369442b47c457e8e0a7d146b8ce2bf133adf3c84c2dccd0e9d9b9f5"
+    "assets/light-specs.mjs": "5b9b011fd369442b47c457e8e0a7d146b8ce2bf133adf3c84c2dccd0e9d9b9f5",
+    "assets/dynamics-physics.mjs": "0cc0b6ca9764e570cb461bd261ae44a85e68a70a4370c769cc5124d0f03ccfc4",
+    "assets/dynamics-specs.mjs": "4d74bc61f7d40194612d327d7da70c1dc7d1d38c66f86eb312c03c1d80ecba5a"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 171,
-  "numericalFilesPassed": 171,
-  "numericalSampleComparisons": 539410,
+  "numericalFiles": 176,
+  "numericalFilesPassed": 176,
+  "numericalSampleComparisons": 539588,
   "combinationComparisons": 198600,
-  "numericalComparisons": 738010,
+  "numericalComparisons": 738188,
   "finiteCombinationScopes": 5,
   "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
@@ -1535,7 +1537,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "sha256": "3b2474fb926d7c89ad99d960e2dd92f1be89e9d6043e35bef7e1f3c3ad0d02a1",
+        "passed": true,
+        "comparisons": 12,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+        "maxAbsoluteError": 1.9095836023552692e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1580,7 +1589,14 @@
         "clickProbes": 7,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "sha256": "7bd71dad26f845ce0c669668df038b0fda554c6139b4c03eba2a3c5793a5c8f4",
+        "passed": true,
+        "comparisons": 60,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+        "maxAbsoluteError": 8.526512829121202e-13
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "7bd71dad26f845ce0c669668df038b0fda554c6139b4c03eba2a3c5793a5c8f4",
@@ -1608,7 +1624,14 @@
         "clickProbes": 9,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "sha256": "e3900394c461c084eafcdbbcaa1e3226e2e99a2b2b18414fca5d101a1526f7a2",
+        "passed": true,
+        "comparisons": 56,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+        "maxAbsoluteError": 6.252776074688882e-13
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "e3900394c461c084eafcdbbcaa1e3226e2e99a2b2b18414fca5d101a1526f7a2",
@@ -9964,7 +9987,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "sha256": "cf1e136cf9c78d1f1c6fe061320739f070f91d0477313d3881f5d77d13b4e4a9",
+        "passed": true,
+        "comparisons": 36,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+        "maxAbsoluteError": 1.1226575225009583e-12
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10056,7 +10086,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/dynamics-runtime-report.json",
+        "sha256": "4c79864ef7040356a99267cebc06bcdfe9431d68b83168b31641dc300ecf0ac0",
+        "passed": true,
+        "comparisons": 14,
+        "scope": "Unmodified-original bytes, actual Ruffle default/absolute startup and finite successive numerical windows after real original drags, normal-mode buttons, damping/model toggles and min/mid/max mass/k/energy sliders. Pendulum interval count recovered by bounded matching. Continuous simultaneous inputs and every event order are not certified.",
+        "maxAbsoluteError": 4.263256414560601e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },

@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-07T00:37:23.248Z",
+  "date": "2026-10-07T01:04:57.369Z",
   "total": 518,
-  "htmlImplemented": 239,
-  "htmlPending": 279,
+  "htmlImplemented": 244,
+  "htmlPending": 274,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 717,
-    "observed": 717,
+    "expected": 732,
+    "observed": 732,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 171,
-    "numericalComparisons": 738010,
-    "numericalSampleComparisons": 539410,
+    "numericalFilesPassed": 176,
+    "numericalComparisons": 738188,
+    "numericalSampleComparisons": 539588,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 5,
     "rootTimelineFilesPassed": 29,
@@ -2889,17 +2889,26 @@
       "actionScript": 2,
       "scriptFiles": 17,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-4-2.html#native-dynamics-flash-045a77ab16629fda",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-045a77ab16629fda",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 12,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -2909,12 +2918,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source numerical functions versus independently authored SVG/HTML recurrences",
+        "comparisons": 8400,
+        "maxAbsoluteError": 0,
+        "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted.",
+        "report": "docs/dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a47cea8ca74c47d1",
@@ -2981,17 +3002,26 @@
       "actionScript": 2,
       "scriptFiles": 20,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-3-1.html#native-dynamics-flash-d0e93f29a173b135",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-d0e93f29a173b135",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 60,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3001,12 +3031,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source numerical functions versus independently authored SVG/HTML recurrences",
+        "comparisons": 732600,
+        "maxAbsoluteError": 0,
+        "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted.",
+        "report": "docs/dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-07b9a1ea66ecdbf1",
@@ -3019,17 +3061,26 @@
       "actionScript": 2,
       "scriptFiles": 22,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-3-2.html#native-dynamics-flash-07b9a1ea66ecdbf1",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-07b9a1ea66ecdbf1",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 56,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3039,12 +3090,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source numerical functions versus independently authored SVG/HTML recurrences",
+        "comparisons": 556200,
+        "maxAbsoluteError": 0,
+        "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted.",
+        "report": "docs/dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-43cae1be72e00da0",
@@ -19768,17 +19831,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-1-2-5.html#native-dynamics-flash-d45479e57a3b72c8",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-d45479e57a3b72c8",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 36,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -19788,12 +19860,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source numerical functions versus independently authored SVG/HTML recurrences",
+        "comparisons": 250800,
+        "maxAbsoluteError": 0,
+        "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted.",
+        "report": "docs/dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-6b1175cc8bfaae1f",
@@ -19936,17 +20020,26 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-1-2-4.html#native-dynamics-flash-6a165a13af1c16b0",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-6a165a13af1c16b0",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 14,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -19956,12 +20049,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private source numerical functions versus independently authored SVG/HTML recurrences",
+        "comparisons": 21600,
+        "maxAbsoluteError": 0,
+        "scope": "Private unmodified source update functions versus independent numerical recurrences: 300 updates for every original single mass/k or energy level; min/mid/max release positions and angles; both authored normal-mode starts; 16 phase-oscillator model/damping/position tuples. Mixed continuous drag histories and all simultaneous mass/k combinations remain unexhausted.",
+        "report": "docs/dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-453d1c11c2cab73a",
