@@ -1,0 +1,2308 @@
+{
+  "date": "2026-10-07T00:25:44.212Z",
+  "nativeModelHashes": {
+    "assets/light-physics.mjs": "f52b451dbcf24b6720f4fdd1c4f4f692c71770fcd9126c6525b323f9108c48c2",
+    "assets/light-specs.mjs": "5b9b011fd369442b47c457e8e0a7d146b8ce2bf133adf3c84c2dccd0e9d9b9f5"
+  },
+  "files": 25,
+  "comparisons": 1720,
+  "fullEquivalence": false,
+  "method": "Actual original Ruffle telemetry, diagnostic numerical queries and original pointer gestures. Source artwork and code are not published; observers can update temporary variables but do not replace original inputs or equations.",
+  "results": [
+    {
+      "id": "flash-8e0185e594f3d047",
+      "type": "convex1",
+      "sha256": "2a555020ab1e13afe76477474954d15b5572b5b90d520465e96f27d989e0e9fc",
+      "sha256Verified": true,
+      "comparisons": 12,
+      "maxAbsoluteError": 0.02499999999999858,
+      "mismatches": [],
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "time": 5,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {},
+          "time": 8,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {},
+          "time": 11,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {},
+          "time": 14,
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-0e32ae567a748b4e",
+      "type": "concave2",
+      "sha256": "5c386bd8e7830abdfcc65134324bf45ac2959569b2160a43516ad26dc4977de8",
+      "sha256Verified": true,
+      "comparisons": 12,
+      "maxAbsoluteError": 0.02499999999999858,
+      "mismatches": [],
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "time": 5,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {},
+          "time": 8,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {},
+          "time": 11,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {},
+          "time": 14,
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-08af4a11369a77e8",
+      "type": "concavemirror",
+      "sha256": "4966b4888b550127d2f93b60bb7f705f33511563e09b68acd36ca38ddd275448",
+      "sha256Verified": true,
+      "comparisons": 12,
+      "maxAbsoluteError": 0.024999999999991473,
+      "mismatches": [],
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "time": 4,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {},
+          "time": 7,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {},
+          "time": 10,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {},
+          "time": 13,
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-8aac21c70c091246",
+      "type": "convexmirror",
+      "sha256": "3b5f0dac82f86b06bd64ed7afccb958d6f4ebd124a50991a804d61e2f2c90d1f",
+      "sha256Verified": true,
+      "comparisons": 12,
+      "maxAbsoluteError": 0.024999999999991473,
+      "mismatches": [],
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "time": 4,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {},
+          "time": 7,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {},
+          "time": 10,
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {},
+          "time": 13,
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-3b971cdc35ec073c",
+      "type": "magnifier",
+      "sha256": "2159298c5ebb250da30db9c556934dc9e0a8090d0a97f040e2601dab1a0066a0",
+      "sha256Verified": true,
+      "comparisons": 15,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_lens_drag",
+          "before": [
+            78,
+            180
+          ],
+          "after": [
+            220,
+            240
+          ],
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "x": 78,
+            "y": 180
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "original lens drag",
+          "parameters": {
+            "x": 220,
+            "y": 240
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "x": 220,
+            "y": 240
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "x": 220,
+            "y": 240
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "x": 220,
+            "y": 240
+          },
+          "time": "",
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-a3ddf24ff4cb25ef",
+      "type": "magnifier2",
+      "sha256": "d8f1512ef9278789b86c7383ab2449d1118c1e7c402456c67a65493df83c9721",
+      "sha256Verified": true,
+      "comparisons": 15,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_lens_drag",
+          "before": [
+            78,
+            180
+          ],
+          "after": [
+            220,
+            240
+          ],
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "x": 78,
+            "y": 180
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "original lens drag",
+          "parameters": {
+            "x": 220,
+            "y": 240
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "x": 220,
+            "y": 240
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "x": 220,
+            "y": 240
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "x": 220,
+            "y": 240
+          },
+          "time": "",
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-9f855e317e1a64d4",
+      "type": "spectra_He",
+      "sha256": "ffcb8094fed143808b6c3890031020c2cb2a9f7ad390531d779805ee7c976e90",
+      "sha256Verified": true,
+      "comparisons": 155,
+      "maxAbsoluteError": 0.04579999999998563,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_spectrum_toggle",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "original spectrum toggle",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-0251511585410714",
+      "type": "spectra_Ne",
+      "sha256": "e7f3db4338d373e09a61f8d76cb2e23666be218d3ca8d345f9904b734197464e",
+      "sha256Verified": true,
+      "comparisons": 200,
+      "maxAbsoluteError": 0.049999999999954525,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_spectrum_toggle",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "absorption": 0
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "original spectrum toggle",
+          "parameters": {
+            "absorption": 0
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "absorption": 0
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "absorption": 0
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "absorption": 0
+          },
+          "time": "",
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-2b71a7cd2855f301",
+      "type": "spectra_origin",
+      "sha256": "6698d9865b6a378316612066b19ef7d0b32436c424613f213045e2a80cacf741",
+      "sha256Verified": true,
+      "comparisons": 65,
+      "maxAbsoluteError": 0.047999999999959186,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_spectrum_toggle",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "original spectrum toggle",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "absorption": 1
+          },
+          "time": "",
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-b6c212fb0138e494",
+      "type": "blackbody",
+      "sha256": "a3376530f30a2c1bc2e894f74bd7ad72ba12b127e56dc5bb4aa11009c276b14a",
+      "sha256Verified": true,
+      "comparisons": 140,
+      "maxAbsoluteError": 3.375077994860476e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vSlider",
+          "fraction": 0,
+          "target": 500,
+          "actual": 500,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vSlider",
+          "fraction": 0.5,
+          "target": 5300,
+          "actual": 5300,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vSlider",
+          "fraction": 1,
+          "target": 10000,
+          "actual": 10000,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "temperature": 5000,
+            "wavelength": 500
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "vSlider 0",
+          "parameters": {
+            "temperature": 500,
+            "wavelength": 500
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "vSlider 0.5",
+          "parameters": {
+            "temperature": 5300,
+            "wavelength": 500
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "vSlider 1",
+          "parameters": {
+            "temperature": 10000,
+            "wavelength": 500
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "temperature": 5000,
+            "wavelength": 500
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "temperature": 5000,
+            "wavelength": 500
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "temperature": 5000,
+            "wavelength": 500
+          },
+          "time": null,
+          "tt": null
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-c7fdcdfe618cca96",
+      "type": "testcolor",
+      "sha256": "2af682321007172c5a07fd4cd35e276873ebcb8cd881239cc88d637405f825a8",
+      "sha256Verified": true,
+      "comparisons": 7,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wlSlider",
+          "fraction": 0,
+          "target": 400,
+          "actual": 400,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wlSlider",
+          "fraction": 0.5,
+          "target": 550,
+          "actual": 550,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "wlSlider",
+          "fraction": 1,
+          "target": 700,
+          "actual": 700,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "wavelength": 530
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "wlSlider 0",
+          "parameters": {
+            "wavelength": 400
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "wlSlider 0.5",
+          "parameters": {
+            "wavelength": 550
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "wlSlider 1",
+          "parameters": {
+            "wavelength": 700
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "wavelength": 530
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "wavelength": 530
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "wavelength": 530
+          },
+          "time": "",
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-453d1c11c2cab73a",
+      "type": "vanderphase",
+      "sha256": "b1ef536ac58070bcfd471aee34f2861ee0cd4db710ca819d7597ce0f26134e6f",
+      "sha256Verified": true,
+      "comparisons": 147,
+      "maxAbsoluteError": 4.884981308350689e-15,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "tSlider",
+          "fraction": 0,
+          "target": 0.85,
+          "actual": 0.85,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "tSlider",
+          "fraction": 0.5,
+          "target": 1.43,
+          "actual": 1.43,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "tSlider",
+          "fraction": 1,
+          "target": 2,
+          "actual": 2,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "temperature": 0.9,
+            "volume": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "tSlider 0",
+          "parameters": {
+            "temperature": 0.85,
+            "volume": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "tSlider 0.5",
+          "parameters": {
+            "temperature": 1.43,
+            "volume": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "tSlider 1",
+          "parameters": {
+            "temperature": 2,
+            "volume": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "temperature": 0.9,
+            "volume": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "temperature": 0.9,
+            "volume": 1
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "temperature": 0.9,
+            "volume": 1
+          },
+          "time": "",
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-19b092331907af72",
+      "type": "ferma1",
+      "sha256": "d4fa4dd3a6b7859b3e28626da34a877eff4da8bcf05f4beffdcc66cc915eca2e",
+      "sha256Verified": true,
+      "comparisons": 20,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "position",
+          "fraction": 0,
+          "target": 7,
+          "actual": 7,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "position",
+          "fraction": 0.5,
+          "target": 19,
+          "actual": 19,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "position",
+          "fraction": 1,
+          "target": 30,
+          "actual": 30,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "relN",
+          "fraction": 0,
+          "target": 0.4,
+          "actual": 0.4,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "relN",
+          "fraction": 0.5,
+          "target": 1.8000000000000003,
+          "actual": 1.8,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "relN",
+          "fraction": 1,
+          "target": 3,
+          "actual": 3,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "target": 200,
+            "index": 2
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "position 0",
+          "parameters": {
+            "target": 70,
+            "index": 2
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "position 0.5",
+          "parameters": {
+            "target": 190,
+            "index": 2
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "position 1",
+          "parameters": {
+            "target": 300,
+            "index": 2
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "relN 0",
+          "parameters": {
+            "target": 200,
+            "index": 0.4
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "relN 0.5",
+          "parameters": {
+            "target": 200,
+            "index": 1.8
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "relN 1",
+          "parameters": {
+            "target": 200,
+            "index": 3
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "target": 200,
+            "index": 2
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "target": 200,
+            "index": 2
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "target": 200,
+            "index": 2
+          },
+          "time": "",
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-2bd805d1d9628981",
+      "type": "ferma2",
+      "sha256": "05f3c32dac59c7b5d9e2a21c7fd71f46f87c0ed7d99b3f4f6593db84c7b61543",
+      "sha256Verified": true,
+      "comparisons": 7,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "position",
+          "fraction": 0,
+          "target": 7,
+          "actual": 7,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "position",
+          "fraction": 0.5,
+          "target": 19,
+          "actual": 19,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "position",
+          "fraction": 1,
+          "target": 30,
+          "actual": 30,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "target": 200
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "position 0",
+          "parameters": {
+            "target": 70
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "position 0.5",
+          "parameters": {
+            "target": 190
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "position 1",
+          "parameters": {
+            "target": 300
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "target": 200
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "target": 200
+          },
+          "time": "",
+          "tt": ""
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "target": 200
+          },
+          "time": "",
+          "tt": ""
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-9aaec2e3ba7ab1e1",
+      "type": "snelldrawing",
+      "sha256": "cc9a643d097c3b985ea3a813569ffa3e5ee665bf23824221051971b4afee9057",
+      "sha256Verified": true,
+      "comparisons": 51,
+      "maxAbsoluteError": 0.04999999999998295,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "n1Slider",
+          "fraction": 0,
+          "target": 1,
+          "actual": 1,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "n1Slider",
+          "fraction": 0.5,
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "n1Slider",
+          "fraction": 1,
+          "target": 2,
+          "actual": 2,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "n2Slider",
+          "fraction": 0,
+          "target": 1,
+          "actual": 1,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "n2Slider",
+          "fraction": 0.5,
+          "target": 1.75,
+          "actual": 1.75,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "n2Slider",
+          "fraction": 1,
+          "target": 2.5,
+          "actual": 2.5,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "incidentASlider",
+          "fraction": 0,
+          "target": 0,
+          "actual": 0,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "incidentASlider",
+          "fraction": 0.5,
+          "target": 45,
+          "actual": 45,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "incidentASlider",
+          "fraction": 1,
+          "target": 90,
+          "actual": 90,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "n1": 1,
+            "n2": 1.5,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "n1Slider 0",
+          "parameters": {
+            "n1": 1,
+            "n2": 1.5,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "n1Slider 0.5",
+          "parameters": {
+            "n1": 1.5,
+            "n2": 1.5,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "n1Slider 1",
+          "parameters": {
+            "n1": 2,
+            "n2": 1.5,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "n2Slider 0",
+          "parameters": {
+            "n1": 1,
+            "n2": 1,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "n2Slider 0.5",
+          "parameters": {
+            "n1": 1,
+            "n2": 1.75,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "n2Slider 1",
+          "parameters": {
+            "n1": 1,
+            "n2": 2.5,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "incidentASlider 0",
+          "parameters": {
+            "n1": 1,
+            "n2": 1.5,
+            "angle": 0
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "incidentASlider 0.5",
+          "parameters": {
+            "n1": 1,
+            "n2": 1.5,
+            "angle": 45
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "incidentASlider 1",
+          "parameters": {
+            "n1": 1,
+            "n2": 1.5,
+            "angle": 90
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "n1": 1,
+            "n2": 1.5,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "n1": 1,
+            "n2": 1.5,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "n1": 1,
+            "n2": 1.5,
+            "angle": 60
+          },
+          "time": null,
+          "tt": null
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-29adfaf636482816",
+      "type": "snellexpweb",
+      "sha256": "5ab586d35d533c1bf5035fdce3c794e3e3014783534caab1f28c9d27d50d045d",
+      "sha256Verified": true,
+      "comparisons": 28,
+      "maxAbsoluteError": 0.04218280655472029,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "fraction": 0,
+          "target": 0.4,
+          "actual": 0.4,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "fraction": 0.5,
+          "target": 1.7000000000000002,
+          "actual": 1.7,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "nSlider",
+          "fraction": 1,
+          "target": 3,
+          "actual": 3,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "index": 1.5,
+            "angle": 21.245064584301215
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "nSlider 0",
+          "parameters": {
+            "index": 0.4,
+            "angle": 21.245064584301215
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "nSlider 0.5",
+          "parameters": {
+            "index": 1.7,
+            "angle": 21.245064584301215
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "nSlider 1",
+          "parameters": {
+            "index": 3,
+            "angle": 21.245064584301215
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "index": 1.5,
+            "angle": 21.245064584301215
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "index": 1.5,
+            "angle": 21.245064584301215
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "index": 1.5,
+            "angle": 21.245064584301215
+          },
+          "time": null,
+          "tt": null
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-c7625a59b4810fd6",
+      "type": "lengthcont",
+      "sha256": "e974ed9a890477a37b18fa6f817bdf1563e5bf9e2d6475163f87106141abf5ec",
+      "sha256Verified": true,
+      "comparisons": 50,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vSlider",
+          "fraction": 0,
+          "target": 0,
+          "actual": 0,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vSlider",
+          "fraction": 0.5,
+          "target": 0.45,
+          "actual": 0.45,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vSlider",
+          "fraction": 1,
+          "target": 0.95,
+          "actual": 0.95,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_play_pointer",
+          "passed": true,
+          "scope": "Numerical scene outputs after original button click, then pause; continued motion belongs to samples, not a blanket action-equivalence assertion."
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "vSlider 0",
+          "parameters": {
+            "beta": 0
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "vSlider 0.5",
+          "parameters": {
+            "beta": 0.45
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "vSlider 1",
+          "parameters": {
+            "beta": 0.95
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "original play",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 15
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 32
+        },
+        {
+          "name": "original pause",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 33
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 33
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 33
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 33
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-83da9e70afaa5235",
+      "type": "lengthmeas",
+      "sha256": "6c93ca8ddde6acb60731d277ffa739570207b139bb6880fda006c3601ccedd64",
+      "sha256Verified": true,
+      "comparisons": 30,
+      "maxAbsoluteError": 0.035571585149853036,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "speedSlider",
+          "fraction": 0,
+          "target": 0.1,
+          "actual": 0.1,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "speedSlider",
+          "fraction": 0.5,
+          "target": 0.53,
+          "actual": 0.53,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "speedSlider",
+          "fraction": 1,
+          "target": 0.95,
+          "actual": 0.95,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_play_pointer",
+          "passed": true,
+          "scope": "Numerical scene outputs after original button click, then pause; continued motion belongs to samples, not a blanket action-equivalence assertion."
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": -50,
+          "tt": null
+        },
+        {
+          "name": "speedSlider 0",
+          "parameters": {
+            "beta": 0.1
+          },
+          "time": -50,
+          "tt": null
+        },
+        {
+          "name": "speedSlider 0.5",
+          "parameters": {
+            "beta": 0.53
+          },
+          "time": -50,
+          "tt": null
+        },
+        {
+          "name": "speedSlider 1",
+          "parameters": {
+            "beta": 0.95
+          },
+          "time": -50,
+          "tt": null
+        },
+        {
+          "name": "original play",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": -44,
+          "tt": null
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": -37,
+          "tt": null
+        },
+        {
+          "name": "original pause",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": -37,
+          "tt": null
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": -37,
+          "tt": null
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": -37,
+          "tt": null
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": -37,
+          "tt": null
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-7432e51fe4f636bd",
+      "type": "spacetime",
+      "sha256": "a63545c001f753da6af1c8eba1331a5432041868b3fe45d605f8a51fa01e97f1",
+      "sha256Verified": true,
+      "comparisons": 140,
+      "maxAbsoluteError": 4.547473508864641e-13,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vSlider",
+          "fraction": 0,
+          "target": -0.5,
+          "actual": -0.5,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vSlider",
+          "fraction": 0.5,
+          "target": 0.20000000000000007,
+          "actual": 0.2,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vSlider",
+          "fraction": 1,
+          "target": 0.9,
+          "actual": 0.9,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "beta": 0.5,
+            "x": 0,
+            "t": 0,
+            "grid": 1,
+            "light": 1
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "vSlider 0",
+          "parameters": {
+            "beta": -0.5,
+            "x": 0,
+            "t": 0,
+            "grid": 1,
+            "light": 1
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "vSlider 0.5",
+          "parameters": {
+            "beta": 0.2,
+            "x": 0,
+            "t": 0,
+            "grid": 1,
+            "light": 1
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "vSlider 1",
+          "parameters": {
+            "beta": 0.9,
+            "x": 0,
+            "t": 0,
+            "grid": 1,
+            "light": 1
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "beta": 0.5,
+            "x": 0,
+            "t": 0,
+            "grid": 1,
+            "light": 1
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "beta": 0.5,
+            "x": 0,
+            "t": 0,
+            "grid": 1,
+            "light": 1
+          },
+          "time": null,
+          "tt": null
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "beta": 0.5,
+            "x": 0,
+            "t": 0,
+            "grid": 1,
+            "light": 1
+          },
+          "time": null,
+          "tt": null
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-535584938ba80b5b",
+      "type": "lightclock",
+      "sha256": "e05e52799450dd4a4670baf56d14c1801f6c086655c8adf71bd58a16864e5bdb",
+      "sha256Verified": true,
+      "comparisons": 30,
+      "maxAbsoluteError": 0.04226783578587856,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "speedSlider",
+          "fraction": 0,
+          "target": 0,
+          "actual": 0,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "speedSlider",
+          "fraction": 0.5,
+          "target": 0.45,
+          "actual": 0.45,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "speedSlider",
+          "fraction": 1,
+          "target": 0.95,
+          "actual": 0.95,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_play_pointer",
+          "passed": true,
+          "scope": "Numerical scene outputs after original button click, then pause; continued motion belongs to samples, not a blanket action-equivalence assertion."
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "speedSlider 0",
+          "parameters": {
+            "beta": 0
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "speedSlider 0.5",
+          "parameters": {
+            "beta": 0.45
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "speedSlider 1",
+          "parameters": {
+            "beta": 0.95
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "original play",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 0.6
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 1.28
+        },
+        {
+          "name": "original pause",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 1.32
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 1.32
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 1.32
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": null,
+          "tt": 1.32
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-55934d0ea7e9a946",
+      "type": "pulseclock",
+      "sha256": "e1eb3442af15b9f31ee8ef22ea0d04328531cd6b55c733701c312222cbbe6509",
+      "sha256Verified": true,
+      "comparisons": 4,
+      "maxAbsoluteError": 0.05000000000002558,
+      "mismatches": [],
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "time": null,
+          "tt": 0.44
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {},
+          "time": null,
+          "tt": 0.64
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {},
+          "time": null,
+          "tt": 0.84
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {},
+          "time": null,
+          "tt": 1.04
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-5efb27434a79dfc0",
+      "type": "invariant",
+      "sha256": "d0b1d898514307bfd58fc85351361b202333bf44b3e47d3a7b40e0a6a21e16be",
+      "sha256Verified": true,
+      "comparisons": 21,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_play_pointer",
+          "passed": true,
+          "scope": "Numerical scene outputs after original button click, then pause; continued motion belongs to samples, not a blanket action-equivalence assertion."
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {},
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "original play",
+          "parameters": {},
+          "time": null,
+          "tt": 0.14
+        },
+        {
+          "name": "playing",
+          "parameters": {},
+          "time": null,
+          "tt": 0.32
+        },
+        {
+          "name": "original pause",
+          "parameters": {},
+          "time": null,
+          "tt": 0.32
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {},
+          "time": null,
+          "tt": 0.32
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {},
+          "time": null,
+          "tt": 0.32
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {},
+          "time": null,
+          "tt": 0.32
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-a729c4c506b9a164",
+      "type": "barnpole",
+      "sha256": "c892e3411283fb704a4975c8300df13bd5a0f54893f2b6b35f64bfbd7449240a",
+      "sha256Verified": true,
+      "comparisons": 70,
+      "maxAbsoluteError": 3.552713678800501e-14,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "gammaSlider",
+          "fraction": 0,
+          "target": 1,
+          "actual": 1,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "gammaSlider",
+          "fraction": 0.5,
+          "target": 3,
+          "actual": 3,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "gammaSlider",
+          "fraction": 1,
+          "target": 5,
+          "actual": 5,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_play_pointer",
+          "passed": true,
+          "scope": "Numerical scene outputs after original button click, then pause; continued motion belongs to samples, not a blanket action-equivalence assertion."
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "gamma": 2,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "gammaSlider 0",
+          "parameters": {
+            "gamma": 1,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "gammaSlider 0.5",
+          "parameters": {
+            "gamma": 3,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "gammaSlider 1",
+          "parameters": {
+            "gamma": 5,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 0
+        },
+        {
+          "name": "original play",
+          "parameters": {
+            "gamma": 2,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 3
+        },
+        {
+          "name": "playing",
+          "parameters": {
+            "gamma": 2,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 8
+        },
+        {
+          "name": "original pause",
+          "parameters": {
+            "gamma": 2,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 8
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "gamma": 2,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 8
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "gamma": 2,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 8
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "gamma": 2,
+            "trainFrame": 0
+          },
+          "time": null,
+          "tt": 8
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-b47f4eb2c9da6bb8",
+      "type": "relativeclock",
+      "sha256": "3f9171962493fef0fa8a203192ab53394bce4b1ecd4b3a1d568697e958682afe",
+      "sha256Verified": true,
+      "comparisons": 462,
+      "maxAbsoluteError": 0.049979983984030696,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vslider",
+          "fraction": 0,
+          "target": 0,
+          "actual": 0,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vslider",
+          "fraction": 0.5,
+          "target": 0.48,
+          "actual": 0.48,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        },
+        {
+          "kind": "original_pointer_slider",
+          "clip": "vslider",
+          "fraction": 1,
+          "target": 0.9500000000000001,
+          "actual": 0.95,
+          "passed": true,
+          "sourceRotationDegrees": 0
+        }
+      ],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": 0.6,
+          "tt": null
+        },
+        {
+          "name": "vslider 0",
+          "parameters": {
+            "beta": 0
+          },
+          "time": 0,
+          "tt": null
+        },
+        {
+          "name": "vslider 0.5",
+          "parameters": {
+            "beta": 0.48
+          },
+          "time": 0,
+          "tt": null
+        },
+        {
+          "name": "vslider 1",
+          "parameters": {
+            "beta": 0.95
+          },
+          "time": 0,
+          "tt": null
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": 1,
+          "tt": null
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": 1.4,
+          "tt": null
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "beta": 0.5
+          },
+          "time": 1.8,
+          "tt": null
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    },
+    {
+      "id": "flash-899277166845f3f9",
+      "type": "relmotion",
+      "sha256": "79ebee193d026d077ff40fee89f2e44a3d001bb4a54d29a063deb494926c6dd7",
+      "sha256Verified": true,
+      "comparisons": 15,
+      "maxAbsoluteError": 0.03999999999999204,
+      "mismatches": [],
+      "controls": [],
+      "cases": [
+        {
+          "name": "default",
+          "parameters": {
+            "truckFrame": 0,
+            "axis": 0
+          },
+          "time": 0,
+          "tt": null
+        },
+        {
+          "name": "original motion button",
+          "parameters": {
+            "truckFrame": 0,
+            "axis": 0
+          },
+          "time": 4,
+          "tt": null
+        },
+        {
+          "name": "timed sample 0",
+          "parameters": {
+            "truckFrame": 0,
+            "axis": 0
+          },
+          "time": 7,
+          "tt": null
+        },
+        {
+          "name": "timed sample 1",
+          "parameters": {
+            "truckFrame": 0,
+            "axis": 0
+          },
+          "time": 10,
+          "tt": null
+        },
+        {
+          "name": "timed sample 2",
+          "parameters": {
+            "truckFrame": 0,
+            "axis": 0
+          },
+          "time": 13,
+          "tt": null
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted.",
+      "passed": true
+    }
+  ]
+}

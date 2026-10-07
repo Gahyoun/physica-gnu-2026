@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-07T00:18:38.561Z",
+  "nativeModelHashes": {
+    "assets/light-physics.mjs": "f52b451dbcf24b6720f4fdd1c4f4f692c71770fcd9126c6525b323f9108c48c2",
+    "assets/light-specs.mjs": "5b9b011fd369442b47c457e8e0a7d146b8ce2bf133adf3c84c2dccd0e9d9b9f5"
+  },
+  "files": 25,
+  "comparisons": 1870771,
+  "method": "Private original functions; independent new SVG models; source scripts and source artwork are not published",
+  "results": [
+    {
+      "id": "flash-8e0185e594f3d047",
+      "type": "convex1",
+      "comparisons": 2156,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-0e32ae567a748b4e",
+      "type": "concave2",
+      "comparisons": 3071,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-08af4a11369a77e8",
+      "type": "concavemirror",
+      "comparisons": 2156,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-8aac21c70c091246",
+      "type": "convexmirror",
+      "comparisons": 2771,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-3b971cdc35ec073c",
+      "type": "magnifier",
+      "comparisons": 1646,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 823,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-a3ddf24ff4cb25ef",
+      "type": "magnifier2",
+      "comparisons": 1646,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 823,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-9f855e317e1a64d4",
+      "type": "spectra_He",
+      "comparisons": 3882,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 3,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-0251511585410714",
+      "type": "spectra_Ne",
+      "comparisons": 3891,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 3,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-2b71a7cd2855f301",
+      "type": "spectra_origin",
+      "comparisons": 3864,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 3,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-b6c212fb0138e494",
+      "type": "blackbody",
+      "comparisons": 38897,
+      "maxAbsoluteError": 2.1316282072803006e-14,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 97,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-c7fdcdfe618cca96",
+      "type": "testcolor",
+      "comparisons": 387768,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 302,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-453d1c11c2cab73a",
+      "type": "vanderphase",
+      "comparisons": 21411,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 117,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-19b092331907af72",
+      "type": "ferma1",
+      "comparisons": 16970,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 39,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-2bd805d1d9628981",
+      "type": "ferma2",
+      "comparisons": 11860,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 25,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-9aaec2e3ba7ab1e1",
+      "type": "snelldrawing",
+      "comparisons": 5562,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1404,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-29adfaf636482816",
+      "type": "snellexpweb",
+      "comparisons": 4652,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1163,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-c7625a59b4810fd6",
+      "type": "lengthcont",
+      "comparisons": 24880,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 21,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-83da9e70afaa5235",
+      "type": "lengthmeas",
+      "comparisons": 227044,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 87,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-7432e51fe4f636bd",
+      "type": "spacetime",
+      "comparisons": 404624,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 836,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-535584938ba80b5b",
+      "type": "lightclock",
+      "comparisons": 7436,
+      "maxAbsoluteError": 1.0800249583553523e-12,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 21,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-55934d0ea7e9a946",
+      "type": "pulseclock",
+      "comparisons": 1126,
+      "maxAbsoluteError": 1.0800249583553523e-12,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-5efb27434a79dfc0",
+      "type": "invariant",
+      "comparisons": 1454,
+      "maxAbsoluteError": 1.7053025658242404e-13,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 1,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-a729c4c506b9a164",
+      "type": "barnpole",
+      "comparisons": 43392,
+      "maxAbsoluteError": 3.922195901395753e-12,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 84,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-b47f4eb2c9da6bb8",
+      "type": "relativeclock",
+      "comparisons": 646602,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 97,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    },
+    {
+      "id": "flash-899277166845f3f9",
+      "type": "relmotion",
+      "comparisons": 2010,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "fullEquivalence": false,
+      "reviewedDifferences": [],
+      "parameterSets": 5,
+      "scope": "Private original numerical/update functions versus independently authored native equations. Every declared single-control level with other controls at default; all ray construction steps; discrete numerical histories and wavelength samples. Native extension controls are excluded from original equivalence. Simultaneous slider domains, arbitrary event orders and pixel equivalence are not exhausted."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06T15:53:49.387Z",
+  "date": "2026-10-07T00:37:23.571Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -3445,7 +3445,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-2-2-2.html#native-light-flash-9f855e317e1a64d4",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -3459,14 +3459,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -3481,7 +3484,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-2-2-2.html#native-light-flash-0251511585410714",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -3495,14 +3498,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -3517,7 +3523,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-2-2-2.html#native-light-flash-2b71a7cd2855f301",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -3531,14 +3537,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -6406,7 +6415,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 9,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-1-4-1.html#native-light-flash-c7625a59b4810fd6",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -6430,14 +6439,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -6452,7 +6464,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 12,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-1-4-1.html#native-light-flash-83da9e70afaa5235",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -6476,14 +6488,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -6570,7 +6585,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 6,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-1-1-1.html#native-light-flash-899277166845f3f9",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -6584,14 +6599,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -6753,7 +6771,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 7,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-1-5-1.html#native-light-flash-5efb27434a79dfc0",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -6767,14 +6785,17 @@
         "drag": 0,
         "change": 4
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -6789,7 +6810,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 19,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-1-5-3.html#native-light-flash-7432e51fe4f636bd",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -6813,14 +6834,17 @@
         "drag": 0,
         "change": 11
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -6871,7 +6895,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 13,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-1-7-3.html#native-light-flash-a729c4c506b9a164",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -6895,14 +6919,17 @@
         "drag": 0,
         "change": 7
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -7156,7 +7183,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 10,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-1-3-1.html#native-light-flash-535584938ba80b5b",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -7180,14 +7207,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -7202,7 +7232,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 8,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-1-3-1.html#native-light-flash-55934d0ea7e9a946",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -7216,14 +7246,17 @@
         "drag": 0,
         "change": 3
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -7238,7 +7271,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 13,
-      "htmlHref": null,
+      "htmlHref": "lesson-6-1-3-1.html#native-light-flash-b47f4eb2c9da6bb8",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -7262,14 +7295,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -11572,7 +11608,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-2-3-3.html#native-light-flash-0e32ae567a748b4e",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -11586,14 +11622,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -11608,7 +11647,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-2-3-5.html#native-light-flash-08af4a11369a77e8",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -11622,14 +11661,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -11644,7 +11686,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-2-3-2.html#native-light-flash-8e0185e594f3d047",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -11658,14 +11700,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -11680,7 +11725,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-2-3-5.html#native-light-flash-8aac21c70c091246",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -11694,14 +11739,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -11752,7 +11800,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-2-11-1.html#native-light-flash-3b971cdc35ec073c",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -11766,14 +11814,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -11788,7 +11839,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-2-11-1.html#native-light-flash-a3ddf24ff4cb25ef",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -11802,14 +11853,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -15229,7 +15283,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 7,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-6-1.html#native-light-flash-b6c212fb0138e494",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -15253,14 +15307,17 @@
         "drag": 0,
         "change": 4
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -15389,7 +15446,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 7,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-6-2.html#native-light-flash-c7fdcdfe618cca96",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -15413,14 +15470,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -16304,7 +16364,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 14,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-2-2.html#native-light-flash-19b092331907af72",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -16337,14 +16397,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -16395,7 +16458,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 10,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-3-1.html#native-light-flash-2bd805d1d9628981",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -16419,14 +16482,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -16472,7 +16538,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 8,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-1-2.html#native-light-flash-9aaec2e3ba7ab1e1",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -16514,14 +16580,17 @@
         "drag": 0,
         "change": 6
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -16536,7 +16605,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 11,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-1-1-1.html#native-light-flash-29adfaf636482816",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -16560,14 +16629,17 @@
         "drag": 0,
         "change": 4
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -18799,7 +18871,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 7,
-      "htmlHref": null,
+      "htmlHref": "lesson-3-2-2-1.html#native-light-flash-453d1c11c2cab73a",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -18827,14 +18899,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/light-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original default/timed numerical samples; selected original slider drags at min/mid/max, lens dragging, spectrum toggle and original play/pause where listed. Twip-quantized geometry allows 0.050001 source units; scale allows .002. Original wave-pulse and lens output orders are preserved. Simultaneous controls, all event sequences and all-time visual equivalence are not exhausted."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

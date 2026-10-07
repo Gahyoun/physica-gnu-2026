@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-07T00:24:53.475Z",
+  "nativeModelHashes": {
+    "assets/native-fundamentals.mjs": "e957b5f6dcc828774d7be6afd325a6db15313779e1b973e328eaf814dc7c4fbb"
+  },
+  "scope": "Deterministic browser regression: first animation tick receives a timestamp 1–500 ms before the play handler. Frame must stay zero, then advance normally with finite state; Coulomb starts inside its boundary.",
+  "results": [
+    {
+      "id": "flash-8cd1b69a0017cc1c",
+      "offset": 1,
+      "afterFrame": 2,
+      "passed": true
+    },
+    {
+      "id": "flash-8cd1b69a0017cc1c",
+      "offset": 5,
+      "afterFrame": 2,
+      "passed": true
+    },
+    {
+      "id": "flash-8cd1b69a0017cc1c",
+      "offset": 20,
+      "afterFrame": 3,
+      "passed": true
+    },
+    {
+      "id": "flash-8cd1b69a0017cc1c",
+      "offset": 100,
+      "afterFrame": 3,
+      "passed": true
+    },
+    {
+      "id": "flash-8cd1b69a0017cc1c",
+      "offset": 500,
+      "afterFrame": 2,
+      "passed": true
+    },
+    {
+      "id": "flash-8cd1b69a0017cc1c",
+      "backdatedSamples": [
+        {
+          "offset": 1,
+          "frame": 0,
+          "finite": true
+        },
+        {
+          "offset": 5,
+          "frame": 0,
+          "finite": true
+        },
+        {
+          "offset": 20,
+          "frame": 0,
+          "finite": true
+        },
+        {
+          "offset": 100,
+          "frame": 0,
+          "finite": true
+        },
+        {
+          "offset": 500,
+          "frame": 0,
+          "finite": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
