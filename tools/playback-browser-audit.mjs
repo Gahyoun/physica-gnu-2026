@@ -35,7 +35,7 @@ try{await Promise.all(Array.from({length:Number(process.env.PHYSICA_PLAYBACK_WOR
   await page.setViewportSize({width,height:900});await page.goto((process.env.PHYSICA_BASE_URL||'http://127.0.0.1:8775/')+r.nativeHref);
   const anchor=r.nativeHref.split('#')[1],f=page.locator('#'+anchor),h=f.locator('[data-flash-native],[data-flash-timeline],[data-widget]').first();
   await h.scrollIntoViewIfNeeded();await page.waitForFunction(id=>{const h=document.getElementById(id)?.querySelector('[data-flash-native],[data-flash-timeline],[data-widget]');return h&&(h.dataset.nativeReady==='true'||h.dataset.widget&&h.querySelector('svg'));},anchor,{timeout:6000});
-  const play=h.locator(playSelector).first();if(!await play.count()||await play.isDisabled()){v.classification='static';v.passed=true;}
+  const play=h.locator(playSelector).first();if(!await play.count()||await play.isDisabled()){v.classification='static';v.frameControls=await h.locator(seekSelector).count();v.staticHasNoFrameBar=v.frameControls===0;if(!v.staticHasNoFrameBar)throw Error('Static model has a frame bar');v.passed=true;}
   else{
    v.defaultPlayback=await sampleMotion(h,play,page);let trial=v.defaultPlayback;
    // Source-authored default equilibria and a boundary stop must not be called broken.
