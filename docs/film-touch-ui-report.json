@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-08T12:35:24.639Z",
+  "base": "http://127.0.0.1:8775/",
+  "results": [
+    {
+      "type": "multilayer2",
+      "width": 320,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer3",
+      "width": 320,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer31",
+      "width": 320,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer4",
+      "width": 320,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer5",
+      "width": 320,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer6",
+      "width": 320,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer2",
+      "width": 768,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer3",
+      "width": 768,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer31",
+      "width": 768,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer4",
+      "width": 768,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer5",
+      "width": 768,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer6",
+      "width": 768,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer2",
+      "width": 1360,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer3",
+      "width": 1360,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer31",
+      "width": 1360,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer4",
+      "width": 1360,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer5",
+      "width": 1360,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    },
+    {
+      "type": "multilayer6",
+      "width": 1360,
+      "sourceInputChangesSpectrum": true,
+      "touchWavelength": true,
+      "bothCurves": true,
+      "reset": true,
+      "noTimePlayback": true
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "nativeModelHashes": {
+    "assets/native-expansion.mjs": "9a025d9c0b2727245065c948a1b39145e81067dff857ab276c7396102857bb75",
+    "assets/expansion-physics.mjs": "c4dcacfe60f669039e37d10f9ab12c3b7c55e3b12171a98c4aa406562a24a876",
+    "assets/expansion-specs.mjs": "851e6eb0aea808abc2733250e1279915113a50f586ec26f0a5f260607f2d9072",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "scope": "Actual pixel-rounded touch coordinates transformed by SVG screen CTM, 6 films at widths 320/768/1360; source input changes spectrum, tap changes observed wavelength, both curves, reset and no time-frame controls."
+}
