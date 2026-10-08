@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T12:01:42.745Z",
+  "date": "2026-10-08T12:19:05.818Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -19,7 +19,7 @@
     "assets/moire-controls.mjs": "c44440da93f658048e3e010f12af5799751ac7483b58666a1ae0abc49e01a970",
     "assets/scene-physics.mjs": "ca7c46f2a70cd69cba9336c5317221ee0bfce5756a23887debd4811211377a3a",
     "assets/scene-specs.mjs": "7712e3123e9d74aaf0448a3e6ecc5a7e5909086f50be77251419c5342a60a4a2",
-    "assets/native-chain.mjs": "a6925476cd97e102ea9f512490e7e43f99b74638f8192df5996db773a2cb53fc",
+    "assets/native-chain.mjs": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
     "assets/quantum-physics.mjs": "e5beba1ef9093a27890ebf248ba60af2d254ba39615c8c26fc9150e3edc018e5",
     "assets/quantum-specs.mjs": "15979194f35e3c65ca69ac2adf47aac17eff73b078f19e64a70002d047885413",
     "assets/light-physics.mjs": "f52b451dbcf24b6720f4fdd1c4f4f692c71770fcd9126c6525b323f9108c48c2",
@@ -2179,7 +2179,7 @@
         "passed": true,
         "comparisons": 16880,
         "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
-        "maxAbsoluteError": 0.04988605908926047
+        "maxAbsoluteError": 0.04856010792863685
       },
       "sliders": null,
       "rootTimeline": null
@@ -2224,7 +2224,7 @@
         "passed": true,
         "comparisons": 15144,
         "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
-        "maxAbsoluteError": 0.04951148757163537
+        "maxAbsoluteError": 0.04972057833717258
       },
       "sliders": null,
       "rootTimeline": null
@@ -5825,7 +5825,7 @@
         "passed": true,
         "comparisons": 824,
         "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
-        "maxAbsoluteError": 0.04818162949879934
+        "maxAbsoluteError": 0.04813434660530902
       },
       "sliders": null,
       "rootTimeline": null
@@ -8473,7 +8473,7 @@
         "passed": true,
         "comparisons": 1300,
         "scope": "All numeric scene geometry at default and original camera drags, including quadratic curve controls and projected point positions (0.05 px twip tolerance). Source artwork/text glyphs are redesigned. Finite slider tuples have their own explicit scope.",
-        "maxAbsoluteError": 0.049319080996809816
+        "maxAbsoluteError": 0.03969238715032475
       },
       "sliders": null,
       "rootTimeline": null
@@ -11653,7 +11653,7 @@
         "passed": true,
         "comparisons": 1280,
         "scope": "Actual original first-bob drag in both directions, followed by all ten particles compared for consecutive recurrence steps; source display coordinates retain 0.05 px quantization. Continuous multi-bob drag combinations are not exhausted.",
-        "maxAbsoluteError": 0.049987499999986085
+        "maxAbsoluteError": 0.049796767022655786
       },
       "sliders": null,
       "rootTimeline": null
