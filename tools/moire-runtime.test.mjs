@@ -34,7 +34,7 @@ test('Moire HTML gesture evidence covers all seven models and three display scal
  for(const v of r.results){assert.equal(v.passed,true);assert.deepEqual([...new Set(v.cases.map(c=>c.width))],[320,768,1360]);if(v.type==='moireint4')assert.ok(v.cases.every(c=>c.authoredSliderDomain));else assert.ok(v.cases.every(c=>c.originalWorldCoordinates));}
 });
 test('Collection coverage never promotes a finite subdomain to full-file equivalence',()=>{
- const r=read('docs/flash-combination-coverage.json'),m=read('src/flash-manifest.json');assert.equal(r.total,518);assert.equal(r.files.length,m.files.length);assert.equal(new Set(r.files.map(c=>c.id)).size,518);assert.equal(r.allFilesFullyCompared,false);assert.equal(r.fullyComparedFiles,0);assert.equal(r.legacySliderCandidates,125);assert.equal(r.finiteScopeChecks.length,5);
+ const r=read('docs/flash-combination-coverage.json'),m=read('src/flash-manifest.json');assert.equal(r.total,518);assert.equal(r.files.length,m.files.length);assert.equal(new Set(r.files.map(c=>c.id)).size,518);assert.equal(r.allFilesFullyCompared,false);assert.equal(r.fullyComparedFiles,0);assert.equal(r.legacySliderCandidates,125);assert.equal(r.finiteScopeChecks.length,6);
  for(const e of r.finiteScopeChecks){assert.equal(e.passed,true);assert.equal(e.complete,true);assert.equal(e.expected,e.observed);assert.ok(e.scope);}
  for(const e of r.files){assert.equal(e.sha256,m.files.find(v=>v.id===e.id).sha256);assert.equal(e.sourceSha256Verified,true);assert.equal(e.fullEquivalence,false);assert.equal(e.finiteDomainsComplete,false);assert.equal(e.allFiniteInputCombinationsCompared,false);assert.equal(e.allEventTransitionsCompared,false);assert.equal(e.continuousInputsProvenEquivalent,false);assert.ok(e.remaining.length);}
 });

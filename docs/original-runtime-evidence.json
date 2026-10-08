@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T12:55:01.520Z",
+  "date": "2026-10-08T13:25:48.860Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -41,18 +41,20 @@
     "assets/aperture-physics.mjs": "1522144b0f851109aac258801e4babe2d3b5c816b7d60a04a78e1ae543049503",
     "assets/aperture-specs.mjs": "adc2bf3d5554755a28ee3ea518f45c5bb2a07b3e3307e6892eb7a40357d3872a",
     "assets/matrix-physics.mjs": "29ebf6f6ed614ba8427ef6d77f5032ed91e1b0004c0cf4027d1ec5816e520f17",
-    "assets/matrix-specs.mjs": "b24f88bab59a475e430536c5ded5b0bde5ce50b412122a1197ed89367db528a7"
+    "assets/matrix-specs.mjs": "b24f88bab59a475e430536c5ded5b0bde5ce50b412122a1197ed89367db528a7",
+    "assets/interferometer-physics.mjs": "80659d8e81f8af802427c604a1fbc6f6e4013bac0103233d5a02695ce57f3a95",
+    "assets/interferometer-specs.mjs": "ba0087e5bae5ba982a2429fadccc8ffa214e535bbf2c1a2ddd4c926a02f93f04"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 210,
-  "numericalFilesPassed": 210,
-  "numericalSampleComparisons": 655483,
+  "numericalFiles": 212,
+  "numericalFilesPassed": 212,
+  "numericalSampleComparisons": 656736,
   "combinationComparisons": 198600,
-  "numericalComparisons": 854083,
-  "finiteCombinationScopes": 5,
-  "finiteCombinationScopesPassed": 5,
+  "numericalComparisons": 855336,
+  "finiteCombinationScopes": 6,
+  "finiteCombinationScopesPassed": 6,
   "rootTimelineFiles": 29,
   "rootTimelineFilesPassed": 29,
   "rootTimelineFrames": 805,
@@ -7147,7 +7149,14 @@
         "clickProbes": 4,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/interferometer-runtime-report.json",
+        "sha256": "584dd9577d9eb8266ff57534dc394964806dd07af63402b10f8d3dcbb07040af",
+        "passed": true,
+        "comparisons": 544,
+        "scope": "Actual original min/mid/max pointer drags on both sliders, downstream mirror geometry and moving ball coordinates across 36 timed windows; plane/wavefront buttons. One twip (.05 original pixel) tolerance for display-object coordinates; underlying unrounded functions are separately source-tested. Native allows exact declared endpoints and starts paused. Not every slider-pair combination, original drawn wavefront pixels or all event histories.",
+        "maxAbsoluteError": 0.03995929783164076
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "584dd9577d9eb8266ff57534dc394964806dd07af63402b10f8d3dcbb07040af",
@@ -7277,7 +7286,18 @@
       "id": "flash-e0a9be444c2273af",
       "sha256": "322c511d35b230d3954878c16b37fc9af874b5f3a8b53328a5fc0ad2e717a205",
       "fullEquivalence": false,
-      "finiteCombinationEvidence": [],
+      "finiteCombinationEvidence": [
+        {
+          "report": "docs/interferometer-runtime-report.json",
+          "sha256": "322c511d35b230d3954878c16b37fc9af874b5f3a8b53328a5fc0ad2e717a205",
+          "passed": true,
+          "expected": 21,
+          "observed": 21,
+          "complete": true,
+          "scope": "Single original wavelength slider: all 21 discrete values, static initialized phase. Timed playback sampled separately; not all time phases/event histories.",
+          "comparisonsIncludedInPrimaryNumerical": true
+        }
+      ],
       "originalPlayback": {
         "report": "docs/flash-runtime-report.json",
         "sha256": "322c511d35b230d3954878c16b37fc9af874b5f3a8b53328a5fc0ad2e717a205",
@@ -7288,7 +7308,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/interferometer-runtime-report.json",
+        "sha256": "322c511d35b230d3954878c16b37fc9af874b5f3a8b53328a5fc0ad2e717a205",
+        "passed": true,
+        "comparisons": 709,
+        "scope": "All 21 original wavelength values reached using real lower-stop drag then 20 increment-button clicks. Each last-drawn original amplitude and wavelength, 16 pure getN samples; original start, 15 naturally advancing phase windows and pause. Numeric amplitude tolerance 1e-8. All drawn pixels, every unbounded phase and all input event histories remain outside scope.",
+        "maxAbsoluteError": 2.886579864025407e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },

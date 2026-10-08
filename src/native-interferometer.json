@@ -1,0 +1,57 @@
+[
+  {
+    "id": "flash-d5e8fdefecec59bb",
+    "type": "michelson",
+    "title": "마이컬슨 간섭계의 간섭의 원리",
+    "source": "michelsonsim.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/interference/interference/michelsonsim.swf",
+    "lesson": "5-4-1-2",
+    "animated": true,
+    "timeMax": 60,
+    "fps": 5,
+    "controls": [
+      {
+        "key": "shift",
+        "label": "거울의 수평 이동 · 원본 눈금",
+        "min": -20,
+        "max": 20,
+        "step": 0.1,
+        "value": 0,
+        "clip": "slider"
+      },
+      {
+        "key": "tilt",
+        "label": "거울 기울기 / °",
+        "min": -10,
+        "max": 10,
+        "step": 0.1,
+        "value": 0,
+        "clip": "slider2"
+      }
+    ],
+    "note": "광원에서 갈라진 두 광선과 두 가상광원의 파면을 비교합니다. 파면은 원본처럼 간격 3의 도식이며 실제 파장 단위가 아닙니다. 아래 그래프는 같은 계산 단계의 광선 위치입니다."
+  },
+  {
+    "id": "flash-e0a9be444c2273af",
+    "type": "highref",
+    "title": "고반사 박막의 구조와 작동 원리",
+    "source": "highref.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/interference/multiinter/highref.swf",
+    "lesson": "5-4-5-3",
+    "animated": true,
+    "timeMax": 126,
+    "fps": 10,
+    "controls": [
+      {
+        "key": "wavelength",
+        "label": "입사 파장 · 원본 슬라이더 눈금",
+        "min": 50,
+        "max": 150,
+        "step": 5,
+        "value": 100,
+        "clip": "wavelengthSlider"
+      }
+    ],
+    "note": "n = 2와 n = 1.25인 층을 교대로 통과하며 일곱 경계에서 나온 반사파를 비교합니다. 반사파의 감쇠를 생략한 원본의 위상 교육 모형입니다. 아래 합성 그래프를 박막의 실제 반사율로 해석하지 않습니다."
+  }
+]

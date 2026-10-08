@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-08T13:22:32.503Z",
+  "nativeModelHashes": {
+    "assets/interferometer-physics.mjs": "80659d8e81f8af802427c604a1fbc6f6e4013bac0103233d5a02695ce57f3a95",
+    "assets/interferometer-specs.mjs": "ba0087e5bae5ba982a2429fadccc8ffa214e535bbf2c1a2ddd4c926a02f93f04"
+  },
+  "method": "Independent private original ActionScript VM; original mirror/ball/wavefront functions and getN/runthis, with only MovieClip drawing stubbed to record numeric endpoints",
+  "files": 2,
+  "comparisons": 613532,
+  "results": [
+    {
+      "id": "flash-d5e8fdefecec59bb",
+      "type": "michelson",
+      "comparisons": 215897,
+      "cases": 629,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 401 horizontal values with default tilt, all 201 tilt values with default shift, 9 min/default/max crossed conditions; each full 60-callback cycle and mirror/virtual-image geometry. Both plane/spherical wavefront commands in 9 crossed conditions. Not every product of the two slider lattices or event history.",
+      "passed": true
+    },
+    {
+      "id": "flash-e0a9be444c2273af",
+      "type": "highref",
+      "comparisons": 397635,
+      "cases": 105,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 21 original slider values × 5 phase samples, every original incident/reflected segment endpoint and final amplitude. Model omits attenuation as original. New smooth SVG curves connect those endpoints; sum-time plot is supplemental, not reflectance.",
+      "passed": true
+    }
+  ]
+}

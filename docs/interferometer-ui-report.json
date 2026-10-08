@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-08T13:23:02.321Z",
+  "nativeModelHashes": {
+    "assets/interferometer-physics.mjs": "80659d8e81f8af802427c604a1fbc6f6e4013bac0103233d5a02695ce57f3a95",
+    "assets/interferometer-specs.mjs": "ba0087e5bae5ba982a2429fadccc8ffa214e535bbf2c1a2ddd4c926a02f93f04",
+    "assets/native-interferometer.mjs": "fc0524e69293db99cd951bd449da26088e8f83d3c14d26c1a626eaa58dab918a",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/optical-source-markers.mjs": "f61fd1c10d24fad4b9d3f2572c8a15b60aaba389557dc68420afe30f455ca949",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "scope": "Two models × 320/768/1360; each native input min/default/max, plane and spherical wavefronts / all seven reflection selections, actual SVG motion play/pause/end replay, fixed lower progress, same-stage graph, current CSV including backward seek, source markers, vector-only, .65 curve opacity, dark/light and overflow.",
+  "results": [
+    {
+      "id": "flash-d5e8fdefecec59bb",
+      "type": "michelson",
+      "width": 320,
+      "states": 11,
+      "passed": true,
+      "playPauseMoves": true,
+      "endReplayAndFixedProgress": true,
+      "csvCurrent": true,
+      "darkLightAndMobileFit": true
+    },
+    {
+      "id": "flash-e0a9be444c2273af",
+      "type": "highref",
+      "width": 320,
+      "states": 13,
+      "passed": true,
+      "playPauseMoves": true,
+      "endReplayAndFixedProgress": true,
+      "csvCurrent": true,
+      "darkLightAndMobileFit": true
+    },
+    {
+      "id": "flash-d5e8fdefecec59bb",
+      "type": "michelson",
+      "width": 768,
+      "states": 11,
+      "passed": true,
+      "playPauseMoves": true,
+      "endReplayAndFixedProgress": true,
+      "csvCurrent": true,
+      "darkLightAndMobileFit": true
+    },
+    {
+      "id": "flash-e0a9be444c2273af",
+      "type": "highref",
+      "width": 768,
+      "states": 13,
+      "passed": true,
+      "playPauseMoves": true,
+      "endReplayAndFixedProgress": true,
+      "csvCurrent": true,
+      "darkLightAndMobileFit": true
+    },
+    {
+      "id": "flash-d5e8fdefecec59bb",
+      "type": "michelson",
+      "width": 1360,
+      "states": 11,
+      "passed": true,
+      "playPauseMoves": true,
+      "endReplayAndFixedProgress": true,
+      "csvCurrent": true,
+      "darkLightAndMobileFit": true
+    },
+    {
+      "id": "flash-e0a9be444c2273af",
+      "type": "highref",
+      "width": 1360,
+      "states": 13,
+      "passed": true,
+      "playPauseMoves": true,
+      "endReplayAndFixedProgress": true,
+      "csvCurrent": true,
+      "darkLightAndMobileFit": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

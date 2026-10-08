@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T12:55:01.961Z",
+  "date": "2026-10-08T13:28:25.308Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -39,6 +39,17 @@
       "observed": 25,
       "complete": true,
       "scope": "All 25 n1,n2 mode selections through original checkbox clicks, nine wave positions at sampled original times. Play/pause transitions and continuous time histories are separate; no claim of full waveform/runtime equivalence.",
+      "comparisonsIncludedInPrimaryNumerical": true
+    },
+    {
+      "id": "flash-e0a9be444c2273af",
+      "report": "docs/interferometer-runtime-report.json",
+      "sha256": "322c511d35b230d3954878c16b37fc9af874b5f3a8b53328a5fc0ad2e717a205",
+      "passed": true,
+      "expected": 21,
+      "observed": 21,
+      "complete": true,
+      "scope": "Single original wavelength slider: all 21 discrete values, static initialized phase. Timed playback sampled separately; not all time phases/event histories.",
       "comparisonsIncludedInPrimaryNumerical": true
     },
     {
@@ -13097,7 +13108,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 15,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-4-1-2.html#native-interferometer-flash-d5e8fdefecec59bb",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -13138,14 +13149,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/interferometer-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original min/mid/max pointer drags on both sliders, downstream mirror geometry and moving ball coordinates across 36 timed windows; plane/wavefront buttons. One twip (.05 original pixel) tolerance for display-object coordinates; underlying unrounded functions are separately source-tested. Native allows exact declared endpoints and starts paused. Not every slider-pair combination, original drawn wavefront pixels or all event histories."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -13350,7 +13364,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 9,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-4-5-3.html#native-interferometer-flash-e0a9be444c2273af",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -13374,14 +13388,17 @@
         "drag": 0,
         "change": 5
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/interferometer-runtime-report.json",
+        "passed": true,
+        "scope": "All 21 original wavelength values reached using real lower-stop drag then 20 increment-button clicks. Each last-drawn original amplitude and wavelength, 16 pure getN samples; original start, 15 naturally advancing phase windows and pause. Numeric amplitude tolerance 1e-8. All drawn pixels, every unbounded phase and all input event histories remain outside scope."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

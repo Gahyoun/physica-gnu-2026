@@ -1,0 +1,969 @@
+{
+  "date": "2026-10-08T13:24:05.578Z",
+  "nativeModelHashes": {
+    "assets/interferometer-physics.mjs": "80659d8e81f8af802427c604a1fbc6f6e4013bac0103233d5a02695ce57f3a95",
+    "assets/interferometer-specs.mjs": "ba0087e5bae5ba982a2429fadccc8ffa214e535bbf2c1a2ddd4c926a02f93f04"
+  },
+  "method": "Actual original Ruffle with read-only AVM1 observers; unchanged original callbacks, pointer controls and wave calculation",
+  "files": 2,
+  "comparisons": 1253,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-d5e8fdefecec59bb",
+      "type": "michelson",
+      "sha256": "584dd9577d9eb8266ff57534dc394964806dd07af63402b10f8d3dcbb07040af",
+      "sha256Verified": true,
+      "comparisons": 544,
+      "maxAbsoluteError": 0.03995929783164076,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup",
+          "parameters": {
+            "shift": 0,
+            "tilt": 0
+          },
+          "time": 5,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider drag 0",
+          "parameters": {
+            "shift": -20,
+            "tilt": 0
+          },
+          "time": 7,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0 0",
+          "parameters": {
+            "shift": -20,
+            "tilt": 0
+          },
+          "time": 11,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0 1",
+          "parameters": {
+            "shift": -20,
+            "tilt": 0
+          },
+          "time": 15,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0 2",
+          "parameters": {
+            "shift": -20,
+            "tilt": 0
+          },
+          "time": 19,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0 3",
+          "parameters": {
+            "shift": -20,
+            "tilt": 0
+          },
+          "time": 23,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0 4",
+          "parameters": {
+            "shift": -20,
+            "tilt": 0
+          },
+          "time": 27,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0 5",
+          "parameters": {
+            "shift": -20,
+            "tilt": 0
+          },
+          "time": 31,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider drag 0.5",
+          "parameters": {
+            "shift": 0,
+            "tilt": 0
+          },
+          "time": 7,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0.5 0",
+          "parameters": {
+            "shift": 0,
+            "tilt": 0
+          },
+          "time": 11,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0.5 1",
+          "parameters": {
+            "shift": 0,
+            "tilt": 0
+          },
+          "time": 15,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0.5 2",
+          "parameters": {
+            "shift": 0,
+            "tilt": 0
+          },
+          "time": 19,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0.5 3",
+          "parameters": {
+            "shift": 0,
+            "tilt": 0
+          },
+          "time": 23,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0.5 4",
+          "parameters": {
+            "shift": 0,
+            "tilt": 0
+          },
+          "time": 27,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 0.5 5",
+          "parameters": {
+            "shift": 0,
+            "tilt": 0
+          },
+          "time": 31,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider drag 1",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 7,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 1 0",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 11,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 1 1",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 15,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 1 2",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 19,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 1 3",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 23,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 1 4",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 27,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider timed 1 5",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 31,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 drag 0",
+          "parameters": {
+            "shift": 20,
+            "tilt": -10
+          },
+          "time": 7,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0 0",
+          "parameters": {
+            "shift": 20,
+            "tilt": -10
+          },
+          "time": 11,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0 1",
+          "parameters": {
+            "shift": 20,
+            "tilt": -10
+          },
+          "time": 15,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0 2",
+          "parameters": {
+            "shift": 20,
+            "tilt": -10
+          },
+          "time": 19,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0 3",
+          "parameters": {
+            "shift": 20,
+            "tilt": -10
+          },
+          "time": 23,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0 4",
+          "parameters": {
+            "shift": 20,
+            "tilt": -10
+          },
+          "time": 27,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0 5",
+          "parameters": {
+            "shift": 20,
+            "tilt": -10
+          },
+          "time": 31,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 drag 0.5",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 7,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0.5 0",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 11,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0.5 1",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 15,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0.5 2",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 19,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0.5 3",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 23,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0.5 4",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 27,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 0.5 5",
+          "parameters": {
+            "shift": 20,
+            "tilt": 0
+          },
+          "time": 31,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 drag 1",
+          "parameters": {
+            "shift": 20,
+            "tilt": 10
+          },
+          "time": 8,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 1 0",
+          "parameters": {
+            "shift": 20,
+            "tilt": 10
+          },
+          "time": 12,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 1 1",
+          "parameters": {
+            "shift": 20,
+            "tilt": 10
+          },
+          "time": 16,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 1 2",
+          "parameters": {
+            "shift": 20,
+            "tilt": 10
+          },
+          "time": 20,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 1 3",
+          "parameters": {
+            "shift": 20,
+            "tilt": 10
+          },
+          "time": 24,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 1 4",
+          "parameters": {
+            "shift": 20,
+            "tilt": 10
+          },
+          "time": 28,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "slider2 timed 1 5",
+          "parameters": {
+            "shift": 20,
+            "tilt": 10
+          },
+          "time": 32,
+          "plane": false,
+          "waves": false
+        },
+        {
+          "label": "plane selected",
+          "parameters": {
+            "shift": 20,
+            "tilt": 10
+          },
+          "time": 36,
+          "plane": true,
+          "waves": false
+        },
+        {
+          "label": "waves selected",
+          "parameters": {
+            "shift": 20,
+            "tilt": 10
+          },
+          "time": 40,
+          "plane": true,
+          "waves": true
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original drag",
+          "key": "shift",
+          "fraction": 0,
+          "nominal": -20,
+          "observed": -20,
+          "downstream": -20,
+          "passed": true
+        },
+        {
+          "kind": "original drag",
+          "key": "shift",
+          "fraction": 0.5,
+          "nominal": 0,
+          "observed": 0,
+          "downstream": 0,
+          "passed": true
+        },
+        {
+          "kind": "original drag",
+          "key": "shift",
+          "fraction": 1,
+          "nominal": 20,
+          "observed": 20,
+          "downstream": 20,
+          "passed": true
+        },
+        {
+          "kind": "original drag",
+          "key": "tilt",
+          "fraction": 0,
+          "nominal": -10,
+          "observed": -10,
+          "downstream": -10,
+          "passed": true
+        },
+        {
+          "kind": "original drag",
+          "key": "tilt",
+          "fraction": 0.5,
+          "nominal": 0,
+          "observed": 0,
+          "downstream": 0,
+          "passed": true
+        },
+        {
+          "kind": "original drag",
+          "key": "tilt",
+          "fraction": 1,
+          "nominal": 10,
+          "observed": 10,
+          "downstream": 10,
+          "passed": true
+        },
+        {
+          "kind": "plane toggle",
+          "observed": true,
+          "passed": true
+        },
+        {
+          "kind": "wavefront toggle",
+          "observed": true,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original min/mid/max pointer drags on both sliders, downstream mirror geometry and moving ball coordinates across 36 timed windows; plane/wavefront buttons. One twip (.05 original pixel) tolerance for display-object coordinates; underlying unrounded functions are separately source-tested. Native allows exact declared endpoints and starts paused. Not every slider-pair combination, original drawn wavefront pixels or all event histories.",
+      "passed": true
+    },
+    {
+      "id": "flash-e0a9be444c2273af",
+      "type": "highref",
+      "sha256": "322c511d35b230d3954878c16b37fc9af874b5f3a8b53328a5fc0ad2e717a205",
+      "sha256Verified": true,
+      "comparisons": 709,
+      "maxAbsoluteError": 2.886579864025407e-15,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup",
+          "value": 100,
+          "sec": 2.617993875,
+          "amp": -0.358368022644189,
+          "playing": false
+        },
+        {
+          "label": "selected 50",
+          "value": 50,
+          "sec": 5.23598775,
+          "amp": 0.669130682909689,
+          "playing": false
+        },
+        {
+          "label": "selected 55",
+          "value": 55,
+          "sec": 4.75998886363636,
+          "amp": -0.998867343870612,
+          "playing": false
+        },
+        {
+          "label": "selected 60",
+          "value": 60,
+          "sec": 4.363323125,
+          "amp": 0.996194689831747,
+          "playing": false
+        },
+        {
+          "label": "selected 65",
+          "value": 65,
+          "sec": 4.02768288461538,
+          "amp": -0.960518137117411,
+          "playing": false
+        },
+        {
+          "label": "selected 70",
+          "value": 70,
+          "sec": 3.73999125,
+          "amp": 0.500000076980613,
+          "playing": false
+        },
+        {
+          "label": "selected 75",
+          "value": 75,
+          "sec": 3.4906585,
+          "amp": 0.529919190846433,
+          "playing": false
+        },
+        {
+          "label": "selected 80",
+          "value": 80,
+          "sec": 3.27249234375,
+          "amp": -0.946930156649302,
+          "playing": false
+        },
+        {
+          "label": "selected 85",
+          "value": 85,
+          "sec": 3.07999279411765,
+          "amp": -0.303152595342703,
+          "playing": false
+        },
+        {
+          "label": "selected 90",
+          "value": 90,
+          "sec": 2.90888208333333,
+          "amp": 0.893632676696364,
+          "playing": false
+        },
+        {
+          "label": "selected 95",
+          "value": 95,
+          "sec": 2.75578302631579,
+          "amp": 0.697296744037981,
+          "playing": false
+        },
+        {
+          "label": "selected 100",
+          "value": 100,
+          "sec": 2.617993875,
+          "amp": -0.358368022644189,
+          "playing": false
+        },
+        {
+          "label": "selected 105",
+          "value": 105,
+          "sec": 2.4933275,
+          "amp": -0.984807766404445,
+          "playing": false
+        },
+        {
+          "label": "selected 110",
+          "value": 110,
+          "sec": 2.37999443181818,
+          "amp": -0.723733985622372,
+          "playing": false
+        },
+        {
+          "label": "selected 115",
+          "value": 115,
+          "sec": 2.27651641304348,
+          "amp": 0.0455146741316042,
+          "playing": false
+        },
+        {
+          "label": "selected 120",
+          "value": 120,
+          "sec": 2.1816615625,
+          "amp": 0.737277386926257,
+          "playing": false
+        },
+        {
+          "label": "selected 125",
+          "value": 125,
+          "sec": 2.0943951,
+          "amp": 0.99978068501113,
+          "playing": false
+        },
+        {
+          "label": "selected 130",
+          "value": 130,
+          "sec": 2.01384144230769,
+          "amp": 0.799442719791234,
+          "playing": false
+        },
+        {
+          "label": "selected 135",
+          "value": 135,
+          "sec": 1.93925472222222,
+          "amp": 0.305325929234855,
+          "playing": false
+        },
+        {
+          "label": "selected 140",
+          "value": 140,
+          "sec": 1.869995625,
+          "amp": -0.258819113914761,
+          "playing": false
+        },
+        {
+          "label": "selected 145",
+          "value": 145,
+          "sec": 1.80551301724138,
+          "amp": -0.713461383148958,
+          "playing": false
+        },
+        {
+          "label": "selected 150",
+          "value": 150,
+          "sec": 1.74532925,
+          "amp": -0.96126171525026,
+          "playing": false
+        },
+        {
+          "label": "natural phase 0",
+          "value": 150,
+          "sec": 2.34532925,
+          "amp": -0.949000049165808,
+          "playing": true
+        },
+        {
+          "label": "natural phase 1",
+          "value": 150,
+          "sec": 2.54532925,
+          "amp": -0.867447574215126,
+          "playing": true
+        },
+        {
+          "label": "natural phase 2",
+          "value": 150,
+          "sec": 2.84532925,
+          "amp": -0.681674565902654,
+          "playing": true
+        },
+        {
+          "label": "natural phase 3",
+          "value": 150,
+          "sec": 3.04532925,
+          "amp": -0.52272894834083,
+          "playing": true
+        },
+        {
+          "label": "natural phase 4",
+          "value": 150,
+          "sec": 3.34532925,
+          "amp": -0.247451374674889,
+          "playing": true
+        },
+        {
+          "label": "natural phase 5",
+          "value": 150,
+          "sec": 3.54532925,
+          "amp": -0.0500280451032759,
+          "playing": true
+        },
+        {
+          "label": "natural phase 6",
+          "value": 150,
+          "sec": 3.84532925,
+          "amp": 0.24735654324167,
+          "playing": true
+        },
+        {
+          "label": "natural phase 7",
+          "value": 150,
+          "sec": 4.04532925,
+          "amp": 0.434921468364615,
+          "playing": true
+        },
+        {
+          "label": "natural phase 8",
+          "value": 150,
+          "sec": 4.34532925,
+          "amp": 0.681602952511627,
+          "playing": true
+        },
+        {
+          "label": "natural phase 9",
+          "value": 150,
+          "sec": 4.54532925,
+          "amp": 0.813387037960353,
+          "playing": true
+        },
+        {
+          "label": "natural phase 10",
+          "value": 150,
+          "sec": 4.84532925,
+          "amp": 0.948969187272721,
+          "playing": true
+        },
+        {
+          "label": "natural phase 11",
+          "value": 150,
+          "sec": 5.04532925,
+          "amp": 0.992707092798725,
+          "playing": true
+        },
+        {
+          "label": "natural phase 12",
+          "value": 150,
+          "sec": 5.34532925,
+          "amp": 0.983994668532014,
+          "playing": true
+        },
+        {
+          "label": "natural phase 13",
+          "value": 150,
+          "sec": 5.54532925,
+          "amp": 0.928977829449746,
+          "playing": true
+        },
+        {
+          "label": "natural phase 14",
+          "value": 150,
+          "sec": 5.84532925,
+          "amp": 0.778103936920864,
+          "playing": true
+        },
+        {
+          "label": "paused",
+          "value": 150,
+          "sec": 5.84532925,
+          "amp": 0.778103936920864,
+          "playing": false
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original slider value",
+          "target": 50,
+          "observed": 50,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 55,
+          "observed": 55,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 60,
+          "observed": 60,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 65,
+          "observed": 65,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 70,
+          "observed": 70,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 75,
+          "observed": 75,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 80,
+          "observed": 80,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 85,
+          "observed": 85,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 90,
+          "observed": 90,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 95,
+          "observed": 95,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 100,
+          "observed": 100,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 105,
+          "observed": 105,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 110,
+          "observed": 110,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 115,
+          "observed": 115,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 120,
+          "observed": 120,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 125,
+          "observed": 125,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 130,
+          "observed": 130,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 135,
+          "observed": 135,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 140,
+          "observed": 140,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 145,
+          "observed": 145,
+          "passed": true
+        },
+        {
+          "kind": "original slider value",
+          "target": 150,
+          "observed": 150,
+          "passed": true
+        },
+        {
+          "kind": "start",
+          "passed": true
+        },
+        {
+          "kind": "phase advances",
+          "passed": true
+        },
+        {
+          "kind": "pause",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "finiteInputCombinations": {
+        "expected": 21,
+        "observed": 21,
+        "complete": true,
+        "scope": "Single original wavelength slider: all 21 discrete values, static initialized phase. Timed playback sampled separately; not all time phases/event histories."
+      },
+      "scope": "All 21 original wavelength values reached using real lower-stop drag then 20 increment-button clicks. Each last-drawn original amplitude and wavelength, 16 pure getN samples; original start, 15 naturally advancing phase windows and pause. Numeric amplitude tolerance 1e-8. All drawn pixels, every unbounded phase and all input event histories remain outside scope.",
+      "passed": true
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-08T12:59:55.411Z",
+  "date": "2026-10-08T13:28:24.995Z",
   "total": 518,
-  "htmlImplemented": 278,
-  "htmlPending": 240,
+  "htmlImplemented": 280,
+  "htmlPending": 238,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 834,
-    "observed": 834,
+    "expected": 840,
+    "observed": 840,
     "viewports": [
       320,
       768,
@@ -22,11 +22,11 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 210,
-    "numericalComparisons": 854083,
-    "numericalSampleComparisons": 655483,
+    "numericalFilesPassed": 212,
+    "numericalComparisons": 855336,
+    "numericalSampleComparisons": 656736,
     "additionalCombinationComparisons": 198600,
-    "finiteCombinationScopesPassed": 5,
+    "finiteCombinationScopesPassed": 6,
     "rootTimelineFilesPassed": 29,
     "rootTimelineFrames": 805,
     "sliderEndpointChecks": 250,
@@ -14514,17 +14514,26 @@
       "actionScript": 2,
       "scriptFiles": 15,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-1-2.html#native-interferometer-flash-d5e8fdefecec59bb",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-d5e8fdefecec59bb",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 544,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14534,12 +14543,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM; original mirror/ball/wavefront functions and getN/runthis, with only MovieClip drawing stubbed to record numeric endpoints",
+        "comparisons": 215897,
+        "maxAbsoluteError": 1.1368683772161603e-13,
+        "scope": "All 401 horizontal values with default tilt, all 201 tilt values with default shift, 9 min/default/max crossed conditions; each full 60-callback cycle and mirror/virtual-image geometry. Both plane/spherical wavefront commands in 9 crossed conditions. Not every product of the two slider lattices or event history.",
+        "report": "docs/interferometer-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/interferometer-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-f3d6af90718a32d1",
@@ -14772,18 +14793,38 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-4-5-3.html#native-interferometer-flash-e0a9be444c2273af",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e0a9be444c2273af",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
-        "finiteCombinationEvidence": [],
+        "numericalPassed": true,
+        "numericalComparisons": 709,
+        "finiteCombinationEvidence": [
+          {
+            "report": "docs/interferometer-runtime-report.json",
+            "sha256": "322c511d35b230d3954878c16b37fc9af874b5f3a8b53328a5fc0ad2e717a205",
+            "passed": true,
+            "expected": 21,
+            "observed": 21,
+            "complete": true,
+            "scope": "Single original wavelength slider: all 21 discrete values, static initialized phase. Timed playback sampled separately; not all time phases/event histories.",
+            "comparisonsIncludedInPrimaryNumerical": true
+          }
+        ],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
         "sliderEndpointChecks": 0,
@@ -14792,12 +14833,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM; original mirror/ball/wavefront functions and getN/runthis, with only MovieClip drawing stubbed to record numeric endpoints",
+        "comparisons": 397635,
+        "maxAbsoluteError": 1.1368683772161603e-13,
+        "scope": "All 21 original slider values × 5 phase samples, every original incident/reflected segment endpoint and final amplitude. Model omits attenuation as original. New smooth SVG curves connect those endpoints; sum-time plot is supplemental, not reflectance.",
+        "report": "docs/interferometer-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/interferometer-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-fbe18387787bdd59",
