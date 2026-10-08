@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T13:25:48.860Z",
+  "date": "2026-10-08T14:47:03.943Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -43,16 +43,18 @@
     "assets/matrix-physics.mjs": "29ebf6f6ed614ba8427ef6d77f5032ed91e1b0004c0cf4027d1ec5816e520f17",
     "assets/matrix-specs.mjs": "b24f88bab59a475e430536c5ded5b0bde5ce50b412122a1197ed89367db528a7",
     "assets/interferometer-physics.mjs": "80659d8e81f8af802427c604a1fbc6f6e4013bac0103233d5a02695ce57f3a95",
-    "assets/interferometer-specs.mjs": "ba0087e5bae5ba982a2429fadccc8ffa214e535bbf2c1a2ddd4c926a02f93f04"
+    "assets/interferometer-specs.mjs": "ba0087e5bae5ba982a2429fadccc8ffa214e535bbf2c1a2ddd4c926a02f93f04",
+    "assets/polarizer-physics.mjs": "074b4c174e9c6d1e10e9199eda7ccdee8f7a9c0401319a7e13eda865a72766f8",
+    "assets/polarizer-specs.mjs": "6109ba2e24096ef553132ca55fe174a8c63cb8e9bafed80ff393b1f94f79a841"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 212,
-  "numericalFilesPassed": 212,
-  "numericalSampleComparisons": 656736,
+  "numericalFiles": 215,
+  "numericalFilesPassed": 215,
+  "numericalSampleComparisons": 690257,
   "combinationComparisons": 198600,
-  "numericalComparisons": 855336,
+  "numericalComparisons": 888857,
   "finiteCombinationScopes": 6,
   "finiteCombinationScopesPassed": 6,
   "rootTimelineFiles": 29,
@@ -10003,7 +10005,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarizer-runtime-report.json",
+        "sha256": "39cbfed2137a9e0e4aa76c3b7b2ce11d6c762b702519e597810b8711777bcd9a",
+        "passed": true,
+        "comparisons": 1033,
+        "scope": "Actual original settled default, angle slider min/mid/max via real pointer drags, original 3D view drag, every source 3D vertex and projected text anchor. Source negative-angle rounding truncates toward zero; native allows exact nominal -90° endpoint. No claim of every runtime angle or drag history.",
+        "maxAbsoluteError": 0.04913138844290188
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "39cbfed2137a9e0e4aa76c3b7b2ce11d6c762b702519e597810b8711777bcd9a",
@@ -10050,7 +10059,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarizer-runtime-report.json",
+        "sha256": "868e9deef86b6e1678d03e9a73691ba6cb0aa8094c43a60209ddf64f26d20406",
+        "passed": true,
+        "comparisons": 1303,
+        "scope": "Actual original settled default, angle slider min/mid/max via real pointer drags, original 3D view drag, every source 3D vertex and projected text anchor. Source negative-angle rounding truncates toward zero; native allows exact nominal -90° endpoint. No claim of every runtime angle or drag history.",
+        "maxAbsoluteError": 0.04512245046504404
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "868e9deef86b6e1678d03e9a73691ba6cb0aa8094c43a60209ddf64f26d20406",
@@ -10078,7 +10094,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/polarizer-runtime-report.json",
+        "sha256": "73aef4507397f49b7f78b4ee0e5c8ed48febb5750dc6127f8c4c75ba87c7bdb6",
+        "passed": true,
+        "comparisons": 31185,
+        "scope": "Natural original clock across at least one full 75-second two-polarization cycle; every field/current display transform, both electron positions and scattering alpha in sampled windows, including both fade/hidden intervals. One twip tolerance on display positions and original alpha quantization to 1/256; no forced clock/inputs. All 450 numerical callbacks independently source-tested. Native starts paused and calculates t=0 immediately; original starts autoplay with template clips.",
+        "maxAbsoluteError": 0.04999771432285627
+      },
       "sliders": null,
       "rootTimeline": null
     },

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-08T14:43:55.698Z",
+  "nativeModelHashes": {
+    "assets/polarizer-physics.mjs": "074b4c174e9c6d1e10e9199eda7ccdee8f7a9c0401319a7e13eda865a72766f8",
+    "assets/polarizer-specs.mjs": "6109ba2e24096ef553132ca55fe174a8c63cb8e9bafed80ff393b1f94f79a841"
+  },
+  "method": "Independent private original ActionScript VM; geometry construction, angle callbacks and complete wiregrid numerical cycle; display drawing stubbed",
+  "files": 3,
+  "comparisons": 163575,
+  "results": [
+    {
+      "id": "flash-a89e23ac41066bc2",
+      "type": "plates",
+      "comparisons": 35308,
+      "cases": 182,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Initial source geometry and all 181 integer slider-angle states, all 3D vertices and original percent readouts. Source slider settles at 45°, overriding initial root 60°. Grid transmission-axis length changes from 120 to 100 after slider callback. Native resets to settled default. Camera/event-history equivalence is not claimed.",
+      "passed": true
+    },
+    {
+      "id": "flash-5894e53c43a96647",
+      "type": "grid",
+      "comparisons": 23184,
+      "cases": 92,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Initial source geometry and all 91 integer slider-angle states, all 3D vertices and original percent readouts. Source slider settles at 20°, overriding initial root 0°. Grid transmission-axis length changes from 120 to 100 after slider callback. Native resets to settled default. Camera/event-history equivalence is not claimed.",
+      "passed": true
+    },
+    {
+      "id": "flash-e9cea1de05f9ea6f",
+      "type": "absorption",
+      "comparisons": 105083,
+      "cases": 451,
+      "maxAbsoluteError": 1.4210854715202004e-14,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "Every callback of the 450-step two-polarization cycle, 55 electric-field segments, current segment, two electrons and retained scattering alpha; independent original VM. Initial native frame computes t=0 instead of displaying uninitialized template clips. Not all runtime event histories.",
+      "passed": true
+    }
+  ]
+}

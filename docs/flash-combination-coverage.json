@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T13:28:25.308Z",
+  "date": "2026-10-08T14:58:34.797Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -18254,7 +18254,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 10,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-3-2-1.html#native-polarizer-flash-a89e23ac41066bc2",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -18282,14 +18282,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/polarizer-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original settled default, angle slider min/mid/max via real pointer drags, original 3D view drag, every source 3D vertex and projected text anchor. Source negative-angle rounding truncates toward zero; native allows exact nominal -90° endpoint. No claim of every runtime angle or drag history."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -18340,7 +18343,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 10,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-3-2-2.html#native-polarizer-flash-5894e53c43a96647",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -18368,14 +18371,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/polarizer-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original settled default, angle slider min/mid/max via real pointer drags, original 3D view drag, every source 3D vertex and projected text anchor. Source negative-angle rounding truncates toward zero; native allows exact nominal -90° endpoint. No claim of every runtime angle or drag history."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -18390,7 +18396,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 3,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-3-2-2.html#native-polarizer-flash-e9cea1de05f9ea6f",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -18404,14 +18410,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/polarizer-runtime-report.json",
+        "passed": true,
+        "scope": "Natural original clock across at least one full 75-second two-polarization cycle; every field/current display transform, both electron positions and scattering alpha in sampled windows, including both fade/hidden intervals. One twip tolerance on display positions and original alpha quantization to 1/256; no forced clock/inputs. All 450 numerical callbacks independently source-tested. Native starts paused and calculates t=0 immediately; original starts autoplay with template clips."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

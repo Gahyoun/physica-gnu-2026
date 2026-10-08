@@ -1,0 +1,1145 @@
+{
+  "date": "2026-10-08T14:45:23.873Z",
+  "nativeModelHashes": {
+    "assets/polarizer-physics.mjs": "074b4c174e9c6d1e10e9199eda7ccdee8f7a9c0401319a7e13eda865a72766f8",
+    "assets/polarizer-specs.mjs": "6109ba2e24096ef553132ca55fe174a8c63cb8e9bafed80ff393b1f94f79a841"
+  },
+  "method": "Actual original Ruffle, read-only AVM1 observer, real slider and view drags; unchanged original clock and absorption cycle",
+  "files": 3,
+  "comparisons": 33521,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-a89e23ac41066bc2",
+      "type": "plates",
+      "sha256": "39cbfed2137a9e0e4aa76c3b7b2ce11d6c762b702519e597810b8711777bcd9a",
+      "sha256Verified": true,
+      "comparisons": 1033,
+      "maxAbsoluteError": 0.04913138844290188,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "angle slider",
+          "fraction": 0,
+          "nominal": -90,
+          "expected": -89,
+          "observed": -89,
+          "passed": true
+        },
+        {
+          "kind": "angle slider",
+          "fraction": 0.5,
+          "nominal": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "kind": "angle slider",
+          "fraction": 1,
+          "nominal": 90,
+          "expected": 90,
+          "observed": 90,
+          "passed": true
+        },
+        {
+          "kind": "view drag",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "startup",
+          "angle": 45,
+          "matrix": [
+            [
+              0.961347028003078,
+              -0.0414138985681307,
+              -0.272207238616165
+            ],
+            [
+              -0.0414138985681307,
+              0.95562796581986,
+              -0.291650612803034
+            ],
+            [
+              0.272207238616165,
+              0.291650612803034,
+              0.916974993822938
+            ]
+          ]
+        },
+        {
+          "label": "angle 0",
+          "angle": -89,
+          "matrix": [
+            [
+              0.961347028003078,
+              -0.0414138985681307,
+              -0.272207238616165
+            ],
+            [
+              -0.0414138985681307,
+              0.95562796581986,
+              -0.291650612803034
+            ],
+            [
+              0.272207238616165,
+              0.291650612803034,
+              0.916974993822938
+            ]
+          ]
+        },
+        {
+          "label": "angle 0.5",
+          "angle": 0,
+          "matrix": [
+            [
+              0.961347028003078,
+              -0.0414138985681307,
+              -0.272207238616165
+            ],
+            [
+              -0.0414138985681307,
+              0.95562796581986,
+              -0.291650612803034
+            ],
+            [
+              0.272207238616165,
+              0.291650612803034,
+              0.916974993822938
+            ]
+          ]
+        },
+        {
+          "label": "angle 1",
+          "angle": 90,
+          "matrix": [
+            [
+              0.961347028003078,
+              -0.0414138985681307,
+              -0.272207238616165
+            ],
+            [
+              -0.0414138985681307,
+              0.95562796581986,
+              -0.291650612803034
+            ],
+            [
+              0.272207238616165,
+              0.291650612803034,
+              0.916974993822938
+            ]
+          ]
+        },
+        {
+          "label": "original view drag",
+          "angle": 90,
+          "matrix": [
+            [
+              0.982130098479707,
+              -0.0180464038169763,
+              -0.187336053576231
+            ],
+            [
+              -0.024758963797282,
+              0.974352102767434,
+              -0.223662633321625
+            ],
+            [
+              0.186567583925844,
+              0.224304050658817,
+              0.956493716386114
+            ]
+          ]
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original settled default, angle slider min/mid/max via real pointer drags, original 3D view drag, every source 3D vertex and projected text anchor. Source negative-angle rounding truncates toward zero; native allows exact nominal -90° endpoint. No claim of every runtime angle or drag history.",
+      "passed": true
+    },
+    {
+      "id": "flash-5894e53c43a96647",
+      "type": "grid",
+      "sha256": "868e9deef86b6e1678d03e9a73691ba6cb0aa8094c43a60209ddf64f26d20406",
+      "sha256Verified": true,
+      "comparisons": 1303,
+      "maxAbsoluteError": 0.04512245046504404,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "angle slider",
+          "fraction": 0,
+          "nominal": 0,
+          "expected": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "kind": "angle slider",
+          "fraction": 0.5,
+          "nominal": 45,
+          "expected": 45,
+          "observed": 45,
+          "passed": true
+        },
+        {
+          "kind": "angle slider",
+          "fraction": 1,
+          "nominal": 90,
+          "expected": 90,
+          "observed": 90,
+          "passed": true
+        },
+        {
+          "kind": "view drag",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "startup",
+          "angle": 20,
+          "matrix": [
+            [
+              0.88737255546498,
+              -0.0469281018895918,
+              -0.458658588778834
+            ],
+            [
+              -0.0469281018895918,
+              0.98044662421267,
+              -0.191107745324514
+            ],
+            [
+              0.458658588778834,
+              0.191107745324514,
+              0.86781917967765
+            ]
+          ]
+        },
+        {
+          "label": "angle 0",
+          "angle": 0,
+          "matrix": [
+            [
+              0.88737255546498,
+              -0.0469281018895918,
+              -0.458658588778834
+            ],
+            [
+              -0.0469281018895918,
+              0.98044662421267,
+              -0.191107745324514
+            ],
+            [
+              0.458658588778834,
+              0.191107745324514,
+              0.86781917967765
+            ]
+          ]
+        },
+        {
+          "label": "angle 0.5",
+          "angle": 45,
+          "matrix": [
+            [
+              0.88737255546498,
+              -0.0469281018895918,
+              -0.458658588778834
+            ],
+            [
+              -0.0469281018895918,
+              0.98044662421267,
+              -0.191107745324514
+            ],
+            [
+              0.458658588778834,
+              0.191107745324514,
+              0.86781917967765
+            ]
+          ]
+        },
+        {
+          "label": "angle 1",
+          "angle": 90,
+          "matrix": [
+            [
+              0.88737255546498,
+              -0.0469281018895918,
+              -0.458658588778834
+            ],
+            [
+              -0.0469281018895918,
+              0.98044662421267,
+              -0.191107745324514
+            ],
+            [
+              0.458658588778834,
+              0.191107745324514,
+              0.86781917967765
+            ]
+          ]
+        },
+        {
+          "label": "original view drag",
+          "angle": 90,
+          "matrix": [
+            [
+              0.925312359072326,
+              -0.0326982654518269,
+              -0.377793411250711
+            ],
+            [
+              -0.0165292382335591,
+              0.991850597821753,
+              -0.126329631852736
+            ],
+            [
+              0.378845380638889,
+              0.123139006968026,
+              0.917231139098266
+            ]
+          ]
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original settled default, angle slider min/mid/max via real pointer drags, original 3D view drag, every source 3D vertex and projected text anchor. Source negative-angle rounding truncates toward zero; native allows exact nominal -90° endpoint. No claim of every runtime angle or drag history.",
+      "passed": true
+    },
+    {
+      "id": "flash-e9cea1de05f9ea6f",
+      "type": "absorption",
+      "sha256": "73aef4507397f49b7f78b4ee0e5c8ed48febb5750dc6127f8c4c75ba87c7bdb6",
+      "sha256Verified": true,
+      "comparisons": 31185,
+      "maxAbsoluteError": 0.04999771432285627,
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "both natural polarizations",
+          "passed": true
+        },
+        {
+          "kind": "both natural transition gaps",
+          "passed": true
+        }
+      ],
+      "cases": [
+        {
+          "label": "startup",
+          "time": 6,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 13,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 20,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 27,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 34,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 41,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 48,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 55,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 62,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 69,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 76,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 83,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 90,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 97,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 104,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 111,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 118,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 125,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 132,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 139,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 146,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 153,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 160,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 167,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 174,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 181,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 188,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 195,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 202,
+          "vertical": true,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 209,
+          "vertical": true,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 216,
+          "vertical": true,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 223,
+          "vertical": true,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 5,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 12,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 19,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 26,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 33,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 40,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 47,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 54,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 61,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 68,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 75,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 82,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 89,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 96,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 103,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 110,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 117,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 124,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 131,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 138,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 145,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 152,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 159,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 166,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 173,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 180,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 187,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 194,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 201,
+          "vertical": false,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 208,
+          "vertical": false,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 215,
+          "vertical": false,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 222,
+          "vertical": false,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 4,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 11,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 18,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 25,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 32,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 39,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 46,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 53,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 60,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 67,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 74,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 81,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 88,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 95,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 102,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 109,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 116,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 123,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 130,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 137,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 144,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 151,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 158,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 165,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 172,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 179,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 186,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 193,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 200,
+          "vertical": true,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 207,
+          "vertical": true,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 214,
+          "vertical": true,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 221,
+          "vertical": true,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 3,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 10,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 17,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 24,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 31,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 38,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 45,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 52,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 59,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 66,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 73,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 80,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 87,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 94,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 101,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 108,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 115,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 122,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 129,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 136,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 143,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 150,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 157,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 164,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 171,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 178,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 185,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 192,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 199,
+          "vertical": false,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 206,
+          "vertical": false,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 213,
+          "vertical": false,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 220,
+          "vertical": false,
+          "step": 1
+        },
+        {
+          "label": "natural clock",
+          "time": 2,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 9,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 16,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 23,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 30,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 37,
+          "vertical": true,
+          "step": 0
+        },
+        {
+          "label": "natural clock",
+          "time": 44,
+          "vertical": true,
+          "step": 0
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Natural original clock across at least one full 75-second two-polarization cycle; every field/current display transform, both electron positions and scattering alpha in sampled windows, including both fade/hidden intervals. One twip tolerance on display positions and original alpha quantization to 1/256; no forced clock/inputs. All 450 numerical callbacks independently source-tested. Native starts paused and calculates t=0 immediately; original starts autoplay with template clips.",
+      "passed": true
+    }
+  ]
+}

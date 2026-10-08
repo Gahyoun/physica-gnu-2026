@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-08T14:51:25.263Z",
+  "nativeModelHashes": {
+    "assets/polarizer-physics.mjs": "074b4c174e9c6d1e10e9199eda7ccdee8f7a9c0401319a7e13eda865a72766f8",
+    "assets/polarizer-specs.mjs": "6109ba2e24096ef553132ca55fe174a8c63cb8e9bafed80ff393b1f94f79a841",
+    "assets/native-polarizer.mjs": "da04ff3f6cbec71198b97989fd24f372ee01624206fac7380779900d268dd2b6",
+    "assets/native-refraction.mjs": "fe90d6a1581a33b8b6c9ae9e566eb2e4acd1b061fded4a8b2e009a6a7510bebd",
+    "assets/scene-physics.mjs": "ca7c46f2a70cd69cba9336c5317221ee0bfce5756a23887debd4811211377a3a",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/optical-source-markers.mjs": "f61fd1c10d24fad4b9d3f2572c8a15b60aaba389557dc68420afe30f455ca949",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "scope": "Three models × 320/768/1360; native min/default/max and camera keys/presets; no static timeline; absorption natural play/pause/replay/end, 12 direction/fade boundary states, fixed lower progress, same-step graph and current CSV after backward seek; vector-only, source marker, .65 opacity and dark/light fit. Not all original runtime inputs.",
+  "results": [
+    {
+      "id": "flash-a89e23ac41066bc2",
+      "type": "plates",
+      "width": 320,
+      "states": 5,
+      "passed": true,
+      "staticNoTimelineCameraAndAngles": true,
+      "csvCurrent": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-5894e53c43a96647",
+      "type": "grid",
+      "width": 320,
+      "states": 5,
+      "passed": true,
+      "staticNoTimelineCameraAndAngles": true,
+      "csvCurrent": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-e9cea1de05f9ea6f",
+      "type": "absorption",
+      "width": 320,
+      "states": 14,
+      "passed": true,
+      "motionPauseReplayFixedProgress": true,
+      "csvCurrent": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-a89e23ac41066bc2",
+      "type": "plates",
+      "width": 768,
+      "states": 5,
+      "passed": true,
+      "staticNoTimelineCameraAndAngles": true,
+      "csvCurrent": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-5894e53c43a96647",
+      "type": "grid",
+      "width": 768,
+      "states": 5,
+      "passed": true,
+      "staticNoTimelineCameraAndAngles": true,
+      "csvCurrent": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-e9cea1de05f9ea6f",
+      "type": "absorption",
+      "width": 768,
+      "states": 14,
+      "passed": true,
+      "motionPauseReplayFixedProgress": true,
+      "csvCurrent": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-a89e23ac41066bc2",
+      "type": "plates",
+      "width": 1360,
+      "states": 5,
+      "passed": true,
+      "staticNoTimelineCameraAndAngles": true,
+      "csvCurrent": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-5894e53c43a96647",
+      "type": "grid",
+      "width": 1360,
+      "states": 5,
+      "passed": true,
+      "staticNoTimelineCameraAndAngles": true,
+      "csvCurrent": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-e9cea1de05f9ea6f",
+      "type": "absorption",
+      "width": 1360,
+      "states": 14,
+      "passed": true,
+      "motionPauseReplayFixedProgress": true,
+      "csvCurrent": true,
+      "darkLightAndFit": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "flash-a89e23ac41066bc2",
+    "type": "plates",
+    "title": "편광판의 작동",
+    "source": "polarizer.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarizer/polarizer.swf",
+    "lesson": "5-3-2-1",
+    "animated": false,
+    "timeMax": 450,
+    "fps": 6,
+    "controls": [
+      {
+        "key": "angle",
+        "label": "검광판 각도 / °",
+        "min": -90,
+        "max": 90,
+        "step": 1,
+        "value": 45,
+        "clip": "instance5"
+      }
+    ]
+  },
+  {
+    "id": "flash-5894e53c43a96647",
+    "type": "grid",
+    "title": "도선격자 편광판",
+    "source": "polarizerwg.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarizer/polarizerwg.swf",
+    "lesson": "5-3-2-2",
+    "animated": false,
+    "timeMax": 450,
+    "fps": 6,
+    "controls": [
+      {
+        "key": "angle",
+        "label": "편광판 각도 / °",
+        "min": 0,
+        "max": 90,
+        "step": 1,
+        "value": 20,
+        "clip": "instance2"
+      }
+    ]
+  },
+  {
+    "id": "flash-e9cea1de05f9ea6f",
+    "type": "absorption",
+    "title": "가는 도체에서의 편광의 흡수",
+    "source": "wiregrid.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarizer/wiregrid.swf",
+    "lesson": "5-3-2-2",
+    "animated": true,
+    "timeMax": 450,
+    "fps": 6,
+    "controls": []
+  }
+]

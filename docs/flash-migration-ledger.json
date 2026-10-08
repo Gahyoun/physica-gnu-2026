@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-08T13:28:24.995Z",
+  "date": "2026-10-08T14:58:34.324Z",
   "total": 518,
-  "htmlImplemented": 280,
-  "htmlPending": 238,
+  "htmlImplemented": 283,
+  "htmlPending": 235,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 840,
-    "observed": 840,
+    "expected": 849,
+    "observed": 849,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 212,
-    "numericalComparisons": 855336,
-    "numericalSampleComparisons": 656736,
+    "numericalFilesPassed": 215,
+    "numericalComparisons": 888857,
+    "numericalSampleComparisons": 690257,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 6,
     "rootTimelineFilesPassed": 29,
@@ -20104,17 +20104,26 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-2-1.html#native-polarizer-flash-a89e23ac41066bc2",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a89e23ac41066bc2",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1033,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -20124,12 +20133,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM; geometry construction, angle callbacks and complete wiregrid numerical cycle; display drawing stubbed",
+        "comparisons": 35308,
+        "maxAbsoluteError": 0,
+        "scope": "Initial source geometry and all 181 integer slider-angle states, all 3D vertices and original percent readouts. Source slider settles at 45°, overriding initial root 60°. Grid transmission-axis length changes from 120 to 100 after slider callback. Native resets to settled default. Camera/event-history equivalence is not claimed.",
+        "report": "docs/polarizer-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/polarizer-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-62dbf7d5b9674686",
@@ -20180,17 +20201,26 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-2-2.html#native-polarizer-flash-5894e53c43a96647",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-5894e53c43a96647",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1303,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -20200,12 +20230,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM; geometry construction, angle callbacks and complete wiregrid numerical cycle; display drawing stubbed",
+        "comparisons": 23184,
+        "maxAbsoluteError": 0,
+        "scope": "Initial source geometry and all 91 integer slider-angle states, all 3D vertices and original percent readouts. Source slider settles at 20°, overriding initial root 0°. Grid transmission-axis length changes from 120 to 100 after slider callback. Native resets to settled default. Camera/event-history equivalence is not claimed.",
+        "report": "docs/polarizer-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/polarizer-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-e9cea1de05f9ea6f",
@@ -20218,17 +20260,26 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-2-2.html#native-polarizer-flash-e9cea1de05f9ea6f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e9cea1de05f9ea6f",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 31185,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -20238,12 +20289,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM; geometry construction, angle callbacks and complete wiregrid numerical cycle; display drawing stubbed",
+        "comparisons": 105083,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "Every callback of the 450-step two-polarization cycle, 55 electric-field segments, current segment, two electrons and retained scattering alpha; independent original VM. Initial native frame computes t=0 instead of displaying uninitialized template clips. Not all runtime event histories.",
+        "report": "docs/polarizer-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/polarizer-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-61e111f3bdeba363",

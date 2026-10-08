@@ -77,3 +77,5 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="a
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="matrix-"]'))await import('./native-matrix.mjs');
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="interferometer-"]'))await import('./native-interferometer.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="polarizer-"]'))await import('./native-polarizer.mjs');
