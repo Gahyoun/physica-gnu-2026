@@ -1,10 +1,11 @@
 {
-  "date": "2026-10-07T00:33:42.537Z",
+  "date": "2026-10-08T12:50:29.733Z",
   "nativeModelHashes": {
-    "assets/native-light.mjs": "01505d5e77b53cd9f02de4a2e89584ff2873238a2cae20e9655c26eddffa66f6",
+    "assets/native-light.mjs": "3c535933f4df2047ea089105ea6d6607ec94f6590ae89a463fd1c6493195d4c1",
     "assets/light-physics.mjs": "f52b451dbcf24b6720f4fdd1c4f4f692c71770fcd9126c6525b323f9108c48c2",
     "assets/light-specs.mjs": "5b9b011fd369442b47c457e8e0a7d146b8ce2bf133adf3c84c2dccd0e9d9b9f5",
     "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/optical-source-markers.mjs": "f61fd1c10d24fad4b9d3f2572c8a15b60aaba389557dc68420afe30f455ca949",
     "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
   },
   "scope": "Actual native controls min/mid/max, finite SVG and CSV, optional spectral coloring, pointer/keyboard interactions where applicable, fixed progress placement and end replay at phone/tablet/desktop widths. Full playback audited separately. No claim of all original input equivalence.",

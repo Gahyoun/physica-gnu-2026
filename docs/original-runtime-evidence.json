@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T12:19:05.818Z",
+  "date": "2026-10-08T12:55:01.520Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -10,7 +10,7 @@
     "assets/field-physics.mjs": "9b3fca6b25a036638cbaf4f3a2044efadeae3375fdb1b5da6843ed2296a70f51",
     "assets/field-specs.mjs": "00f036e23987ad63fcd9f25378de2fc2d1f61502d5e275a6902516e4c8282cf9",
     "assets/native-fields.mjs": "379c98ed6b118563477e46f558200d722e2dcc80e9ba7e7289d3abe32b9f8de4",
-    "assets/native-optics.mjs": "ca9e687ce6b02b2fbc4c5f350cb989ac4890173350d8653955db88f03dbc0481",
+    "assets/native-optics.mjs": "5138bcf26f0b83ab49e3bae145c1975afa101e4885cb86fa4f539253d58a6c58",
     "assets/optics-specs.mjs": "5d9a5635182da8a00f22b6535684b53e2b9a7891c8683a7dfb83584b9fb53b81",
     "assets/native-refraction.mjs": "fe90d6a1581a33b8b6c9ae9e566eb2e4acd1b061fded4a8b2e009a6a7510bebd",
     "assets/refraction-specs.mjs": "83711da60628a5d9df4e3850f46db0f2c9b72180ab5ad6b96c51dc8c8a79d272",

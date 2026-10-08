@@ -1,5 +1,6 @@
 // Fresh semantic SVG scenes and independent numerical models, never SWF artwork.
 import {opticsSpecs} from './optics-specs.mjs';
+import {sourcePoint,lightDirection} from './optical-source-markers.mjs';
 import {patchMarkup,frameBatch} from './render-utils.mjs';
 export {opticsSpecs};
 export const opticsDefaults=s=>Object.fromEntries(s.controls.map(c=>[c.key,c.value]));
@@ -54,7 +55,7 @@ function init(h){
  const maxTime=wave?1000:2*Math.PI,step=wave?.05:.01;let time=0,playing=false,last=0,carry=0,raf=0,visible=false,dirty=true,pickSecond=false;
  const range=c=>`<label>${esc(c.label)}<output data-optics-output="${c.key}"></output><input data-optics-param="${c.key}" aria-label="${esc(c.label)}" type="range" min="${c.min}" max="${c.max}" step="${c.step}" value="${c.value}"></label>`;
  const labels=wave?(s.type==='wave-sum'?['위치 x₁','위치 x₂','합성']:['파형 · 위상자']):s.type==='slit-phasor'||s.type==='slit-path'?['첫째 성분','둘째 성분','합성 · 세기']:s.type==='fresnel'?['rₛ','rₚ','tₛ','tₚ','Rₛ','Rₚ']:['s 위상 / π','p 위상 / π','위상차 / π'];
- h.innerHTML=`<div class="native-controls">${s.controls.map(range).join('')}</div><div class="native-toolbar">${moving?'<button class="primary" data-optics-play aria-pressed="false">재생</button>':''}<button data-optics-reset>초기화</button><button data-optics-csv>그래프 데이터 CSV</button>${s.type==='fresnel'?'<label><input data-optics-transmission type="checkbox">투과계수 표시</label><label><input data-optics-reflectance type="checkbox">반사율 표시</label>':''}${s.type==='fresnel-phase'?'<label><input data-optics-difference type="checkbox">위상차 표시</label>':''}</div><div class="remaster-scene optics-scene" data-optics-scene><svg viewBox="0 0 720 300" role="img" aria-label="${esc(s.title)} · 연결된 도형"><g data-optics-drawing></g></svg></div>${moving?`<div class="timeline-progress"><label>${wave?'시간 / 원본 시간 눈금':'시연 위상 / rad'}<output data-optics-time-label></output><input data-optics-time type="range" min="0" max="${maxTime}" step="${step}" value="0" aria-label="${wave?'시간':'시연 위상'}"></label></div>`:''}<div class="legend remaster-legend optics-legend">${labels.map((l,i)=>`<span data-optics-legend="${i}"><i class="optics-series-${i}"></i>${esc(l)}</span>`).join('')}</div><div class="native-graphs optics-graph" data-optics-graph><svg viewBox="0 0 720 250" role="img" aria-label="${wave?'관측점의 시간 그래프':fres?'입사각에 따른 계수':'위상차와 간섭 세기'}"><path d="M55 20V205H690" class="native-axis"/><g data-optics-graph-curves></g><g data-optics-graph-markers></g><g data-optics-graph-labels></g></svg></div><dl class="book-readouts" data-optics-readouts></dl><p class="editor-note">${esc(s.note)}</p>`;
+ h.innerHTML=`<div class="native-controls">${s.controls.map(range).join('')}</div><div class="native-toolbar">${moving?'<button class="primary" data-optics-play aria-pressed="false">재생</button>':''}<button data-optics-reset>초기화</button><button data-optics-csv>그래프 데이터 CSV</button>${s.type==='fresnel'?'<label><input data-optics-transmission type="checkbox">투과계수 표시</label><label><input data-optics-reflectance type="checkbox">반사율 표시</label>':''}${s.type==='fresnel-phase'?'<label><input data-optics-difference type="checkbox">위상차 표시</label>':''}</div><div class="remaster-scene optics-scene" data-optics-scene><svg viewBox="${fres||s.type==='slit-path'?'0 -24 720 324':'0 0 720 300'}" role="img" aria-label="${esc(s.title)} · 연결된 도형"><g data-optics-drawing></g></svg></div>${moving?`<div class="timeline-progress"><label>${wave?'시간 / 원본 시간 눈금':'시연 위상 / rad'}<output data-optics-time-label></output><input data-optics-time type="range" min="0" max="${maxTime}" step="${step}" value="0" aria-label="${wave?'시간':'시연 위상'}"></label></div>`:''}<div class="legend remaster-legend optics-legend">${labels.map((l,i)=>`<span data-optics-legend="${i}"><i class="optics-series-${i}"></i>${esc(l)}</span>`).join('')}</div><div class="native-graphs optics-graph" data-optics-graph><svg viewBox="0 0 720 250" role="img" aria-label="${wave?'관측점의 시간 그래프':fres?'입사각에 따른 계수':'위상차와 간섭 세기'}"><path d="M55 20V205H690" class="native-axis"/><g data-optics-graph-curves></g><g data-optics-graph-markers></g><g data-optics-graph-labels></g></svg></div><dl class="book-readouts" data-optics-readouts></dl><p class="editor-note">${esc(s.note)}</p>`;
  const get=q=>h.querySelector(q),drawing=get('[data-optics-drawing]'),curves=get('[data-optics-graph-curves]'),markers=get('[data-optics-graph-markers]'),graphLabels=get('[data-optics-graph-labels]');
  function scene(){
   let out='';
@@ -81,6 +82,7 @@ function init(h){
     for(const sign of [-1,1]){out+=dot(splitX,sy+sign*d/2,sign<0?0:1)+line([splitX,sy+sign*d/2],[screenX,endY+sign*d/2],sign<0?0:1);for(let j=0;j<6;j++){const r=((j+time/(2*Math.PI))*p.wavelength)%245;out+=`<path d="M${splitX} ${sy+sign*d/2-r}A${r} ${r} 0 0 1 ${splitX} ${sy+sign*d/2+r}" class="native-curve optics-series-${sign<0?0:1}"/>`;}}
     out+='</g>';
     for(let j=0;j<4;j++){const x=sourceX+(j+time/(2*Math.PI))*p.wavelength/2;if(x<splitX)out+=line([x,45],[x,245],1);}
+    out+=lightDirection(55,8,75,0,'입사 평면파',{labelX:35,labelY:-6})+sourcePoint(splitX,sy-d/2,'',{kind:'secondary'})+sourcePoint(splitX,sy+d/2,'',{kind:'secondary'})+text(165,25,'두 슬릿 · 이차 파원');
     out+=text(60,285,`경로차 Δ = ${fmt(data.path)}`);
    }else out+=text(55,40,`위상차 δ = ${fmt(p.phase)}°`)+text(55,65,'위상자 크기 125 · 원본 눈금');
   }else{
@@ -89,6 +91,7 @@ function init(h){
    out+=vector(cx-100*Math.sin(a),cy-100*Math.cos(a),[100*Math.sin(a),-100*Math.cos(a)],0);
    out+=vector(cx,cy,[100*Math.sin(a),100*Math.cos(a)],1);
    if(!data.totalInternal){const b=rad(data.thetaT);out+=vector(cx,cy,[100*Math.sin(b),-100*Math.cos(b)],2);}
+   out+=sourcePoint(cx-100*Math.sin(a),cy-100*Math.cos(a),'입사광 시작',{kind:'incident-start',labelX:40,labelY:15});
    out+=text(35,35,'입사 매질 n₁')+text(35,255,`투과 매질 n₂ / n₁ = ${fmt(p.n)}`)+text(225,125,'경계면')+text(80,292,data.totalInternal?'전반사 · 진행하는 굴절파 없음':`입사 ${fmt(p.angle)}° · 굴절 ${fmt(data.thetaT)}°`);
    const phases=fresnelPhase(p.n,p.angle);out+=axes(525,100,80,60)+axes(525,230,80,60);
    if(s.type==='fresnel-phase')out+=vector(525,100,[65*Math.cos(phases.s*Math.PI),65*Math.sin(phases.s*Math.PI)],0)+vector(525,230,[65*Math.cos(phases.p*Math.PI),65*Math.sin(phases.p*Math.PI)],1)+text(625,105,'s 위상')+text(625,235,'p 위상');

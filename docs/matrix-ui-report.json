@@ -1,11 +1,12 @@
 {
-  "date": "2026-10-08T12:00:50.986Z",
+  "date": "2026-10-08T12:49:11.344Z",
   "nativeModelHashes": {
     "assets/matrix-physics.mjs": "29ebf6f6ed614ba8427ef6d77f5032ed91e1b0004c0cf4027d1ec5816e520f17",
     "assets/matrix-specs.mjs": "b24f88bab59a475e430536c5ded5b0bde5ce50b412122a1197ed89367db528a7",
-    "assets/native-matrix.mjs": "e5a7df14bae3980ffd4c93973ace2412a3b87da79d3720d6e59eddf1b16649a9",
+    "assets/native-matrix.mjs": "0e37cee7d2a503d7a432f359a75a3b3828d1406c8013b096b8b2dfc172cd6c24",
     "assets/ray-physics.mjs": "bf365710c79ac125153646d608f8273842cbd39bda312b4e5c849a74382ed010",
     "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/optical-source-markers.mjs": "f61fd1c10d24fad4b9d3f2572c8a15b60aaba389557dc68420afe30f455ca949",
     "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
   },
   "scope": "Two models × 320/768/1360 widths; every added control min/default/max; actual play/pause/end replay, fixed lower progress, random/parallel source selection, selected ray and graph dot from same state, complete current-stage CSV including backward seek, fresh SVG-only and .65 opacity, dark/light and overflow.",

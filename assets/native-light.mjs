@@ -1,4 +1,5 @@
 import {lightSpecs,lightDefaults,gamma,lorentz,inverseLorentz,pulseY,wavelengthRGB,spectrumLines,planck,phaseCurve,vanderPressure,magnifierState,snellState,rayConstruction,fermatRace,lengthState,lengthMeasure,clockState,invariantState,barnState,relativeClocks,galileanState,lightTimeMax} from './light-physics.mjs';
+import {sourcePoint} from './optical-source-markers.mjs';
 import {patchMarkup,frameBatch,observePlayback} from './render-utils.mjs';
 const F=v=>Number.isFinite(v)?Number(v.toFixed(5)).toString():'—',esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;'),path=a=>a.map(([x,y],i)=>(i?'L':'M')+F(x)+','+F(y)).join(' '),color=nm=>'rgb('+wavelengthRGB(nm).join(',')+')';
 const curve=(a,c=0,dash=false)=>`<path d="${path(a)}" class="native-curve optics-series-${c}"${dash?' stroke-dasharray="6 4"':''}/>`;
@@ -22,6 +23,7 @@ function init(h,s){const T=s.type,uid=s.id+'-light';let p=lightDefaults(s),step=
    else out+=T==='convex1'?`<path d="M${F(X(q.opticX))},${F(Y(38))} Q${F(X(q.opticX-25))},${F(Y(q.axis))} ${F(X(q.opticX))},${F(Y(177))} Q${F(X(q.opticX+25))},${F(Y(q.axis))} ${F(X(q.opticX))},${F(Y(38))}" class="native-axis" fill="var(--gnu-blue)" fill-opacity=".08"/>`:curve([[X(q.opticX-12),Y(38)],[X(q.opticX),Y(q.axis)],[X(q.opticX-12),Y(177)]],1)+curve([[X(q.opticX+12),Y(38)],[X(q.opticX),Y(q.axis)],[X(q.opticX+12),Y(177)]],1);
    out+=arrow(X(q.object[0]),Y(q.axis),0,Y(q.object[1])-Y(q.axis),1)+text(X(q.object[0])-20,Y(q.axis)+25,'물체');
    for(const r of q.lines){const [a,b]=[r.a,r.b],aux=r.tag.startsWith('a');out+=r.arrow?arrow(X(a[0]),Y(a[1]),X(b[0])-X(a[0]),Y(b[1])-Y(a[1]),aux?1:0,aux):curve([[X(a[0]),Y(a[1])],[X(b[0]),Y(b[1])]],aux?1:0,aux);csv.push([r.tag,...a,...b]);}
+   out+=sourcePoint(X(q.object[0]),Y(q.object[1]),'광선 출발점',{kind:'object-tip',labelX:X(q.object[0])+12,labelY:Y(q.object[1])-16});
    if(q.image)out+=arrow(X(q.image[0]),Y(q.axis),0,Y(q.image[1])-Y(q.axis))+text(X(q.image[0])-20,Y(q.axis)+50,T==='convex1'||T==='concavemirror'?'실상':'허상');read=[['작도 단계',step],['그려진 광선·연장선',q.lines.length],['상의 위치 x',q.image?.[0]??'작도 중']];
   }else if(T.startsWith('magnifier')){
    const a=40,b=40,scale=1.1,X=x=>a+scale*x,Y=y=>b+scale*y,lensX=X(p.x),lensY=Y(p.y),R=85;
@@ -43,6 +45,7 @@ function init(h,s){const T=s.type,uid=s.id+'-light';let p=lightDefaults(s),step=
   }else if(T.startsWith('ferma')){
    const X=x=>50+1.7*x,Y=y=>60+1.2*y,gs=cache;out+=axis(X(0),Y(gs.H),X(330),Y(gs.H))+dot(X(0),Y(0),1)+dot(X(p.target),Y(gs.Y))+text(45,30,T==='ferma1'?'굴절 · 경로별 빛의 도착':'반사 · 경로별 빛의 도착');
    gs.paths.forEach((v,i)=>{const e=q.endpoints[i],chosen=i===q.winner;out+=curve(e.first?[[X(0),Y(0)],[X(e.x),Y(e.y)]]:[[X(0),Y(0)],[X(v.x),Y(gs.H)],[X(e.x),Y(e.y)]],chosen?0:1,!chosen);if(chosen)out+=dot(X(e.x),Y(e.y));csv.push([v.x,v.arrival,e.x,e.y,i===q.winner?1:0]);});
+   out+=sourcePoint(X(0),Y(0),'점광원',{labelX:X(0)+15,labelY:Y(0)-12});
    const lo=Math.min(...gs.paths.map(v=>v.arrival)),hi=Math.max(...gs.paths.map(v=>v.arrival));out+=axis(55,485,665,485)+curve(gs.paths.map(v=>[55+610*v.x/300,485-120*(v.arrival-lo)/(hi-lo||1)]))+dot(55+610*gs.paths[gs.fastest].x/300,485,1);if(q.winner>=0){const v=gs.paths[q.winner];out+=dot(55+610*v.x/300,485-120*(v.arrival-lo)/(hi-lo||1));}out+=text(30,340,'이동 시간 · 경계면의 통과 위치 x')+text(45,525,'0')+text(630,525,'300');read=[['빛 진행 시간',q.time],['원본 규칙의 선택 x',q.sourceWinner??'탐색 중'],['최단 시간 경로 x',gs.paths[gs.fastest].x],['최단 이동시간',q.minimum],['도착',q.finished?'완료':'진행 중']];
   }else if(T.startsWith('snell')){
    const drawing=T==='snelldrawing',cx=drawing?340:245,cy=245,R=drawing?140:160,a=p.angle*Math.PI/180,n1=drawing?p.n1:1,n2=drawing?p.n2:p.index;
@@ -50,6 +53,7 @@ function init(h,s){const T=s.type,uid=s.id+'-light';let p=lightDefaults(s),step=
    if(drawing){out+=circle(cx,cy,70*n1,1)+circle(cx,cy,70*n2,1);const mx=cx+70*n1*Math.sin(a);out+=curve([[cx-70*n1*Math.sin(a),cy-70*n1*Math.cos(a)],[mx,cy-70*n1*Math.cos(a)],[mx,430]],1,true)+dot(mx,cy-70*n1*Math.cos(a),1);}
    else out+=circle(cx,cy,R,1);
    out+=arrow(cx-R*Math.sin(a),cy-R*Math.cos(a),R*Math.sin(a),R*Math.cos(a))+dot(cx-R*Math.sin(a),cy-R*Math.cos(a));if(n1!==n2)out+=arrow(cx,cy,R*Math.sin(a),-R*Math.cos(a),1,true);
+   out+=sourcePoint(cx-R*Math.sin(a),cy-R*Math.cos(a),'입사광 시작',{kind:'incident-start',labelX:45,labelY:55});
    if(q.passed)out+=arrow(cx,cy,R*Math.sin(q.theta),R*Math.cos(q.theta))+dot(cx+(drawing?70*n2:R)*Math.sin(q.theta),cy+(drawing?70*n2:R)*Math.cos(q.theta));else out+=text(cx-40,460,'전반사');
    if(!drawing){out+=axis(485,380,690,380)+axis(485,175,485,380)+curve([[485,380],[485+200*Math.min(1,1/p.index),380-200*Math.min(1,p.index)]]);for(const r of points)out+=dot(485+200*r[1],380-200*r[0],1,2);if(q.passed)out+=dot(485+200*q.B,380-200*q.A);out+=text(485,160,'A = sin θ₁')+text(485,410,'B = sin θ₂');}
    read=[['입사각 / °',p.angle],['굴절각 / °',q.passed?q.theta*180/Math.PI:'없음'],['n₁ sin θ₁',n1*q.A],['n₂ sin θ₂',q.passed?n2*q.B:'없음']];csv=points.length?points.map(r=>[...r,n2/n1]):[[q.A,q.B??'',n2/n1]];
