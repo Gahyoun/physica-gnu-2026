@@ -357,3 +357,5 @@ lenswaveguide, lenswaveguidexx, mirrorwaveguide, mirrorcavity를 독립 SVG로 �
 ## 회절·동공함수 4종 · 2026-10-08
 
 cir_difffr, rectdiff, zernike, phaseAber를 독립 SVG 입력형 모형으로 추가했다. 원본 수치의 근사 간격·밝기 분기·17개 계수를 유지하고 무늬·파면·단면·CSV를 연결했다. 시간 재생이 없는 모형에는 프레임바를 두지 않는다. [복원·비교 범위와 차이](aperture-migration-audit.md)를 기록한다. 현재 **276/518개**, 개별 HTML 이식 대기는 **242개**다. 모든 원본 입력 조합 대조는 미완료다.
+
+2026-10-08: opticmatrix.swf와 opticmatrix2.swf를 독립 SVG 광선 모형으로 이식했다. 회색 렌즈·거울, 파랑/회색 .65 광선, 동기화 높이/각도 그래프·CSV와 하단 진행 막대를 제공한다. 원본 콜백의 경계 및 재시작 내 첫 전진도 별도로 확인했다. [복원 범위](matrix-migration-audit.md), [함수 대조](matrix-source-report.json), [원본 실행](matrix-runtime-report.json), [HTML 조작](matrix-ui-report.json). 모든 연속 입력·난수 이력의 완전 동등성은 미완료다.

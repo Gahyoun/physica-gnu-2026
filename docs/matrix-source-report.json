@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-08T11:57:15.840Z",
+  "method": "Original private ActionScript Ray class and root callback equations in independent VM; MovieClip rendering stubbed; sparse AS2 array holes preserved for equation search and filtered only for snapshot output",
+  "nativeModelHashes": {
+    "assets/matrix-physics.mjs": "29ebf6f6ed614ba8427ef6d77f5032ed91e1b0004c0cf4027d1ec5816e520f17",
+    "assets/matrix-specs.mjs": "b24f88bab59a475e430536c5ded5b0bde5ce50b412122a1197ed89367db528a7",
+    "assets/ray-physics.mjs": "bf365710c79ac125153646d608f8273842cbd39bda312b4e5c849a74382ed010"
+  },
+  "files": 2,
+  "comparisons": 1932769,
+  "results": [
+    {
+      "id": "flash-7be30e71cd325cb8",
+      "type": "compound",
+      "comparisons": 1444923,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": 61,
+      "fullEquivalence": false,
+      "scope": "Independent original Ray class and root runthis/goRay; parallel and mean-random fan, each added input min/default/max, 32 seeded source-range random conditions, all 11 cavity focal values. First 100 callbacks: every ray coordinate/angle/out, optical component and visible segment endpoint. Random stream is supplied only in private reference. Not every continuous input product or event history.",
+      "passed": true
+    },
+    {
+      "id": "flash-f29ceb555d78ea24",
+      "type": "lensCavity",
+      "comparisons": 487846,
+      "maxAbsoluteError": 1.3145040611561853e-13,
+      "mismatches": [],
+      "cases": 57,
+      "fullEquivalence": false,
+      "scope": "Independent original Ray class and root runthis/goRay; parallel and mean-random fan, each added input min/default/max, 32 seeded source-range random conditions, all 11 cavity focal values. First 100 callbacks: every ray coordinate/angle/out, optical component and visible segment endpoint. Random stream is supplied only in private reference. Not every continuous input product or event history.",
+      "passed": true
+    }
+  ]
+}

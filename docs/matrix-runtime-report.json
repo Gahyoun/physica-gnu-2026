@@ -1,0 +1,547 @@
+{
+  "date": "2026-10-08T11:57:41.834Z",
+  "nativeModelHashes": {
+    "assets/matrix-physics.mjs": "29ebf6f6ed614ba8427ef6d77f5032ed91e1b0004c0cf4027d1ec5816e520f17",
+    "assets/matrix-specs.mjs": "b24f88bab59a475e430536c5ded5b0bde5ce50b412122a1197ed89367db528a7",
+    "assets/ray-physics.mjs": "bf365710c79ac125153646d608f8273842cbd39bda312b4e5c849a74382ed010"
+  },
+  "files": 2,
+  "comparisons": 6934,
+  "method": "Actual original Ruffle with read-only AVM1 observers; untouched source interval callback, random generation and Ray equations. Initial parallel episode and timed whole-ray state windows across observed random cycles.",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-7be30e71cd325cb8",
+      "type": "compound",
+      "sha256": "17140e83c993edf41d33cd2182e762d52ea5e4687493fb819d05a17722deddfc",
+      "sha256Verified": true,
+      "comparisons": 5092,
+      "maxAbsoluteError": 1.0231815394945443e-12,
+      "mismatches": [],
+      "cases": [
+        {
+          "from": 11,
+          "to": 16,
+          "reset": false
+        },
+        {
+          "from": 16,
+          "to": 21,
+          "reset": false
+        },
+        {
+          "from": 21,
+          "to": 28,
+          "reset": false
+        },
+        {
+          "from": 28,
+          "to": 34,
+          "reset": false
+        },
+        {
+          "from": 34,
+          "to": 41,
+          "reset": false
+        },
+        {
+          "from": 41,
+          "to": 48,
+          "reset": false
+        },
+        {
+          "from": 48,
+          "to": 54,
+          "reset": false
+        },
+        {
+          "from": 54,
+          "to": 61,
+          "reset": false
+        },
+        {
+          "from": 61,
+          "to": 68,
+          "reset": false
+        },
+        {
+          "from": 68,
+          "to": 74,
+          "reset": false
+        },
+        {
+          "from": 74,
+          "to": 81,
+          "reset": false
+        },
+        {
+          "from": 81,
+          "to": 88,
+          "reset": false
+        },
+        {
+          "from": 88,
+          "to": 94,
+          "reset": false
+        },
+        {
+          "from": 94,
+          "to": 0,
+          "reset": true,
+          "parameters": [
+            {
+              "type": 1,
+              "f": 197.185750561766,
+              "z": 100
+            },
+            {
+              "type": 1,
+              "f": -154.869686253369,
+              "z": 230
+            },
+            {
+              "type": 1,
+              "f": 107.979429233819,
+              "z": 310
+            },
+            {
+              "type": 1,
+              "f": -321.912397630513,
+              "z": 400
+            },
+            {
+              "type": 1,
+              "f": 211.252892157063,
+              "z": 490
+            },
+            {
+              "type": 2,
+              "f": 200.739803002216,
+              "z": 590
+            }
+          ],
+          "recoveredFanInputs": {
+            "height": 10.659682448022075,
+            "spacing": 0.009352322667831814,
+            "angleSpread": 0.011068175835535002,
+            "f1": 197.185750561766,
+            "f2": -154.869686253369,
+            "f3": 107.979429233819,
+            "f4": -321.912397630513,
+            "f5": 211.252892157063,
+            "f6": 200.739803002216
+          },
+          "recoveredFanCompared": true
+        },
+        {
+          "from": 0,
+          "to": 5,
+          "reset": false
+        },
+        {
+          "from": 5,
+          "to": 12,
+          "reset": false
+        },
+        {
+          "from": 12,
+          "to": 18,
+          "reset": false
+        },
+        {
+          "from": 18,
+          "to": 25,
+          "reset": false
+        },
+        {
+          "from": 25,
+          "to": 32,
+          "reset": false
+        },
+        {
+          "from": 32,
+          "to": 38,
+          "reset": false
+        },
+        {
+          "from": 38,
+          "to": 45,
+          "reset": false
+        },
+        {
+          "from": 45,
+          "to": 52,
+          "reset": false
+        },
+        {
+          "from": 52,
+          "to": 58,
+          "reset": false
+        },
+        {
+          "from": 58,
+          "to": 65,
+          "reset": false
+        },
+        {
+          "from": 65,
+          "to": 72,
+          "reset": false
+        },
+        {
+          "from": 72,
+          "to": 78,
+          "reset": false
+        },
+        {
+          "from": 78,
+          "to": 85,
+          "reset": false
+        },
+        {
+          "from": 85,
+          "to": 92,
+          "reset": false
+        },
+        {
+          "from": 92,
+          "to": 98,
+          "reset": false
+        },
+        {
+          "from": 98,
+          "to": 4,
+          "reset": true,
+          "parameters": [
+            {
+              "type": 1,
+              "f": 220.854024216533,
+              "z": 100
+            },
+            {
+              "type": 1,
+              "f": -149.926910246722,
+              "z": 230
+            },
+            {
+              "type": 1,
+              "f": 112.273432454094,
+              "z": 310
+            },
+            {
+              "type": 1,
+              "f": -308.535804087296,
+              "z": 400
+            },
+            {
+              "type": 1,
+              "f": 200.683476310223,
+              "z": 490
+            },
+            {
+              "type": 2,
+              "f": 188.946565263905,
+              "z": 590
+            }
+          ]
+        },
+        {
+          "from": 4,
+          "to": 11,
+          "reset": false
+        },
+        {
+          "from": 11,
+          "to": 17,
+          "reset": false
+        },
+        {
+          "from": 17,
+          "to": 24,
+          "reset": false
+        },
+        {
+          "from": 24,
+          "to": 31,
+          "reset": false
+        },
+        {
+          "from": 31,
+          "to": 37,
+          "reset": false
+        },
+        {
+          "from": 37,
+          "to": 44,
+          "reset": false
+        },
+        {
+          "from": 44,
+          "to": 51,
+          "reset": false
+        },
+        {
+          "from": 51,
+          "to": 57,
+          "reset": false
+        },
+        {
+          "from": 57,
+          "to": 64,
+          "reset": false
+        },
+        {
+          "from": 64,
+          "to": 71,
+          "reset": false
+        }
+      ],
+      "inputCandidates": 0,
+      "fullEquivalence": false,
+      "initialParallelChecked": true,
+      "observedRandomResets": 2,
+      "scope": "Read-only actual original state: all ray r/rp/z/out and all present component f/z/type at 40 timed windows; full compound initial parallel state; observed natural random restarts and focal bounds; original random seed reconstructed only before first lens and advanced through the observed callback count. No original controls/buttons exist. Not all continuous random tuples, event histories, displayed pixels or Adobe Player equivalence.",
+      "passed": true
+    },
+    {
+      "id": "flash-f29ceb555d78ea24",
+      "type": "lensCavity",
+      "sha256": "a65a35e7f9ae0f74f204065b8a140603d19891355b7ae2c87abca181edca9b9c",
+      "sha256Verified": true,
+      "comparisons": 1842,
+      "maxAbsoluteError": 1.0231815394945443e-12,
+      "mismatches": [],
+      "cases": [
+        {
+          "from": 5,
+          "to": 8,
+          "reset": false
+        },
+        {
+          "from": 8,
+          "to": 10,
+          "reset": false
+        },
+        {
+          "from": 10,
+          "to": 13,
+          "reset": false
+        },
+        {
+          "from": 13,
+          "to": 16,
+          "reset": false
+        },
+        {
+          "from": 16,
+          "to": 19,
+          "reset": false
+        },
+        {
+          "from": 19,
+          "to": 23,
+          "reset": false
+        },
+        {
+          "from": 23,
+          "to": 26,
+          "reset": false
+        },
+        {
+          "from": 26,
+          "to": 29,
+          "reset": false
+        },
+        {
+          "from": 29,
+          "to": 33,
+          "reset": false
+        },
+        {
+          "from": 33,
+          "to": 36,
+          "reset": false
+        },
+        {
+          "from": 36,
+          "to": 39,
+          "reset": false
+        },
+        {
+          "from": 39,
+          "to": 43,
+          "reset": false
+        },
+        {
+          "from": 43,
+          "to": 46,
+          "reset": false
+        },
+        {
+          "from": 46,
+          "to": 49,
+          "reset": false
+        },
+        {
+          "from": 49,
+          "to": 53,
+          "reset": false
+        },
+        {
+          "from": 53,
+          "to": 56,
+          "reset": false
+        },
+        {
+          "from": 56,
+          "to": 59,
+          "reset": false
+        },
+        {
+          "from": 59,
+          "to": 63,
+          "reset": false
+        },
+        {
+          "from": 63,
+          "to": 66,
+          "reset": false
+        },
+        {
+          "from": 66,
+          "to": 69,
+          "reset": false
+        },
+        {
+          "from": 69,
+          "to": 73,
+          "reset": false
+        },
+        {
+          "from": 73,
+          "to": 76,
+          "reset": false
+        },
+        {
+          "from": 76,
+          "to": 79,
+          "reset": false
+        },
+        {
+          "from": 79,
+          "to": 83,
+          "reset": false
+        },
+        {
+          "from": 83,
+          "to": 86,
+          "reset": false
+        },
+        {
+          "from": 86,
+          "to": 89,
+          "reset": false
+        },
+        {
+          "from": 89,
+          "to": 93,
+          "reset": false
+        },
+        {
+          "from": 93,
+          "to": 96,
+          "reset": false
+        },
+        {
+          "from": 96,
+          "to": 99,
+          "reset": false
+        },
+        {
+          "from": 99,
+          "to": 2,
+          "reset": true,
+          "parameters": [
+            {
+              "type": 2,
+              "f": 100000000,
+              "z": 10
+            },
+            {
+              "type": 1,
+              "f": 240,
+              "z": 200
+            },
+            {
+              "type": 2,
+              "f": 100000000,
+              "z": 410
+            }
+          ],
+          "recoveredFanInputs": {
+            "height": 40.9893997479231,
+            "spacing": 2.561735144350564,
+            "angleSpread": 0.033311279341578987,
+            "f1": 240
+          },
+          "recoveredFanCompared": true
+        },
+        {
+          "from": 2,
+          "to": 4,
+          "reset": false
+        },
+        {
+          "from": 4,
+          "to": 7,
+          "reset": false
+        },
+        {
+          "from": 7,
+          "to": 9,
+          "reset": false
+        },
+        {
+          "from": 9,
+          "to": 12,
+          "reset": false
+        },
+        {
+          "from": 12,
+          "to": 14,
+          "reset": false
+        },
+        {
+          "from": 14,
+          "to": 17,
+          "reset": false
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "reset": false
+        },
+        {
+          "from": 20,
+          "to": 23,
+          "reset": false
+        },
+        {
+          "from": 23,
+          "to": 26,
+          "reset": false
+        },
+        {
+          "from": 26,
+          "to": 29,
+          "reset": false
+        }
+      ],
+      "inputCandidates": 0,
+      "fullEquivalence": false,
+      "observedRandomResets": 1,
+      "scope": "Read-only actual original state: all ray r/rp/z/out and all present component f/z/type at 40 timed windows; full compound initial parallel state; observed natural random restarts and focal bounds; original random seed reconstructed only before first lens and advanced through the observed callback count. No original controls/buttons exist. Not all continuous random tuples, event histories, displayed pixels or Adobe Player equivalence.",
+      "passed": true
+    }
+  ]
+}

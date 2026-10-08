@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-07T22:44:08.839Z",
+  "date": "2026-10-08T12:07:59.601Z",
   "total": 518,
-  "htmlImplemented": 276,
-  "htmlPending": 242,
+  "htmlImplemented": 278,
+  "htmlPending": 240,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 828,
-    "observed": 828,
+    "expected": 834,
+    "observed": 834,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 208,
-    "numericalComparisons": 847149,
-    "numericalSampleComparisons": 648549,
+    "numericalFilesPassed": 210,
+    "numericalComparisons": 854083,
+    "numericalSampleComparisons": 655483,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 5,
     "rootTimelineFilesPassed": 29,
@@ -14211,17 +14211,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-8-4.html#native-matrix-flash-7be30e71cd325cb8",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-7be30e71cd325cb8",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 5092,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14231,12 +14240,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original private ActionScript Ray class and root callback equations in independent VM; MovieClip rendering stubbed; sparse AS2 array holes preserved for equation search and filtered only for snapshot output",
+        "comparisons": 1444923,
+        "maxAbsoluteError": 0,
+        "scope": "Independent original Ray class and root runthis/goRay; parallel and mean-random fan, each added input min/default/max, 32 seeded source-range random conditions, all 11 cavity focal values. First 100 callbacks: every ray coordinate/angle/out, optical component and visible segment endpoint. Random stream is supplied only in private reference. Not every continuous input product or event history.",
+        "report": "docs/matrix-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/matrix-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-de747b108f3ff0a5",
@@ -16367,17 +16388,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-6-4-3.html#native-matrix-flash-f29ceb555d78ea24",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-f29ceb555d78ea24",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1842,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -16387,12 +16417,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original private ActionScript Ray class and root callback equations in independent VM; MovieClip rendering stubbed; sparse AS2 array holes preserved for equation search and filtered only for snapshot output",
+        "comparisons": 487846,
+        "maxAbsoluteError": 1.3145040611561853e-13,
+        "scope": "Independent original Ray class and root runthis/goRay; parallel and mean-random fan, each added input min/default/max, 32 seeded source-range random conditions, all 11 cavity focal values. First 100 callbacks: every ray coordinate/angle/out, optical component and visible segment endpoint. Random stream is supplied only in private reference. Not every continuous input product or event history.",
+        "report": "docs/matrix-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/matrix-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-81063489d20af602",

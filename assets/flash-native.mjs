@@ -73,3 +73,5 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="b
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="ray-"]'))await import('./native-rays.mjs');
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="aperture-"]'))await import('./native-aperture.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="matrix-"]'))await import('./native-matrix.mjs');

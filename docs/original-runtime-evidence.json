@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T22:38:45.148Z",
+  "date": "2026-10-08T12:01:42.745Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -39,16 +39,18 @@
     "assets/ray-physics.mjs": "bf365710c79ac125153646d608f8273842cbd39bda312b4e5c849a74382ed010",
     "assets/ray-specs.mjs": "9e3d7e1a77314e99ad83b2e5d618b11f3f90b37376b07d653f8e602eaabfc1b7",
     "assets/aperture-physics.mjs": "1522144b0f851109aac258801e4babe2d3b5c816b7d60a04a78e1ae543049503",
-    "assets/aperture-specs.mjs": "adc2bf3d5554755a28ee3ea518f45c5bb2a07b3e3307e6892eb7a40357d3872a"
+    "assets/aperture-specs.mjs": "adc2bf3d5554755a28ee3ea518f45c5bb2a07b3e3307e6892eb7a40357d3872a",
+    "assets/matrix-physics.mjs": "29ebf6f6ed614ba8427ef6d77f5032ed91e1b0004c0cf4027d1ec5816e520f17",
+    "assets/matrix-specs.mjs": "b24f88bab59a475e430536c5ded5b0bde5ce50b412122a1197ed89367db528a7"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 208,
-  "numericalFilesPassed": 208,
-  "numericalSampleComparisons": 648549,
+  "numericalFiles": 210,
+  "numericalFilesPassed": 210,
+  "numericalSampleComparisons": 655483,
   "combinationComparisons": 198600,
-  "numericalComparisons": 847149,
+  "numericalComparisons": 854083,
   "finiteCombinationScopes": 5,
   "finiteCombinationScopesPassed": 5,
   "rootTimelineFiles": 29,
@@ -7003,7 +7005,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/matrix-runtime-report.json",
+        "sha256": "17140e83c993edf41d33cd2182e762d52ea5e4687493fb819d05a17722deddfc",
+        "passed": true,
+        "comparisons": 5092,
+        "scope": "Read-only actual original state: all ray r/rp/z/out and all present component f/z/type at 40 timed windows; full compound initial parallel state; observed natural random restarts and focal bounds; original random seed reconstructed only before first lens and advanced through the observed callback count. No original controls/buttons exist. Not all continuous random tuples, event histories, displayed pixels or Adobe Player equivalence.",
+        "maxAbsoluteError": 1.0231815394945443e-12
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -8051,7 +8060,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/matrix-runtime-report.json",
+        "sha256": "a65a35e7f9ae0f74f204065b8a140603d19891355b7ae2c87abca181edca9b9c",
+        "passed": true,
+        "comparisons": 1842,
+        "scope": "Read-only actual original state: all ray r/rp/z/out and all present component f/z/type at 40 timed windows; full compound initial parallel state; observed natural random restarts and focal bounds; original random seed reconstructed only before first lens and advanced through the observed callback count. No original controls/buttons exist. Not all continuous random tuples, event histories, displayed pixels or Adobe Player equivalence.",
+        "maxAbsoluteError": 1.0231815394945443e-12
+      },
       "sliders": null,
       "rootTimeline": null
     },

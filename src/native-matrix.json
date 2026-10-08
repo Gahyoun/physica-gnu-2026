@@ -1,0 +1,149 @@
+[
+  {
+    "id": "flash-7be30e71cd325cb8",
+    "type": "compound",
+    "title": "여러 광학기구의 조합",
+    "source": "opticmatrix.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/opticmatrix.swf",
+    "lesson": "5-2-8-4",
+    "animated": true,
+    "timeMax": 100,
+    "fps": 20,
+    "count": 27,
+    "width": 680,
+    "controls": [
+      {
+        "key": "height",
+        "label": "중심 입사 높이 · 원본 눈금",
+        "min": -50,
+        "max": 50,
+        "step": 1,
+        "value": 0,
+        "added": true
+      },
+      {
+        "key": "spacing",
+        "label": "광선 사이 높이 간격",
+        "min": 0,
+        "max": 5,
+        "step": 0.1,
+        "value": 5,
+        "added": true
+      },
+      {
+        "key": "angleSpread",
+        "label": "광선 사이 각도 간격 / rad",
+        "min": 0,
+        "max": 0.02,
+        "step": 0.001,
+        "value": 0,
+        "added": true
+      },
+      {
+        "key": "f1",
+        "label": "렌즈 1 초점거리",
+        "min": 175,
+        "max": 225,
+        "step": 0.5,
+        "value": 200,
+        "added": true
+      },
+      {
+        "key": "f2",
+        "label": "렌즈 2 초점거리",
+        "min": -175,
+        "max": -125,
+        "step": 0.5,
+        "value": -150,
+        "added": true
+      },
+      {
+        "key": "f3",
+        "label": "렌즈 3 초점거리",
+        "min": 87.5,
+        "max": 112.5,
+        "step": 0.5,
+        "value": 100,
+        "added": true
+      },
+      {
+        "key": "f4",
+        "label": "렌즈 4 초점거리",
+        "min": -325,
+        "max": -275,
+        "step": 0.5,
+        "value": -300,
+        "added": true
+      },
+      {
+        "key": "f5",
+        "label": "렌즈 5 초점거리",
+        "min": 175,
+        "max": 225,
+        "step": 0.5,
+        "value": 200,
+        "added": true
+      },
+      {
+        "key": "f6",
+        "label": "거울 초점거리",
+        "min": 175,
+        "max": 225,
+        "step": 0.5,
+        "value": 200,
+        "added": true
+      }
+    ]
+  },
+  {
+    "id": "flash-f29ceb555d78ea24",
+    "type": "lensCavity",
+    "title": "평면거울과 볼록렌즈로 구성한 공진기",
+    "source": "opticmatrix2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/laser/laserosc/opticmatrix2.swf",
+    "lesson": "5-6-4-3",
+    "animated": true,
+    "timeMax": 100,
+    "fps": 10,
+    "count": 9,
+    "width": 420,
+    "controls": [
+      {
+        "key": "height",
+        "label": "중심 입사 높이 · 원본 눈금",
+        "min": -50,
+        "max": 50,
+        "step": 1,
+        "value": 0,
+        "added": true
+      },
+      {
+        "key": "spacing",
+        "label": "광선 사이 높이 간격",
+        "min": 1,
+        "max": 6,
+        "step": 0.1,
+        "value": 3.5,
+        "added": true
+      },
+      {
+        "key": "angleSpread",
+        "label": "광선 사이 각도 간격 / rad",
+        "min": 0.01,
+        "max": 0.05,
+        "step": 0.001,
+        "value": 0.03,
+        "added": true
+      },
+      {
+        "key": "f1",
+        "label": "볼록렌즈 초점거리",
+        "min": 150,
+        "max": 250,
+        "step": 10,
+        "value": 200,
+        "added": true
+      }
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T22:38:45.521Z",
+  "date": "2026-10-08T12:01:43.121Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -12885,7 +12885,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 4,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-2-8-4.html#native-matrix-flash-7be30e71cd325cb8",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -12899,14 +12899,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/matrix-runtime-report.json",
+        "passed": true,
+        "scope": "Read-only actual original state: all ray r/rp/z/out and all present component f/z/type at 40 timed windows; full compound initial parallel state; observed natural random restarts and focal bounds; original random seed reconstructed only before first lens and advanced through the observed callback count. No original controls/buttons exist. Not all continuous random tuples, event histories, displayed pixels or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -14843,7 +14846,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 4,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-6-4-3.html#native-matrix-flash-f29ceb555d78ea24",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -14857,14 +14860,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/matrix-runtime-report.json",
+        "passed": true,
+        "scope": "Read-only actual original state: all ray r/rp/z/out and all present component f/z/type at 40 timed windows; full compound initial parallel state; observed natural random restarts and focal bounds; original random seed reconstructed only before first lens and advanced through the observed callback count. No original controls/buttons exist. Not all continuous random tuples, event histories, displayed pixels or Adobe Player equivalence."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
