@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-08T16:57:55.513Z",
+  "nativeModelHashes": {
+    "assets/dichroic-physics.mjs": "605ec9a86143be03488ca94cb3daabb63e019b169418f15e2f9af60ef1f7e2fd",
+    "assets/dichroic-specs.mjs": "9f3083b4dde4930b4f9b88b043606e83cab404f5d0ea78eb57bd1419f4c55ae1"
+  },
+  "method": "Independent private original ActionScript VM; original geometry and draw functions, finite input grids and clock samples; display drawing recorded separately",
+  "files": 2,
+  "comparisons": 20025846,
+  "results": [
+    {
+      "id": "flash-90c3967c11bcd871",
+      "type": "dichroism",
+      "comparisons": 7370532,
+      "cases": 10152,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 101 integer absorption values × 51 sampled times 0…5000; every callback time 0…5000 at the settled default. All 120 field segments, six crystal surfaces, 16 arrows, four labels, both output component endpoints and six-decimal intensity readout. Independent original VM; not all absorption × time combinations or input/camera event histories.",
+      "passed": true
+    },
+    {
+      "id": "flash-61e111f3bdeba363",
+      "type": "sum",
+      "comparisons": 12655314,
+      "cases": 351166,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "finiteGrid": {
+        "amplitudeValues": 31,
+        "phaseValues": 73,
+        "tuples": 70153,
+        "timesPerTuple": 5,
+        "originalRuntime": false
+      },
+      "scope": "Every 31×31×73 discrete slider tuple in independent original functions at five times, all six marker and vector transforms; 401 default callbacks and six original ellipse paths for 27 corner/default tuples. Source 1/1.414 is retained. This is a source-function grid, not exhaustive real-runtime event histories or all unbounded phases.",
+      "passed": true
+    }
+  ]
+}

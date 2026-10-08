@@ -1,0 +1,416 @@
+{
+  "date": "2026-10-08T16:59:28.261Z",
+  "nativeModelHashes": {
+    "assets/dichroic-physics.mjs": "605ec9a86143be03488ca94cb3daabb63e019b169418f15e2f9af60ef1f7e2fd",
+    "assets/dichroic-specs.mjs": "9f3083b4dde4930b4f9b88b043606e83cab404f5d0ea78eb57bd1419f4c55ae1"
+  },
+  "method": "Actual original Ruffle; read-only AVM1 observer, real slider pointer gestures and original clock callbacks. No clock or input values forced.",
+  "files": 2,
+  "comparisons": 12185,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-90c3967c11bcd871",
+      "type": "dichroism",
+      "sha256": "06b12aae511480b459a8e7523879b3da7a8e4c7835221d79146b03db726b0b00",
+      "sha256Verified": true,
+      "comparisons": 11903,
+      "maxAbsoluteError": 5.3290705182007514e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "settled startup",
+          "absorption": 50,
+          "n": 0,
+          "running": false
+        },
+        {
+          "label": "absorption 0",
+          "absorption": 0,
+          "n": 0,
+          "running": false
+        },
+        {
+          "label": "absorption 0.5",
+          "absorption": 50,
+          "n": 0,
+          "running": false
+        },
+        {
+          "label": "absorption 1",
+          "absorption": 100,
+          "n": 0,
+          "running": false
+        },
+        {
+          "label": "natural phase 0",
+          "absorption": 100,
+          "n": 7,
+          "running": true
+        },
+        {
+          "label": "natural phase 1",
+          "absorption": 100,
+          "n": 11,
+          "running": true
+        },
+        {
+          "label": "natural phase 2",
+          "absorption": 100,
+          "n": 15,
+          "running": true
+        },
+        {
+          "label": "natural phase 3",
+          "absorption": 100,
+          "n": 19,
+          "running": true
+        },
+        {
+          "label": "natural phase 4",
+          "absorption": 100,
+          "n": 23,
+          "running": true
+        },
+        {
+          "label": "natural phase 5",
+          "absorption": 100,
+          "n": 27,
+          "running": true
+        },
+        {
+          "label": "natural phase 6",
+          "absorption": 100,
+          "n": 31,
+          "running": true
+        },
+        {
+          "label": "natural phase 7",
+          "absorption": 100,
+          "n": 35,
+          "running": true
+        },
+        {
+          "label": "absorption 0",
+          "absorption": 0,
+          "n": 45,
+          "running": true
+        },
+        {
+          "label": "paused",
+          "absorption": 0,
+          "n": 46,
+          "running": false
+        },
+        {
+          "label": "view drag",
+          "absorption": 0,
+          "n": 46,
+          "running": false
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original play",
+          "passed": true
+        },
+        {
+          "kind": "natural clock",
+          "passed": true
+        },
+        {
+          "kind": "input preserves running phase",
+          "passed": true
+        },
+        {
+          "kind": "original pause",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original settled startup, all 120 line segments and six crystal surfaces at min/mid/max absorption, natural original play and eight clock samples, input during playback preserving time and run state, pause and view drag. Does not cover all absorption × time × camera event histories. Native uses five original callbacks/sec and holds at step 5000; original stops/resets at callback 5001.",
+      "passed": true
+    },
+    {
+      "id": "flash-61e111f3bdeba363",
+      "type": "sum",
+      "sha256": "d15f4cc5dceb3f6ecffa9ab8659b789a7f733b9ee4df24aa83efda5cfbcac7f7",
+      "sha256Verified": true,
+      "comparisons": 282,
+      "maxAbsoluteError": 0.049859434950462855,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "settled startup",
+          "p": {
+            "a1": 1,
+            "a2": 1,
+            "phase": 0
+          },
+          "time": 0.55
+        },
+        {
+          "label": "a1 0",
+          "p": {
+            "a1": 0,
+            "a2": 1,
+            "phase": 0
+          },
+          "time": 0.8
+        },
+        {
+          "label": "a1 1",
+          "p": {
+            "a1": 1,
+            "a2": 1,
+            "phase": 0
+          },
+          "time": 0.5
+        },
+        {
+          "label": "a1 1.5",
+          "p": {
+            "a1": 1.5,
+            "a2": 1,
+            "phase": 0
+          },
+          "time": 0.8
+        },
+        {
+          "label": "a2 0",
+          "p": {
+            "a1": 1.5,
+            "a2": 0,
+            "phase": 0
+          },
+          "time": 0.8
+        },
+        {
+          "label": "a2 1",
+          "p": {
+            "a1": 1.5,
+            "a2": 1,
+            "phase": 0
+          },
+          "time": 0.5
+        },
+        {
+          "label": "a2 1.5",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 0
+          },
+          "time": 0.8
+        },
+        {
+          "label": "phase -180",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": -179.99999999999983
+          },
+          "time": 0.8
+        },
+        {
+          "label": "phase 0",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 0
+          },
+          "time": 0.55
+        },
+        {
+          "label": "phase 180",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 0.8
+        },
+        {
+          "label": "natural timer 0",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 1.05
+        },
+        {
+          "label": "natural timer 1",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 1.3
+        },
+        {
+          "label": "natural timer 2",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 1.55
+        },
+        {
+          "label": "natural timer 3",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 1.8
+        },
+        {
+          "label": "natural timer 4",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 2.05
+        },
+        {
+          "label": "natural timer 5",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 2.3
+        },
+        {
+          "label": "natural timer 6",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 2.55
+        },
+        {
+          "label": "natural timer 7",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 2.8
+        },
+        {
+          "label": "natural timer 8",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 3.05
+        },
+        {
+          "label": "natural timer 9",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 3.3
+        },
+        {
+          "label": "natural timer 10",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 3.55
+        },
+        {
+          "label": "natural timer 11",
+          "p": {
+            "a1": 1.5,
+            "a2": 1.5,
+            "phase": 179.99999999999983
+          },
+          "time": 3.79999999999999
+        }
+      ],
+      "controls": [
+        {
+          "kind": "slider gesture",
+          "key": "a1",
+          "target": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "kind": "slider gesture",
+          "key": "a1",
+          "target": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "kind": "slider gesture",
+          "key": "a1",
+          "target": 1.5,
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "slider gesture",
+          "key": "a2",
+          "target": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "kind": "slider gesture",
+          "key": "a2",
+          "target": 1,
+          "observed": 1,
+          "passed": true
+        },
+        {
+          "kind": "slider gesture",
+          "key": "a2",
+          "target": 1.5,
+          "observed": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "slider gesture",
+          "key": "phase",
+          "target": -180,
+          "observed": -180,
+          "passed": true
+        },
+        {
+          "kind": "slider gesture",
+          "key": "phase",
+          "target": 0,
+          "observed": 0,
+          "passed": true
+        },
+        {
+          "kind": "slider gesture",
+          "key": "phase",
+          "target": 180,
+          "observed": 180,
+          "passed": true
+        },
+        {
+          "kind": "natural 50ms clock",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original min/default/max gestures for each of three sliders and twelve naturally timed windows, all six moving markers at original time. Display coordinates are quantized to one twip (.05 original pixel). Independent source grid separately covers 70153 tuples at five phases. Original auto-runs unbounded; native starts paused and supplies a 20-phase-time viewing window, optional repeat and seek. Not every original input tuple or event history.",
+      "passed": true
+    }
+  ]
+}

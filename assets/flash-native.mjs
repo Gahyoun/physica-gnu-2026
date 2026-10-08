@@ -79,3 +79,5 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="m
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="interferometer-"]'))await import('./native-interferometer.mjs');
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="polarizer-"]'))await import('./native-polarizer.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="dichroic-"]'))await import('./native-dichroic.mjs');

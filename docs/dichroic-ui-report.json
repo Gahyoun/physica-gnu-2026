@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-08T17:03:41.325Z",
+  "nativeModelHashes": {
+    "assets/dichroic-physics.mjs": "605ec9a86143be03488ca94cb3daabb63e019b169418f15e2f9af60ef1f7e2fd",
+    "assets/dichroic-specs.mjs": "9f3083b4dde4930b4f9b88b043606e83cab404f5d0ea78eb57bd1419f4c55ae1",
+    "assets/native-dichroic.mjs": "943469357bdc27c16cf65ca125bbe913f39b4e0b25db03910ac86ffc2ee0e39a",
+    "assets/native-refraction.mjs": "fe90d6a1581a33b8b6c9ae9e566eb2e4acd1b061fded4a8b2e009a6a7510bebd",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/optical-source-markers.mjs": "f61fd1c10d24fad4b9d3f2572c8a15b60aaba389557dc68420afe30f455ca949",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "scope": "Two models × 320/768/1360; input min/default/max, native motion/pause/resume/end/repeat/backward seek, live output/graph marker synchronization and CSV, original input clock semantics, 3D camera drag and keys, fixed lower progress, fresh vector-only scene, .65 strokes and dark/light fit. Not exhaustive original runtime input combinations.",
+  "results": [
+    {
+      "id": "flash-90c3967c11bcd871",
+      "type": "dichroism",
+      "width": 320,
+      "states": 13,
+      "passed": true,
+      "originalInputTimeSemantics": true,
+      "cameraKeysDrag": true,
+      "liveInputKeepsPlayback": true,
+      "playPauseResumeEndLoopFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-61e111f3bdeba363",
+      "type": "sum",
+      "width": 320,
+      "states": 21,
+      "passed": true,
+      "originalInputTimeSemantics": true,
+      "liveInputKeepsPlayback": true,
+      "playPauseResumeEndLoopFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-90c3967c11bcd871",
+      "type": "dichroism",
+      "width": 768,
+      "states": 13,
+      "passed": true,
+      "originalInputTimeSemantics": true,
+      "cameraKeysDrag": true,
+      "liveInputKeepsPlayback": true,
+      "playPauseResumeEndLoopFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-61e111f3bdeba363",
+      "type": "sum",
+      "width": 768,
+      "states": 21,
+      "passed": true,
+      "originalInputTimeSemantics": true,
+      "liveInputKeepsPlayback": true,
+      "playPauseResumeEndLoopFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-90c3967c11bcd871",
+      "type": "dichroism",
+      "width": 1360,
+      "states": 13,
+      "passed": true,
+      "originalInputTimeSemantics": true,
+      "cameraKeysDrag": true,
+      "liveInputKeepsPlayback": true,
+      "playPauseResumeEndLoopFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-61e111f3bdeba363",
+      "type": "sum",
+      "width": 1360,
+      "states": 21,
+      "passed": true,
+      "originalInputTimeSemantics": true,
+      "liveInputKeepsPlayback": true,
+      "playPauseResumeEndLoopFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

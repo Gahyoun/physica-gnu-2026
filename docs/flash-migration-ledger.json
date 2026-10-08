@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-08T14:58:34.324Z",
+  "date": "2026-10-08T17:07:05.111Z",
   "total": 518,
-  "htmlImplemented": 283,
-  "htmlPending": 235,
+  "htmlImplemented": 285,
+  "htmlPending": 233,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 849,
-    "observed": 849,
+    "expected": 855,
+    "observed": 855,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 215,
-    "numericalComparisons": 888857,
-    "numericalSampleComparisons": 690257,
+    "numericalFilesPassed": 217,
+    "numericalComparisons": 901042,
+    "numericalSampleComparisons": 702442,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 6,
     "rootTimelineFilesPassed": 29,
@@ -20066,17 +20066,26 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-2-3.html#native-dichroic-flash-90c3967c11bcd871",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-90c3967c11bcd871",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 11903,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -20086,12 +20095,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM; original geometry and draw functions, finite input grids and clock samples; display drawing recorded separately",
+        "comparisons": 7370532,
+        "maxAbsoluteError": 0,
+        "scope": "All 101 integer absorption values × 51 sampled times 0…5000; every callback time 0…5000 at the settled default. All 120 field segments, six crystal surfaces, 16 arrows, four labels, both output component endpoints and six-decimal intensity readout. Independent original VM; not all absorption × time combinations or input/camera event histories.",
+        "report": "docs/dichroic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/dichroic-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a89e23ac41066bc2",
@@ -20319,17 +20340,26 @@
       "actionScript": 2,
       "scriptFiles": 8,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-5-2.html#native-dichroic-flash-61e111f3bdeba363",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-61e111f3bdeba363",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 282,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -20339,12 +20369,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM; original geometry and draw functions, finite input grids and clock samples; display drawing recorded separately",
+        "comparisons": 12655314,
+        "maxAbsoluteError": 1.1368683772161603e-13,
+        "scope": "Every 31×31×73 discrete slider tuple in independent original functions at five times, all six marker and vector transforms; 401 default callbacks and six original ellipse paths for 27 corner/default tuples. Source 1/1.414 is retained. This is a source-function grid, not exhaustive real-runtime event histories or all unbounded phases.",
+        "report": "docs/dichroic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/dichroic-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-2ab186387abfa7fd",

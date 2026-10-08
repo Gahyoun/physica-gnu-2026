@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T14:58:34.797Z",
+  "date": "2026-10-08T17:07:05.463Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -18204,7 +18204,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 11,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-3-2-3.html#native-dichroic-flash-90c3967c11bcd871",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [
@@ -18232,14 +18232,17 @@
         "drag": 1,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/dichroic-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original settled startup, all 120 line segments and six crystal surfaces at min/mid/max absorption, natural original play and eight clock samples, input during playback preserving time and run state, pause and view drag. Does not cover all absorption × time × camera event histories. Native uses five original callbacks/sec and holds at step 5000; original stops/resets at callback 5001."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -18435,7 +18438,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 8,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-3-5-2.html#native-dichroic-flash-61e111f3bdeba363",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -18477,14 +18480,17 @@
         "drag": 0,
         "change": 6
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/dichroic-runtime-report.json",
+        "passed": true,
+        "scope": "Actual original min/default/max gestures for each of three sliders and twelve naturally timed windows, all six moving markers at original time. Display coordinates are quantized to one twip (.05 original pixel). Independent source grid separately covers 70153 tuples at five phases. Original auto-runs unbounded; native starts paused and supplies a 20-phase-time viewing window, optional repeat and seek. Not every original input tuple or event history."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T14:47:03.943Z",
+  "date": "2026-10-08T17:02:08.567Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -45,16 +45,18 @@
     "assets/interferometer-physics.mjs": "80659d8e81f8af802427c604a1fbc6f6e4013bac0103233d5a02695ce57f3a95",
     "assets/interferometer-specs.mjs": "ba0087e5bae5ba982a2429fadccc8ffa214e535bbf2c1a2ddd4c926a02f93f04",
     "assets/polarizer-physics.mjs": "074b4c174e9c6d1e10e9199eda7ccdee8f7a9c0401319a7e13eda865a72766f8",
-    "assets/polarizer-specs.mjs": "6109ba2e24096ef553132ca55fe174a8c63cb8e9bafed80ff393b1f94f79a841"
+    "assets/polarizer-specs.mjs": "6109ba2e24096ef553132ca55fe174a8c63cb8e9bafed80ff393b1f94f79a841",
+    "assets/dichroic-physics.mjs": "605ec9a86143be03488ca94cb3daabb63e019b169418f15e2f9af60ef1f7e2fd",
+    "assets/dichroic-specs.mjs": "9f3083b4dde4930b4f9b88b043606e83cab404f5d0ea78eb57bd1419f4c55ae1"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 215,
-  "numericalFilesPassed": 215,
-  "numericalSampleComparisons": 690257,
+  "numericalFiles": 217,
+  "numericalFilesPassed": 217,
+  "numericalSampleComparisons": 702442,
   "combinationComparisons": 198600,
-  "numericalComparisons": 888857,
+  "numericalComparisons": 901042,
   "finiteCombinationScopes": 6,
   "finiteCombinationScopesPassed": 6,
   "rootTimelineFiles": 29,
@@ -9977,7 +9979,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/dichroic-runtime-report.json",
+        "sha256": "06b12aae511480b459a8e7523879b3da7a8e4c7835221d79146b03db726b0b00",
+        "passed": true,
+        "comparisons": 11903,
+        "scope": "Actual original settled startup, all 120 line segments and six crystal surfaces at min/mid/max absorption, natural original play and eight clock samples, input during playback preserving time and run state, pause and view drag. Does not cover all absorption × time × camera event histories. Native uses five original callbacks/sec and holds at step 5000; original stops/resets at callback 5001.",
+        "maxAbsoluteError": 5.3290705182007514e-14
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "06b12aae511480b459a8e7523879b3da7a8e4c7835221d79146b03db726b0b00",
@@ -10120,7 +10129,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/dichroic-runtime-report.json",
+        "sha256": "d15f4cc5dceb3f6ecffa9ab8659b789a7f733b9ee4df24aa83efda5cfbcac7f7",
+        "passed": true,
+        "comparisons": 282,
+        "scope": "Actual original min/default/max gestures for each of three sliders and twelve naturally timed windows, all six moving markers at original time. Display coordinates are quantized to one twip (.05 original pixel). Independent source grid separately covers 70153 tuples at five phases. Original auto-runs unbounded; native starts paused and supplies a 20-phase-time viewing window, optional repeat and seek. Not every original input tuple or event history.",
+        "maxAbsoluteError": 0.049859434950462855
+      },
       "sliders": null,
       "rootTimeline": null
     },
