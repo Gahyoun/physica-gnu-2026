@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T17:07:05.463Z",
+  "date": "2026-10-09T05:17:41.301Z",
   "total": 518,
   "legacySliderCandidates": 125,
   "classSliderCandidates": 201,
@@ -18505,7 +18505,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 1,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-3-5-1.html#native-jones-flash-2ab186387abfa7fd",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -18519,14 +18519,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/jones-runtime-report.json",
+        "passed": true,
+        "scope": "Thirty naturally advancing original timer windows, all 121 moving original markers, original phase increment and drawing scale. Actual SWF display coordinates quantized to one twip (.05px). Original has no pointer controls and is unbounded autoplay. Native pause/seek, example selection, enlargement, graphs and finite callback window are additions; not all original phases or pixel histories."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",
@@ -18577,7 +18580,7 @@
       "sourceSha256Verified": true,
       "actionScript": 2,
       "scriptFiles": 1,
-      "htmlHref": null,
+      "htmlHref": "lesson-5-3-5-2.html#native-jones-flash-d58c692d9b863103",
       "sourceInspection": "exported",
       "privateClassInspectionAvailable": true,
       "legacySliderCandidates": [],
@@ -18591,14 +18594,17 @@
         "drag": 0,
         "change": 0
       },
-      "originalRuntimeNumerical": null,
+      "originalRuntimeNumerical": {
+        "report": "docs/jones-runtime-report.json",
+        "passed": true,
+        "scope": "Thirty naturally advancing original timer windows, all 12 moving original markers and twelve stationary axis anchors, original phase increment and drawing scale. Actual SWF display coordinates quantized to one twip (.05px). Original has no pointer controls and is unbounded autoplay. Native pause/seek, example selection, enlargement, graphs and finite callback window are additions; not all original phases or pixel histories."
+      },
       "finiteDomainsComplete": false,
       "allFiniteInputCombinationsCompared": false,
       "continuousInputsProvenEquivalent": false,
       "allEventTransitionsCompared": false,
       "fullEquivalence": false,
       "remaining": [
-        "individual_html_counterpart",
         "resolve_all_controls_and_reachable_input_domains",
         "all_finite_cartesian_tuples",
         "continuous_drag_paths_or_mathematical_equivalence",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T17:02:08.567Z",
+  "date": "2026-10-09T05:12:38.575Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -47,16 +47,18 @@
     "assets/polarizer-physics.mjs": "074b4c174e9c6d1e10e9199eda7ccdee8f7a9c0401319a7e13eda865a72766f8",
     "assets/polarizer-specs.mjs": "6109ba2e24096ef553132ca55fe174a8c63cb8e9bafed80ff393b1f94f79a841",
     "assets/dichroic-physics.mjs": "605ec9a86143be03488ca94cb3daabb63e019b169418f15e2f9af60ef1f7e2fd",
-    "assets/dichroic-specs.mjs": "9f3083b4dde4930b4f9b88b043606e83cab404f5d0ea78eb57bd1419f4c55ae1"
+    "assets/dichroic-specs.mjs": "9f3083b4dde4930b4f9b88b043606e83cab404f5d0ea78eb57bd1419f4c55ae1",
+    "assets/jones-physics.mjs": "8cae274513cdfb4faf3a3440eb97a40eb691a047c355786e79fec9faf7b06ea1",
+    "assets/jones-specs.mjs": "7234c39ba01919c710f91d50ad1245ed69a7a46784756fb651aa654659e24338"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 217,
-  "numericalFilesPassed": 217,
-  "numericalSampleComparisons": 702442,
+  "numericalFiles": 219,
+  "numericalFilesPassed": 219,
+  "numericalSampleComparisons": 711262,
   "combinationComparisons": 198600,
-  "numericalComparisons": 901042,
+  "numericalComparisons": 909862,
   "finiteCombinationScopes": 6,
   "finiteCombinationScopesPassed": 6,
   "rootTimelineFiles": 29,
@@ -10155,7 +10157,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/jones-runtime-report.json",
+        "sha256": "9a64871945092ecdc6e192d41136f83a57d3c092386daf0494fa3b8c3d9ea47a",
+        "passed": true,
+        "comparisons": 7320,
+        "scope": "Thirty naturally advancing original timer windows, all 121 moving original markers, original phase increment and drawing scale. Actual SWF display coordinates quantized to one twip (.05px). Original has no pointer controls and is unbounded autoplay. Native pause/seek, example selection, enlargement, graphs and finite callback window are additions; not all original phases or pixel histories.",
+        "maxAbsoluteError": 0.049979668788949994
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10193,7 +10202,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/jones-runtime-report.json",
+        "sha256": "095d23a32406b0cae9726eab70b09380612d0fa9815d96dc5d4b4107ce3cc2ec",
+        "passed": true,
+        "comparisons": 1500,
+        "scope": "Thirty naturally advancing original timer windows, all 12 moving original markers and twelve stationary axis anchors, original phase increment and drawing scale. Actual SWF display coordinates quantized to one twip (.05px). Original has no pointer controls and is unbounded autoplay. Native pause/seek, example selection, enlargement, graphs and finite callback window are additions; not all original phases or pixel histories.",
+        "maxAbsoluteError": 0.04979732591789343
+      },
       "sliders": null,
       "rootTimeline": null
     },

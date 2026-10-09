@@ -1,7 +1,7 @@
 {
   "katexVersion": "0.19.0",
   "pages": 566,
-  "mathExpressions": 2871,
+  "mathExpressions": 2875,
   "uiNotations": 2,
   "navigation": {
     "chapters": 7,
@@ -28,7 +28,7 @@
   "supplementaryModels": 79,
   "supplementaryPlacements": 556,
   "originalFlash": 518,
-  "nativeFlashCounterparts": 285,
+  "nativeFlashCounterparts": 287,
   "rewrittenSourcePages": 284,
   "rewrittenSourceSections": 387,
   "widgets": 17

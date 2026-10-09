@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-09T05:10:59.799Z",
+  "nativeModelHashes": {
+    "assets/jones-physics.mjs": "8cae274513cdfb4faf3a3440eb97a40eb691a047c355786e79fec9faf7b06ea1",
+    "assets/jones-specs.mjs": "7234c39ba01919c710f91d50ad1245ed69a7a46784756fb651aa654659e24338",
+    "assets/native-jones.mjs": "6e1fd54d90cb222382fb04c70db48b373a43645d8c91f83f8b8cbaba12490118",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "scope": "Two ports × 320/768/1360; every native selection on desktop and boundaries on mobile/tablet; same-step original example markers, enlarged point and selected time-graph components, real play/pause/resume/end/repeat/backward seek, live selection preserving time, keyboard/pointer selection, fixed lower progress, current selected CSV, vector-only .65 curves and dark/light fit. Original has no selection/play controls; not every original unbounded phase.",
+  "results": [
+    {
+      "id": "flash-2ab186387abfa7fd",
+      "type": "complex",
+      "width": 320,
+      "states": 14,
+      "passed": true,
+      "everySelectionTested": false,
+      "keyboardAndPointerSelection": true,
+      "playPauseResumeLiveSelectionEndRepeatFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-d58c692d9b863103",
+      "type": "examples",
+      "width": 320,
+      "states": 14,
+      "passed": true,
+      "everySelectionTested": false,
+      "keyboardAndPointerSelection": true,
+      "playPauseResumeLiveSelectionEndRepeatFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-2ab186387abfa7fd",
+      "type": "complex",
+      "width": 768,
+      "states": 14,
+      "passed": true,
+      "everySelectionTested": false,
+      "keyboardAndPointerSelection": true,
+      "playPauseResumeLiveSelectionEndRepeatFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-d58c692d9b863103",
+      "type": "examples",
+      "width": 768,
+      "states": 14,
+      "passed": true,
+      "everySelectionTested": false,
+      "keyboardAndPointerSelection": true,
+      "playPauseResumeLiveSelectionEndRepeatFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-2ab186387abfa7fd",
+      "type": "complex",
+      "width": 1360,
+      "states": 132,
+      "passed": true,
+      "everySelectionTested": true,
+      "keyboardAndPointerSelection": true,
+      "playPauseResumeLiveSelectionEndRepeatFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    },
+    {
+      "id": "flash-d58c692d9b863103",
+      "type": "examples",
+      "width": 1360,
+      "states": 23,
+      "passed": true,
+      "everySelectionTested": true,
+      "keyboardAndPointerSelection": true,
+      "playPauseResumeLiveSelectionEndRepeatFixedProgress": true,
+      "csvCurrentNoFuture": true,
+      "darkLightAndFit": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

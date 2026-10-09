@@ -81,3 +81,5 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="i
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="polarizer-"]'))await import('./native-polarizer.mjs');
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="dichroic-"]'))await import('./native-dichroic.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="jones-"]'))await import('./native-jones.mjs');

@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-09T05:08:38.424Z",
+  "nativeModelHashes": {
+    "assets/jones-physics.mjs": "8cae274513cdfb4faf3a3440eb97a40eb691a047c355786e79fec9faf7b06ea1",
+    "assets/jones-specs.mjs": "7234c39ba01919c710f91d50ad1245ed69a7a46784756fb651aa654659e24338"
+  },
+  "method": "Independent private original ActionScript VM; all original diagram markers, static orbit drawing and callback time samples",
+  "files": 2,
+  "comparisons": 167650,
+  "results": [
+    {
+      "id": "flash-2ab186387abfa7fd",
+      "type": "complex",
+      "comparisons": 151977,
+      "cases": 607,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 121 original displayed polarization states through every native callback 0…600, six additional phase/boundary/long-time samples, every original ellipse-path command. Independent original functions and source diagram positions; originals have no pointer inputs. Not every unbounded time or pixel-equivalent rendering. Native computes t=0 immediately instead of retaining original uninitialized template markers.",
+      "passed": true
+    },
+    {
+      "id": "flash-d58c692d9b863103",
+      "type": "examples",
+      "comparisons": 15673,
+      "cases": 607,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "scope": "All 12 original displayed polarization states through every native callback 0…600, six additional phase/boundary/long-time samples, every original ellipse-path command and twelve axis anchors. Independent original functions and source diagram positions; originals have no pointer inputs. Not every unbounded time or pixel-equivalent rendering. Native computes t=0 immediately instead of retaining original uninitialized template markers.",
+      "passed": true
+    }
+  ]
+}

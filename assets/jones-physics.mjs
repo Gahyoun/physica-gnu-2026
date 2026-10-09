@@ -1,0 +1,9 @@
+import {jonesSpecs} from './jones-specs.mjs';
+export {jonesSpecs};
+const examples=[[1,0,0],[0,1,0],[1,1,0],[1,-1,0],[1,1,Math.PI/2],[1,1,-Math.PI/2],[2,1,Math.PI/2],[1,2,-Math.PI/2],[1,2,Math.PI/2],[2,1,-Math.PI/2],[2,1,Math.PI/4],[1,2,5*Math.PI/4]];
+export function jonesCases(type){if(type==='complex')return Array.from({length:121},(_,i)=>{const x=(Math.floor(i/11)-5)/2,y=(i%11-5)/2;return {index:i,x,y,center:[x*80+250,-y*80+250],clip:'marker'+Math.floor(i/11)+'_'+(i%11)};});return examples.map(([x,y,phase],i)=>({index:i,x,y,phase,center:[60+120*Math.floor(i/2),i%2?200:60],clip:'marker'+i}));}
+export function jonesVector(type,p){if(type==='complex'){const r=Math.hypot(p.x,p.y),phase=Math.atan2(p.y,p.x),norm=Math.sqrt(1+p.x*p.x+p.y*p.y);return {ax:1/norm,ay:r/norm,phase,jx:1/norm,jyRe:p.x/norm,jyIm:p.y/norm};}const norm=Math.hypot(p.x,p.y);return {ax:p.x/norm,ay:p.y/norm,phase:p.phase,jx:p.x/norm,jyRe:p.y/norm*Math.cos(p.phase),jyIm:p.y/norm*Math.sin(p.phase)};}
+export function jonesField(type,p,time){const v=jonesVector(type,p),scale=type==='complex'?20:50;return [scale*v.ax*Math.cos(-time),scale*v.ay*Math.cos(-time+v.phase)];}
+export function jonesState(type,time){return {time,fields:jonesCases(type).map(p=>jonesField(type,p,time))};}
+export function jonesOrbits(type){const step=type==='complex'?Math.PI/10:Math.PI/20,ps=jonesCases(type),orbits=ps.map(()=>[]);for(let t=0;t<=2*Math.PI;t+=step)ps.forEach((p,i)=>orbits[i].push(jonesField(type,p,t)));return orbits;}
+export function jonesCSV(type,selection,n){const p=jonesCases(type)[selection],scale=type==='complex'?20:50,interval=type==='complex'?.2:.1;return '# '+JSON.stringify({type,selection,parameters:p,throughStep:n,units:'normalized electric-field components; t is original phase time, not wall-clock seconds'})+'\n'+'n,t,Ex,Ey\n'+Array.from({length:n+1},(_,i)=>[i,i*interval,...jonesField(type,p,i*interval).map(v=>v/scale)].join(',')).join('\n')+'\n';}
