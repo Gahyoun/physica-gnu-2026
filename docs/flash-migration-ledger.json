@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-09T05:17:40.858Z",
+  "date": "2026-10-09T10:34:34.270Z",
   "total": 518,
-  "htmlImplemented": 287,
-  "htmlPending": 231,
+  "htmlImplemented": 293,
+  "htmlPending": 225,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 861,
-    "observed": 861,
+    "expected": 879,
+    "observed": 879,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 219,
-    "numericalComparisons": 909862,
-    "numericalSampleComparisons": 711262,
+    "numericalFilesPassed": 225,
+    "numericalComparisons": 983462,
+    "numericalSampleComparisons": 784862,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 6,
     "rootTimelineFilesPassed": 29,
@@ -3521,17 +3521,26 @@
       "actionScript": 2,
       "scriptFiles": 6,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-2-3.html#native-atomic-flash-476dcd0dbb91746c",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-476dcd0dbb91746c",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 701,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3541,12 +3550,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM and literal original Atom data; geometry, labels, counts and finite selections",
+        "comparisons": 675,
+        "maxAbsoluteError": 0,
+        "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+        "report": "docs/atomic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/atomic-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-23cee9bec29af9b7",
@@ -3559,17 +3580,26 @@
       "actionScript": 2,
       "scriptFiles": 13,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-2-2.html#native-atomic-flash-23cee9bec29af9b7",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-23cee9bec29af9b7",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 47895,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3579,12 +3609,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM and literal original Atom data; geometry, labels, counts and finite selections",
+        "comparisons": 46557,
+        "maxAbsoluteError": 0,
+        "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+        "report": "docs/atomic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/atomic-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1590052d14210f73",
@@ -3597,17 +3639,26 @@
       "actionScript": 2,
       "scriptFiles": 14,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-2-2.html#native-atomic-flash-1590052d14210f73",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1590052d14210f73",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 7938,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3617,12 +3668,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM and literal original Atom data; geometry, labels, counts and finite selections",
+        "comparisons": 70114,
+        "maxAbsoluteError": 0,
+        "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+        "report": "docs/atomic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/atomic-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-6a4b887fc703ab77",
@@ -3635,17 +3698,26 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-2-3.html#native-atomic-flash-6a4b887fc703ab77",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-6a4b887fc703ab77",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 564,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3655,12 +3727,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM and literal original Atom data; geometry, labels, counts and finite selections",
+        "comparisons": 2446,
+        "maxAbsoluteError": 0,
+        "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+        "report": "docs/atomic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/atomic-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-e776b43e64da3464",
@@ -3673,17 +3757,26 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-2-3.html#native-atomic-flash-e776b43e64da3464",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e776b43e64da3464",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 600,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3693,12 +3786,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM and literal original Atom data; geometry, labels, counts and finite selections",
+        "comparisons": 2602,
+        "maxAbsoluteError": 0,
+        "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+        "report": "docs/atomic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/atomic-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-43834abb48f3463d",
@@ -4192,17 +4297,26 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-1-1.html#native-atomic-flash-ee53b93ccb2f157e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-ee53b93ccb2f157e",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 15902,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -4212,12 +4326,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript VM and literal original Atom data; geometry, labels, counts and finite selections",
+        "comparisons": 390,
+        "maxAbsoluteError": 0,
+        "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+        "report": "docs/atomic-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/atomic-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-7165070536a3fbdf",

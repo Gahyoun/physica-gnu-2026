@@ -1,0 +1,3086 @@
+{
+  "date": "2026-10-09T10:33:41.295Z",
+  "nativeModelHashes": {
+    "assets/atomic-physics.mjs": "afa0b435382367d30cd704aa36584a7557d4d8a5f8cb1973fe9d3dd79009b87a",
+    "assets/atomic-specs.mjs": "37dfa551cb6921d65a6e6d007fc16efa5c34ceeb9f8d146bdfc1e9a0982520a9"
+  },
+  "method": "Actual original Ruffle; read-only AVM1 display/Atom value observer and real pointer controls, unchanged original data and clocks",
+  "files": 6,
+  "comparisons": 73600,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-476dcd0dbb91746c",
+      "type": "shell",
+      "sha256": "a143f02989b4c28d851aef004f8d92d11cf063cefb746148730c043b153744af",
+      "sha256Verified": true,
+      "comparisons": 701,
+      "maxAbsoluteError": 0.04999999999998295,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup",
+          "z": 10
+        },
+        {
+          "label": "slider 1 energy false",
+          "z": 1
+        },
+        {
+          "label": "slider 2 energy false",
+          "z": 2
+        },
+        {
+          "label": "slider 3 energy false",
+          "z": 3
+        },
+        {
+          "label": "slider 4 energy false",
+          "z": 4
+        },
+        {
+          "label": "slider 5 energy false",
+          "z": 5
+        },
+        {
+          "label": "slider 6 energy false",
+          "z": 6
+        },
+        {
+          "label": "slider 7 energy false",
+          "z": 7
+        },
+        {
+          "label": "slider 8 energy false",
+          "z": 8
+        },
+        {
+          "label": "slider 9 energy false",
+          "z": 9
+        },
+        {
+          "label": "slider 10 energy false",
+          "z": 10
+        },
+        {
+          "label": "slider 11 energy false",
+          "z": 11
+        },
+        {
+          "label": "slider 12 energy false",
+          "z": 12
+        },
+        {
+          "label": "slider 13 energy false",
+          "z": 13
+        },
+        {
+          "label": "slider 14 energy false",
+          "z": 14
+        },
+        {
+          "label": "slider 15 energy false",
+          "z": 15
+        },
+        {
+          "label": "slider 16 energy false",
+          "z": 16
+        },
+        {
+          "label": "slider 17 energy false",
+          "z": 17
+        },
+        {
+          "label": "slider 18 energy false",
+          "z": 18
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+      "passed": true
+    },
+    {
+      "id": "flash-6a4b887fc703ab77",
+      "type": "radius",
+      "sha256": "371d47376292f77daa2af4599ec6d0c2bc7228e39a09bd09499771752f8229a2",
+      "sha256Verified": true,
+      "comparisons": 564,
+      "maxAbsoluteError": 0.04999999999999005,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup",
+          "graphType": 1
+        }
+      ],
+      "controls": [
+        {
+          "kind": "graph point click",
+          "z": 1,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 2,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 3,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 4,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 5,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 6,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 7,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 8,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 9,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 10,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 11,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 12,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 13,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 14,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 15,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 16,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 17,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 18,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 19,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 20,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 21,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 22,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 23,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 24,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 25,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 26,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 27,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 28,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 29,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 30,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 31,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 32,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 33,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 34,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 35,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 36,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 37,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 38,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 39,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 40,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 41,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 42,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 43,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 44,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 45,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 46,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 47,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 48,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 49,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 50,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 51,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 52,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 53,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 54,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 55,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 56,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 57,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 58,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 59,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 60,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 61,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 62,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 63,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 64,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 65,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 66,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 67,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 68,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 69,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 70,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 71,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 72,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 73,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 74,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 75,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 76,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 77,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 78,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 79,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 80,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 81,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 82,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 83,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 84,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 85,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 86,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 87,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 88,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 89,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 90,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 91,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 92,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 93,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 94,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+      "passed": true
+    },
+    {
+      "id": "flash-e776b43e64da3464",
+      "type": "ionization",
+      "sha256": "8e9a7f66dd68c823c0c02c82d0420723c0696d65f5275e682bb72b37cca040da",
+      "sha256Verified": true,
+      "comparisons": 600,
+      "maxAbsoluteError": 0.04960000000002651,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup",
+          "graphType": 2
+        }
+      ],
+      "controls": [
+        {
+          "kind": "graph point click",
+          "z": 1,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 2,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 3,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 4,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 5,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 6,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 7,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 8,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 9,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 10,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 11,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 12,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 13,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 14,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 15,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 16,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 17,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 18,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 19,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 20,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 21,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 22,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 23,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 24,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 25,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 26,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 27,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 28,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 29,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 30,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 31,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 32,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 33,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 34,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 35,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 36,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 37,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 38,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 39,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 40,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 41,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 42,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 43,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 44,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 45,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 46,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 47,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 48,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 49,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 50,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 51,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 52,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 53,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 54,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 55,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 56,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 57,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 58,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 59,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 60,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 61,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 62,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 63,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 64,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 65,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 66,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 67,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 68,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 69,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 70,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 71,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 72,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 73,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 74,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 75,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 76,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 77,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 78,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 79,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 80,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 81,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 82,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 83,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 84,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 85,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 86,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 87,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 88,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 89,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 90,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 91,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 92,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 93,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 94,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 95,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 96,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 97,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 98,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 99,
+          "passed": true
+        },
+        {
+          "kind": "graph point click",
+          "z": 100,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+      "passed": true
+    },
+    {
+      "id": "flash-23cee9bec29af9b7",
+      "type": "configuration",
+      "sha256": "6951a7b2d035130604f122eb1d02ab6bdd3c0bd4537d1ac15da63843d078ff73",
+      "sha256Verified": true,
+      "comparisons": 47895,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup",
+          "z": 1,
+          "energy": false,
+          "running": true
+        },
+        {
+          "label": "slider 1 energy false",
+          "z": 1,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 2 energy false",
+          "z": 2,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 3 energy false",
+          "z": 3,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 4 energy false",
+          "z": 4,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 5 energy false",
+          "z": 5,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 6 energy false",
+          "z": 6,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 7 energy false",
+          "z": 7,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 8 energy false",
+          "z": 8,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 9 energy false",
+          "z": 9,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 10 energy false",
+          "z": 10,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 11 energy false",
+          "z": 11,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 12 energy false",
+          "z": 12,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 13 energy false",
+          "z": 13,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 14 energy false",
+          "z": 14,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 15 energy false",
+          "z": 15,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 16 energy false",
+          "z": 16,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 17 energy false",
+          "z": 17,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 18 energy false",
+          "z": 18,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 19 energy false",
+          "z": 19,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 20 energy false",
+          "z": 20,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 21 energy false",
+          "z": 21,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 22 energy false",
+          "z": 22,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 23 energy false",
+          "z": 23,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 24 energy false",
+          "z": 24,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 25 energy false",
+          "z": 25,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 26 energy false",
+          "z": 26,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 27 energy false",
+          "z": 27,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 28 energy false",
+          "z": 28,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 29 energy false",
+          "z": 29,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 30 energy false",
+          "z": 30,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 31 energy false",
+          "z": 31,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 32 energy false",
+          "z": 32,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 33 energy false",
+          "z": 33,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 34 energy false",
+          "z": 34,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 35 energy false",
+          "z": 35,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 36 energy false",
+          "z": 36,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 37 energy false",
+          "z": 37,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 38 energy false",
+          "z": 38,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 39 energy false",
+          "z": 39,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 40 energy false",
+          "z": 40,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 41 energy false",
+          "z": 41,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 42 energy false",
+          "z": 42,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 43 energy false",
+          "z": 43,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 44 energy false",
+          "z": 44,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 45 energy false",
+          "z": 45,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 46 energy false",
+          "z": 46,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 47 energy false",
+          "z": 47,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 48 energy false",
+          "z": 48,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 49 energy false",
+          "z": 49,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 50 energy false",
+          "z": 50,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 51 energy false",
+          "z": 51,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 52 energy false",
+          "z": 52,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 53 energy false",
+          "z": 53,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 54 energy false",
+          "z": 54,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 55 energy false",
+          "z": 55,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 56 energy false",
+          "z": 56,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 57 energy false",
+          "z": 57,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 58 energy false",
+          "z": 58,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 59 energy false",
+          "z": 59,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 60 energy false",
+          "z": 60,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 61 energy false",
+          "z": 61,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 62 energy false",
+          "z": 62,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 63 energy false",
+          "z": 63,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 64 energy false",
+          "z": 64,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 65 energy false",
+          "z": 65,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 66 energy false",
+          "z": 66,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 67 energy false",
+          "z": 67,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 68 energy false",
+          "z": 68,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 69 energy false",
+          "z": 69,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 70 energy false",
+          "z": 70,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 71 energy false",
+          "z": 71,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 72 energy false",
+          "z": 72,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 73 energy false",
+          "z": 73,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 74 energy false",
+          "z": 74,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 75 energy false",
+          "z": 75,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 76 energy false",
+          "z": 76,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 77 energy false",
+          "z": 77,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 78 energy false",
+          "z": 78,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 79 energy false",
+          "z": 79,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 80 energy false",
+          "z": 80,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 81 energy false",
+          "z": 81,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 82 energy false",
+          "z": 82,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 83 energy false",
+          "z": 83,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 84 energy false",
+          "z": 84,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 85 energy false",
+          "z": 85,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 86 energy false",
+          "z": 86,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 87 energy false",
+          "z": 87,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 88 energy false",
+          "z": 88,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 89 energy false",
+          "z": 89,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 90 energy false",
+          "z": 90,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 91 energy false",
+          "z": 91,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 92 energy false",
+          "z": 92,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 93 energy false",
+          "z": 93,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 94 energy false",
+          "z": 94,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 95 energy false",
+          "z": 95,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 96 energy false",
+          "z": 96,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 97 energy false",
+          "z": 97,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 98 energy false",
+          "z": 98,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 99 energy false",
+          "z": 99,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 100 energy false",
+          "z": 100,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 101 energy false",
+          "z": 101,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 102 energy false",
+          "z": 102,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 103 energy false",
+          "z": 103,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "slider 1 energy true",
+          "z": 1,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 2 energy true",
+          "z": 2,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 3 energy true",
+          "z": 3,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 4 energy true",
+          "z": 4,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 5 energy true",
+          "z": 5,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 6 energy true",
+          "z": 6,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 7 energy true",
+          "z": 7,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 8 energy true",
+          "z": 8,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 9 energy true",
+          "z": 9,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 10 energy true",
+          "z": 10,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 11 energy true",
+          "z": 11,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 12 energy true",
+          "z": 12,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 13 energy true",
+          "z": 13,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 14 energy true",
+          "z": 14,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 15 energy true",
+          "z": 15,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 16 energy true",
+          "z": 16,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 17 energy true",
+          "z": 17,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 18 energy true",
+          "z": 18,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 19 energy true",
+          "z": 19,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 20 energy true",
+          "z": 20,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 21 energy true",
+          "z": 21,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 22 energy true",
+          "z": 22,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 23 energy true",
+          "z": 23,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 24 energy true",
+          "z": 24,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 25 energy true",
+          "z": 25,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 26 energy true",
+          "z": 26,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 27 energy true",
+          "z": 27,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 28 energy true",
+          "z": 28,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 29 energy true",
+          "z": 29,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 30 energy true",
+          "z": 30,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 31 energy true",
+          "z": 31,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 32 energy true",
+          "z": 32,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 33 energy true",
+          "z": 33,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 34 energy true",
+          "z": 34,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 35 energy true",
+          "z": 35,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 36 energy true",
+          "z": 36,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 37 energy true",
+          "z": 37,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 38 energy true",
+          "z": 38,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 39 energy true",
+          "z": 39,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 40 energy true",
+          "z": 40,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 41 energy true",
+          "z": 41,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 42 energy true",
+          "z": 42,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 43 energy true",
+          "z": 43,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 44 energy true",
+          "z": 44,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 45 energy true",
+          "z": 45,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 46 energy true",
+          "z": 46,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 47 energy true",
+          "z": 47,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 48 energy true",
+          "z": 48,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 49 energy true",
+          "z": 49,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 50 energy true",
+          "z": 50,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 51 energy true",
+          "z": 51,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 52 energy true",
+          "z": 52,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 53 energy true",
+          "z": 53,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 54 energy true",
+          "z": 54,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 55 energy true",
+          "z": 55,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 56 energy true",
+          "z": 56,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 57 energy true",
+          "z": 57,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 58 energy true",
+          "z": 58,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 59 energy true",
+          "z": 59,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 60 energy true",
+          "z": 60,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 61 energy true",
+          "z": 61,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 62 energy true",
+          "z": 62,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 63 energy true",
+          "z": 63,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 64 energy true",
+          "z": 64,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 65 energy true",
+          "z": 65,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 66 energy true",
+          "z": 66,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 67 energy true",
+          "z": 67,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 68 energy true",
+          "z": 68,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 69 energy true",
+          "z": 69,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 70 energy true",
+          "z": 70,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 71 energy true",
+          "z": 71,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 72 energy true",
+          "z": 72,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 73 energy true",
+          "z": 73,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 74 energy true",
+          "z": 74,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 75 energy true",
+          "z": 75,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 76 energy true",
+          "z": 76,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 77 energy true",
+          "z": 77,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 78 energy true",
+          "z": 78,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 79 energy true",
+          "z": 79,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 80 energy true",
+          "z": 80,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 81 energy true",
+          "z": 81,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 82 energy true",
+          "z": 82,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 83 energy true",
+          "z": 83,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 84 energy true",
+          "z": 84,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 85 energy true",
+          "z": 85,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 86 energy true",
+          "z": 86,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 87 energy true",
+          "z": 87,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 88 energy true",
+          "z": 88,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 89 energy true",
+          "z": 89,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 90 energy true",
+          "z": 90,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 91 energy true",
+          "z": 91,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 92 energy true",
+          "z": 92,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 93 energy true",
+          "z": 93,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 94 energy true",
+          "z": 94,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 95 energy true",
+          "z": 95,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 96 energy true",
+          "z": 96,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 97 energy true",
+          "z": 97,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 98 energy true",
+          "z": 98,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 99 energy true",
+          "z": 99,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 100 energy true",
+          "z": 100,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 101 energy true",
+          "z": 101,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 102 energy true",
+          "z": 102,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "slider 103 energy true",
+          "z": 103,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "energy false",
+          "z": 103,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "energy true",
+          "z": 103,
+          "energy": true,
+          "running": false
+        },
+        {
+          "label": "energy false",
+          "z": 103,
+          "energy": false,
+          "running": false
+        },
+        {
+          "label": "natural next element",
+          "z": 1,
+          "energy": false,
+          "running": true
+        }
+      ],
+      "controls": [
+        {
+          "kind": "pause original automatic elements",
+          "passed": true
+        },
+        {
+          "kind": "energy arrangement",
+          "desired": true,
+          "passed": true
+        },
+        {
+          "kind": "energy checkbox",
+          "desired": false,
+          "passed": true
+        },
+        {
+          "kind": "energy checkbox",
+          "desired": true,
+          "passed": true
+        },
+        {
+          "kind": "energy checkbox",
+          "desired": false,
+          "passed": true
+        },
+        {
+          "kind": "original play",
+          "passed": true
+        },
+        {
+          "kind": "original Z103 wraps to1",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+      "passed": true
+    },
+    {
+      "id": "flash-1590052d14210f73",
+      "type": "table",
+      "sha256": "1e1b92cf8ce5bbbc753661fe6d9cdcf1e6ded0132e770eb68a8ce3973b86dd28",
+      "sha256Verified": true,
+      "comparisons": 7938,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "group 1"
+        },
+        {
+          "label": "group 2"
+        },
+        {
+          "label": "group 3"
+        },
+        {
+          "label": "group 4"
+        },
+        {
+          "label": "group 5"
+        },
+        {
+          "label": "group 6"
+        },
+        {
+          "label": "group 7"
+        },
+        {
+          "label": "group 8"
+        }
+      ],
+      "controls": [
+        {
+          "kind": "group on",
+          "group": 1,
+          "passed": true
+        },
+        {
+          "kind": "group off",
+          "group": 1,
+          "passed": true
+        },
+        {
+          "kind": "group on",
+          "group": 2,
+          "passed": true
+        },
+        {
+          "kind": "group off",
+          "group": 2,
+          "passed": true
+        },
+        {
+          "kind": "group on",
+          "group": 3,
+          "passed": true
+        },
+        {
+          "kind": "group off",
+          "group": 3,
+          "passed": true
+        },
+        {
+          "kind": "group on",
+          "group": 4,
+          "passed": true
+        },
+        {
+          "kind": "group off",
+          "group": 4,
+          "passed": true
+        },
+        {
+          "kind": "group on",
+          "group": 5,
+          "passed": true
+        },
+        {
+          "kind": "group off",
+          "group": 5,
+          "passed": true
+        },
+        {
+          "kind": "group on",
+          "group": 6,
+          "passed": true
+        },
+        {
+          "kind": "group off",
+          "group": 6,
+          "passed": true
+        },
+        {
+          "kind": "group on",
+          "group": 7,
+          "passed": true
+        },
+        {
+          "kind": "group off",
+          "group": 7,
+          "passed": true
+        },
+        {
+          "kind": "group on",
+          "group": 8,
+          "passed": true
+        },
+        {
+          "kind": "group off",
+          "group": 8,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+      "passed": true
+    },
+    {
+      "id": "flash-ee53b93ccb2f157e",
+      "type": "affinity",
+      "sha256": "520753619a5cd37c722b2da207cc1115b5620578f5cee361dcdb8a9e19f0ae2c",
+      "sha256Verified": true,
+      "comparisons": 15902,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup",
+          "metal": 0,
+          "nonmetal": 0
+        },
+        {
+          "label": "cell 1",
+          "metal": 0,
+          "nonmetal": 0
+        },
+        {
+          "label": "cell 2",
+          "metal": 0,
+          "nonmetal": 0
+        },
+        {
+          "label": "cell 3",
+          "metal": 3,
+          "nonmetal": 0
+        },
+        {
+          "label": "cell 4",
+          "metal": 4,
+          "nonmetal": 0
+        },
+        {
+          "label": "cell 5",
+          "metal": 4,
+          "nonmetal": 0
+        },
+        {
+          "label": "cell 6",
+          "metal": 4,
+          "nonmetal": 6
+        },
+        {
+          "label": "cell 7",
+          "metal": 4,
+          "nonmetal": 7
+        },
+        {
+          "label": "cell 8",
+          "metal": 4,
+          "nonmetal": 8
+        },
+        {
+          "label": "cell 9",
+          "metal": 4,
+          "nonmetal": 9
+        },
+        {
+          "label": "cell 10",
+          "metal": 4,
+          "nonmetal": 9
+        },
+        {
+          "label": "cell 11",
+          "metal": 11,
+          "nonmetal": 9
+        },
+        {
+          "label": "cell 12",
+          "metal": 12,
+          "nonmetal": 9
+        },
+        {
+          "label": "cell 13",
+          "metal": 13,
+          "nonmetal": 9
+        },
+        {
+          "label": "cell 14",
+          "metal": 13,
+          "nonmetal": 9
+        },
+        {
+          "label": "cell 15",
+          "metal": 13,
+          "nonmetal": 15
+        },
+        {
+          "label": "cell 16",
+          "metal": 13,
+          "nonmetal": 16
+        },
+        {
+          "label": "cell 17",
+          "metal": 13,
+          "nonmetal": 17
+        },
+        {
+          "label": "cell 18",
+          "metal": 13,
+          "nonmetal": 17
+        },
+        {
+          "label": "cell 19",
+          "metal": 19,
+          "nonmetal": 17
+        },
+        {
+          "label": "cell 20",
+          "metal": 20,
+          "nonmetal": 17
+        },
+        {
+          "label": "cell 31",
+          "metal": 31,
+          "nonmetal": 17
+        },
+        {
+          "label": "cell 32",
+          "metal": 31,
+          "nonmetal": 17
+        },
+        {
+          "label": "cell 33",
+          "metal": 31,
+          "nonmetal": 17
+        },
+        {
+          "label": "cell 34",
+          "metal": 31,
+          "nonmetal": 34
+        },
+        {
+          "label": "cell 35",
+          "metal": 31,
+          "nonmetal": 35
+        },
+        {
+          "label": "cell 36",
+          "metal": 31,
+          "nonmetal": 35
+        },
+        {
+          "label": "pair 3/6",
+          "metal": 3,
+          "nonmetal": 6
+        },
+        {
+          "label": "pair 3/7",
+          "metal": 3,
+          "nonmetal": 7
+        },
+        {
+          "label": "pair 3/8",
+          "metal": 3,
+          "nonmetal": 8
+        },
+        {
+          "label": "pair 3/9",
+          "metal": 3,
+          "nonmetal": 9
+        },
+        {
+          "label": "pair 3/15",
+          "metal": 3,
+          "nonmetal": 15
+        },
+        {
+          "label": "pair 3/16",
+          "metal": 3,
+          "nonmetal": 16
+        },
+        {
+          "label": "pair 3/17",
+          "metal": 3,
+          "nonmetal": 17
+        },
+        {
+          "label": "pair 3/34",
+          "metal": 3,
+          "nonmetal": 34
+        },
+        {
+          "label": "pair 3/35",
+          "metal": 3,
+          "nonmetal": 35
+        },
+        {
+          "label": "pair 4/6",
+          "metal": 4,
+          "nonmetal": 6
+        },
+        {
+          "label": "pair 4/7",
+          "metal": 4,
+          "nonmetal": 7
+        },
+        {
+          "label": "pair 4/8",
+          "metal": 4,
+          "nonmetal": 8
+        },
+        {
+          "label": "pair 4/9",
+          "metal": 4,
+          "nonmetal": 9
+        },
+        {
+          "label": "pair 4/15",
+          "metal": 4,
+          "nonmetal": 15
+        },
+        {
+          "label": "pair 4/16",
+          "metal": 4,
+          "nonmetal": 16
+        },
+        {
+          "label": "pair 4/17",
+          "metal": 4,
+          "nonmetal": 17
+        },
+        {
+          "label": "pair 4/34",
+          "metal": 4,
+          "nonmetal": 34
+        },
+        {
+          "label": "pair 4/35",
+          "metal": 4,
+          "nonmetal": 35
+        },
+        {
+          "label": "pair 11/6",
+          "metal": 11,
+          "nonmetal": 6
+        },
+        {
+          "label": "pair 11/7",
+          "metal": 11,
+          "nonmetal": 7
+        },
+        {
+          "label": "pair 11/8",
+          "metal": 11,
+          "nonmetal": 8
+        },
+        {
+          "label": "pair 11/9",
+          "metal": 11,
+          "nonmetal": 9
+        },
+        {
+          "label": "pair 11/15",
+          "metal": 11,
+          "nonmetal": 15
+        },
+        {
+          "label": "pair 11/16",
+          "metal": 11,
+          "nonmetal": 16
+        },
+        {
+          "label": "pair 11/17",
+          "metal": 11,
+          "nonmetal": 17
+        },
+        {
+          "label": "pair 11/34",
+          "metal": 11,
+          "nonmetal": 34
+        },
+        {
+          "label": "pair 11/35",
+          "metal": 11,
+          "nonmetal": 35
+        },
+        {
+          "label": "pair 12/6",
+          "metal": 12,
+          "nonmetal": 6
+        },
+        {
+          "label": "pair 12/7",
+          "metal": 12,
+          "nonmetal": 7
+        },
+        {
+          "label": "pair 12/8",
+          "metal": 12,
+          "nonmetal": 8
+        },
+        {
+          "label": "pair 12/9",
+          "metal": 12,
+          "nonmetal": 9
+        },
+        {
+          "label": "pair 12/15",
+          "metal": 12,
+          "nonmetal": 15
+        },
+        {
+          "label": "pair 12/16",
+          "metal": 12,
+          "nonmetal": 16
+        },
+        {
+          "label": "pair 12/17",
+          "metal": 12,
+          "nonmetal": 17
+        },
+        {
+          "label": "pair 12/34",
+          "metal": 12,
+          "nonmetal": 34
+        },
+        {
+          "label": "pair 12/35",
+          "metal": 12,
+          "nonmetal": 35
+        },
+        {
+          "label": "pair 13/6",
+          "metal": 13,
+          "nonmetal": 6
+        },
+        {
+          "label": "pair 13/7",
+          "metal": 13,
+          "nonmetal": 7
+        },
+        {
+          "label": "pair 13/8",
+          "metal": 13,
+          "nonmetal": 8
+        },
+        {
+          "label": "pair 13/9",
+          "metal": 13,
+          "nonmetal": 9
+        },
+        {
+          "label": "pair 13/15",
+          "metal": 13,
+          "nonmetal": 15
+        },
+        {
+          "label": "pair 13/16",
+          "metal": 13,
+          "nonmetal": 16
+        },
+        {
+          "label": "pair 13/17",
+          "metal": 13,
+          "nonmetal": 17
+        },
+        {
+          "label": "pair 13/34",
+          "metal": 13,
+          "nonmetal": 34
+        },
+        {
+          "label": "pair 13/35",
+          "metal": 13,
+          "nonmetal": 35
+        },
+        {
+          "label": "pair 19/6",
+          "metal": 19,
+          "nonmetal": 6
+        },
+        {
+          "label": "pair 19/7",
+          "metal": 19,
+          "nonmetal": 7
+        },
+        {
+          "label": "pair 19/8",
+          "metal": 19,
+          "nonmetal": 8
+        },
+        {
+          "label": "pair 19/9",
+          "metal": 19,
+          "nonmetal": 9
+        },
+        {
+          "label": "pair 19/15",
+          "metal": 19,
+          "nonmetal": 15
+        },
+        {
+          "label": "pair 19/16",
+          "metal": 19,
+          "nonmetal": 16
+        },
+        {
+          "label": "pair 19/17",
+          "metal": 19,
+          "nonmetal": 17
+        },
+        {
+          "label": "pair 19/34",
+          "metal": 19,
+          "nonmetal": 34
+        },
+        {
+          "label": "pair 19/35",
+          "metal": 19,
+          "nonmetal": 35
+        },
+        {
+          "label": "pair 20/6",
+          "metal": 20,
+          "nonmetal": 6
+        },
+        {
+          "label": "pair 20/7",
+          "metal": 20,
+          "nonmetal": 7
+        },
+        {
+          "label": "pair 20/8",
+          "metal": 20,
+          "nonmetal": 8
+        },
+        {
+          "label": "pair 20/9",
+          "metal": 20,
+          "nonmetal": 9
+        },
+        {
+          "label": "pair 20/15",
+          "metal": 20,
+          "nonmetal": 15
+        },
+        {
+          "label": "pair 20/16",
+          "metal": 20,
+          "nonmetal": 16
+        },
+        {
+          "label": "pair 20/17",
+          "metal": 20,
+          "nonmetal": 17
+        },
+        {
+          "label": "pair 20/34",
+          "metal": 20,
+          "nonmetal": 34
+        },
+        {
+          "label": "pair 20/35",
+          "metal": 20,
+          "nonmetal": 35
+        },
+        {
+          "label": "pair 31/6",
+          "metal": 31,
+          "nonmetal": 6
+        },
+        {
+          "label": "pair 31/7",
+          "metal": 31,
+          "nonmetal": 7
+        },
+        {
+          "label": "pair 31/8",
+          "metal": 31,
+          "nonmetal": 8
+        },
+        {
+          "label": "pair 31/9",
+          "metal": 31,
+          "nonmetal": 9
+        },
+        {
+          "label": "pair 31/15",
+          "metal": 31,
+          "nonmetal": 15
+        },
+        {
+          "label": "pair 31/16",
+          "metal": 31,
+          "nonmetal": 16
+        },
+        {
+          "label": "pair 31/17",
+          "metal": 31,
+          "nonmetal": 17
+        },
+        {
+          "label": "pair 31/34",
+          "metal": 31,
+          "nonmetal": 34
+        },
+        {
+          "label": "pair 31/35",
+          "metal": 31,
+          "nonmetal": 35
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "finiteSelections": {
+        "metals": [
+          3,
+          4,
+          11,
+          12,
+          13,
+          19,
+          20,
+          31
+        ],
+        "nonmetals": [
+          6,
+          7,
+          8,
+          9,
+          15,
+          16,
+          17,
+          34,
+          35
+        ],
+        "pairs": 72,
+        "observed": 72
+      },
+      "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+      "passed": true
+    }
+  ]
+}

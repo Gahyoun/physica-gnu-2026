@@ -83,3 +83,5 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="p
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="dichroic-"]'))await import('./native-dichroic.mjs');
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="jones-"]'))await import('./native-jones.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="atomic-"]'))await import('./native-atomic.mjs');

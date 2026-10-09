@@ -74,7 +74,10 @@ fs.writeFileSync(new URL('../assets/dichroic-specs.mjs',import.meta.url),'export
 const jones=JSON.parse(fs.readFileSync(new URL('../src/native-jones.json',import.meta.url)));
 const jonesSpecs=Object.fromEntries(jones.map(r=>['jones-'+r.id,r]));
 fs.writeFileSync(new URL('../assets/jones-specs.mjs',import.meta.url),'export const jonesSpecs='+JSON.stringify(jonesSpecs)+';\n');
-const nativeSpecs={...jonesSpecs,...dichroicSpecs,...polarizerSpecs,...interferometerSpecs,...matrixSpecs,...apertureSpecs,...raySpecs,...beamSpecs,...diffractionSpecs,...potentialSpecs,...circuitSpecs,...electromagnetSpecs,...dynamicsSpecs,...lightSpecs,...quantumSpecs,...sceneSpecs,...fieldSpecs,...fundamentalSpecs,...expansionSpecs,...refractionSpecs,...opticsSpecs,...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
+const atomics=JSON.parse(fs.readFileSync(new URL('../src/native-atomic.json',import.meta.url)));
+const atomicSpecs=Object.fromEntries(atomics.map(r=>['atomic-'+r.id,r]));
+fs.writeFileSync(new URL('../assets/atomic-specs.mjs',import.meta.url),'export const atomicSpecs='+JSON.stringify(atomicSpecs)+';\n');
+const nativeSpecs={...atomicSpecs,...jonesSpecs,...dichroicSpecs,...polarizerSpecs,...interferometerSpecs,...matrixSpecs,...apertureSpecs,...raySpecs,...beamSpecs,...diffractionSpecs,...potentialSpecs,...circuitSpecs,...electromagnetSpecs,...dynamicsSpecs,...lightSpecs,...quantumSpecs,...sceneSpecs,...fieldSpecs,...fundamentalSpecs,...expansionSpecs,...refractionSpecs,...opticsSpecs,...analyticSpecs,...oscillatorSpecs,...mechanicsSpecs,...chainSpecs,...waveSpecs,...timelineSpecs};
 const quantumNative={distributionftn:'distribution-comparison.html#distributions',distributionftnx:'distribution-comparison.html#scaled-distributions',fddistftn:'distribution-comparison.html#fermi-edge',mode1dim:'density-of-states.html#mode-1d',mode2dim:'density-of-states.html#mode-2d',mode3dim:'density-of-states.html#mode-3d',grblackbody:'blackbody.html#blackbody',solidosc:'heat-capacity.html#lattice',freeelectronftn:'free-electrons.html#free-electrons'};
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function flash(root){

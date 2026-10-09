@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09T05:12:38.575Z",
+  "date": "2026-10-09T10:34:34.109Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -49,16 +49,18 @@
     "assets/dichroic-physics.mjs": "605ec9a86143be03488ca94cb3daabb63e019b169418f15e2f9af60ef1f7e2fd",
     "assets/dichroic-specs.mjs": "9f3083b4dde4930b4f9b88b043606e83cab404f5d0ea78eb57bd1419f4c55ae1",
     "assets/jones-physics.mjs": "8cae274513cdfb4faf3a3440eb97a40eb691a047c355786e79fec9faf7b06ea1",
-    "assets/jones-specs.mjs": "7234c39ba01919c710f91d50ad1245ed69a7a46784756fb651aa654659e24338"
+    "assets/jones-specs.mjs": "7234c39ba01919c710f91d50ad1245ed69a7a46784756fb651aa654659e24338",
+    "assets/atomic-physics.mjs": "afa0b435382367d30cd704aa36584a7557d4d8a5f8cb1973fe9d3dd79009b87a",
+    "assets/atomic-specs.mjs": "37dfa551cb6921d65a6e6d007fc16efa5c34ceeb9f8d146bdfc1e9a0982520a9"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 219,
-  "numericalFilesPassed": 219,
-  "numericalSampleComparisons": 711262,
+  "numericalFiles": 225,
+  "numericalFilesPassed": 225,
+  "numericalSampleComparisons": 784862,
   "combinationComparisons": 198600,
-  "numericalComparisons": 909862,
+  "numericalComparisons": 983462,
   "finiteCombinationScopes": 6,
   "finiteCombinationScopesPassed": 6,
   "rootTimelineFiles": 29,
@@ -1837,7 +1839,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/atomic-runtime-report.json",
+        "sha256": "a143f02989b4c28d851aef004f8d92d11cf063cefb746148730c043b153744af",
+        "passed": true,
+        "comparisons": 701,
+        "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+        "maxAbsoluteError": 0.04999999999998295
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1856,7 +1865,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/atomic-runtime-report.json",
+        "sha256": "6951a7b2d035130604f122eb1d02ab6bdd3c0bd4537d1ac15da63843d078ff73",
+        "passed": true,
+        "comparisons": 47895,
+        "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1875,7 +1891,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/atomic-runtime-report.json",
+        "sha256": "1e1b92cf8ce5bbbc753661fe6d9cdcf1e6ded0132e770eb68a8ce3973b86dd28",
+        "passed": true,
+        "comparisons": 7938,
+        "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1894,7 +1917,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/atomic-runtime-report.json",
+        "sha256": "371d47376292f77daa2af4599ec6d0c2bc7228e39a09bd09499771752f8229a2",
+        "passed": true,
+        "comparisons": 564,
+        "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+        "maxAbsoluteError": 0.04999999999999005
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1913,7 +1943,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/atomic-runtime-report.json",
+        "sha256": "8e9a7f66dd68c823c0c02c82d0420723c0696d65f5275e682bb72b37cca040da",
+        "passed": true,
+        "comparisons": 600,
+        "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+        "maxAbsoluteError": 0.04960000000002651
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2162,7 +2199,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/atomic-runtime-report.json",
+        "sha256": "520753619a5cd37c722b2da207cc1115b5620578f5cee361dcdb8a9e19f0ae2c",
+        "passed": true,
+        "comparisons": 15902,
+        "scope": "Actual original settled display and original Atom scalar data: all visible plotted/shell/orbital/cell coordinates; all graph points and values; all 72 table configurations read without mutation; original pointer shell Z1…18, every original electron-configuration Z1…103 × both energy arrangements with energy toggle and automatic play/pause/wrap; every original graph Z selection; eight group toggles; all 26 affinity cell selections and every permitted 8×9 metal/nonmetal pair. Independent source check separately covers finite complete configurations/group masks/pairs. Not all pointer histories, random graph-layout branches or modern reference accuracy. Original display coordinates allow one twip (.05px).",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },

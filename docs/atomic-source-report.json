@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-09T10:19:11.524Z",
+  "nativeModelHashes": {
+    "assets/atomic-physics.mjs": "afa0b435382367d30cd704aa36584a7557d4d8a5f8cb1973fe9d3dd79009b87a",
+    "assets/atomic-specs.mjs": "37dfa551cb6921d65a6e6d007fc16efa5c34ceeb9f8d146bdfc1e9a0982520a9"
+  },
+  "files": 6,
+  "comparisons": 122784,
+  "method": "Independent private original ActionScript VM and literal original Atom data; geometry, labels, counts and finite selections",
+  "results": [
+    {
+      "id": "flash-476dcd0dbb91746c",
+      "type": "shell",
+      "comparisons": 675,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": 18,
+      "fullEquivalence": false,
+      "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+      "passed": true
+    },
+    {
+      "id": "flash-6a4b887fc703ab77",
+      "type": "radius",
+      "comparisons": 2446,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": 96,
+      "fullEquivalence": false,
+      "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+      "passed": true
+    },
+    {
+      "id": "flash-e776b43e64da3464",
+      "type": "ionization",
+      "comparisons": 2602,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": 102,
+      "fullEquivalence": false,
+      "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+      "passed": true
+    },
+    {
+      "id": "flash-23cee9bec29af9b7",
+      "type": "configuration",
+      "comparisons": 46557,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": 206,
+      "fullEquivalence": false,
+      "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+      "passed": true
+    },
+    {
+      "id": "flash-1590052d14210f73",
+      "type": "table",
+      "comparisons": 70114,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": 328,
+      "fullEquivalence": false,
+      "outsideTableCommandsExcluded": 5120,
+      "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+      "passed": true
+    },
+    {
+      "id": "flash-ee53b93ccb2f157e",
+      "type": "affinity",
+      "comparisons": 390,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": 98,
+      "fullEquivalence": false,
+      "scope": "Every finite native original data setting: shell Z1…18; graph Z1…94/100 and both original graph layouts; all 103 electron configurations with two orbital arrangements; table Z1…72 and finite visible geometry of all 256 group masks (original group lists also contain elements outside the table, generating nonfinite coordinates; those excluded commands are counted); affinity all 26 cells, every permitted metal/nonmetal pair and ignored categories. Independent private original functions and data; not all original pointer histories, all camera inputs or modern reference accuracy.",
+      "passed": true
+    }
+  ]
+}
