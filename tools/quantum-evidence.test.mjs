@@ -30,4 +30,14 @@ test('All 17 quantum originals have current source, runtime and responsive contr
  const manifest=JSON.parse(fs.readFileSync(new URL('src/flash-manifest.json',root)));for(const s of Object.values(quantumSpecs)){const r=runtime.results.find(r=>r.id===s.id);assert.equal(r.sha256,manifest.files.find(r=>r.id===s.id).sha256);assert.equal(r.sha256Verified,true);assert.ok(r.controls.every(c=>c.passed));for(const width of [320,1360])assert.equal(ui.results.find(r=>r.id===s.id&&r.width===width).passed,true);}
 });
 
-test('The two wavepacket SWFs remain distinct; only the inspected wave/superpose original is migrated',()=>{const c=JSON.parse(fs.readFileSync(new URL('assets/flash-catalog.json',root)));assert.ok(c.files.find(r=>r.id==='flash-eb06907beb17a943').nativeHref?.includes('quantum-flash-eb06907beb17a943'));assert.equal(c.files.find(r=>r.id==='flash-82557e88691f925e').nativeHref,undefined);for(const s of Object.values(quantumSpecs)){const r=c.files.find(r=>r.id===s.id);assert.equal(r.source,s.originalSource);assert.ok(r.nativeHref);}});
+test('The two independently inspected wavepacket originals retain their own source and HTML destination',()=>{
+ const c=JSON.parse(fs.readFileSync(new URL('assets/flash-catalog.json',root))),wave=c.files.find(r=>r.id==='flash-eb06907beb17a943'),modern=c.files.find(r=>r.id==='flash-82557e88691f925e');
+ assert.ok(wave.nativeHref?.includes('quantum-flash-eb06907beb17a943'));
+ assert.ok(modern.nativeHref?.includes('modern-batch50b-dynamics-flash-82557e88691f925e'));
+ assert.notEqual(wave.source,modern.source);assert.notEqual(wave.sha256,modern.sha256);assert.notEqual(wave.nativeHref,modern.nativeHref);
+ const spec=JSON.parse(fs.readFileSync(new URL('src/native-modern-batch50b-dynamics.json',root))).simulations.find(r=>r.id===modern.id);
+ assert.equal(spec.source,modern.source);
+ const runtime=readCurrent('docs/modern-batch50b-dynamics-runtime-report.json').results.find(r=>r.id===modern.id);
+ assert.ok(runtime.passed);assert.equal(runtime.sha256||runtime.originalSHA256,modern.sha256);
+ for(const s of Object.values(quantumSpecs)){const r=c.files.find(r=>r.id===s.id);assert.equal(r.source,s.originalSource);assert.ok(r.nativeHref);}
+});

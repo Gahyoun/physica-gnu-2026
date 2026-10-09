@@ -1,0 +1,649 @@
+{
+  "date": "2026-10-09T23:21:50.993Z",
+  "files": 20,
+  "cases": 60,
+  "checks": 1113,
+  "results": [
+    {
+      "id": "flash-48312d928701845d",
+      "source": "aberAChromatic1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "22551cb355933b98a2278f9e90c4a9d748b3d95955f788f1ab80efb4f7207a99",
+      "kernelSHA256": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611"
+    },
+    {
+      "id": "flash-93516affb99b4e72",
+      "source": "aberAChromatic2.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 26,
+      "programSHA256": "b32f37367f2f7ca64a4f810efe059173e4624efa55642c658e178b00435083db",
+      "kernelSHA256": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611"
+    },
+    {
+      "id": "flash-0f0cac3815eda408",
+      "source": "aberChromatic1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "1f36759f6a15c6ed986954de4dc33b885b231a88553554519eb0adcc222db4cf",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-07388eb4da3a86fe",
+      "source": "aberComa1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "43c3ad6194dbb73708a0643c4bf2646f13833ab41ad5297ce5383abd6d6d942b",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-79e619a9377f414a",
+      "source": "aberSpherical1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "f6ddbe04a5b387e348ab0acf30fce90bd90794cc8d6d46798978913c7c025ff9",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-7d2fe52076b32c5f",
+      "source": "aberSpherical2.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "9641a8c7a0a0b25c35f9fea20685bfe7a02565cbe6360325e396cd5ff35efd7a",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-367212c8f467ffa9",
+      "source": "aberSphericalSim1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 27,
+      "programSHA256": "77ae8da482692f75d859eb14d310545bd064b39721bd841dbbcc3c3bea8f909f",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-e8c180cb17a1844d",
+      "source": "focalgrinsim1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 18,
+      "programSHA256": "3672971d8ab538c9a7f6c52eb5e26d31bb5e0a29e4f37c637d1fcc0da490347d",
+      "kernelSHA256": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c"
+    },
+    {
+      "id": "flash-b26a7903e99b96d2",
+      "source": "focalgrinsim2.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 15,
+      "programSHA256": "bcbcb6cb75f3b50decb83e2f92658e2737825dd4fe4f8c43c19c1710772d0495",
+      "kernelSHA256": "4dfc3b6e90b78154e94f30d2db55c3a1e0fb0a1b27f451ce6bf0c2af70bcc88d"
+    },
+    {
+      "id": "flash-84d5263a3db489ee",
+      "source": "focalgrinsim3.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 19,
+      "programSHA256": "c6362021b8dfbce0bd9b61c38f4ff50f25d2c3802a82170718dacf8d16ed6935",
+      "kernelSHA256": "e8bebe7e62e31b4c964fa86eeb96e6fa3578598c8d3940cbc925f6faf91ca388"
+    },
+    {
+      "id": "flash-93b905ce5b8916d1",
+      "source": "simgrin1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 27,
+      "programSHA256": "9a990ba6ace6dcc55b5b9c217015ce4631c33644581ab07aad7183da9edf929e",
+      "kernelSHA256": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c"
+    },
+    {
+      "id": "flash-e9a8b8d594d9e6eb",
+      "source": "simMicrolens1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "ca82b958ff93c984db3024e4e0436fa06a1df719361ddff9f60304fc050d9820",
+      "kernelSHA256": "7d592281a7edd4fa394b2ab68c3113e60eeaa17112b3fa882dcc666b85d459ef"
+    },
+    {
+      "id": "flash-0a5ae23ffadf7614",
+      "source": "graph_dispersion.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 7,
+      "programSHA256": "99076c7a035ea3b2122e32ee1fe19b3a35d79d9bdd8054d9523017c5cda18051",
+      "kernelSHA256": "aed516101550cffd28dabad38590652cdf445f6e3b6857c5a0c1fd6f6f02ff66"
+    },
+    {
+      "id": "flash-1acef37d4c4d3fa6",
+      "source": "simdisprism1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "db6d29e36cb83eb78374df5afea3c82e349aeed314e5f677cbb4318d6589ff9f",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-6ae189308a390e4c",
+      "source": "simdisprism2.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 25,
+      "programSHA256": "15f40346869f8cacd32d293f4818dd74b879bc351268f0ff5f87792a6806dbb2",
+      "kernelSHA256": "eb246439fa69fcbeffb3e2bb2b7f59d62aa2c000216ce0b485649ff79bb77aa9"
+    },
+    {
+      "id": "flash-9252322b7f86ca63",
+      "source": "simprism1.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 27,
+      "programSHA256": "ed9875f7bf712260c70c70074741e688f8bfeb762419b22ff4f227c822ff17d5",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-f91b55d3bb43716c",
+      "source": "simprism2.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "ccaac11661db055f7f696497cce9499feade8e9dfae40b9f7f0678738a34d285",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-76b8c6a36b336ddd",
+      "source": "simprism3.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 20,
+      "programSHA256": "21cdf71e9aa8d449ec0a28b4b267a341b63914dbb7f618e66bb12931b679863e",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-ad51d54b1b079073",
+      "source": "simprism4.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "14c975aeea63fbc5aa39f9474b2bc4514553f92df54707cbf7444881db9d01e5",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-190ba027454d6737",
+      "source": "simprism5.swf",
+      "width": 320,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "3748174622b413ce029cd2127f236efedf86afaba6a1a39224782b46422d3a9a",
+      "kernelSHA256": "3ac3d82dd3d80088d06a2a2ca9b9b0ed8905f0ec8d8953f8af51bd3120d8e61b"
+    },
+    {
+      "id": "flash-48312d928701845d",
+      "source": "aberAChromatic1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "22551cb355933b98a2278f9e90c4a9d748b3d95955f788f1ab80efb4f7207a99",
+      "kernelSHA256": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611"
+    },
+    {
+      "id": "flash-93516affb99b4e72",
+      "source": "aberAChromatic2.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 26,
+      "programSHA256": "b32f37367f2f7ca64a4f810efe059173e4624efa55642c658e178b00435083db",
+      "kernelSHA256": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611"
+    },
+    {
+      "id": "flash-0f0cac3815eda408",
+      "source": "aberChromatic1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "1f36759f6a15c6ed986954de4dc33b885b231a88553554519eb0adcc222db4cf",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-07388eb4da3a86fe",
+      "source": "aberComa1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "43c3ad6194dbb73708a0643c4bf2646f13833ab41ad5297ce5383abd6d6d942b",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-79e619a9377f414a",
+      "source": "aberSpherical1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "f6ddbe04a5b387e348ab0acf30fce90bd90794cc8d6d46798978913c7c025ff9",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-7d2fe52076b32c5f",
+      "source": "aberSpherical2.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "9641a8c7a0a0b25c35f9fea20685bfe7a02565cbe6360325e396cd5ff35efd7a",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-367212c8f467ffa9",
+      "source": "aberSphericalSim1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 27,
+      "programSHA256": "77ae8da482692f75d859eb14d310545bd064b39721bd841dbbcc3c3bea8f909f",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-e8c180cb17a1844d",
+      "source": "focalgrinsim1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 18,
+      "programSHA256": "3672971d8ab538c9a7f6c52eb5e26d31bb5e0a29e4f37c637d1fcc0da490347d",
+      "kernelSHA256": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c"
+    },
+    {
+      "id": "flash-b26a7903e99b96d2",
+      "source": "focalgrinsim2.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 15,
+      "programSHA256": "bcbcb6cb75f3b50decb83e2f92658e2737825dd4fe4f8c43c19c1710772d0495",
+      "kernelSHA256": "4dfc3b6e90b78154e94f30d2db55c3a1e0fb0a1b27f451ce6bf0c2af70bcc88d"
+    },
+    {
+      "id": "flash-84d5263a3db489ee",
+      "source": "focalgrinsim3.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 19,
+      "programSHA256": "c6362021b8dfbce0bd9b61c38f4ff50f25d2c3802a82170718dacf8d16ed6935",
+      "kernelSHA256": "e8bebe7e62e31b4c964fa86eeb96e6fa3578598c8d3940cbc925f6faf91ca388"
+    },
+    {
+      "id": "flash-93b905ce5b8916d1",
+      "source": "simgrin1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 27,
+      "programSHA256": "9a990ba6ace6dcc55b5b9c217015ce4631c33644581ab07aad7183da9edf929e",
+      "kernelSHA256": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c"
+    },
+    {
+      "id": "flash-e9a8b8d594d9e6eb",
+      "source": "simMicrolens1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "ca82b958ff93c984db3024e4e0436fa06a1df719361ddff9f60304fc050d9820",
+      "kernelSHA256": "7d592281a7edd4fa394b2ab68c3113e60eeaa17112b3fa882dcc666b85d459ef"
+    },
+    {
+      "id": "flash-0a5ae23ffadf7614",
+      "source": "graph_dispersion.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 7,
+      "programSHA256": "99076c7a035ea3b2122e32ee1fe19b3a35d79d9bdd8054d9523017c5cda18051",
+      "kernelSHA256": "aed516101550cffd28dabad38590652cdf445f6e3b6857c5a0c1fd6f6f02ff66"
+    },
+    {
+      "id": "flash-1acef37d4c4d3fa6",
+      "source": "simdisprism1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "db6d29e36cb83eb78374df5afea3c82e349aeed314e5f677cbb4318d6589ff9f",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-6ae189308a390e4c",
+      "source": "simdisprism2.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 25,
+      "programSHA256": "15f40346869f8cacd32d293f4818dd74b879bc351268f0ff5f87792a6806dbb2",
+      "kernelSHA256": "eb246439fa69fcbeffb3e2bb2b7f59d62aa2c000216ce0b485649ff79bb77aa9"
+    },
+    {
+      "id": "flash-9252322b7f86ca63",
+      "source": "simprism1.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 27,
+      "programSHA256": "ed9875f7bf712260c70c70074741e688f8bfeb762419b22ff4f227c822ff17d5",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-f91b55d3bb43716c",
+      "source": "simprism2.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "ccaac11661db055f7f696497cce9499feade8e9dfae40b9f7f0678738a34d285",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-76b8c6a36b336ddd",
+      "source": "simprism3.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 20,
+      "programSHA256": "21cdf71e9aa8d449ec0a28b4b267a341b63914dbb7f618e66bb12931b679863e",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-ad51d54b1b079073",
+      "source": "simprism4.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "14c975aeea63fbc5aa39f9474b2bc4514553f92df54707cbf7444881db9d01e5",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-190ba027454d6737",
+      "source": "simprism5.swf",
+      "width": 768,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "3748174622b413ce029cd2127f236efedf86afaba6a1a39224782b46422d3a9a",
+      "kernelSHA256": "3ac3d82dd3d80088d06a2a2ca9b9b0ed8905f0ec8d8953f8af51bd3120d8e61b"
+    },
+    {
+      "id": "flash-48312d928701845d",
+      "source": "aberAChromatic1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "22551cb355933b98a2278f9e90c4a9d748b3d95955f788f1ab80efb4f7207a99",
+      "kernelSHA256": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611"
+    },
+    {
+      "id": "flash-93516affb99b4e72",
+      "source": "aberAChromatic2.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 26,
+      "programSHA256": "b32f37367f2f7ca64a4f810efe059173e4624efa55642c658e178b00435083db",
+      "kernelSHA256": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611"
+    },
+    {
+      "id": "flash-0f0cac3815eda408",
+      "source": "aberChromatic1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "1f36759f6a15c6ed986954de4dc33b885b231a88553554519eb0adcc222db4cf",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-07388eb4da3a86fe",
+      "source": "aberComa1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "43c3ad6194dbb73708a0643c4bf2646f13833ab41ad5297ce5383abd6d6d942b",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-79e619a9377f414a",
+      "source": "aberSpherical1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "f6ddbe04a5b387e348ab0acf30fce90bd90794cc8d6d46798978913c7c025ff9",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-7d2fe52076b32c5f",
+      "source": "aberSpherical2.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "9641a8c7a0a0b25c35f9fea20685bfe7a02565cbe6360325e396cd5ff35efd7a",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-367212c8f467ffa9",
+      "source": "aberSphericalSim1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 27,
+      "programSHA256": "77ae8da482692f75d859eb14d310545bd064b39721bd841dbbcc3c3bea8f909f",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7"
+    },
+    {
+      "id": "flash-e8c180cb17a1844d",
+      "source": "focalgrinsim1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 18,
+      "programSHA256": "3672971d8ab538c9a7f6c52eb5e26d31bb5e0a29e4f37c637d1fcc0da490347d",
+      "kernelSHA256": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c"
+    },
+    {
+      "id": "flash-b26a7903e99b96d2",
+      "source": "focalgrinsim2.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 15,
+      "programSHA256": "bcbcb6cb75f3b50decb83e2f92658e2737825dd4fe4f8c43c19c1710772d0495",
+      "kernelSHA256": "4dfc3b6e90b78154e94f30d2db55c3a1e0fb0a1b27f451ce6bf0c2af70bcc88d"
+    },
+    {
+      "id": "flash-84d5263a3db489ee",
+      "source": "focalgrinsim3.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 19,
+      "programSHA256": "c6362021b8dfbce0bd9b61c38f4ff50f25d2c3802a82170718dacf8d16ed6935",
+      "kernelSHA256": "e8bebe7e62e31b4c964fa86eeb96e6fa3578598c8d3940cbc925f6faf91ca388"
+    },
+    {
+      "id": "flash-93b905ce5b8916d1",
+      "source": "simgrin1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 27,
+      "programSHA256": "9a990ba6ace6dcc55b5b9c217015ce4631c33644581ab07aad7183da9edf929e",
+      "kernelSHA256": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c"
+    },
+    {
+      "id": "flash-e9a8b8d594d9e6eb",
+      "source": "simMicrolens1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "ca82b958ff93c984db3024e4e0436fa06a1df719361ddff9f60304fc050d9820",
+      "kernelSHA256": "7d592281a7edd4fa394b2ab68c3113e60eeaa17112b3fa882dcc666b85d459ef"
+    },
+    {
+      "id": "flash-0a5ae23ffadf7614",
+      "source": "graph_dispersion.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 7,
+      "programSHA256": "99076c7a035ea3b2122e32ee1fe19b3a35d79d9bdd8054d9523017c5cda18051",
+      "kernelSHA256": "aed516101550cffd28dabad38590652cdf445f6e3b6857c5a0c1fd6f6f02ff66"
+    },
+    {
+      "id": "flash-1acef37d4c4d3fa6",
+      "source": "simdisprism1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "db6d29e36cb83eb78374df5afea3c82e349aeed314e5f677cbb4318d6589ff9f",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-6ae189308a390e4c",
+      "source": "simdisprism2.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 25,
+      "programSHA256": "15f40346869f8cacd32d293f4818dd74b879bc351268f0ff5f87792a6806dbb2",
+      "kernelSHA256": "eb246439fa69fcbeffb3e2bb2b7f59d62aa2c000216ce0b485649ff79bb77aa9"
+    },
+    {
+      "id": "flash-9252322b7f86ca63",
+      "source": "simprism1.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 27,
+      "programSHA256": "ed9875f7bf712260c70c70074741e688f8bfeb762419b22ff4f227c822ff17d5",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-f91b55d3bb43716c",
+      "source": "simprism2.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "ccaac11661db055f7f696497cce9499feade8e9dfae40b9f7f0678738a34d285",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-76b8c6a36b336ddd",
+      "source": "simprism3.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 20,
+      "programSHA256": "21cdf71e9aa8d449ec0a28b4b267a341b63914dbb7f618e66bb12931b679863e",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-ad51d54b1b079073",
+      "source": "simprism4.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "14c975aeea63fbc5aa39f9474b2bc4514553f92df54707cbf7444881db9d01e5",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918"
+    },
+    {
+      "id": "flash-190ba027454d6737",
+      "source": "simprism5.swf",
+      "width": 1360,
+      "status": "pass",
+      "passed": true,
+      "checks": 16,
+      "programSHA256": "3748174622b413ce029cd2127f236efedf86afaba6a1a39224782b46422d3a9a",
+      "kernelSHA256": "3ac3d82dd3d80088d06a2a2ca9b9b0ed8905f0ec8d8953f8af51bd3120d8e61b"
+    }
+  ],
+  "nativeModelHashes": {
+    "assets/optics-batch50b-program-flash-48312d928701845d.mjs": "22551cb355933b98a2278f9e90c4a9d748b3d95955f788f1ab80efb4f7207a99",
+    "assets/optics-batch50b-kernel-92ed958d3a7c87a7.mjs": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611",
+    "assets/optics-batch50b-program-flash-93516affb99b4e72.mjs": "b32f37367f2f7ca64a4f810efe059173e4624efa55642c658e178b00435083db",
+    "assets/optics-batch50b-program-flash-0f0cac3815eda408.mjs": "1f36759f6a15c6ed986954de4dc33b885b231a88553554519eb0adcc222db4cf",
+    "assets/optics-batch50b-kernel-8bfa72046f6cac7a.mjs": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7",
+    "assets/optics-batch50b-program-flash-07388eb4da3a86fe.mjs": "43c3ad6194dbb73708a0643c4bf2646f13833ab41ad5297ce5383abd6d6d942b",
+    "assets/optics-batch50b-program-flash-79e619a9377f414a.mjs": "f6ddbe04a5b387e348ab0acf30fce90bd90794cc8d6d46798978913c7c025ff9",
+    "assets/optics-batch50b-program-flash-7d2fe52076b32c5f.mjs": "9641a8c7a0a0b25c35f9fea20685bfe7a02565cbe6360325e396cd5ff35efd7a",
+    "assets/optics-batch50b-program-flash-367212c8f467ffa9.mjs": "77ae8da482692f75d859eb14d310545bd064b39721bd841dbbcc3c3bea8f909f",
+    "assets/optics-batch50b-program-flash-e8c180cb17a1844d.mjs": "3672971d8ab538c9a7f6c52eb5e26d31bb5e0a29e4f37c637d1fcc0da490347d",
+    "assets/optics-batch50b-kernel-ac7e5dcd3e4a6001.mjs": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c",
+    "assets/optics-batch50b-program-flash-b26a7903e99b96d2.mjs": "bcbcb6cb75f3b50decb83e2f92658e2737825dd4fe4f8c43c19c1710772d0495",
+    "assets/optics-batch50b-kernel-ae8a9f17db010661.mjs": "4dfc3b6e90b78154e94f30d2db55c3a1e0fb0a1b27f451ce6bf0c2af70bcc88d",
+    "assets/optics-batch50b-program-flash-84d5263a3db489ee.mjs": "c6362021b8dfbce0bd9b61c38f4ff50f25d2c3802a82170718dacf8d16ed6935",
+    "assets/optics-batch50b-kernel-ab0c9d27902bfe9d.mjs": "e8bebe7e62e31b4c964fa86eeb96e6fa3578598c8d3940cbc925f6faf91ca388",
+    "assets/optics-batch50b-program-flash-93b905ce5b8916d1.mjs": "9a990ba6ace6dcc55b5b9c217015ce4631c33644581ab07aad7183da9edf929e",
+    "assets/optics-batch50b-program-flash-e9a8b8d594d9e6eb.mjs": "ca82b958ff93c984db3024e4e0436fa06a1df719361ddff9f60304fc050d9820",
+    "assets/optics-batch50b-kernel-854192265c1537d3.mjs": "7d592281a7edd4fa394b2ab68c3113e60eeaa17112b3fa882dcc666b85d459ef",
+    "assets/optics-batch50b-program-flash-0a5ae23ffadf7614.mjs": "99076c7a035ea3b2122e32ee1fe19b3a35d79d9bdd8054d9523017c5cda18051",
+    "assets/optics-batch50b-kernel-6632a04ecc70a480.mjs": "aed516101550cffd28dabad38590652cdf445f6e3b6857c5a0c1fd6f6f02ff66",
+    "assets/optics-batch50b-program-flash-1acef37d4c4d3fa6.mjs": "db6d29e36cb83eb78374df5afea3c82e349aeed314e5f677cbb4318d6589ff9f",
+    "assets/optics-batch50b-kernel-f402a795ba065de6.mjs": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918",
+    "assets/optics-batch50b-program-flash-6ae189308a390e4c.mjs": "15f40346869f8cacd32d293f4818dd74b879bc351268f0ff5f87792a6806dbb2",
+    "assets/optics-batch50b-kernel-4bbd29b1bfc0a729.mjs": "eb246439fa69fcbeffb3e2bb2b7f59d62aa2c000216ce0b485649ff79bb77aa9",
+    "assets/optics-batch50b-program-flash-9252322b7f86ca63.mjs": "ed9875f7bf712260c70c70074741e688f8bfeb762419b22ff4f227c822ff17d5",
+    "assets/optics-batch50b-program-flash-f91b55d3bb43716c.mjs": "ccaac11661db055f7f696497cce9499feade8e9dfae40b9f7f0678738a34d285",
+    "assets/optics-batch50b-program-flash-76b8c6a36b336ddd.mjs": "21cdf71e9aa8d449ec0a28b4b267a341b63914dbb7f618e66bb12931b679863e",
+    "assets/optics-batch50b-program-flash-ad51d54b1b079073.mjs": "14c975aeea63fbc5aa39f9474b2bc4514553f92df54707cbf7444881db9d01e5",
+    "assets/optics-batch50b-program-flash-190ba027454d6737.mjs": "3748174622b413ce029cd2127f236efedf86afaba6a1a39224782b46422d3a9a",
+    "assets/optics-batch50b-kernel-a95275a0a29e44e0.mjs": "3ac3d82dd3d80088d06a2a2ca9b9b0ed8905f0ec8d8953f8af51bd3120d8e61b",
+    "assets/optics-batch50b-adapter.mjs": "2e06f9f6c99662a0f112a8d1dfa4aef515d083d13fcf0449a8bbf7c5741b9007",
+    "assets/native-optics-batch50b.mjs": "2e04e64f27d14d8b5c5073edaf9a920436b18f9cec0c56549add7d84e5d2f4d8",
+    "assets/optics-batch50b-specs.mjs": "2fb1afabdd893cde7be42f4c6cf9c44ea69f9b9a7071f9d9cbd2212cd13a7ed2",
+    "src/native-optics-batch50b-rays.json": "7a680745806dfd89a8990707b8c2155f6d02c2e8cf33770cb09e1f247bb0c606"
+  },
+  "sharedHashes": {
+    "adapter": "2e06f9f6c99662a0f112a8d1dfa4aef515d083d13fcf0449a8bbf7c5741b9007",
+    "ui": "2e04e64f27d14d8b5c5073edaf9a920436b18f9cec0c56549add7d84e5d2f4d8"
+  },
+  "scope": "Actual native HTML/SVG at 320/768/1360 pixels; play motion, pause stability, bottom seek, every slider/checkbox/button, keyboard source drag, no artwork/player, visible vector geometry, .65-opacity curves, horizontal fit."
+}

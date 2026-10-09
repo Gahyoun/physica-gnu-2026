@@ -1,0 +1,115 @@
+[
+  {
+    "id": "flash-e341377e9b63ba2b",
+    "type": "levels",
+    "source": "generalradialnuclear.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/nuclear/nuclearmodel/nuclearmodel/generalradialnuclear.swf",
+    "originalSHA256": "59531b27aac6c62f98810b9c7565b76721f3b5cb781c84d6a5ff275c37cd6e42",
+    "title": "핵력에 대한 양자상태의 해석",
+    "lesson": "7-1-2-7",
+    "animated": false,
+    "defaults": {
+      "mode": 0,
+      "strength": 10,
+      "radius": 2.5,
+      "option": 0.2,
+      "mass": 1,
+      "l": 0,
+      "wave": false,
+      "density": true
+    },
+    "modes": [
+      "구형 우물",
+      "3차원 조화진동자",
+      "Yukawa",
+      "단순 Yukawa",
+      "알파 입자",
+      "Woods–Saxon"
+    ],
+    "controls": [
+      {
+        "key": "strength",
+        "label": "퍼텐셜 세기",
+        "min": 4,
+        "max": 30,
+        "step": 0.04
+      },
+      {
+        "key": "radius",
+        "label": "R / fm",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.05
+      },
+      {
+        "key": "option",
+        "label": "추가 매개변수 / fm",
+        "min": 0.05,
+        "max": 1,
+        "step": 0.05
+      },
+      {
+        "key": "mass",
+        "label": "질량 / 핵자 질량",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.5
+      },
+      {
+        "key": "l",
+        "label": "각운동량 ℓ",
+        "min": 0,
+        "max": 7,
+        "step": 1
+      }
+    ]
+  },
+  {
+    "id": "flash-8ab5975d99f35a45",
+    "type": "potential",
+    "source": "generalradialnucleargraph.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/nuclear/nuclearmodel/nuclearmodel/generalradialnucleargraph.swf",
+    "originalSHA256": "d418bb2ed5d4f2e4e7c7a622ceb8bee493676544296d12d9fd07c4e88a750e69",
+    "title": "우즈 색슨 퍼텐셜",
+    "lesson": "7-1-2-5",
+    "animated": false,
+    "defaults": {
+      "mode": 2,
+      "strength": 10,
+      "radius": 5,
+      "option": 0.4,
+      "mass": 1,
+      "l": 0,
+      "wave": false,
+      "density": true
+    },
+    "modes": [
+      "구형 우물",
+      "3차원 조화진동자",
+      "Woods–Saxon"
+    ],
+    "controls": [
+      {
+        "key": "strength",
+        "label": "퍼텐셜 세기",
+        "min": 4,
+        "max": 30,
+        "step": 0.04
+      },
+      {
+        "key": "radius",
+        "label": "R / fm",
+        "min": 0.5,
+        "max": 8,
+        "step": 0.05
+      },
+      {
+        "key": "option",
+        "label": "추가 매개변수 / fm",
+        "min": 0.01,
+        "max": 1,
+        "step": 0.01
+      }
+    ]
+  }
+]

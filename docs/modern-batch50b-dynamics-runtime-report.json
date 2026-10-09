@@ -1,0 +1,1392 @@
+{
+  "method": "Read-only original AS3 document class Timer observations in diagnostic memory route; original root ABC and every original tag preserved.",
+  "files": 9,
+  "comparisons": 756,
+  "fullEquivalence": false,
+  "nativeModelHashes": {
+    "assets/modern-batch50b-dynamics-engine.mjs": "d96bbd24e8f7be7283216e27aa4a68f0b7741d0901bc2dc05d398d3c5d675d67",
+    "assets/modern-batch50b-dynamics-physics.mjs": "644fd696419e1764d6eae642fda467fbeab3dbc16f049f5b939359c4e1cc5893",
+    "assets/modern-batch50b-dynamics-specs.mjs": "768322bfa84b59615cc2fb563742c421c46231c0f1c49a07ca7888b4ccd6ff24",
+    "tools/modern-batch50b-observer/PhysicaModernBatch50bObserver.as": "e2740706f3aa4580abc9ddb3d3856aa377090264ee141fbdecd5541fd34a44f1",
+    "tools/modern-batch50b-compile-observer.mjs": "e6d4a6cc93d909ba1d96fce1c1aa3e99ed7435a3cca659463c0e3b40ec5b4b4f",
+    "tools/modern-batch50b-dynamics-runtime-check.mjs": "18a9827052e3ba5fda30fa4e0034fd8b67b0901ba0c0ca9d86c66999ebfabff7",
+    "tools/modern-next-as3-observer.mjs": "d27ed066a894d99092a0d4a34b6df8443dfc22a6e2e177b3417d84f5a262e626"
+  },
+  "results": [
+    {
+      "id": "flash-ed9c176e3d02983b",
+      "comparisons": 84,
+      "maxAbsoluteError": 5.551115123125783e-16,
+      "mismatches": [],
+      "originalSHA256": "dc0f6e67fe6f32a77a41dd01f10af1345c92fed2f1845223980da3195a6c23e9",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "n": 0,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 7,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 9,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 11,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 12,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 14,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 16,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        }
+      ],
+      "passed": true,
+      "originalRuntimeVerified": true,
+      "scope": "Original document class/ABC/Timer left intact; root scalar controls and pure stored psi getRe/getIm getters read by independent Sprite observer. Initial state and bounded natural Timer samples only; no forced updater or original method invocation.",
+      "cases": [
+        {
+          "n": 0,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 7,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 9,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 11,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 12,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 14,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        },
+        {
+          "n": 16,
+          "p": {
+            "slider1": 40,
+            "slider2": 300,
+            "slider3": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "flash-7be4ee6e97bc41f0",
+      "comparisons": 84,
+      "maxAbsoluteError": 3.3306690738754696e-16,
+      "mismatches": [],
+      "originalSHA256": "d77307fd02925f259c32eb5d164e3a3bbc2885abb0d7dd02c035677d7649c073",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "n": 0,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 7,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 9,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 11,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 12,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 14,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 16,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        }
+      ],
+      "passed": true,
+      "originalRuntimeVerified": true,
+      "scope": "Original document class/ABC/Timer left intact; root scalar controls and pure stored psi getRe/getIm getters read by independent Sprite observer. Initial state and bounded natural Timer samples only; no forced updater or original method invocation.",
+      "cases": [
+        {
+          "n": 0,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 7,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 9,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 11,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 12,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 14,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 16,
+          "p": {
+            "slider1": 50,
+            "slider2": 24,
+            "slider3": 50,
+            "slider4": 64,
+            "slider5": 5,
+            "secondChk": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "flash-df3437d7b74fef0e",
+      "comparisons": 84,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "300ac26cbcfb70e3de3935329d9ea79b1b52e38440c6c934b5f539a0ed7acc33",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "n": 0,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 8,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 9,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 11,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 13,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 14,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 16,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        }
+      ],
+      "passed": true,
+      "originalRuntimeVerified": true,
+      "scope": "Original document class/ABC/Timer left intact; root scalar controls and pure stored psi getRe/getIm getters read by independent Sprite observer. Initial state and bounded natural Timer samples only; no forced updater or original method invocation.",
+      "cases": [
+        {
+          "n": 0,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 8,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 9,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 11,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 13,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 14,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        },
+        {
+          "n": 16,
+          "p": {
+            "slider1": 60,
+            "slider2": 256,
+            "slider3": 100,
+            "slider4": 64,
+            "slider5": 100,
+            "slider6": 5,
+            "secondChk": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "flash-d3f7862985c51103",
+      "comparisons": 84,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "7be58ab56aadbe1985a14790bb84b67cdbc40a27f64e6a10e63be843ddbb1f3e",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "offset": 0,
+          "n": 1
+        },
+        {
+          "offset": 0,
+          "n": 1
+        },
+        {
+          "offset": 0,
+          "n": 2
+        },
+        {
+          "offset": 0,
+          "n": 2
+        },
+        {
+          "offset": 0,
+          "n": 3
+        },
+        {
+          "offset": 0,
+          "n": 3
+        },
+        {
+          "offset": 0,
+          "n": 3
+        }
+      ],
+      "passed": true,
+      "originalRuntimeVerified": true,
+      "scope": "Original randomized lattice psi/potential state was read once without modifying original variables; native integrator advanced from that read-only snapshot and matched bounded natural original Timer states. Random initial generation itself is source-checked, not runtime-equivalence claimed.",
+      "cases": [
+        {
+          "offset": 0,
+          "n": 1
+        },
+        {
+          "offset": 0,
+          "n": 1
+        },
+        {
+          "offset": 0,
+          "n": 2
+        },
+        {
+          "offset": 0,
+          "n": 2
+        },
+        {
+          "offset": 0,
+          "n": 3
+        },
+        {
+          "offset": 0,
+          "n": 3
+        },
+        {
+          "offset": 0,
+          "n": 3
+        }
+      ]
+    },
+    {
+      "id": "flash-8b82e3d95410433f",
+      "comparisons": 84,
+      "maxAbsoluteError": 9.159339953157541e-16,
+      "mismatches": [],
+      "originalSHA256": "2d29d71192c7f4833c5905795c633c1ee866584d12fa5b5a88bc2291e26a9c17",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "n": 50,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 58,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 66,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 74,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 83,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 92,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 99,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        }
+      ],
+      "passed": true,
+      "originalRuntimeVerified": true,
+      "scope": "Original document class/ABC/Timer left intact; root scalar controls and pure stored psi getRe/getIm getters read by independent Sprite observer. Initial state and bounded natural Timer samples only; no forced updater or original method invocation.",
+      "cases": [
+        {
+          "n": 50,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 58,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 66,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 74,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 83,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 92,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        },
+        {
+          "n": 99,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 50,
+            "slider4": 10000,
+            "flatChk": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "flash-1f9ed0c45d4111ae",
+      "comparisons": 84,
+      "maxAbsoluteError": 1.2212453270876722e-15,
+      "mismatches": [],
+      "originalSHA256": "0c7048127fc59a65fee3399fc2930666c7160c8082aef67753db94df62d55a33",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "n": 49,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 58,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 66,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 74,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 83,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 91,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 100,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        }
+      ],
+      "passed": true,
+      "originalRuntimeVerified": true,
+      "scope": "Original document class/ABC/Timer left intact; root scalar controls and pure stored psi getRe/getIm getters read by independent Sprite observer. Initial state and bounded natural Timer samples only; no forced updater or original method invocation.",
+      "cases": [
+        {
+          "n": 49,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 58,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 66,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 74,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 83,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 91,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        },
+        {
+          "n": 100,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "flash-1deaf3760d3f79a8",
+      "comparisons": 84,
+      "maxAbsoluteError": 1.0269562977782698e-15,
+      "mismatches": [],
+      "originalSHA256": "ab7908c162c9a652c3096e2a92cd1ae9d9c9ef39ded71a4fe1aa4ff5be396023",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "n": 45,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 54,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 62,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 70,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 79,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 87,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 95,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        }
+      ],
+      "passed": true,
+      "originalRuntimeVerified": true,
+      "scope": "Original document class/ABC/Timer left intact; root scalar controls and pure stored psi getRe/getIm getters read by independent Sprite observer. Initial state and bounded natural Timer samples only; no forced updater or original method invocation.",
+      "cases": [
+        {
+          "n": 45,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 54,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 62,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 70,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 79,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 87,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        },
+        {
+          "n": 95,
+          "p": {
+            "slider1": 25,
+            "slider2": 25,
+            "slider3": 480,
+            "slider4": 10000,
+            "flatChk": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "flash-71ff0e62c1f13b7a",
+      "comparisons": 84,
+      "maxAbsoluteError": 8.881784197001252e-16,
+      "mismatches": [],
+      "originalSHA256": "34326a4b061064aba81ef96eabfb541105946ad580c93b16f6fd5c37fc6fc826",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "n": 49,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 58,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 66,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 74,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 83,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 91,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 99,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        }
+      ],
+      "passed": true,
+      "originalRuntimeVerified": true,
+      "scope": "Original document class/ABC/Timer left intact; root scalar controls and pure stored psi getRe/getIm getters read by independent Sprite observer. Initial state and bounded natural Timer samples only; no forced updater or original method invocation.",
+      "cases": [
+        {
+          "n": 49,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 58,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 66,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 74,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 83,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 91,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        },
+        {
+          "n": 99,
+          "p": {
+            "slider1": 25,
+            "slider2": 10,
+            "slider3": 200,
+            "slider4": 10000,
+            "flatChk": true,
+            "potentialCmb": 3,
+            "parityChk": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "flash-82557e88691f925e",
+      "comparisons": 84,
+      "maxAbsoluteError": 2.7755575615628914e-17,
+      "mismatches": [],
+      "originalSHA256": "56d9c2e5d81b4dbe8d8a14c4e5390ea7d8cdc2db6e813bec835cf75634704060",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "n": 0,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 7,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 9,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 10,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 12,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 14,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 15,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        }
+      ],
+      "passed": true,
+      "originalRuntimeVerified": true,
+      "scope": "Original document class/ABC/Timer left intact; root scalar controls and pure stored psi getRe/getIm getters read by independent Sprite observer. Initial state and bounded natural Timer samples only; no forced updater or original method invocation.",
+      "cases": [
+        {
+          "n": 0,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 7,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 9,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 10,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 12,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 14,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        },
+        {
+          "n": 15,
+          "p": {
+            "slider1": 150,
+            "slider2": 25,
+            "slider3": 50
+          }
+        }
+      ]
+    }
+  ]
+}

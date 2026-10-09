@@ -1,0 +1,266 @@
+{
+  "method": "Read-only original stored public scalars and pure stored energy getters; original physical pointer controls, native calculations, natural original clocks. Diagnostic memory routes only.",
+  "files": 6,
+  "comparisons": 134,
+  "fullEquivalence": false,
+  "nativeModelHashes": {
+    "assets/modern-batch50b-probability-physics.mjs": "eb8f765943ace6ee55c20090b2afbb1ec0bd634d5f58004cc5309bd89c2298c7",
+    "assets/modern-batch50b-numerical-physics.mjs": "30bf7d98fad20e0b5b68172081c7b757b571261215b5f2c9f082e0064d7457ad",
+    "assets/modern-batch50b-numerical-engine.mjs": "14cb9888a117d9794f9f46c94de927472b9a615c3d86c78ff712d9f49d731c83",
+    "assets/modern-batch50b-probability-specs.mjs": "b32e137f8aba23bbf85b52e3f9d3df57852e5d2548e4e74210f00a627484c837",
+    "tools/modern-batch50b-observer/PhysicaModernBatch50bObserver.as": "e2740706f3aa4580abc9ddb3d3856aa377090264ee141fbdecd5541fd34a44f1",
+    "tools/modern-batch50b-compile-observer.mjs": "e6d4a6cc93d909ba1d96fce1c1aa3e99ed7435a3cca659463c0e3b40ec5b4b4f",
+    "tools/modern-batch50b-probability-runtime-check.mjs": "262c5ba2bbefcb7aab9b91e7d564e88c70229656815aedbeda29c46b7f3ea4c3",
+    "tools/modern-next-as3-observer.mjs": "d27ed066a894d99092a0d4a34b6df8443dfc22a6e2e177b3417d84f5a262e626"
+  },
+  "results": [
+    {
+      "id": "flash-9f21bf8b172a3ac9",
+      "comparisons": 3,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "originalSHA256": "bb53c8a4e5db85e962a0e46481f5b36a080abb51b55cd97519fdb3b3398fc215",
+      "samples": [
+        {
+          "center": 0,
+          "width": 0.6,
+          "a": 238.95,
+          "b": 277.4
+        }
+      ],
+      "scope": "Read-only original stored Gaussian interval probability and actual original slider/marker positions at initial state.",
+      "originalRuntimeVerified": true,
+      "cases": [
+        {
+          "center": 0,
+          "width": 0.6,
+          "a": 238.95,
+          "b": 277.4
+        }
+      ]
+    },
+    {
+      "id": "flash-7813d0b783ff1706",
+      "comparisons": 80,
+      "maxAbsoluteError": 0.4758446120467852,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "originalSHA256": "51d323a300bd03c81a1360ba15c9532491a47f36f73bb6c51500c87694900818",
+      "samples": [
+        {
+          "mode": 1,
+          "steps": 11,
+          "absolutePositionBudget": 0.6000000000000001
+        }
+      ],
+      "scope": "Actual pointer start and bounded naturally advancing original particles predicted from read-only target/position snapshot; particles that re-sampled random targets excluded. Positions allow at most one Flash 0.05px twip per elapsed MovieClip update; arithmetic is independently source-checked without raster quantization.",
+      "originalRuntimeVerified": true,
+      "cases": [
+        {
+          "mode": 1,
+          "steps": 11,
+          "absolutePositionBudget": 0.6000000000000001
+        }
+      ]
+    },
+    {
+      "id": "flash-587adacda696ea6b",
+      "comparisons": 12,
+      "maxAbsoluteError": 0.03836613170238934,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "originalSHA256": "704e12d54e44d02c711a7eed553f3518b20c6fb6f02c96c5424c286696d9c1b0",
+      "samples": [
+        {
+          "n": 16
+        },
+        {
+          "n": 20
+        },
+        {
+          "n": 24
+        },
+        {
+          "n": 28
+        },
+        {
+          "n": 32
+        },
+        {
+          "n": 36
+        }
+      ],
+      "scope": "Actual original pointer start and bounded natural arrow position compared using read-only original target/phase scalars. Arrow coordinate comparisons allow one Flash 0.05px twip of display rounding. Random selection/cumulative payout all-input equivalence not asserted.",
+      "originalRuntimeVerified": true,
+      "cases": [
+        {
+          "n": 16
+        },
+        {
+          "n": 20
+        },
+        {
+          "n": 24
+        },
+        {
+          "n": 28
+        },
+        {
+          "n": 32
+        },
+        {
+          "n": 36
+        }
+      ]
+    },
+    {
+      "id": "flash-794a8753d80d4025",
+      "comparisons": 20,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "originalSHA256": "2bb78c1c9eead3c5210386e682843cd4a9b3bb1256d684fddd57ba213b04b8eb",
+      "samples": [
+        {
+          "comboMode": 0,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        }
+      ],
+      "scope": "Original stored energies obtained with pure public getters; default original controls only. No potential/fitting updater or Timer methods called.",
+      "originalRuntimeVerified": true,
+      "cases": [
+        {
+          "comboMode": 0,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        }
+      ]
+    },
+    {
+      "id": "flash-a855b470af9c09ac",
+      "comparisons": 10,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "originalSHA256": "42b19bc956ab5a35cd90ce2805d16a237aac5f9a47611f76001ba63383674fda",
+      "samples": [
+        {
+          "comboMode": 0,
+          "slider1": 10,
+          "slider2": 0,
+          "slider3": 1,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        }
+      ],
+      "scope": "Original stored energies obtained with pure public getters; default original controls only. No potential/fitting updater or Timer methods called.",
+      "originalRuntimeVerified": true,
+      "cases": [
+        {
+          "comboMode": 0,
+          "slider1": 10,
+          "slider2": 0,
+          "slider3": 1,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        }
+      ]
+    },
+    {
+      "id": "flash-0b88310fcfee5de0",
+      "comparisons": 9,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "passed": true,
+      "fullEquivalence": false,
+      "originalSHA256": "a0704f958e098df844db6d6816b1422a7944106c23f426e1525f8440ad75e2c5",
+      "samples": [
+        {
+          "n": 1,
+          "p": {
+            "points": 20,
+            "level": 2,
+            "potential": 0
+          }
+        },
+        {
+          "n": 1,
+          "p": {
+            "points": 20,
+            "level": 2,
+            "potential": 0
+          }
+        },
+        {
+          "n": 2,
+          "p": {
+            "points": 20,
+            "level": 2,
+            "potential": 0
+          }
+        },
+        {
+          "n": 2,
+          "p": {
+            "points": 20,
+            "level": 2,
+            "potential": 0
+          }
+        }
+      ],
+      "scope": "Actual original pointer start, bounded naturally advanced finite-difference shooting iteration energy and zero crossings; default controls only.",
+      "originalRuntimeVerified": true,
+      "cases": [
+        {
+          "n": 1,
+          "p": {
+            "points": 20,
+            "level": 2,
+            "potential": 0
+          }
+        },
+        {
+          "n": 1,
+          "p": {
+            "points": 20,
+            "level": 2,
+            "potential": 0
+          }
+        },
+        {
+          "n": 2,
+          "p": {
+            "points": 20,
+            "level": 2,
+            "potential": 0
+          }
+        },
+        {
+          "n": 2,
+          "p": {
+            "points": 20,
+            "level": 2,
+            "potential": 0
+          }
+        }
+      ]
+    }
+  ]
+}

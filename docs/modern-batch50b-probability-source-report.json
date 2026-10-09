@@ -1,0 +1,659 @@
+{
+  "method": "Original AS2 numerical functions run unmodified in isolated VM; original AS3 solver and Main setFunctionParameter evaluated from private extracted scripts. Source evidence only; not runtime evidence.",
+  "files": 6,
+  "comparisons": 1844812,
+  "fullEquivalence": false,
+  "nativeModelHashes": {
+    "assets/modern-batch50b-probability-physics.mjs": "eb8f765943ace6ee55c20090b2afbb1ec0bd634d5f58004cc5309bd89c2298c7",
+    "assets/modern-batch50b-numerical-physics.mjs": "30bf7d98fad20e0b5b68172081c7b757b571261215b5f2c9f082e0064d7457ad",
+    "assets/modern-batch50b-numerical-engine.mjs": "14cb9888a117d9794f9f46c94de927472b9a615c3d86c78ff712d9f49d731c83",
+    "assets/modern-batch50b-probability-specs.mjs": "b32e137f8aba23bbf85b52e3f9d3df57852e5d2548e4e74210f00a627484c837",
+    "tools/modern-batch50b-probability-source-check.mjs": "99c23f8b2b66e1c1a755bf7fee870044e829b13d3902bbba3cad0acd4585828e",
+    "tools/modern-batch50b-generate-numerical.mjs": "870abcff936ef8acf422f26c6abc32f11696e02341a97ba44007ff0a95f7e204"
+  },
+  "results": [
+    {
+      "id": "flash-9f21bf8b172a3ac9",
+      "comparisons": 64944,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/DefineButton2_27/BUTTONCONDACTION on(press).as": "324078d448c063d615d8230580baafd0bdb09c49a7bd8feec9d10b79340475b7",
+        "/DefineButton2_27/BUTTONCONDACTION on(release, releaseOutside).as": "b913a53f998b8b2189616ea4a994cc43c7472b132d55644c2159b110de56bfff",
+        "/DefineSprite_28/frame_1/DoAction.as": "388881fc3f967b1fb411da4d9bca58147424afd69248c771c0eeae6e90023fcb",
+        "/KsSlider2.as": "e564957cbf1eb8bb8d48eba27c76e9f46d8a99227e57d439dee0e0cb9353740a",
+        "/__Packages/MCU2.as": "d076990ab348024488a589720df3ebeed16d99b2dc20005a6534003676586935",
+        "/__Packages/SliderCompClass2.as": "5fba4488f329c3eea9d7f6dccbcea21bab1fba27ba302e72863facb8be7b4482",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "2987b61540b3f1ba71a042415b6145612df618d463f1e0641033d36c2144f965",
+        "/frame_1/PlaceObject2_28_17/CLIPACTIONRECORD onClipEvent(enterFrame).as": "2b84ad3729a7e61de53bcb009836dbe6d793f91b90205f673afe62337551fb7a",
+        "/frame_1/PlaceObject2_28_17/CLIPACTIONRECORD onClipEvent(load).as": "e9216cac435a7016857e2460e4b5da04dcd73832faeea661146fbd193057709d",
+        "/frame_1/PlaceObject2_28_19/CLIPACTIONRECORD onClipEvent(enterFrame).as": "2b84ad3729a7e61de53bcb009836dbe6d793f91b90205f673afe62337551fb7a",
+        "/frame_1/PlaceObject2_28_19/CLIPACTIONRECORD onClipEvent(load).as": "e9216cac435a7016857e2460e4b5da04dcd73832faeea661146fbd193057709d",
+        "/frame_1/PlaceObject2_4_KsSlider2_1/CLIPACTIONRECORD on(construct).as": "6f1baaf3a925e0e80365ceb30c3b0b87a4fda1c73e72244029e0d31fb480a6d2",
+        "/frame_1/PlaceObject2_4_KsSlider2_2/CLIPACTIONRECORD on(construct).as": "7cef05fddd66e6e21988a320bfb6d958144763abbe4c62a3fda36b7cf9bd0466"
+      },
+      "cases": [
+        {
+          "center": -2,
+          "width": 0.4,
+          "a": 10,
+          "b": 610
+        },
+        {
+          "center": -2,
+          "width": 0.4,
+          "a": 210,
+          "b": 410
+        },
+        {
+          "center": -2,
+          "width": 0.4,
+          "a": 400,
+          "b": 200
+        },
+        {
+          "center": -2,
+          "width": 0.4,
+          "a": 310,
+          "b": 310
+        },
+        {
+          "center": -2,
+          "width": 0.6,
+          "a": 10,
+          "b": 610
+        },
+        {
+          "center": -2,
+          "width": 0.6,
+          "a": 210,
+          "b": 410
+        },
+        {
+          "center": -2,
+          "width": 0.6,
+          "a": 400,
+          "b": 200
+        },
+        {
+          "center": -2,
+          "width": 0.6,
+          "a": 310,
+          "b": 310
+        },
+        {
+          "center": -2,
+          "width": 0.8,
+          "a": 10,
+          "b": 610
+        },
+        {
+          "center": -2,
+          "width": 0.8,
+          "a": 210,
+          "b": 410
+        },
+        {
+          "center": -2,
+          "width": 0.8,
+          "a": 400,
+          "b": 200
+        },
+        {
+          "center": -2,
+          "width": 0.8,
+          "a": 310,
+          "b": 310
+        },
+        {
+          "center": 0,
+          "width": 0.4,
+          "a": 10,
+          "b": 610
+        },
+        {
+          "center": 0,
+          "width": 0.4,
+          "a": 210,
+          "b": 410
+        },
+        {
+          "center": 0,
+          "width": 0.4,
+          "a": 400,
+          "b": 200
+        },
+        {
+          "center": 0,
+          "width": 0.4,
+          "a": 310,
+          "b": 310
+        },
+        {
+          "center": 0,
+          "width": 0.6,
+          "a": 10,
+          "b": 610
+        },
+        {
+          "center": 0,
+          "width": 0.6,
+          "a": 210,
+          "b": 410
+        },
+        {
+          "center": 0,
+          "width": 0.6,
+          "a": 400,
+          "b": 200
+        },
+        {
+          "center": 0,
+          "width": 0.6,
+          "a": 310,
+          "b": 310
+        },
+        {
+          "center": 0,
+          "width": 0.8,
+          "a": 10,
+          "b": 610
+        },
+        {
+          "center": 0,
+          "width": 0.8,
+          "a": 210,
+          "b": 410
+        },
+        {
+          "center": 0,
+          "width": 0.8,
+          "a": 400,
+          "b": 200
+        },
+        {
+          "center": 0,
+          "width": 0.8,
+          "a": 310,
+          "b": 310
+        },
+        {
+          "center": 2,
+          "width": 0.4,
+          "a": 10,
+          "b": 610
+        },
+        {
+          "center": 2,
+          "width": 0.4,
+          "a": 210,
+          "b": 410
+        },
+        {
+          "center": 2,
+          "width": 0.4,
+          "a": 400,
+          "b": 200
+        },
+        {
+          "center": 2,
+          "width": 0.4,
+          "a": 310,
+          "b": 310
+        },
+        {
+          "center": 2,
+          "width": 0.6,
+          "a": 10,
+          "b": 610
+        },
+        {
+          "center": 2,
+          "width": 0.6,
+          "a": 210,
+          "b": 410
+        },
+        {
+          "center": 2,
+          "width": 0.6,
+          "a": 400,
+          "b": 200
+        },
+        {
+          "center": 2,
+          "width": 0.6,
+          "a": 310,
+          "b": 310
+        },
+        {
+          "center": 2,
+          "width": 0.8,
+          "a": 10,
+          "b": 610
+        },
+        {
+          "center": 2,
+          "width": 0.8,
+          "a": 210,
+          "b": 410
+        },
+        {
+          "center": 2,
+          "width": 0.8,
+          "a": 400,
+          "b": 200
+        },
+        {
+          "center": 2,
+          "width": 0.8,
+          "a": 310,
+          "b": 310
+        }
+      ]
+    },
+    {
+      "id": "flash-7813d0b783ff1706",
+      "comparisons": 211653,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/DefineSprite_14/frame_1/DoAction.as": "140084861a71d2c554c2a62ad35134dca0e79050bdfc1ba6f47d2cd9558db18b",
+        "/KsCheckBox2.as": "51436bd1bb5b0e2f89d11f5db9b0299c422b2dbbcb80dd854b700cda9296339a",
+        "/KsToggleBtn2.as": "696e19a44267febff8e581e15ad6c6592fe360262c86802e910824dbab95b8fa",
+        "/__Packages/ChkCompClass2.as": "4a61ae80ed024a38bf7a0bf2162e41e5fbeb3ca933addcb50739522846b38ab2",
+        "/__Packages/MCU2.as": "d076990ab348024488a589720df3ebeed16d99b2dc20005a6534003676586935",
+        "/__Packages/TBtnCompClass2.as": "dda6a509b6d24154e9f9795efcf194311560233c10a28a7d5c9705ec4f53e4d1",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "67894732b152039712804bba0e490b6907270387bb9c2407f3c52e6cef40bd73",
+        "/frame_1/PlaceObject2_4_KsCheckBox2_10/CLIPACTIONRECORD on(construct).as": "c2882f150223a22c3ff3a15a7ad959ba5f716172631436a3547d9cddfd94535e",
+        "/frame_1/PlaceObject2_4_KsCheckBox2_12/CLIPACTIONRECORD on(construct).as": "aaa15be4d89184e35ecba5b414dafe133698c9cc9b1fb398d4ed0853b657fe70",
+        "/frame_1/PlaceObject2_4_KsCheckBox2_14/CLIPACTIONRECORD on(construct).as": "aaa15be4d89184e35ecba5b414dafe133698c9cc9b1fb398d4ed0853b657fe70",
+        "/frame_1/PlaceObject2_8_KsToggleBtn2_1/CLIPACTIONRECORD on(construct).as": "0323070f4c0b26db9266a578e336c37303a387f6b1b779ae5077da2a8577bb6a",
+        "/frame_1/PlaceObject2_8_KsToggleBtn2_3/CLIPACTIONRECORD on(construct).as": "82fadfa95283753638adb09440cf68fa0dbac9897ab57529e9af17656d7747e9"
+      },
+      "cases": [
+        {
+          "mode": 1,
+          "steps": 350
+        },
+        {
+          "mode": 2,
+          "steps": 350
+        },
+        {
+          "mode": 3,
+          "steps": 350
+        }
+      ]
+    },
+    {
+      "id": "flash-587adacda696ea6b",
+      "comparisons": 56014,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "passed": true,
+      "sourceHashes": {
+        "/KsToggleBtn2.as": "696e19a44267febff8e581e15ad6c6592fe360262c86802e910824dbab95b8fa",
+        "/__Packages/MCU2.as": "36278bed45bb217df844eab8a1d27a630f7d69f6c94f796d0b6eb60d9c193c05",
+        "/__Packages/TBtnCompClass2.as": "dda6a509b6d24154e9f9795efcf194311560233c10a28a7d5c9705ec4f53e4d1",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "f4b370725dbec43c2e33901936bff4fa33d518d6398c7d4b4236f1ffc9a7a493",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_1/CLIPACTIONRECORD on(construct).as": "3d4f5ae81b0c666fc4fbe0e1103bb6987d999e30996b4c7d1cf5a64be026d502",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_2/CLIPACTIONRECORD on(construct).as": "82fadfa95283753638adb09440cf68fa0dbac9897ab57529e9af17656d7747e9"
+      },
+      "cases": [
+        {
+          "steps": 4000
+        }
+      ]
+    },
+    {
+      "id": "flash-794a8753d80d4025",
+      "comparisons": 117928,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/EGr.as": "66bbfd1cbb56d60d4fb5ff59396056743052dbec277fe2f9e443fbad9bb4785a",
+        "/KsButton.as": "8a9051e82627c488d1867a3be6c8f3727ee48a3d2307d72271be94ac7fc075aa",
+        "/KsCheckBox.as": "34c04ab5e3a86df2490dc2e835c0dfbf0a8300c37d1e73e114e68d34dca09534",
+        "/KsComboBox.as": "30ac2078a06c07301dd49bce2cfec7d14429179de8bf81e39e36bc3ee99276b1",
+        "/KsSlider.as": "119af5aa16f62826baca5cbcdceb9aeb5f22b85fb6d92cf6b7cfec84ffd37f92",
+        "/QuantumSolver/EigenfunctionData.as": "dad6ba3a67b45353070642b05635b81295d502aef1fab9b5d6c0916377c1a10c",
+        "/QuantumSolver/EigenfunctionFinder.as": "edc27c0f4e4ddb6f960be145a7f931db3530e6e2b85b54f68fd8ef3c419d0096",
+        "/QuantumSolver/FittingProtocol.as": "53a91f248f3d9e1489a855fcef1169fc90a8fa68321da42008cf4bf8fda44b32",
+        "/QuantumSolver/Mathematics.as": "962a24a1cc094b00658dab6ed806bcf1ad10442635ee561385ebf4867fc5fe25",
+        "/QuantumSolver/PotentialPointer.as": "69ab588294d7766c272b38dbd560abc312989c41595bccb24ad7f11c7b87f699",
+        "/fl/controls/BaseButton.as": "ceb297a34217fdf96a46ee6d8ef1a774462fa84252d529c6fbb3724ad7836cff",
+        "/fl/controls/Button.as": "468c783e3fc61eed434ded1b61dbd2359e9d712306977740cf8126d1a8ab7460",
+        "/fl/controls/ButtonLabelPlacement.as": "4fa9849ec005ca967e6970ca754c8f775690387856c6bfaf130e97fc7f9f625b",
+        "/fl/controls/LabelButton.as": "b3a3906bbce73f2875951400b591570c2959f0234406910f467dd7ab15c09c9a",
+        "/fl/core/InvalidationType.as": "f5cffa56b794ed50acddf55c8523d8fdfa8116aa6a5044893ac422e6de6c8088",
+        "/fl/core/UIComponent.as": "a864e83bfde98e45029e8b2f948d220b2dc47f767ea3565bcb9e888b009d1912",
+        "/fl/events/ComponentEvent.as": "5aa8d0711c07a2f71c8ad9f237fe11a2e1a34fc159ca1d0ba72671056c06e252",
+        "/fl/events/SliderEvent.as": "4e884fe0c248522833ea4e98d5d3525b8e2fe7fcdb222e842172a2c8e38e30a2",
+        "/fl/managers/FocusManager.as": "0899328dd16ae2f6f3590b9d649e247621846a30a3c5b7eda8afa1319ece01b2",
+        "/fl/managers/IFocusManager.as": "f860f2a1238fdf53903907311bb17f22f09b39d2d0bf957effe7ac0cd2f8fd5c",
+        "/fl/managers/IFocusManagerComponent.as": "a86e152383f62830cc0c5d1eadb191b2e448503e0c08ee293d5fcce1590fa171",
+        "/fl/managers/IFocusManagerGroup.as": "73a08daaaf5bfe98b1cb8e42becd10338f54f3a9b338445abd5da2694d789201",
+        "/fl/managers/StyleManager.as": "d5ef18613cb441a1f52329e97b158f18a5139b0911823917b5f162237108676d",
+        "/generalpot_w_fla/MainTimeline.as": "f7de7505de3aa6c2ff74b95166f62db1e9ea3a3968ac0563207fd0149d38ca49"
+      },
+      "cases": [
+        {
+          "comboMode": 0,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 1,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 2,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 3,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 4,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 5,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 6,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 7,
+          "slider1": 50,
+          "slider2": 50,
+          "slider3": 50,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        }
+      ]
+    },
+    {
+      "id": "flash-a855b470af9c09ac",
+      "comparisons": 27605,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/EGr.as": "17ce4046021a08f01f216ab7a669e164717a3787caa02db5fe0223ba829f67bb",
+        "/KsButton.as": "590abc378fe40cfb9091948b26568b263938722d762fd0abf956e81c1952e9ea",
+        "/KsCheckBox.as": "e088c304a774c1063b4365d1c4afd90d8d95786c980c5d54a20248d56ddff8a9",
+        "/KsComboBox.as": "12d558e05d6b1284da75d2dfa6eca087dc164c1435fa4517cb40396dcee4ce04",
+        "/KsSlider.as": "2e7f2aff62bcb8f7345659b929b60771125f1a6c314f7b8a0e2a263542d6e666",
+        "/QuantumSolver/EigenfunctionData.as": "b6648403fb03b2eea1dfbe44e110c2965cd3337260f5c15810e5dd00c1ec84d3",
+        "/QuantumSolver/EigenfunctionFinder.as": "ded1c802407e47515b58dfd8a5e97b5b3b45aba8487d46e528c93045bb72f6ae",
+        "/QuantumSolver/FittingProtocol.as": "ce7fd1d9682820c765c4469898aae049792ab9a04b95f90d6b4718fd30a7781b",
+        "/QuantumSolver/Mathematics.as": "d1aa86a8b22dc0adc52d6a6b72dc6ee02ff56d6534fc8a07b681f067abb3cf89",
+        "/QuantumSolver/PotentialPointer.as": "55bc20a3c1882e3d56e324a809c87d6409f58548bed29e78aee0faddf37f5925",
+        "/fl/controls/BaseButton.as": "8d9b20f093a62e7fa0ae3e1e1b0a22383c6ab5cfc059c84b3a427a62ea35cc49",
+        "/fl/controls/Button.as": "155cb60c8275f0cb3bd19914eecc12d9d8e407174973adf8409b8656bf5bd46f",
+        "/fl/controls/ButtonLabelPlacement.as": "4fa9849ec005ca967e6970ca754c8f775690387856c6bfaf130e97fc7f9f625b",
+        "/fl/controls/LabelButton.as": "6bec3f83b5379a6cbbb35c0e84b40a0f509d20e58297f885ea27235329b50912",
+        "/fl/core/InvalidationType.as": "f5cffa56b794ed50acddf55c8523d8fdfa8116aa6a5044893ac422e6de6c8088",
+        "/fl/core/UIComponent.as": "9b1eca027c328af56af192ef8b9e9f3e8e9a37b2abb44ab8542cdfcd2ec5f749",
+        "/fl/events/ComponentEvent.as": "5aa8d0711c07a2f71c8ad9f237fe11a2e1a34fc159ca1d0ba72671056c06e252",
+        "/fl/events/SliderEvent.as": "0c0611c168ded2dc6eef245da8d0b81682344a6a8824ffc82affb1d138b0a1fd",
+        "/fl/managers/FocusManager.as": "dfef257f803000a4e42b287fab1e499a643d53f7249d00e27a65e63f7b7661c3",
+        "/fl/managers/IFocusManager.as": "ee2e17a378eef2f945188f5ca7c2e402e78c9530f0f4e1def68cae983184ea74",
+        "/fl/managers/IFocusManagerComponent.as": "c7978d02888201249c7320f71884889e1bd854cd478736bb557e7f148b8f423a",
+        "/fl/managers/IFocusManagerGroup.as": "6a41c3e12ebb2914a51c2b38813fd7d64141a558479e1e1f5cc0025f1d11957c",
+        "/fl/managers/StyleManager.as": "434311cf813956d75315fbf08e28bde098cb0a69cd30b62e0771504f740b752f",
+        "/generalradial_w_fla/MainTimeline.as": "e036fa6a2639de1b204900176bc4aa46411a36255d5f6168f6f6c8ea3ed766a8"
+      },
+      "cases": [
+        {
+          "comboMode": 0,
+          "slider1": 10,
+          "slider2": 0,
+          "slider3": 1,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 1,
+          "slider1": 10,
+          "slider2": 0,
+          "slider3": 1,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 2,
+          "slider1": 10,
+          "slider2": 0,
+          "slider3": 1,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 3,
+          "slider1": 10,
+          "slider2": 0,
+          "slider3": 1,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        },
+        {
+          "comboMode": 4,
+          "slider1": 10,
+          "slider2": 0,
+          "slider3": 1,
+          "chk1": false,
+          "chk2": true,
+          "higher": true
+        }
+      ]
+    },
+    {
+      "id": "flash-0b88310fcfee5de0",
+      "comparisons": 1366668,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/KsCheckBox2.as": "51436bd1bb5b0e2f89d11f5db9b0299c422b2dbbcb80dd854b700cda9296339a",
+        "/KsCombo2.as": "1638bed0c12ddd0e049b06e03669d73fba6804c347c9aa13c134ab09cb852d88",
+        "/KsSlider2.as": "e564957cbf1eb8bb8d48eba27c76e9f46d8a99227e57d439dee0e0cb9353740a",
+        "/KsToggleBtn2.as": "696e19a44267febff8e581e15ad6c6592fe360262c86802e910824dbab95b8fa",
+        "/__Packages/ChkCompClass2.as": "4a61ae80ed024a38bf7a0bf2162e41e5fbeb3ca933addcb50739522846b38ab2",
+        "/__Packages/ComboCompClass2.as": "b5d957cff7b6311218255425bc2e8dd66c7a0006b754fbb93239c59888b8301d",
+        "/__Packages/MCU2.as": "fe996f471e4253cca50b4450a3927089b30fd764e4e45f295a2a9b23bff5e16b",
+        "/__Packages/SliderCompClass2.as": "a0a4aeea8f214500c5ccebd3db6533abfea436ddbd94e6bf2127fd4c94e61e75",
+        "/__Packages/TBtnCompClass2.as": "dda6a509b6d24154e9f9795efcf194311560233c10a28a7d5c9705ec4f53e4d1",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "0dcec35e27842ca940273e1eafb5f62d93c3d2314aa7ed00fd00f07ef3d12f2d",
+        "/frame_1/DoAction_2.as": "9f741ff36da33007d21c5eb1abd4b18f906ea5919c45c91280b0507ba0afafa5",
+        "/frame_1/PlaceObject2_10_KsCheckBox2_9/CLIPACTIONRECORD on(construct).as": "dea8f165bd3133b889063282bdc63896c22ffec3d48a736830e50143d90e7b74",
+        "/frame_1/PlaceObject2_12_KsSlider2_1/CLIPACTIONRECORD on(construct).as": "168e6c476f11b92251c27d76ebbe0e36d628d13957cfc65478e0f3dcc652cb66",
+        "/frame_1/PlaceObject2_12_KsSlider2_2/CLIPACTIONRECORD on(construct).as": "8506fc224bd9cd65f12331803c746e85d4a3f3a6ad4acb61e5452b98134ebae4",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_25/CLIPACTIONRECORD on(construct).as": "3b3046c7f9633e3367a1f6018d322c9c6b7ec316a9790ff7c688d81110836520",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_26/CLIPACTIONRECORD on(construct).as": "6155c9aae3fa21a5afb155ba536312a9602e1b86d72290b2d2a213c1a645432b",
+        "/frame_1/PlaceObject2_8_KsCombo2_24/CLIPACTIONRECORD on(construct).as": "0220acc684636bf9ac82b6088ffe638c1a115af30dbc3d2007740c68d8fc7b16"
+      },
+      "cases": [
+        {
+          "potential": 0,
+          "points": 10,
+          "level": 0
+        },
+        {
+          "potential": 0,
+          "points": 10,
+          "level": 2
+        },
+        {
+          "potential": 0,
+          "points": 10,
+          "level": 4
+        },
+        {
+          "potential": 0,
+          "points": 20,
+          "level": 0
+        },
+        {
+          "potential": 0,
+          "points": 20,
+          "level": 2
+        },
+        {
+          "potential": 0,
+          "points": 20,
+          "level": 4
+        },
+        {
+          "potential": 0,
+          "points": 100,
+          "level": 0
+        },
+        {
+          "potential": 0,
+          "points": 100,
+          "level": 2
+        },
+        {
+          "potential": 0,
+          "points": 100,
+          "level": 4
+        },
+        {
+          "potential": 1,
+          "points": 10,
+          "level": 0
+        },
+        {
+          "potential": 1,
+          "points": 10,
+          "level": 2
+        },
+        {
+          "potential": 1,
+          "points": 10,
+          "level": 4
+        },
+        {
+          "potential": 1,
+          "points": 20,
+          "level": 0
+        },
+        {
+          "potential": 1,
+          "points": 20,
+          "level": 2
+        },
+        {
+          "potential": 1,
+          "points": 20,
+          "level": 4
+        },
+        {
+          "potential": 1,
+          "points": 100,
+          "level": 0
+        },
+        {
+          "potential": 1,
+          "points": 100,
+          "level": 2
+        },
+        {
+          "potential": 1,
+          "points": 100,
+          "level": 4
+        },
+        {
+          "potential": 2,
+          "points": 10,
+          "level": 0
+        },
+        {
+          "potential": 2,
+          "points": 10,
+          "level": 2
+        },
+        {
+          "potential": 2,
+          "points": 10,
+          "level": 4
+        },
+        {
+          "potential": 2,
+          "points": 20,
+          "level": 0
+        },
+        {
+          "potential": 2,
+          "points": 20,
+          "level": 2
+        },
+        {
+          "potential": 2,
+          "points": 20,
+          "level": 4
+        },
+        {
+          "potential": 2,
+          "points": 100,
+          "level": 0
+        },
+        {
+          "potential": 2,
+          "points": 100,
+          "level": 2
+        },
+        {
+          "potential": 2,
+          "points": 100,
+          "level": 4
+        }
+      ]
+    }
+  ]
+}

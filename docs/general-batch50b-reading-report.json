@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-09T23:10:18.908Z",
+  "files": 13,
+  "nativeModelHashes": {
+    "assets/general-batch50b-particles-physics.mjs": "d52c901d7eeec2e99dca6e26d71f8d6af37949b67b0f148c037ab73bba941d68",
+    "assets/general-batch50b-particles-specs.mjs": "a37c8e31c37b7c614e39ec38c7099062c6ce93caca8f7a67a94c8cbceb7aa9af",
+    "assets/native-general-batch50b-particles.mjs": "b0d626c3575012a81257ef46df418e2aff6155dc6c5998d4d60072df50f439f5",
+    "assets/general-batch50b-dynamics-physics.mjs": "325e498d5391acd827c0ebe182fe8bdedad6b147226017244ebeea1c6f755bb8",
+    "assets/general-batch50b-dynamics-specs.mjs": "aa313c1039bb9a53b9b9471d1b229a6ad727abb9ee424ad3c17e7a8916db876f",
+    "assets/native-general-batch50b-dynamics.mjs": "ac15c116014566909b289020e81f237fc2c2d67986b85883039afeb0b0155d4b",
+    "assets/flash-native.mjs": "b8d2cc1292d8a8392df3f9ef74b2af77b9e04dae8c161a3cf17fb85c7ae50b30",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63"
+  },
+  "scope": "Actual integrated textbook pages: automatic module mounting, new SVG movement, pause, end replay, graph alpha .65, tablet layout. No original equivalence claim.",
+  "results": [
+    {
+      "id": "flash-0b1dd9882779ff0a",
+      "lesson": "1-1-2-1",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 0
+    },
+    {
+      "id": "flash-17d4ba7ccbc3959e",
+      "lesson": "3-1-3-2",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 12
+    },
+    {
+      "id": "flash-d9fe51b58f69c06c",
+      "lesson": "3-1-2-1",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 0
+    },
+    {
+      "id": "flash-6c1faf403cc0ae33",
+      "lesson": "3-1-2-1",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 14
+    },
+    {
+      "id": "flash-fb1f27ec60adc18a",
+      "lesson": "1-2-6-3",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 3
+    },
+    {
+      "id": "flash-9b3c51679c04a6b0",
+      "lesson": "2-3-1-1",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 2
+    },
+    {
+      "id": "flash-609175641dfc40eb",
+      "lesson": "2-1-2-8",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 3
+    },
+    {
+      "id": "flash-0a4e877f1a5b00af",
+      "lesson": "2-1-2-6",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 146
+    },
+    {
+      "id": "flash-df88a01f28e2add7",
+      "lesson": "2-1-2-4",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 3
+    },
+    {
+      "id": "flash-be2213f8cfc2919f",
+      "lesson": "2-2-3-2",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 7
+    },
+    {
+      "id": "flash-f9299046992b0e21",
+      "lesson": "3-2-1-2",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 6
+    },
+    {
+      "id": "flash-2603b2b56e155ac3",
+      "lesson": "1-1-2-2",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 4
+    },
+    {
+      "id": "flash-e178e1da9ba43627",
+      "lesson": "2-1-3-1",
+      "width": 768,
+      "passed": true,
+      "failures": [],
+      "curves": 4
+    }
+  ]
+}

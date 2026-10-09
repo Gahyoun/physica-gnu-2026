@@ -13,6 +13,7 @@ assert.equal(rerun.expected,rerun.observed);assert.equal(rerun.errors.length,0);
 assert.ok(rerun.results.every(row=>row.passed));
 const keys=new Set();for(const row of rerun.results){assert.ok(ids.includes(row.id));assert.ok(base.widths.includes(row.width));assert.ok(!keys.has(row.id+'/'+row.width));keys.add(row.id+'/'+row.width);}
 assert.equal(keys.size,rerun.expected);
+for(const row of rerun.results)assert.equal(row.href,catalog.find(r=>r.id===row.id)?.nativeHref,`Rerun targets a stale reading-page route: ${row.id}`);
 for(const [file,previous] of Object.entries(base.nativeModelHashes)){
  const current=crypto.createHash('sha256').update(fs.readFileSync(new URL(file,root))).digest('hex');
  assert.equal(rerun.nativeModelHashes[file],current,`Rerun has stale dependency ${file}`);
@@ -33,6 +34,12 @@ const families={
  'assets/native-general-next-molecule.mjs':'general-next-molecule-',
  'assets/native-general-next-boundary.mjs':'general-next-boundary-'
 };
+// Batch02 modules are isolated by namespace. Any changed batch02 dependency
+// requires rerunning its entire discipline; shared historical modules remain ineligible.
+for(const file of Object.keys(base.nativeModelHashes)){
+ const m=file.match(/^assets\/(?:native-)?(nuclear|general|modern|optics)-batch50b(?:-.*)?\.mjs$/);
+ if(m)families[file]=m[1]==='optics'?'opticsbatch50b-':m[1]+'-batch50b-';
+}
 for(const file of changedAssets){assert.ok(families[file],`Shared/unknown asset requires a full rerun: ${file}`);const prefix='#native-'+families[file];for(const row of catalog.filter(row=>row.nativeHref.includes(prefix)))assert.ok(ids.includes(row.id),`Affected model omitted: ${row.id}`);}
 const replacements=new Map(rerun.results.map(row=>[row.id+'/'+row.width,row]));
 const superseded=base.results.filter(row=>replacements.has(row.id+'/'+row.width)&&!row.passed).map(({id,width,error,replayFromEnd})=>({id,width,error,replayFromEnd}));
@@ -41,5 +48,6 @@ base.nativeModelHashes=rerun.nativeModelHashes;base.date=rerun.date;
 base.rerunHistory=[...(base.rerunHistory||[]),{date:rerun.date,report:process.env.PHYSICA_RERUN_REPORT||'docs/playback-rerun-report.json',ids,changedAssets,reason:process.env.PHYSICA_RERUN_REASON||'End replay resets current time and integration history immediately; finite playback bars never silently clamp an unbounded internal step. Slow authored timers are observed for up to5seconds.',supersededFailures:superseded}];
 base.summary={animated:base.results.filter(row=>row.classification==='animated').length,equilibrium:base.results.filter(row=>row.classification==='equilibrium-input-tested').length,static:base.results.filter(row=>row.classification==='static').length,failed:base.results.filter(row=>!row.passed).length};
 assert.equal(base.results.length,catalog.length*base.widths.length);assert.equal(base.observed,base.expected);assert.equal(base.summary.failed,0);assert.equal(base.errors.length,0);
+for(const row of base.results)assert.equal(row.href,catalog.find(r=>r.id===row.id)?.nativeHref,`Changed reading-page route requires a real rerun: ${row.id}`);
 fs.writeFileSync(new URL('docs/playback-ui-report.json',root),JSON.stringify(base,null,2)+'\n');
 console.log(`${base.observed} playback cases passed; ${rerun.observed} targeted replacements with verified unaffected dependencies.`);

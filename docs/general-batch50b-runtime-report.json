@@ -1,0 +1,1341 @@
+{
+  "date": "2026-10-09T23:10:08.274Z",
+  "files": 13,
+  "nativeModelHashes": {
+    "assets/general-batch50b-particles-physics.mjs": "d52c901d7eeec2e99dca6e26d71f8d6af37949b67b0f148c037ab73bba941d68",
+    "assets/general-batch50b-particles-specs.mjs": "a37c8e31c37b7c614e39ec38c7099062c6ce93caca8f7a67a94c8cbceb7aa9af",
+    "assets/general-batch50b-dynamics-physics.mjs": "325e498d5391acd827c0ebe182fe8bdedad6b147226017244ebeea1c6f755bb8",
+    "assets/general-batch50b-dynamics-specs.mjs": "aa313c1039bb9a53b9b9471d1b229a6ad727abb9ee424ad3c17e7a8916db876f",
+    "tools/general-batch50b-runtime-check.mjs": "69377603409324bdf47b1be15b29d87ed83273cd276fab830c7ee34514906964",
+    "tools/general-batch50b-as3-compile.mjs": "3ae99eaaba339debd25f207197273ec8ecdcae74106ce6dbc1a070c8aa317104",
+    "tools/java/PhysicaAS3ObserverGeneralBatch50b.as": "0c2d22829f64a4d3e9a45dc95aaa2faaec07ae91470ce72b05ced244d209472b"
+  },
+  "observerABCSHA256": "47e22617a02087d75576da22bb3d30b5330b5157e8e675d64456e47237daa40b",
+  "comparisons": 19070,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-0b1dd9882779ff0a",
+      "sha256": "30bc60e8988e62f5e4aa0cf5f4292929ff089c12fe651ac206652315768b09b3",
+      "sha256Verified": true,
+      "comparisons": 8000,
+      "mismatches": [],
+      "samples": [
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 1
+        },
+        {
+          "step": 2
+        },
+        {
+          "step": 2
+        },
+        {
+          "step": 3
+        },
+        {
+          "step": 3
+        },
+        {
+          "step": 4
+        },
+        {
+          "step": 5
+        },
+        {
+          "step": 5
+        },
+        {
+          "step": 6
+        },
+        {
+          "step": 6
+        },
+        {
+          "step": 7
+        },
+        {
+          "step": 8
+        },
+        {
+          "step": 8
+        }
+      ],
+      "maxAbsoluteError": 0.049999379739176675,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Bounded consecutive real original Ruffle snapshots and unchanged source timer: all observed positions/velocities compared with native one-step equations from previous actual original state. Random starting state is observed, not substituted. Only consecutive timer counts used for AS3; no all input sequences claim."
+    },
+    {
+      "id": "flash-17d4ba7ccbc3959e",
+      "sha256": "eb948e3de25ab7d8011c8e0285f5ccfbba47968b985a2d09e28a989d3b21bcc7",
+      "sha256Verified": true,
+      "comparisons": 150,
+      "mismatches": [],
+      "samples": [
+        {
+          "step": 1
+        },
+        {
+          "step": 3
+        },
+        {
+          "step": 4
+        },
+        {
+          "step": 6
+        },
+        {
+          "step": 8
+        },
+        {
+          "step": 9
+        },
+        {
+          "step": 11
+        },
+        {
+          "step": 13
+        },
+        {
+          "step": 14
+        },
+        {
+          "step": 16
+        },
+        {
+          "step": 18
+        },
+        {
+          "step": 19
+        },
+        {
+          "step": 21
+        },
+        {
+          "step": 23
+        },
+        {
+          "step": 24
+        },
+        {
+          "step": 26
+        },
+        {
+          "step": 28
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Bounded consecutive real original Ruffle snapshots and unchanged source timer: all observed positions/velocities compared with native one-step equations from previous actual original state. Random starting state is observed, not substituted. Only consecutive timer counts used for AS3; no all input sequences claim."
+    },
+    {
+      "id": "flash-d9fe51b58f69c06c",
+      "sha256": "5ca818543243f7427d36d45de67e96441095b2fdd512ce8fc4d08c170b6d3e2e",
+      "sha256Verified": true,
+      "comparisons": 8000,
+      "mismatches": [],
+      "samples": [
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 1
+        },
+        {
+          "step": 2
+        },
+        {
+          "step": 2
+        },
+        {
+          "step": 3
+        },
+        {
+          "step": 3
+        },
+        {
+          "step": 4
+        },
+        {
+          "step": 5
+        },
+        {
+          "step": 5
+        },
+        {
+          "step": 6
+        },
+        {
+          "step": 6
+        },
+        {
+          "step": 7
+        },
+        {
+          "step": 8
+        },
+        {
+          "step": 8
+        }
+      ],
+      "maxAbsoluteError": 0.04968892484905041,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Bounded consecutive real original Ruffle snapshots and unchanged source timer: all observed positions/velocities compared with native one-step equations from previous actual original state. Random starting state is observed, not substituted. Only consecutive timer counts used for AS3; no all input sequences claim."
+    },
+    {
+      "id": "flash-6c1faf403cc0ae33",
+      "sha256": "a45288cef1048a2c19cd13dad95ff7828f5237f588e58f49a36afe161311e7f6",
+      "sha256Verified": true,
+      "comparisons": 208,
+      "mismatches": [],
+      "samples": [
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 0
+        },
+        {
+          "step": 1
+        },
+        {
+          "step": 2
+        },
+        {
+          "step": 3
+        },
+        {
+          "step": 3
+        },
+        {
+          "step": 4
+        },
+        {
+          "step": 5
+        },
+        {
+          "step": 6
+        },
+        {
+          "step": 7
+        },
+        {
+          "step": 8
+        }
+      ],
+      "maxAbsoluteError": 0.046603510342549725,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Bounded consecutive real original Ruffle snapshots and unchanged source timer: all observed positions/velocities compared with native one-step equations from previous actual original state. Random starting state is observed, not substituted. Only consecutive timer counts used for AS3; no all input sequences claim."
+    },
+    {
+      "id": "flash-fb1f27ec60adc18a",
+      "sha256": "64a6e1482abd5b4848f73bd1c99bdba11314766179ab8862607bea594281af9c",
+      "sha256Verified": true,
+      "comparisons": 160,
+      "mismatches": [],
+      "samples": [
+        {
+          "count": 4,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 8,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 12,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 16,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 20,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 24,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 29,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 33,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 37,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 41,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 45,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 49,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 54,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 58,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 62,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 66,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        },
+        {
+          "count": 70,
+          "p": {
+            "count": 3,
+            "omega": 3.5
+          }
+        }
+      ],
+      "maxAbsoluteError": 2.0691781621451355e-14,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Bounded consecutive real original Ruffle snapshots and unchanged source timer: all observed positions/velocities compared with native one-step equations from previous actual original state. Random starting state is observed, not substituted. Only consecutive timer counts used for AS3; no all input sequences claim."
+    },
+    {
+      "id": "flash-9b3c51679c04a6b0",
+      "sha256": "11207e1907f3bce64944aed00c3d6822308335b4611279c7c4be30657059b877",
+      "sha256Verified": true,
+      "comparisons": 28,
+      "mismatches": [],
+      "samples": [
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        },
+        {
+          "x": 200,
+          "v": 0
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Real original default resting/equilibrium state numeric observation only. Native nonzero initial displacement is an accessible replacement for original dragging. Arbitrary drag and original dynamic timer trajectories remain unverified; no full motion equivalence claim."
+    },
+    {
+      "id": "flash-609175641dfc40eb",
+      "sha256": "b4b2a8f462bc0807e1d948e0522c37baa960346045d12c349fa66762b2d0669d",
+      "sha256Verified": true,
+      "comparisons": 1581,
+      "mismatches": [],
+      "samples": [
+        {
+          "gtime": 0,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 1,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 2,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 3,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 4,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 5,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 6,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 7,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 8,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 9,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 10,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 11,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 12,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 13,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 14,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 15,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 16,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 17,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 18,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 19,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 20,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 21,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 22,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 23,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 24,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 25,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 26,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 27,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 28,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 29,
+          "mass": 0.82,
+          "driven": null
+        },
+        {
+          "gtime": 30,
+          "mass": 0.82,
+          "driven": null
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Real original default resting/equilibrium state numeric observation only. Native nonzero initial displacement is an accessible replacement for original dragging. Arbitrary drag and original dynamic timer trajectories remain unverified; no full motion equivalence claim."
+    },
+    {
+      "id": "flash-0a4e877f1a5b00af",
+      "sha256": "c061ce4950b4852704f425a1f75ae0ae921b3c63999d5b72a64369c831ba0d50",
+      "sha256Verified": true,
+      "comparisons": 686,
+      "mismatches": [],
+      "samples": [
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        },
+        {
+          "gtime": 0,
+          "boundaryOld": ""
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Real original default resting/equilibrium state numeric observation only. Native nonzero initial displacement is an accessible replacement for original dragging. Arbitrary drag and original dynamic timer trajectories remain unverified; no full motion equivalence claim."
+    },
+    {
+      "id": "flash-df88a01f28e2add7",
+      "sha256": "90c5bcbca2befd6a30a88523e9aedff4ef9db1075ff75cb699653c6765556f3f",
+      "sha256Verified": true,
+      "comparisons": 17,
+      "mismatches": [],
+      "samples": [
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        },
+        {
+          "space": 40
+        }
+      ],
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Actual original read-only pure mathematical function queries at bounded original defaults, original file/tags unchanged. Full original dynamic trajectories/drag and all input Cartesian combinations remain unverified."
+    },
+    {
+      "id": "flash-be2213f8cfc2919f",
+      "sha256": "630f7a51829e75154ff666891e138a4dda3b6e37bec2d7e168c395c54fb6a5d2",
+      "sha256Verified": true,
+      "comparisons": 112,
+      "mismatches": [],
+      "samples": [
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        },
+        {
+          "theta1": 0,
+          "theta2": -30
+        }
+      ],
+      "maxAbsoluteError": 3.979039320256561e-13,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "skippedStartup": 1,
+      "passed": true,
+      "scope": "Actual original default geometric phase or naturally observed translation only. Full input Cartesian combinations and randomized recycling wavepaths remain unverified."
+    },
+    {
+      "id": "flash-f9299046992b0e21",
+      "sha256": "e651f305ed19352e3e03ce5d87c08f7c55766cf479ebcaeb260f23db6515290d",
+      "sha256Verified": true,
+      "comparisons": 14,
+      "mismatches": [],
+      "samples": [
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        },
+        {
+          "Uo": 50,
+          "Ro": 0.6
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Actual original read-only pure mathematical function queries at bounded original defaults, original file/tags unchanged. Full original dynamic trajectories/drag and all input Cartesian combinations remain unverified."
+    },
+    {
+      "id": "flash-2603b2b56e155ac3",
+      "sha256": "4f2d01c2d32b5b623856b8459af37ace8cea80696bb5f6f34379a3c1730348a6",
+      "sha256Verified": true,
+      "comparisons": 34,
+      "mismatches": [],
+      "samples": [
+        {
+          "tick": 2,
+          "type": 2
+        },
+        {
+          "tick": 5,
+          "type": 2
+        },
+        {
+          "tick": 8,
+          "type": 2
+        },
+        {
+          "tick": 12,
+          "type": 2
+        },
+        {
+          "tick": 15,
+          "type": 2
+        },
+        {
+          "tick": 18,
+          "type": 2
+        },
+        {
+          "tick": 22,
+          "type": 2
+        },
+        {
+          "tick": 25,
+          "type": 2
+        },
+        {
+          "tick": 29,
+          "type": 2
+        },
+        {
+          "tick": 32,
+          "type": 2
+        },
+        {
+          "tick": 35,
+          "type": 2
+        },
+        {
+          "tick": 38,
+          "type": 2
+        },
+        {
+          "tick": 42,
+          "type": 2
+        },
+        {
+          "tick": 45,
+          "type": 2
+        },
+        {
+          "tick": 48,
+          "type": 2
+        },
+        {
+          "tick": 52,
+          "type": 2
+        },
+        {
+          "tick": 55,
+          "type": 2
+        }
+      ],
+      "maxAbsoluteError": 0.04523665063408089,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Bounded real original parent timer center-of-mass coordinates from observed actual tickCount, including random original object choices. Child timer phase/control Cartesian combinations not exhaustively compared."
+    },
+    {
+      "id": "flash-e178e1da9ba43627",
+      "sha256": "edcb743fbbc112c27460b61833d5230989c239c88e78943bb061cb90e91bf6ca",
+      "sha256Verified": true,
+      "comparisons": 80,
+      "mismatches": [],
+      "samples": [
+        {
+          "right": -33.8,
+          "left": 632.05
+        },
+        {
+          "right": -28.8,
+          "left": 627.05
+        },
+        {
+          "right": -23.8,
+          "left": 622.05
+        },
+        {
+          "right": -18.8,
+          "left": 617.05
+        },
+        {
+          "right": -13.8,
+          "left": 612.05
+        },
+        {
+          "right": -8.8,
+          "left": 607.05
+        },
+        {
+          "right": -3.8,
+          "left": 602.05
+        },
+        {
+          "right": 1.2,
+          "left": 597.05
+        },
+        {
+          "right": 6.2,
+          "left": 592.05
+        },
+        {
+          "right": 11.2,
+          "left": 587.05
+        },
+        {
+          "right": 16.2,
+          "left": 582.05
+        },
+        {
+          "right": 21.2,
+          "left": 577.05
+        },
+        {
+          "right": 26.2,
+          "left": 572.05
+        },
+        {
+          "right": 31.2,
+          "left": 567.05
+        },
+        {
+          "right": 36.2,
+          "left": 562.05
+        },
+        {
+          "right": 41.2,
+          "left": 557.05
+        },
+        {
+          "right": 46.2,
+          "left": 552.05
+        },
+        {
+          "right": 51.2,
+          "left": 547.05
+        },
+        {
+          "right": 56.2,
+          "left": 542.05
+        },
+        {
+          "right": 61.2,
+          "left": 537.05
+        },
+        {
+          "right": 66.2,
+          "left": 532.05
+        },
+        {
+          "right": 71.2,
+          "left": 527.05
+        },
+        {
+          "right": 76.2,
+          "left": 522.05
+        },
+        {
+          "right": 81.2,
+          "left": 517.05
+        },
+        {
+          "right": 86.2,
+          "left": 512.05
+        },
+        {
+          "right": 91.2,
+          "left": 507.05
+        },
+        {
+          "right": 96.2,
+          "left": 502.05
+        },
+        {
+          "right": 101.2,
+          "left": 497.05
+        },
+        {
+          "right": 106.2,
+          "left": 492.05
+        },
+        {
+          "right": 111.2,
+          "left": 487.05
+        },
+        {
+          "right": 116.2,
+          "left": 482.05
+        },
+        {
+          "right": 121.2,
+          "left": 477.05
+        },
+        {
+          "right": 126.2,
+          "left": 472.05
+        },
+        {
+          "right": 131.2,
+          "left": 467.05
+        },
+        {
+          "right": 136.2,
+          "left": 462.05
+        },
+        {
+          "right": 141.2,
+          "left": 457.05
+        },
+        {
+          "right": 146.2,
+          "left": 452.05
+        },
+        {
+          "right": 151.2,
+          "left": 447.05
+        },
+        {
+          "right": 156.2,
+          "left": 442.05
+        },
+        {
+          "right": 161.2,
+          "left": 437.05
+        },
+        {
+          "right": 166.2,
+          "left": 432.05
+        }
+      ],
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": true,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "passed": true,
+      "scope": "Actual original default geometric phase or naturally observed translation only. Full input Cartesian combinations and randomized recycling wavepaths remain unverified."
+    }
+  ]
+}

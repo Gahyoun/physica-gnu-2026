@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-09T22:48:42.602Z",
+  "files": 2,
+  "scope": "Original AS3 MainTimeline selector/scaling and independent original QuantumSolver execution: all finite mode choices, every scalar slider endpoint with other inputs default, angular channels0..7 and all501 potential/visible-wave samples. Numerical source execution; original Flash runtime is a separate bounded report. No continuous cross-product or input-history equivalence claim.",
+  "nativeModelHashes": {
+    "src/native-nuclear-batch50b.json": "e13bac6ff67a067c9b3c0654c2dbee65e2b998a5227be4296615ff5fd01d4b3c",
+    "assets/nuclear-batch50b-specs.mjs": "4a2cb1a6995b6ea7695dbba59652770db45628cf655b8f9f279dffc3c4e3e51e",
+    "assets/nuclear-batch50b-engine.mjs": "0430752491114159c6ddd8bd30c9afb5640e2cdf2ab2648dcc17bd0fa3b79e9e",
+    "assets/nuclear-batch50b-physics.mjs": "d5e0fd7f795a6f74c7b2e5f690646d811ebd70f2d5d3380b27af4a38de5a1cb0"
+  },
+  "comparisons": 318661,
+  "originalRuntimeVerified": false,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-e341377e9b63ba2b",
+      "type": "levels",
+      "originalSHA256": "59531b27aac6c62f98810b9c7565b76721f3b5cb781c84d6a5ff275c37cd6e42",
+      "cases": 54,
+      "comparisons": 308014,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSourceHashes": {
+        "Mathematics": "d1aa86a8b22dc0adc52d6a6b72dc6ee02ff56d6534fc8a07b681f067abb3cf89",
+        "FittingProtocol": "ce7fd1d9682820c765c4469898aae049792ab9a04b95f90d6b4718fd30a7781b",
+        "PotentialPointer": "ccc63d897d5e28ac6baed0f058ace3bed155a00a7a58401b84cb42e19a0804f4",
+        "EigenfunctionData": "b6648403fb03b2eea1dfbe44e110c2965cd3337260f5c15810e5dd00c1ec84d3",
+        "EigenfunctionFinder": "ded1c802407e47515b58dfd8a5e97b5b3b45aba8487d46e528c93045bb72f6ae",
+        "MainTimeline": "0f7be4df0c0cbe44dd28779fc9ca917df3cf7ee39b4e3e90025ac60755cc7e36"
+      },
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "passed": true
+    },
+    {
+      "id": "flash-8ab5975d99f35a45",
+      "type": "potential",
+      "originalSHA256": "d418bb2ed5d4f2e4e7c7a622ceb8bee493676544296d12d9fd07c4e88a750e69",
+      "cases": 21,
+      "comparisons": 10647,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSourceHashes": {
+        "Mathematics": "d1aa86a8b22dc0adc52d6a6b72dc6ee02ff56d6534fc8a07b681f067abb3cf89",
+        "FittingProtocol": "ce7fd1d9682820c765c4469898aae049792ab9a04b95f90d6b4718fd30a7781b",
+        "PotentialPointer": "ccc63d897d5e28ac6baed0f058ace3bed155a00a7a58401b84cb42e19a0804f4",
+        "EigenfunctionData": "b6648403fb03b2eea1dfbe44e110c2965cd3337260f5c15810e5dd00c1ec84d3",
+        "EigenfunctionFinder": "ded1c802407e47515b58dfd8a5e97b5b3b45aba8487d46e528c93045bb72f6ae",
+        "MainTimeline": "45cb32e73742bfe6b819c1e0d58af177e3eb56df3a7e6fabaa01613f4c1daabf"
+      },
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "passed": true
+    }
+  ]
+}

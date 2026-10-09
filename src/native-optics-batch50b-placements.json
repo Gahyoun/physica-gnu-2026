@@ -1,0 +1,1091 @@
+{
+  "flash-48312d928701845d": {
+    "nFTxt": {
+      "x": 396.25,
+      "y": 0.9,
+      "width": null,
+      "height": null
+    },
+    "nDTxt": {
+      "x": 396.25,
+      "y": 13.3,
+      "width": null,
+      "height": null
+    },
+    "nCTxt": {
+      "x": 396.25,
+      "y": 25.7,
+      "width": null,
+      "height": null
+    },
+    "abbeTxt": {
+      "x": 396.9,
+      "y": 39.7,
+      "width": null,
+      "height": null
+    },
+    "nF2Txt": {
+      "x": 606.25,
+      "y": -0.1,
+      "width": null,
+      "height": null
+    },
+    "nD2Txt": {
+      "x": 606.25,
+      "y": 12.3,
+      "width": null,
+      "height": null
+    },
+    "nC2Txt": {
+      "x": 606.25,
+      "y": 24.7,
+      "width": null,
+      "height": null
+    },
+    "abbe2Txt": {
+      "x": 606.9,
+      "y": 38.7,
+      "width": null,
+      "height": null
+    },
+    "resetBtn": {
+      "x": 577.4,
+      "y": 277.1,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "material1Txt": {
+      "x": 223,
+      "y": 0.7,
+      "width": null,
+      "height": null
+    },
+    "material2Txt": {
+      "x": 423.95,
+      "y": 0.7,
+      "width": null,
+      "height": null
+    },
+    "R11Txt": {
+      "x": 316.9,
+      "y": 283.45,
+      "width": null,
+      "height": null
+    },
+    "R22Txt": {
+      "x": 505.95,
+      "y": 283.45,
+      "width": null,
+      "height": null
+    },
+    "fdTxt": {
+      "x": 37.4,
+      "y": 284.45,
+      "width": null,
+      "height": null
+    },
+    "f1dTxt": {
+      "x": 236.95,
+      "y": 283.45,
+      "width": null,
+      "height": null
+    },
+    "f2dTxt": {
+      "x": 420.9,
+      "y": 283.45,
+      "width": null,
+      "height": null
+    },
+    "pDTxt": {
+      "x": 581.8,
+      "y": 242.8,
+      "width": null,
+      "height": null
+    },
+    "pCTxt": {
+      "x": 581.75,
+      "y": 257.8,
+      "width": null,
+      "height": null
+    },
+    "pFTxt": {
+      "x": 581.8,
+      "y": 227.8,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-93516affb99b4e72": {
+    "mk": {
+      "x": 0,
+      "y": 0,
+      "width": 719.9909210205078,
+      "height": 310.00634765625
+    },
+    "nFTxt": {
+      "x": 453.25,
+      "y": 0.9,
+      "width": null,
+      "height": null
+    },
+    "nDTxt": {
+      "x": 453.25,
+      "y": 13.3,
+      "width": null,
+      "height": null
+    },
+    "nCTxt": {
+      "x": 453.25,
+      "y": 25.7,
+      "width": null,
+      "height": null
+    },
+    "abbeTxt": {
+      "x": 453.9,
+      "y": 39.7,
+      "width": null,
+      "height": null
+    },
+    "nF2Txt": {
+      "x": 667.25,
+      "y": -0.1,
+      "width": null,
+      "height": null
+    },
+    "nD2Txt": {
+      "x": 667.25,
+      "y": 12.3,
+      "width": null,
+      "height": null
+    },
+    "nC2Txt": {
+      "x": 667.25,
+      "y": 24.7,
+      "width": null,
+      "height": null
+    },
+    "abbe2Txt": {
+      "x": 667.9,
+      "y": 38.7,
+      "width": null,
+      "height": null
+    },
+    "pDTxt": {
+      "x": 636,
+      "y": 278.9,
+      "width": null,
+      "height": null
+    },
+    "pCTxt": {
+      "x": 635.95,
+      "y": 294.9,
+      "width": null,
+      "height": null
+    },
+    "pFTxt": {
+      "x": 636,
+      "y": 262.9,
+      "width": null,
+      "height": null
+    },
+    "material1Txt": {
+      "x": 280,
+      "y": 0.7,
+      "width": null,
+      "height": null
+    },
+    "material2Txt": {
+      "x": 487.95,
+      "y": 0.7,
+      "width": null,
+      "height": null
+    },
+    "fdTxt": {
+      "x": 33.25,
+      "y": 295.2,
+      "width": null,
+      "height": null
+    },
+    "f1dTxt": {
+      "x": 115.8,
+      "y": 295.2,
+      "width": null,
+      "height": null
+    },
+    "f2dTxt": {
+      "x": 198.75,
+      "y": 295.2,
+      "width": null,
+      "height": null
+    },
+    "startBtn": {
+      "x": 647.2,
+      "y": 336.65,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "resetBtn": {
+      "x": 647.2,
+      "y": 314.55,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "R11Slider": {
+      "x": 266.5,
+      "y": 313.55,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "R11Txt": {
+      "x": 453.6,
+      "y": 313.05,
+      "width": null,
+      "height": null
+    },
+    "R22Slider": {
+      "x": 266.5,
+      "y": 329.55,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "R22Txt": {
+      "x": 453.6,
+      "y": 328.05,
+      "width": null,
+      "height": null
+    },
+    "mat1Cmb": {
+      "x": 68.4,
+      "y": 320.55,
+      "width": 131,
+      "height": 16
+    },
+    "mat2Cmb": {
+      "x": 68.4,
+      "y": 338.65,
+      "width": 131,
+      "height": 16
+    },
+    "R12Slider": {
+      "x": 487.5,
+      "y": 329.55,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "R12Txt": {
+      "x": 562.6,
+      "y": 315,
+      "width": null,
+      "height": null
+    },
+    "coordTxt": {
+      "x": 4.25,
+      "y": 2.6,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-0f0cac3815eda408": {
+    "n400Txt": {
+      "x": 415,
+      "y": 0.9,
+      "width": null,
+      "height": null
+    },
+    "n500Txt": {
+      "x": 415,
+      "y": 13.3,
+      "width": null,
+      "height": null
+    },
+    "n600Txt": {
+      "x": 415,
+      "y": 25.7,
+      "width": null,
+      "height": null
+    },
+    "n700Txt": {
+      "x": 415,
+      "y": 38.1,
+      "width": null,
+      "height": null
+    },
+    "resetBtn": {
+      "x": 527.4,
+      "y": 277.1,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "materialTxt": {
+      "x": 5.4,
+      "y": 2.7,
+      "width": null,
+      "height": null
+    },
+    "material2Txt": {
+      "x": 5.4,
+      "y": 17.7,
+      "width": null,
+      "height": null
+    },
+    "R1Txt": {
+      "x": 386.9,
+      "y": 284.45,
+      "width": null,
+      "height": null
+    },
+    "R2Txt": {
+      "x": 463.95,
+      "y": 284.45,
+      "width": null,
+      "height": null
+    },
+    "thicknessTxt": {
+      "x": 290.4,
+      "y": 284.45,
+      "width": null,
+      "height": null
+    },
+    "abbeTxt": {
+      "x": 547.7,
+      "y": 0.1,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-07388eb4da3a86fe": {
+    "resetBtn": {
+      "x": 524.4,
+      "y": 275.9,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "R1Txt": {
+      "x": 163.5,
+      "y": 284.25,
+      "width": null,
+      "height": null
+    },
+    "R2Txt": {
+      "x": 240.55,
+      "y": 284.25,
+      "width": null,
+      "height": null
+    },
+    "thicknessTxt": {
+      "x": 67,
+      "y": 284.25,
+      "width": null,
+      "height": null
+    },
+    "causticTxt": {
+      "x": -77.85,
+      "y": -29.95,
+      "width": 52.9,
+      "height": 14
+    },
+    "angleTxt": {
+      "x": 385.55,
+      "y": 285.35,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-79e619a9377f414a": {
+    "resetBtn": {
+      "x": 524.4,
+      "y": 275.9,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "R1Txt": {
+      "x": 163.5,
+      "y": 284.25,
+      "width": null,
+      "height": null
+    },
+    "R2Txt": {
+      "x": 240.55,
+      "y": 284.25,
+      "width": null,
+      "height": null
+    },
+    "thicknessTxt": {
+      "x": 67,
+      "y": 284.25,
+      "width": null,
+      "height": null
+    },
+    "causticTxt": {
+      "x": -77.85,
+      "y": -29.95,
+      "width": 52.89990234375,
+      "height": 13.99995422363281
+    },
+    "lsaTxt": {
+      "x": -69.7,
+      "y": -2.95,
+      "width": 39.39990234375,
+      "height": 14.999908447265625
+    },
+    "sigmaTxt": {
+      "x": -62.85,
+      "y": 30.95,
+      "width": 24,
+      "height": 13
+    }
+  },
+  "flash-7d2fe52076b32c5f": {
+    "resetBtn": {
+      "x": 524.4,
+      "y": 275.9,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "R1Txt": {
+      "x": 451.5,
+      "y": 286.25,
+      "width": null,
+      "height": null
+    },
+    "causticTxt": {
+      "x": -77.85,
+      "y": -29.95,
+      "width": 52.89990234375,
+      "height": 13.99995422363281
+    },
+    "lsaTxt": {
+      "x": -125.8,
+      "y": 92.05,
+      "width": 39.39990234375,
+      "height": 14.999908447265625
+    },
+    "sigmaTxt": {
+      "x": -102.95,
+      "y": 208.95,
+      "width": 24,
+      "height": 13
+    }
+  },
+  "flash-367212c8f467ffa9": {
+    "mk": {
+      "x": 0,
+      "y": 0,
+      "width": 719.9909210205078,
+      "height": 310.00634765625
+    },
+    "startBtn": {
+      "x": 648.1,
+      "y": 335.4,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "resetBtn": {
+      "x": 648.4,
+      "y": 312.3,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "R1Slider": {
+      "x": 395.4,
+      "y": 314.3,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "opSlider": {
+      "x": 1,
+      "y": 329.5,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "nSlider": {
+      "x": 166.4,
+      "y": 329.5,
+      "width": 55.00419616699219,
+      "height": 12
+    },
+    "marker": {
+      "x": 60,
+      "y": 155,
+      "width": 9,
+      "height": 9.0186767578125
+    },
+    "R1Txt": {
+      "x": 579.5,
+      "y": 313.8,
+      "width": null,
+      "height": null
+    },
+    "objTxt": {
+      "x": 6.4,
+      "y": 311,
+      "width": null,
+      "height": null
+    },
+    "obj2Txt": {
+      "x": 5.4,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "R2Slider": {
+      "x": 395.4,
+      "y": 330.3,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "R2Txt": {
+      "x": 579.5,
+      "y": 328.8,
+      "width": null,
+      "height": null
+    },
+    "dirSlider": {
+      "x": 239.4,
+      "y": 329.5,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "coordTxt": {
+      "x": 586.1,
+      "y": 2,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-e8c180cb17a1844d": {
+    "mk": {
+      "x": 0,
+      "y": 0,
+      "width": 699.9961853027344,
+      "height": 200.00115966796875
+    },
+    "showRayChk": {
+      "x": 5.4,
+      "y": 205.3,
+      "width": 73.00556945800781,
+      "height": 13
+    },
+    "showFrontChk": {
+      "x": 94.4,
+      "y": 205.3,
+      "width": 73.00556945800781,
+      "height": 13
+    },
+    "resetBtn": {
+      "x": 624.3,
+      "y": 198.3,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "grTxt": {
+      "x": 264.05,
+      "y": 202.55,
+      "width": null,
+      "height": null
+    },
+    "thicknessTxt": {
+      "x": 198,
+      "y": 202.55,
+      "width": null,
+      "height": null
+    },
+    "marker": {
+      "x": -16,
+      "y": 231.95,
+      "width": 9,
+      "height": 9.0186767578125
+    },
+    "expTxt": {
+      "x": 359.95,
+      "y": 202.55,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-b26a7903e99b96d2": {
+    "startBtn": {
+      "x": 479.7,
+      "y": 133.35,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "marker": {
+      "x": -60.5,
+      "y": 155.85,
+      "width": 6,
+      "height": 6.012451171875
+    },
+    "marker2": {
+      "x": -17.15,
+      "y": 155.25,
+      "width": 6,
+      "height": 6
+    }
+  },
+  "flash-84d5263a3db489ee": {
+    "mk": {
+      "x": 0,
+      "y": 0,
+      "width": 699.9961853027344,
+      "height": 250.00433349609375
+    },
+    "symbol1": {
+      "x": -652.65,
+      "y": -471.6,
+      "width": 701.1,
+      "height": 251.05
+    },
+    "symbol2": {
+      "x": -659.6,
+      "y": -245.7,
+      "width": 701.05,
+      "height": 251.1
+    },
+    "showRayChk": {
+      "x": 5.4,
+      "y": 256.3,
+      "width": 73.00445556640625,
+      "height": 13
+    },
+    "showFrontChk": {
+      "x": 94.4,
+      "y": 256.3,
+      "width": 73.00445556640625,
+      "height": 13
+    },
+    "resetBtn": {
+      "x": 624.3,
+      "y": 251.3,
+      "width": 70.0042724609375,
+      "height": 20
+    },
+    "marker": {
+      "x": -16,
+      "y": 231.95,
+      "width": 9,
+      "height": 9.0186767578125
+    },
+    "modeChangeChk": {
+      "x": 540.6,
+      "y": 256.3,
+      "width": 73.00445556640625,
+      "height": 13
+    }
+  },
+  "flash-93b905ce5b8916d1": {
+    "mk": {
+      "x": 0,
+      "y": 0,
+      "width": 719.9909210205078,
+      "height": 310.00634765625
+    },
+    "startBtn": {
+      "x": 645.1,
+      "y": 333,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "showRayChk": {
+      "x": 3.4,
+      "y": 317.3,
+      "width": 73.00556945800781,
+      "height": 13
+    },
+    "showFrontChk": {
+      "x": 3.4,
+      "y": 335.3,
+      "width": 73.00556945800781,
+      "height": 13
+    },
+    "resetBtn": {
+      "x": 645.4,
+      "y": 311.3,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "dSlider": {
+      "x": 445.4,
+      "y": 325.3,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "opSlider": {
+      "x": 282.35,
+      "y": 324.8,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "nMaxSlider": {
+      "x": 101.9,
+      "y": 315.3,
+      "width": 55.00419616699219,
+      "height": 12
+    },
+    "marker": {
+      "x": 10,
+      "y": 155,
+      "width": 9,
+      "height": 9.0186767578125
+    },
+    "objTxt": {
+      "x": 284.4,
+      "y": 310.2,
+      "width": null,
+      "height": null
+    },
+    "imageTxt": {
+      "x": 509.8,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "obj2Txt": {
+      "x": 5.4,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "aSlider": {
+      "x": 101.9,
+      "y": 331.5,
+      "width": 55.00419616699219,
+      "height": 12
+    }
+  },
+  "flash-e9a8b8d594d9e6eb": {
+    "startBtn": {
+      "x": 523.25,
+      "y": 220,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "resetBtn": {
+      "x": 523.25,
+      "y": 196.8,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "ccd": {
+      "x": 8,
+      "y": 225,
+      "width": 505,
+      "height": 90.5
+    },
+    "planeTxt": {
+      "x": 517.95,
+      "y": 176,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-0a5ae23ffadf7614": {},
+  "flash-1acef37d4c4d3fa6": {
+    "resetBtn": {
+      "x": 427.4,
+      "y": 287.3,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "obj2Txt": {
+      "x": 5.4,
+      "y": 263.95,
+      "width": null,
+      "height": null
+    },
+    "apexTxt": {
+      "x": 5,
+      "y": 295.1,
+      "width": null,
+      "height": null
+    },
+    "dirTxt": {
+      "x": 5,
+      "y": 279.5,
+      "width": null,
+      "height": null
+    },
+    "materialTxt": {
+      "x": 5.4,
+      "y": 2.7,
+      "width": null,
+      "height": null
+    },
+    "material2Txt": {
+      "x": 5.4,
+      "y": 17.7,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-6ae189308a390e4c": {
+    "mk": {
+      "x": 0,
+      "y": 0,
+      "width": 699.9961853027344,
+      "height": 410.0101318359375
+    },
+    "startBtn": {
+      "x": 625.1,
+      "y": 435.4,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "resetBtn": {
+      "x": 625.4,
+      "y": 412.3,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "apexSlider": {
+      "x": 201.35,
+      "y": 426.3,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "obj2Txt": {
+      "x": 5.4,
+      "y": -1,
+      "width": null,
+      "height": null
+    },
+    "dirSlider": {
+      "x": 341.85,
+      "y": 426.3,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "dir2Slider": {
+      "x": 482.4,
+      "y": 426.3,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "marker": {
+      "x": 372.4,
+      "y": 254.4,
+      "width": 11,
+      "height": 11.0228271484375
+    },
+    "matCmb": {
+      "x": 8.35,
+      "y": 419.85,
+      "width": 131,
+      "height": 16
+    },
+    "n400Txt": {
+      "x": 632.3,
+      "y": 14.15,
+      "width": null,
+      "height": null
+    },
+    "n500Txt": {
+      "x": 632.3,
+      "y": 26.55,
+      "width": null,
+      "height": null
+    },
+    "n600Txt": {
+      "x": 632.3,
+      "y": 38.95,
+      "width": null,
+      "height": null
+    },
+    "n700Txt": {
+      "x": 632.3,
+      "y": 51.35,
+      "width": null,
+      "height": null
+    },
+    "matTxt": {
+      "x": 456.05,
+      "y": -0.7,
+      "width": null,
+      "height": null
+    },
+    "lensTxt": {
+      "x": 339.95,
+      "y": 2.2,
+      "width": null,
+      "height": null
+    },
+    "coordTxt": {
+      "x": 558.1,
+      "y": 370.15,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-9252322b7f86ca63": {
+    "mk": {
+      "x": 0,
+      "y": 0,
+      "width": 719.9909210205078,
+      "height": 310.00634765625
+    },
+    "startBtn": {
+      "x": 648.1,
+      "y": 335.4,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "showRayChk": {
+      "x": 3.4,
+      "y": 313.3,
+      "width": 73.00556945800781,
+      "height": 13
+    },
+    "showFrontChk": {
+      "x": 3.4,
+      "y": 328.3,
+      "width": 73.00556945800781,
+      "height": 13
+    },
+    "resetBtn": {
+      "x": 648.4,
+      "y": 312.3,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "apexSlider": {
+      "x": 304.35,
+      "y": 326.8,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "n0Slider": {
+      "x": 105.9,
+      "y": 321.3,
+      "width": 55.00419616699219,
+      "height": 12
+    },
+    "nSlider": {
+      "x": 105.9,
+      "y": 337.3,
+      "width": 55.00419616699219,
+      "height": 12
+    },
+    "imageTxt": {
+      "x": 509.8,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "obj2Txt": {
+      "x": 5.4,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "dirSlider": {
+      "x": 467.4,
+      "y": 326.8,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "auxChk": {
+      "x": 3.35,
+      "y": 343.3,
+      "width": 73,
+      "height": 13
+    }
+  },
+  "flash-f91b55d3bb43716c": {
+    "resetBtn": {
+      "x": 427.4,
+      "y": 287.3,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "imageTxt": {
+      "x": 291.8,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "obj2Txt": {
+      "x": 5.4,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "nTxt": {
+      "x": 5,
+      "y": 262.1,
+      "width": null,
+      "height": null
+    },
+    "apexTxt": {
+      "x": 5,
+      "y": 294.1,
+      "width": null,
+      "height": null
+    },
+    "dirTxt": {
+      "x": 5,
+      "y": 278.1,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-76b8c6a36b336ddd": {
+    "resetBtn": {
+      "x": 427.4,
+      "y": 287.3,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "imageTxt": {
+      "x": 358,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "obj2Txt": {
+      "x": 5.4,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "dirSlider": {
+      "x": 3.4,
+      "y": 279.3,
+      "width": 150.01144409179688,
+      "height": 13
+    },
+    "nSlider": {
+      "x": 3.4,
+      "y": 249.3,
+      "width": 55.00419616699219,
+      "height": 12
+    }
+  },
+  "flash-ad51d54b1b079073": {
+    "resetBtn": {
+      "x": 427.4,
+      "y": 20.35,
+      "width": 70.00534057617188,
+      "height": 20
+    },
+    "imageTxt": {
+      "x": 291.8,
+      "y": 2,
+      "width": null,
+      "height": null
+    },
+    "obj2Txt": {
+      "x": 5.4,
+      "y": 2,
+      "width": null,
+      "height": null
+    }
+  },
+  "flash-190ba027454d6737": {
+    "resetBtn": {
+      "x": 2.4,
+      "y": 176.3,
+      "width": 70.00534057617188,
+      "height": 20
+    }
+  }
+}

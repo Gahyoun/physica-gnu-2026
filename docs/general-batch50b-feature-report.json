@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-09T23:10:03.141Z",
+  "files": 2,
+  "cases": 6,
+  "nativeModelHashes": {
+    "assets/native-general-batch50b-dynamics.mjs": "ac15c116014566909b289020e81f237fc2c2d67986b85883039afeb0b0155d4b"
+  },
+  "scope": "Visible LJ force arrows/magnitude and allfour projectile end-point trails and center-reference modes at allthree widths. Original dynamic timer interleaving is not asserted.",
+  "results": [
+    {
+      "id": "flash-f9299046992b0e21",
+      "width": 320,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-2603b2b56e155ac3",
+      "width": 320,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-f9299046992b0e21",
+      "width": 768,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-2603b2b56e155ac3",
+      "width": 768,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-f9299046992b0e21",
+      "width": 1360,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-2603b2b56e155ac3",
+      "width": 1360,
+      "passed": true,
+      "failures": []
+    }
+  ]
+}

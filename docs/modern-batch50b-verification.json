@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-10T08:06:40.651007",
+  "batch": 2,
+  "assigned": 15,
+  "sourceAndNativeUIVerified": 15,
+  "boundedOriginalRuntimeVerified": 15,
+  "sourceComparisons": 2418027,
+  "runtimeComparisons": 890,
+  "readingUICases": 45,
+  "unitTests": 16,
+  "exactIDs": [
+    "flash-ed9c176e3d02983b",
+    "flash-7be4ee6e97bc41f0",
+    "flash-df3437d7b74fef0e",
+    "flash-d3f7862985c51103",
+    "flash-8b82e3d95410433f",
+    "flash-1f9ed0c45d4111ae",
+    "flash-1deaf3760d3f79a8",
+    "flash-71ff0e62c1f13b7a",
+    "flash-82557e88691f925e",
+    "flash-9f21bf8b172a3ac9",
+    "flash-7813d0b783ff1706",
+    "flash-587adacda696ea6b",
+    "flash-794a8753d80d4025",
+    "flash-a855b470af9c09ac",
+    "flash-0b88310fcfee5de0"
+  ],
+  "reports": {
+    "docs/modern-batch50b-dynamics-source-report.json": {
+      "sha256": "f5e9dabdd29d53ac5fa8d04ba5e0db74a2737c9d5ddc5ee2788298e2b6c52647",
+      "files": 9,
+      "comparisons": 573215,
+      "cases": null,
+      "passed": true
+    },
+    "docs/modern-batch50b-dynamics-runtime-report.json": {
+      "sha256": "3178751058a19533a71e9a2143da208394c1b1139ff33db49b6b99afcb9cb349",
+      "files": 9,
+      "comparisons": 756,
+      "cases": null,
+      "passed": true
+    },
+    "docs/modern-batch50b-dynamics-ui-report.json": {
+      "sha256": "2ed3c1fa7e1ffd791ebc01d0ed62076a62af0acfdb7aafb471b5bdcee8f67513",
+      "files": 9,
+      "comparisons": null,
+      "cases": 27,
+      "passed": true
+    },
+    "docs/modern-batch50b-probability-source-report.json": {
+      "sha256": "0eee7f4adddbbd1370cad9fc38bff2792daef218ad7ebf46b742c1dd9e10b5fe",
+      "files": 6,
+      "comparisons": 1844812,
+      "cases": null,
+      "passed": true
+    },
+    "docs/modern-batch50b-probability-runtime-report.json": {
+      "sha256": "4cd7f253e57e1ace5dafc19bcaac398aefd6f7e147d297763adcdc0cd8ddae84",
+      "files": 6,
+      "comparisons": 134,
+      "cases": null,
+      "passed": true
+    },
+    "docs/modern-batch50b-probability-ui-report.json": {
+      "sha256": "a7464f9b0b13713a9df0119baa9ddfe4c739e0dae3befcf14e35bc4249ce5708",
+      "files": 6,
+      "comparisons": null,
+      "cases": 18,
+      "passed": true
+    }
+  },
+  "remainingModernIDs": [
+    "flash-43834abb48f3463d",
+    "flash-53b1f7b53747d01e",
+    "flash-1140491ce19ba43a",
+    "flash-a79d576b4d9393cf",
+    "flash-abc9f1ad0cf746d5",
+    "flash-73be9774daba6348",
+    "flash-9b41f82783cf8a46",
+    "flash-dec768b8e9c2034f",
+    "flash-88b7e17d5c10ff99",
+    "flash-eb2235affe5d7d5f",
+    "flash-c8db8a44814f023b",
+    "flash-668f1814a44090a8",
+    "flash-2981dda64c3b445e",
+    "flash-e80fec4ff9e94883",
+    "flash-ca65a61665935993",
+    "flash-113614d4bfcaccf9",
+    "flash-880647c22c26343c",
+    "flash-b9557638baf4eee6",
+    "flash-41f497a574da2503",
+    "flash-acf2dab16134634a",
+    "flash-c0b1169024f0a018"
+  ],
+  "remainingModern": 21,
+  "fullOriginalEquivalence": false,
+  "allOriginalInputCombinationsCompared": false,
+  "implementation": "Original source-specific numerical engines and controls with newly authored SVG vectors; no copied Flash artwork or raster frame playback. Worker integration preserves full wave/FFT mathematics while SVG space-time display samples up to25rows at8grid intervals. GNU blue/gray and .65graph opacity; original static graphs have no timeline.",
+  "fixes": [
+    {
+      "id": "flash-df3437d7b74fef0e",
+      "finding": "Original Potential1D.getU param4:int truncates cos-modulated height; removing type without coercion produced a bounded runtime mismatch. Native adaptation now explicitly coerces integer arguments and public int/uint root fields, and original runtime samples pass."
+    },
+    {
+      "id": "flash-9f21bf8b172a3ac9",
+      "finding": "Read-only original initial marker positions238.95/277.4 restored, not guessed."
+    }
+  ],
+  "limits": [
+    "Source parameter sweeps and repeated-input cases are bounded source evidence, not original runtime proof.",
+    "Original randomized lattice runtime comparison starts with a read-only original psi/V snapshot; private random locals are source-checked separately.",
+    "Double-slit and wheel original MovieClip coordinates have Flash twip display rounding; runtime reports record measured absolute error and an explicit rounding budget.",
+    "Original runtime checks cover initial and bounded naturally advancing samples; they do not assert all parameter, random or pointer histories."
+  ]
+}

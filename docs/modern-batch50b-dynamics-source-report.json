@@ -1,0 +1,867 @@
+{
+  "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+  "files": 9,
+  "comparisons": 573215,
+  "fullEquivalence": false,
+  "nativeModelHashes": {
+    "assets/modern-batch50b-dynamics-engine.mjs": "d96bbd24e8f7be7283216e27aa4a68f0b7741d0901bc2dc05d398d3c5d675d67",
+    "assets/modern-batch50b-dynamics-physics.mjs": "644fd696419e1764d6eae642fda467fbeab3dbc16f049f5b939359c4e1cc5893",
+    "assets/modern-batch50b-dynamics-specs.mjs": "768322bfa84b59615cc2fb563742c421c46231c0f1c49a07ca7888b4ccd6ff24",
+    "tools/modern-batch50b-adapt.mjs": "ac727b9b97c4a55e6be540fe1e358e288dc9f691d94dc13ef2528b4585d362af",
+    "tools/modern-batch50b-generate-dynamics.mjs": "9edcca8ad7db546d1e8e54014c4d4db180e0d77d6764d03b5cd8442a44331bdc",
+    "tools/modern-batch50b-dynamics-source-check.mjs": "dfdaa25295c76c37e07e9af489cb221b2d61dce12941c62209ef0b68da76748e"
+  },
+  "results": [
+    {
+      "id": "flash-ed9c176e3d02983b",
+      "comparisons": 35770,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/QMSolver/Complex.as": "5af89a250dc59d921f27bfb31dc559949773ff75637a233a10281555593db027",
+        "/QMSolver/ComplexSprite.as": "7a44a5b111a55110e341cea708a21cbf1cfa04eee5f2b46fbbe6c4c0a2c0893a",
+        "/QMSolver/DrawComplex.as": "bfbc7fd5e9f3c5c6e835eeac5a7de000982924d9daf437c6d5aef490ffc6113e",
+        "/QMSolver/FFT1D.as": "6b7c4fd6b2d8abc9212feb92c5b698840b9be3d1d7026579491702a8524e363c",
+        "/QMSolver/Potential1D.as": "2953e52bce4299fdd5167cca01bfa27d9d96789555dc47bbfa5ac0f22608299b",
+        "/QMSolver/Quantum1D.as": "21a73d71b78495d87f06e1cf2064d534342b01a24b8c0029b4e9c9a64f45850f",
+        "/perturb_w_fla/MainTimeline.as": "cd41958579698cb2e3f2312f7b6dfac6f143be177fc14e341153be01eb0a1aa1"
+      },
+      "cases": [
+        {
+          "slider1": 40,
+          "slider2": 300,
+          "slider3": 0
+        },
+        {
+          "slider1": 2,
+          "slider2": 300,
+          "slider3": 0
+        },
+        {
+          "slider1": 100,
+          "slider2": 300,
+          "slider3": 0
+        },
+        {
+          "slider1": 40,
+          "slider2": 250,
+          "slider3": 0
+        },
+        {
+          "slider1": 40,
+          "slider2": 500,
+          "slider3": 0
+        },
+        {
+          "slider1": 40,
+          "slider2": 300,
+          "slider3": -1000
+        },
+        {
+          "slider1": 40,
+          "slider2": 300,
+          "slider3": 1000
+        }
+      ]
+    },
+    {
+      "id": "flash-7be4ee6e97bc41f0",
+      "comparisons": 68470,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/QMSolver/Complex.as": "5af89a250dc59d921f27bfb31dc559949773ff75637a233a10281555593db027",
+        "/QMSolver/ComplexSprite.as": "7a44a5b111a55110e341cea708a21cbf1cfa04eee5f2b46fbbe6c4c0a2c0893a",
+        "/QMSolver/DrawComplex.as": "bfbc7fd5e9f3c5c6e835eeac5a7de000982924d9daf437c6d5aef490ffc6113e",
+        "/QMSolver/FFT1D.as": "6b7c4fd6b2d8abc9212feb92c5b698840b9be3d1d7026579491702a8524e363c",
+        "/QMSolver/Potential1D.as": "2953e52bce4299fdd5167cca01bfa27d9d96789555dc47bbfa5ac0f22608299b",
+        "/QMSolver/Quantum1D.as": "21a73d71b78495d87f06e1cf2064d534342b01a24b8c0029b4e9c9a64f45850f",
+        "/perturbDST2ndWeb_w_fla/MainTimeline.as": "6290bcf08a9fa38e04a3b1f82de3bdb38938aedb0bba6c447059985a75acb161"
+      },
+      "cases": [
+        {
+          "slider1": 50,
+          "slider2": 24,
+          "slider3": 50,
+          "slider4": 64,
+          "slider5": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 1,
+          "slider2": 24,
+          "slider3": 50,
+          "slider4": 64,
+          "slider5": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 100,
+          "slider2": 24,
+          "slider3": 50,
+          "slider4": 64,
+          "slider5": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 0,
+          "slider3": 50,
+          "slider4": 64,
+          "slider5": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 512,
+          "slider3": 50,
+          "slider4": 64,
+          "slider5": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 24,
+          "slider3": -1000,
+          "slider4": 64,
+          "slider5": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 24,
+          "slider3": 1000,
+          "slider4": 64,
+          "slider5": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 24,
+          "slider3": 50,
+          "slider4": 0,
+          "slider5": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 24,
+          "slider3": 50,
+          "slider4": 512,
+          "slider5": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 24,
+          "slider3": 50,
+          "slider4": 64,
+          "slider5": 1,
+          "secondChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 24,
+          "slider3": 50,
+          "slider4": 64,
+          "slider5": 9,
+          "secondChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 24,
+          "slider3": 50,
+          "slider4": 64,
+          "slider5": 5,
+          "secondChk": true
+        }
+      ]
+    },
+    {
+      "id": "flash-df3437d7b74fef0e",
+      "comparisons": 81215,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/QMSolver/Complex.as": "5af89a250dc59d921f27bfb31dc559949773ff75637a233a10281555593db027",
+        "/QMSolver/ComplexSprite.as": "7a44a5b111a55110e341cea708a21cbf1cfa04eee5f2b46fbbe6c4c0a2c0893a",
+        "/QMSolver/DrawComplex.as": "bfbc7fd5e9f3c5c6e835eeac5a7de000982924d9daf437c6d5aef490ffc6113e",
+        "/QMSolver/FFT1D.as": "6b7c4fd6b2d8abc9212feb92c5b698840b9be3d1d7026579491702a8524e363c",
+        "/QMSolver/Potential1D.as": "2953e52bce4299fdd5167cca01bfa27d9d96789555dc47bbfa5ac0f22608299b",
+        "/QMSolver/Quantum1D.as": "21a73d71b78495d87f06e1cf2064d534342b01a24b8c0029b4e9c9a64f45850f",
+        "/perturbDSTosc2ndWeb_w_fla/MainTimeline.as": "dd4d2eae47510078374fc19ca22b684be4ffba45077efbf5395ab1dc15dd094d"
+      },
+      "cases": [
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 1,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 100,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 0,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 512,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 0,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 1000,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 0,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 512,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 40,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 120,
+          "slider6": 5,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 1,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 9,
+          "secondChk": false
+        },
+        {
+          "slider1": 60,
+          "slider2": 256,
+          "slider3": 100,
+          "slider4": 64,
+          "slider5": 100,
+          "slider6": 5,
+          "secondChk": true
+        }
+      ]
+    },
+    {
+      "id": "flash-d3f7862985c51103",
+      "comparisons": 5120,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/QMSolver/Complex.as": "5af89a250dc59d921f27bfb31dc559949773ff75637a233a10281555593db027",
+        "/QMSolver/DrawComplex.as": "bfbc7fd5e9f3c5c6e835eeac5a7de000982924d9daf437c6d5aef490ffc6113e",
+        "/QMSolver/Potential1D.as": "2953e52bce4299fdd5167cca01bfa27d9d96789555dc47bbfa5ac0f22608299b",
+        "/QMSolver/Quantum1D.as": "21a73d71b78495d87f06e1cf2064d534342b01a24b8c0029b4e9c9a64f45850f",
+        "/latticemotion_w_fla/MainTimeline.as": "75e0e311cd615627cafbe3782d602cfdcf0b4cd0bfd4e3c8a1056e73719c2fa1"
+      },
+      "cases": [
+        {}
+      ]
+    },
+    {
+      "id": "flash-8b82e3d95410433f",
+      "comparisons": 68000,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/QMSolver/Complex.as": "5af89a250dc59d921f27bfb31dc559949773ff75637a233a10281555593db027",
+        "/QMSolver/ComplexFtnUtil.as": "7c37fe57e42f0a0d9772eebdeb95800eb33d1bde3b5710428ee6ce6792eef430",
+        "/QMSolver/ComplexSprite.as": "7a44a5b111a55110e341cea708a21cbf1cfa04eee5f2b46fbbe6c4c0a2c0893a",
+        "/QMSolver/DrawComplex.as": "bfbc7fd5e9f3c5c6e835eeac5a7de000982924d9daf437c6d5aef490ffc6113e",
+        "/QMSolver/Potential1D.as": "2953e52bce4299fdd5167cca01bfa27d9d96789555dc47bbfa5ac0f22608299b",
+        "/QMSolver/Quantum1D.as": "21a73d71b78495d87f06e1cf2064d534342b01a24b8c0029b4e9c9a64f45850f",
+        "/potentialbarierm_fla/MainTimeline.as": "0041b64973f89bdaee58c4e9b695460b569ab8abc930fc1ab73334fbdbc88a6d"
+      },
+      "cases": [
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 50,
+          "slider4": 10000,
+          "flatChk": true
+        },
+        {
+          "slider1": 10,
+          "slider2": 25,
+          "slider3": 50,
+          "slider4": 10000,
+          "flatChk": true
+        },
+        {
+          "slider1": 50,
+          "slider2": 25,
+          "slider3": 50,
+          "slider4": 10000,
+          "flatChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": -20,
+          "slider3": 50,
+          "slider4": 10000,
+          "flatChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 100,
+          "slider3": 50,
+          "slider4": 10000,
+          "flatChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 2,
+          "slider4": 10000,
+          "flatChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 150,
+          "slider4": 10000,
+          "flatChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 50,
+          "slider4": -20000,
+          "flatChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 50,
+          "slider4": 20000,
+          "flatChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 50,
+          "slider4": 10000,
+          "flatChk": false
+        }
+      ]
+    },
+    {
+      "id": "flash-1f9ed0c45d4111ae",
+      "comparisons": 88400,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/QMSolver/Complex.as": "5af89a250dc59d921f27bfb31dc559949773ff75637a233a10281555593db027",
+        "/QMSolver/ComplexFtnUtil.as": "7c37fe57e42f0a0d9772eebdeb95800eb33d1bde3b5710428ee6ce6792eef430",
+        "/QMSolver/ComplexSprite.as": "7a44a5b111a55110e341cea708a21cbf1cfa04eee5f2b46fbbe6c4c0a2c0893a",
+        "/QMSolver/DrawComplex.as": "bfbc7fd5e9f3c5c6e835eeac5a7de000982924d9daf437c6d5aef490ffc6113e",
+        "/QMSolver/Potential1D.as": "2953e52bce4299fdd5167cca01bfa27d9d96789555dc47bbfa5ac0f22608299b",
+        "/QMSolver/Quantum1D.as": "21a73d71b78495d87f06e1cf2064d534342b01a24b8c0029b4e9c9a64f45850f",
+        "/potentialharmonicm_w_fla/MainTimeline.as": "89330e33624381debf69762e3df27590f4e51a33407b7c45156469b75e76102e"
+      },
+      "cases": [
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 10,
+          "slider2": 25,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 50,
+          "slider2": 25,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 25,
+          "slider2": -20,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 25,
+          "slider2": 100,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 50,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 400,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 200,
+          "slider4": -20000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 200,
+          "slider4": 20000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": false,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 0
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 1
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 2
+        }
+      ]
+    },
+    {
+      "id": "flash-1deaf3760d3f79a8",
+      "comparisons": 68000,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/QMSolver/Complex.as": "5af89a250dc59d921f27bfb31dc559949773ff75637a233a10281555593db027",
+        "/QMSolver/ComplexFtnUtil.as": "7c37fe57e42f0a0d9772eebdeb95800eb33d1bde3b5710428ee6ce6792eef430",
+        "/QMSolver/ComplexSprite.as": "7a44a5b111a55110e341cea708a21cbf1cfa04eee5f2b46fbbe6c4c0a2c0893a",
+        "/QMSolver/DrawComplex.as": "bfbc7fd5e9f3c5c6e835eeac5a7de000982924d9daf437c6d5aef490ffc6113e",
+        "/QMSolver/Potential1D.as": "2953e52bce4299fdd5167cca01bfa27d9d96789555dc47bbfa5ac0f22608299b",
+        "/QMSolver/Quantum1D.as": "21a73d71b78495d87f06e1cf2064d534342b01a24b8c0029b4e9c9a64f45850f",
+        "/potentialstepm_w_fla/MainTimeline.as": "5e46d13322b97afb1037e9ae749915312aecfcd5118fd7cf77a675665171c31c"
+      },
+      "cases": [
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 480,
+          "slider4": 10000,
+          "flatChk": false
+        },
+        {
+          "slider1": 10,
+          "slider2": 25,
+          "slider3": 480,
+          "slider4": 10000,
+          "flatChk": false
+        },
+        {
+          "slider1": 50,
+          "slider2": 25,
+          "slider3": 480,
+          "slider4": 10000,
+          "flatChk": false
+        },
+        {
+          "slider1": 25,
+          "slider2": -20,
+          "slider3": 480,
+          "slider4": 10000,
+          "flatChk": false
+        },
+        {
+          "slider1": 25,
+          "slider2": 100,
+          "slider3": 480,
+          "slider4": 10000,
+          "flatChk": false
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 340,
+          "slider4": 10000,
+          "flatChk": false
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 640,
+          "slider4": 10000,
+          "flatChk": false
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 480,
+          "slider4": -20000,
+          "flatChk": false
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 480,
+          "slider4": 20000,
+          "flatChk": false
+        },
+        {
+          "slider1": 25,
+          "slider2": 25,
+          "slider3": 480,
+          "slider4": 10000,
+          "flatChk": true
+        }
+      ]
+    },
+    {
+      "id": "flash-71ff0e62c1f13b7a",
+      "comparisons": 122400,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/QMSolver/Complex.as": "5af89a250dc59d921f27bfb31dc559949773ff75637a233a10281555593db027",
+        "/QMSolver/ComplexFtnUtil.as": "7c37fe57e42f0a0d9772eebdeb95800eb33d1bde3b5710428ee6ce6792eef430",
+        "/QMSolver/ComplexSprite.as": "7a44a5b111a55110e341cea708a21cbf1cfa04eee5f2b46fbbe6c4c0a2c0893a",
+        "/QMSolver/DrawComplex.as": "bfbc7fd5e9f3c5c6e835eeac5a7de000982924d9daf437c6d5aef490ffc6113e",
+        "/QMSolver/Potential1D.as": "2953e52bce4299fdd5167cca01bfa27d9d96789555dc47bbfa5ac0f22608299b",
+        "/QMSolver/Quantum1D.as": "21a73d71b78495d87f06e1cf2064d534342b01a24b8c0029b4e9c9a64f45850f",
+        "/twowavepacket_w_fla/MainTimeline.as": "8295e099a6ffaffd60156e258291766fe4afa12422e3bb75eaeda8c1e3a515a5"
+      },
+      "cases": [
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 10,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 50,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": -20,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 100,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 50,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 400,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": -20000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 20000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": false,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": false
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 0,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 1,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 2,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 3,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 4,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 5,
+          "parityChk": true
+        },
+        {
+          "slider1": 25,
+          "slider2": 10,
+          "slider3": 200,
+          "slider4": 10000,
+          "flatChk": true,
+          "potentialCmb": 6,
+          "parityChk": true
+        }
+      ]
+    },
+    {
+      "id": "flash-82557e88691f925e",
+      "comparisons": 35840,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "sourceHashes": {
+        "/QMSolver/Complex.as": "5af89a250dc59d921f27bfb31dc559949773ff75637a233a10281555593db027",
+        "/QMSolver/ComplexFtnUtil.as": "7c37fe57e42f0a0d9772eebdeb95800eb33d1bde3b5710428ee6ce6792eef430",
+        "/QMSolver/ComplexSprite.as": "7a44a5b111a55110e341cea708a21cbf1cfa04eee5f2b46fbbe6c4c0a2c0893a",
+        "/QMSolver/DrawComplex.as": "bfbc7fd5e9f3c5c6e835eeac5a7de000982924d9daf437c6d5aef490ffc6113e",
+        "/QMSolver/FFT1D.as": "6b7c4fd6b2d8abc9212feb92c5b698840b9be3d1d7026579491702a8524e363c",
+        "/QMSolver/Potential1D.as": "2953e52bce4299fdd5167cca01bfa27d9d96789555dc47bbfa5ac0f22608299b",
+        "/QMSolver/Quantum1D.as": "21a73d71b78495d87f06e1cf2064d534342b01a24b8c0029b4e9c9a64f45850f",
+        "/wavepacket_w_fla/MainTimeline.as": "365e4755f1528886cd0e7f4d77421a80e2533bbe8472deef1390cfbee1c7ebc3"
+      },
+      "cases": [
+        {
+          "slider1": 150,
+          "slider2": 25,
+          "slider3": 50
+        },
+        {
+          "slider1": 100,
+          "slider2": 25,
+          "slider3": 50
+        },
+        {
+          "slider1": 300,
+          "slider2": 25,
+          "slider3": 50
+        },
+        {
+          "slider1": 150,
+          "slider2": 2,
+          "slider3": 50
+        },
+        {
+          "slider1": 150,
+          "slider2": 50,
+          "slider3": 50
+        },
+        {
+          "slider1": 150,
+          "slider2": 25,
+          "slider3": -100
+        },
+        {
+          "slider1": 150,
+          "slider2": 25,
+          "slider3": 100
+        }
+      ]
+    }
+  ]
+}

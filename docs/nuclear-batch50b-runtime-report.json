@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-09T22:48:47.292Z",
+  "files": 2,
+  "comparisons": 238,
+  "nativeModelHashes": {
+    "assets/nuclear-batch50b-physics.mjs": "d5e0fd7f795a6f74c7b2e5f690646d811ebd70f2d5d3380b27af4a38de5a1cb0",
+    "assets/nuclear-batch50b-engine.mjs": "0430752491114159c6ddd8bd30c9afb5640e2cdf2ab2648dcc17bd0fa3b79e9e",
+    "assets/nuclear-batch50b-specs.mjs": "4a2cb1a6995b6ea7695dbba59652770db45628cf655b8f9f279dffc3c4e3e51e",
+    "tools/nuclear-batch50b-observer/PhysicaNuclearBatch50bObserver.as": "802dedf488e76da0773eca5ddea60be58b0f6eeb6acbd161f5138ec32ec2084e",
+    "tools/nuclear-batch50b-compile-observer.mjs": "4d33a54c84148f08bb990b9263e2dfc918220d8dd028d7bbd7d34193ec17cd60",
+    "tools/nuclear-batch50b-runtime-check.mjs": "58817ae26d797bf9288cb12421ccce486ed4d873ffafe98ba10de89117930926",
+    "tools/modern-next-as3-observer.mjs": "d27ed066a894d99092a0d4a34b6df8443dfc22a6e2e177b3417d84f5a262e626"
+  },
+  "fullEquivalence": false,
+  "scope": "Bounded readonly original Ruffle numerical observations; preserved original ABC, document class, timing and tag bytes.",
+  "results": [
+    {
+      "id": "flash-e341377e9b63ba2b",
+      "originalSHA256": "59531b27aac6c62f98810b9c7565b76721f3b5cb781c84d6a5ff275c37cd6e42",
+      "comparisons": 126,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "samples": [
+        {
+          "p": {
+            "mode": 0,
+            "strength": 10,
+            "radius": 2.5,
+            "option": 0.2,
+            "mass": 1,
+            "l": 7,
+            "wave": false,
+            "density": true
+          },
+          "channel": 7
+        },
+        {
+          "p": {
+            "mode": 0,
+            "strength": 10,
+            "radius": 2.5,
+            "option": 0.2,
+            "mass": 1,
+            "l": 7,
+            "wave": false,
+            "density": true
+          },
+          "channel": 7
+        }
+      ],
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "scope": "Original running Ruffle document: initial control values, energy scaling, seven stored final angular-channel eigenvalues for the level model and51 stored potential values via pure public getters. No solver/drawing/updater called; original byte tags preserved. Other modes/continuous input histories remain source-only checked.",
+      "passed": true,
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-8ab5975d99f35a45",
+      "originalSHA256": "d418bb2ed5d4f2e4e7c7a622ceb8bee493676544296d12d9fd07c4e88a750e69",
+      "comparisons": 112,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "samples": [
+        {
+          "p": {
+            "mode": 2,
+            "strength": 10,
+            "radius": 5,
+            "option": 0.4,
+            "mass": 1,
+            "l": 0,
+            "wave": false,
+            "density": true
+          },
+          "channel": 0
+        },
+        {
+          "p": {
+            "mode": 2,
+            "strength": 10,
+            "radius": 5,
+            "option": 0.4,
+            "mass": 1,
+            "l": 0,
+            "wave": false,
+            "density": true
+          },
+          "channel": 0
+        }
+      ],
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "fullEquivalence": false,
+      "scope": "Original running Ruffle document: initial control values, energy scaling, seven stored final angular-channel eigenvalues for the level model and51 stored potential values via pure public getters. No solver/drawing/updater called; original byte tags preserved. Other modes/continuous input histories remain source-only checked.",
+      "originalEnergyCalculationAbsent": true,
+      "passed": true,
+      "originalRuntimeVerified": true
+    }
+  ]
+}

@@ -20,9 +20,9 @@ test('Every preserved original has actual playback evidence matching its current
  }
 });
 test('Runtime numerical, slider and frame claims retain separate finite scopes',()=>{
- assert.equal(evidence.numericalFilesPassed,295);
+ assert.equal(evidence.numericalFilesPassed,345);
  const reports=numericalGroups.map(g=>JSON.parse(fs.readFileSync(new URL('docs/'+g+'-runtime-report.json',root))));
- assert.equal(new Set(reports.flatMap(r=>r.results.map(v=>v.id))).size,295);
+ assert.equal(new Set(reports.flatMap(r=>r.results.map(v=>v.id))).size,345);
  for(const r of reports){for(const [file,hash]of Object.entries(r.nativeModelHashes))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(file,root))).digest('hex'),hash,'Stale report dependency: '+file);assert.equal(r.files,r.results.length);assert.equal(r.comparisons,r.results.reduce((n,v)=>n+(v.numeric||v).comparisons,0));}
  assert.equal(evidence.numericalSampleComparisons,reports.reduce((n,r)=>n+r.comparisons,0));
  const combos=combinationGroups.map(g=>JSON.parse(fs.readFileSync(new URL('docs/'+g+'-runtime-report.json',root))));
@@ -48,7 +48,7 @@ test('Runtime numerical, slider and frame claims retain separate finite scopes',
    assert.equal(check.sha256,e.sha256,e.id);
    assert.ok(check.scope);
   }
-  if(e.numerical){assert.ok(e.numerical.comparisons>0,e.id);assert.equal(e.numerical.passed,true,e.id);}
+  if(e.numerical){assert.ok(Number.isFinite(e.numerical.maxAbsoluteError)&&e.numerical.maxAbsoluteError>=0,e.id);assert.ok(e.numerical.comparisons>0,e.id);assert.equal(e.numerical.passed,true,e.id);}
   if(e.rootTimeline)assert.equal(e.rootTimeline.framesObserved,e.rootTimeline.framesExpected,e.id);
  }
 });

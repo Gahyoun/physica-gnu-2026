@@ -1,5 +1,6 @@
 // Navigation metadata is a snapshot of titles, categories and source links only.
 import fs from 'node:fs';
+import {plainMathTitle,cleanTitle} from './math-format.mjs';
 import {pages,sourceOf,localHref} from '../src/book.mjs';
 const esc = s => String(s).replace(/\s+/g,' ').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function navigation(root, inline, graph, originals) {
@@ -20,7 +21,7 @@ export function navigation(root, inline, graph, originals) {
  const status=source=>restored.has(source.split('#')[0])||!!originals?.target(source);
  const categories=[...new Set(catalog.lessons.map(l=>l.section))];
  const badge=source=>{if(originals?.nativeTarget(source))return '<small class="status restored">리마스터 애니메이션</small>';if(originals?.target(source))return '<small class="status restored">원본 애니메이션</small>';const p=restored.get(source.split('#')[0]);if(p?.edition==='learning')return '';return `<small class="status ${p?'restored':''}">${p?'복원됨':'복원 준비 중'}</small>`;};
- const title=s=>inline(s.replace(/\$([^$]+)\$/g,'\\($1\\)'));
+ const title=s=>inline(cleanTitle(s));
  const heading=(name,description)=>`<div class="page-heading"><div><p class="chapter-name">물리의 이해 · 웹교재</p><h1>${name}</h1></div><button data-print>인쇄</button></div>${description?`<p class="catalog-intro">${description}</p>`:''}`;
  const searchNav=current=>`<nav class="section-menu" aria-label="검색 메뉴">${[['search.html','내부검색'],['headwords.html','표제어 목록'],['browse.html','찾아보기'],['network.html','개념 네트워크']].map(([url,text])=>`<a href="${url}" ${current===url?'aria-current="page"':''}>${text}</a>`).join('')}</nav>`;
  function sidebar(page){
@@ -41,7 +42,7 @@ export function navigation(root, inline, graph, originals) {
  // The independent restored interactions link to their exact local figure.
  const materials=list('자료종류별',[...catalog.materials,...restoredItems].sort((a,b)=>a.title.localeCompare(b.title,'ko',{numeric:true})), '<a href="remaster.html">리마스터 애니메이션 →</a> · <a href="flash.html">원본 애니메이션 →</a> 시뮬레이션을 기본으로 표시합니다. 자료를 선택하면 해당 교재 페이지로 이동합니다. 원본 목록의 유형을 유지하고 복원 인터랙션도 따로 모았습니다.','materials.html',['시뮬레이션','그래프','그래픽','애니메이션','모의실험','복원 인터랙션','보충 탐구','전체']);
  // Search data is fetched only on the search and preparation pages.
- const records=[...catalog.lessons,...catalog.browse,...catalog.materials].map(r=>({title:r.title,section:r.section||lookup(r.source)?.section||'',subsection:r.subsection||lookup(r.source)?.subsection||'',source:r.source,href:r.href||target(r.source)||(r.lessonId?pages.find(p=>p.id===r.lessonId)?.file:null)||r.source,restored:status(r.source),edition:originals?.nativeTarget(r.source)?'remaster':originals?.target(r.source)?'compatibility':restored.get(r.source.split('#')[0])?.edition,type:r.type||'교재',text:''}));
+ const records=[...catalog.lessons,...catalog.browse,...catalog.materials].map(r=>({title:plainMathTitle(r.title),section:r.section||lookup(r.source)?.section||'',subsection:r.subsection||lookup(r.source)?.subsection||'',source:r.source,href:r.href||target(r.source)||(r.lessonId?pages.find(p=>p.id===r.lessonId)?.file:null)||r.source,restored:status(r.source),edition:originals?.nativeTarget(r.source)?'remaster':originals?.target(r.source)?'compatibility':restored.get(r.source.split('#')[0])?.edition,type:r.type||'교재',text:''}));
  for(const p of pages){records.push({title:p.subtitle,section:p.section,subsection:p.subsection,source:sourceOf(p),href:p.file,restored:true,edition:p.edition,type:p.edition==='learning'?'학습 본문':'복원 본문',text:p.sections.map(s=>s.title+' '+s.blocks.map(b=>b.text||b.title||b.items?.join(' ')||'').join(' ')).join(' ')});}
  const unique=[...new Map(records.map(r=>[r.title+'|'+r.source+'|'+r.type,r])).values()];
  fs.writeFileSync(root+'/assets/catalog.json',JSON.stringify({lessons:catalog.lessons.map(l=>({...l,href:target(l.source),restored:status(l.source),edition:restored.get(l.source)?.edition})),search:unique}));

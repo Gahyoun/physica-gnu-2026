@@ -1,0 +1,2293 @@
+{
+  "date": "2026-10-09T23:01:25.469Z",
+  "files": 20,
+  "comparisons": 124092,
+  "originalRuntimeVerified": true,
+  "fullEquivalence": false,
+  "observerABCSHA256": "f166d9b99897441f97c4b228258f14b319c4ab7d654396fbb52daaa32c07eea8",
+  "sharedHashes": {
+    "adapter": "2e06f9f6c99662a0f112a8d1dfa4aef515d083d13fcf0449a8bbf7c5741b9007",
+    "observer": "13855b870357cb452338c833821db21b37352168c712dbc43e97cf6b2c1a4581"
+  },
+  "nativeModelHashes": {
+    "assets/optics-batch50b-program-flash-48312d928701845d.mjs": "22551cb355933b98a2278f9e90c4a9d748b3d95955f788f1ab80efb4f7207a99",
+    "assets/optics-batch50b-kernel-92ed958d3a7c87a7.mjs": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611",
+    "assets/optics-batch50b-program-flash-93516affb99b4e72.mjs": "b32f37367f2f7ca64a4f810efe059173e4624efa55642c658e178b00435083db",
+    "assets/optics-batch50b-program-flash-0f0cac3815eda408.mjs": "1f36759f6a15c6ed986954de4dc33b885b231a88553554519eb0adcc222db4cf",
+    "assets/optics-batch50b-kernel-8bfa72046f6cac7a.mjs": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7",
+    "assets/optics-batch50b-program-flash-07388eb4da3a86fe.mjs": "43c3ad6194dbb73708a0643c4bf2646f13833ab41ad5297ce5383abd6d6d942b",
+    "assets/optics-batch50b-program-flash-79e619a9377f414a.mjs": "f6ddbe04a5b387e348ab0acf30fce90bd90794cc8d6d46798978913c7c025ff9",
+    "assets/optics-batch50b-program-flash-7d2fe52076b32c5f.mjs": "9641a8c7a0a0b25c35f9fea20685bfe7a02565cbe6360325e396cd5ff35efd7a",
+    "assets/optics-batch50b-program-flash-367212c8f467ffa9.mjs": "77ae8da482692f75d859eb14d310545bd064b39721bd841dbbcc3c3bea8f909f",
+    "assets/optics-batch50b-program-flash-e8c180cb17a1844d.mjs": "3672971d8ab538c9a7f6c52eb5e26d31bb5e0a29e4f37c637d1fcc0da490347d",
+    "assets/optics-batch50b-kernel-ac7e5dcd3e4a6001.mjs": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c",
+    "assets/optics-batch50b-program-flash-b26a7903e99b96d2.mjs": "bcbcb6cb75f3b50decb83e2f92658e2737825dd4fe4f8c43c19c1710772d0495",
+    "assets/optics-batch50b-kernel-ae8a9f17db010661.mjs": "4dfc3b6e90b78154e94f30d2db55c3a1e0fb0a1b27f451ce6bf0c2af70bcc88d",
+    "assets/optics-batch50b-program-flash-84d5263a3db489ee.mjs": "c6362021b8dfbce0bd9b61c38f4ff50f25d2c3802a82170718dacf8d16ed6935",
+    "assets/optics-batch50b-kernel-ab0c9d27902bfe9d.mjs": "e8bebe7e62e31b4c964fa86eeb96e6fa3578598c8d3940cbc925f6faf91ca388",
+    "assets/optics-batch50b-program-flash-93b905ce5b8916d1.mjs": "9a990ba6ace6dcc55b5b9c217015ce4631c33644581ab07aad7183da9edf929e",
+    "assets/optics-batch50b-program-flash-e9a8b8d594d9e6eb.mjs": "ca82b958ff93c984db3024e4e0436fa06a1df719361ddff9f60304fc050d9820",
+    "assets/optics-batch50b-kernel-854192265c1537d3.mjs": "7d592281a7edd4fa394b2ab68c3113e60eeaa17112b3fa882dcc666b85d459ef",
+    "assets/optics-batch50b-program-flash-0a5ae23ffadf7614.mjs": "99076c7a035ea3b2122e32ee1fe19b3a35d79d9bdd8054d9523017c5cda18051",
+    "assets/optics-batch50b-kernel-6632a04ecc70a480.mjs": "aed516101550cffd28dabad38590652cdf445f6e3b6857c5a0c1fd6f6f02ff66",
+    "assets/optics-batch50b-program-flash-1acef37d4c4d3fa6.mjs": "db6d29e36cb83eb78374df5afea3c82e349aeed314e5f677cbb4318d6589ff9f",
+    "assets/optics-batch50b-kernel-f402a795ba065de6.mjs": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918",
+    "assets/optics-batch50b-program-flash-6ae189308a390e4c.mjs": "15f40346869f8cacd32d293f4818dd74b879bc351268f0ff5f87792a6806dbb2",
+    "assets/optics-batch50b-kernel-4bbd29b1bfc0a729.mjs": "eb246439fa69fcbeffb3e2bb2b7f59d62aa2c000216ce0b485649ff79bb77aa9",
+    "assets/optics-batch50b-program-flash-9252322b7f86ca63.mjs": "ed9875f7bf712260c70c70074741e688f8bfeb762419b22ff4f227c822ff17d5",
+    "assets/optics-batch50b-program-flash-f91b55d3bb43716c.mjs": "ccaac11661db055f7f696497cce9499feade8e9dfae40b9f7f0678738a34d285",
+    "assets/optics-batch50b-program-flash-76b8c6a36b336ddd.mjs": "21cdf71e9aa8d449ec0a28b4b267a341b63914dbb7f618e66bb12931b679863e",
+    "assets/optics-batch50b-program-flash-ad51d54b1b079073.mjs": "14c975aeea63fbc5aa39f9474b2bc4514553f92df54707cbf7444881db9d01e5",
+    "assets/optics-batch50b-program-flash-190ba027454d6737.mjs": "3748174622b413ce029cd2127f236efedf86afaba6a1a39224782b46422d3a9a",
+    "assets/optics-batch50b-kernel-a95275a0a29e44e0.mjs": "3ac3d82dd3d80088d06a2a2ca9b9b0ed8905f0ec8d8953f8af51bd3120d8e61b",
+    "assets/optics-batch50b-adapter.mjs": "2e06f9f6c99662a0f112a8d1dfa4aef515d083d13fcf0449a8bbf7c5741b9007",
+    "tools/optics-batch50b-runtime-check.mjs": "024197df1713428bcc9e8913cb68018e899e14f145a5b8f371997b13831722bd",
+    "tools/optics-batch50b-as3-compile.mjs": "4a9b7479ba5ed580317af14354fb30d152f4fa1d4e9ed5e0bc7e61493dad1507",
+    "tools/optics-batch50b-observer/PhysicaOpticsBatch50bObserver.as": "13855b870357cb452338c833821db21b37352168c712dbc43e97cf6b2c1a4581"
+  },
+  "results": [
+    {
+      "id": "flash-48312d928701845d",
+      "source": "aberAChromatic1.swf",
+      "originalSHA256": "9642bcd60b99386a61645c9b03c36e643f8284f38839d5c4296cfa95be984a16",
+      "programSHA256": "22551cb355933b98a2278f9e90c4a9d748b3d95955f788f1ab80efb4f7207a99",
+      "kernelSHA256": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 7524,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 15,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 20,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 25,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 30,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 35,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 36,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 38,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 39,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 1.8474111129762605e-13,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -150,
+        "y": -150,
+        "width": 720,
+        "height": 300
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-93516affb99b4e72",
+      "source": "aberAChromatic2.swf",
+      "originalSHA256": "223678e87a970ebd569e17bd15649e54391efff9cba82c2a327d6a929b718891",
+      "programSHA256": "b32f37367f2f7ca64a4f810efe059173e4624efa55642c658e178b00435083db",
+      "kernelSHA256": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 13500,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 0,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 1,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 3,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 5,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 6,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 8,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 10,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 15,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 20,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 25,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 30,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 35,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 36,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 38,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 39,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 3.552713678800501e-15,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -150,
+        "y": -150,
+        "width": 720,
+        "height": 300
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-0f0cac3815eda408",
+      "source": "aberChromatic1.swf",
+      "originalSHA256": "4d07869c54b08a356e67af0273499cfd67cfe7d5cf07565f14dce0d3c393a72c",
+      "programSHA256": "1f36759f6a15c6ed986954de4dc33b885b231a88553554519eb0adcc222db4cf",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 11904,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 14,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 19,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 24,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 29,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 34,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 1.4210854715202004e-14,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -150,
+        "y": -150,
+        "width": 600,
+        "height": 300
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-07388eb4da3a86fe",
+      "source": "aberComa1.swf",
+      "originalSHA256": "692b2281d7bac167c1c875b158ac28602100cbb96ccb3d8f1311a143fe62813f",
+      "programSHA256": "43c3ad6194dbb73708a0643c4bf2646f13833ab41ad5297ce5383abd6d6d942b",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 6732,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 14,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 19,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 24,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 29,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 34,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 36,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 38,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 39,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 41,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 43,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 44,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 1.1102230246251565e-16,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -500,
+        "y": -346,
+        "width": 1000,
+        "height": 692
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-79e619a9377f414a",
+      "source": "aberSpherical1.swf",
+      "originalSHA256": "761301c7881171f618432c459a7d7a8400d3b878bffc29f140c9f40ddd1a4438",
+      "programSHA256": "f6ddbe04a5b387e348ab0acf30fce90bd90794cc8d6d46798978913c7c025ff9",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 7956,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 14,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 19,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 24,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 29,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 34,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 36,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 38,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 39,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 41,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 43,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 44,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 46,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 48,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 49,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 51,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 3.552713678800501e-15,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -500,
+        "y": -346,
+        "width": 1000,
+        "height": 692
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-7d2fe52076b32c5f",
+      "source": "aberSpherical2.swf",
+      "originalSHA256": "711f11278e4361505421dc26d6f57460faa69f54f9c23e040705105f7b4c631b",
+      "programSHA256": "9641a8c7a0a0b25c35f9fea20685bfe7a02565cbe6360325e396cd5ff35efd7a",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 5046,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 14,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 19,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 25,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 29,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 34,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 36,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 38,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 39,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 41,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 43,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 44,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 46,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 48,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 49,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 51,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 53,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 54,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 56,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -500,
+        "y": -346,
+        "width": 1000,
+        "height": 692
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-367212c8f467ffa9",
+      "source": "aberSphericalSim1.swf",
+      "originalSHA256": "0df0d016a6ed7a4f4d1d9f320021a3f5e10bbf2b935cc6f281e824a84f635d09",
+      "programSHA256": "77ae8da482692f75d859eb14d310545bd064b39721bd841dbbcc3c3bea8f909f",
+      "kernelSHA256": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 5670,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 1,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 2,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 4,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 6,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 7,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 12,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 14,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 17,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 19,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 22,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 24,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 27,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 29,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 32,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 34,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 36,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 37,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 39,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 41,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 42,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 44,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -550,
+        "y": -355,
+        "width": 1000,
+        "height": 710
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-e8c180cb17a1844d",
+      "source": "focalgrinsim1.swf",
+      "originalSHA256": "2d1f8f09a6cc4611bff6dbe7ba19a995148aa1d0b87495062ff4b80efd719eb0",
+      "programSHA256": "3672971d8ab538c9a7f6c52eb5e26d31bb5e0a29e4f37c637d1fcc0da490347d",
+      "kernelSHA256": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 630,
+      "observedStates": [
+        {
+          "mode": 1,
+          "step": 8,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 15,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 20,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 34,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 44,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 49,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 51,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 53,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 54,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 56,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 58,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 59,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 1,
+          "step": 60,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 1.7763568394002505e-15,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -300,
+        "y": -300,
+        "width": 1000,
+        "height": 600
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-b26a7903e99b96d2",
+      "source": "focalgrinsim2.swf",
+      "originalSHA256": "3392b2cc120a67b8845b0afd25a70c5b79061fd28edc4b59566997cf03446a49",
+      "programSHA256": "bcbcb6cb75f3b50decb83e2f92658e2737825dd4fe4f8c43c19c1710772d0495",
+      "kernelSHA256": "4dfc3b6e90b78154e94f30d2db55c3a1e0fb0a1b27f451ce6bf0c2af70bcc88d",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 144,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 1,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 3,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 7,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 2.6422917187574058e-9,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": 0,
+        "y": -210,
+        "width": 560,
+        "height": 280
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-84d5263a3db489ee",
+      "source": "focalgrinsim3.swf",
+      "originalSHA256": "03bf8d0cf686530dcda2a0aaaec401ee66d8ab443849a70622faa1ed143218fa",
+      "programSHA256": "c6362021b8dfbce0bd9b61c38f4ff50f25d2c3802a82170718dacf8d16ed6935",
+      "kernelSHA256": "e8bebe7e62e31b4c964fa86eeb96e6fa3578598c8d3940cbc925f6faf91ca388",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 840,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 17,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 27,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 37,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 41,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 9.487770569194254e-10,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -210,
+        "y": -450,
+        "width": 1000,
+        "height": 900
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-93b905ce5b8916d1",
+      "source": "simgrin1.swf",
+      "originalSHA256": "299844d61b436e13136e880a222a6a26bbd4ad577e71ffd1b2fe24d56c5ae836",
+      "programSHA256": "9a990ba6ace6dcc55b5b9c217015ce4631c33644581ab07aad7183da9edf929e",
+      "kernelSHA256": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 630,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 0,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 1,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 3,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 4,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 5,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 8,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 17,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 3.2231639579549665e-10,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -300,
+        "y": -355,
+        "width": 1000,
+        "height": 710
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-e9a8b8d594d9e6eb",
+      "source": "simMicrolens1.swf",
+      "originalSHA256": "015271eaa149dd0d5c439c9bd74c7d18c57371c25a7cf35102e74abad818ce42",
+      "programSHA256": "ca82b958ff93c984db3024e4e0436fa06a1df719361ddff9f60304fc050d9820",
+      "kernelSHA256": "7d592281a7edd4fa394b2ab68c3113e60eeaa17112b3fa882dcc666b85d459ef",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 10908,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 0,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 2,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 4,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 5,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 7,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 10,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 12,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 14,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 15,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 17,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 19,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 20,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 22,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 24,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 25,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 27,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 29,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -260,
+        "y": -75,
+        "width": 520,
+        "height": 225
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-0a5ae23ffadf7614",
+      "source": "graph_dispersion.swf",
+      "originalSHA256": "0cc180e3625341e32821e7b66c1a798e8eb538bc4ac3634062f39cbf36a43951",
+      "programSHA256": "99076c7a035ea3b2122e32ee1fe19b3a35d79d9bdd8054d9523017c5cda18051",
+      "kernelSHA256": "aed516101550cffd28dabad38590652cdf445f6e3b6857c5a0c1fd6f6f02ff66",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 4008,
+      "observedStates": [],
+      "maxAbsoluteError": 0,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "All original public static curve points in actual unchanged AVM2 document runtime, versus independent material dispersion calculations. No play controls invented."
+    },
+    {
+      "id": "flash-1acef37d4c4d3fa6",
+      "source": "simdisprism1.swf",
+      "originalSHA256": "13409d7d712f6521802def0fb63890bc505b1d4730e05cb02a9fe2579934fe7e",
+      "programSHA256": "db6d29e36cb83eb78374df5afea3c82e349aeed314e5f677cbb4318d6589ff9f",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 7680,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 10,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 15,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 20,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 25,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 30,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 35,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -250,
+        "y": -140,
+        "width": 550,
+        "height": 320
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-6ae189308a390e4c",
+      "source": "simdisprism2.swf",
+      "originalSHA256": "6072e70e568778c67efc5725936ecba7fd8e7b1b00df5ccce6b68071d2da60d2",
+      "programSHA256": "15f40346869f8cacd32d293f4818dd74b879bc351268f0ff5f87792a6806dbb2",
+      "kernelSHA256": "eb246439fa69fcbeffb3e2bb2b7f59d62aa2c000216ce0b485649ff79bb77aa9",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 15600,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 0,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 2,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 3,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 5,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 7,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 8,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 10,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 12,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 15,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 17,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 20,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 22,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 25,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 27,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 30,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 32,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 35,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 37,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 38,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 40,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 42,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 1.7621459846850485e-12,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -210,
+        "y": -310,
+        "width": 720,
+        "height": 600
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-9252322b7f86ca63",
+      "source": "simprism1.swf",
+      "originalSHA256": "5e92f0b56ed64d1b4d2a0ab13899d2044dac9e6661831265bf24d12fd557eab4",
+      "programSHA256": "ed9875f7bf712260c70c70074741e688f8bfeb762419b22ff4f227c822ff17d5",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 4830,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 0,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 2,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 4,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 5,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 7,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 10,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 12,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 14,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 15,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 17,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 19,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 20,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 22,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 24,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 25,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 27,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 29,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 30,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 32,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 34,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 35,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 37,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -350,
+        "y": -155,
+        "width": 720,
+        "height": 310
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-f91b55d3bb43716c",
+      "source": "simprism2.swf",
+      "originalSHA256": "6f0b61e3caae421a2111f63ddec01d9fe4e8537de810e2702f5bfab6213b6150",
+      "programSHA256": "ccaac11661db055f7f696497cce9499feade8e9dfae40b9f7f0678738a34d285",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 3150,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 14,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 19,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 24,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 29,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -250,
+        "y": -110,
+        "width": 500,
+        "height": 310
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-76b8c6a36b336ddd",
+      "source": "simprism3.swf",
+      "originalSHA256": "be508826e0499bd69b27efb4d23a50ec49782e40ca5f40d050f9ae0e138c1417",
+      "programSHA256": "21cdf71e9aa8d449ec0a28b4b267a341b63914dbb7f618e66bb12931b679863e",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 90,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 1,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 3,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 4,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -250,
+        "y": -150,
+        "width": 500,
+        "height": 310
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-ad51d54b1b079073",
+      "source": "simprism4.swf",
+      "originalSHA256": "3d8da3e8b55b0f09bacaf1fa35e387ab6f78e6a32763d523f28c5bd4e4776890",
+      "programSHA256": "14c975aeea63fbc5aa39f9474b2bc4514553f92df54707cbf7444881db9d01e5",
+      "kernelSHA256": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 11310,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 9,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 14,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 19,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 24,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 29,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 34,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 36,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 38,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 39,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 41,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 43,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 44,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 46,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 48,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 49,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 51,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 53,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 54,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 56,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -250,
+        "y": -100,
+        "width": 500,
+        "height": 200
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    },
+    {
+      "id": "flash-190ba027454d6737",
+      "source": "simprism5.swf",
+      "originalSHA256": "e5211908b7baaf56c2f0b91c7b6cdc3836685c80e6c30a3d769eaaf376584020",
+      "programSHA256": "3748174622b413ce029cd2127f236efedf86afaba6a1a39224782b46422d3a9a",
+      "kernelSHA256": "3ac3d82dd3d80088d06a2a2ca9b9b0ed8905f0ec8d8953f8af51bd3120d8e61b",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 5940,
+      "observedStates": [
+        {
+          "mode": 0,
+          "step": 10,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 11,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 13,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 15,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 16,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 18,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 20,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 21,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 23,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 25,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 26,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 28,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 30,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 31,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 33,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 35,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 36,
+          "queuedAfterStop": false
+        },
+        {
+          "mode": 0,
+          "step": 37,
+          "queuedAfterStop": false
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "tolerance": 1e-7,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "observedBounds": {
+        "x": -150,
+        "y": -100,
+        "width": 500,
+        "height": 200
+      },
+      "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the independent native program; only the microlens randomized unplayed wavefront and the GRIN second unplayed source height uses a single initial-coordinate calibration, never coordinates during advancement; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-09T23:11:53.165Z",
+  "files": 13,
+  "cases": 39,
+  "errors": 0,
+  "nativeModelHashes": {
+    "assets/general-batch50b-particles-physics.mjs": "d52c901d7eeec2e99dca6e26d71f8d6af37949b67b0f148c037ab73bba941d68",
+    "assets/general-batch50b-particles-specs.mjs": "a37c8e31c37b7c614e39ec38c7099062c6ce93caca8f7a67a94c8cbceb7aa9af",
+    "assets/native-general-batch50b-particles.mjs": "b0d626c3575012a81257ef46df418e2aff6155dc6c5998d4d60072df50f439f5",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86",
+    "assets/general-batch50b-dynamics-physics.mjs": "325e498d5391acd827c0ebe182fe8bdedad6b147226017244ebeea1c6f755bb8",
+    "assets/general-batch50b-dynamics-specs.mjs": "aa313c1039bb9a53b9b9471d1b229a6ad727abb9ee424ad3c17e7a8916db876f",
+    "assets/native-general-batch50b-dynamics.mjs": "ac15c116014566909b289020e81f237fc2c2d67986b85883039afeb0b0155d4b"
+  },
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-0b1dd9882779ff0a",
+      "width": 320,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-17d4ba7ccbc3959e",
+      "width": 320,
+      "checks": 13,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d9fe51b58f69c06c",
+      "width": 320,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-6c1faf403cc0ae33",
+      "width": 320,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-0b1dd9882779ff0a",
+      "width": 768,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-17d4ba7ccbc3959e",
+      "width": 768,
+      "checks": 13,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d9fe51b58f69c06c",
+      "width": 768,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-6c1faf403cc0ae33",
+      "width": 768,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-0b1dd9882779ff0a",
+      "width": 1360,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-17d4ba7ccbc3959e",
+      "width": 1360,
+      "checks": 13,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d9fe51b58f69c06c",
+      "width": 1360,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-6c1faf403cc0ae33",
+      "width": 1360,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fb1f27ec60adc18a",
+      "width": 320,
+      "checks": 15,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-9b3c51679c04a6b0",
+      "width": 320,
+      "checks": 13,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-609175641dfc40eb",
+      "width": 320,
+      "checks": 25,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-0a4e877f1a5b00af",
+      "width": 320,
+      "checks": 13,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-df88a01f28e2add7",
+      "width": 320,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-be2213f8cfc2919f",
+      "width": 320,
+      "checks": 24,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-f9299046992b0e21",
+      "width": 320,
+      "checks": 17,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-2603b2b56e155ac3",
+      "width": 320,
+      "checks": 22,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-e178e1da9ba43627",
+      "width": 320,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fb1f27ec60adc18a",
+      "width": 768,
+      "checks": 15,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-9b3c51679c04a6b0",
+      "width": 768,
+      "checks": 13,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-609175641dfc40eb",
+      "width": 768,
+      "checks": 25,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-0a4e877f1a5b00af",
+      "width": 768,
+      "checks": 13,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-df88a01f28e2add7",
+      "width": 768,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-be2213f8cfc2919f",
+      "width": 768,
+      "checks": 24,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-f9299046992b0e21",
+      "width": 768,
+      "checks": 17,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-2603b2b56e155ac3",
+      "width": 768,
+      "checks": 22,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-e178e1da9ba43627",
+      "width": 768,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fb1f27ec60adc18a",
+      "width": 1360,
+      "checks": 15,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-9b3c51679c04a6b0",
+      "width": 1360,
+      "checks": 13,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-609175641dfc40eb",
+      "width": 1360,
+      "checks": 25,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-0a4e877f1a5b00af",
+      "width": 1360,
+      "checks": 13,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-df88a01f28e2add7",
+      "width": 1360,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-be2213f8cfc2919f",
+      "width": 1360,
+      "checks": 24,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-f9299046992b0e21",
+      "width": 1360,
+      "checks": 17,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-2603b2b56e155ac3",
+      "width": 1360,
+      "checks": 22,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-e178e1da9ba43627",
+      "width": 1360,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    }
+  ]
+}

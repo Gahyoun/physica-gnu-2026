@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-09T22:58:42.356Z",
+  "files": 2,
+  "fullEquivalence": false,
+  "nativeModelHashes": {
+    "src/native-nuclear-batch50b.json": "e13bac6ff67a067c9b3c0654c2dbee65e2b998a5227be4296615ff5fd01d4b3c",
+    "assets/nuclear-batch50b-specs.mjs": "4a2cb1a6995b6ea7695dbba59652770db45628cf655b8f9f279dffc3c4e3e51e",
+    "assets/nuclear-batch50b-engine.mjs": "0430752491114159c6ddd8bd30c9afb5640e2cdf2ab2648dcc17bd0fa3b79e9e",
+    "assets/nuclear-batch50b-physics.mjs": "d5e0fd7f795a6f74c7b2e5f690646d811ebd70f2d5d3380b27af4a38de5a1cb0",
+    "assets/nuclear-batch50b-worker.mjs": "da5f3e2b5e19b3eade517550d7ffbb4f2117a6c04cfa97edee6fe23dcd8f8cb3",
+    "assets/native-nuclear-batch50b.mjs": "7dd9a32bad13a9597f1c888b9b3812dab22858fbf7b1b6b9b65a4bd2d1395e93"
+  },
+  "scope": "Actual reading-page freshSVG worker initialization, all mode choices, scalar input, wave/density/angular switches, CSV, reset and no-overflow at320/768/1360; static calculation has no play/framebar.",
+  "results": [
+    {
+      "id": "flash-e341377e9b63ba2b",
+      "width": 320,
+      "passed": true,
+      "actualReadingPage": true,
+      "inputChangesGeometry": true,
+      "modes": 6,
+      "waveDensityAndAngularControls": true,
+      "csvDownloaded": true,
+      "overflow": false,
+      "staticHasNoFrameBar": true
+    },
+    {
+      "id": "flash-8ab5975d99f35a45",
+      "width": 320,
+      "passed": true,
+      "actualReadingPage": true,
+      "inputChangesGeometry": true,
+      "modes": 3,
+      "csvDownloaded": true,
+      "overflow": false,
+      "staticHasNoFrameBar": true
+    },
+    {
+      "id": "flash-e341377e9b63ba2b",
+      "width": 768,
+      "passed": true,
+      "actualReadingPage": true,
+      "inputChangesGeometry": true,
+      "modes": 6,
+      "waveDensityAndAngularControls": true,
+      "csvDownloaded": true,
+      "overflow": false,
+      "staticHasNoFrameBar": true
+    },
+    {
+      "id": "flash-8ab5975d99f35a45",
+      "width": 768,
+      "passed": true,
+      "actualReadingPage": true,
+      "inputChangesGeometry": true,
+      "modes": 3,
+      "csvDownloaded": true,
+      "overflow": false,
+      "staticHasNoFrameBar": true
+    },
+    {
+      "id": "flash-e341377e9b63ba2b",
+      "width": 1360,
+      "passed": true,
+      "actualReadingPage": true,
+      "inputChangesGeometry": true,
+      "modes": 6,
+      "waveDensityAndAngularControls": true,
+      "csvDownloaded": true,
+      "overflow": false,
+      "staticHasNoFrameBar": true
+    },
+    {
+      "id": "flash-8ab5975d99f35a45",
+      "width": 1360,
+      "passed": true,
+      "actualReadingPage": true,
+      "inputChangesGeometry": true,
+      "modes": 3,
+      "csvDownloaded": true,
+      "overflow": false,
+      "staticHasNoFrameBar": true
+    }
+  ],
+  "errors": []
+}

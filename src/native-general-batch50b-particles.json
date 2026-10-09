@@ -1,0 +1,118 @@
+[
+  {
+    "id": "flash-0b1dd9882779ff0a",
+    "source": "idealgasx.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/mechanics/momentum/manyparticle/idealgasx.swf",
+    "lesson": "1-1-2-1",
+    "title": "입자계",
+    "type": "gasx",
+    "count": 100,
+    "bounds": [
+      -20,
+      -20,
+      420,
+      220
+    ],
+    "animated": true,
+    "fps": 15.0,
+    "max": 1000,
+    "controls": [
+      {
+        "key": "seed",
+        "label": "초기 상태 시작값",
+        "min": 1,
+        "max": 9999,
+        "step": 1,
+        "value": 2026,
+        "origin": "native-repeatable-random"
+      }
+    ]
+  },
+  {
+    "id": "flash-17d4ba7ccbc3959e",
+    "source": "collide3d.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/thermodynamics/kinetictheory/equipartition/collide3d.swf",
+    "lesson": "3-1-3-2",
+    "title": "단원자분자의 자유도",
+    "type": "gas3d",
+    "count": 5,
+    "bounds": [
+      -75,
+      -75,
+      75,
+      75
+    ],
+    "animated": true,
+    "fps": 20,
+    "max": 1000,
+    "controls": [
+      {
+        "key": "seed",
+        "label": "초기 상태 시작값",
+        "min": 1,
+        "max": 9999,
+        "step": 1,
+        "value": 2026,
+        "origin": "native-repeatable-random"
+      }
+    ]
+  },
+  {
+    "id": "flash-d9fe51b58f69c06c",
+    "source": "idealgas1.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/thermodynamics/kinetictheory/idealgas/idealgas1.swf",
+    "lesson": "3-1-2-1",
+    "title": "이상기체의 모형",
+    "type": "gas",
+    "count": 100,
+    "bounds": [
+      10,
+      10,
+      490,
+      190
+    ],
+    "animated": true,
+    "fps": 15.0,
+    "max": 1000,
+    "controls": [
+      {
+        "key": "seed",
+        "label": "초기 상태 시작값",
+        "min": 1,
+        "max": 9999,
+        "step": 1,
+        "value": 2026,
+        "origin": "native-repeatable-random"
+      }
+    ]
+  },
+  {
+    "id": "flash-6c1faf403cc0ae33",
+    "source": "idealgas2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/thermodynamics/kinetictheory/idealgas/idealgas2.swf",
+    "lesson": "3-1-2-1",
+    "title": "상자 속의 입자의 운동과 벽에 작용하는 힘",
+    "type": "gasvectors",
+    "count": 4,
+    "bounds": [
+      80,
+      70,
+      420,
+      250
+    ],
+    "animated": true,
+    "fps": 10.0,
+    "max": 1000,
+    "controls": [
+      {
+        "key": "seed",
+        "label": "초기 상태 시작값",
+        "min": 1,
+        "max": 9999,
+        "step": 1,
+        "value": 2026,
+        "origin": "native-repeatable-random"
+      }
+    ]
+  }
+]

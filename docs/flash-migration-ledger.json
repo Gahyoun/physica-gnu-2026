@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-09T22:24:12.653Z",
+  "date": "2026-10-09T23:28:11.087Z",
   "total": 518,
-  "htmlImplemented": 399,
-  "htmlPending": 119,
+  "htmlImplemented": 449,
+  "htmlPending": 69,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 1197,
-    "observed": 1197,
+    "expected": 1347,
+    "observed": 1347,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 295,
-    "numericalComparisons": 1137459,
-    "numericalSampleComparisons": 938859,
+    "numericalFilesPassed": 345,
+    "numericalComparisons": 1281749,
+    "numericalSampleComparisons": 1083149,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 6,
     "rootTimelineFilesPassed": 29,
@@ -2089,17 +2089,26 @@
       "actionScript": 2,
       "scriptFiles": 11,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-1-2-1.html#native-general-batch50b-particles-flash-0b1dd9882779ff0a",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-0b1dd9882779ff0a",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 8000,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -2109,12 +2118,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 128000,
+        "maxAbsoluteError": 0,
+        "scope": "Unchanged original per-clip enterFrame position/velocity equations at four deterministic representative initial distributions, 80 steps each; vector clip tests only first clip equation, speed initialization ranges independently preserved. Original random number sequence is not claimed.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-2603b2b56e155ac3",
@@ -2127,17 +2147,26 @@
       "actionScript": 3,
       "scriptFiles": 18,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-1-2-2.html#native-general-batch50b-dynamics-flash-2603b2b56e155ac3",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-2603b2b56e155ac3",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 34,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -2147,12 +2176,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 1222,
+        "maxAbsoluteError": 0,
+        "scope": "Unchanged getXY at all611native ticks. Child20ms timers are rationally synchronized to parent25ms; no all independent timer interleavings claim. Sprite child formulas covered numeric tests and pending runtime.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-e83dad4349d2dead",
@@ -2557,17 +2597,26 @@
       "actionScript": 2,
       "scriptFiles": 20,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-1-2-6-3.html#native-general-batch50b-dynamics-flash-fb1f27ec60adc18a",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-fb1f27ec60adc18a",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 160,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -2577,12 +2626,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 25800,
+        "maxAbsoluteError": 8.673617379884035e-19,
+        "scope": "Unchanged processOneStep/calcEnergy, count1,2,4,5,6,10 × driver1,4,8 ×100steps,20substeps. Auto scan display averaging tested separately; random starts converted to inputs.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-0b43fa595295bf01",
@@ -6215,17 +6275,26 @@
       "actionScript": 3,
       "scriptFiles": 26,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-9-2.html#native-modern-batch50b-dynamics-flash-ed9c176e3d02983b",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-ed9c176e3d02983b",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 84,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6235,12 +6304,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+        "comparisons": 35770,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-7be4ee6e97bc41f0",
@@ -6253,17 +6333,26 @@
       "actionScript": 3,
       "scriptFiles": 26,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-9-4.html#native-modern-batch50b-dynamics-flash-7be4ee6e97bc41f0",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-7be4ee6e97bc41f0",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 84,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6273,12 +6362,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+        "comparisons": 68470,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-df3437d7b74fef0e",
@@ -6291,17 +6391,26 @@
       "actionScript": 3,
       "scriptFiles": 26,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-9-5.html#native-modern-batch50b-dynamics-flash-df3437d7b74fef0e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-df3437d7b74fef0e",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 84,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6311,12 +6420,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+        "comparisons": 81215,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d3f7862985c51103",
@@ -6329,17 +6449,26 @@
       "actionScript": 3,
       "scriptFiles": 21,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-2-2.html#native-modern-batch50b-dynamics-flash-d3f7862985c51103",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-d3f7862985c51103",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 84,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6349,12 +6478,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+        "comparisons": 5120,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-8b82e3d95410433f",
@@ -6367,17 +6507,26 @@
       "actionScript": 3,
       "scriptFiles": 25,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-2-5.html#native-modern-batch50b-dynamics-flash-8b82e3d95410433f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-8b82e3d95410433f",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 84,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6387,12 +6536,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+        "comparisons": 68000,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1f9ed0c45d4111ae",
@@ -6405,17 +6565,26 @@
       "actionScript": 3,
       "scriptFiles": 25,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-2-6.html#native-modern-batch50b-dynamics-flash-1f9ed0c45d4111ae",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1f9ed0c45d4111ae",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 84,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6425,12 +6594,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+        "comparisons": 88400,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1deaf3760d3f79a8",
@@ -6443,17 +6623,26 @@
       "actionScript": 3,
       "scriptFiles": 24,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-2-4.html#native-modern-batch50b-dynamics-flash-1deaf3760d3f79a8",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1deaf3760d3f79a8",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 84,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6463,12 +6652,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+        "comparisons": 68000,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-71ff0e62c1f13b7a",
@@ -6481,17 +6681,26 @@
       "actionScript": 3,
       "scriptFiles": 25,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-2-7.html#native-modern-batch50b-dynamics-flash-71ff0e62c1f13b7a",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-71ff0e62c1f13b7a",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 84,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6501,12 +6710,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+        "comparisons": 122400,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-82557e88691f925e",
@@ -6519,17 +6739,26 @@
       "actionScript": 3,
       "scriptFiles": 24,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-2-3.html#native-modern-batch50b-dynamics-flash-82557e88691f925e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-82557e88691f925e",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 84,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6539,12 +6768,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original extracted MainTimeline reset/run + original QMSolver arithmetic, compared point by point against typed buffer integration at initial state and bounded steps 1/2/10/30; source checks are not runtime evidence.",
+        "comparisons": 35840,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-dynamics-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-dynamics-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4be53bf71c29ce03",
@@ -6611,17 +6851,26 @@
       "actionScript": 2,
       "scriptFiles": 14,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-1-4.html#native-modern-batch50b-probability-flash-9f21bf8b172a3ac9",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-9f21bf8b172a3ac9",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 3,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6631,12 +6880,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original AS2 numerical functions run unmodified in isolated VM; original AS3 solver and Main setFunctionParameter evaluated from private extracted scripts. Source evidence only; not runtime evidence.",
+        "comparisons": 64944,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-probability-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-probability-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-7813d0b783ff1706",
@@ -6649,17 +6909,26 @@
       "actionScript": 2,
       "scriptFiles": 13,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-1-2.html#native-modern-batch50b-probability-flash-7813d0b783ff1706",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-7813d0b783ff1706",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 80,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6669,12 +6938,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original AS2 numerical functions run unmodified in isolated VM; original AS3 solver and Main setFunctionParameter evaluated from private extracted scripts. Source evidence only; not runtime evidence.",
+        "comparisons": 211653,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-probability-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-probability-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-587adacda696ea6b",
@@ -6687,17 +6967,26 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-1-3.html#native-modern-batch50b-probability-flash-587adacda696ea6b",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-587adacda696ea6b",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 12,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6707,12 +6996,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original AS2 numerical functions run unmodified in isolated VM; original AS3 solver and Main setFunctionParameter evaluated from private extracted scripts. Source evidence only; not runtime evidence.",
+        "comparisons": 56014,
+        "maxAbsoluteError": 2.842170943040401e-14,
+        "report": "docs/modern-batch50b-probability-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-probability-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-794a8753d80d4025",
@@ -6725,17 +7025,26 @@
       "actionScript": 3,
       "scriptFiles": 24,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-7-4.html#native-modern-batch50b-probability-flash-794a8753d80d4025",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-794a8753d80d4025",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 20,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6745,12 +7054,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original AS2 numerical functions run unmodified in isolated VM; original AS3 solver and Main setFunctionParameter evaluated from private extracted scripts. Source evidence only; not runtime evidence.",
+        "comparisons": 117928,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-probability-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-probability-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a855b470af9c09ac",
@@ -6763,17 +7083,26 @@
       "actionScript": 3,
       "scriptFiles": 24,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-7-6.html#native-modern-batch50b-probability-flash-a855b470af9c09ac",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a855b470af9c09ac",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 10,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6783,12 +7112,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original AS2 numerical functions run unmodified in isolated VM; original AS3 solver and Main setFunctionParameter evaluated from private extracted scripts. Source evidence only; not runtime evidence.",
+        "comparisons": 27605,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-probability-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-probability-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-0b88310fcfee5de0",
@@ -6801,17 +7141,26 @@
       "actionScript": 2,
       "scriptFiles": 18,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-7-3.html#native-modern-batch50b-probability-flash-0b88310fcfee5de0",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-0b88310fcfee5de0",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 9,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -6821,12 +7170,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Original AS2 numerical functions run unmodified in isolated VM; original AS3 solver and Main setFunctionParameter evaluated from private extracted scripts. Source evidence only; not runtime evidence.",
+        "comparisons": 1366668,
+        "maxAbsoluteError": 0,
+        "report": "docs/modern-batch50b-probability-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-batch50b-probability-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-9b41f82783cf8a46",
@@ -8836,7 +9196,7 @@
     },
     {
       "id": "flash-ca88404bdd3be9c8",
-      "title": "1차원 결정__h__에서의 반사",
+      "title": "1차원 결정에서의 반사",
       "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/bandtheory/bragg1d.swf",
       "sha256": "c114196e2f644e9a5af849876a2502edce2fe2e3b2542df17b2ce1bd928e43d4",
       "lessons": [
@@ -9358,7 +9718,7 @@
     },
     {
       "id": "flash-3333c8da2f06e02a",
-      "title": "CsCl 결정__h__",
+      "title": "CsCl 결정",
       "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/cscl.swf",
       "sha256": "0012b239d02d7cb2812f0b8ebf6c36c8a2e74386cb37da4bb6750b3edf7f6429",
       "lessons": [
@@ -9412,7 +9772,7 @@
     },
     {
       "id": "flash-639776e56583ea2d",
-      "title": "다이아몬드 결정__h__",
+      "title": "다이아몬드 결정",
       "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/diamond.swf",
       "sha256": "e7ae2068191a58fa7aa9e584233ba34fcd568fd22281f6a67315a269a96db230",
       "lessons": [
@@ -9466,7 +9826,7 @@
     },
     {
       "id": "flash-1feaf29d97ccedc3",
-      "title": "다이아몬드 결정__h__의 결합상태",
+      "title": "다이아몬드 결정의 결합상태",
       "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/diamond2.swf",
       "sha256": "5b8164e3e69c6e74912bfce0a060d589aa17497b92dcce13d52c996ff8559aef",
       "lessons": [
@@ -9578,7 +9938,7 @@
     },
     {
       "id": "flash-b3ea515ce40e22af",
-      "title": "소금 결정__h__",
+      "title": "소금 결정",
       "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/nacl2.swf",
       "sha256": "c43d121e5a155384338405163b7b082861277313bd229180bef39222dcc55933",
       "lessons": [
@@ -10544,7 +10904,7 @@
     },
     {
       "id": "flash-c90349afd6430c0c",
-      "title": "결정__h__에서의 전자의 회절",
+      "title": "결정에서의 전자의 회절",
       "source": "http://physica.gnu.ac.kr/phtml/modern/wave_particle/matterwave/electrondiff.swf",
       "sha256": "f629d3190bc5c462cd1faa4e9da4ced0d07f281852f6d052bfb02faa96c06204",
       "lessons": [
@@ -11631,17 +11991,26 @@
       "actionScript": 3,
       "scriptFiles": 25,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-1-2-7.html#native-nuclear-batch50b-flash-e341377e9b63ba2b",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e341377e9b63ba2b",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 126,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -11651,12 +12020,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 308014,
+        "maxAbsoluteError": 0,
+        "scope": "Original AS3 MainTimeline selector/scaling and independent original QuantumSolver execution: all finite mode choices, every scalar slider endpoint with other inputs default, angular channels0..7 and all501 potential/visible-wave samples. Numerical source execution; original Flash runtime is a separate bounded report. No continuous cross-product or input-history equivalence claim.",
+        "report": "docs/nuclear-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-8ab5975d99f35a45",
@@ -11669,17 +12049,26 @@
       "actionScript": 3,
       "scriptFiles": 25,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-1-2-5.html#native-nuclear-batch50b-flash-8ab5975d99f35a45",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-8ab5975d99f35a45",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 112,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -11689,12 +12078,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 10647,
+        "maxAbsoluteError": 0,
+        "scope": "Original AS3 MainTimeline selector/scaling and independent original QuantumSolver execution: all finite mode choices, every scalar slider endpoint with other inputs default, angular channels0..7 and all501 potential/visible-wave samples. Numerical source execution; original Flash runtime is a separate bounded report. No continuous cross-product or input-history equivalence claim.",
+        "report": "docs/nuclear-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-fd22913dca9a2564",
@@ -11874,7 +12274,7 @@
     },
     {
       "id": "flash-f07439fbd4c95c61",
-      "title": "$(\\alpha,p)$ 반응",
+      "title": "(α,p) 반응",
       "source": "http://physica.gnu.ac.kr/phtml/nuclear/nuclearreaction/nuclearreaction/nuclearreaction1.swf",
       "sha256": "44b5d9fca292439153d159257aff65d982da444e89edb7f959372a63adecbba7",
       "lessons": [
@@ -11933,7 +12333,7 @@
     },
     {
       "id": "flash-828f6de5c2e80dae",
-      "title": "$(n, \\gamma)$ 반응",
+      "title": "(n,γ) 반응",
       "source": "http://physica.gnu.ac.kr/phtml/nuclear/nuclearreaction/nuclearreaction/nuclearreaction2.swf",
       "sha256": "dcabe84ead8b2d081654cddb2d32ae22a6a47af10fcdb74e469450c1a41f45cf",
       "lessons": [
@@ -13233,17 +13633,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-10-4.html#native-opticsbatch50b-flash-48312d928701845d",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-48312d928701845d",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 7524,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13253,12 +13662,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 7791,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-93516affb99b4e72",
@@ -13271,17 +13691,26 @@
       "actionScript": 3,
       "scriptFiles": 32,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-10-5.html#native-opticsbatch50b-flash-93516affb99b4e72",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-93516affb99b4e72",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 13500,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13291,12 +13720,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 146568,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-0f0cac3815eda408",
@@ -13309,17 +13749,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-10-4.html#native-opticsbatch50b-flash-0f0cac3815eda408",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-0f0cac3815eda408",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 11904,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13329,12 +13778,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 12593,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-07388eb4da3a86fe",
@@ -13347,17 +13807,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-10-2.html#native-opticsbatch50b-flash-07388eb4da3a86fe",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-07388eb4da3a86fe",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 6732,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13367,12 +13836,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 6148,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-79e619a9377f414a",
@@ -13385,17 +13865,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-10-1.html#native-opticsbatch50b-flash-79e619a9377f414a",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-79e619a9377f414a",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 7956,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13405,12 +13894,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 6741,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-7d2fe52076b32c5f",
@@ -13423,17 +13923,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-10-1.html#native-opticsbatch50b-flash-7d2fe52076b32c5f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-7d2fe52076b32c5f",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 5046,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13443,12 +13952,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 5208,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-367212c8f467ffa9",
@@ -13461,17 +13981,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-10-3.html#native-opticsbatch50b-flash-367212c8f467ffa9",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-367212c8f467ffa9",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 5670,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13481,12 +14010,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 23850,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5b4df2e3e2d7f004",
@@ -13685,17 +14225,26 @@
       "actionScript": 3,
       "scriptFiles": 28,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-9-1.html#native-opticsbatch50b-flash-e8c180cb17a1844d",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e8c180cb17a1844d",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 630,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13705,12 +14254,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 578,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-b26a7903e99b96d2",
@@ -13723,17 +14283,26 @@
       "actionScript": 3,
       "scriptFiles": 25,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-9-1.html#native-opticsbatch50b-flash-b26a7903e99b96d2",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-b26a7903e99b96d2",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 144,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13743,12 +14312,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 156,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-bcf751c6bdf6ac2e",
@@ -13799,17 +14379,26 @@
       "actionScript": 3,
       "scriptFiles": 27,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-9-3.html#native-opticsbatch50b-flash-e9a8b8d594d9e6eb",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e9a8b8d594d9e6eb",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 10908,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13819,12 +14408,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 9135,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-93b905ce5b8916d1",
@@ -13837,17 +14437,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-9-2.html#native-opticsbatch50b-flash-93b905ce5b8916d1",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-93b905ce5b8916d1",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 630,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -13857,12 +14466,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 5049,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-40a2107ef5afc2d6",
@@ -14693,17 +15313,26 @@
       "actionScript": 3,
       "scriptFiles": 8,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-6-4.html#native-opticsbatch50b-flash-0a5ae23ffadf7614",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-0a5ae23ffadf7614",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 4008,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14713,12 +15342,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 0,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1acef37d4c4d3fa6",
@@ -14731,17 +15371,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-6-4.html#native-opticsbatch50b-flash-1acef37d4c4d3fa6",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1acef37d4c4d3fa6",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 7680,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14751,12 +15400,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 8085,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-6ae189308a390e4c",
@@ -14769,17 +15429,26 @@
       "actionScript": 3,
       "scriptFiles": 33,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-6-5.html#native-opticsbatch50b-flash-6ae189308a390e4c",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-6ae189308a390e4c",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 15600,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14789,12 +15458,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 103792,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-9252322b7f86ca63",
@@ -14807,17 +15487,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-6-3.html#native-opticsbatch50b-flash-9252322b7f86ca63",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-9252322b7f86ca63",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 4830,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14827,12 +15516,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 19656,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-f91b55d3bb43716c",
@@ -14845,17 +15545,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-6-1.html#native-opticsbatch50b-flash-f91b55d3bb43716c",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-f91b55d3bb43716c",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 3150,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14865,12 +15574,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 3375,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-76b8c6a36b336ddd",
@@ -14883,17 +15603,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-6-2.html#native-opticsbatch50b-flash-76b8c6a36b336ddd",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-76b8c6a36b336ddd",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 90,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14903,12 +15632,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 720,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-ad51d54b1b079073",
@@ -14921,17 +15661,26 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-6-2.html#native-opticsbatch50b-flash-ad51d54b1b079073",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-ad51d54b1b079073",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 11310,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14941,12 +15690,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 10692,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-190ba027454d6737",
@@ -14959,17 +15719,26 @@
       "actionScript": 3,
       "scriptFiles": 30,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-2-6-2.html#native-opticsbatch50b-flash-190ba027454d6737",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-190ba027454d6737",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 5940,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -14979,12 +15748,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 5720,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-427415920ebff988",
@@ -17495,7 +18275,7 @@
     },
     {
       "id": "flash-c327860ecff6978c",
-      "title": "루비 결정__h__의 모양",
+      "title": "루비 결정의 모양",
       "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserkind/al2o3_rubby.swf",
       "sha256": "155bce15dba1dd3afe110479aabff8a377252e422f4159f3f3d10b4352f12e7c",
       "lessons": [
@@ -19882,17 +20662,26 @@
       "actionScript": 3,
       "scriptFiles": 28,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-1-2-3.html#native-opticsbatch50b-flash-84d5263a3db489ee",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-84d5263a3db489ee",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 840,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -19902,12 +20691,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
+        "comparisons": 6580,
+        "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
+        "report": "docs/optics-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-2bd805d1d9628981",
@@ -20240,7 +21040,7 @@
     },
     {
       "id": "flash-023950ca3f3c71eb",
-      "title": "방해석 결정__h__의 원자 배열",
+      "title": "방해석 결정의 원자 배열",
       "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/calcite.swf",
       "sha256": "18a5279a374eafba2b9c0e26f66b8ba75ab7cd246a174a943cd8c8ca7d9651c4",
       "lessons": [
@@ -20509,7 +21309,7 @@
     },
     {
       "id": "flash-a31c6f6c9dcd2fd5",
-      "title": "결정__h__에서 빛의 전파",
+      "title": "결정에서 빛의 전파",
       "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/light_crystal.swf",
       "sha256": "6e003a47be73400b34e0ff0e25f5aaf10865961472e0dc80ec74efcc42b1527d",
       "lessons": [
@@ -20547,7 +21347,7 @@
     },
     {
       "id": "flash-877ba0c94ae79fe3",
-      "title": "소금 결정__h__",
+      "title": "소금 결정",
       "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/nacl.swf",
       "sha256": "76a7d3dee9bce309f3b1906707b80e2cf64fe702df28545f75d40aeb1b9a25fb",
       "lessons": [
@@ -22462,17 +23262,26 @@
       "actionScript": 3,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-1-3-2.html#native-general-batch50b-particles-flash-17d4ba7ccbc3959e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-17d4ba7ccbc3959e",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 150,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -22482,12 +23291,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 9000,
+        "maxAbsoluteError": 0,
+        "scope": "Unchanged original moveBall including original x-velocity-fed-z order, five balls over300 steps. Fixed random distribution is explicit; no arbitrary AS3 timer scheduling equality claim.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1d59ec958ccc4eee",
@@ -22731,17 +23551,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-1-2-1.html#native-general-batch50b-particles-flash-d9fe51b58f69c06c",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-d9fe51b58f69c06c",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 8000,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -22751,12 +23580,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 128000,
+        "maxAbsoluteError": 0,
+        "scope": "Unchanged original per-clip enterFrame position/velocity equations at four deterministic representative initial distributions, 80 steps each; vector clip tests only first clip equation, speed initialization ranges independently preserved. Original random number sequence is not claimed.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-6c1faf403cc0ae33",
@@ -22769,17 +23609,26 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-1-2-1.html#native-general-batch50b-particles-flash-6c1faf403cc0ae33",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-6c1faf403cc0ae33",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 208,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -22789,12 +23638,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 5120,
+        "maxAbsoluteError": 0,
+        "scope": "Unchanged original per-clip enterFrame position/velocity equations at four deterministic representative initial distributions, 80 steps each; vector clip tests only first clip equation, speed initialization ranges independently preserved. Original random number sequence is not claimed.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-6a165a13af1c16b0",
@@ -22925,17 +23785,26 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-2-1-2.html#native-general-batch50b-dynamics-flash-f9299046992b0e21",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-f9299046992b0e21",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 14,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -22945,12 +23814,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 2880,
+        "maxAbsoluteError": 4.513982077014589e-9,
+        "scope": "Unchanged finite-difference LJ force and100-substep update, threeRo×threeUo×40steps incl wall/damping/forcecap. Drag trajectory combinations not exhausted.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-b5bbaa2b07617f5a",
@@ -23234,17 +24114,26 @@
       "actionScript": 2,
       "scriptFiles": 14,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-3-1-1.html#native-general-batch50b-dynamics-flash-9b3c51679c04a6b0",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-9b3c51679c04a6b0",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 28,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -23254,12 +24143,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 2000,
+        "maxAbsoluteError": 0,
+        "scope": "Unchanged inverse-distance move equation, five drag initialpositions×200steps; exact equilibrium legitimately static until drag.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-3d1ef4cdd79122e0",
@@ -23621,17 +24521,26 @@
       "actionScript": 2,
       "scriptFiles": 20,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-3-2.html#native-general-batch50b-dynamics-flash-be2213f8cfc2919f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-be2213f8cfc2919f",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 112,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -23641,12 +24550,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 7744,
+        "maxAbsoluteError": 5.684341886080802e-14,
+        "scope": "Unchanged geometric moveSiso at fourphase×four signed frequencies×121steps. Source approximateπ preserved; native continuous time analytic-angle evolution checked unitwise.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-9cc1618409dec725",
@@ -25477,17 +26397,26 @@
       "actionScript": 2,
       "scriptFiles": 10,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-2-4.html#native-general-batch50b-dynamics-flash-df88a01f28e2add7",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-df88a01f28e2add7",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 17,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -25497,12 +26426,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 8874,
+        "maxAbsoluteError": 0,
+        "scope": "Unchanged piecewise torque at original13spacingvalues×signed angle grid; all18blocks×15050-substep ticks. AVM1 missing final neighbor read maps to empty object before original torque returns0.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d1dde891c99fa6d9",
@@ -25743,17 +26683,26 @@
       "actionScript": 2,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-2-8.html#native-general-batch50b-dynamics-flash-609175641dfc40eb",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-609175641dfc40eb",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1581,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -25763,12 +26712,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 73950,
+        "maxAbsoluteError": 0,
+        "scope": "Original20-substep string equation, fixed/free×driven/undriven×60steps; original drawWave all51points×121steps×5pulse types×2boundaries. Legacy student identity and timed assessment form are omitted; new experimental modes retained.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a165a6c6346e837e",
@@ -26062,17 +27022,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-2-6.html#native-general-batch50b-dynamics-flash-0a4e877f1a5b00af",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-0a4e877f1a5b00af",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 686,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -26082,12 +27051,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 4900,
+        "maxAbsoluteError": 0,
+        "scope": "Unchanged 10-substep membrane evolution all49 interiorpositions/velocities×50steps. Fixed edge yOLD initialized to zero: extracted script does not explicitly initialize it; native defines physical fixed-boundary condition. Actual original boundary behavior remains subject to runtime observation.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d7195fa6f1d8b1de",
@@ -26981,17 +27961,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-3-1.html#native-general-batch50b-dynamics-flash-e178e1da9ba43627",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e178e1da9ba43627",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 80,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -27001,12 +27990,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 280,
+        "maxAbsoluteError": 0,
+        "scope": "Unchanged right/left translation before randomized shape recycling,140steps. Four clean newly drawn pulse shapes are authored geometric interpretations; exact original path/pixel equality not asserted.",
+        "report": "docs/general-batch50b-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-batch50b-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-530f19839bfab5f5",

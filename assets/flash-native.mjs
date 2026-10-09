@@ -122,3 +122,13 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="g
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-batch50-crystal-"]'))await import('./native-modern-batch50-crystal.mjs');
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-batch50-periodic-"]'))await import('./native-modern-batch50-periodic.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="nuclear-batch50b-"]'))await import('./native-nuclear-batch50b.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="opticsbatch50b-"]'))await import('./native-optics-batch50b.mjs');
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-batch50b-particles-"]'))await import('./native-general-batch50b-particles.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-batch50b-dynamics-"]'))await import('./native-modern-batch50b-dynamics.mjs');
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-batch50b-dynamics-"]'))await import('./native-general-batch50b-dynamics.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-batch50b-probability-"]'))await import('./native-modern-batch50b-probability.mjs');
