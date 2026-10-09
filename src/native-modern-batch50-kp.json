@@ -1,0 +1,382 @@
+[
+  {
+    "id": "flash-53914b41579addb1",
+    "kind": "modern-batch50-kp-flash-53914b41579addb1",
+    "type": "energy",
+    "title": "크로니그-페니 모형의 띠 구조",
+    "source": "energyGraph.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/kronigpenney/energyGraph.swf",
+    "lesson": "6-8-3-2",
+    "animated": false,
+    "fps": 10,
+    "max": 500,
+    "controls": [
+      {
+        "key": "b",
+        "label": "우물 폭 b / nm",
+        "min": 0.01,
+        "max": 1,
+        "step": 0.01,
+        "value": 0.25,
+        "origin": "original"
+      },
+      {
+        "key": "c",
+        "label": "장벽 폭 c / nm",
+        "min": 0.01,
+        "max": 0.5,
+        "step": 0.01,
+        "value": 0.1,
+        "origin": "original"
+      },
+      {
+        "key": "U0",
+        "label": "장벽 높이 / eV",
+        "min": 0.1,
+        "max": 75,
+        "step": 0.1,
+        "value": 10,
+        "origin": "original"
+      },
+      {
+        "key": "k",
+        "label": "선택 ka / π",
+        "min": -3,
+        "max": 3,
+        "step": 0.1,
+        "value": 0.5,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "b": 0.25,
+      "c": 0.1,
+      "U0": 10,
+      "k": 0.5,
+      "mode": 1,
+      "cells": 3,
+      "level": 1,
+      "slow": false,
+      "standing": false,
+      "atoms": false
+    }
+  },
+  {
+    "id": "flash-7d1bd6f3d3e471a8",
+    "kind": "modern-batch50-kp-flash-7d1bd6f3d3e471a8",
+    "type": "dos",
+    "title": "크로니그-페니 모형의 상태밀도",
+    "source": "densityOfStateGraph.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/kronigpenney/densityOfStateGraph.swf",
+    "lesson": "6-8-3-4",
+    "animated": false,
+    "fps": 10,
+    "max": 500,
+    "controls": [
+      {
+        "key": "b",
+        "label": "우물 폭 b / nm",
+        "min": 0.01,
+        "max": 1,
+        "step": 0.01,
+        "value": 0.1,
+        "origin": "original"
+      },
+      {
+        "key": "c",
+        "label": "장벽 폭 c / nm",
+        "min": 0.01,
+        "max": 0.5,
+        "step": 0.01,
+        "value": 0.05,
+        "origin": "original"
+      },
+      {
+        "key": "U0",
+        "label": "장벽 높이 / eV",
+        "min": 0.1,
+        "max": 75,
+        "step": 0.1,
+        "value": 5,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "b": 0.1,
+      "c": 0.05,
+      "U0": 5,
+      "k": 0.5,
+      "mode": 1,
+      "cells": 3,
+      "level": 1,
+      "slow": false,
+      "standing": false,
+      "atoms": false
+    }
+  },
+  {
+    "id": "flash-33749597a3a3530a",
+    "kind": "modern-batch50-kp-flash-33749597a3a3530a",
+    "type": "mass",
+    "title": "속도와 유효질량 그래프",
+    "source": "reducedMassGraph.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/kronigpenney/reducedMassGraph.swf",
+    "lesson": "6-8-3-5",
+    "animated": false,
+    "fps": 10,
+    "max": 500,
+    "controls": [
+      {
+        "key": "U0",
+        "label": "장벽 높이 / eV",
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "value": 10,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "b": 0.1,
+      "c": 0.1,
+      "U0": 10,
+      "k": 0.5,
+      "mode": 1,
+      "cells": 3,
+      "level": 1,
+      "slow": false,
+      "standing": false,
+      "atoms": false
+    }
+  },
+  {
+    "id": "flash-62b477d3943e2e98",
+    "kind": "modern-batch50-kp-flash-62b477d3943e2e98",
+    "type": "ringfree",
+    "title": "원형 고리의 양자상태",
+    "source": "ringfree.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/kronigpenney/ringfree.swf",
+    "lesson": "6-8-3-1",
+    "animated": true,
+    "fps": 200,
+    "max": 500,
+    "controls": [
+      {
+        "key": "mode",
+        "label": "양자수 m",
+        "min": -20,
+        "max": 20,
+        "step": 1,
+        "value": 1,
+        "origin": "original"
+      },
+      {
+        "key": "standing",
+        "label": "정상파",
+        "value": false,
+        "boolean": true,
+        "origin": "original"
+      },
+      {
+        "key": "slow",
+        "label": "느리게",
+        "boolean": true,
+        "value": false,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "b": 0.25,
+      "c": 0.1,
+      "U0": 10,
+      "k": 0.5,
+      "mode": 1,
+      "cells": 3,
+      "level": 1,
+      "slow": false,
+      "standing": false,
+      "atoms": false
+    }
+  },
+  {
+    "id": "flash-fc3ce23b69b5b802",
+    "kind": "modern-batch50-kp-flash-fc3ce23b69b5b802",
+    "type": "ringlattice",
+    "title": "크로니그-페니 모형의 양자상태",
+    "source": "ringlattice.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/kronigpenney/ringlattice.swf",
+    "lesson": "6-8-3-3",
+    "animated": true,
+    "fps": 20,
+    "max": 500,
+    "controls": [
+      {
+        "key": "b",
+        "label": "우물 폭 b / nm",
+        "min": 0.1,
+        "max": 1,
+        "step": 0.01,
+        "value": 0.25,
+        "origin": "original"
+      },
+      {
+        "key": "c",
+        "label": "장벽 폭 c / nm",
+        "min": 0.05,
+        "max": 0.5,
+        "step": 0.01,
+        "value": 0.1,
+        "origin": "original"
+      },
+      {
+        "key": "U0",
+        "label": "장벽 높이 / eV",
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "value": 10,
+        "origin": "original"
+      },
+      {
+        "key": "cells",
+        "label": "격자 수",
+        "min": 2,
+        "max": 15,
+        "step": 1,
+        "value": 3,
+        "origin": "original"
+      },
+      {
+        "key": "mode",
+        "label": "모드",
+        "min": -1,
+        "max": 1,
+        "step": 1,
+        "value": 0,
+        "origin": "original"
+      },
+      {
+        "key": "level",
+        "label": "에너지띠",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "value": 1,
+        "origin": "original"
+      },
+      {
+        "key": "atoms",
+        "label": "격자 원자 표시",
+        "boolean": true,
+        "value": false,
+        "origin": "original"
+      },
+      {
+        "key": "standing",
+        "label": "원본 파동 모드",
+        "boolean": true,
+        "value": false,
+        "origin": "original"
+      },
+      {
+        "key": "slow",
+        "label": "느리게",
+        "boolean": true,
+        "value": false,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "b": 0.25,
+      "c": 0.1,
+      "U0": 10,
+      "k": 0.5,
+      "mode": 0,
+      "cells": 3,
+      "level": 1,
+      "slow": false,
+      "standing": false,
+      "atoms": false
+    }
+  },
+  {
+    "id": "flash-bf3e75adb1d64087",
+    "kind": "modern-batch50-kp-flash-bf3e75adb1d64087",
+    "type": "fourier",
+    "title": "크로니그-페니 모형의 운동량공간 표현",
+    "source": "ringlatticeFourier.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/kronigpenney/ringlatticeFourier.swf",
+    "lesson": "6-8-3-6",
+    "animated": true,
+    "fps": 10,
+    "max": 500,
+    "controls": [
+      {
+        "key": "b",
+        "label": "우물 폭 b / nm",
+        "min": 0.1,
+        "max": 1,
+        "step": 0.01,
+        "value": 0.25,
+        "origin": "original"
+      },
+      {
+        "key": "c",
+        "label": "장벽 폭 c / nm",
+        "min": 0.05,
+        "max": 0.5,
+        "step": 0.01,
+        "value": 0.1,
+        "origin": "original"
+      },
+      {
+        "key": "U0",
+        "label": "장벽 높이 / eV",
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "value": 10,
+        "origin": "original"
+      },
+      {
+        "key": "cells",
+        "label": "격자 수",
+        "min": 2,
+        "max": 15,
+        "step": 1,
+        "value": 7,
+        "origin": "original"
+      },
+      {
+        "key": "mode",
+        "label": "모드",
+        "min": -20,
+        "max": 20,
+        "step": 1,
+        "value": 1,
+        "origin": "original"
+      },
+      {
+        "key": "level",
+        "label": "에너지띠",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "value": 1,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "b": 0.25,
+      "c": 0.1,
+      "U0": 10,
+      "k": 0.5,
+      "mode": 1,
+      "cells": 7,
+      "level": 1,
+      "slow": false,
+      "standing": false,
+      "atoms": false
+    }
+  }
+]

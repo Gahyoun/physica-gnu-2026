@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-09T21:58:36.259Z",
+  "method": "Independent original AS3 functions, separate from actual original runtime",
+  "files": 6,
+  "comparisons": 9932810,
+  "nativeModelHashes": {
+    "assets/general-batch50-wave3d-physics.mjs": "bfef1d23a36a8abb336949b31afcd4e0107ecb2dcbe715b7b25c8406c311308e",
+    "assets/general-batch50-wave3d-specs.mjs": "07092912a2c810bfbbeecfce51cb8a18fd4738f361ca6f227dee3a98c69e143b"
+  },
+  "results": [
+    {
+      "id": "flash-950c494257e606be",
+      "type": "plane",
+      "comparisons": 5830,
+      "cases": 5,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "sourceHash": "9ef78fbc2ba3c319ceaab5ed4c8433d58c1cdd854ff58ef2bb6a7014ae9c1e0d",
+      "sha256": "7a94e4fa92815532e137616e342d89018ac3e051eaae96be8d3d8ec48945a873",
+      "sha256Verified": true,
+      "passed": true,
+      "scope": "Private unchanged original wave/Remake/GenerateNew/Bessel functions with type annotations removed, original SHA256 checked. Every native scalar increment independently at other defaults and all min/max cross-product corners, every original grid sample at five bounded timeline steps. The original random initial mode/wavelength is made explicit in native controls/defaults; no arbitrary random histories or complete multi-input Cartesian product claim. Native contours/styles and responsive camera presentation are new UI."
+    },
+    {
+      "id": "flash-45ed219097e5e4b7",
+      "type": "radial",
+      "comparisons": 6715800,
+      "cases": 2520,
+      "mismatches": [],
+      "maxAbsoluteError": 3.552713678800501e-15,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "sourceHash": "bd247790ab05070ab9f3eb0af554e5976bf73918fc4a277d2e848eb743d0c71d",
+      "sha256": "fe7cb4bfcd407a5deda24aed1019d6a57e17d02eced1a43bfd626432d2d7b0a1",
+      "sha256Verified": true,
+      "passed": true,
+      "scope": "Private unchanged original wave/Remake/GenerateNew/Bessel functions with type annotations removed, original SHA256 checked. Every native scalar increment independently at other defaults and all min/max cross-product corners, every original grid sample at five bounded timeline steps. The original random initial mode/wavelength is made explicit in native controls/defaults; no arbitrary random histories or complete multi-input Cartesian product claim. Native contours/styles and responsive camera presentation are new UI."
+    },
+    {
+      "id": "flash-edfd93bc203f3a7c",
+      "type": "rect",
+      "comparisons": 212670,
+      "cases": 85,
+      "mismatches": [],
+      "maxAbsoluteError": 2.821354261328679e-14,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "sourceHash": "5c71e57e436cba7a6b89bbe1acc9d4ecaf1a11401efbe9261577c5c6481fdc51",
+      "sha256": "883b4470ce4d54037665801e89ef1fd893182d6cff984939f3a3ecd10c21422e",
+      "sha256Verified": true,
+      "passed": true,
+      "scope": "Private unchanged original wave/Remake/GenerateNew/Bessel functions with type annotations removed, original SHA256 checked. Every native scalar increment independently at other defaults and all min/max cross-product corners, every original grid sample at five bounded timeline steps. The original random initial mode/wavelength is made explicit in native controls/defaults; no arbitrary random histories or complete multi-input Cartesian product claim. Native contours/styles and responsive camera presentation are new UI."
+    },
+    {
+      "id": "flash-2a0c40f98130c2e9",
+      "type": "rectsum",
+      "comparisons": 513115,
+      "cases": 205,
+      "mismatches": [],
+      "maxAbsoluteError": 5.642708522657358e-14,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "sourceHash": "ffa835760fd905985079740c36452e5fa334a21d5d137667c5b03251c101a322",
+      "sha256": "5df5fcbcc3fba885fdebcfa8218425ab7748ac0ee7d9284b6fca690e2b1235a6",
+      "sha256Verified": true,
+      "passed": true,
+      "scope": "Private unchanged original wave/Remake/GenerateNew/Bessel functions with type annotations removed, original SHA256 checked. Every native scalar increment independently at other defaults and all min/max cross-product corners, every original grid sample at five bounded timeline steps. The original random initial mode/wavelength is made explicit in native controls/defaults; no arbitrary random histories or complete multi-input Cartesian product claim. Native contours/styles and responsive camera presentation are new UI."
+    },
+    {
+      "id": "flash-ff8cac6b230d7b3b",
+      "type": "circle",
+      "comparisons": 195150,
+      "cases": 75,
+      "mismatches": [],
+      "maxAbsoluteError": 4.613760540284062e-9,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "sourceHash": "d9758b827ff594bf73a95cbfdc73770bfce3cbb5b33056c520e671e1d54fa580",
+      "sha256": "623b55573f7dae60249954a85b274bdb19923af2eb80e7bb7935ace9d4b148e1",
+      "sha256Verified": true,
+      "passed": true,
+      "scope": "Private unchanged original wave/Remake/GenerateNew/Bessel functions with type annotations removed, original SHA256 checked. Every native scalar increment independently at other defaults and all min/max cross-product corners, every original grid sample at five bounded timeline steps. The original random initial mode/wavelength is made explicit in native controls/defaults; no arbitrary random histories or complete multi-input Cartesian product claim. Native contours/styles and responsive camera presentation are new UI."
+    },
+    {
+      "id": "flash-9fb7dd08524b7bb8",
+      "type": "rectphase",
+      "comparisons": 2290245,
+      "cases": 915,
+      "mismatches": [],
+      "maxAbsoluteError": 3.5083047578154947e-14,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "sourceHash": "bb41d7af946ea382252416d8e75490ca370eb6bc8133846c30dc8b98628c2acf",
+      "sha256": "accb410bd632270426ee2a6200e5ab196c293c34c7c88a69831bd004bcf20b77",
+      "sha256Verified": true,
+      "passed": true,
+      "scope": "Private unchanged original wave/Remake/GenerateNew/Bessel functions with type annotations removed, original SHA256 checked. Every native scalar increment independently at other defaults and all min/max cross-product corners, every original grid sample at five bounded timeline steps. The original random initial mode/wavelength is made explicit in native controls/defaults; no arbitrary random histories or complete multi-input Cartesian product claim. Native contours/styles and responsive camera presentation are new UI."
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
 const root=new URL('../',import.meta.url),read=p=>JSON.parse(fs.readFileSync(new URL(p,root)));
 const assignment=read('docs/parallel-remaster-225.json'),catalog=read('assets/flash-catalog.json').files,runtime=read('docs/original-runtime-evidence.json');
-const groups=['nuclear-next','nuclear-next-structure','modern-next','modern-next-semiconductor','modern-next-rotor','general-next-phasor','general-next-molecule','general-next-field','general-next-boundary','optics-next','optics-next-lattice','optics-next-surface'];
+const groups=['nuclear-next','nuclear-next-structure','modern-next','modern-next-semiconductor','modern-next-rotor','general-next-phasor','general-next-molecule','general-next-field','general-next-boundary','optics-next','optics-next-lattice','optics-next-surface','nuclear-batch50-diagrams','general-batch50-wave3d','general-batch50-diffraction','general-batch50-huygens','modern-batch50-kp','modern-batch50-crystal','modern-batch50-periodic','optics-batch50'];
 const evidence=groups.map(group=>({group,source:read(`docs/${group}-source-report.json`),ui:read(`docs/${group}-ui-report.json`)}));
 for(const {group,source,ui} of evidence)for(const report of [source,ui]){
  for(const [file,hash]of Object.entries(report.nativeModelHashes))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(file,root))).digest('hex'),hash,`Stale ${group}: ${file}`);

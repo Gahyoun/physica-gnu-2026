@@ -1,0 +1,884 @@
+{
+  "date": "2026-10-09T22:13:15.620Z",
+  "files": 6,
+  "nativeModelHashes": {
+    "assets/general-batch50-wave3d-physics.mjs": "bfef1d23a36a8abb336949b31afcd4e0107ecb2dcbe715b7b25c8406c311308e",
+    "assets/general-batch50-wave3d-specs.mjs": "07092912a2c810bfbbeecfce51cb8a18fd4738f361ca6f227dee3a98c69e143b",
+    "tools/general-batch50-runtime-check.mjs": "a45266f4946ed443f8ed111e57f8d22ae1a585ce35a58108dc0c1cb3ea4038ec",
+    "tools/general-batch50-as3-compile.mjs": "1da0728d36225d9f10202b1ad200fdcb101ab9a817a49760a27133318009687a",
+    "tools/java/PhysicaAS3ObserverGeneralBatch50.as": "7e94765a38551fef9de607e90f87d58a3982bff914552c83f32285f82ded1e5a",
+    "tools/modern-next-as3-observer.mjs": "d27ed066a894d99092a0d4a34b6df8443dfc22a6e2e177b3417d84f5a262e626"
+  },
+  "observerABCSHA256": "0fa477e6f47d787b109c241a9669299e250d5841cef6f78b35fdaf528d766b39",
+  "comparisons": 3654,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-950c494257e606be",
+      "sha256": "7a94e4fa92815532e137616e342d89018ac3e051eaae96be8d3d8ec48945a873",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 420,
+      "samples": [
+        {
+          "time": 1.5999999999999999,
+          "n": 7.999999999999999,
+          "p": {}
+        },
+        {
+          "time": 1.7999999999999998,
+          "n": 8.999999999999998,
+          "p": {}
+        },
+        {
+          "time": 1.9999999999999998,
+          "n": 9.999999999999998,
+          "p": {}
+        },
+        {
+          "time": 2.1999999999999997,
+          "n": 10.999999999999998,
+          "p": {}
+        },
+        {
+          "time": 2.4,
+          "n": 11.999999999999998,
+          "p": {}
+        },
+        {
+          "time": 2.6,
+          "n": 13,
+          "p": {}
+        },
+        {
+          "time": 2.8000000000000003,
+          "n": 14,
+          "p": {}
+        },
+        {
+          "time": 3.0000000000000004,
+          "n": 15.000000000000002,
+          "p": {}
+        },
+        {
+          "time": 3.2000000000000006,
+          "n": 16.000000000000004,
+          "p": {}
+        },
+        {
+          "time": 3.400000000000001,
+          "n": 17.000000000000004,
+          "p": {}
+        },
+        {
+          "time": 3.600000000000001,
+          "n": 18.000000000000004,
+          "p": {}
+        },
+        {
+          "time": 3.800000000000001,
+          "n": 19.000000000000004,
+          "p": {}
+        },
+        {
+          "time": 4.000000000000001,
+          "n": 20.000000000000004,
+          "p": {}
+        },
+        {
+          "time": 4.200000000000001,
+          "n": 21.000000000000004,
+          "p": {}
+        },
+        {
+          "time": 4.400000000000001,
+          "n": 22.000000000000004,
+          "p": {}
+        },
+        {
+          "time": 4.600000000000001,
+          "n": 23.000000000000007,
+          "p": {}
+        },
+        {
+          "time": 4.800000000000002,
+          "n": 24.000000000000007,
+          "p": {}
+        },
+        {
+          "time": 5.000000000000002,
+          "n": 25.000000000000007,
+          "p": {}
+        },
+        {
+          "time": 5.200000000000002,
+          "n": 26.000000000000007,
+          "p": {}
+        },
+        {
+          "time": 5.400000000000002,
+          "n": 27.00000000000001,
+          "p": {}
+        }
+      ],
+      "maxAbsoluteError": 4.440892098500626e-16,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim."
+    },
+    {
+      "id": "flash-45ed219097e5e4b7",
+      "sha256": "fe7cb4bfcd407a5deda24aed1019d6a57e17d02eced1a43bfd626432d2d7b0a1",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 1050,
+      "samples": [
+        {
+          "time": 6,
+          "n": 6,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 8,
+          "n": 8,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 9,
+          "n": 9,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 11,
+          "n": 11,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 12,
+          "n": 12,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 14,
+          "n": 14,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 15,
+          "n": 15,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 17,
+          "n": 17,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 18,
+          "n": 18,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 20,
+          "n": 20,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 21,
+          "n": 21,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 23,
+          "n": 23,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 24,
+          "n": 24,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 26,
+          "n": 26,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 27,
+          "n": 27,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 28,
+          "n": 28,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 30,
+          "n": 30,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 31,
+          "n": 31,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 33,
+          "n": 33,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 34,
+          "n": 34,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 36,
+          "n": 36,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 37,
+          "n": 37,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 38,
+          "n": 38,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 40,
+          "n": 40,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        },
+        {
+          "time": 41,
+          "n": 41,
+          "p": {
+            "wavelength": 83.15006147604436
+          }
+        }
+      ],
+      "maxAbsoluteError": 3.552713678800501e-15,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim."
+    },
+    {
+      "id": "flash-edfd93bc203f3a7c",
+      "sha256": "883b4470ce4d54037665801e89ef1fd893182d6cff984939f3a3ecd10c21422e",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 462,
+      "samples": [
+        {
+          "time": 2.5,
+          "n": 5,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 3,
+          "n": 6,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 3.5,
+          "n": 7,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 4,
+          "n": 8,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 4.5,
+          "n": 9,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 5,
+          "n": 10,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 5.5,
+          "n": 11,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 6,
+          "n": 12,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 6.5,
+          "n": 13,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 7,
+          "n": 14,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        },
+        {
+          "time": 7.5,
+          "n": 15,
+          "p": {
+            "m1": 1,
+            "n1": 1
+          }
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim."
+    },
+    {
+      "id": "flash-2a0c40f98130c2e9",
+      "sha256": "5df5fcbcc3fba885fdebcfa8218425ab7748ac0ee7d9284b6fca690e2b1235a6",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 504,
+      "samples": [
+        {
+          "time": 1,
+          "n": 2,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 1.5,
+          "n": 3,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 2,
+          "n": 4,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 2.5,
+          "n": 5,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 3,
+          "n": 6,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 3.5,
+          "n": 7,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 4,
+          "n": 8,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 4.5,
+          "n": 9,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 5,
+          "n": 10,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 5.5,
+          "n": 11,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 6,
+          "n": 12,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        },
+        {
+          "time": 6.5,
+          "n": 13,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 1
+          }
+        }
+      ],
+      "maxAbsoluteError": 1.1102230246251565e-16,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim."
+    },
+    {
+      "id": "flash-ff8cac6b230d7b3b",
+      "sha256": "623b55573f7dae60249954a85b274bdb19923af2eb80e7bb7935ace9d4b148e1",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 588,
+      "samples": [
+        {
+          "time": 2,
+          "n": 4,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 2.5,
+          "n": 5,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 3,
+          "n": 6,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 3.5,
+          "n": 7,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 4,
+          "n": 8,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 4.5,
+          "n": 9,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 5,
+          "n": 10,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 5.5,
+          "n": 11,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 6,
+          "n": 12,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 6.5,
+          "n": 13,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 7,
+          "n": 14,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        },
+        {
+          "time": 7.5,
+          "n": 15,
+          "p": {
+            "mode": 1,
+            "order": 2
+          }
+        }
+      ],
+      "maxAbsoluteError": 3.4416913763379853e-15,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim."
+    },
+    {
+      "id": "flash-9fb7dd08524b7bb8",
+      "sha256": "accb410bd632270426ee2a6200e5ab196c293c34c7c88a69831bd004bcf20b77",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 630,
+      "samples": [
+        {
+          "time": 0.5,
+          "n": 1,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 1,
+          "n": 2,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 1.5,
+          "n": 3,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 2,
+          "n": 4,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 2.5,
+          "n": 5,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 3,
+          "n": 6,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 3.5,
+          "n": 7,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 4,
+          "n": 8,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 4.5,
+          "n": 9,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 5,
+          "n": 10,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 5.5,
+          "n": 11,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 6,
+          "n": 12,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 6.5,
+          "n": 13,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 7,
+          "n": 14,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        },
+        {
+          "time": 7.5,
+          "n": 15,
+          "p": {
+            "m1": 2,
+            "n1": 1,
+            "m2": 5,
+            "n2": 3,
+            "size": 1.5,
+            "phase": 0
+          }
+        }
+      ],
+      "maxAbsoluteError": 4.440892098500626e-16,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim."
+    }
+  ]
+}

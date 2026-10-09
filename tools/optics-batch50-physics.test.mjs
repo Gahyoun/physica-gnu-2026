@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+const specs=JSON.parse(fs.readFileSync(new URL('../src/native-optics-batch50-rays.json',import.meta.url))),versions=[...new Set(specs.map(s=>s.kernelModule))];
+const near=(a,b,t=1e-4)=>assert.ok(Math.abs(a-b)<=t,`${a} versus ${b}`);
+for(const file of versions){const {createKernel}=await import('../assets/'+file),k=createKernel();
+ test(file+': vacuum and index two advance equal optical distance',()=>{for(const n of [1,2]){const g={drawLine(){},lineStyle:{}},idx={n:()=>n,contains:()=>true},r=new k.RayTrace(idx,g,g);r.p.x=1;r.p.y=2;r.p.dir=.3;r.MakeNew(20);near(r.p.x,1+20/n*Math.cos(.3),1e-10);near(r.p.y,2+20/n*Math.sin(.3),1e-10);}});
+ test(file+': Snell refraction of a 30 degree incident ray at a plane boundary',()=>{const g={drawLine(){},lineStyle:{}},idx={n:p=>p.x<0?1:2,contains:()=>true},r=new k.RayTrace(idx,g,g);r.p.x=-1;r.p.dir=Math.PI/6;r.MakeNew(5);near(Math.sin(r.p.dir),.25,1e-4);if(r.countRefraction!==undefined)assert.equal(r.countRefraction,1);});
+ test(file+': total internal reflection at a plane boundary',()=>{const g={drawLine(){},lineStyle:{}},idx={n:p=>p.x<0?2:1,contains:()=>true},r=new k.RayTrace(idx,g,g);r.p.x=-.2;r.p.dir=Math.PI/3;r.MakeNew(5);near(r.p.dir,2*Math.PI/3,1e-4);assert.ok(r.p.x<0);if(r.countReflection!==undefined)assert.equal(r.countReflection,1);});
+ if(k.ThickLens)test(file+': symmetric lens paraxial focal length and flat-limit direction',()=>{const lens=new k.ThickLens(1.5,200,-200,30,100);near(lens.focalLength(),200,1e-10);lens.R1=20000;near(lens.focalLength(),400,1e-10);lens.R2=-20000;assert.equal(lens.focalLength(),Number.MAX_VALUE);});
+}
+test('all 20 exact-source devices initialize finite ray positions and retain vectors',async()=>{assert.equal(specs.length,20);for(const s of specs){const t=(await import('../assets/'+s.programModule)).createTimeline();for(let i=0;i<20;i++){t.pt.onTick({});for(const r of t.wf.ray)for(const p of ['x','y','dir'])assert.ok(Number.isFinite(r.p[p]),s.source+' '+p);}assert.ok(t.pt.instrumentCanvas.graphics.items.length);}});

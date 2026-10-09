@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-09T22:18:08.313Z",
+  "files": 6,
+  "nativeModelHashes": {
+    "assets/modern-batch50-kp-physics.mjs": "9fb64f6c2bf95a7cac284a3a04faa62cdbb845a35624ac0e7c227082e4370caa",
+    "assets/modern-batch50-kp-engine.mjs": "7c2c57388604a4a1e138f46572eeddee562f5a9fd3851faae70b1c2751b6ed34",
+    "assets/modern-batch50-complex.mjs": "f6191fd0ed15345aa78179330ae98c28664b747f619f60b9d37ea4175cfaa514",
+    "assets/modern-batch50-kp-specs.mjs": "caa78a51d2079f7f837f7029419a69fbab99939d7c9e298c1186091568770eed"
+  },
+  "comparisons": 2100252,
+  "originalRuntimeVerified": false,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-53914b41579addb1",
+      "type": "energy",
+      "comparisons": 8171,
+      "cases": 7,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "privateSourceHash": "557321d5d507550c632b1ec6e014801d9cc9365a8c5cef113bbfdabccf38ad94",
+      "passed": true,
+      "scope": "Original private AS3 numerical methods executed with only language/type adaptation, independent original Complex/LU solve and original ringfree reset/run. Bounded parameter, mode, cell, energy-level grids; source execution is distinct from actual Flash runtime and does not prove every continuous input history."
+    },
+    {
+      "id": "flash-7d1bd6f3d3e471a8",
+      "type": "dos",
+      "comparisons": 8049,
+      "cases": 7,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "privateSourceHash": "75e9cb8f41a8b709528ee57db208a7fb78e09776053d89954d39142175d8e595",
+      "passed": true,
+      "scope": "Original private AS3 numerical methods executed with only language/type adaptation, independent original Complex/LU solve and original ringfree reset/run. Bounded parameter, mode, cell, energy-level grids; source execution is distinct from actual Flash runtime and does not prove every continuous input history."
+    },
+    {
+      "id": "flash-33749597a3a3530a",
+      "type": "mass",
+      "comparisons": 8382,
+      "cases": 8,
+      "maxAbsoluteError": 4.440892098500626e-16,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "privateSourceHash": "a6d615b6650213081c6d5117bec93685b55a7d6f423f8f5b924e20f4ff407375",
+      "passed": true,
+      "scope": "Original private AS3 numerical methods executed with only language/type adaptation, independent original Complex/LU solve and original ringfree reset/run. Bounded parameter, mode, cell, energy-level grids; source execution is distinct from actual Flash runtime and does not prove every continuous input history."
+    },
+    {
+      "id": "flash-62b477d3943e2e98",
+      "type": "ringfree",
+      "comparisons": 2004408,
+      "cases": 164,
+      "maxAbsoluteError": 3.2093772084351713e-12,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Original private AS3 numerical methods executed with only language/type adaptation, independent original Complex/LU solve and original ringfree reset/run. Bounded parameter, mode, cell, energy-level grids; source execution is distinct from actual Flash runtime and does not prove every continuous input history."
+    },
+    {
+      "id": "flash-fc3ce23b69b5b802",
+      "type": "ringlattice",
+      "comparisons": 34109,
+      "cases": 43,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "privateSourceHash": "a6d615b6650213081c6d5117bec93685b55a7d6f423f8f5b924e20f4ff407375",
+      "passed": true,
+      "scope": "Original private AS3 numerical methods executed with only language/type adaptation, independent original Complex/LU solve and original ringfree reset/run. Bounded parameter, mode, cell, energy-level grids; source execution is distinct from actual Flash runtime and does not prove every continuous input history."
+    },
+    {
+      "id": "flash-bf3e75adb1d64087",
+      "type": "fourier",
+      "comparisons": 37133,
+      "cases": 43,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "privateSourceHash": "a6d615b6650213081c6d5117bec93685b55a7d6f423f8f5b924e20f4ff407375",
+      "passed": true,
+      "scope": "Original private AS3 numerical methods executed with only language/type adaptation, independent original Complex/LU solve and original ringfree reset/run. Bounded parameter, mode, cell, energy-level grids; source execution is distinct from actual Flash runtime and does not prove every continuous input history."
+    }
+  ]
+}

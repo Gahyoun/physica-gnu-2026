@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-09T22:07:29.862111+00:00",
+  "files": 5,
+  "comparisons": 10360,
+  "nativeModelHashes": {
+    "src/native-nuclear-batch50-diagrams.json": "9a597a277908c5aa4901a876391abc35f4ef58b1b881cc2c708e8447e52bb146",
+    "assets/nuclear-batch50-diagrams-specs.mjs": "abbed59430834186c26cc20368495de1d7db0204db150ada5fcc327b87a89655",
+    "assets/nuclear-batch50-diagrams-model.mjs": "8f1ef1c042bc6795f3f1bbcb43758d05cc7970232af97d97a0e442c6f3f1048c",
+    "assets/native-nuclear-batch50-diagrams.mjs": "51026d41411f935ffa3a6b000f514db3a6036b774c9fc738c36eb05f0a14c8b6"
+  },
+  "method": "Original authored SVG export numeric geometry versus fresh scene data; original artwork remains private. Native UI and actual runtime are separate evidence.",
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-1cb9e93772e898a6",
+      "sha256": "74c0ba711c2d8d2b5d54f2f0aa95be9d0fbb95ef16a3c6cf5af3e7d44f86d6f2",
+      "sha256Verified": true,
+      "comparisons": 13,
+      "framesCompared": 2,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original authored timeline placements and curve geometry. All listed particle positions/radii at each frame, original ITER two-view/component inventory. Fresh simplified circuit/ITER diagram geometry is intentionally different. Not an original runtime or solver-equivalence claim."
+    },
+    {
+      "id": "flash-9500e9cfc1d0ee73",
+      "sha256": "80e46a0b2c594e211bbbbc3bfe0e3e228ad59150895cd40be4ea80ab14d151bc",
+      "sha256Verified": true,
+      "comparisons": 195,
+      "framesCompared": 12,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original authored timeline placements and curve geometry. All listed particle positions/radii at each frame, original ITER two-view/component inventory. Fresh simplified circuit/ITER diagram geometry is intentionally different. Not an original runtime or solver-equivalence claim."
+    },
+    {
+      "id": "flash-f98f67fb2483d843",
+      "sha256": "e399356bcd38df433371ae13a8d87a48265d7210dbc718dfea9b5d4205c97ea0",
+      "sha256Verified": true,
+      "comparisons": 1920,
+      "framesCompared": 120,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original authored timeline placements and curve geometry. All listed particle positions/radii at each frame, original ITER two-view/component inventory. Fresh simplified circuit/ITER diagram geometry is intentionally different. Not an original runtime or solver-equivalence claim."
+    },
+    {
+      "id": "flash-a85b993cc859a8e7",
+      "sha256": "2ef69654405500fe800e0ed72d17ad60d9d72286b16b5c32539a906caa70e110",
+      "sha256Verified": true,
+      "comparisons": 3456,
+      "framesCompared": 12,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original authored timeline placements and curve geometry. All listed particle positions/radii at each frame, original ITER two-view/component inventory. Fresh simplified circuit/ITER diagram geometry is intentionally different. Not an original runtime or solver-equivalence claim."
+    },
+    {
+      "id": "flash-d9b2ee521a3d507e",
+      "sha256": "e4c60d6ac983987732fd21fd9a6bdef280641a3116e59211298f608526345c7e",
+      "sha256Verified": true,
+      "comparisons": 4776,
+      "framesCompared": 12,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Private original authored timeline placements and curve geometry. All listed particle positions/radii at each frame, original ITER two-view/component inventory. Fresh simplified circuit/ITER diagram geometry is intentionally different. Not an original runtime or solver-equivalence claim."
+    }
+  ]
+}

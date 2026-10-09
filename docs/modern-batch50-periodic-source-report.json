@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-09T22:16:49.786Z",
+  "files": 3,
+  "nativeModelHashes": {
+    "assets/modern-batch50-quantum-engine.mjs": "391a49e0e9142cf84df8dec8a6138f141f4211df989916dc3ee55b3ebb499cf8",
+    "assets/modern-batch50-periodic-physics.mjs": "ae65d964ed83b07cc1a3ff8d81a414d01794553fabc957aa46213728a4ed0fd4",
+    "assets/modern-batch50-periodic-specs.mjs": "fae15021401de8d24237cd93e7c7607a82a374f41e66901d503829f65805323c"
+  },
+  "comparisons": 1039653,
+  "scope": "AS3 source arithmetic execution only: original Bragg Graphics traces and original QuantumSolver classes on bounded cells1..11, both higher/hydrogen states, slider endpoints, all energy levels/wave/potential samples. Modern renderer is new SVG; actual Flash runtime and continuous input histories remain unverified.",
+  "originalRuntimeVerified": false,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-ca88404bdd3be9c8",
+      "type": "bragg",
+      "comparisons": 377437,
+      "cases": 101,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "originalSourceHashes": {
+        "MainTimeline.as": "08785c8697d9636cfad327b13f177c13bb4e2fe901b33d42481a071d62cfcd4a"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-fbf5a8574e12d530",
+      "type": "periodic",
+      "comparisons": 645380,
+      "cases": 48,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "originalSourceHashes": {
+        "QuantumSolver/Mathematics.as": "962a24a1cc094b00658dab6ed806bcf1ad10442635ee561385ebf4867fc5fe25",
+        "QuantumSolver/FittingProtocol.as": "53a91f248f3d9e1489a855fcef1169fc90a8fa68321da42008cf4bf8fda44b32",
+        "QuantumSolver/PotentialPointer.as": "fef8cc1acf756efa79cef798b74826edff1381c139c6a8e55bfc9a0f11098b6f",
+        "QuantumSolver/EigenfunctionData.as": "dad6ba3a67b45353070642b05635b81295d502aef1fab9b5d6c0916377c1a10c",
+        "QuantumSolver/EigenfunctionFinder.as": "edc27c0f4e4ddb6f960be145a7f931db3530e6e2b85b54f68fd8ef3c419d0096"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-4d4d84fe8044b2dd",
+      "type": "gap",
+      "comparisons": 16836,
+      "cases": 1,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "originalSourceHashes": {
+        "QuantumSolver/Mathematics.as": "962a24a1cc094b00658dab6ed806bcf1ad10442635ee561385ebf4867fc5fe25",
+        "QuantumSolver/FittingProtocol.as": "53a91f248f3d9e1489a855fcef1169fc90a8fa68321da42008cf4bf8fda44b32",
+        "QuantumSolver/PotentialPointer.as": "fef8cc1acf756efa79cef798b74826edff1381c139c6a8e55bfc9a0f11098b6f",
+        "QuantumSolver/EigenfunctionData.as": "dad6ba3a67b45353070642b05635b81295d502aef1fab9b5d6c0916377c1a10c",
+        "QuantumSolver/EigenfunctionFinder.as": "edc27c0f4e4ddb6f960be145a7f931db3530e6e2b85b54f68fd8ef3c419d0096"
+      },
+      "passed": true
+    }
+  ]
+}

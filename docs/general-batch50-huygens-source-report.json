@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-09T22:10:49.067Z",
+  "files": 2,
+  "nativeModelHashes": {
+    "assets/general-batch50-huygens-physics.mjs": "f83bef82afc29cb3a21b00366422b539bae4d6ab0c2138c0f7cd20345552fb71",
+    "assets/general-batch50-huygens-specs.mjs": "7dfe56bc5ab3aa58c8f92290aa4c06a677b6d7ecf87536fc76f667787d981107"
+  },
+  "results": [
+    {
+      "id": "flash-76b941ad6c464dc4",
+      "comparisons": 15216,
+      "maxAbsoluteError": 1.7053025658242404e-13,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "sourceHashes": {
+        "WaveFront": "acef99e054d6df6108eb894f02b6609426dce5ba7996f3f413b9b6eb766ad9fd",
+        "RayTrace": "8fe3bc89e48d3adeed96b2455370ff2bc75213f434e2f044b5b48d30411a43b3",
+        "Point2D": "7a4dddb51b5de42db1057c9f1d869c48c8710995ca583dccc57b89f41afda7f5",
+        "MainTimeline": "c9b334c2d0083a43e355a56f8980f7afae7e5e09e6e8d5ab3365732a5c794291"
+      },
+      "sha256": "0745408eedd84181f258f076f7e5231b8977dd938b44d86755e979fe78dcf190",
+      "sha256Verified": true,
+      "passed": true,
+      "scope": "Unchanged original InitWave/SetCircularWave, front normal and connection functions, RayTrace MakeNew/NextByOnce and secondary wave functions with types removed. Uniform index n=1 as in both originals. 36 propagated fronts, all rays and secondary circles/arcs at four radii; five deterministic random seeds for Fresnel. Point2D translation uses exact same primitive arithmetic. No complete random-history or actual AVM2 runtime equivalence claim. Native controls expose repeat/seek/seed and bounded replay."
+    },
+    {
+      "id": "flash-ab7f7050005b8466",
+      "comparisons": 2434080,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "sourceHashes": {
+        "WaveFront": "acef99e054d6df6108eb894f02b6609426dce5ba7996f3f413b9b6eb766ad9fd",
+        "RayTrace": "8fe3bc89e48d3adeed96b2455370ff2bc75213f434e2f044b5b48d30411a43b3",
+        "Point2D": "7a4dddb51b5de42db1057c9f1d869c48c8710995ca583dccc57b89f41afda7f5",
+        "MainTimeline": "ae36dcf71aa71e366f1a513473b92cb6b16901e1401cbe5470ee46bcefd96436"
+      },
+      "sha256": "6d4500a21059b0180f2e59bcaffd944fee968967e2608006af41c8571566751d",
+      "sha256Verified": true,
+      "passed": true,
+      "scope": "Unchanged original InitWave/SetCircularWave, front normal and connection functions, RayTrace MakeNew/NextByOnce and secondary wave functions with types removed. Uniform index n=1 as in both originals. 36 propagated fronts, all rays and secondary circles/arcs at four radii; five deterministic random seeds for Fresnel. Point2D translation uses exact same primitive arithmetic. No complete random-history or actual AVM2 runtime equivalence claim. Native controls expose repeat/seek/seed and bounded replay."
+    }
+  ]
+}

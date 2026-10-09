@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root)));
 
-export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave','expansion-wave','moire','scene','quantum','light','dynamics','electromagnet','circuit','potential','diffraction','beam','ray','aperture','matrix','interferometer','polarizer','dichroic','jones','atomic','modern-next','nuclear-next','general-next-field','optics-next-lattice','general-next-boundary','optics-next-surface','nuclear-next-as3','modern-next-rotor'];
+export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave','expansion-wave','moire','scene','quantum','light','dynamics','electromagnet','circuit','potential','diffraction','beam','ray','aperture','matrix','interferometer','polarizer','dichroic','jones','atomic','modern-next','nuclear-next','general-next-field','optics-next-lattice','general-next-boundary','optics-next-surface','nuclear-next-as3','modern-next-rotor','general-batch50-wave3d','general-batch50-diffraction','general-batch50-huygens','optics-batch50','modern-batch50'];
 export const combinationGroups=['superposition-combinations'];
 
 export function runtimeEvidence(){

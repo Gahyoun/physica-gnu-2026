@@ -1,0 +1,6 @@
+import fs from 'node:fs';import {sourceFunction} from './scene-source-capture.mjs';import {adaptMathAS} from './modern-batch50-as-math.mjs';
+const base=new URL('../preview/private-scripts/flash-bf3e75adb1d64087/scripts/Util/KronigPenneySQ.as',import.meta.url),source=fs.readFileSync(base,'utf8');
+const names=['setParameter','makeAll','getEnergyBand','calcEnergyRoot','leftFtn','leftFtnDerivative','getDensityOfState','getWaveFtn','getBlochWaveFtn','getABCD','cosh','sinh','getFourierCoef','getPotentialFourierCoef','getExpIntegral'];
+const methods=names.map(n=>adaptMathAS(sourceFunction(source,n)).replace('function '+n,n)).join('\n');
+const pre=fs.readFileSync(new URL('../assets/modern-batch50-complex.mjs',import.meta.url),'utf8');
+fs.writeFileSync(new URL('../assets/modern-batch50-kp-engine.mjs',import.meta.url),'// Original Kronig–Penney numerical equations transcribed from Ki Soo Chung’s web textbook. New SVG views are separate.\nimport {Complex,ComplexMatrix} from "./modern-batch50-complex.mjs";\nexport class KronigPenney {constructor(b,c,U0,Emax=20){this.nData=501;this.Emax=Emax;this.delta=Emax*2.5/500;this.dataArray=new Array(501).fill(0);this.setParameter(b,c,U0);}\n'+methods+'\n}\n');

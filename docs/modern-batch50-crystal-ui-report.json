@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-09T22:17:39.279Z",
+  "nativeModelHashes": {
+    "assets/native-modern-batch50-crystal.mjs": "d9cfa259d02e3f850bdb1c91b98f4eb8a55580062dbc118277f0d1034eb229fb",
+    "assets/modern-batch50-crystal-physics.mjs": "46b16035d643ee2edd265af60653c9810c648ad4dedcf314458b8dc3a993fa1e",
+    "assets/modern-batch50-crystal-geometry.mjs": "e98f842fea6b84f9cd3c22d45f0ed423f0ec50d27ff8076a520bc44cdabfd0fe",
+    "assets/modern-batch50-crystal-specs.mjs": "b9fee4f65a2fd2a1a1b43b6c99828c01a40e8bd60522a36ed9148e588933a97e"
+  },
+  "files": 6,
+  "cases": 18,
+  "errors": 0,
+  "fullEquivalence": false,
+  "originalRuntimeVerified": false,
+  "scope": "Actual new SVG renderer at 320,768,1360 widths, finite original controls both boundaries/checkbox states, 14 gallery selections, camera boundaries, pointer rotation, reset and atom/bond SVG counts. No claim of actual original Flash runtime.",
+  "results": [
+    {
+      "id": "flash-3973a4c3f880c119",
+      "width": 320,
+      "checks": 14,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-af4f16212ccf8747",
+      "width": 320,
+      "checks": 14,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-5dfdb14cd72f10d7",
+      "width": 320,
+      "checks": 16,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d4588f2223e18e27",
+      "width": 320,
+      "checks": 16,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-604a4b8318eb5170",
+      "width": 320,
+      "checks": 24,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3d6d80a0b8a51b59",
+      "width": 320,
+      "checks": 14,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3973a4c3f880c119",
+      "width": 768,
+      "checks": 14,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-af4f16212ccf8747",
+      "width": 768,
+      "checks": 14,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-5dfdb14cd72f10d7",
+      "width": 768,
+      "checks": 16,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d4588f2223e18e27",
+      "width": 768,
+      "checks": 16,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-604a4b8318eb5170",
+      "width": 768,
+      "checks": 24,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3d6d80a0b8a51b59",
+      "width": 768,
+      "checks": 14,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3973a4c3f880c119",
+      "width": 1360,
+      "checks": 14,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-af4f16212ccf8747",
+      "width": 1360,
+      "checks": 14,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-5dfdb14cd72f10d7",
+      "width": 1360,
+      "checks": 16,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d4588f2223e18e27",
+      "width": 1360,
+      "checks": 16,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-604a4b8318eb5170",
+      "width": 1360,
+      "checks": 24,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3d6d80a0b8a51b59",
+      "width": 1360,
+      "checks": 14,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    }
+  ]
+}

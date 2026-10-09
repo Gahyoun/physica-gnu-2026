@@ -21,6 +21,11 @@ for(const [file,previous] of Object.entries(base.nativeModelHashes)){
 // The affected IDs must include every catalog counterpart that imports a
 // changed family. No shared modules are eligible for this narrow replacement.
 const families={
+ 'assets/native-modern-batch50-kp.mjs':'modern-batch50-kp-',
+ 'assets/native-modern-batch50-crystal.mjs':'modern-batch50-crystal-',
+ 'assets/native-modern-batch50-periodic.mjs':'modern-batch50-periodic-',
+ 'assets/modern-batch50-periodic-specs.mjs':'modern-batch50-periodic-',
+ 'assets/native-optics-batch50.mjs':'opticsbatch50-',
  'assets/native-modern-next.mjs':'modern-next-',
  'assets/native-nuclear-next.mjs':'nuclearnext-',
  'assets/nuclear-next-physics.mjs':'nuclearnext-',
@@ -33,7 +38,7 @@ const replacements=new Map(rerun.results.map(row=>[row.id+'/'+row.width,row]));
 const superseded=base.results.filter(row=>replacements.has(row.id+'/'+row.width)&&!row.passed).map(({id,width,error,replayFromEnd})=>({id,width,error,replayFromEnd}));
 base.results=base.results.map(row=>replacements.get(row.id+'/'+row.width)||row);
 base.nativeModelHashes=rerun.nativeModelHashes;base.date=rerun.date;
-base.rerunHistory=[...(base.rerunHistory||[]),{date:rerun.date,report:process.env.PHYSICA_RERUN_REPORT||'docs/playback-rerun-report.json',ids,changedAssets,reason:'End replay resets current time and integration history immediately; finite playback bars never silently clamp an unbounded internal step. Slow authored timers are observed for up to5seconds.',supersededFailures:superseded}];
+base.rerunHistory=[...(base.rerunHistory||[]),{date:rerun.date,report:process.env.PHYSICA_RERUN_REPORT||'docs/playback-rerun-report.json',ids,changedAssets,reason:process.env.PHYSICA_RERUN_REASON||'End replay resets current time and integration history immediately; finite playback bars never silently clamp an unbounded internal step. Slow authored timers are observed for up to5seconds.',supersededFailures:superseded}];
 base.summary={animated:base.results.filter(row=>row.classification==='animated').length,equilibrium:base.results.filter(row=>row.classification==='equilibrium-input-tested').length,static:base.results.filter(row=>row.classification==='static').length,failed:base.results.filter(row=>!row.passed).length};
 assert.equal(base.results.length,catalog.length*base.widths.length);assert.equal(base.observed,base.expected);assert.equal(base.summary.failed,0);assert.equal(base.errors.length,0);
 fs.writeFileSync(new URL('docs/playback-ui-report.json',root),JSON.stringify(base,null,2)+'\n');

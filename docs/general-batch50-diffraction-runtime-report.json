@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-09T22:13:15.621Z",
+  "files": 2,
+  "nativeModelHashes": {
+    "assets/general-batch50-diffraction-physics.mjs": "b718c2788bc80adc36d5ef43cc394438d1060cc6a78e52091aed4cd0fad68099",
+    "assets/general-batch50-diffraction-specs.mjs": "7213a497ad8fd989935f496ebadbd7e167d352e417d93c28419d9c34210db962",
+    "tools/general-batch50-runtime-check.mjs": "a45266f4946ed443f8ed111e57f8d22ae1a585ce35a58108dc0c1cb3ea4038ec",
+    "tools/general-batch50-as3-compile.mjs": "1da0728d36225d9f10202b1ad200fdcb101ab9a817a49760a27133318009687a",
+    "tools/java/PhysicaAS3ObserverGeneralBatch50.as": "7e94765a38551fef9de607e90f87d58a3982bff914552c83f32285f82ded1e5a",
+    "tools/modern-next-as3-observer.mjs": "d27ed066a894d99092a0d4a34b6df8443dfc22a6e2e177b3417d84f5a262e626"
+  },
+  "observerABCSHA256": "0fa477e6f47d787b109c241a9669299e250d5841cef6f78b35fdaf528d766b39",
+  "comparisons": 24,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-5902d7f2b622b0a1",
+      "sha256": "495dbc63322cc288f41e54125c91296faf56995054eed0338093db14dea4dd4c",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 12,
+      "samples": [
+        {
+          "p": {
+            "sourceX": -300,
+            "sourceY": 0,
+            "wavelength": 49.99999999999999,
+            "observerX": 290,
+            "observerY": -20,
+            "amplitude": false
+          }
+        }
+      ],
+      "maxAbsoluteError": 0.00045603527122584087,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Actual original AS3 numeric readout at original default source/observer/wavelength. A/I swapped source caption interpreted using original checkbox. No complete input combination/runtime graphic claim."
+    },
+    {
+      "id": "flash-d0a345fd9ca9fb80",
+      "sha256": "878eedf4ee41a9c894d18eba0ffc852048c72f52b634b6cd78a8267d4ac3ebfc",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 12,
+      "samples": [
+        {
+          "p": {
+            "sourceX": -300,
+            "sourceY": 0,
+            "wavelength": 49.99999999999999,
+            "observerX": 290,
+            "observerY": -20,
+            "slitWidth": 50,
+            "amplitude": false
+          }
+        }
+      ],
+      "maxAbsoluteError": 0.00047454338390551243,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Actual original AS3 numeric readout at original default source/observer/wavelength. A/I swapped source caption interpreted using original checkbox. No complete input combination/runtime graphic claim."
+    }
+  ]
+}

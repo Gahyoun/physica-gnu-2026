@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-09T22:13:20.454Z",
+  "files": 10,
+  "nativeModelHashes": {
+    "assets/native-general-batch50-wave3d.mjs": "c656f25ba7568239ea4df5f6417790b2c19647c59602c4e1230892d7e9abab6f",
+    "assets/native-general-batch50-diffraction.mjs": "b65520fe4bd7b39df6325cc6ce09073032cc70542eb877ba8bd40eab57c040c5",
+    "assets/native-general-batch50-huygens.mjs": "c1893712ede3c15ca7413b62d694e84369d4444be70645d6a23829c324ba37f2",
+    "assets/general-batch50-wave3d-physics.mjs": "bfef1d23a36a8abb336949b31afcd4e0107ecb2dcbe715b7b25c8406c311308e",
+    "assets/general-batch50-diffraction-physics.mjs": "b718c2788bc80adc36d5ef43cc394438d1060cc6a78e52091aed4cd0fad68099",
+    "assets/general-batch50-huygens-physics.mjs": "f83bef82afc29cb3a21b00366422b539bae4d6ab0c2138c0f7cd20345552fb71"
+  },
+  "fullEquivalence": false,
+  "originalRuntimeVerified": false,
+  "scope": "Actual built textbook loader automatic mount, current SVG geometry motion and computed .65 graph alpha at tablet width768. The separate family UI reports cover all three widths and all controls.",
+  "results": [
+    {
+      "id": "flash-950c494257e606be",
+      "lesson": "2-1-3-5",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "flash-45ed219097e5e4b7",
+      "lesson": "2-1-3-5",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "flash-edfd93bc203f3a7c",
+      "lesson": "2-2-4-5",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "flash-2a0c40f98130c2e9",
+      "lesson": "2-2-4-5",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "flash-ff8cac6b230d7b3b",
+      "lesson": "2-2-4-7",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "flash-9fb7dd08524b7bb8",
+      "lesson": "2-2-4-6",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "flash-5902d7f2b622b0a1",
+      "lesson": "2-2-7-3",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "flash-d0a345fd9ca9fb80",
+      "lesson": "2-2-7-4",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "flash-76b941ad6c464dc4",
+      "lesson": "2-2-7-1",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "flash-ab7f7050005b8466",
+      "lesson": "2-2-7-1",
+      "width": 768,
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

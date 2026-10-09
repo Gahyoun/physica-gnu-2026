@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-09T22:09:58.253Z",
+  "files": 6,
+  "cases": 18,
+  "errors": 0,
+  "nativeModelHashes": {
+    "assets/general-batch50-wave3d-physics.mjs": "bfef1d23a36a8abb336949b31afcd4e0107ecb2dcbe715b7b25c8406c311308e",
+    "assets/general-batch50-wave3d-specs.mjs": "07092912a2c810bfbbeecfce51cb8a18fd4738f361ca6f227dee3a98c69e143b",
+    "assets/native-general-batch50-wave3d.mjs": "c656f25ba7568239ea4df5f6417790b2c19647c59602c4e1230892d7e9abab6f",
+    "assets/general-next-molecule-physics.mjs": "6cb617823800de9bbf9c9a7a80123ae7de8862e869fc18fef5f4f626d54e3c88",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "fullEquivalence": false,
+  "originalRuntimeVerified": false,
+  "scope": "Actual new SVG geometry movement, pause, end replay/bounded stop, speed, control min/max/default and visible-current CSV at 320/768/1360 in standalone fixture. No original runtime assertion.",
+  "results": [
+    {
+      "id": "flash-950c494257e606be",
+      "width": 320,
+      "checks": 9,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-45ed219097e5e4b7",
+      "width": 320,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-edfd93bc203f3a7c",
+      "width": 320,
+      "checks": 15,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-2a0c40f98130c2e9",
+      "width": 320,
+      "checks": 21,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-ff8cac6b230d7b3b",
+      "width": 320,
+      "checks": 15,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-9fb7dd08524b7bb8",
+      "width": 320,
+      "checks": 27,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-950c494257e606be",
+      "width": 768,
+      "checks": 9,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-45ed219097e5e4b7",
+      "width": 768,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-edfd93bc203f3a7c",
+      "width": 768,
+      "checks": 15,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-2a0c40f98130c2e9",
+      "width": 768,
+      "checks": 21,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-ff8cac6b230d7b3b",
+      "width": 768,
+      "checks": 15,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-9fb7dd08524b7bb8",
+      "width": 768,
+      "checks": 27,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-950c494257e606be",
+      "width": 1360,
+      "checks": 9,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-45ed219097e5e4b7",
+      "width": 1360,
+      "checks": 12,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-edfd93bc203f3a7c",
+      "width": 1360,
+      "checks": 15,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-2a0c40f98130c2e9",
+      "width": 1360,
+      "checks": 21,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-ff8cac6b230d7b3b",
+      "width": 1360,
+      "checks": 15,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-9fb7dd08524b7bb8",
+      "width": 1360,
+      "checks": 27,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    }
+  ]
+}

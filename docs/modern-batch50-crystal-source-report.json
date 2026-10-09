@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-09T22:04:37.818Z",
+  "nativeModelHashes": {
+    "assets/modern-batch50-crystal-physics.mjs": "46b16035d643ee2edd265af60653c9810c648ad4dedcf314458b8dc3a993fa1e",
+    "assets/modern-batch50-crystal-geometry.mjs": "e98f842fea6b84f9cd3c22d45f0ed423f0ec50d27ff8076a520bc44cdabfd0fe",
+    "assets/modern-batch50-crystal-specs.mjs": "b9fee4f65a2fd2a1a1b43b6c99828c01a40e8bd60522a36ed9148e588933a97e"
+  },
+  "files": 6,
+  "comparisons": 226344,
+  "originalRuntimeVerified": false,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-3973a4c3f880c119",
+      "type": "bucky",
+      "cases": 736,
+      "comparisons": 6104,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "privateSourceHash": "fd19104d58a3285db520d07111582dd9f825ffcccac110238ad41dc51fb3d84f",
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "All finite original layer/size/stack/interior/14-structure states: fresh execution of private original numerical scene construction compared with checked-in derived 3D coordinates and new native radius/visibility/link surface models. Camera arithmetic compared at four rotations and three finite distances. No original vector artwork/frame replay and no claim of actual Flash runtime or every pointer history."
+    },
+    {
+      "id": "flash-af4f16212ccf8747",
+      "type": "bcc",
+      "cases": 2378,
+      "comparisons": 19114,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "privateSourceHash": "c1d756854351adf7774811b095b342a172e16e6f0d3cc6d0d591a9809b15de16",
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "All finite original layer/size/stack/interior/14-structure states: fresh execution of private original numerical scene construction compared with checked-in derived 3D coordinates and new native radius/visibility/link surface models. Camera arithmetic compared at four rotations and three finite distances. No original vector artwork/frame replay and no claim of actual Flash runtime or every pointer history."
+    },
+    {
+      "id": "flash-5dfdb14cd72f10d7",
+      "type": "fcc",
+      "cases": 4576,
+      "comparisons": 55416,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "privateSourceHash": "e1b5268b1ab13bdc62826f625c063ee521a1ca40347a5ebe4d138ccbbfafccf7",
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "All finite original layer/size/stack/interior/14-structure states: fresh execution of private original numerical scene construction compared with checked-in derived 3D coordinates and new native radius/visibility/link surface models. Camera arithmetic compared at four rotations and three finite distances. No original vector artwork/frame replay and no claim of actual Flash runtime or every pointer history."
+    },
+    {
+      "id": "flash-d4588f2223e18e27",
+      "type": "hcp",
+      "cases": 6196,
+      "comparisons": 64800,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "privateSourceHash": "ddceb7ca172c34924ef1825a50bb335b424eebb19d36d46b1d526966b176763c",
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "All finite original layer/size/stack/interior/14-structure states: fresh execution of private original numerical scene construction compared with checked-in derived 3D coordinates and new native radius/visibility/link surface models. Camera arithmetic compared at four rotations and three finite distances. No original vector artwork/frame replay and no claim of actual Flash runtime or every pointer history."
+    },
+    {
+      "id": "flash-604a4b8318eb5170",
+      "type": "all",
+      "cases": 3614,
+      "comparisons": 53592,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "privateSourceHash": "2dab160d39bbc7662558f430428b242b02842c533b2b6f81ab225840643a96c3",
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "All finite original layer/size/stack/interior/14-structure states: fresh execution of private original numerical scene construction compared with checked-in derived 3D coordinates and new native radius/visibility/link surface models. Camera arithmetic compared at four rotations and three finite distances. No original vector artwork/frame replay and no claim of actual Flash runtime or every pointer history."
+    },
+    {
+      "id": "flash-3d6d80a0b8a51b59",
+      "type": "graphite",
+      "cases": 2530,
+      "comparisons": 27318,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "privateSourceHash": "9c1d378f11ca89acae2e1dbf3f15cad996c2fa066bf08a88e04669d72571ba2b",
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "All finite original layer/size/stack/interior/14-structure states: fresh execution of private original numerical scene construction compared with checked-in derived 3D coordinates and new native radius/visibility/link surface models. Camera arithmetic compared at four rotations and three finite distances. No original vector artwork/frame replay and no claim of actual Flash runtime or every pointer history."
+    }
+  ]
+}

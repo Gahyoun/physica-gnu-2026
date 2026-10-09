@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-09T22:13:15.621Z",
+  "files": 2,
+  "nativeModelHashes": {
+    "assets/general-batch50-huygens-physics.mjs": "f83bef82afc29cb3a21b00366422b539bae4d6ab0c2138c0f7cd20345552fb71",
+    "assets/general-batch50-huygens-specs.mjs": "7dfe56bc5ab3aa58c8f92290aa4c06a677b6d7ecf87536fc76f667787d981107",
+    "tools/general-batch50-runtime-check.mjs": "a45266f4946ed443f8ed111e57f8d22ae1a585ce35a58108dc0c1cb3ea4038ec",
+    "tools/general-batch50-as3-compile.mjs": "1da0728d36225d9f10202b1ad200fdcb101ab9a817a49760a27133318009687a",
+    "tools/java/PhysicaAS3ObserverGeneralBatch50.as": "7e94765a38551fef9de607e90f87d58a3982bff914552c83f32285f82ded1e5a",
+    "tools/modern-next-as3-observer.mjs": "d27ed066a894d99092a0d4a34b6df8443dfc22a6e2e177b3417d84f5a262e626"
+  },
+  "observerABCSHA256": "0fa477e6f47d787b109c241a9669299e250d5841cef6f78b35fdaf528d766b39",
+  "comparisons": 2025,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-76b941ad6c464dc4",
+      "sha256": "0745408eedd84181f258f076f7e5231b8977dd938b44d86755e979fe78dcf190",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 525,
+      "samples": [
+        {
+          "front": 1,
+          "rays": 35
+        },
+        {
+          "front": 2,
+          "rays": 35
+        },
+        {
+          "front": 3,
+          "rays": 35
+        }
+      ],
+      "maxAbsoluteError": 3.552713678800501e-15,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Bounded naturally advancing actual original AS3 Timer fronts: every public ray x/y/direction/outside/connect compared to native propagation from previous observed original front. The real random starting front is observed, never replaced. Secondary wave graphical output not inspected in runtime; independent source oracle covers it."
+    },
+    {
+      "id": "flash-ab7f7050005b8466",
+      "sha256": "6d4500a21059b0180f2e59bcaffd944fee968967e2608006af41c8571566751d",
+      "sha256Verified": true,
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 1500,
+      "samples": [
+        {
+          "front": 1,
+          "rays": 100
+        },
+        {
+          "front": 2,
+          "rays": 100
+        },
+        {
+          "front": 3,
+          "rays": 100
+        }
+      ],
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Bounded naturally advancing actual original AS3 Timer fronts: every public ray x/y/direction/outside/connect compared to native propagation from previous observed original front. The real random starting front is observed, never replaced. Secondary wave graphical output not inspected in runtime; independent source oracle covers it."
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+[
+  {
+    "id": "flash-3973a4c3f880c119",
+    "kind": "modern-batch50-crystal-flash-3973a4c3f880c119",
+    "type": "bucky",
+    "title": "버키볼",
+    "source": "buckyball.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/buckyball.swf",
+    "lesson": "6-8-1-3",
+    "animated": false,
+    "controls": [
+      {
+        "key": "size",
+        "label": "원자 접촉 크기",
+        "value": false,
+        "boolean": true,
+        "origin": "original"
+      },
+      {
+        "key": "inside",
+        "label": "내부 원자 표시",
+        "value": false,
+        "boolean": true,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "layers": 2,
+      "size": false,
+      "stack": true,
+      "inside": false,
+      "selection": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "camera": 1000
+    },
+    "sourceVariants": 4
+  },
+  {
+    "id": "flash-af4f16212ccf8747",
+    "kind": "modern-batch50-crystal-flash-af4f16212ccf8747",
+    "type": "bcc",
+    "title": "체심입방결정",
+    "source": "crystalBCC.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/crystalBCC.swf",
+    "lesson": "6-8-1-5",
+    "animated": false,
+    "controls": [
+      {
+        "key": "layers",
+        "label": "표시 층 수",
+        "min": 3,
+        "max": 9,
+        "step": 1,
+        "value": 5,
+        "origin": "original"
+      },
+      {
+        "key": "size",
+        "label": "원자 접촉 크기",
+        "value": true,
+        "boolean": true,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "layers": 5,
+      "size": true,
+      "stack": true,
+      "inside": false,
+      "selection": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "camera": 1000
+    },
+    "sourceVariants": 14
+  },
+  {
+    "id": "flash-5dfdb14cd72f10d7",
+    "kind": "modern-batch50-crystal-flash-5dfdb14cd72f10d7",
+    "type": "fcc",
+    "title": "면심입방결정",
+    "source": "crystalFCC.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/crystalFCC.swf",
+    "lesson": "6-8-1-5",
+    "animated": false,
+    "controls": [
+      {
+        "key": "layers",
+        "label": "표시 층 수",
+        "min": 3,
+        "max": 9,
+        "step": 1,
+        "value": 9,
+        "origin": "original"
+      },
+      {
+        "key": "size",
+        "label": "원자 접촉 크기",
+        "value": false,
+        "boolean": true,
+        "origin": "original"
+      },
+      {
+        "key": "stack",
+        "label": "평면 층 쌓기",
+        "value": true,
+        "boolean": true,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "layers": 9,
+      "size": false,
+      "stack": true,
+      "inside": false,
+      "selection": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "camera": 1000
+    },
+    "sourceVariants": 28
+  },
+  {
+    "id": "flash-d4588f2223e18e27",
+    "kind": "modern-batch50-crystal-flash-d4588f2223e18e27",
+    "type": "hcp",
+    "title": "육방밀집결정",
+    "source": "crystalHCP.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/crystalHCP.swf",
+    "lesson": "6-8-1-5",
+    "animated": false,
+    "controls": [
+      {
+        "key": "layers",
+        "label": "표시 층 수",
+        "min": 3,
+        "max": 9,
+        "step": 1,
+        "value": 3,
+        "origin": "original"
+      },
+      {
+        "key": "size",
+        "label": "원자 접촉 크기",
+        "value": true,
+        "boolean": true,
+        "origin": "original"
+      },
+      {
+        "key": "stack",
+        "label": "평면 층 쌓기",
+        "value": true,
+        "boolean": true,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "layers": 3,
+      "size": true,
+      "stack": true,
+      "inside": false,
+      "selection": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "camera": 1000
+    },
+    "sourceVariants": 28
+  },
+  {
+    "id": "flash-604a4b8318eb5170",
+    "kind": "modern-batch50-crystal-flash-604a4b8318eb5170",
+    "type": "all",
+    "title": "14개의 모든 결정구조",
+    "source": "crystalall.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/crystalall.swf",
+    "lesson": "6-8-1-6",
+    "animated": false,
+    "controls": [
+      {
+        "key": "selection",
+        "label": "결정구조",
+        "min": 0,
+        "max": 13,
+        "step": 1,
+        "value": 0,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "layers": 2,
+      "size": false,
+      "stack": true,
+      "inside": false,
+      "selection": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "camera": 1000
+    },
+    "sourceVariants": 14
+  },
+  {
+    "id": "flash-3d6d80a0b8a51b59",
+    "kind": "modern-batch50-crystal-flash-3d6d80a0b8a51b59",
+    "type": "graphite",
+    "title": "흑연",
+    "source": "graphite.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/graphite.swf",
+    "lesson": "6-8-1-3",
+    "animated": false,
+    "controls": [
+      {
+        "key": "layers",
+        "label": "표시 층 수",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "value": 2,
+        "origin": "original"
+      },
+      {
+        "key": "size",
+        "label": "원자 접촉 크기",
+        "value": false,
+        "boolean": true,
+        "origin": "original"
+      }
+    ],
+    "defaults": {
+      "layers": 2,
+      "size": false,
+      "stack": true,
+      "inside": false,
+      "selection": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "camera": 1000
+    },
+    "sourceVariants": 10
+  }
+]

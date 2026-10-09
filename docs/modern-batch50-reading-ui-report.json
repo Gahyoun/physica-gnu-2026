@@ -1,0 +1,647 @@
+{
+  "date": "2026-10-09T22:18:44.145Z",
+  "files": 15,
+  "cases": 45,
+  "errors": 0,
+  "nativeModelHashes": {
+    "assets/native-modern-batch50-kp.mjs": "96851279dcf5f574609ca91f7fa20285f5071ae2839153c3c7ed76bfe7dd0f88",
+    "assets/native-modern-batch50-crystal.mjs": "d9cfa259d02e3f850bdb1c91b98f4eb8a55580062dbc118277f0d1034eb229fb",
+    "assets/native-modern-batch50-periodic.mjs": "a0a3600fa2221864adb5f9f083836884af556c65de660ac4c4e51a90cea10d88",
+    "assets/modern-batch50-periodic-worker.mjs": "410ebab035e22c99d3927d2e33599793a97007ad5329695edbd67057ffaaa755"
+  },
+  "originalRuntimeVerified": false,
+  "fullEquivalence": false,
+  "scope": "Actual generated reading pages through production lazy loader at desktop/tablet/mobile widths, nativeReady mount and SVG geometry/overflow/static timeline checks. Family fixtures separately exercise original controls.",
+  "results": [
+    {
+      "id": "flash-53914b41579addb1",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-2.html#native-modern-batch50-kp-flash-53914b41579addb1",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 58,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-7d1bd6f3d3e471a8",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-4.html#native-modern-batch50-kp-flash-7d1bd6f3d3e471a8",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 28,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-33749597a3a3530a",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-5.html#native-modern-batch50-kp-flash-33749597a3a3530a",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 42,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-62b477d3943e2e98",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-1.html#native-modern-batch50-kp-flash-62b477d3943e2e98",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 20,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fc3ce23b69b5b802",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-3.html#native-modern-batch50-kp-flash-fc3ce23b69b5b802",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 20,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-bf3e75adb1d64087",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-6.html#native-modern-batch50-kp-flash-bf3e75adb1d64087",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 70,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3973a4c3f880c119",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-3.html#native-modern-batch50-crystal-flash-3973a4c3f880c119",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 150,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-af4f16212ccf8747",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-5.html#native-modern-batch50-crystal-flash-af4f16212ccf8747",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 140,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-5dfdb14cd72f10d7",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-5.html#native-modern-batch50-crystal-flash-5dfdb14cd72f10d7",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 403,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d4588f2223e18e27",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-5.html#native-modern-batch50-crystal-flash-d4588f2223e18e27",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 223,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-604a4b8318eb5170",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-6.html#native-modern-batch50-crystal-flash-604a4b8318eb5170",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 468,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3d6d80a0b8a51b59",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-3.html#native-modern-batch50-crystal-flash-3d6d80a0b8a51b59",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 212,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-ca88404bdd3be9c8",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-2-2.html#native-modern-batch50-periodic-flash-ca88404bdd3be9c8",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 233,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fbf5a8574e12d530",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-2-1.html#native-modern-batch50-periodic-flash-fbf5a8574e12d530",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 19,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-4d4d84fe8044b2dd",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-2-2.html#native-modern-batch50-periodic-flash-4d4d84fe8044b2dd",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 12,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-53914b41579addb1",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-2.html#native-modern-batch50-kp-flash-53914b41579addb1",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 58,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-7d1bd6f3d3e471a8",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-4.html#native-modern-batch50-kp-flash-7d1bd6f3d3e471a8",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 28,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-33749597a3a3530a",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-5.html#native-modern-batch50-kp-flash-33749597a3a3530a",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 42,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-62b477d3943e2e98",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-1.html#native-modern-batch50-kp-flash-62b477d3943e2e98",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 20,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fc3ce23b69b5b802",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-3.html#native-modern-batch50-kp-flash-fc3ce23b69b5b802",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 20,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-bf3e75adb1d64087",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-6.html#native-modern-batch50-kp-flash-bf3e75adb1d64087",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 70,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3973a4c3f880c119",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-3.html#native-modern-batch50-crystal-flash-3973a4c3f880c119",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 150,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-af4f16212ccf8747",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-5.html#native-modern-batch50-crystal-flash-af4f16212ccf8747",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 140,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-5dfdb14cd72f10d7",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-5.html#native-modern-batch50-crystal-flash-5dfdb14cd72f10d7",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 403,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d4588f2223e18e27",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-5.html#native-modern-batch50-crystal-flash-d4588f2223e18e27",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 223,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-604a4b8318eb5170",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-6.html#native-modern-batch50-crystal-flash-604a4b8318eb5170",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 468,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3d6d80a0b8a51b59",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-3.html#native-modern-batch50-crystal-flash-3d6d80a0b8a51b59",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 212,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-ca88404bdd3be9c8",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-2-2.html#native-modern-batch50-periodic-flash-ca88404bdd3be9c8",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 233,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fbf5a8574e12d530",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-2-1.html#native-modern-batch50-periodic-flash-fbf5a8574e12d530",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 19,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-4d4d84fe8044b2dd",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-2-2.html#native-modern-batch50-periodic-flash-4d4d84fe8044b2dd",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 12,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-53914b41579addb1",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-2.html#native-modern-batch50-kp-flash-53914b41579addb1",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 58,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-7d1bd6f3d3e471a8",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-4.html#native-modern-batch50-kp-flash-7d1bd6f3d3e471a8",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 28,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-33749597a3a3530a",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-5.html#native-modern-batch50-kp-flash-33749597a3a3530a",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 42,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-62b477d3943e2e98",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-1.html#native-modern-batch50-kp-flash-62b477d3943e2e98",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 20,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fc3ce23b69b5b802",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-3.html#native-modern-batch50-kp-flash-fc3ce23b69b5b802",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 20,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-bf3e75adb1d64087",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-3-6.html#native-modern-batch50-kp-flash-bf3e75adb1d64087",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 70,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3973a4c3f880c119",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-3.html#native-modern-batch50-crystal-flash-3973a4c3f880c119",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 150,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-af4f16212ccf8747",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-5.html#native-modern-batch50-crystal-flash-af4f16212ccf8747",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 140,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-5dfdb14cd72f10d7",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-5.html#native-modern-batch50-crystal-flash-5dfdb14cd72f10d7",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 403,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d4588f2223e18e27",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-5.html#native-modern-batch50-crystal-flash-d4588f2223e18e27",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 223,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-604a4b8318eb5170",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-6.html#native-modern-batch50-crystal-flash-604a4b8318eb5170",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 468,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-3d6d80a0b8a51b59",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-3.html#native-modern-batch50-crystal-flash-3d6d80a0b8a51b59",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 212,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-ca88404bdd3be9c8",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-2-2.html#native-modern-batch50-periodic-flash-ca88404bdd3be9c8",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 233,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fbf5a8574e12d530",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-2-1.html#native-modern-batch50-periodic-flash-fbf5a8574e12d530",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 19,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-4d4d84fe8044b2dd",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-2-2.html#native-modern-batch50-periodic-flash-4d4d84fe8044b2dd",
+      "passed": true,
+      "failures": [],
+      "ready": "true",
+      "svgGeometry": 12,
+      "darkInk": {
+        "svg": "rgb(230, 237, 242)",
+        "text": "rgb(230, 237, 242)"
+      },
+      "originalRuntimeVerified": false
+    }
+  ]
+}

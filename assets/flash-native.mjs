@@ -106,3 +106,19 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="m
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-next-boundary-"]'))await import('./native-general-next-boundary.mjs');
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="opticsnextsurface-"]'))await import('./native-optics-next-surfaces.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="nuclear-batch50-diagrams-"]'))await import('./native-nuclear-batch50-diagrams.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-batch50-wave3d-"]'))await import('./native-general-batch50-wave3d.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-batch50-kp-"]'))await import('./native-modern-batch50-kp.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="opticsbatch50-"]'))await import('./native-optics-batch50.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-batch50-diffraction-"]'))await import('./native-general-batch50-diffraction.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-batch50-huygens-"]'))await import('./native-general-batch50-huygens.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-batch50-crystal-"]'))await import('./native-modern-batch50-crystal.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-batch50-periodic-"]'))await import('./native-modern-batch50-periodic.mjs');

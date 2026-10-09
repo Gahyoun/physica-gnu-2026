@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-09T22:13:27.183Z",
+  "files": 2,
+  "cases": 6,
+  "errors": 0,
+  "nativeModelHashes": {
+    "assets/general-batch50-diffraction-physics.mjs": "b718c2788bc80adc36d5ef43cc394438d1060cc6a78e52091aed4cd0fad68099",
+    "assets/general-batch50-diffraction-specs.mjs": "7213a497ad8fd989935f496ebadbd7e167d352e417d93c28419d9c34210db962",
+    "assets/native-general-batch50-diffraction.mjs": "b65520fe4bd7b39df6325cc6ce09073032cc70542eb877ba8bd40eab57c040c5",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "fullEquivalence": false,
+  "originalRuntimeVerified": false,
+  "scope": "Actual new SVG geometry movement, pause, end replay/bounded stop, speed, control min/max/default and visible-current CSV at 320/768/1360 in standalone fixture. No original runtime assertion.",
+  "results": [
+    {
+      "id": "flash-5902d7f2b622b0a1",
+      "width": 320,
+      "checks": 18,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d0a345fd9ca9fb80",
+      "width": 320,
+      "checks": 22,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-5902d7f2b622b0a1",
+      "width": 768,
+      "checks": 18,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d0a345fd9ca9fb80",
+      "width": 768,
+      "checks": 22,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-5902d7f2b622b0a1",
+      "width": 1360,
+      "checks": 18,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-d0a345fd9ca9fb80",
+      "width": 1360,
+      "checks": 22,
+      "passed": true,
+      "failures": [],
+      "originalRuntimeVerified": false
+    }
+  ]
+}

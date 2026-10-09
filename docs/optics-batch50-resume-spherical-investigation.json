@@ -1,0 +1,1496 @@
+{
+  "date": "2026-10-09T22:22:01.695Z",
+  "width": 320,
+  "sequence": "Actual reading-page click; 10x200ms natural play; pause if active; 200ms pause; resume; 5x50ms sampling. No asset changes or original calculations modified.",
+  "results": [
+    {
+      "id": "flash-57d7d50ac0840183",
+      "source": "focalsphericalsim1.swf",
+      "href": "lesson-5-2-1-1.html#native-opticsbatch50-flash-57d7d50ac0840183",
+      "states": [
+        {
+          "label": "initial",
+          "at": 1480.4000000953674,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 0,
+          "completed": false,
+          "button": "재생",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "bb49be28c4a9f9f84b70ff3d0e31fffd2325902e5784eaa394f1dcfc9d108c7f"
+        },
+        {
+          "label": "initial-click",
+          "at": 1528.4000000953674,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 0,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "bb49be28c4a9f9f84b70ff3d0e31fffd2325902e5784eaa394f1dcfc9d108c7f"
+        },
+        {
+          "label": "play-200ms",
+          "at": 1738.7000000476837,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "c2fe69db7e70f71744070aee826251025b46d10467e4bc45fdfbd4d5d35be544"
+        },
+        {
+          "label": "play-400ms",
+          "at": 1947.1000000238419,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 8,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "15edc96988e90b005c7387ce61627d04d25dd8873897e2bb52ae07b00207eefc"
+        },
+        {
+          "label": "play-600ms",
+          "at": 2156.9000000953674,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 12,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "a5d72d6e702dc23e1da29bcc8769f9a3a522c3e06497129fe4af7a5caae3941d"
+        },
+        {
+          "label": "play-800ms",
+          "at": 2367.3000000715256,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 17,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "d71ec0f2b0491fe91155ecd03e871a9a9e91ae07cd3f46519e0f5ec58e52f503"
+        },
+        {
+          "label": "play-1000ms",
+          "at": 2574.4000000953674,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 21,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "4d287bf8fadf18aff9527fcc39c8b3a8f1776b335c1583ad58575185b26f82f2"
+        },
+        {
+          "label": "play-1200ms",
+          "at": 2780.9000000953674,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 25,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "be1330f1b6b46fabee26a45241a4846b5b73d9a931660812ee1e3e8a3c171568"
+        },
+        {
+          "label": "play-1400ms",
+          "at": 2987.2000000476837,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 29,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "fed889af9ddaff787d34a681d4fe1b2940d07a2e73512a199815392c09c71cb9"
+        },
+        {
+          "label": "play-1600ms",
+          "at": 3192.3000000715256,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 33,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "332f18021c2f8fa8229e8e0e314f011389f7bd45eb282ea2b0bab11a50a2e9f9"
+        },
+        {
+          "label": "play-1800ms",
+          "at": 3398.100000023842,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 37,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "497515dfee51daffb037f8ae85e79b2efe75910374477201ff70729c015a049b"
+        },
+        {
+          "label": "play-2000ms",
+          "at": 3605.5,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 41,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "caae9c1aa45580842940fde3af1f0ca93852a66b651d29ecb3f5bc297e899698"
+        },
+        {
+          "label": "pause-click",
+          "at": 3643.2000000476837,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 42,
+          "completed": false,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "90a708d7bb512b2a6322ff59b60b4c51a06e416e3a365b6b2c731a352d1db562"
+        },
+        {
+          "label": "pause-200ms",
+          "at": 3850.2000000476837,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 42,
+          "completed": false,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "90a708d7bb512b2a6322ff59b60b4c51a06e416e3a365b6b2c731a352d1db562"
+        },
+        {
+          "label": "resume-click",
+          "at": 3865.600000023842,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 42,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "90a708d7bb512b2a6322ff59b60b4c51a06e416e3a365b6b2c731a352d1db562"
+        },
+        {
+          "label": "resume-50ms",
+          "at": 3921.5,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 42,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "90a708d7bb512b2a6322ff59b60b4c51a06e416e3a365b6b2c731a352d1db562"
+        },
+        {
+          "label": "resume-100ms",
+          "at": 3977.2000000476837,
+          "readouts": {
+            "imageTxt": "실상 (357.41, 0)",
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 43,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "10cc518f129af983c725e01e4275ea825ea113720a47b2b498da489831fadda3"
+        },
+        {
+          "label": "resume-150ms",
+          "at": 4032.9000000953674,
+          "readouts": {
+            "imageTxt": "실상 (357.41, 0)",
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 43,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "10cc518f129af983c725e01e4275ea825ea113720a47b2b498da489831fadda3"
+        },
+        {
+          "label": "resume-200ms",
+          "at": 4090,
+          "readouts": {
+            "imageTxt": "실상 (357.41, 0)",
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 43,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "10cc518f129af983c725e01e4275ea825ea113720a47b2b498da489831fadda3"
+        },
+        {
+          "label": "resume-250ms",
+          "at": 4147.700000047684,
+          "readouts": {
+            "imageTxt": "실상 (357.41, 0)",
+            "nTxt": "구면매질 굴절률 1.81",
+            "curvTxt": "곡률반경 160",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 43,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "10cc518f129af983c725e01e4275ea825ea113720a47b2b498da489831fadda3"
+        }
+      ],
+      "resumeCompletedNaturally": true,
+      "nativePauseEvents": 0,
+      "resumeGeometryChanged": true
+    },
+    {
+      "id": "flash-57d7d50ac0840183",
+      "source": "focalsphericalsim1.swf",
+      "href": "lesson-5-2-1-1.html#native-opticsbatch50-flash-57d7d50ac0840183",
+      "states": [
+        {
+          "label": "initial",
+          "at": 1432.5,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 0,
+          "completed": false,
+          "button": "재생",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "88093581cc858b2630a57d7ff03aa6ed4ce058b62f6aef4895380c47d40fb04c"
+        },
+        {
+          "label": "initial-click",
+          "at": 1480.2999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 0,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "88093581cc858b2630a57d7ff03aa6ed4ce058b62f6aef4895380c47d40fb04c"
+        },
+        {
+          "label": "play-200ms",
+          "at": 1688.6000000238419,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "a0e27e6f2f37708019fec6ddd53b91019ab0ff7174c6433f6e9f3c5676d1f470"
+        },
+        {
+          "label": "play-400ms",
+          "at": 1907,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 8,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "09bff922e817f16b096c1d7b12b4787321ebb2f1808457149ba9627fe2698fa7"
+        },
+        {
+          "label": "play-600ms",
+          "at": 2118.7999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 12,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "c7c2cfde6551bc7fec40659f607225b07ee627515eaa325e05b5b27a5e922701"
+        },
+        {
+          "label": "play-800ms",
+          "at": 2325.1999999284744,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 16,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8eb262b13256fc337ea77c5b7d9f63cbef06188197a3bb094163cfbd2930fe0a"
+        },
+        {
+          "label": "play-1000ms",
+          "at": 2534.2999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 21,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8b5d3211760a7cc7c538632dd8d98c70305ca6d2006e2ddd3c81a43375782e1b"
+        },
+        {
+          "label": "play-1200ms",
+          "at": 2740,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 25,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "002c9349ba9a4682771fc8f86ce2f2d7d3d48bfba5b9aecb8c5d8e86773b2e60"
+        },
+        {
+          "label": "play-1400ms",
+          "at": 2947.1999999284744,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 29,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "3361a276184d1620e4db6f932b9fff41be8458f9a744259c8f74956615500f9c"
+        },
+        {
+          "label": "play-1600ms",
+          "at": 3152.6999999284744,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 33,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "aece986db3ea106d8b07b6447fbfede0b59afac52f76eb0e769fd22b3f330ecd"
+        },
+        {
+          "label": "play-1800ms",
+          "at": 3359.899999976158,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 37,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8ef4133da396774e0534e6dccaf3592dc700065ac2f08e5920608b3042570d8c"
+        },
+        {
+          "label": "play-2000ms",
+          "at": 3566.100000023842,
+          "readouts": {
+            "imageTxt": "실상 (273.79, 0)",
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 39,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "b8637c643d8bfeec343d0e98b0d621fb56e8ad429a058c5bc00551cde611b20a"
+        },
+        {
+          "label": "pause-click",
+          "at": 3572.100000023842,
+          "readouts": {
+            "imageTxt": "실상 (273.79, 0)",
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 39,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "b8637c643d8bfeec343d0e98b0d621fb56e8ad429a058c5bc00551cde611b20a"
+        },
+        {
+          "label": "pause-200ms",
+          "at": 3778.600000023842,
+          "readouts": {
+            "imageTxt": "실상 (273.79, 0)",
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 39,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "b8637c643d8bfeec343d0e98b0d621fb56e8ad429a058c5bc00551cde611b20a"
+        },
+        {
+          "label": "resume-click",
+          "at": 3799.600000023842,
+          "readouts": {
+            "imageTxt": "실상 (273.79, 0)",
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 39,
+          "completed": true,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "b8637c643d8bfeec343d0e98b0d621fb56e8ad429a058c5bc00551cde611b20a"
+        },
+        {
+          "label": "resume-50ms",
+          "at": 3857.7999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 (179.25, 0)"
+          },
+          "step": 1,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "ee513154ce04912ce55ca89d9a4c5db908311950c1fb6232a8a76f4cfa79bed9"
+        },
+        {
+          "label": "resume-100ms",
+          "at": 3914.399999976158,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 (179.25, 0)"
+          },
+          "step": 2,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "af72c4ff372e626515ef9410b1f739b33b303dfce8468bdd6227f27b7d228af7"
+        },
+        {
+          "label": "resume-150ms",
+          "at": 3968.600000023842,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 (179.25, 0)"
+          },
+          "step": 3,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "d27d0f378d8c97370739f3197edda2c7a32aec39a647856ecaaec185afe83133"
+        },
+        {
+          "label": "resume-200ms",
+          "at": 4022.7999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 (179.25, 0)"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "f5769d5bbf5613f08c170b31224fbcdf18bcef53773143b0ef40e89af2960133"
+        },
+        {
+          "label": "resume-250ms",
+          "at": 4077.100000023842,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.53",
+            "curvTxt": "곡률반경 95",
+            "obj2Txt": "실물체 (179.25, 0)"
+          },
+          "step": 5,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "06504e2cd533752b577b14964bdddc28c3c649cb5c9a04d97e1f49ccf472089a"
+        }
+      ],
+      "resumeCompletedNaturally": false,
+      "nativePauseEvents": 0,
+      "resumeGeometryChanged": true
+    },
+    {
+      "id": "flash-57d7d50ac0840183",
+      "source": "focalsphericalsim1.swf",
+      "href": "lesson-5-2-1-1.html#native-opticsbatch50-flash-57d7d50ac0840183",
+      "states": [
+        {
+          "label": "initial",
+          "at": 1446.3999999761581,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 0,
+          "completed": false,
+          "button": "재생",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "24656bfedbf7abb4f9d53c96c8e70653c5bb06b564ec60d9de82c0960f815c34"
+        },
+        {
+          "label": "initial-click",
+          "at": 1458.8999999761581,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 0,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "24656bfedbf7abb4f9d53c96c8e70653c5bb06b564ec60d9de82c0960f815c34"
+        },
+        {
+          "label": "play-200ms",
+          "at": 1662.7999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 3,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "00a5b3f1d0496f7a9a4bc810837d63bb180abaccec0671338de8dcef9082c6ad"
+        },
+        {
+          "label": "play-400ms",
+          "at": 1865.7999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 7,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "c2e1ee452ec9db5185b06a1a238e7abb6fc56c1717fc2c40cfa8f5e4599dbbf0"
+        },
+        {
+          "label": "play-600ms",
+          "at": 2071.2999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 11,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "527c5c01e154550c0d0d02e55b70976d270a26a963e498c922d85d8eaaf1dec8"
+        },
+        {
+          "label": "play-800ms",
+          "at": 2274.899999976158,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 15,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "e001fe9e3b0e4409d3f1189b83eee9dc9d1fcce8d068dc762c2ab9555eeb06f5"
+        },
+        {
+          "label": "play-1000ms",
+          "at": 2487.600000023842,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 20,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "31b6f74ee1c2bd9489056762fa85da303425ae6c14e7aecb72f581cbc4444141"
+        },
+        {
+          "label": "play-1200ms",
+          "at": 2694.6999999284744,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 24,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "59fce7fbce347c26749758507cfd6f781dbd3132fc77e1c06f81891af240a619"
+        },
+        {
+          "label": "play-1400ms",
+          "at": 2901.7999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 28,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "982691e9b474c4005e733e09182c4ffb4a65f2e44e8998c80a0334e5cdc19213"
+        },
+        {
+          "label": "play-1600ms",
+          "at": 3107.1999999284744,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 32,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "4088a64b6e470ab78382a0991c3599d6c12c37af03bd8e6e8b73f2146c5e1c39"
+        },
+        {
+          "label": "play-1800ms",
+          "at": 3314.6999999284744,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 36,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "652264718f9c356e60a4293d7ee531094f01ab41b61cc1d6424d6719b2c337bf"
+        },
+        {
+          "label": "play-2000ms",
+          "at": 3521.399999976158,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 40,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "f6325ecc0b9a051b297589a533a9d4d7308b3a9e72766a2017568feb9312c12c"
+        },
+        {
+          "label": "pause-click",
+          "at": 3547.399999976158,
+          "readouts": {
+            "imageTxt": "실상 (327.65, 0)",
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 41,
+          "completed": true,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "cab545286fc80a55ca262edd16eba6c9fbe2d35da6ce456d78851da92d7a7153"
+        },
+        {
+          "label": "pause-200ms",
+          "at": 3755,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 (192.86, 0)"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8d367c29e45c514836c9f28424ab2561815c8250901a213aeab2ee6f16691dfe"
+        },
+        {
+          "label": "resume-click",
+          "at": 3771.6999999284744,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 (192.86, 0)"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8d367c29e45c514836c9f28424ab2561815c8250901a213aeab2ee6f16691dfe"
+        },
+        {
+          "label": "resume-50ms",
+          "at": 3826.399999976158,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 (192.86, 0)"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8d367c29e45c514836c9f28424ab2561815c8250901a213aeab2ee6f16691dfe"
+        },
+        {
+          "label": "resume-100ms",
+          "at": 3880.1999999284744,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 (192.86, 0)"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8d367c29e45c514836c9f28424ab2561815c8250901a213aeab2ee6f16691dfe"
+        },
+        {
+          "label": "resume-150ms",
+          "at": 3935.100000023842,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 (192.86, 0)"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8d367c29e45c514836c9f28424ab2561815c8250901a213aeab2ee6f16691dfe"
+        },
+        {
+          "label": "resume-200ms",
+          "at": 3989,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 (192.86, 0)"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8d367c29e45c514836c9f28424ab2561815c8250901a213aeab2ee6f16691dfe"
+        },
+        {
+          "label": "resume-250ms",
+          "at": 4044.1999999284744,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.7",
+            "curvTxt": "곡률반경 135",
+            "obj2Txt": "실물체 (192.86, 0)"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8d367c29e45c514836c9f28424ab2561815c8250901a213aeab2ee6f16691dfe"
+        }
+      ],
+      "resumeCompletedNaturally": false,
+      "nativePauseEvents": 0,
+      "resumeGeometryChanged": false
+    },
+    {
+      "id": "flash-57d7d50ac0840183",
+      "source": "focalsphericalsim1.swf",
+      "href": "lesson-5-2-1-1.html#native-opticsbatch50-flash-57d7d50ac0840183",
+      "states": [
+        {
+          "label": "initial",
+          "at": 1434.3999999761581,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 0,
+          "completed": false,
+          "button": "재생",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "2d74f140cbc3aaef0f7201884a8fa0462f63484b0315df9af80310606a477c8b"
+        },
+        {
+          "label": "initial-click",
+          "at": 1458.7000000476837,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 0,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "2d74f140cbc3aaef0f7201884a8fa0462f63484b0315df9af80310606a477c8b"
+        },
+        {
+          "label": "play-200ms",
+          "at": 1663.5,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 3,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "0df7f35597f8147c6cfed0aff44bbc46ac8bd93c9d7e4237bb141cecc909f841"
+        },
+        {
+          "label": "play-400ms",
+          "at": 1867.7000000476837,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 7,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "d9747f8096ce3479a23f4e30e3430f394619c4246d12cab7160f30d62ef354f7"
+        },
+        {
+          "label": "play-600ms",
+          "at": 2074.899999976158,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 11,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "167f8ac58551819390e4f34a96682d8cf101b654376cb41c689ed25a145cb0d3"
+        },
+        {
+          "label": "play-800ms",
+          "at": 2280.399999976158,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 15,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "7ca84081f935f9c27167ca3c81753bf169e34b7150641cab17b23faf3ecf6511"
+        },
+        {
+          "label": "play-1000ms",
+          "at": 2485.7999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 19,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "5b5ec7aa2a68e83cecc9f79e1ff793bd92325529b91ae2791b377b31474a4ff5"
+        },
+        {
+          "label": "play-1200ms",
+          "at": 2691.7000000476837,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 23,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "c5f7b25a915e2e8b3ef99bd518155c412deef225def1f58c2bdf86635a14a462"
+        },
+        {
+          "label": "play-1400ms",
+          "at": 2902.100000023842,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 28,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "913a9e0bf53a76757d40ae6aa383afd5ff537d98026f71e89bb9783acc3ec3ed"
+        },
+        {
+          "label": "play-1600ms",
+          "at": 3108.7999999523163,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 32,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "8dc0de73aeb9fe344ba2f11a357a62ae716d29ca493c6fb7a68ab92b195af242"
+        },
+        {
+          "label": "play-1800ms",
+          "at": 3319,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 36,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "f90996fb5e2f991ea41313a1a1c431cdda3181257f3739c67a7b385a90331712"
+        },
+        {
+          "label": "play-2000ms",
+          "at": 3525.7000000476837,
+          "readouts": {
+            "imageTxt": "실상 (361.96, 0)",
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 40,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "7195bddf65b18d2c33796c316ce1972be05f36960a1488109b87b02581887af9"
+        },
+        {
+          "label": "pause-click",
+          "at": 3531.2000000476837,
+          "readouts": {
+            "imageTxt": "실상 (361.96, 0)",
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 40,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "7195bddf65b18d2c33796c316ce1972be05f36960a1488109b87b02581887af9"
+        },
+        {
+          "label": "pause-200ms",
+          "at": 3737.100000023842,
+          "readouts": {
+            "imageTxt": "실상 (361.96, 0)",
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 40,
+          "completed": true,
+          "button": "재생",
+          "nativePlaying": "false",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "7195bddf65b18d2c33796c316ce1972be05f36960a1488109b87b02581887af9"
+        },
+        {
+          "label": "resume-click",
+          "at": 3793.2999999523163,
+          "readouts": {
+            "imageTxt": "실상 (361.96, 0)",
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 무한대"
+          },
+          "step": 40,
+          "completed": true,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1124.1875,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "7195bddf65b18d2c33796c316ce1972be05f36960a1488109b87b02581887af9"
+        },
+        {
+          "label": "resume-50ms",
+          "at": 3854.899999976158,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 (222.22, 0)"
+          },
+          "step": 1,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "edef9ead119ea2ba34fdfb5f653f5ca2138b9d72d9d23da00de2355a71fddf2a"
+        },
+        {
+          "label": "resume-100ms",
+          "at": 3912.2000000476837,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 (222.22, 0)"
+          },
+          "step": 3,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "ff068da2ce57eaaeceb77e8ea3e4ea259040d53cfd75dd67a61abc6767cd395b"
+        },
+        {
+          "label": "resume-150ms",
+          "at": 3968.7000000476837,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 (222.22, 0)"
+          },
+          "step": 4,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "2a2a72db8c9fa060db0f6469b418a5bb0c56cacf65fae5a8e397b51680024aef"
+        },
+        {
+          "label": "resume-200ms",
+          "at": 4023.100000023842,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 (222.22, 0)"
+          },
+          "step": 5,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "12d06cfd05d7596330d10dd5e3451428b2bde15f49988957d1cb1be41533836d"
+        },
+        {
+          "label": "resume-250ms",
+          "at": 4078.5,
+          "readouts": {
+            "nTxt": "구면매질 굴절률 1.63",
+            "curvTxt": "곡률반경 140",
+            "obj2Txt": "실물체 (222.22, 0)"
+          },
+          "step": 6,
+          "completed": false,
+          "button": "일시정지",
+          "nativePlaying": "true",
+          "visibleTop": 0.125,
+          "visibleBottom": 1044,
+          "hidden": false,
+          "pauseEvents": [],
+          "geometrySHA256": "2e63c6dd4a3ea97fd3ab03ef1a47dbf3d03f836f862d8ca1e3fbc9ef62f8360b"
+        }
+      ],
+      "resumeCompletedNaturally": false,
+      "nativePauseEvents": 0,
+      "resumeGeometryChanged": true
+    }
+  ]
+}

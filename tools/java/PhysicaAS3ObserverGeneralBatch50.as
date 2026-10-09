@@ -1,0 +1,22 @@
+package {import flash.display.MovieClip;
+import flash.events.Event;
+public dynamic class PhysicaAS3ObserverGeneralBatch50 extends MovieClip {public function PhysicaAS3ObserverGeneralBatch50(){super();
+addEventListener(Event.ENTER_FRAME,observe);
+}private function observe(e:Event):void{var r:Object=root;
+if(r==this)return;
+try{var t:String="PHYSICA_RT";
+var names:Array=["currentTime","wavelength","mMode1","nMode1","mMode2","nMode2","modeN","ordN","xLength","phase","xposi","yposi","xposi2","yposi2","slitWidth","wavenumber"];
+var key:String;
+for each(key in names)if(key in r)t+="|"+key+"="+r[key];
+if("startBtn" in r)t+="|button.x="+r.startBtn.x+"|button.y="+r.startBtn.y+"|button.width="+r.startBtn.width+"|button.height="+r.startBtn.height;
+if("amplitudeChk" in r)t+="|amplitude="+r.amplitudeChk.isChecked;
+if("dataTxt" in r)t+="|dataText="+r.dataTxt.text;
+if("dataArray" in r){var grid:Object=r.dataArray;
+for each(var i:int in [0,5,10,20,30,40,50])if(i<grid.length)for each(var j:int in [0,5,10,20,30,40,50])if(j<grid[i].length)t+="|grid."+i+"."+j+"="+grid[i][j];
+}if("wf" in r&&r.wf!=null){var rays:Array=r.wf.ray;
+for(var k:int=0;
+k<rays.length;
+k++)t+="|ray."+k+".x="+rays[k].p.x+"|ray."+k+".y="+rays[k].p.y+"|ray."+k+".dir="+rays[k].p.dir+"|ray."+k+".out="+rays[k].isOut+"|ray."+k+".connect="+rays[k].connect;
+}trace(t);
+}catch(error:Error){trace("PHYSICA_RT|observerError="+error.message);
+}}}}

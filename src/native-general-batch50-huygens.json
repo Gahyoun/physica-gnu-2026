@@ -1,0 +1,30 @@
+[
+  {
+    "id": "flash-76b941ad6c464dc4",
+    "type": "circular",
+    "title": "호이겐스의 원리",
+    "source": "simhuygence1.swf",
+    "animated": true,
+    "fps": 20,
+    "max": 4200,
+    "controls": [],
+    "seed": 2026,
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/wavediffraction/simhuygence1.swf",
+    "sourceRuntime": "pending-bounded-avm2-observer",
+    "lesson": "2-2-7-1"
+  },
+  {
+    "id": "flash-ab7f7050005b8466",
+    "type": "fresnel",
+    "title": "호이겐스-프레넬 파면",
+    "source": "simhuygencefre1.swf",
+    "animated": true,
+    "fps": 20,
+    "max": 4200,
+    "controls": [],
+    "seed": 2026,
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/wavediffraction/simhuygencefre1.swf",
+    "sourceRuntime": "pending-bounded-avm2-observer",
+    "lesson": "2-2-7-1"
+  }
+]

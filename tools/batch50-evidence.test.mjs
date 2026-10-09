@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';
+const root=new URL('../',import.meta.url),read=p=>JSON.parse(fs.readFileSync(new URL(p,root))),current=report=>{for(const [f,h] of Object.entries(report.nativeModelHashes))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(f,root))).digest('hex'),h,'Stale '+f);};
+test('The next parallel batch contains exactly fifty distinct, individually evidenced ports',()=>{
+ const r=read('docs/parallel-remaster-batch50-01-report.json'),a=read('docs/parallel-remaster-batch50-01.json'),c=read('assets/flash-catalog.json').files;assert.equal(r.batchSize,50);assert.equal(r.completed,50);assert.equal(r.totalHTML,399);assert.equal(r.remaining,119);assert.equal(new Set(r.results.map(v=>v.id)).size,50);assert.equal(r.baselineHTML,a.baselineHTML);assert.equal(r.fullOriginalEquivalence,false);
+ for(const v of r.results){const file=c.find(f=>f.id===v.id);assert.equal(v.htmlHref,file.nativeHref);assert.equal(v.originalSHA256,file.sha256);for(const path of [v.sourceReport,v.uiReport]){const report=read(path);current(report);assert.ok(report.results.filter(q=>q.id===v.id).every(q=>q.passed));}assert.equal(v.allOriginalInputHistoriesCompared,false);}
+});
+test('New nuclear originals retain natural frame coverage and original tag bytes',()=>{
+ const r=read('docs/nuclear-batch50-timeline-runtime-report.json');current(r);assert.equal(r.passed,true);assert.equal(r.files,5);assert.equal(r.rootFramesObserved,158);for(const v of r.results){assert.equal(v.passed,true);assert.equal(v.originalTagsByteIdentical,true);assert.equal(v.originalTimerUnchanged,true);assert.equal(v.framesObserved.length,v.expectedFrames);assert.deepEqual(v.sequenceErrors,[]);assert.equal(v.fullEquivalence,false);}
+});

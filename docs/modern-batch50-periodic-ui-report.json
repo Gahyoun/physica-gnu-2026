@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-09T22:17:50.995Z",
+  "nativeModelHashes": {
+    "assets/native-modern-batch50-periodic.mjs": "a0a3600fa2221864adb5f9f083836884af556c65de660ac4c4e51a90cea10d88",
+    "assets/modern-batch50-periodic-physics.mjs": "ae65d964ed83b07cc1a3ff8d81a414d01794553fabc957aa46213728a4ed0fd4",
+    "assets/modern-batch50-quantum-engine.mjs": "391a49e0e9142cf84df8dec8a6138f141f4211df989916dc3ee55b3ebb499cf8",
+    "assets/modern-batch50-periodic-worker.mjs": "410ebab035e22c99d3927d2e33599793a97007ad5329695edbd67057ffaaa755",
+    "assets/modern-batch50-periodic-specs.mjs": "fae15021401de8d24237cd93e7c7607a82a374f41e66901d503829f65805323c"
+  },
+  "files": 3,
+  "cases": 9,
+  "errors": 0,
+  "fullEquivalence": false,
+  "originalRuntimeVerified": false,
+  "scope": "Actual new SVG rendering and input/playback checks at 320,768,1360 widths in a standalone fixture. Each finite control min/max/default or both check states; end replay, pause, active state changes. Original Flash runtime not asserted.",
+  "results": [
+    {
+      "id": "flash-ca88404bdd3be9c8",
+      "width": 320,
+      "checks": 5,
+      "passed": true,
+      "failures": [],
+      "svgPaths": 11,
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fbf5a8574e12d530",
+      "width": 320,
+      "checks": 22,
+      "passed": true,
+      "failures": [],
+      "svgPaths": 7,
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-4d4d84fe8044b2dd",
+      "width": 320,
+      "checks": 2,
+      "passed": true,
+      "failures": [],
+      "svgPaths": 3,
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-ca88404bdd3be9c8",
+      "width": 768,
+      "checks": 5,
+      "passed": true,
+      "failures": [],
+      "svgPaths": 11,
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fbf5a8574e12d530",
+      "width": 768,
+      "checks": 22,
+      "passed": true,
+      "failures": [],
+      "svgPaths": 7,
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-4d4d84fe8044b2dd",
+      "width": 768,
+      "checks": 2,
+      "passed": true,
+      "failures": [],
+      "svgPaths": 3,
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-ca88404bdd3be9c8",
+      "width": 1360,
+      "checks": 5,
+      "passed": true,
+      "failures": [],
+      "svgPaths": 11,
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-fbf5a8574e12d530",
+      "width": 1360,
+      "checks": 22,
+      "passed": true,
+      "failures": [],
+      "svgPaths": 7,
+      "originalRuntimeVerified": false
+    },
+    {
+      "id": "flash-4d4d84fe8044b2dd",
+      "width": 1360,
+      "checks": 2,
+      "passed": true,
+      "failures": [],
+      "svgPaths": 3,
+      "originalRuntimeVerified": false
+    }
+  ]
+}

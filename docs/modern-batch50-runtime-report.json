@@ -1,0 +1,962 @@
+{
+  "date": "2026-10-09T22:16:04.438Z",
+  "method": "Read-only observer added as distinct Sprite class in memory; original AS3 document class, ABC, header, original Timer and every original tag preserved. Pure quantum energy accessors only return stored private scalars.",
+  "files": 15,
+  "nativeModelHashes": {
+    "assets/modern-batch50-kp-physics.mjs": "9fb64f6c2bf95a7cac284a3a04faa62cdbb845a35624ac0e7c227082e4370caa",
+    "assets/modern-batch50-kp-engine.mjs": "7c2c57388604a4a1e138f46572eeddee562f5a9fd3851faae70b1c2751b6ed34",
+    "assets/modern-batch50-complex.mjs": "f6191fd0ed15345aa78179330ae98c28664b747f619f60b9d37ea4175cfaa514",
+    "assets/modern-batch50-crystal-physics.mjs": "46b16035d643ee2edd265af60653c9810c648ad4dedcf314458b8dc3a993fa1e",
+    "assets/modern-batch50-crystal-geometry.mjs": "e98f842fea6b84f9cd3c22d45f0ed423f0ec50d27ff8076a520bc44cdabfd0fe",
+    "assets/modern-batch50-periodic-physics.mjs": "ae65d964ed83b07cc1a3ff8d81a414d01794553fabc957aa46213728a4ed0fd4",
+    "assets/modern-batch50-quantum-engine.mjs": "391a49e0e9142cf84df8dec8a6138f141f4211df989916dc3ee55b3ebb499cf8",
+    "tools/modern-batch50-observer/PhysicaModernBatch50Observer.as": "6d4cfc5aa52036ae594471900de2ad3b6dae564fc0e1178f9fee061f6a3eeb80",
+    "tools/modern-batch50-compile-observer.mjs": "88bbd5bba865f3636d6a3ea9565999440b8fd95640449e83759b24350bf30e8e",
+    "tools/modern-batch50-runtime-check.mjs": "db9856c4d2a08625d5b8daeeba1851df0123e239fb803c3781d88c2db6566c78",
+    "tools/modern-next-as3-observer.mjs": "d27ed066a894d99092a0d4a34b6df8443dfc22a6e2e177b3417d84f5a262e626"
+  },
+  "observerABCSHA256": "32e6f60183a6d3242d80d9790e33e5c44115183531184f6a4cef24b0e01865ba",
+  "comparisons": 1126,
+  "originalRuntimeVerified": true,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-53914b41579addb1",
+      "type": "energy",
+      "comparisons": 22,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "825b19bb658a3f2ae71d5404e7662d7e23577d0ff41e8a578d538238af5f55c5",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim."
+    },
+    {
+      "id": "flash-7d1bd6f3d3e471a8",
+      "type": "dos",
+      "comparisons": 14,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "5dfee4f1c6188ce3a1f1d9a214d6481a182c97636365ee41299606a42d6231cb",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "b": 0.1,
+            "c": 0.05,
+            "U0": 5,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "p": {
+            "b": 0.1,
+            "c": 0.05,
+            "U0": 5,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim."
+    },
+    {
+      "id": "flash-33749597a3a3530a",
+      "type": "mass",
+      "comparisons": 12,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "6f0a0da57997276a32c9c1358ae2380ccd155917e2f2c732e554a4b618f27fa2",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "b": 0.1,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "p": {
+            "b": 0.1,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim."
+    },
+    {
+      "id": "flash-62b477d3943e2e98",
+      "type": "ringfree",
+      "comparisons": 8,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "4a830274754ce1b9f52c71cb9fc9c16ac68611d86d0dc7d0bfa42c8fc64e0941",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim."
+    },
+    {
+      "id": "flash-fc3ce23b69b5b802",
+      "type": "ringlattice",
+      "comparisons": 96,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "a2cca9a8631ba472ef96de7e4916d85354aa704e790ea774aafdf2dc8e10af67",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 0,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 0,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 0,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 0,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 0,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 0,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 0,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 0,
+            "cells": 3,
+            "level": 1,
+            "slow": false,
+            "standing": false,
+            "atoms": false
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim."
+    },
+    {
+      "id": "flash-bf3e75adb1d64087",
+      "type": "fourier",
+      "comparisons": 96,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "c4f06b8a9f95d4a578db8f5ff607170c30c6bd4949ce34fb6eb7c1f32f94e816",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 7,
+            "level": 1,
+            "slow": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 7,
+            "level": 1,
+            "slow": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 7,
+            "level": 1,
+            "slow": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 7,
+            "level": 1,
+            "slow": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 7,
+            "level": 1,
+            "slow": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 7,
+            "level": 1,
+            "slow": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 7,
+            "level": 1,
+            "slow": false,
+            "atoms": false
+          }
+        },
+        {
+          "Time": 0,
+          "p": {
+            "b": 0.25,
+            "c": 0.1,
+            "U0": 10,
+            "k": 0.5,
+            "mode": 1,
+            "cells": 7,
+            "level": 1,
+            "slow": false,
+            "atoms": false
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim."
+    },
+    {
+      "id": "flash-3973a4c3f880c119",
+      "type": "bucky",
+      "comparisons": 96,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "d13be04f9d1949060cc2f19a0428b396e94cef8547b14fe324ee626b23e2da72",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "layers": 2,
+            "size": false,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        },
+        {
+          "p": {
+            "layers": 2,
+            "size": false,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked."
+    },
+    {
+      "id": "flash-af4f16212ccf8747",
+      "type": "bcc",
+      "comparisons": 168,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "b5d842dc86b6795db07154889375b1352c0e0c532a773c9ac5bb5bab3c7e3c72",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "layers": 5,
+            "size": true,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        },
+        {
+          "p": {
+            "layers": 5,
+            "size": true,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked."
+    },
+    {
+      "id": "flash-5dfdb14cd72f10d7",
+      "type": "fcc",
+      "comparisons": 192,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "c9e6d02aa70bbb8e913e8a2b97d539b97798312cc34957e5446c8df22fb8acc6",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "layers": 9,
+            "size": false,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        },
+        {
+          "p": {
+            "layers": 9,
+            "size": false,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked."
+    },
+    {
+      "id": "flash-d4588f2223e18e27",
+      "type": "hcp",
+      "comparisons": 192,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "06dfe7b2301f5a2f9d1341f5b884a7a659c44485be6e8cd0b3e4205989b0b463",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "layers": 3,
+            "size": true,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        },
+        {
+          "p": {
+            "layers": 3,
+            "size": true,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked."
+    },
+    {
+      "id": "flash-604a4b8318eb5170",
+      "type": "all",
+      "comparisons": 96,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "87554aed6ab410febc6844067ef1f653d1e0e1788cb101bdce936fea5cad6518",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "layers": 2,
+            "size": false,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        },
+        {
+          "p": {
+            "layers": 2,
+            "size": false,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked."
+    },
+    {
+      "id": "flash-3d6d80a0b8a51b59",
+      "type": "graphite",
+      "comparisons": 96,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "7750b3841485174103efe1f20b6d47cd4731368d95b38e955ad128fadcdbc221",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "layers": 2,
+            "size": false,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        },
+        {
+          "p": {
+            "layers": 2,
+            "size": false,
+            "stack": true,
+            "inside": false,
+            "selection": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "camera": 1000
+          }
+        }
+      ],
+      "passed": true,
+      "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked."
+    },
+    {
+      "id": "flash-ca88404bdd3be9c8",
+      "type": "bragg",
+      "comparisons": 8,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "c114196e2f644e9a5af849876a2502edce2fe2e3b2542df17b2ce1bd928e43d4",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "n": 4,
+          "phase": 1
+        },
+        {
+          "n": 5,
+          "phase": 1.25
+        },
+        {
+          "n": 5,
+          "phase": 1.25
+        },
+        {
+          "n": 6,
+          "phase": 1.5
+        },
+        {
+          "n": 7,
+          "phase": 1.75
+        },
+        {
+          "n": 8,
+          "phase": 2
+        },
+        {
+          "n": 9,
+          "phase": 2.25
+        },
+        {
+          "n": 10,
+          "phase": 2.5
+        }
+      ],
+      "passed": true,
+      "scope": "Bounded naturally advancing original Timer phase samples; wave coordinates separately proven by original Graphics source capture."
+    },
+    {
+      "id": "flash-fbf5a8574e12d530",
+      "type": "periodic",
+      "comparisons": 8,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "2caebe39a4ccc702b0787478981502be578db4c9bef9e0827f492d25a335ec87",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "distance": 0.15,
+            "depth": 100,
+            "cells": 4,
+            "level": 1,
+            "higher": false,
+            "hydrogen": false,
+            "wave": false,
+            "selected": true,
+            "atoms": false
+          },
+          "energies": 4
+        },
+        {
+          "p": {
+            "distance": 0.15,
+            "depth": 100,
+            "cells": 4,
+            "level": 1,
+            "higher": false,
+            "hydrogen": false,
+            "wave": false,
+            "selected": true,
+            "atoms": false
+          },
+          "energies": 4
+        }
+      ],
+      "passed": true,
+      "scope": "Actual original stored energy levels through pure public getters (return stored private scalars only), initial original controls. No fitting or reset/drawing method called. All input combinations and wave-runtime equivalence not asserted."
+    },
+    {
+      "id": "flash-4d4d84fe8044b2dd",
+      "type": "gap",
+      "comparisons": 22,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSHA256": "29c450fc109ed919ed176dbcd20f2a5d29ab89c30b1513b5136f6771d5718d66",
+      "originalTagsByteIdentical": true,
+      "originalDocumentClassPreserved": true,
+      "originalABCPreserved": true,
+      "originalTimerUnchanged": true,
+      "originalRuntimeVerified": true,
+      "fullEquivalence": false,
+      "samples": [
+        {
+          "p": {
+            "distance": 0.15,
+            "depth": 100,
+            "cells": 4,
+            "level": 1,
+            "higher": false,
+            "hydrogen": false,
+            "wave": false,
+            "selected": true,
+            "atoms": false
+          },
+          "energies": 11
+        },
+        {
+          "p": {
+            "distance": 0.15,
+            "depth": 100,
+            "cells": 4,
+            "level": 1,
+            "higher": false,
+            "hydrogen": false,
+            "wave": false,
+            "selected": true,
+            "atoms": false
+          },
+          "energies": 11
+        }
+      ],
+      "passed": true,
+      "scope": "Actual original stored energy levels through pure public getters (return stored private scalars only), initial original controls. No fitting or reset/drawing method called. All input combinations and wave-runtime equivalence not asserted."
+    }
+  ]
+}

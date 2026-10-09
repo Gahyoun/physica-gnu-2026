@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09T21:54:33.579Z",
+  "date": "2026-10-09T22:19:38.022Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -70,16 +70,68 @@
     "tools/nuclear-next-as3-runtime-check.mjs": "560ea31548976cf766bfaf6c00592551b70fb790724d3780ac35ffc736844735",
     "assets/modern-next-rotor-physics.mjs": "8808f75079ad06143af21265b01460748f56c75bf6413fafbfe9c5f1102a60d7",
     "assets/modern-next-rotor-specs.mjs": "9e4a841b39f3b1938c2982c5c1d01e2ef2ebb5346f3fb2db4d937a51ba2a15c6",
-    "tools/modern-next-as3-observer-pilot.mjs": "40d32813c4d8fb7f0abbfd0ea4e7e8b3884334a0e3380b596c89d6505b03ecb0"
+    "tools/modern-next-as3-observer-pilot.mjs": "40d32813c4d8fb7f0abbfd0ea4e7e8b3884334a0e3380b596c89d6505b03ecb0",
+    "assets/general-batch50-wave3d-physics.mjs": "bfef1d23a36a8abb336949b31afcd4e0107ecb2dcbe715b7b25c8406c311308e",
+    "assets/general-batch50-wave3d-specs.mjs": "07092912a2c810bfbbeecfce51cb8a18fd4738f361ca6f227dee3a98c69e143b",
+    "tools/general-batch50-runtime-check.mjs": "a45266f4946ed443f8ed111e57f8d22ae1a585ce35a58108dc0c1cb3ea4038ec",
+    "tools/general-batch50-as3-compile.mjs": "1da0728d36225d9f10202b1ad200fdcb101ab9a817a49760a27133318009687a",
+    "tools/java/PhysicaAS3ObserverGeneralBatch50.as": "7e94765a38551fef9de607e90f87d58a3982bff914552c83f32285f82ded1e5a",
+    "assets/general-batch50-diffraction-physics.mjs": "b718c2788bc80adc36d5ef43cc394438d1060cc6a78e52091aed4cd0fad68099",
+    "assets/general-batch50-diffraction-specs.mjs": "7213a497ad8fd989935f496ebadbd7e167d352e417d93c28419d9c34210db962",
+    "assets/general-batch50-huygens-physics.mjs": "f83bef82afc29cb3a21b00366422b539bae4d6ab0c2138c0f7cd20345552fb71",
+    "assets/general-batch50-huygens-specs.mjs": "7dfe56bc5ab3aa58c8f92290aa4c06a677b6d7ecf87536fc76f667787d981107",
+    "assets/optics-batch50-program-flash-40a2107ef5afc2d6.mjs": "cc173ba96a91e5ab54bba6b9bf90f743b0b38e8673a4818d5b06a4af3cf54622",
+    "assets/optics-batch50-kernel-4aee8e9b4394c043.mjs": "9af839d4c83dd2637b5ca4e00d347d5fbc78ac8fbfbe90adf775fb6f1eb2893f",
+    "assets/optics-batch50-program-flash-f39e1089113b6f2c.mjs": "c8fe364c74efdcbb40cbac1a57f3aae4ab460a6d21edbc3b24bfc9408a0e93dc",
+    "assets/optics-batch50-kernel-194e7be0300cfe44.mjs": "265881e7e6811b9c2306cce460c91c2a24c9b4407b07644f76755c30f98ecc24",
+    "assets/optics-batch50-program-flash-08335547ca0f950f.mjs": "c2dfac4c674efd202434803d253e2c2ec2f79b8e964eb4ebe1dedaf6095f2b80",
+    "assets/optics-batch50-kernel-f86c6b2c9f46fd67.mjs": "50bb2ca67dfb5c881a27a460dfa4117fa6aa75e4c83915c3d739aa0c1e8ca85b",
+    "assets/optics-batch50-program-flash-9af62ca573daae10.mjs": "6379b939b872dcef4635453d7ad8d3ef6ef52cd57d0b4fa8695f5bbd42cc1d0d",
+    "assets/optics-batch50-kernel-29b7d35dcdd80916.mjs": "7cecb7ea155bba92f1a9ef8af9546e3e5f99a4c43e61740fb06d38c93edcbd89",
+    "assets/optics-batch50-program-flash-f0595ca7e9d43f87.mjs": "af61b712432feae117e4df0052462c0365a24e8903d4cace6289c02a81836b9e",
+    "assets/optics-batch50-program-flash-558538a6a36d5249.mjs": "fcc4367b9bb73420ae0d467f60a13ec3d1348476515c16511a2d9c91617126f7",
+    "assets/optics-batch50-kernel-239fe7b6cfd6fe47.mjs": "d56719849a64eb1e1866b1aa09d07596d78ea20603f4a19a58faab7286c4ba0a",
+    "assets/optics-batch50-program-flash-9a04042c71f6973a.mjs": "93ffd21ca5039ea7c75032bc9af33ebea6dbc38a608d79a8a66aefd11df2815b",
+    "assets/optics-batch50-program-flash-c774604481f2e714.mjs": "24c7357496edfbbce5de0ba98380a25d3f2fdc4ddcaabf94b47876deff430510",
+    "assets/optics-batch50-kernel-8a1cdc9b14eb882a.mjs": "bcab07bd5bed417a8719d5b0ab79620aec857234d863ff52150a3e2a833e3bcd",
+    "assets/optics-batch50-program-flash-427415920ebff988.mjs": "fe3af7845dbfb074b998a7b9698a643f450eff67803f2b438c31fea2685be662",
+    "assets/optics-batch50-kernel-8bfa72046f6cac7a.mjs": "1a77ee4557c972b28e7bdd8d1ac11c5f0bd0ed5bcfeb4ff6444b6b00a3efcb18",
+    "assets/optics-batch50-program-flash-3b4198bfba54b3d8.mjs": "150b9dd0ef27be0de55af48a7edf7693af283ffd225f229efd644b2b5026c94f",
+    "assets/optics-batch50-program-flash-57d7d50ac0840183.mjs": "bd431539016a46135972c22619b0d4909c1edb33511b08e506edbbcaa6fcd448",
+    "assets/optics-batch50-kernel-05a2c18bb641d11d.mjs": "f3928742048cf7fb469990310712bb841e161c756287c1cb16635a2e60f17bc4",
+    "assets/optics-batch50-program-flash-d54280414204128f.mjs": "32b6c1646ad3d5e72cfc76711f4fb7b4af6da225217f11768c47890210e4dedd",
+    "assets/optics-batch50-program-flash-929bf840d9e022e1.mjs": "e9537b7988f93f8c9aad56b922a959e71dafb32957071b52243fa863021bf957",
+    "assets/optics-batch50-program-flash-81cfd256894988a8.mjs": "c4fd2c094a321e13014ee10312b90c776def58d428a3f415c4ed6d4e109757d9",
+    "assets/optics-batch50-program-flash-941179ccb1460a21.mjs": "d2ba8a98e284ff171b4959b3b4cb0b1ac2719b33f2ed83257aea283340c8191d",
+    "assets/optics-batch50-kernel-92ed958d3a7c87a7.mjs": "1ddd166d07275f66ded794511938af0fa1fff07e4948815089960ed27f9006e7",
+    "assets/optics-batch50-program-flash-3260838a7443436d.mjs": "ed34a598faabd45ce7dee5a87df831cd6206d9142fd9754f2f03a50734f73d4e",
+    "assets/optics-batch50-program-flash-ee7dfbaddba886f1.mjs": "9176f2db1d6701097524f9bb7ba75651956f6d448890822d3407ba7ab0d5df14",
+    "assets/optics-batch50-program-flash-c6ac414cdefaad02.mjs": "6ee98f6aa4cedf5c7f1a03657177bda621cc4bbaace911218ee7c508a1d65f58",
+    "assets/optics-batch50-program-flash-de747b108f3ff0a5.mjs": "0b565421fbe0a6037dc07a16f0a148221239c65b1f193f9213a67f5f109d395c",
+    "assets/optics-batch50-program-flash-3eccbed3363b872b.mjs": "54e622bd2bdc96d25a68376fd65575bb74940d4b6c02f6ff545434ff66ab206d",
+    "assets/optics-batch50-adapter.mjs": "b8d1698bb818ccbb28e2f48960313d6b75d86d2af076cd69730df8f32e980835",
+    "tools/optics-batch50-runtime-check.mjs": "6b1edd687afba8d4e1620e203b4303f4b69c63bdf3a9fef8ff2bb356fc29426b",
+    "tools/optics-batch50-as3-compile.mjs": "097edcc81d76d42c51fa5f0abdbd4551b4e183c21fb9a6df93c078b76a9c50b3",
+    "tools/optics-batch50-observer/PhysicaOpticsBatch50Observer.as": "e3e36ca7703e519ebb515b7322170460748d8363e6d780f3db2334391e1ceb31",
+    "assets/modern-batch50-kp-physics.mjs": "9fb64f6c2bf95a7cac284a3a04faa62cdbb845a35624ac0e7c227082e4370caa",
+    "assets/modern-batch50-kp-engine.mjs": "7c2c57388604a4a1e138f46572eeddee562f5a9fd3851faae70b1c2751b6ed34",
+    "assets/modern-batch50-complex.mjs": "f6191fd0ed15345aa78179330ae98c28664b747f619f60b9d37ea4175cfaa514",
+    "assets/modern-batch50-crystal-physics.mjs": "46b16035d643ee2edd265af60653c9810c648ad4dedcf314458b8dc3a993fa1e",
+    "assets/modern-batch50-crystal-geometry.mjs": "e98f842fea6b84f9cd3c22d45f0ed423f0ec50d27ff8076a520bc44cdabfd0fe",
+    "assets/modern-batch50-periodic-physics.mjs": "ae65d964ed83b07cc1a3ff8d81a414d01794553fabc957aa46213728a4ed0fd4",
+    "assets/modern-batch50-quantum-engine.mjs": "391a49e0e9142cf84df8dec8a6138f141f4211df989916dc3ee55b3ebb499cf8",
+    "tools/modern-batch50-observer/PhysicaModernBatch50Observer.as": "6d4cfc5aa52036ae594471900de2ad3b6dae564fc0e1178f9fee061f6a3eeb80",
+    "tools/modern-batch50-compile-observer.mjs": "88bbd5bba865f3636d6a3ea9565999440b8fd95640449e83759b24350bf30e8e",
+    "tools/modern-batch50-runtime-check.mjs": "db9856c4d2a08625d5b8daeeba1851df0123e239fb803c3781d88c2db6566c78"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 250,
-  "numericalFilesPassed": 250,
-  "numericalSampleComparisons": 834754,
+  "numericalFiles": 295,
+  "numericalFilesPassed": 295,
+  "numericalSampleComparisons": 938859,
   "combinationComparisons": 198600,
-  "numericalComparisons": 1033354,
+  "numericalComparisons": 1137459,
   "finiteCombinationScopes": 6,
   "finiteCombinationScopesPassed": 6,
   "rootTimelineFiles": 29,
@@ -4273,7 +4325,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "c114196e2f644e9a5af849876a2502edce2fe2e3b2542df17b2ce1bd928e43d4",
+        "passed": true,
+        "comparisons": 8,
+        "scope": "Bounded naturally advancing original Timer phase samples; wave coordinates separately proven by original Graphics source capture.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4292,7 +4351,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "2caebe39a4ccc702b0787478981502be578db4c9bef9e0827f492d25a335ec87",
+        "passed": true,
+        "comparisons": 8,
+        "scope": "Actual original stored energy levels through pure public getters (return stored private scalars only), initial original controls. No fitting or reset/drawing method called. All input combinations and wave-runtime equivalence not asserted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4311,7 +4377,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "29c450fc109ed919ed176dbcd20f2a5d29ab89c30b1513b5136f6771d5718d66",
+        "passed": true,
+        "comparisons": 22,
+        "scope": "Actual original stored energy levels through pure public getters (return stored private scalars only), initial original controls. No fitting or reset/drawing method called. All input combinations and wave-runtime equivalence not asserted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4330,7 +4403,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "d13be04f9d1949060cc2f19a0428b396e94cef8547b14fe324ee626b23e2da72",
+        "passed": true,
+        "comparisons": 96,
+        "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4375,7 +4455,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "b5d842dc86b6795db07154889375b1352c0e0c532a773c9ac5bb5bab3c7e3c72",
+        "passed": true,
+        "comparisons": 168,
+        "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4394,7 +4481,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "c9e6d02aa70bbb8e913e8a2b97d539b97798312cc34957e5446c8df22fb8acc6",
+        "passed": true,
+        "comparisons": 192,
+        "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4413,7 +4507,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "06dfe7b2301f5a2f9d1341f5b884a7a659c44485be6e8cd0b3e4205989b0b463",
+        "passed": true,
+        "comparisons": 192,
+        "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4432,7 +4533,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "87554aed6ab410febc6844067ef1f653d1e0e1788cb101bdce936fea5cad6518",
+        "passed": true,
+        "comparisons": 96,
+        "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4529,7 +4637,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "7750b3841485174103efe1f20b6d47cd4731368d95b38e955ad128fadcdbc221",
+        "passed": true,
+        "comparisons": 96,
+        "scope": "Up to 12 original public sphere center/radius values in each main/unit group at initial actual original controls; unordered point membership compared. Projection and all control states separately source checked.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4593,7 +4708,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "5dfee4f1c6188ce3a1f1d9a214d6481a182c97636365ee41299606a42d6231cb",
+        "passed": true,
+        "comparisons": 14,
+        "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4612,7 +4734,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "825b19bb658a3f2ae71d5404e7662d7e23577d0ff41e8a578d538238af5f55c5",
+        "passed": true,
+        "comparisons": 22,
+        "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4631,7 +4760,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "6f0a0da57997276a32c9c1358ae2380ccd155917e2f2c732e554a4b618f27fa2",
+        "passed": true,
+        "comparisons": 12,
+        "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4650,7 +4786,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "4a830274754ce1b9f52c71cb9fc9c16ac68611d86d0dc7d0bfa42c8fc64e0941",
+        "passed": true,
+        "comparisons": 8,
+        "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4669,7 +4812,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "a2cca9a8631ba472ef96de7e4916d85354aa704e790ea774aafdf2dc8e10af67",
+        "passed": true,
+        "comparisons": 96,
+        "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4688,7 +4838,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-batch50-runtime-report.json",
+        "sha256": "c4f06b8a9f95d4a578db8f5ff607170c30c6bd4949ce34fb6eb7c1f32f94e816",
+        "passed": true,
+        "comparisons": 96,
+        "scope": "Original public KP extrema and b/c/U0 plus ring ESelected/Time defaults, without original numerical/drawing method calls. No wave frame or all-input runtime claim.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6507,7 +6664,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "4ba5b188edcccb9b28a1ca24a989cac3be3e51877bbc09e7eacdee37bb94d378",
+        "passed": true,
+        "comparisons": 4956,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 2.842170943040401e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6630,7 +6794,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "56dcc1c404d8eb63c1fd300bd16578d60e9472718c216bf61388ae6534ee20c4",
+        "passed": true,
+        "comparisons": 1425,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6701,7 +6872,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "9241b9852ad09a36fdb1ec1f414451c75e575f0c08c337a3b9652ca296c63fd7",
+        "passed": true,
+        "comparisons": 34945,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 2.984279490192421e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6720,7 +6898,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "c17dd93a0dafaf124fbb9d633fe9eb0c0b528b380185405ee3410f17c108ee5a",
+        "passed": true,
+        "comparisons": 1950,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6739,7 +6924,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "4822e413390527470d651b443bb14267adc105ede2e43ed81ff886fd8aa934bd",
+        "passed": true,
+        "comparisons": 1275,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6758,7 +6950,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "bd3c273a64dae221251fb95fc0d8bb7988038496a56860409d0ef62ff82a43dd",
+        "passed": true,
+        "comparisons": 7425,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 1.1546319456101628e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6777,7 +6976,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "e90ab42c5c13002bdc6add59a3980921a9f63b364d89290be972ffc1acfa74d0",
+        "passed": true,
+        "comparisons": 5075,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6796,7 +7002,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "35d4e1c1b3f8f598d6e58a8ed68541fd4b70b4cc761cba88f53161b48f335acf",
+        "passed": true,
+        "comparisons": 5075,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 4.263256414560601e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6967,7 +7180,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "4da71e33d6e27f47d99993d10b70213ba4e8507f3e25717c6aab7035f534b954",
+        "passed": true,
+        "comparisons": 1050,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6986,7 +7206,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "36840ca0f01225dbc432a0bbe64ac9307276229e16cfe2fa35d7b70eb8c38965",
+        "passed": true,
+        "comparisons": 1330,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7005,7 +7232,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "fc4a4f2bd4aab1b1abe6f5cf6f94ef81fdaaa99c24061ca923388f6fff0864d4",
+        "passed": true,
+        "comparisons": 1995,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 2.7755575615628914e-17
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7024,7 +7258,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "ceb6b6f60ca5daf2248341a931dab315dbb5436713e89cc522c8df89e1491335",
+        "passed": true,
+        "comparisons": 1425,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7069,7 +7310,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "f87ca1f295bb78d089bf69c0d96d01ec99b7091b30f4e4c23bf43b47f2180006",
+        "passed": true,
+        "comparisons": 5075,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 1.0658141036401503e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7088,7 +7336,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "161db44639a78a24eb78b3bdb3fbb3753fd931a218c3d8fb0bc91a1d9a93691f",
+        "passed": true,
+        "comparisons": 5075,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7133,7 +7388,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "8a0f16f5cf55ba6dac62876d2bdd76e54ec1df2ec60d320fbc23899b3421b090",
+        "passed": true,
+        "comparisons": 3150,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7152,7 +7414,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "eb8807c26384d4dd1b05e7f8129b3a137a97c1f4d27ce8ecb617c83a40950390",
+        "passed": true,
+        "comparisons": 2500,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 8.326672684688674e-17
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7171,7 +7440,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "2172fcd699173e662fb33d59ae17932d83ed302c0059c3262924ad0d72267fd3",
+        "passed": true,
+        "comparisons": 2625,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7190,7 +7466,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "4c57e12033b780d660644e0034fb3a99b860902476cbc840c2ada0691e718813",
+        "passed": true,
+        "comparisons": 2875,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7235,7 +7518,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "2467fd87ad6f3ec16bd110d6053ebf61ef9eba015381354a423d74c66f50953c",
+        "passed": true,
+        "comparisons": 3850,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 4.689582056016661e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -7254,7 +7544,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-batch50-runtime-report.json",
+        "sha256": "dfc485918ca7d3e736fee24498ad888601e9e6bf27728ed6c6b59506e65e3b28",
+        "passed": true,
+        "comparisons": 4200,
+        "scope": "Bounded naturally advancing original AS3 public ray arrays. Public instrument fields read once configure the native independent program; matching optical-distance step chosen by the full original ray array, then all rays x/y/direction and available crossing counters compared. Actual original UI start clicked if present. Up to two already queued original Timer callbacks after stop are separately identified; this compares event-handler states rather than claiming wall-clock scheduling equivalence. Original ABC/class/header/timers kept byte-identical. No force-controls or original method execution. Continuous combinations and all input histories are not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11552,7 +11849,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-wave3d-runtime-report.json",
+        "sha256": "883b4470ce4d54037665801e89ef1fd893182d6cff984939f3a3ecd10c21422e",
+        "passed": true,
+        "comparisons": 462,
+        "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11571,7 +11875,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-wave3d-runtime-report.json",
+        "sha256": "5df5fcbcc3fba885fdebcfa8218425ab7748ac0ee7d9284b6fca690e2b1235a6",
+        "passed": true,
+        "comparisons": 504,
+        "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim.",
+        "maxAbsoluteError": 1.1102230246251565e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11590,7 +11901,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-wave3d-runtime-report.json",
+        "sha256": "623b55573f7dae60249954a85b274bdb19923af2eb80e7bb7935ace9d4b148e1",
+        "passed": true,
+        "comparisons": 588,
+        "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim.",
+        "maxAbsoluteError": 3.4416913763379853e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11609,7 +11927,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-wave3d-runtime-report.json",
+        "sha256": "accb410bd632270426ee2a6200e5ab196c293c34c7c88a69831bd004bcf20b77",
+        "passed": true,
+        "comparisons": 630,
+        "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim.",
+        "maxAbsoluteError": 4.440892098500626e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11749,7 +12074,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-diffraction-runtime-report.json",
+        "sha256": "495dbc63322cc288f41e54125c91296faf56995054eed0338093db14dea4dd4c",
+        "passed": true,
+        "comparisons": 12,
+        "scope": "Actual original AS3 numeric readout at original default source/observer/wavelength. A/I swapped source caption interpreted using original checkbox. No complete input combination/runtime graphic claim.",
+        "maxAbsoluteError": 0.00045603527122584087
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11768,7 +12100,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-diffraction-runtime-report.json",
+        "sha256": "878eedf4ee41a9c894d18eba0ffc852048c72f52b634b6cd78a8267d4ac3ebfc",
+        "passed": true,
+        "comparisons": 12,
+        "scope": "Actual original AS3 numeric readout at original default source/observer/wavelength. A/I swapped source caption interpreted using original checkbox. No complete input combination/runtime graphic claim.",
+        "maxAbsoluteError": 0.00047454338390551243
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11787,7 +12126,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-huygens-runtime-report.json",
+        "sha256": "0745408eedd84181f258f076f7e5231b8977dd938b44d86755e979fe78dcf190",
+        "passed": true,
+        "comparisons": 525,
+        "scope": "Bounded naturally advancing actual original AS3 Timer fronts: every public ray x/y/direction/outside/connect compared to native propagation from previous observed original front. The real random starting front is observed, never replaced. Secondary wave graphical output not inspected in runtime; independent source oracle covers it.",
+        "maxAbsoluteError": 3.552713678800501e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11806,7 +12152,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-huygens-runtime-report.json",
+        "sha256": "6d4500a21059b0180f2e59bcaffd944fee968967e2608006af41c8571566751d",
+        "passed": true,
+        "comparisons": 1500,
+        "scope": "Bounded naturally advancing actual original AS3 Timer fronts: every public ray x/y/direction/outside/connect compared to native propagation from previous observed original front. The real random starting front is observed, never replaced. Secondary wave graphical output not inspected in runtime; independent source oracle covers it.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -12424,7 +12777,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-wave3d-runtime-report.json",
+        "sha256": "7a94e4fa92815532e137616e342d89018ac3e051eaae96be8d3d8ec48945a873",
+        "passed": true,
+        "comparisons": 420,
+        "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim.",
+        "maxAbsoluteError": 4.440892098500626e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -12443,7 +12803,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-batch50-wave3d-runtime-report.json",
+        "sha256": "fe7cb4bfcd407a5deda24aed1019d6a57e17d02eced1a43bfd626432d2d7b0a1",
+        "passed": true,
+        "comparisons": 1050,
+        "scope": "Bounded naturally observed actual original AS3 Timer (or original default paused grid), selected original public grid indices across each dimension and observed random modes/phase/wavelength. Original starts are read, never replaced; no full runtime grid or all input combinations claim.",
+        "maxAbsoluteError": 3.552713678800501e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },
