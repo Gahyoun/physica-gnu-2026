@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-09T15:39:52.287Z",
+  "nativeModelHashes": {
+    "assets/modern-next-semiconductor-physics.mjs": "bce2ca3d47ec2a1dda904086db7b31fff4991d388201ee8e92aa194f3ae4c4e5",
+    "assets/modern-next-semiconductor-specs.mjs": "9545a4788229912ae13a8e73204cb8424ea41f887c2f3e6fdcd70a101f393c53"
+  },
+  "files": 3,
+  "comparisons": 2965,
+  "originalRuntimeVerified": false,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-51f673b6e2e0ba51",
+      "type": "diode",
+      "comparisons": 313,
+      "cases": 125,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Original private AS3 methods with only type annotations removed, unchanged arithmetic and branches. Every original lattice coordinate and dynamic carrier position for finite native step domain, original I-V scalar values and recorded original paths. Scripted AS3 original-runtime numerical observer not available, so not counted as original-runtime equivalence."
+    },
+    {
+      "id": "flash-9c835cb54e874dd9",
+      "type": "ntype",
+      "comparisons": 1324,
+      "cases": 286,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Original private AS3 methods with only type annotations removed, unchanged arithmetic and branches. Every original lattice coordinate and dynamic carrier position for finite native step domain, original I-V scalar values and recorded original paths. Scripted AS3 original-runtime numerical observer not available, so not counted as original-runtime equivalence."
+    },
+    {
+      "id": "flash-1062127f0b2ce4eb",
+      "type": "ptype",
+      "comparisons": 1328,
+      "cases": 287,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Original private AS3 methods with only type annotations removed, unchanged arithmetic and branches. Every original lattice coordinate and dynamic carrier position for finite native step domain, original I-V scalar values and recorded original paths. Scripted AS3 original-runtime numerical observer not available, so not counted as original-runtime equivalence."
+    }
+  ]
+}

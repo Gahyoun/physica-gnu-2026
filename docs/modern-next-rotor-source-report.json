@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-09T15:37:43.082Z",
+  "nativeModelHashes": {
+    "assets/modern-next-rotor-physics.mjs": "8808f75079ad06143af21265b01460748f56c75bf6413fafbfe9c5f1102a60d7",
+    "assets/modern-next-rotor-specs.mjs": "9e4a841b39f3b1938c2982c5c1d01e2ef2ebb5346f3fb2db4d937a51ba2a15c6"
+  },
+  "files": 4,
+  "comparisons": 417280,
+  "originalRuntimeVerified": false,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-6b7f2453525617d2",
+      "type": "linear",
+      "cases": 2018,
+      "comparisons": 28112,
+      "maxAbsoluteError": 2.2737367544323206e-13,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "privateSourceHash": "ad3b0451aeb96261f7bbe176a5d5a0f1c157ff447cd174eb6ab8a1abe7d17057",
+      "passed": true,
+      "scope": "Unmodified private original AS3 Remake, run, molecular reposition, link surface endpoints, Euler point and camera projection arithmetic with type annotations removed. All four axis choices and every native step 0..500, seven camera values. Original AS3 runtime observer pending; not a claim of all camera reals or every drag history."
+    },
+    {
+      "id": "flash-e22d79853840cca8",
+      "type": "asymmetric",
+      "cases": 2039,
+      "comparisons": 124388,
+      "maxAbsoluteError": 2.2737367544323206e-13,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "privateSourceHash": "4cc9db4c3568846f5cfcddab3f4b550366d3c52c09df07a9e15489b38ad904b4",
+      "passed": true,
+      "scope": "Unmodified private original AS3 Remake, run, molecular reposition, link surface endpoints, Euler point and camera projection arithmetic with type annotations removed. All four axis choices and every native step 0..500, seven camera values. Original AS3 runtime observer pending; not a claim of all camera reals or every drag history."
+    },
+    {
+      "id": "flash-ffe75a7c416ca0b9",
+      "type": "symmetric",
+      "cases": 2032,
+      "comparisons": 104320,
+      "maxAbsoluteError": 2.2737367544323206e-13,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "privateSourceHash": "ba5cd0f7a5081831e50ad977dc8d1ad0fc2836609de0a11eea0c0a031c1c8296",
+      "passed": true,
+      "scope": "Unmodified private original AS3 Remake, run, molecular reposition, link surface endpoints, Euler point and camera projection arithmetic with type annotations removed. All four axis choices and every native step 0..500, seven camera values. Original AS3 runtime observer pending; not a claim of all camera reals or every drag history."
+    },
+    {
+      "id": "flash-df19d34e7a23fd8b",
+      "type": "spherical",
+      "cases": 2039,
+      "comparisons": 160460,
+      "maxAbsoluteError": 4.547473508864641e-13,
+      "mismatches": [],
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "privateSourceHash": "8a863ee36bcd5ab10ee757fc7fd8a9ce3fa04e9f0e7beba700286847c0200df2",
+      "passed": true,
+      "scope": "Unmodified private original AS3 Remake, run, molecular reposition, link surface endpoints, Euler point and camera projection arithmetic with type annotations removed. All four axis choices and every native step 0..500, seven camera values. Original AS3 runtime observer pending; not a claim of all camera reals or every drag history."
+    }
+  ]
+}

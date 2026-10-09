@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-09T15:43:51.303Z",
+  "nativeModelHashes": {
+    "assets/optics-next-surface-physics.mjs": "33bfbf70c4d006358485b93a2a9e658e48048690ae982037b9ad34f44a6a5675",
+    "assets/optics-next-surface-specs.mjs": "34d77a6a6d411d24f53cd961bd1c58616082805bae5bc5feca1cbc243ebfdf05",
+    "assets/native-optics-next-surfaces.mjs": "187c28ec2ecee9a7153820dca4d89d48df75c5648c8b2745c9f2620721853f18",
+    "assets/optics-next-physics.mjs": "ff8ae8ed7bf8c2145e5fdb067f26ef1d7819dc4e6067c7f132ebff3ff71eb20b",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "scope": "320/768/1360 all min/default/max controls, every native section mask/mode, actual camera keyboard/drag/zoom, CSV model points, reset/theme and responsive fit; static diagrams have no fake playback/timeline",
+  "results": [
+    {
+      "id": "flash-e06b32b2ecda3516",
+      "type": "directions",
+      "width": 320,
+      "states": 18,
+      "passed": true,
+      "camera": true
+    },
+    {
+      "id": "flash-e53d7ad01f620e90",
+      "type": "surfaces",
+      "width": 320,
+      "states": 21,
+      "passed": true,
+      "camera": true
+    },
+    {
+      "id": "flash-03bf5655767214f2",
+      "type": "refraction",
+      "width": 320,
+      "states": 15,
+      "passed": true
+    },
+    {
+      "id": "flash-e06b32b2ecda3516",
+      "type": "directions",
+      "width": 768,
+      "states": 18,
+      "passed": true,
+      "camera": true
+    },
+    {
+      "id": "flash-e53d7ad01f620e90",
+      "type": "surfaces",
+      "width": 768,
+      "states": 21,
+      "passed": true,
+      "camera": true
+    },
+    {
+      "id": "flash-03bf5655767214f2",
+      "type": "refraction",
+      "width": 768,
+      "states": 15,
+      "passed": true
+    },
+    {
+      "id": "flash-e06b32b2ecda3516",
+      "type": "directions",
+      "width": 1360,
+      "states": 18,
+      "passed": true,
+      "camera": true
+    },
+    {
+      "id": "flash-e53d7ad01f620e90",
+      "type": "surfaces",
+      "width": 1360,
+      "states": 21,
+      "passed": true,
+      "camera": true
+    },
+    {
+      "id": "flash-03bf5655767214f2",
+      "type": "refraction",
+      "width": 1360,
+      "states": 15,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,653 @@
+{
+  "date": "2026-10-09T21:49:48.571Z",
+  "engine": "chromium",
+  "widths": [
+    320,
+    768,
+    1360
+  ],
+  "expected": 18,
+  "observed": 18,
+  "nativeModelHashes": {
+    "assets/analytic-specs.mjs": "349345d6b21b302099ace7c6e5d8eda5246125c76b5bf7ddc65ac421ef238f2c",
+    "assets/aperture-physics.mjs": "1522144b0f851109aac258801e4babe2d3b5c816b7d60a04a78e1ae543049503",
+    "assets/aperture-specs.mjs": "adc2bf3d5554755a28ee3ea518f45c5bb2a07b3e3307e6892eb7a40357d3872a",
+    "assets/app.mjs": "ffffef49b72bbfe49b9cfc8de05d47b9a59cac4cbde9decee06e2e55ca11fe64",
+    "assets/atomic-physics.mjs": "afa0b435382367d30cd704aa36584a7557d4d8a5f8cb1973fe9d3dd79009b87a",
+    "assets/atomic-specs.mjs": "37dfa551cb6921d65a6e6d007fc16efa5c34ceeb9f8d146bdfc1e9a0982520a9",
+    "assets/beam-physics.mjs": "add8fc8762bb6a5c435da4f8fc230d61605553c2705f647402c7e1199d8c7c1f",
+    "assets/beam-specs.mjs": "6d02684d10032d080116909e5252b44c54fe529456b166861d373c867d17f56c",
+    "assets/book-labs.mjs": "23269ca21facc58d4351efd569eba0956e88de9fffc9d9d41bab45a3ea1695b8",
+    "assets/book-models.mjs": "4c01ccb2130c4c484b74292aafe40e12816f617b49ad2997b9384e4b5361c59f",
+    "assets/book-motion.mjs": "0817e7f21d9e2eb57604342869672b1060b6111775bf050452fea3981f71f07b",
+    "assets/circuit-physics.mjs": "79d7142eb41168a86d6b30d033b1b41920ea6db4604b786ee5ebbb781c403211",
+    "assets/circuit-specs.mjs": "631bef28d061e811dbfaedf5c90dbb8a58ff153d5717414d6ac54f9080fc00de",
+    "assets/dichroic-physics.mjs": "605ec9a86143be03488ca94cb3daabb63e019b169418f15e2f9af60ef1f7e2fd",
+    "assets/dichroic-specs.mjs": "9f3083b4dde4930b4f9b88b043606e83cab404f5d0ea78eb57bd1419f4c55ae1",
+    "assets/diffraction-physics.mjs": "151e11d96c7b5014508e7234fe49f8304a1522f2492d3bd4eff60e949322ea24",
+    "assets/diffraction-specs.mjs": "3ec0e2c9647b1fc3bd582a7a9280f8d253c1c7eca85c9fa6549f18479ed2d33f",
+    "assets/dynamics-physics.mjs": "0cc0b6ca9764e570cb461bd261ae44a85e68a70a4370c769cc5124d0f03ccfc4",
+    "assets/dynamics-specs.mjs": "4d74bc61f7d40194612d327d7da70c1dc7d1d38c66f86eb312c03c1d80ecba5a",
+    "assets/electromagnet-physics.mjs": "3c2fdc1a250db94f76d220be20ef722364fc370481c089030c0388d7e1a156b4",
+    "assets/electromagnet-specs.mjs": "2dae152a40cc8561f379acb1a87075bc148528cfa4a3c240d226d0bb077773f0",
+    "assets/expansion-physics.mjs": "c4dcacfe60f669039e37d10f9ab12c3b7c55e3b12171a98c4aa406562a24a876",
+    "assets/expansion-specs.mjs": "851e6eb0aea808abc2733250e1279915113a50f586ec26f0a5f260607f2d9072",
+    "assets/field-physics.mjs": "9b3fca6b25a036638cbaf4f3a2044efadeae3375fdb1b5da6843ed2296a70f51",
+    "assets/field-specs.mjs": "00f036e23987ad63fcd9f25378de2fc2d1f61502d5e275a6902516e4c8282cf9",
+    "assets/flash-native.mjs": "2aa98ebf2d475bbe767a8e9f4d747bd810b20e415e5fdd7b1229e3b5b2d76b34",
+    "assets/flash.mjs": "dd82511e3c7e72f4ae77c85421caed0b492c006f3c29a7b9bff45183d93ada38",
+    "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
+    "assets/fundamental-specs.mjs": "49d598c0201b042afcffa245cad83553e73fb6ddedcb600bae69d114243288ef",
+    "assets/general-next-boundary-physics.mjs": "b9a08a7c3e947cb1fc76a41c45ca8d241e0edb988048dab3d7554c0cf704d0dd",
+    "assets/general-next-boundary-specs.mjs": "3fec37a555ba931f75b092207f3d89f3d34596e142d3f3b3dc8ae8f0b007ec65",
+    "assets/general-next-field-physics.mjs": "91c6182bcd7f45b32d303721019056cd84d3ed3d485ac32b7f31fc12bfdeea42",
+    "assets/general-next-field-specs.mjs": "ecbc3993aca7c1e87f2739073559520ec7276a8103b99536ba50330a99a8b90e",
+    "assets/general-next-molecule-physics.mjs": "6cb617823800de9bbf9c9a7a80123ae7de8862e869fc18fef5f4f626d54e3c88",
+    "assets/general-next-molecule-specs.mjs": "159074a956b20ea25cf89422df4abd83410b2a5e8a2715259538f6f3ad5066fa",
+    "assets/general-next-phasor-physics.mjs": "4a7870e1f712168df8734fda7efd8c448263fd98672631d56d61f63442d166f4",
+    "assets/general-next-phasor-specs.mjs": "58bc35b8e239b9e49bfed8dc3855658d4d0b1a1cf1470ceca30927080f714b23",
+    "assets/interferometer-physics.mjs": "80659d8e81f8af802427c604a1fbc6f6e4013bac0103233d5a02695ce57f3a95",
+    "assets/interferometer-specs.mjs": "ba0087e5bae5ba982a2429fadccc8ffa214e535bbf2c1a2ddd4c926a02f93f04",
+    "assets/jones-physics.mjs": "8cae274513cdfb4faf3a3440eb97a40eb691a047c355786e79fec9faf7b06ea1",
+    "assets/jones-specs.mjs": "7234c39ba01919c710f91d50ad1245ed69a7a46784756fb651aa654659e24338",
+    "assets/light-physics.mjs": "f52b451dbcf24b6720f4fdd1c4f4f692c71770fcd9126c6525b323f9108c48c2",
+    "assets/light-specs.mjs": "5b9b011fd369442b47c457e8e0a7d146b8ce2bf133adf3c84c2dccd0e9d9b9f5",
+    "assets/math-labels.mjs": "042567578da8b72d9d7b9a430743cc17559e40c38d88ae933c65720655664532",
+    "assets/matrix-physics.mjs": "29ebf6f6ed614ba8427ef6d77f5032ed91e1b0004c0cf4027d1ec5816e520f17",
+    "assets/matrix-specs.mjs": "b24f88bab59a475e430536c5ded5b0bde5ce50b412122a1197ed89367db528a7",
+    "assets/modern-next-physics.mjs": "d7500b1f7bee0d18e1ee7f25c28cd13d590b4ea5b40f41e35ad45d1c399f0d70",
+    "assets/modern-next-rotor-physics.mjs": "8808f75079ad06143af21265b01460748f56c75bf6413fafbfe9c5f1102a60d7",
+    "assets/modern-next-rotor-specs.mjs": "9e4a841b39f3b1938c2982c5c1d01e2ef2ebb5346f3fb2db4d937a51ba2a15c6",
+    "assets/modern-next-semiconductor-physics.mjs": "bce2ca3d47ec2a1dda904086db7b31fff4991d388201ee8e92aa194f3ae4c4e5",
+    "assets/modern-next-semiconductor-specs.mjs": "9545a4788229912ae13a8e73204cb8424ea41f887c2f3e6fdcd70a101f393c53",
+    "assets/modern-next-specs.mjs": "946db63bf7ab32acbd891d234b283a00740225fa06350c1b46f30fc908612331",
+    "assets/moire-controls.mjs": "c44440da93f658048e3e010f12af5799751ac7483b58666a1ae0abc49e01a970",
+    "assets/native-analytic.mjs": "6f52dad40f79b2cd4a35faa2b38ef755208279a9f7d122f7fa66cdb181721370",
+    "assets/native-aperture.mjs": "4c33ef956422a2bbb617f0764f7cdf8f2a2d0a1cfbc37a77239c573006d93e43",
+    "assets/native-atomic.mjs": "d2e3bd02a1dd7a1f5f1af52fb5f979dc3fb0fd148a3e6e0bd4d925821505c358",
+    "assets/native-beam.mjs": "c41e5c8cd64d511148e5321403ae4580dcb24bfb1504978f9f24290f0b6cf76f",
+    "assets/native-chain.mjs": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
+    "assets/native-circuits.mjs": "9900169c48121ae48f2a5acc6bd9e064509d026a438adee2e4b39124639d0c26",
+    "assets/native-diagrams.mjs": "9f83be7c470f2953271175ed0356e175007cd23688f0d148a5079e2c0a369198",
+    "assets/native-dichroic.mjs": "943469357bdc27c16cf65ca125bbe913f39b4e0b25db03910ac86ffc2ee0e39a",
+    "assets/native-diffraction.mjs": "477c06ff4c6c63731d0d0faefe813c36357c876c1b060f8a4bb795a0df02dfd6",
+    "assets/native-dynamics.mjs": "58dbe995db6bf6da5895bb096deb7aeebaf4caff22158140fb9dccd19817983d",
+    "assets/native-electromagnet.mjs": "3c94b3cd0e6c1ea5215e5e2a16749814308ddc7bdd0d076990789c4e1086bcdc",
+    "assets/native-expansion.mjs": "9a025d9c0b2727245065c948a1b39145e81067dff857ab276c7396102857bb75",
+    "assets/native-fields.mjs": "379c98ed6b118563477e46f558200d722e2dcc80e9ba7e7289d3abe32b9f8de4",
+    "assets/native-fundamentals.mjs": "e957b5f6dcc828774d7be6afd325a6db15313779e1b973e328eaf814dc7c4fbb",
+    "assets/native-general-next-boundary.mjs": "3c6c5b574e0cacb8140fbac0bb70c9d5fc4f7a84e5e56853bcf65e10af4ddf4a",
+    "assets/native-general-next-field.mjs": "86ec8e82707dc84e087fe1277e776cda79ad22d4b17293719b8a1de484a01bb9",
+    "assets/native-general-next-molecule.mjs": "1c6c44a25867bc6e522a4bfda39029ba3dcee725af213f828210a212796d494d",
+    "assets/native-general-next-phasor.mjs": "ecc2c3f8026aee3f1ae6991dab626caf54980904ce10eb6eba59c65588e4ec27",
+    "assets/native-integrators.mjs": "af6192aeb2ed0d1062570837543a83fd085444ffa779be68cdf5a9001a6eea38",
+    "assets/native-interferometer.mjs": "fc0524e69293db99cd951bd449da26088e8f83d3c14d26c1a626eaa58dab918a",
+    "assets/native-jones.mjs": "6e1fd54d90cb222382fb04c70db48b373a43645d8c91f83f8b8cbaba12490118",
+    "assets/native-light.mjs": "3c535933f4df2047ea089105ea6d6607ec94f6590ae89a463fd1c6493195d4c1",
+    "assets/native-matrix.mjs": "0e37cee7d2a503d7a432f359a75a3b3828d1406c8013b096b8b2dfc172cd6c24",
+    "assets/native-mechanics.mjs": "6487c53790e407474bf472c39e7a7704e57a32218cae7adb85060a96d7f24abb",
+    "assets/native-modern-next-rotor.mjs": "f80ef9ff188926ebb38dc7ed9707ecd1205a6afe4c4bebee17d8ce952fab92bf",
+    "assets/native-modern-next-semiconductor.mjs": "10fd32cbc42529b8e38d3b405088f7fca454f42691b2d8ca754f27e329fabc11",
+    "assets/native-modern-next.mjs": "b42666b4cc804ecb82a9c8e8706f81665203d36c83f85002828ba762bebeda7e",
+    "assets/native-nuclear-next-structure.mjs": "6780d737a0cbe6acebcf3d0c9c6ec0c1b7e72e1795590587cf5c0fc8dc220568",
+    "assets/native-nuclear-next.mjs": "220e91a7d12b61be376d7c5ec1a2c13d0a334cb948130fd0a019a00adf45f012",
+    "assets/native-optics-next-lattice.mjs": "1f94baf6fc75d9288e3661a0488fdddd25e82f2a443fb5d97ccdaf872c0dc843",
+    "assets/native-optics-next-surfaces.mjs": "187c28ec2ecee9a7153820dca4d89d48df75c5648c8b2745c9f2620721853f18",
+    "assets/native-optics-next.mjs": "ce3181a33316cd892ec0fff76f421cc7edea720d383bced7a7def122be6a6377",
+    "assets/native-optics.mjs": "5138bcf26f0b83ab49e3bae145c1975afa101e4885cb86fa4f539253d58a6c58",
+    "assets/native-oscillators.mjs": "8466fd467f750051f37c6d49a0f83f316e4f899d8ab28a497072cfc793fbdc60",
+    "assets/native-polarizer.mjs": "da04ff3f6cbec71198b97989fd24f372ee01624206fac7380779900d268dd2b6",
+    "assets/native-potential.mjs": "92b94b0a36f6582445d4434bf1fc41052538f8d58d51b7b4b44ba29ca3b5d53a",
+    "assets/native-quantum.mjs": "523918fd2d3031af2a7e62a03330b56f8d60547eed1df6b7c91cf571baa897d5",
+    "assets/native-rays.mjs": "7dbe9f595264d87f4df42c5cef6dc3800b6e799cda132fc230b9d64464ad3300",
+    "assets/native-refraction.mjs": "fe90d6a1581a33b8b6c9ae9e566eb2e4acd1b061fded4a8b2e009a6a7510bebd",
+    "assets/native-scenes.mjs": "5156781c4319cc4a5e63bdf51c8d8f71c53e8b676b98a03392428994b408a278",
+    "assets/native-timelines.mjs": "ea4ee0a97c80c3e80d8b742fc128c69ef86d2abe2655eb9c9c307cfc607baca0",
+    "assets/native-waves.mjs": "509bae9e6b232837c3e946baf16e617095521357e5bf7d2953540913c7877bd4",
+    "assets/navigation.mjs": "0fc3c1907c6589cb7686623a5ee168975d4a4d0913ed0f21648002971bc73036",
+    "assets/network-model.mjs": "3d995ffe49c6e8940a8bd8dab933ab4c8dd1529907c6cfa79dc078ab8d588b5c",
+    "assets/network.mjs": "cfe2be604f46d80b5d27209d7a97385cd665cb472353bc534b8f4474a60dc3f9",
+    "assets/nuclear-next-physics.mjs": "46d914e0cfe899daf7623e11870af9a79718a6ff8bce310f417d209b18a38e36",
+    "assets/nuclear-next-specs.mjs": "0b0b8c68fea1c60a15dbf140b7ada56e3c8e09f3c50c0fc1d3d5d9baa8dd6689",
+    "assets/nuclear-next-structure-physics.mjs": "9be2801e688767d098ea518025ff8ae09e2de88332af98ed880cbc44df9029b8",
+    "assets/nuclear-next-structure-specs.mjs": "4b891f4dfbf3a5ac5dc2222ae3a1c019290f36c693a91527b734389cef5ab82a",
+    "assets/optical-source-markers.mjs": "f61fd1c10d24fad4b9d3f2572c8a15b60aaba389557dc68420afe30f455ca949",
+    "assets/optics-next-lattice-physics.mjs": "ff23ec8ce76df3c38d0ef289956078dd8c4fd21ae3e9c56107383dd7d4641722",
+    "assets/optics-next-lattice-specs.mjs": "607b9df44c709bbcd4864275a9e46cfbc178c72fb5878315e5f43799b87d4250",
+    "assets/optics-next-physics.mjs": "ff8ae8ed7bf8c2145e5fdb067f26ef1d7819dc4e6067c7f132ebff3ff71eb20b",
+    "assets/optics-next-specs.mjs": "05b6fb2f93e9f73024cf0a8a7995d0ee0a829fc5ceb026ee396e46504fbb28f2",
+    "assets/optics-next-surface-physics.mjs": "33bfbf70c4d006358485b93a2a9e658e48048690ae982037b9ad34f44a6a5675",
+    "assets/optics-next-surface-specs.mjs": "34d77a6a6d411d24f53cd961bd1c58616082805bae5bc5feca1cbc243ebfdf05",
+    "assets/optics-specs.mjs": "5d9a5635182da8a00f22b6535684b53e2b9a7891c8683a7dfb83584b9fb53b81",
+    "assets/physics.mjs": "0647847f08b3d55a3618a78129117e93894830335e78d9500b0a391dc063bcff",
+    "assets/polarizer-physics.mjs": "074b4c174e9c6d1e10e9199eda7ccdee8f7a9c0401319a7e13eda865a72766f8",
+    "assets/polarizer-specs.mjs": "6109ba2e24096ef553132ca55fe174a8c63cb8e9bafed80ff393b1f94f79a841",
+    "assets/potential-physics.mjs": "e0e436f1fe8a5db55f85ffea751db50f630f5be048813b49e7cf4f11a640e86d",
+    "assets/potential-specs.mjs": "18d1e1334625d2cf9588402510a2a475314be983922cce5fa37a2ab0f5de6611",
+    "assets/quantum-physics.mjs": "e5beba1ef9093a27890ebf248ba60af2d254ba39615c8c26fc9150e3edc018e5",
+    "assets/quantum-specs.mjs": "15979194f35e3c65ca69ac2adf47aac17eff73b078f19e64a70002d047885413",
+    "assets/ray-physics.mjs": "bf365710c79ac125153646d608f8273842cbd39bda312b4e5c849a74382ed010",
+    "assets/ray-specs.mjs": "9e3d7e1a77314e99ad83b2e5d618b11f3f90b37376b07d653f8e602eaabfc1b7",
+    "assets/refraction-specs.mjs": "83711da60628a5d9df4e3850f46db0f2c9b72180ab5ad6b96c51dc8c8a79d272",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/scene-physics.mjs": "ca7c46f2a70cd69cba9336c5317221ee0bfce5756a23887debd4811211377a3a",
+    "assets/scene-specs.mjs": "7712e3123e9d74aaf0448a3e6ecc5a7e5909086f50be77251419c5342a60a4a2",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86",
+    "assets/timeline-specs.mjs": "c7327528d4a64667bd31bca206ab62cb0bbc3e509bc10ef9f671e5b51b32a0e4",
+    "assets/transition-motion.mjs": "0977f15e73a81f0492075aa2b77d777932b0ea1832da7361a36ddffe7f3e3f77"
+  },
+  "summary": {
+    "animated": 18,
+    "equilibrium": 0,
+    "static": 0,
+    "failed": 0
+  },
+  "scope": "Reading-page play clicks with normal scrolling; timed SVG scene geometry, pause/resume, seek from end and replay. Authored waits and equilibrium/boundary defaults are explicit, with a separate nonzero-input motion test. Static models are counted separately. This is playback QA, not all original-runtime input equivalence.",
+  "results": [
+    {
+      "id": "flash-828f6de5c2e80dae",
+      "title": "$(n, \\gamma)$ 반응",
+      "href": "lesson-7-3-1-1.html#native-nuclearnext-flash-828f6de5c2e80dae",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-828f6de5c2e80dae",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "capture"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-828f6de5c2e80dae",
+          "nativeReady": "true",
+          "nativeStep": "70",
+          "nativeType": "capture"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "249",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-a02de5c41a974c03",
+      "title": "양정자와 중성자의 스핀",
+      "href": "lesson-7-1-1-5.html#native-nuclearnext-flash-a02de5c41a974c03",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-a02de5c41a974c03",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "spin"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-a02de5c41a974c03",
+          "nativeReady": "true",
+          "nativeStep": "53",
+          "nativeType": "spin"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "240",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-f07439fbd4c95c61",
+      "title": "$(\\alpha,p)$ 반응",
+      "href": "lesson-7-3-1-1.html#native-nuclearnext-flash-f07439fbd4c95c61",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-f07439fbd4c95c61",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "alpha"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-f07439fbd4c95c61",
+          "nativeReady": "true",
+          "nativeStep": "70",
+          "nativeType": "alpha"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "249",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-fcebbc075faedcd3",
+      "title": "핵에서 감마선의 방출",
+      "href": "lesson-7-2-4-2.html#native-nuclearnext-flash-fcebbc075faedcd3",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-fcebbc075faedcd3",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "radiation"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-fcebbc075faedcd3",
+          "nativeReady": "true",
+          "nativeStep": "24",
+          "nativeType": "radiation"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "400",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-d6702d6db2c6746f",
+      "title": "실험실 좌표계에서의 해석",
+      "href": "lesson-7-3-1-2.html#native-nuclearnext-flash-d6702d6db2c6746f",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-d6702d6db2c6746f",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "lab"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-d6702d6db2c6746f",
+          "nativeReady": "true",
+          "nativeStep": "70",
+          "nativeType": "lab"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "349",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-3eb8435919224d2c",
+      "title": "질량중심 좌표계에서의 해석",
+      "href": "lesson-7-3-1-2.html#native-nuclearnext-flash-3eb8435919224d2c",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-3eb8435919224d2c",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "cm"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-3eb8435919224d2c",
+          "nativeReady": "true",
+          "nativeStep": "70",
+          "nativeType": "cm"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "299",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-f07439fbd4c95c61",
+      "title": "$(\\alpha,p)$ 반응",
+      "href": "lesson-7-3-1-1.html#native-nuclearnext-flash-f07439fbd4c95c61",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-f07439fbd4c95c61",
+          "nativeReady": "true",
+          "nativeStep": "1",
+          "nativeType": "alpha"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-f07439fbd4c95c61",
+          "nativeReady": "true",
+          "nativeStep": "70",
+          "nativeType": "alpha"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "249",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-a02de5c41a974c03",
+      "title": "양정자와 중성자의 스핀",
+      "href": "lesson-7-1-1-5.html#native-nuclearnext-flash-a02de5c41a974c03",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-a02de5c41a974c03",
+          "nativeReady": "true",
+          "nativeStep": "1",
+          "nativeType": "spin"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-a02de5c41a974c03",
+          "nativeReady": "true",
+          "nativeStep": "52",
+          "nativeType": "spin"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "240",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-d6702d6db2c6746f",
+      "title": "실험실 좌표계에서의 해석",
+      "href": "lesson-7-3-1-2.html#native-nuclearnext-flash-d6702d6db2c6746f",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-d6702d6db2c6746f",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "lab"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-d6702d6db2c6746f",
+          "nativeReady": "true",
+          "nativeStep": "69",
+          "nativeType": "lab"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "349",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-3eb8435919224d2c",
+      "title": "질량중심 좌표계에서의 해석",
+      "href": "lesson-7-3-1-2.html#native-nuclearnext-flash-3eb8435919224d2c",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-3eb8435919224d2c",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "cm"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-3eb8435919224d2c",
+          "nativeReady": "true",
+          "nativeStep": "69",
+          "nativeType": "cm"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "299",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-fcebbc075faedcd3",
+      "title": "핵에서 감마선의 방출",
+      "href": "lesson-7-2-4-2.html#native-nuclearnext-flash-fcebbc075faedcd3",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-fcebbc075faedcd3",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "radiation"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-fcebbc075faedcd3",
+          "nativeReady": "true",
+          "nativeStep": "14",
+          "nativeType": "radiation"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "400",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-828f6de5c2e80dae",
+      "title": "$(n, \\gamma)$ 반응",
+      "href": "lesson-7-3-1-1.html#native-nuclearnext-flash-828f6de5c2e80dae",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-828f6de5c2e80dae",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "capture"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-828f6de5c2e80dae",
+          "nativeReady": "true",
+          "nativeStep": "68",
+          "nativeType": "capture"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "249",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-a02de5c41a974c03",
+      "title": "양정자와 중성자의 스핀",
+      "href": "lesson-7-1-1-5.html#native-nuclearnext-flash-a02de5c41a974c03",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-a02de5c41a974c03",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "spin"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-a02de5c41a974c03",
+          "nativeReady": "true",
+          "nativeStep": "52",
+          "nativeType": "spin"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "240",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-fcebbc075faedcd3",
+      "title": "핵에서 감마선의 방출",
+      "href": "lesson-7-2-4-2.html#native-nuclearnext-flash-fcebbc075faedcd3",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-fcebbc075faedcd3",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "radiation"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-fcebbc075faedcd3",
+          "nativeReady": "true",
+          "nativeStep": "10",
+          "nativeType": "radiation"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "400",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-f07439fbd4c95c61",
+      "title": "$(\\alpha,p)$ 반응",
+      "href": "lesson-7-3-1-1.html#native-nuclearnext-flash-f07439fbd4c95c61",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-f07439fbd4c95c61",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "alpha"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-f07439fbd4c95c61",
+          "nativeReady": "true",
+          "nativeStep": "67",
+          "nativeType": "alpha"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "249",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-828f6de5c2e80dae",
+      "title": "$(n, \\gamma)$ 반응",
+      "href": "lesson-7-3-1-1.html#native-nuclearnext-flash-828f6de5c2e80dae",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-828f6de5c2e80dae",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "capture"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-828f6de5c2e80dae",
+          "nativeReady": "true",
+          "nativeStep": "68",
+          "nativeType": "capture"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "249",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-3eb8435919224d2c",
+      "title": "질량중심 좌표계에서의 해석",
+      "href": "lesson-7-3-1-2.html#native-nuclearnext-flash-3eb8435919224d2c",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-3eb8435919224d2c",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "cm"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-3eb8435919224d2c",
+          "nativeReady": "true",
+          "nativeStep": "68",
+          "nativeType": "cm"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "299",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-d6702d6db2c6746f",
+      "title": "실험실 좌표계에서의 해석",
+      "href": "lesson-7-3-1-2.html#native-nuclearnext-flash-d6702d6db2c6746f",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "nuclearnext-flash-d6702d6db2c6746f",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeType": "lab"
+        },
+        "after": {
+          "flashNative": "nuclearnext-flash-d6702d6db2c6746f",
+          "nativeReady": "true",
+          "nativeStep": "68",
+          "nativeType": "lab"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "349",
+      "replayFromEnd": true,
+      "classification": "animated"
+    }
+  ],
+  "errors": []
+}

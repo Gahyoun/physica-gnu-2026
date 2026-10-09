@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-09T15:53:32.925Z",
+  "nativeModelHashes": {
+    "assets/general-next-field-physics.mjs": "91c6182bcd7f45b32d303721019056cd84d3ed3d485ac32b7f31fc12bfdeea42",
+    "assets/general-next-field-specs.mjs": "ecbc3993aca7c1e87f2739073559520ec7276a8103b99536ba50330a99a8b90e",
+    "assets/native-general-next-field.mjs": "86ec8e82707dc84e087fe1277e776cda79ad22d4b17293719b8a1de484a01bb9",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "results": [
+    {
+      "id": "flash-88a45295e0343222",
+      "type": "electricfield3D",
+      "width": 320,
+      "passed": true,
+      "staticChoicesAndEndpoints": true,
+      "dragZoom": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-03248f88cf65d710",
+      "type": "magneticfield3D",
+      "width": 320,
+      "passed": true,
+      "staticChoicesAndEndpoints": true,
+      "dragZoom": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-88b240309f887ae7",
+      "type": "emwavexx",
+      "width": 320,
+      "passed": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-88a45295e0343222",
+      "type": "electricfield3D",
+      "width": 768,
+      "passed": true,
+      "staticChoicesAndEndpoints": true,
+      "dragZoom": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-03248f88cf65d710",
+      "type": "magneticfield3D",
+      "width": 768,
+      "passed": true,
+      "staticChoicesAndEndpoints": true,
+      "dragZoom": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-88b240309f887ae7",
+      "type": "emwavexx",
+      "width": 768,
+      "passed": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-88a45295e0343222",
+      "type": "electricfield3D",
+      "width": 1360,
+      "passed": true,
+      "staticChoicesAndEndpoints": true,
+      "dragZoom": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-03248f88cf65d710",
+      "type": "magneticfield3D",
+      "width": 1360,
+      "passed": true,
+      "staticChoicesAndEndpoints": true,
+      "dragZoom": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-88b240309f887ae7",
+      "type": "emwavexx",
+      "width": 1360,
+      "passed": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    }
+  ],
+  "errors": [],
+  "scope": "320/768/1360 actual native UI: SVG-only; molecule max→play immediate rewind, actual scene movement and nearmax boundedloop; play/pause/currentseek/slow only on animated models; original field configurations and scale endpoints; 3Ddrag/zoom; current CSV; reset/themes/fit. Source and originalruntime evidence are separate.",
+  "passed": true
+}

@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-09T15:54:48.825Z",
+  "id": "flash-6b7f2453525617d2",
+  "originalSHA256": "68840725904c55124f1e9547f2707a3b1cfd23fed73efb6d624f4a1b03c01c7a",
+  "originalUnchanged": true,
+  "originalTagsByteIdentical": true,
+  "originalHeaderPreserved": true,
+  "originalABCPreserved": true,
+  "originalDocumentClassPreserved": true,
+  "probeClass": "PhysicaAS3ObserverModern",
+  "observerOnlyReads": true,
+  "queriesOnlyPublicScalars": true,
+  "comparisons": 120,
+  "maxAbsoluteError": 0,
+  "mismatches": [],
+  "samples": [
+    {
+      "n": 28,
+      "axis": "none",
+      "f": 1000,
+      "kind": "initial absolute geometry"
+    },
+    {
+      "n": 37,
+      "axis": "none",
+      "f": 1000,
+      "kind": "initial absolute geometry"
+    },
+    {
+      "n": 45,
+      "axis": "none",
+      "f": 1000,
+      "kind": "initial absolute geometry"
+    },
+    {
+      "n": 53,
+      "axis": "none",
+      "f": 1000,
+      "kind": "initial absolute geometry"
+    },
+    {
+      "n": 62,
+      "axis": "none",
+      "f": 1000,
+      "kind": "initial absolute geometry"
+    },
+    {
+      "n": 91,
+      "axis": "x",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 99,
+      "axis": "x",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 108,
+      "axis": "x",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 116,
+      "axis": "x",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 124,
+      "axis": "x",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 154,
+      "axis": "y",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 162,
+      "axis": "y",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 170,
+      "axis": "y",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 179,
+      "axis": "y",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 187,
+      "axis": "y",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 216,
+      "axis": "z",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 224,
+      "axis": "z",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 233,
+      "axis": "z",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 241,
+      "axis": "z",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    },
+    {
+      "n": 249,
+      "axis": "z",
+      "f": 1000,
+      "kind": "consecutive timer propagation"
+    }
+  ],
+  "passed": true,
+  "fullEquivalence": false,
+  "scope": "Bounded pilot: actual unmodified original AS3 document class and original Timer, observer attached as a distinct blank Sprite class. Reads public scalar state only. No native substitution, original class replacement, write queries, or original function calls.",
+  "originalAxisClicks": [
+    {
+      "axis": "x",
+      "x": 131.25,
+      "y": 290.95,
+      "n": 83
+    },
+    {
+      "axis": "y",
+      "x": 186.75,
+      "y": 290.95,
+      "n": 145
+    },
+    {
+      "axis": "z",
+      "x": 242.25,
+      "y": 290.95,
+      "n": 208
+    }
+  ],
+  "traces": [
+    "PHYSICA_RT|_root.currentTime=245|_root.ball1.center.x=0|_root.ball1.center.y=0|_root.ball1.center.z=-50|_root.ball2.center.x=0|_root.ball2.center.y=0|_root.ball2.center.z=70|_root.xChk.isChecked=false|_root.yChk.isChecked=false|_root.zChk.isChecked=true|_root.cam.f=1000",
+    "PHYSICA_RT|_root.currentTime=249|_root.ball1.center.x=0|_root.ball1.center.y=0|_root.ball1.center.z=-50|_root.ball2.center.x=0|_root.ball2.center.y=0|_root.ball2.center.z=70|_root.xChk.isChecked=false|_root.yChk.isChecked=false|_root.zChk.isChecked=true|_root.cam.f=1000"
+  ],
+  "originalRuntimeVerified": true
+}

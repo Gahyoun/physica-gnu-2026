@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-09T11:11:46.996Z",
+  "nativeModelHashes": {
+    "assets/modern-next-semiconductor-physics.mjs": "bce2ca3d47ec2a1dda904086db7b31fff4991d388201ee8e92aa194f3ae4c4e5",
+    "assets/modern-next-semiconductor-specs.mjs": "9545a4788229912ae13a8e73204cb8424ea41f887c2f3e6fdcd70a101f393c53",
+    "assets/native-modern-next-semiconductor.mjs": "10fd32cbc42529b8e38d3b405088f7fca454f42691b2d8ca754f27e329fabc11",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "tests": 9,
+  "failed": 0,
+  "errors": [],
+  "results": [
+    {
+      "id": "flash-51f673b6e2e0ba51",
+      "type": "diode",
+      "width": 320,
+      "cases": 5,
+      "passed": true,
+      "csv": true
+    },
+    {
+      "id": "flash-9c835cb54e874dd9",
+      "type": "ntype",
+      "width": 320,
+      "cases": 5,
+      "passed": true,
+      "csv": true
+    },
+    {
+      "id": "flash-1062127f0b2ce4eb",
+      "type": "ptype",
+      "width": 320,
+      "cases": 5,
+      "passed": true,
+      "csv": true
+    },
+    {
+      "id": "flash-51f673b6e2e0ba51",
+      "type": "diode",
+      "width": 768,
+      "cases": 5,
+      "passed": true,
+      "csv": true
+    },
+    {
+      "id": "flash-9c835cb54e874dd9",
+      "type": "ntype",
+      "width": 768,
+      "cases": 5,
+      "passed": true,
+      "csv": true
+    },
+    {
+      "id": "flash-1062127f0b2ce4eb",
+      "type": "ptype",
+      "width": 768,
+      "cases": 5,
+      "passed": true,
+      "csv": true
+    },
+    {
+      "id": "flash-51f673b6e2e0ba51",
+      "type": "diode",
+      "width": 1360,
+      "cases": 127,
+      "passed": true,
+      "csv": true
+    },
+    {
+      "id": "flash-9c835cb54e874dd9",
+      "type": "ntype",
+      "width": 1360,
+      "cases": 259,
+      "passed": true,
+      "csv": true
+    },
+    {
+      "id": "flash-1062127f0b2ce4eb",
+      "type": "ptype",
+      "width": 1360,
+      "cases": 259,
+      "passed": true,
+      "csv": true
+    }
+  ]
+}

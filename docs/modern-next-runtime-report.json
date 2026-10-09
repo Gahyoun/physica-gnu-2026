@@ -1,0 +1,480 @@
+{
+  "date": "2026-10-09T11:08:28.965Z",
+  "nativeModelHashes": {
+    "assets/modern-next-physics.mjs": "d7500b1f7bee0d18e1ee7f25c28cd13d590b4ea5b40f41e35ad45d1c399f0d70",
+    "assets/modern-next-specs.mjs": "946db63bf7ab32acbd891d234b283a00740225fa06350c1b46f30fc908612331"
+  },
+  "method": "Actual original Ruffle SWF; read-only AVM1 observer of original scalar functions and states, original pointer selector controls. No SWF or original clocks overwritten.",
+  "files": 12,
+  "comparisons": 1693,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-43cae1be72e00da0",
+      "type": "spin",
+      "sha256": "7ed44dd1d6b47a28de5c7349bfc2855a1713955e89253dd7f47f312ba2075f34",
+      "sha256Verified": true,
+      "comparisons": 4,
+      "maxAbsoluteError": 4.440892098500626e-15,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "reverse"
+        }
+      ],
+      "controls": [
+        {
+          "kind": "direction",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-ef109dfedbb89c0e",
+      "type": "composition",
+      "sha256": "7e0881eb4d5e90381b20d26dfd71b66ea8e2fadca563b0cb264ee85f274f02c7",
+      "sha256Verified": true,
+      "comparisons": 61,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "j1Slider=0.5"
+        },
+        {
+          "label": "j2Slider=0.5"
+        },
+        {
+          "label": "j2Slider=1"
+        },
+        {
+          "label": "j2Slider=1.5"
+        },
+        {
+          "label": "j2Slider=2"
+        },
+        {
+          "label": "j1Slider=1"
+        },
+        {
+          "label": "j2Slider=0.5"
+        },
+        {
+          "label": "j2Slider=1"
+        },
+        {
+          "label": "j2Slider=1.5"
+        },
+        {
+          "label": "j2Slider=2"
+        },
+        {
+          "label": "j1Slider=1.5"
+        },
+        {
+          "label": "j2Slider=0.5"
+        },
+        {
+          "label": "j2Slider=1"
+        },
+        {
+          "label": "j2Slider=1.5"
+        },
+        {
+          "label": "j2Slider=2"
+        },
+        {
+          "label": "j1Slider=2"
+        },
+        {
+          "label": "j2Slider=0.5"
+        },
+        {
+          "label": "j2Slider=1"
+        },
+        {
+          "label": "j2Slider=1.5"
+        },
+        {
+          "label": "j2Slider=2"
+        },
+        {
+          "label": "j1Slider=2.5"
+        },
+        {
+          "label": "j2Slider=0.5"
+        },
+        {
+          "label": "j2Slider=1"
+        },
+        {
+          "label": "j2Slider=1.5"
+        },
+        {
+          "label": "j2Slider=2"
+        },
+        {
+          "label": "j1Slider=3"
+        },
+        {
+          "label": "j2Slider=0.5"
+        },
+        {
+          "label": "j2Slider=1"
+        },
+        {
+          "label": "j2Slider=1.5"
+        },
+        {
+          "label": "j2Slider=2"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-20378ed38ab406bd",
+      "type": "position",
+      "sha256": "0100b5e81a251cbddcb36f8968acdfd57ae20b678c968716276e84f639121f58",
+      "sha256Verified": true,
+      "comparisons": 75,
+      "maxAbsoluteError": 0.04790428432789895,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "natural state 0"
+        },
+        {
+          "label": "natural state 1"
+        },
+        {
+          "label": "natural state 2"
+        },
+        {
+          "label": "natural state 3"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-a034c53325bb5a44",
+      "type": "plane",
+      "sha256": "6116397f6c56fe6e7a61e5f57834c584771f934382ab4225e0aef0bc9c2dc9bf",
+      "sha256Verified": true,
+      "comparisons": 23,
+      "maxAbsoluteError": 6.74945948934831e-15,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "mSlider=-2"
+        },
+        {
+          "label": "mSlider=-1"
+        },
+        {
+          "label": "mSlider=0"
+        },
+        {
+          "label": "mSlider=1"
+        },
+        {
+          "label": "mSlider=2"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-5c5cd22a874aa2b1",
+      "type": "ion",
+      "sha256": "24adc570df019df2dcf33ce34ab11baf2471efc443656ea4c0373cb666edd154",
+      "sha256Verified": true,
+      "comparisons": 656,
+      "maxAbsoluteError": 0.04999999999999005,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "pair 1"
+        },
+        {
+          "label": "pair 2"
+        },
+        {
+          "label": "pair 3"
+        },
+        {
+          "label": "pair 4"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-1e0ff656002d034b",
+      "type": "rotvib",
+      "sha256": "6b1952c881882f585434aae239d51be3a1f6e88c68d3aca5300205634c590290",
+      "sha256Verified": true,
+      "comparisons": 24,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-a40e2e8bd85baf3e",
+      "type": "molpot",
+      "sha256": "1a706b60760e21e3e85a73586763c909c7c6954903793dc4c4331594028bb9f9",
+      "sha256Verified": true,
+      "comparisons": 350,
+      "maxAbsoluteError": 5.115907697472721e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-bfbe6ef3e38e7376",
+      "type": "hydrogen",
+      "sha256": "70a5a21136b30e74f7de58aecf62a175b74524a66a5f643dde58b8b6903ca7db",
+      "sha256Verified": true,
+      "comparisons": 7,
+      "maxAbsoluteError": 2.1316282072803006e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-ad95a3397c4300e3",
+      "type": "zeeman",
+      "sha256": "61ffb2ef7b59086b17091d7e64cdd258a6738f3e9b00d66ce161fa270544531d",
+      "sha256Verified": true,
+      "comparisons": 53,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "BSlider=0"
+        },
+        {
+          "label": "BSlider=1"
+        },
+        {
+          "label": "BSlider=2"
+        },
+        {
+          "label": "BSlider=3"
+        },
+        {
+          "label": "BSlider=4"
+        },
+        {
+          "label": "BSlider=5"
+        },
+        {
+          "label": "BSlider=6"
+        },
+        {
+          "label": "BSlider=7"
+        },
+        {
+          "label": "BSlider=8"
+        },
+        {
+          "label": "BSlider=9"
+        },
+        {
+          "label": "BSlider=10"
+        },
+        {
+          "label": "BSlider=11"
+        },
+        {
+          "label": "BSlider=12"
+        },
+        {
+          "label": "BSlider=13"
+        },
+        {
+          "label": "BSlider=14"
+        },
+        {
+          "label": "BSlider=15"
+        },
+        {
+          "label": "BSlider=16"
+        },
+        {
+          "label": "BSlider=17"
+        },
+        {
+          "label": "BSlider=18"
+        },
+        {
+          "label": "BSlider=19"
+        },
+        {
+          "label": "BSlider=20"
+        },
+        {
+          "label": "BSlider=21"
+        },
+        {
+          "label": "BSlider=22"
+        },
+        {
+          "label": "BSlider=23"
+        },
+        {
+          "label": "BSlider=24"
+        },
+        {
+          "label": "BSlider=25"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-3c987ba991ee4873",
+      "type": "harmonic",
+      "sha256": "fb18d9b0346688d0e3e86a131bf0a112b3a5932948f7581b91d3afef118eb7c2",
+      "sha256Verified": true,
+      "comparisons": 10,
+      "maxAbsoluteError": 4.547473508864641e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "natural state 0"
+        },
+        {
+          "label": "natural state 1"
+        },
+        {
+          "label": "natural state 2"
+        },
+        {
+          "label": "natural state 3"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-93a971b4d807ed76",
+      "type": "microscope",
+      "sha256": "2dbe94d0ea1a796f49e6df4203f928a2ab92238d625112c3a38fad5141bea182",
+      "sha256Verified": true,
+      "comparisons": 275,
+      "maxAbsoluteError": 4.996003610813204e-16,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "natural state 0"
+        },
+        {
+          "label": "natural state 1"
+        },
+        {
+          "label": "natural state 2"
+        },
+        {
+          "label": "natural state 3"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    },
+    {
+      "id": "flash-61b4de4a4b39250d",
+      "type": "packet",
+      "sha256": "86ad9cc7b53257b9b1e22c402d29e33e17258dd3dc73155d23544744dfd50560",
+      "sha256Verified": true,
+      "comparisons": 155,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "startup"
+        },
+        {
+          "label": "natural state 0"
+        },
+        {
+          "label": "natural state 1"
+        },
+        {
+          "label": "natural state 2"
+        },
+        {
+          "label": "natural state 3"
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "scope": "Actual original runtime numerical observer; original finite composition, plane-m and Zeeman sliders; every ion pair; spin direction; bounded natural random/motion snapshots. Pure original energy/potential/packet/probability scalar queries. Source path and UI checks are separate. Not all original pointer histories or random outputs.",
+      "passed": true
+    }
+  ]
+}

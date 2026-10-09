@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-09T15:43:20.212Z",
+  "files": 2,
+  "method": "Private original AS2 functions compared with independent lattice/projection; seeded source random substitution only for this bounded source comparison, not runtime equivalence.",
+  "nativeModelHashes": {
+    "src/native-nuclear-next-structure.json": "e521a5f7e4dd749677b3dd8b95e5f78776bd8249e7a7a1f92f60174ee2c6f306",
+    "assets/nuclear-next-structure-physics.mjs": "9be2801e688767d098ea518025ff8ae09e2de88332af98ed880cbc44df9029b8",
+    "assets/native-nuclear-next-structure.mjs": "6780d737a0cbe6acebcf3d0c9c6ec0c1b7e72e1795590587cf5c0fc8dc220568",
+    "assets/nuclear-next-structure-specs.mjs": "4b891f4dfbf3a5ac5dc2222ae3a1c019290f36c693a91527b734389cef5ab82a"
+  },
+  "comparisons": 110514,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-fd22913dca9a2564",
+      "type": "nucleus",
+      "sha256": "ba20b86aaf668e481650053d929fa87dc67103bd4488b577bfe60d28a03eca7c",
+      "sha256Verified": true,
+      "particles": 135,
+      "poses": 121,
+      "comparisons": 66969,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "passed": true,
+      "scope": "Original lattice construction and Ball/Cam/Vector functions in a private VM; all nucleon centers/radii/depths across121 cumulative rotation input pairs, controlled identical seeded random streams. Original unmodified random runtime is separately pending."
+    },
+    {
+      "id": "flash-eb9eff83b6af5015",
+      "type": "excited",
+      "sha256": "ffb9e92ed6a261718a7ef327f904368d8d57a30de9b2198c9984523066a87c6e",
+      "sha256Verified": true,
+      "particles": 87,
+      "poses": 121,
+      "comparisons": 43545,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "passed": true,
+      "scope": "Original lattice construction and Ball/Cam/Vector functions in a private VM; all nucleon centers/radii/depths across121 cumulative rotation input pairs, controlled identical seeded random streams. Original unmodified random runtime is separately pending."
+    }
+  ]
+}

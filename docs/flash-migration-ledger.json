@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-09T10:34:34.270Z",
+  "date": "2026-10-09T21:54:33.648Z",
   "total": 518,
-  "htmlImplemented": 293,
-  "htmlPending": 225,
+  "htmlImplemented": 349,
+  "htmlPending": 169,
   "svgDiagramsRedesigned": 29,
   "historicalVectorExportsCompared": 29,
   "historicalVectorFramesCompared": 2306,
   "allFilesMigrated": false,
   "htmlPlaybackSummary": {
     "report": "docs/playback-ui-report.json",
-    "expected": 879,
-    "observed": 879,
+    "expected": 1047,
+    "observed": 1047,
     "viewports": [
       320,
       768,
@@ -22,9 +22,9 @@
   "originalRuntimeSummary": {
     "report": "docs/original-runtime-evidence.json",
     "playbackPassed": 518,
-    "numericalFilesPassed": 225,
-    "numericalComparisons": 983462,
-    "numericalSampleComparisons": 784862,
+    "numericalFilesPassed": 250,
+    "numericalComparisons": 1033354,
+    "numericalSampleComparisons": 834754,
     "additionalCombinationComparisons": 198600,
     "finiteCombinationScopesPassed": 6,
     "rootTimelineFilesPassed": 29,
@@ -485,11 +485,20 @@
       "actionScript": 3,
       "scriptFiles": 31,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-4-1-3-2.html#native-general-next-field-flash-88a45295e0343222",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-88a45295e0343222",
@@ -505,12 +514,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript functions; runtime evidence remains separate",
+        "comparisons": 516096,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original AVM2 Remake and VectorFtn functions; all four original source configurations × every36integer vector scales × all512grid arrows, full endpoints and original overlength masking. Not original AVM2 runtime or arbitrary camera pointer history.",
+        "report": "docs/general-next-field-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-field-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-86c6937d3223e221",
@@ -1210,11 +1231,20 @@
       "actionScript": 3,
       "scriptFiles": 30,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-4-5-1-2.html#native-general-next-field-flash-03248f88cf65d710",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-03248f88cf65d710",
@@ -1230,12 +1260,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript functions; runtime evidence remains separate",
+        "comparisons": 516096,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original AVM2 Remake and VectorFtn functions; all four original source configurations × every36integer vector scales × all512grid arrows, full endpoints and original overlength masking. Not original AVM2 runtime or arbitrary camera pointer history.",
+        "report": "docs/general-next-field-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-field-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-58f17839e11262fb",
@@ -3414,17 +3456,26 @@
       "actionScript": 2,
       "scriptFiles": 6,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-1-1.html#native-modern-next-flash-43cae1be72e00da0",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-43cae1be72e00da0",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 4,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3434,12 +3485,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 46272,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-792e2adace7b1d1c",
@@ -3854,17 +3916,26 @@
       "actionScript": 2,
       "scriptFiles": 7,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-3-3.html#native-modern-next-flash-ef109dfedbb89c0e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-ef109dfedbb89c0e",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 61,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3874,12 +3945,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 3426,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-20378ed38ab406bd",
@@ -3892,17 +3974,26 @@
       "actionScript": 2,
       "scriptFiles": 4,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-3-1.html#native-modern-next-flash-20378ed38ab406bd",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-20378ed38ab406bd",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 75,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3912,12 +4003,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 644,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a034c53325bb5a44",
@@ -3930,17 +4032,26 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-5-3-1.html#native-modern-next-flash-a034c53325bb5a44",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a034c53325bb5a44",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 23,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -3950,12 +4061,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 12919,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-53b1f7b53747d01e",
@@ -4564,17 +4686,26 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-1-1.html#native-modern-next-flash-5c5cd22a874aa2b1",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-5c5cd22a874aa2b1",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 656,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -4584,12 +4715,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 388,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-b2963c6429d6fe13",
@@ -4710,17 +4852,26 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-2-4.html#native-modern-next-flash-1e0ff656002d034b",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1e0ff656002d034b",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 24,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -4730,12 +4881,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 85,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a40e2e8bd85baf3e",
@@ -4748,17 +4910,26 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-2-4.html#native-modern-next-flash-a40e2e8bd85baf3e",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a40e2e8bd85baf3e",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 350,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -4768,12 +4939,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 706,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-6b7f2453525617d2",
@@ -4786,17 +4968,26 @@
       "actionScript": 3,
       "scriptFiles": 25,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-2-2.html#native-modern-next-rotor-flash-6b7f2453525617d2",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-6b7f2453525617d2",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 120,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -4806,12 +4997,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 28112,
+        "maxAbsoluteError": 2.2737367544323206e-13,
+        "scope": "Unmodified private original AS3 Remake, run, molecular reposition, link surface endpoints, Euler point and camera projection arithmetic with type annotations removed. All four axis choices and every native step 0..500, seven camera values. Original AS3 runtime observer pending; not a claim of all camera reals or every drag history.",
+        "report": "docs/modern-next-rotor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-rotor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-e22d79853840cca8",
@@ -4824,11 +5026,20 @@
       "actionScript": 3,
       "scriptFiles": 28,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-2-2.html#native-modern-next-rotor-flash-e22d79853840cca8",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e22d79853840cca8",
@@ -4844,12 +5055,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 124388,
+        "maxAbsoluteError": 2.2737367544323206e-13,
+        "scope": "Unmodified private original AS3 Remake, run, molecular reposition, link surface endpoints, Euler point and camera projection arithmetic with type annotations removed. All four axis choices and every native step 0..500, seven camera values. Original AS3 runtime observer pending; not a claim of all camera reals or every drag history.",
+        "report": "docs/modern-next-rotor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-rotor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-ffe75a7c416ca0b9",
@@ -4862,11 +5084,20 @@
       "actionScript": 3,
       "scriptFiles": 28,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-2-2.html#native-modern-next-rotor-flash-ffe75a7c416ca0b9",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-ffe75a7c416ca0b9",
@@ -4882,12 +5113,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 104320,
+        "maxAbsoluteError": 2.2737367544323206e-13,
+        "scope": "Unmodified private original AS3 Remake, run, molecular reposition, link surface endpoints, Euler point and camera projection arithmetic with type annotations removed. All four axis choices and every native step 0..500, seven camera values. Original AS3 runtime observer pending; not a claim of all camera reals or every drag history.",
+        "report": "docs/modern-next-rotor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-rotor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-df19d34e7a23fd8b",
@@ -4900,11 +5142,20 @@
       "actionScript": 3,
       "scriptFiles": 28,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-6-2-2.html#native-modern-next-rotor-flash-df19d34e7a23fd8b",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-df19d34e7a23fd8b",
@@ -4920,12 +5171,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 160460,
+        "maxAbsoluteError": 4.547473508864641e-13,
+        "scope": "Unmodified private original AS3 Remake, run, molecular reposition, link surface endpoints, Euler point and camera projection arithmetic with type annotations removed. All four axis choices and every native step 0..500, seven camera values. Original AS3 runtime observer pending; not a claim of all camera reals or every drag history.",
+        "report": "docs/modern-next-rotor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-rotor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c1fea57f9fa46e86",
@@ -5158,17 +5420,26 @@
       "actionScript": 2,
       "scriptFiles": 8,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-5-1.html#native-modern-next-flash-3c987ba991ee4873",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-3c987ba991ee4873",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 10,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -5178,12 +5449,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 10000,
+        "maxAbsoluteError": 4.206412995699793e-12,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-64b616332433cef2",
@@ -5373,17 +5655,26 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-7.html#native-modern-next-flash-bfbe6ef3e38e7376",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-bfbe6ef3e38e7376",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 7,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -5393,12 +5684,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 100,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-06f7597d6674e49b",
@@ -5801,17 +6103,26 @@
       "actionScript": 2,
       "scriptFiles": 6,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-4-6-9.html#native-modern-next-flash-ad95a3397c4300e3",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-ad95a3397c4300e3",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 53,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -5821,12 +6132,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 1768,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4dec799b85744aef",
@@ -9699,11 +10021,20 @@
       "actionScript": 3,
       "scriptFiles": 15,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-8-4-3.html#native-modern-next-semiconductor-flash-51f673b6e2e0ba51",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-51f673b6e2e0ba51",
@@ -9719,12 +10050,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 313,
+        "maxAbsoluteError": 0,
+        "scope": "Original private AS3 methods with only type annotations removed, unchanged arithmetic and branches. Every original lattice coordinate and dynamic carrier position for finite native step domain, original I-V scalar values and recorded original paths. Scripted AS3 original-runtime numerical observer not available, so not counted as original-runtime equivalence.",
+        "report": "docs/modern-next-semiconductor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-semiconductor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-9c835cb54e874dd9",
@@ -9737,11 +10079,20 @@
       "actionScript": 3,
       "scriptFiles": 15,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-8-4-2.html#native-modern-next-semiconductor-flash-9c835cb54e874dd9",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-9c835cb54e874dd9",
@@ -9757,12 +10108,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 1324,
+        "maxAbsoluteError": 0,
+        "scope": "Original private AS3 methods with only type annotations removed, unchanged arithmetic and branches. Every original lattice coordinate and dynamic carrier position for finite native step domain, original I-V scalar values and recorded original paths. Scripted AS3 original-runtime numerical observer not available, so not counted as original-runtime equivalence.",
+        "report": "docs/modern-next-semiconductor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-semiconductor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1062127f0b2ce4eb",
@@ -9775,11 +10137,20 @@
       "actionScript": 3,
       "scriptFiles": 15,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-8-4-2.html#native-modern-next-semiconductor-flash-1062127f0b2ce4eb",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1062127f0b2ce4eb",
@@ -9795,12 +10166,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 1328,
+        "maxAbsoluteError": 0,
+        "scope": "Original private AS3 methods with only type annotations removed, unchanged arithmetic and branches. Every original lattice coordinate and dynamic carrier position for finite native step domain, original I-V scalar values and recorded original paths. Scripted AS3 original-runtime numerical observer not available, so not counted as original-runtime equivalence.",
+        "report": "docs/modern-next-semiconductor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-semiconductor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5d4dc50064b241a0",
@@ -10212,17 +10594,26 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-3-4-1.html#native-modern-next-flash-93a971b4d807ed76",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-93a971b4d807ed76",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 275,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -10232,12 +10623,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 4990,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-63f0f814d900d37e",
@@ -10304,17 +10706,26 @@
       "actionScript": 2,
       "scriptFiles": 2,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-6-3-4-2.html#native-modern-next-flash-61b4de4a4b39250d",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-61b4de4a4b39250d",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 155,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -10324,12 +10735,23 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "comparisons": 123201,
+        "maxAbsoluteError": 0,
+        "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes.",
+        "report": "docs/modern-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/modern-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1cb9e93772e898a6",
@@ -10618,17 +11040,26 @@
       "actionScript": 3,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-2-4-2.html#native-nuclearnext-flash-fcebbc075faedcd3",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-fcebbc075faedcd3",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 213,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -10638,12 +11069,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original ActionScript functions executed in a numerical VM and compared with independent JS/SVG geometry. This is source-function evidence, not the original Flash runtime.",
+        "comparisons": 336802,
+        "maxAbsoluteError": 5.684341886080802e-14,
+        "scope": "Every step 0..400, original proton position and every vertex in all 20 emitted arcs",
+        "report": "docs/nuclear-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a85b993cc859a8e7",
@@ -10694,11 +11137,20 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-2-1-5.html#native-nuclearnextstructure-flash-eb9eff83b6af5015",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-eb9eff83b6af5015",
@@ -10714,12 +11166,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original AS2 functions compared with independent lattice/projection; seeded source random substitution only for this bounded source comparison, not runtime equivalence.",
+        "comparisons": 43545,
+        "maxAbsoluteError": 5.684341886080802e-14,
+        "scope": "Original lattice construction and Ball/Cam/Vector functions in a private VM; all nucleon centers/radii/depths across121 cumulative rotation input pairs, controlled identical seeded random streams. Original unmodified random runtime is separately pending.",
+        "report": "docs/nuclear-next-structure-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-next-structure-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c1c45d5f38d3a3e9",
@@ -10863,11 +11327,20 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-1-2-1.html#native-nuclearnextstructure-flash-fd22913dca9a2564",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-fd22913dca9a2564",
@@ -10883,12 +11356,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original AS2 functions compared with independent lattice/projection; seeded source random substitution only for this bounded source comparison, not runtime equivalence.",
+        "comparisons": 66969,
+        "maxAbsoluteError": 5.684341886080802e-14,
+        "scope": "Original lattice construction and Ball/Cam/Vector functions in a private VM; all nucleon centers/radii/depths across121 cumulative rotation input pairs, controlled identical seeded random streams. Original unmodified random runtime is separately pending.",
+        "report": "docs/nuclear-next-structure-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-next-structure-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a02de5c41a974c03",
@@ -10901,17 +11386,26 @@
       "actionScript": 2,
       "scriptFiles": 6,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-1-1-5.html#native-nuclearnext-flash-a02de5c41a974c03",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a02de5c41a974c03",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 216,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -10921,12 +11415,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original ActionScript functions executed in a numerical VM and compared with independent JS/SVG geometry. This is source-function evidence, not the original Flash runtime.",
+        "comparisons": 138816,
+        "maxAbsoluteError": 6.821210263296962e-13,
+        "scope": "Every integer step 0..240 × both original direction states, all 24 wedges on both nucleons",
+        "report": "docs/nuclear-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d9b2ee521a3d507e",
@@ -10977,17 +11483,26 @@
       "actionScript": 3,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-3-1-1.html#native-nuclearnext-flash-f07439fbd4c95c61",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-f07439fbd4c95c61",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1680,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -10997,12 +11512,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original ActionScript functions executed in a numerical VM and compared with independent JS/SVG geometry. This is source-function evidence, not the original Flash runtime.",
+        "comparisons": 2000,
+        "maxAbsoluteError": 0,
+        "scope": "Every timer step in one original cycle, including both sides of every reaction boundary and hold phase",
+        "report": "docs/nuclear-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-828f6de5c2e80dae",
@@ -11015,17 +11542,26 @@
       "actionScript": 3,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-3-1-1.html#native-nuclearnext-flash-828f6de5c2e80dae",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-828f6de5c2e80dae",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1712,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -11035,12 +11571,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original ActionScript functions executed in a numerical VM and compared with independent JS/SVG geometry. This is source-function evidence, not the original Flash runtime.",
+        "comparisons": 2000,
+        "maxAbsoluteError": 0,
+        "scope": "Every timer step in one original cycle, including both sides of every reaction boundary and hold phase",
+        "report": "docs/nuclear-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-3eb8435919224d2c",
@@ -11053,17 +11601,26 @@
       "actionScript": 3,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-3-1-2.html#native-nuclearnext-flash-3eb8435919224d2c",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-3eb8435919224d2c",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 2000,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -11073,12 +11630,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original ActionScript functions executed in a numerical VM and compared with independent JS/SVG geometry. This is source-function evidence, not the original Flash runtime.",
+        "comparisons": 2400,
+        "maxAbsoluteError": 0,
+        "scope": "Every timer step in one original cycle, including both sides of every reaction boundary and hold phase",
+        "report": "docs/nuclear-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d6702d6db2c6746f",
@@ -11091,17 +11660,26 @@
       "actionScript": 3,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-7-3-1-2.html#native-nuclearnext-flash-d6702d6db2c6746f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-d6702d6db2c6746f",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 2870,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -11111,12 +11689,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original ActionScript functions executed in a numerical VM and compared with independent JS/SVG geometry. This is source-function evidence, not the original Flash runtime.",
+        "comparisons": 3502,
+        "maxAbsoluteError": 0,
+        "scope": "Every timer step in one original cycle, including both sides of every reaction boundary and hold phase",
+        "report": "docs/nuclear-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/nuclear-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-88dcd0ec7ac4ff7a",
@@ -18800,11 +19390,20 @@
       "actionScript": 3,
       "scriptFiles": 27,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-6-2.html#native-opticsnext-flash-14b9db5d92e12cd7",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-14b9db5d92e12cd7",
@@ -18820,12 +19419,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 31500,
+        "maxAbsoluteError": 1.27675647831893e-15,
+        "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-023950ca3f3c71eb",
@@ -18892,17 +19503,26 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-4-7.html#native-opticsnextsurface-flash-e06b32b2ecda3516",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e06b32b2ecda3516",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 657,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -18912,12 +19532,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private independent original AS2 numerical function execution",
+        "comparisons": 13524,
+        "maxAbsoluteError": 1.9895196601282805e-13,
+        "scope": "All original scalar increments independently with other inputs at defaults, every min/max Cartesian corner and both ordinary/extraordinary modes; all vector endpoints, ellipse bases and rounded refraction readouts. Continuous multi-input product, rendered old artwork and camera transforms outside scope. Original runtime proof separate.",
+        "report": "docs/optics-next-surface-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-surface-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-03bf5655767214f2",
@@ -18930,17 +19562,26 @@
       "actionScript": 2,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-4-9.html#native-opticsnextsurface-flash-03bf5655767214f2",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-03bf5655767214f2",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 116,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -18950,12 +19591,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private independent original AS2 numerical function execution",
+        "comparisons": 33210,
+        "maxAbsoluteError": 8.881784197001252e-16,
+        "scope": "All original scalar increments independently with other inputs at defaults, every min/max Cartesian corner and both ordinary/extraordinary modes; all vector endpoints, ellipse bases and rounded refraction readouts. Continuous multi-input product, rendered old artwork and camera transforms outside scope. Original runtime proof separate.",
+        "report": "docs/optics-next-surface-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-surface-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-b88fb994bb3e1f8a",
@@ -19006,17 +19659,26 @@
       "actionScript": 2,
       "scriptFiles": 16,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-4-3.html#native-opticsnextsurface-flash-e53d7ad01f620e90",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-e53d7ad01f620e90",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 1647,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -19026,12 +19688,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private independent original AS2 numerical function execution",
+        "comparisons": 7182,
+        "maxAbsoluteError": 0,
+        "scope": "All original scalar increments independently with other inputs at defaults, every min/max Cartesian corner and both ordinary/extraordinary modes; all vector endpoints, ellipse bases and rounded refraction readouts. Continuous multi-input product, rendered old artwork and camera transforms outside scope. Original runtime proof separate.",
+        "report": "docs/optics-next-surface-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-surface-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a31c6f6c9dcd2fd5",
@@ -19136,11 +19810,20 @@
       "actionScript": 3,
       "scriptFiles": 30,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-4-6.html#native-opticsnext-flash-8fae081c171c0e7f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-8fae081c171c0e7f",
@@ -19156,12 +19839,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 596464,
+        "maxAbsoluteError": 6.106226635438361e-16,
+        "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-5e33dad22307f686",
@@ -19228,17 +19923,26 @@
       "actionScript": 2,
       "scriptFiles": 1,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-4-1.html#native-opticsnextlattice-flash-a87b31c576c38eb6",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-a87b31c576c38eb6",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 480,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -19248,12 +19952,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private independently executed original AS2 timer body",
+        "comparisons": 9616,
+        "maxAbsoluteError": 0,
+        "scope": "Original runthis body executed independently for every native timeline step0..600: all8 x/ypositions. Source spring drawing helpers stubbed because SVG coils are newly designed gray polylines. Native mass selection and temporal graph are explicitly added; runtime proof separate.",
+        "report": "docs/optics-next-lattice-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-lattice-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-2c0dad26bfbc41ed",
@@ -19342,11 +20058,20 @@
       "actionScript": 3,
       "scriptFiles": 33,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-7-7.html#native-opticsnext-flash-0ac1fdd561f2cc75",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-0ac1fdd561f2cc75",
@@ -19362,12 +20087,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 712368,
+        "maxAbsoluteError": 5.551115123125783e-16,
+        "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-fa07334c05e57137",
@@ -19380,11 +20117,20 @@
       "actionScript": 3,
       "scriptFiles": 32,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-7-6.html#native-opticsnext-flash-fa07334c05e57137",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-fa07334c05e57137",
@@ -19400,12 +20146,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 192,
+        "maxAbsoluteError": 0,
+        "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-a382e596416eab8c",
@@ -19456,11 +20214,20 @@
       "actionScript": 3,
       "scriptFiles": 30,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-7-4.html#native-opticsnext-flash-72fdd14414ea0bb4",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-72fdd14414ea0bb4",
@@ -19476,12 +20243,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 91074,
+        "maxAbsoluteError": 5.921929613350585e-13,
+        "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-39d0ed89e0662362",
@@ -19494,11 +20273,20 @@
       "actionScript": 3,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-8-1.html#native-opticsnext-flash-39d0ed89e0662362",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-39d0ed89e0662362",
@@ -19514,12 +20302,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 1081,
+        "maxAbsoluteError": 1.4210854715202004e-14,
+        "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-06958da63c454bc4",
@@ -19532,11 +20332,20 @@
       "actionScript": 3,
       "scriptFiles": 23,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-8-1.html#native-opticsnext-flash-06958da63c454bc4",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-06958da63c454bc4",
@@ -19552,12 +20361,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 9005,
+        "maxAbsoluteError": 0,
+        "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4a33ea8035c75ef1",
@@ -19570,11 +20391,20 @@
       "actionScript": 3,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-8-1.html#native-opticsnext-flash-4a33ea8035c75ef1",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-4a33ea8035c75ef1",
@@ -19590,12 +20420,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 1441,
+        "maxAbsoluteError": 0,
+        "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4a361b3b26555a71",
@@ -19646,11 +20488,20 @@
       "actionScript": 3,
       "scriptFiles": 28,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-8-2.html#native-opticsnext-flash-471fbd63a28976d2",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-471fbd63a28976d2",
@@ -19666,12 +20517,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 4595,
+        "maxAbsoluteError": 0,
+        "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-210037004e88cc11",
@@ -19684,11 +20547,20 @@
       "actionScript": 3,
       "scriptFiles": 29,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-8-2.html#native-opticsnext-flash-210037004e88cc11",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-210037004e88cc11",
@@ -19704,12 +20576,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 5405,
+        "maxAbsoluteError": 0,
+        "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-78a7c3870057e695",
@@ -19992,11 +20876,20 @@
       "actionScript": 3,
       "scriptFiles": 27,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-5-3-1-5.html#native-opticsnext-flash-df8fe70ae35e91c2",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-df8fe70ae35e91c2",
@@ -20012,12 +20905,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+        "comparisons": 113784,
+        "maxAbsoluteError": 2.751576744230988e-12,
+        "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+        "report": "docs/optics-next-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/optics-next-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c06ced3f8bf3bfc9",
@@ -20795,11 +21700,20 @@
       "actionScript": 3,
       "scriptFiles": 9,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-1-3-2.html#native-general-next-molecule-flash-1d59ec958ccc4eee",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1d59ec958ccc4eee",
@@ -20815,12 +21729,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original ActionScript functions; not originalAVM2 runtime",
+        "comparisons": 28028,
+        "maxAbsoluteError": 1.602273869139026e-12,
+        "scope": "Execute private original frame1/makeNH3Structure/LinkByTwoAtom/Point3D Euler/run numerical code, compare every atom radius and 3D bond endpoint over1001 timer steps. Native rotation/zoom/parsing uses same original camera matrix. Not original AVM2 runtime, not all pointer histories.",
+        "report": "docs/general-next-molecule-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-molecule-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-4d32463d3cbd52b2",
@@ -20833,11 +21759,20 @@
       "actionScript": 3,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-3-1-3-2.html#native-general-next-molecule-flash-4d32463d3cbd52b2",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-4d32463d3cbd52b2",
@@ -20853,12 +21788,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Private original ActionScript functions; not originalAVM2 runtime",
+        "comparisons": 156156,
+        "maxAbsoluteError": 1.751487843648647e-12,
+        "scope": "Execute private original frame1/makeNH3Structure/LinkByTwoAtom/Point3D Euler/run numerical code, compare every atom radius and 3D bond endpoint over1001 timer steps. Native rotation/zoom/parsing uses same original camera matrix. Not original AVM2 runtime, not all pointer histories.",
+        "report": "docs/general-next-molecule-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-molecule-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-d45479e57a3b72c8",
@@ -21579,11 +22526,20 @@
       "actionScript": 3,
       "scriptFiles": 19,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-3-4.html#native-general-next-phasor-flash-63059d3d00cd8eb6",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-63059d3d00cd8eb6",
@@ -21599,12 +22555,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original numeric ActionScript execution, not original AVM2 runtime",
+        "comparisons": 15300,
+        "maxAbsoluteError": 0,
+        "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+        "report": "docs/general-next-phasor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-phasor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-34ec368aac272ea1",
@@ -21617,11 +22585,20 @@
       "actionScript": 3,
       "scriptFiles": 36,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-3-3.html#native-general-next-phasor-flash-34ec368aac272ea1",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-34ec368aac272ea1",
@@ -21637,12 +22614,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original numeric ActionScript execution, not original AVM2 runtime",
+        "comparisons": 80,
+        "maxAbsoluteError": 0,
+        "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+        "report": "docs/general-next-phasor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-phasor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-2719277c02991730",
@@ -21655,11 +22644,20 @@
       "actionScript": 3,
       "scriptFiles": 24,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-3-3.html#native-general-next-phasor-flash-2719277c02991730",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-2719277c02991730",
@@ -21675,12 +22673,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original numeric ActionScript execution, not original AVM2 runtime",
+        "comparisons": 6692,
+        "maxAbsoluteError": 1.291189377639057e-13,
+        "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+        "report": "docs/general-next-phasor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-phasor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-689f25aa00b6c60d",
@@ -21693,11 +22703,20 @@
       "actionScript": 3,
       "scriptFiles": 25,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-3-3.html#native-general-next-phasor-flash-689f25aa00b6c60d",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-689f25aa00b6c60d",
@@ -21713,12 +22732,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original numeric ActionScript execution, not original AVM2 runtime",
+        "comparisons": 20892,
+        "maxAbsoluteError": 0,
+        "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+        "report": "docs/general-next-phasor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-phasor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-1f72424931955085",
@@ -21731,11 +22762,20 @@
       "actionScript": 3,
       "scriptFiles": 37,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-3-4.html#native-general-next-phasor-flash-1f72424931955085",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-1f72424931955085",
@@ -21751,12 +22791,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original numeric ActionScript execution, not original AVM2 runtime",
+        "comparisons": 53516,
+        "maxAbsoluteError": 3.552713678800501e-15,
+        "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+        "report": "docs/general-next-phasor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-phasor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-be2213f8cfc2919f",
@@ -22370,11 +23422,20 @@
       "actionScript": 3,
       "scriptFiles": 35,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-4-1.html#native-general-next-phasor-flash-fa99f99b491eb9c9",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-fa99f99b491eb9c9",
@@ -22390,12 +23451,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original numeric ActionScript execution, not original AVM2 runtime",
+        "comparisons": 60600,
+        "maxAbsoluteError": 0,
+        "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+        "report": "docs/general-next-phasor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-phasor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-0ce368bdcf05a56d",
@@ -23209,11 +24282,20 @@
       "actionScript": 3,
       "scriptFiles": 25,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-5-3.html#native-general-next-phasor-flash-2e0d8ee594ee6ed5",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-2e0d8ee594ee6ed5",
@@ -23229,12 +24311,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original numeric ActionScript execution, not original AVM2 runtime",
+        "comparisons": 3288,
+        "maxAbsoluteError": 2.19912976717751e-12,
+        "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+        "report": "docs/general-next-phasor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-phasor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-c6e54331b672455f",
@@ -23247,11 +24341,20 @@
       "actionScript": 3,
       "scriptFiles": 24,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-2-5-3.html#native-general-next-phasor-flash-c6e54331b672455f",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-c6e54331b672455f",
@@ -23267,12 +24370,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original numeric ActionScript execution, not original AVM2 runtime",
+        "comparisons": 46092,
+        "maxAbsoluteError": 0,
+        "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+        "report": "docs/general-next-phasor-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-phasor-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-828bb6f008342a30",
@@ -24239,17 +25354,26 @@
       "actionScript": 2,
       "scriptFiles": 12,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-4-2.html#native-general-next-boundary-flash-69907620961b0f60",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-69907620961b0f60",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 10904,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -24259,12 +25383,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original AS2 functions; runtime separate",
+        "comparisons": 19230288,
+        "maxAbsoluteError": 0,
+        "scope": "Independent original AS2 pulse, incident, reflection and transmission functions: all four original random shape outcomes × every33original velocity slider levels (31→100,32→1000) × every301fifth-step timeline point × every121original spatial samples, four quantities each. Actual original runtime evidence is separate.",
+        "report": "docs/general-next-boundary-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-boundary-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     },
     {
       "id": "flash-ecaaedb4a5ab6511",
@@ -24931,17 +26067,26 @@
       "actionScript": 2,
       "scriptFiles": 3,
       "sourceInspection": "exported",
-      "htmlHref": null,
-      "migration": "pending",
+      "htmlHref": "lesson-2-1-1-1.html#native-general-next-field-flash-88b240309f887ae7",
+      "migration": "independent-numeric-model",
       "originalControlsApplicable": true,
       "originalRuntimeFullEquivalence": false,
-      "htmlPlaybackQA": null,
+      "htmlPlaybackQA": {
+        "report": "docs/playback-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "allViewportsPassed": true,
+        "scope": "Scene SVG geometry during actual HTML play; pause/resume/end replay; declared static and equilibrium defaults. Not all original input combinations."
+      },
       "originalRuntimeEvidence": {
         "report": "docs/original-runtime-evidence.json",
         "id": "flash-88b240309f887ae7",
         "playbackPassed": true,
-        "numericalPassed": null,
-        "numericalComparisons": 0,
+        "numericalPassed": true,
+        "numericalComparisons": 25584,
         "finiteCombinationEvidence": [],
         "rootTimelinePassed": null,
         "rootFramesObserved": 0,
@@ -24951,12 +26096,24 @@
       },
       "frameComparison": null,
       "numericalComparison": {
-        "status": "pending"
+        "method": "Independent private original ActionScript functions; runtime evidence remains separate",
+        "comparisons": 640640,
+        "maxAbsoluteError": 1.8474111129762605e-12,
+        "scope": "Original AS2 root calcAllAndMove direct execution, every80electric/magnetic field endpoint at all1001 cycle steps. Actual original runtime report remains separate.",
+        "report": "docs/general-next-field-source-report.json",
+        "sourceRuntimeExhaustive": false
       },
       "controlsComparison": {
-        "status": "pending"
+        "status": "mapped_and_native_UI_tested",
+        "report": "docs/general-next-field-ui-report.json",
+        "viewports": [
+          320,
+          768,
+          1360
+        ],
+        "sourceRuntimeExhaustive": false
       },
-      "next": "Review original controls and equations; implement this file; compare original behavior and outputs"
+      "next": "Complete original runtime behavior comparison, including documented differences"
     }
   ]
 }

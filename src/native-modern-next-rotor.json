@@ -1,0 +1,122 @@
+[
+  {
+    "id": "flash-6b7f2453525617d2",
+    "type": "linear",
+    "title": "선형 물체의 회전",
+    "source": "rot3dmo.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/molecular/moenergy/rot3dmo.swf",
+    "lesson": "6-6-2-2",
+    "animated": true,
+    "fps": 50,
+    "max": 500,
+    "controls": [
+      {
+        "key": "axis",
+        "label": "회전축",
+        "values": [
+          "none",
+          "x",
+          "y",
+          "z"
+        ],
+        "value": "x",
+        "origin": "original"
+      },
+      {
+        "key": "camera",
+        "label": "시점 · 확대",
+        "origin": "original"
+      }
+    ]
+  },
+  {
+    "id": "flash-e22d79853840cca8",
+    "type": "asymmetric",
+    "title": "비대칭 팽이의 회전",
+    "source": "rot3dmo2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/molecular/moenergy/rot3dmo2.swf",
+    "lesson": "6-6-2-2",
+    "animated": true,
+    "fps": 50,
+    "max": 500,
+    "controls": [
+      {
+        "key": "axis",
+        "label": "회전축",
+        "values": [
+          "none",
+          "x",
+          "y",
+          "z"
+        ],
+        "value": "x",
+        "origin": "original"
+      },
+      {
+        "key": "camera",
+        "label": "시점 · 확대",
+        "origin": "original"
+      }
+    ]
+  },
+  {
+    "id": "flash-ffe75a7c416ca0b9",
+    "type": "symmetric",
+    "title": "대칭 팽이의 회전",
+    "source": "rot3dmo3.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/molecular/moenergy/rot3dmo3.swf",
+    "lesson": "6-6-2-2",
+    "animated": true,
+    "fps": 50,
+    "max": 500,
+    "controls": [
+      {
+        "key": "axis",
+        "label": "회전축",
+        "values": [
+          "none",
+          "x",
+          "y",
+          "z"
+        ],
+        "value": "x",
+        "origin": "original"
+      },
+      {
+        "key": "camera",
+        "label": "시점 · 확대",
+        "origin": "original"
+      }
+    ]
+  },
+  {
+    "id": "flash-df19d34e7a23fd8b",
+    "type": "spherical",
+    "title": "구형 팽이의 회전",
+    "source": "rot3dmo4.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/modern/molecular/moenergy/rot3dmo4.swf",
+    "lesson": "6-6-2-2",
+    "animated": true,
+    "fps": 50,
+    "max": 500,
+    "controls": [
+      {
+        "key": "axis",
+        "label": "회전축",
+        "values": [
+          "none",
+          "x",
+          "y",
+          "z"
+        ],
+        "value": "x",
+        "origin": "original"
+      },
+      {
+        "key": "camera",
+        "label": "시점 · 확대",
+        "origin": "original"
+      }
+    ]
+  }
+]

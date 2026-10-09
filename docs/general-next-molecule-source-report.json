@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-09T11:06:54.858Z",
+  "method": "Private original ActionScript functions; not originalAVM2 runtime",
+  "nativeModelHashes": {
+    "assets/general-next-molecule-physics.mjs": "6cb617823800de9bbf9c9a7a80123ae7de8862e869fc18fef5f4f626d54e3c88",
+    "assets/general-next-molecule-specs.mjs": "159074a956b20ea25cf89422df4abd83410b2a5e8a2715259538f6f3ad5066fa"
+  },
+  "files": 2,
+  "comparisons": 184184,
+  "results": [
+    {
+      "id": "flash-1d59ec958ccc4eee",
+      "type": "rot3d",
+      "comparisons": 28028,
+      "cases": 1001,
+      "maxAbsoluteError": 1.602273869139026e-12,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Execute private original frame1/makeNH3Structure/LinkByTwoAtom/Point3D Euler/run numerical code, compare every atom radius and 3D bond endpoint over1001 timer steps. Native rotation/zoom/parsing uses same original camera matrix. Not original AVM2 runtime, not all pointer histories.",
+      "passed": true,
+      "sourceHash": "d33fc9df7ff4be3e7c0fb9cad50c0a8febd891cc4750733b38bbbb8288c94b39"
+    },
+    {
+      "id": "flash-4d32463d3cbd52b2",
+      "type": "rot3d3",
+      "comparisons": 156156,
+      "cases": 1001,
+      "maxAbsoluteError": 1.751487843648647e-12,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Execute private original frame1/makeNH3Structure/LinkByTwoAtom/Point3D Euler/run numerical code, compare every atom radius and 3D bond endpoint over1001 timer steps. Native rotation/zoom/parsing uses same original camera matrix. Not original AVM2 runtime, not all pointer histories.",
+      "passed": true,
+      "sourceHash": "10668f40d08373534516502256fe7f3513b8e10c306b169638046edb13d726dc"
+    }
+  ]
+}

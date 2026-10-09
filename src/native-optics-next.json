@@ -1,0 +1,564 @@
+[
+  {
+    "id": "flash-14b9db5d92e12cd7",
+    "type": "activity",
+    "title": "광활성의 근원",
+    "source": "activitytheoryV2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/activity/activitytheoryV2.swf",
+    "lesson": "5-3-6-2",
+    "animated": true,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [
+      {
+        "key": "n0",
+        "label": "굴절률 차",
+        "min": -0.2,
+        "max": 0.2,
+        "step": 0.01,
+        "value": 0.1,
+        "clip": "n0Slider"
+      },
+      {
+        "key": "lambda",
+        "label": "파장 / nm",
+        "min": 300,
+        "max": 1000,
+        "step": 10,
+        "value": 500,
+        "clip": "lambdaSlider"
+      }
+    ],
+    "sourceSha256": "61734ab2284aa560bb65c9f39ae31a6e0e97d48ddeab403b986ec28c55881b39",
+    "camera": [
+      [
+        0.80733101524992,
+        -0.146512317440092,
+        -0.571621179325842
+      ],
+      [
+        -0.0393612627734669,
+        0.953159385507836,
+        -0.299896443478751
+      ],
+      [
+        0.588784614955597,
+        0.264615431629864,
+        0.763748224570722
+      ]
+    ]
+  },
+  {
+    "id": "flash-8fae081c171c0e7f",
+    "type": "retarder",
+    "title": "위상지연판 모의실험",
+    "source": "phaseretarder.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/phaseretarder.swf",
+    "lesson": "5-3-4-6",
+    "animated": true,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [
+      {
+        "key": "length",
+        "label": "길이 / µm",
+        "min": 1,
+        "max": 10,
+        "step": 0.05,
+        "value": 7,
+        "clip": "lengthSlider"
+      },
+      {
+        "key": "ne",
+        "label": "이상 굴절률",
+        "min": 1.25,
+        "max": 2.5,
+        "step": 0.002,
+        "value": 1.6,
+        "clip": "neSlider"
+      },
+      {
+        "key": "ellipticityAngle",
+        "label": "타원율 각 / °",
+        "min": -45,
+        "max": 45,
+        "step": 1,
+        "value": 0,
+        "clip": "ellipticityAngleSlider"
+      },
+      {
+        "key": "lambda",
+        "label": "파장 / nm",
+        "min": 300,
+        "max": 1000,
+        "step": 5,
+        "value": 500,
+        "clip": "lambdaSlider"
+      },
+      {
+        "key": "zPos",
+        "label": "관측 깊이 / µm",
+        "min": 0,
+        "max": 7,
+        "step": 0.005,
+        "value": 2.5,
+        "clip": "zPosSlider"
+      },
+      {
+        "key": "azimuthAngle",
+        "label": "방위각 / °",
+        "min": -90,
+        "max": 90,
+        "step": 1,
+        "value": 45,
+        "clip": "azimuthAngleSlider"
+      },
+      {
+        "key": "no",
+        "label": "정상 굴절률",
+        "min": 1.25,
+        "max": 2.5,
+        "step": 0.002,
+        "value": 1.5,
+        "clip": "noSlider"
+      }
+    ],
+    "sourceSha256": "c18f05c4533358583edeee83de046ed538afe0103be40c9f7c3cf95337397ad2",
+    "camera": [
+      [
+        -0.17886500652491108,
+        -0.3004513440959673,
+        0.9368756771560645
+      ],
+      [
+        0.9556327485202795,
+        -0.27956382912730243,
+        0.09279139361591782
+      ],
+      [
+        0.2340368489166963,
+        0.9119057318471268,
+        0.3371256531378391
+      ]
+    ]
+  },
+  {
+    "id": "flash-0ac1fdd561f2cc75",
+    "type": "stress",
+    "title": "광탄성 모의실험",
+    "source": "photoelesticity.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/photoelesticity.swf",
+    "lesson": "5-3-7-7",
+    "animated": true,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [
+      {
+        "key": "thickness",
+        "label": "두께",
+        "min": 10,
+        "max": 30,
+        "step": 1,
+        "value": 20,
+        "clip": "thicknessSlider"
+      },
+      {
+        "key": "stressOpticsCoeff",
+        "label": "응력광학 계수",
+        "min": 1,
+        "max": 30,
+        "step": 0.1,
+        "value": 10,
+        "clip": "stressOpticsCoeffSlider"
+      },
+      {
+        "key": "angle",
+        "label": "응력 방향 / °",
+        "min": -90,
+        "max": 90,
+        "step": 1,
+        "value": 45,
+        "clip": "angleSlider"
+      },
+      {
+        "key": "lambda",
+        "label": "파장 / nm",
+        "min": 300,
+        "max": 800,
+        "step": 5,
+        "value": 550,
+        "clip": "lambdaSlider"
+      },
+      {
+        "key": "stressX",
+        "label": "x 응력",
+        "min": -10,
+        "max": 10,
+        "step": 0.2,
+        "value": 5,
+        "clip": "stressXSlider"
+      },
+      {
+        "key": "stressY",
+        "label": "y 응력",
+        "min": -10,
+        "max": 10,
+        "step": 0.2,
+        "value": 0,
+        "clip": "stressYSlider"
+      }
+    ],
+    "sourceSha256": "4c6400944c5b13106a498ebf272f93b4069f23784fd935adbd5122e6b9fcb2b5",
+    "camera": [
+      [
+        -0.17886500652491108,
+        -0.3004513440959673,
+        0.9368756771560645
+      ],
+      [
+        0.9556327485202795,
+        -0.27956382912730243,
+        0.09279139361591782
+      ],
+      [
+        0.2340368489166963,
+        0.9119057318471268,
+        0.3371256531378391
+      ]
+    ]
+  },
+  {
+    "id": "flash-fa07334c05e57137",
+    "type": "stressApparatus",
+    "title": "광탄성의 측정",
+    "source": "photoelesticitysimple.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/photoelesticitysimple.swf",
+    "lesson": "5-3-7-6",
+    "animated": false,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [],
+    "sourceSha256": "efa48f5d1e889437b202cf2e0f4b96f2ee7cc0acb402f4233246d24178fab7ee",
+    "camera": [
+      [
+        -0.17750879411737636,
+        -0.5668574820675593,
+        0.8044641893671137
+      ],
+      [
+        0.9777644075163126,
+        -0.008839903067586304,
+        0.209519782234824
+      ],
+      [
+        -0.11165696870193462,
+        0.8237678432900991,
+        0.5558226444268162
+      ]
+    ]
+  },
+  {
+    "id": "flash-72fdd14414ea0bb4",
+    "type": "pockels",
+    "title": "포켈스 셀 광변조기 모의실험",
+    "source": "pockelssimV3.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/pockelssimV3.swf",
+    "lesson": "5-3-7-4",
+    "animated": true,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [
+      {
+        "key": "n0",
+        "label": "기준 굴절률",
+        "min": 1.4,
+        "max": 4,
+        "step": 0.01,
+        "value": 1.5,
+        "clip": "n0Slider"
+      },
+      {
+        "key": "length",
+        "label": "길이 / µm",
+        "min": 10,
+        "max": 40,
+        "step": 1,
+        "value": 20,
+        "clip": "lengthSlider"
+      },
+      {
+        "key": "emconstant",
+        "label": "전기광학 계수",
+        "min": 5,
+        "max": 30,
+        "step": 0.1,
+        "value": 10,
+        "clip": "emconstantSlider"
+      },
+      {
+        "key": "lambda",
+        "label": "파장 / nm",
+        "min": 300,
+        "max": 2000,
+        "step": 10,
+        "value": 500,
+        "clip": "lambdaSlider"
+      },
+      {
+        "key": "voltage",
+        "label": "전압 / V",
+        "min": 0,
+        "max": 15000,
+        "step": 50,
+        "value": 5000,
+        "clip": "voltageSlider"
+      }
+    ],
+    "sourceSha256": "84b454524f4838d79875b30eb409851bf9e3125574f6bdd3c8abfef3e0214c12",
+    "camera": [
+      [
+        -0.17886500652491108,
+        -0.3004513440959673,
+        0.9368756771560645
+      ],
+      [
+        0.9556327485202795,
+        -0.27956382912730243,
+        0.09279139361591782
+      ],
+      [
+        0.2340368489166963,
+        0.9119057318471268,
+        0.3371256531378391
+      ]
+    ]
+  },
+  {
+    "id": "flash-39d0ed89e0662362",
+    "type": "cholesteric",
+    "title": "콜레스테릭 액정",
+    "source": "cholestericV2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/liquidcrystal/cholestericV2.swf",
+    "lesson": "5-3-8-1",
+    "animated": false,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [],
+    "sourceSha256": "7b00396f5ce553d2e2cc682ad8eefae8b78eb0633a2fb5054cdf8cfbd2f4c67b",
+    "camera": [
+      [
+        0.635718027169935,
+        0.0165043087863444,
+        0.771744904565395
+      ],
+      [
+        0.424216915007094,
+        0.827793721437879,
+        -0.367147877250964
+      ],
+      [
+        -0.64490510848731,
+        0.56078976679279,
+        0.519241984538479
+      ]
+    ]
+  },
+  {
+    "id": "flash-06958da63c454bc4",
+    "type": "nematic",
+    "title": "네마틱 액정",
+    "source": "nematicV2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/liquidcrystal/nematicV2.swf",
+    "lesson": "5-3-8-1",
+    "animated": false,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [],
+    "sourceSha256": "e2a4607f9b82b8e903e2ebe41f0bebb20492c296cd8cbb8c937ae6b9d2ecf161",
+    "camera": [
+      [
+        0.635718027169935,
+        0.0165043087863444,
+        0.771744904565395
+      ],
+      [
+        0.424216915007094,
+        0.827793721437879,
+        -0.367147877250964
+      ],
+      [
+        -0.64490510848731,
+        0.56078976679279,
+        0.519241984538479
+      ]
+    ]
+  },
+  {
+    "id": "flash-4a33ea8035c75ef1",
+    "type": "smectic",
+    "title": "스멕틱 액정",
+    "source": "smecticV2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/liquidcrystal/smecticV2.swf",
+    "lesson": "5-3-8-1",
+    "animated": false,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [],
+    "sourceSha256": "6cc0cc8761c7db3c3fca0f509ea24251aadf0d287608485e2ef8e54507abf5ff",
+    "camera": [
+      [
+        0.635718027169935,
+        0.0165043087863444,
+        0.771744904565395
+      ],
+      [
+        0.424216915007094,
+        0.827793721437879,
+        -0.367147877250964
+      ],
+      [
+        -0.64490510848731,
+        0.56078976679279,
+        0.519241984538479
+      ]
+    ]
+  },
+  {
+    "id": "flash-471fbd63a28976d2",
+    "type": "stnStructure",
+    "title": "STN 액정",
+    "source": "stwistednematic.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/liquidcrystal/stwistednematic.swf",
+    "lesson": "5-3-8-2",
+    "animated": false,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [],
+    "sourceSha256": "0d6d837e62e21d3807b2343558d2ba5aea662d5d3d0af8e26f96340c2f8f88ff",
+    "camera": [
+      [
+        0.919178106315053,
+        0.100725466635946,
+        0.380743994361098
+      ],
+      [
+        0.0516563548681413,
+        0.927558041371352,
+        -0.37009147637993
+      ],
+      [
+        -0.390439790329839,
+        0.359847829308877,
+        0.847387933516213
+      ]
+    ]
+  },
+  {
+    "id": "flash-210037004e88cc11",
+    "type": "tnStructure",
+    "title": "꼬인 네마틱 액정",
+    "source": "twistednematicV2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/liquidcrystal/twistednematicV2.swf",
+    "lesson": "5-3-8-2",
+    "animated": false,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [],
+    "sourceSha256": "45162f4b95d396fde60a43ec5c712370e06eb655e79f92ecef5ee411f344c7ec",
+    "camera": [
+      [
+        0.9426606932589795,
+        0.023056889078686953,
+        -0.332955248119
+      ],
+      [
+        -0.17646515930872012,
+        0.8811942237521242,
+        -0.4385849832997
+      ],
+      [
+        0.28328583609959607,
+        0.47219182531245135,
+        0.83473589546241
+      ]
+    ]
+  },
+  {
+    "id": "flash-df8fe70ae35e91c2",
+    "type": "superposition",
+    "title": "중첩에 의한 편광의 형성 관찰",
+    "source": "polsim.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarization/polsim.swf",
+    "lesson": "5-3-1-5",
+    "animated": true,
+    "timeMax": 600,
+    "timeInterval": 0.1,
+    "fps": 20,
+    "controls": [
+      {
+        "key": "lambda",
+        "label": "파장 / nm",
+        "min": 300,
+        "max": 800,
+        "step": 5,
+        "value": 500,
+        "clip": "lambdaSlider"
+      },
+      {
+        "key": "phaseDiff",
+        "label": "위상차 / °",
+        "min": -180,
+        "max": 180,
+        "step": 2,
+        "value": 0,
+        "clip": "phaseDiffSlider"
+      },
+      {
+        "key": "ampY",
+        "label": "y 진폭",
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "value": 50,
+        "clip": "ampYSlider"
+      },
+      {
+        "key": "ampX",
+        "label": "x 진폭",
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "value": 60,
+        "clip": "ampXSlider"
+      }
+    ],
+    "sourceSha256": "e5929dfff3308ddba55676ae5acace25d51576b7100dc6753cfacb7fd28e1147",
+    "camera": [
+      [
+        -0.033991357476292776,
+        -0.503385279680785,
+        0.8633929802684236
+      ],
+      [
+        0.9501365632733375,
+        -0.2842173067344223,
+        -0.12830105652363255
+      ],
+      [
+        0.3099757829290616,
+        0.8159796512501796,
+        0.4879460868759631
+      ]
+    ]
+  }
+]

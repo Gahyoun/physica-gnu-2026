@@ -1,0 +1,15 @@
+[
+  {
+    "id": "flash-a87b31c576c38eb6",
+    "type": "lattice",
+    "title": "등방성과 비등방성 물질의 격자진동",
+    "source": "twodim.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/twodim.swf",
+    "lesson": "5-3-4-1",
+    "animated": true,
+    "timeMax": 600,
+    "timeInterval": 0.5,
+    "fps": 20,
+    "controls": []
+  }
+]

@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-09T21:54:18.485Z",
+  "method": "Actual original Ruffle AVM1 controls and numerical queries",
+  "files": 1,
+  "comparisons": 10904,
+  "nativeModelHashes": {
+    "assets/general-next-boundary-physics.mjs": "b9a08a7c3e947cb1fc76a41c45ca8d241e0edb988048dab3d7554c0cf704d0dd",
+    "assets/general-next-boundary-specs.mjs": "3fec37a555ba931f75b092207f3d89f3d34596e142d3f3b3dc8ae8f0b007ec65"
+  },
+  "results": [
+    {
+      "id": "flash-69907620961b0f60",
+      "sha256": "56204f08bf760ecc232f68110d766ba5dcddfdec252d272a8877d37cdf26f77a",
+      "comparisons": 10904,
+      "cases": [
+        {
+          "time": 0,
+          "v2": 20,
+          "shape": 0
+        },
+        {
+          "time": 0,
+          "v2": 0,
+          "shape": 0
+        },
+        {
+          "time": 1.6,
+          "v2": 0,
+          "shape": 0
+        },
+        {
+          "time": 2,
+          "v2": 0,
+          "shape": 0
+        },
+        {
+          "time": 2.4,
+          "v2": 0,
+          "shape": 0
+        },
+        {
+          "time": 0,
+          "v2": 5,
+          "shape": 0
+        },
+        {
+          "time": 1.6,
+          "v2": 5,
+          "shape": 0
+        },
+        {
+          "time": 2,
+          "v2": 5,
+          "shape": 0
+        },
+        {
+          "time": 2.4,
+          "v2": 5,
+          "shape": 0
+        },
+        {
+          "time": 0,
+          "v2": 10,
+          "shape": 0
+        },
+        {
+          "time": 1.6,
+          "v2": 10,
+          "shape": 0
+        },
+        {
+          "time": 2,
+          "v2": 10,
+          "shape": 0
+        },
+        {
+          "time": 2.4,
+          "v2": 10,
+          "shape": 0
+        },
+        {
+          "time": 0,
+          "v2": 20,
+          "shape": 0
+        },
+        {
+          "time": 1.6,
+          "v2": 20,
+          "shape": 0
+        },
+        {
+          "time": 2,
+          "v2": 20,
+          "shape": 0
+        },
+        {
+          "time": 2.4,
+          "v2": 20,
+          "shape": 0
+        },
+        {
+          "time": 0,
+          "v2": 30,
+          "shape": 0
+        },
+        {
+          "time": 1.6,
+          "v2": 30,
+          "shape": 0
+        },
+        {
+          "time": 2,
+          "v2": 30,
+          "shape": 0
+        },
+        {
+          "time": 2.4,
+          "v2": 30,
+          "shape": 0
+        },
+        {
+          "time": 0,
+          "v2": 100,
+          "shape": 0
+        },
+        {
+          "time": 1.6,
+          "v2": 100,
+          "shape": 0
+        },
+        {
+          "time": 2,
+          "v2": 100,
+          "shape": 0
+        },
+        {
+          "time": 2.4,
+          "v2": 100,
+          "shape": 0
+        },
+        {
+          "time": 0,
+          "v2": 1000,
+          "shape": 0
+        },
+        {
+          "time": 1.6,
+          "v2": 1000,
+          "shape": 0
+        },
+        {
+          "time": 2,
+          "v2": 1000,
+          "shape": 0
+        },
+        {
+          "time": 2.4,
+          "v2": 1000,
+          "shape": 0
+        },
+        {
+          "time": 2.6,
+          "v2": 1000,
+          "shape": 0
+        }
+      ],
+      "mismatches": [],
+      "controls": [
+        {
+          "kind": "velocity",
+          "level": 0,
+          "value": 0
+        },
+        {
+          "kind": "velocity",
+          "level": 5,
+          "value": 5
+        },
+        {
+          "kind": "velocity",
+          "level": 10,
+          "value": 10
+        },
+        {
+          "kind": "velocity",
+          "level": 20,
+          "value": 20
+        },
+        {
+          "kind": "velocity",
+          "level": 30,
+          "value": 30
+        },
+        {
+          "kind": "velocity",
+          "level": 31,
+          "value": 100
+        },
+        {
+          "kind": "velocity",
+          "level": 32,
+          "value": 1000
+        },
+        {
+          "kind": "speed",
+          "value": true
+        },
+        {
+          "kind": "components",
+          "value": true
+        }
+      ],
+      "sha256Verified": true,
+      "fullEquivalence": false,
+      "maxAbsoluteError": 4.973799150320701e-14,
+      "passed": true,
+      "scope": "Actual original AVM1 Ruffle; original pointer slider at seven sampled levels including both special levels, reset-on-change, original play/pause, speed and component checkbox; numerical queries at all121original spatial samples per observed state. Numerical function queries may update original temporary variables. Original random shape chosen at load observed directly, not replaced. Source report separately covers allfourshapes/all33levels/all301timeline samples. Bounded runtime states, not every pointer history."
+    }
+  ]
+}

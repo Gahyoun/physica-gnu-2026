@@ -1,0 +1,510 @@
+{
+  "assigned": 96,
+  "implemented": 15,
+  "implementedIDs": [
+    "flash-03bf5655767214f2",
+    "flash-06958da63c454bc4",
+    "flash-0ac1fdd561f2cc75",
+    "flash-14b9db5d92e12cd7",
+    "flash-210037004e88cc11",
+    "flash-39d0ed89e0662362",
+    "flash-471fbd63a28976d2",
+    "flash-4a33ea8035c75ef1",
+    "flash-72fdd14414ea0bb4",
+    "flash-8fae081c171c0e7f",
+    "flash-a87b31c576c38eb6",
+    "flash-df8fe70ae35e91c2",
+    "flash-e06b32b2ecda3516",
+    "flash-e53d7ad01f620e90",
+    "flash-fa07334c05e57137"
+  ],
+  "remaining": 81,
+  "remainingEntries": [
+    {
+      "id": "flash-88dcd0ec7ac4ff7a",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/aberComa2.swf",
+      "title": "코마를 가진 파면",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-a88e894980293e64",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/aberSpherical4.swf",
+      "title": "구면수차를 가진 파면",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-a503a95f16f31f43",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/phaseAberImage.swf",
+      "title": "수차와 회절무늬",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-833b671bb8f1fdf2",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/pupilSpherical.swf",
+      "title": "결상계의 이상적인 파면",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-c8db27599ba6e756",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/circle/rp2.swf",
+      "title": "광학기기의 분해능",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-48312d928701845d",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/aberAChromatic1.swf",
+      "title": "색지움한 이중렌즈",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-93516affb99b4e72",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/aberAChromatic2.swf",
+      "title": "렌즈의 색수차 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-0f0cac3815eda408",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/aberChromatic1.swf",
+      "title": "렌즈의 색수차",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-07388eb4da3a86fe",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/aberComa1.swf",
+      "title": "렌즈의 코마수차",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-79e619a9377f414a",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/aberSpherical1.swf",
+      "title": "렌즈의 구면수차",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-7d2fe52076b32c5f",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/aberSpherical2.swf",
+      "title": "구면거울의 구면수차",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-367212c8f467ffa9",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/aberSphericalSim1.swf",
+      "title": "렌즈의 수차 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-5b4df2e3e2d7f004",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/astigmatism.swf",
+      "title": "렌즈의 비점수차",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-e1f3b51663ebef1c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/fiber/totalref3.swf",
+      "title": "전반사",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-e8c180cb17a1844d",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/focalgrinsim1.swf",
+      "title": "GRIN 렌즈에서의 광선의 행동",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-b26a7903e99b96d2",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/focalgrinsim2.swf",
+      "title": "공간주기 길이의 GRIN 렌즈",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-bcf751c6bdf6ac2e",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/fresnelshape.swf",
+      "title": "프레넬 렌즈",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-e9a8b8d594d9e6eb",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/simMicrolens1.swf",
+      "title": "미소 렌즈 배열에서 파면의 측정",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-93b905ce5b8916d1",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/simgrin1.swf",
+      "title": "GRIN 렌즈의 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-40a2107ef5afc2d6",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/toy_Fresnel.swf",
+      "title": "프레넬 렌즈에서의 광선의 진행",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-f39e1089113b6f2c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/image/toy_Lens.swf",
+      "title": "실제의 렌즈에 의한 결상",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-08335547ca0f950f",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/mirror/focalellipsesim1.swf",
+      "title": "타원체 거울에서 초점에서 나온 빛의 진행",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-9af62ca573daae10",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/mirror/focalmirrorsim1.swf",
+      "title": "오목거울에서 광선과 파면의 행동",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-f0595ca7e9d43f87",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/mirror/focalmirrorsim2.swf",
+      "title": "볼록거울에서 광선과 파면의 행동",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-558538a6a36d5249",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/mirror/focalparabolasim1.swf",
+      "title": "포물면거울에서의 빛의 진행",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-9a04042c71f6973a",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/mirror/simmirror1.swf",
+      "title": "구면거울의 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-c774604481f2e714",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/mirror/toy_Mirage_physica.swf",
+      "title": "포물면거울을 이용한 장난감",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-0a5ae23ffadf7614",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/prism/graph_dispersion.swf",
+      "title": "몇몇 매질의 분산",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-1acef37d4c4d3fa6",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/prism/simdisprism1.swf",
+      "title": "분산 프리즘",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-6ae189308a390e4c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/prism/simdisprism2.swf",
+      "title": "프리즘을 이용한 스펙트럼 측정",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-9252322b7f86ca63",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/prism/simprism1.swf",
+      "title": "프리즘에 대한 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-f91b55d3bb43716c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/prism/simprism2.swf",
+      "title": "프리즘",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-76b8c6a36b336ddd",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/prism/simprism3.swf",
+      "title": "아베 프리즘",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-ad51d54b1b079073",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/prism/simprism4.swf",
+      "title": "도브 프리즘",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-190ba027454d6737",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/prism/simprism5.swf",
+      "title": "반사 프리즘",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-427415920ebff988",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/focallenssim1.swf",
+      "title": "볼록렌즈에서 물체초점과 상초점",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-3b4198bfba54b3d8",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/focallenssim2.swf",
+      "title": "오목렌즈의 물체초점과 상초점",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-57d7d50ac0840183",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/focalsphericalsim1.swf",
+      "title": "볼록구면경계에서 물체초점과 상초점",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-d54280414204128f",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/focalsphericalsim2.swf",
+      "title": "오목구면경계에서 물체초점과 상초점",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-929bf840d9e022e1",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/simlens1.swf",
+      "title": "렌즈에서의 파면과 광선 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-81cfd256894988a8",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/spherelens/simspherical1.swf",
+      "title": "구면경계에서의 파면과 광선 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-941179ccb1460a21",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/focal2Thicklens1.swf",
+      "title": "두꺼운 렌즈의 주요면",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-3260838a7443436d",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/focal2Thicklens2.swf",
+      "title": "두 렌즈의 조합에 대한 주요면",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-ee7dfbaddba886f1",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/focalThicklens1.swf",
+      "title": "두꺼운 렌즈의 제1주요면",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-c6ac414cdefaad02",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/focalThicklens2.swf",
+      "title": "두꺼운 렌즈의 제2주요면",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-de747b108f3ff0a5",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/sim2lens1.swf",
+      "title": "렌즈의 조합에 대한 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-3eccbed3363b872b",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/thicklens/simThicklens1.swf",
+      "title": "두꺼운 렌즈의 굴절에 대한 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-326e10f58c5fc432",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/interference/young/moireint4cs3.swf",
+      "title": "다중슬릿 간섭",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-e72128ed0d1a1c0d",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/laser/lasergen/maser_NH3.swf",
+      "title": "암모니아로부터의 마이크로파 발생",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-58bd5e6343d0b297",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/laser2level.swf",
+      "title": "2 준위 원자",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-ba4e68a82d2bcb7e",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/laser3level.swf",
+      "title": "3 준위 원자의 펌핑과 밀도반전의 과정",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-dc2240f1cd33fdbb",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/laser4level.swf",
+      "title": "4 준위 원자의 펌핑과 밀도반전의 과정",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-3ef0b27f92a0167e",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/color/colorsense.swf",
+      "title": "세 가지 추상체의 파장별 감도 그래프",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-4536001836ccd77c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion01.swf",
+      "title": "착시 1",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-3faab689d25799e8",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion02.swf",
+      "title": "착시 2",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-fb0581a89a156c72",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion03.swf",
+      "title": "착시 3",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-40e242d41c0c96fa",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion04.swf",
+      "title": "착시 4",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-7746e258bd68068f",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion05.swf",
+      "title": "착시 5",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-86aa98d7539f79b0",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion06.swf",
+      "title": "착시 6",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-9cddf79b62881ba6",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion07.swf",
+      "title": "착시 7",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-f5fbc403edc871ab",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion08.swf",
+      "title": "착시 8",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-4761a9e31f05f6a9",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion09.swf",
+      "title": "착시 9",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-be465f1359e1fc24",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion10.swf",
+      "title": "착시 10",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-600791362273ca0d",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion11.swf",
+      "title": "착시 11",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-076f3a9b0422707e",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion12.swf",
+      "title": "착시 12",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-c45b00a29f9dea7d",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion13.swf",
+      "title": "착시 13",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-04e263fc3721f5df",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion14.swf",
+      "title": "착시 14",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-c06501cc89d19195",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion15.swf",
+      "title": "착시 15",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-b64d39d51c05193d",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion16.swf",
+      "title": "착시 16",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-84d5263a3db489ee",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/light/ray/focalgrinsim3.swf",
+      "title": "신기루",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-45e0cb978ce7c1c6",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/activity/activity.swf",
+      "title": "광활성의 물체에서의 편광면의 회전 모양",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-b88fb994bb3e1f8a",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/disample.swf",
+      "title": "복굴절 물질을 통과하는 빛",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-a31c6f6c9dcd2fd5",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/light_crystal.swf",
+      "title": "결정__h__에서 빛의 전파",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-2c0dad26bfbc41ed",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/faradayef.swf",
+      "title": "광고립장치에서 빛이 투과 및 차단되는 상황",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-8281e1704ab81337",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/kerrcell.swf",
+      "title": "커 셀",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-a382e596416eab8c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/pockels.swf",
+      "title": "포켈스 셀을 이용한 셔터",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-4a361b3b26555a71",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/liquidcrystal/stnsimV2.swf",
+      "title": "꼬인 네마틱 액정 모의실험",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-62dbf7d5b9674686",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarizer/polarizer5.swf",
+      "title": "이색성 결정에 의한 선편광",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-c5aa8a53793797ab",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polrepresent/jonesmatrix.swf",
+      "title": "광학기구의 존스 행렬",
+      "actionScript": 2
+    },
+    {
+      "id": "flash-78a4cbab0b8ef677",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polrepresent/poincaresphereV3.swf",
+      "title": "푸앵카레 구",
+      "actionScript": 3
+    },
+    {
+      "id": "flash-95128c2fde383176",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/scatterpol/scattering.swf",
+      "title": "산란된 빛의 편광 상태",
+      "actionScript": 2
+    }
+  ]
+}

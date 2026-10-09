@@ -85,3 +85,24 @@ if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="d
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="jones-"]'))await import('./native-jones.mjs');
 
 if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="atomic-"]'))await import('./native-atomic.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="nuclearnext-"]'))await import('./native-nuclear-next.mjs');
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-next-"]'))await import('./native-modern-next.mjs');
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-next-phasor-"]'))await import('./native-general-next-phasor.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="opticsnext-"]'))await import('./native-optics-next.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-next-molecule-"]'))await import('./native-general-next-molecule.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-next-semiconductor-"]'))await import('./native-modern-next-semiconductor.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-next-field-"]'))await import('./native-general-next-field.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="opticsnextlattice-"]'))await import('./native-optics-next-lattice.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="nuclearnextstructure-"]'))await import('./native-nuclear-next-structure.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="modern-next-rotor-"]'))await import('./native-modern-next-rotor.mjs');
+
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="general-next-boundary-"]'))await import('./native-general-next-boundary.mjs');
+if(typeof document!=='undefined'&&document.querySelector('[data-flash-native^="opticsnextsurface-"]'))await import('./native-optics-next-surfaces.mjs');

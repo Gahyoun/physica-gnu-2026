@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-09T15:35:17.569Z",
+  "method": "Actual original Ruffle runtime AVM1 display observer",
+  "nativeModelHashes": {
+    "assets/general-next-field-physics.mjs": "91c6182bcd7f45b32d303721019056cd84d3ed3d485ac32b7f31fc12bfdeea42",
+    "assets/general-next-field-specs.mjs": "ecbc3993aca7c1e87f2739073559520ec7276a8103b99536ba50330a99a8b90e"
+  },
+  "files": 1,
+  "comparisons": 25584,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-88b240309f887ae7",
+      "type": "emwavexx",
+      "sha256": "35bdf2c6fc3a02f9b2f50c4bee46a524148c14f937f2bf3403cdb5152866bdef",
+      "sha256Verified": true,
+      "comparisons": 25584,
+      "zeroLengthRotationCases": 16,
+      "cases": [
+        {
+          "step": 6,
+          "arrows": 160
+        },
+        {
+          "step": 8,
+          "arrows": 160
+        },
+        {
+          "step": 10,
+          "arrows": 160
+        },
+        {
+          "step": 12,
+          "arrows": 160
+        },
+        {
+          "step": 14,
+          "arrows": 160
+        },
+        {
+          "step": 16,
+          "arrows": 160
+        },
+        {
+          "step": 18,
+          "arrows": 160
+        },
+        {
+          "step": 20,
+          "arrows": 160
+        },
+        {
+          "step": 22,
+          "arrows": 160
+        },
+        {
+          "step": 24,
+          "arrows": 160
+        },
+        {
+          "step": 26,
+          "arrows": 160
+        },
+        {
+          "step": 28,
+          "arrows": 160
+        },
+        {
+          "step": 30,
+          "arrows": 160
+        },
+        {
+          "step": 32,
+          "arrows": 160
+        },
+        {
+          "step": 34,
+          "arrows": 160
+        },
+        {
+          "step": 36,
+          "arrows": 160
+        },
+        {
+          "step": 38,
+          "arrows": 160
+        },
+        {
+          "step": 40,
+          "arrows": 160
+        },
+        {
+          "step": 42,
+          "arrows": 160
+        },
+        {
+          "step": 44,
+          "arrows": 160
+        },
+        {
+          "step": 46,
+          "arrows": 160
+        },
+        {
+          "step": 48,
+          "arrows": 160
+        },
+        {
+          "step": 50,
+          "arrows": 160
+        },
+        {
+          "step": 52,
+          "arrows": 160
+        },
+        {
+          "step": 54,
+          "arrows": 160
+        },
+        {
+          "step": 56,
+          "arrows": 160
+        },
+        {
+          "step": 58,
+          "arrows": 160
+        },
+        {
+          "step": 60,
+          "arrows": 160
+        },
+        {
+          "step": 62,
+          "arrows": 160
+        },
+        {
+          "step": 64,
+          "arrows": 160
+        },
+        {
+          "step": 66,
+          "arrows": 160
+        },
+        {
+          "step": 68,
+          "arrows": 160
+        },
+        {
+          "step": 70,
+          "arrows": 160
+        },
+        {
+          "step": 72,
+          "arrows": 160
+        },
+        {
+          "step": 74,
+          "arrows": 160
+        },
+        {
+          "step": 76,
+          "arrows": 160
+        },
+        {
+          "step": 78,
+          "arrows": 160
+        },
+        {
+          "step": 80,
+          "arrows": 160
+        },
+        {
+          "step": 82,
+          "arrows": 160
+        },
+        {
+          "step": 84,
+          "arrows": 160
+        }
+      ],
+      "mismatches": [],
+      "controls": [],
+      "maxAbsoluteError": 0.05000000000001137,
+      "fullEquivalence": false,
+      "scope": "Actual original unchanged AVM1 Ruffle timer, read-only display observer: all160pairedE/B arrow centers, lengths and rotations at naturally observed bounded steps. Rotation is checked only for nonzero-length arrows; collapsed zero-length arrows have no defined direction and their original retained angle cannot affect rendered geometry. Centers and lengths remain checked for those cases. Source report independently covers every1001cycle step. No original inputs; native play/slow/seek controls are new.",
+      "passed": true
+    }
+  ]
+}

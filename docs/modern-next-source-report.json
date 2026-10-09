@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-09T11:06:38.584Z",
+  "nativeModelHashes": {
+    "assets/modern-next-physics.mjs": "d7500b1f7bee0d18e1ee7f25c28cd13d590b4ea5b40f41e35ad45d1c399f0d70",
+    "assets/modern-next-specs.mjs": "946db63bf7ab32acbd891d234b283a00740225fa06350c1b46f30fc908612331"
+  },
+  "files": 12,
+  "comparisons": 204499,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-43cae1be72e00da0",
+      "type": "spin",
+      "comparisons": 46272,
+      "cases": 482,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-ef109dfedbb89c0e",
+      "type": "composition",
+      "comparisons": 3426,
+      "cases": 24,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-20378ed38ab406bd",
+      "type": "position",
+      "comparisons": 644,
+      "cases": 40,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-a034c53325bb5a44",
+      "type": "plane",
+      "comparisons": 12919,
+      "cases": 125,
+      "maxAbsoluteError": 1.4210854715202004e-14,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-5c5cd22a874aa2b1",
+      "type": "ion",
+      "comparisons": 388,
+      "cases": 12,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-1e0ff656002d034b",
+      "type": "rotvib",
+      "comparisons": 85,
+      "cases": 24,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-a40e2e8bd85baf3e",
+      "type": "molpot",
+      "comparisons": 706,
+      "cases": 700,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-bfbe6ef3e38e7376",
+      "type": "hydrogen",
+      "comparisons": 100,
+      "cases": 7,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-ad95a3397c4300e3",
+      "type": "zeeman",
+      "comparisons": 1768,
+      "cases": 26,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-3c987ba991ee4873",
+      "type": "harmonic",
+      "comparisons": 10000,
+      "cases": 5000,
+      "maxAbsoluteError": 4.206412995699793e-12,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-93a971b4d807ed76",
+      "type": "microscope",
+      "comparisons": 4990,
+      "cases": 1197,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    },
+    {
+      "id": "flash-61b4de4a4b39250d",
+      "type": "packet",
+      "comparisons": 123201,
+      "cases": 351,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Independent private original ActionScript functions: finite original selector settings, numerical paths, original perspective/matrix transform, deterministic injected random sequence domain samples and time steps. Not universal pointer histories or all random outcomes."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-09T15:43:04.248Z",
+  "nativeModelHashes": {
+    "assets/optics-next-surface-physics.mjs": "33bfbf70c4d006358485b93a2a9e658e48048690ae982037b9ad34f44a6a5675",
+    "assets/optics-next-surface-specs.mjs": "34d77a6a6d411d24f53cd961bd1c58616082805bae5bc5feca1cbc243ebfdf05"
+  },
+  "files": 3,
+  "comparisons": 53916,
+  "method": "Private independent original AS2 numerical function execution",
+  "passed": true,
+  "results": [
+    {
+      "id": "flash-e06b32b2ecda3516",
+      "type": "directions",
+      "comparisons": 13524,
+      "cases": 276,
+      "maxAbsoluteError": 1.9895196601282805e-13,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "f1e1ca70996d607b1b5d2c53ee89aed48f1af000a4cdfb52ff6c08eb65a38bcc",
+      "passed": true,
+      "scope": "All original scalar increments independently with other inputs at defaults, every min/max Cartesian corner and both ordinary/extraordinary modes; all vector endpoints, ellipse bases and rounded refraction readouts. Continuous multi-input product, rendered old artwork and camera transforms outside scope. Original runtime proof separate."
+    },
+    {
+      "id": "flash-e53d7ad01f620e90",
+      "type": "surfaces",
+      "comparisons": 7182,
+      "cases": 57,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "d409ba4d7dc34de14b75bcc3fb6e1025a756b84f4f0de45616f3b5c5eda2a6ab",
+      "passed": true,
+      "scope": "All original scalar increments independently with other inputs at defaults, every min/max Cartesian corner and both ordinary/extraordinary modes; all vector endpoints, ellipse bases and rounded refraction readouts. Continuous multi-input product, rendered old artwork and camera transforms outside scope. Original runtime proof separate."
+    },
+    {
+      "id": "flash-03bf5655767214f2",
+      "type": "refraction",
+      "comparisons": 33210,
+      "cases": 3321,
+      "maxAbsoluteError": 8.881784197001252e-16,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "d194318020ba24dc335572afd304503afe8798e3b44246fe58f0bde639ae36d1",
+      "passed": true,
+      "scope": "All original scalar increments independently with other inputs at defaults, every min/max Cartesian corner and both ordinary/extraordinary modes; all vector endpoints, ellipse bases and rounded refraction readouts. Continuous multi-input product, rendered old artwork and camera transforms outside scope. Original runtime proof separate."
+    }
+  ]
+}

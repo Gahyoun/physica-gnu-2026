@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-09T15:41:33.160Z",
+  "nativeModelHashes": {
+    "assets/optics-next-physics.mjs": "ff8ae8ed7bf8c2145e5fdb067f26ef1d7819dc4e6067c7f132ebff3ff71eb20b",
+    "assets/optics-next-specs.mjs": "05b6fb2f93e9f73024cf0a8a7995d0ee0a829fc5ceb026ee396e46504fbb28f2"
+  },
+  "method": "Independent private original ActionScript method execution, original Complex/JonesVector/JonesMatrix/PolarizationState calculations; fixed seeded source geometry capture",
+  "files": 11,
+  "comparisons": 1566909,
+  "passed": true,
+  "results": [
+    {
+      "id": "flash-14b9db5d92e12cd7",
+      "type": "activity",
+      "comparisons": 31500,
+      "cases": 125,
+      "maxAbsoluteError": 1.27675647831893e-15,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "61734ab2284aa560bb65c9f39ae31a6e0e97d48ddeab403b986ec28c55881b39",
+      "currentParameters": {
+        "n0": 0.1,
+        "lambda": 500
+      },
+      "currentOptions": {},
+      "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-8fae081c171c0e7f",
+      "type": "retarder",
+      "comparisons": 596464,
+      "cases": 3389,
+      "maxAbsoluteError": 6.106226635438361e-16,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "c18f05c4533358583edeee83de046ed538afe0103be40c9f7c3cf95337397ad2",
+      "currentParameters": {
+        "length": 7,
+        "ne": 1.6,
+        "ellipticityAngle": 0,
+        "lambda": 500,
+        "zPos": 2.5,
+        "azimuthAngle": 45,
+        "no": 1.5
+      },
+      "currentOptions": {},
+      "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-0ac1fdd561f2cc75",
+      "type": "stress",
+      "comparisons": 712368,
+      "cases": 6984,
+      "maxAbsoluteError": 5.551115123125783e-16,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "4c6400944c5b13106a498ebf272f93b4069f23784fd935adbd5122e6b9fcb2b5",
+      "currentParameters": {
+        "thickness": 20,
+        "stressOpticsCoeff": 10,
+        "angle": 45,
+        "lambda": 550,
+        "stressX": 5,
+        "stressY": 0
+      },
+      "currentOptions": {
+        "parallel": true,
+        "quarter": true,
+        "reverse": true
+      },
+      "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-fa07334c05e57137",
+      "type": "stressApparatus",
+      "comparisons": 192,
+      "cases": 64,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "efa48f5d1e889437b202cf2e0f4b96f2ee7cc0acb402f4233246d24178fab7ee",
+      "currentParameters": {},
+      "currentOptions": {
+        "parallel": true,
+        "quarter": true,
+        "reverse": true
+      },
+      "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-72fdd14414ea0bb4",
+      "type": "pockels",
+      "comparisons": 91074,
+      "cases": 1059,
+      "maxAbsoluteError": 5.921929613350585e-13,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "84b454524f4838d79875b30eb409851bf9e3125574f6bdd3c8abfef3e0214c12",
+      "currentParameters": {
+        "n0": 1.5,
+        "length": 20,
+        "emconstant": 10,
+        "lambda": 500,
+        "voltage": 5000
+      },
+      "currentOptions": {},
+      "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-39d0ed89e0662362",
+      "type": "cholesteric",
+      "comparisons": 1081,
+      "cases": 1,
+      "maxAbsoluteError": 1.4210854715202004e-14,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "7b00396f5ce553d2e2cc682ad8eefae8b78eb0633a2fb5054cdf8cfbd2f4c67b",
+      "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-06958da63c454bc4",
+      "type": "nematic",
+      "comparisons": 9005,
+      "cases": 5,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "e2a4607f9b82b8e903e2ebe41f0bebb20492c296cd8cbb8c937ae6b9d2ecf161",
+      "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-4a33ea8035c75ef1",
+      "type": "smectic",
+      "comparisons": 1441,
+      "cases": 1,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "6cc0cc8761c7db3c3fca0f509ea24251aadf0d287608485e2ef8e54507abf5ff",
+      "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-471fbd63a28976d2",
+      "type": "stnStructure",
+      "comparisons": 4595,
+      "cases": 5,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "0d6d837e62e21d3807b2343558d2ba5aea662d5d3d0af8e26f96340c2f8f88ff",
+      "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-210037004e88cc11",
+      "type": "tnStructure",
+      "comparisons": 5405,
+      "cases": 5,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "45162f4b95d396fde60a43ec5c712370e06eb655e79f92ecef5ee411f344c7ec",
+      "scope": "All original molecular segment endpoints under fixed seeded random placement, both electric-field toggle states and repeated alternation; original matrices retained for view. No motion timeline on structures. Original AVM2 runtime not instrumented. Native redraw is idempotent; original nematic repeated same-state Remake can drift.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    },
+    {
+      "id": "flash-df8fe70ae35e91c2",
+      "type": "superposition",
+      "comparisons": 113784,
+      "cases": 431,
+      "maxAbsoluteError": 2.751576744230988e-12,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalSourceSha256": "e5929dfff3308ddba55676ae5acace25d51576b7100dc6753cfacb7fd28e1147",
+      "currentParameters": {
+        "lambda": 500,
+        "phaseDiff": 0,
+        "ampY": 50,
+        "ampX": 60
+      },
+      "currentOptions": {},
+      "scope": "Every displayed scalar control increment independently with other controls at defaults; all min/max cross-product corners; all 8 photoelastic checkbox combinations; every original field/Jones component and phase/intensity readout at sampled times. Not the full continuous multi-input product or original AVM2 runtime. Static apparatus values add a Jones explanation; source checks original apparatus toggle orientations only.",
+      "runtimeStatus": "awaiting scripted AVM2 observer",
+      "passed": true
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root)));
 
-export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave','expansion-wave','moire','scene','quantum','light','dynamics','electromagnet','circuit','potential','diffraction','beam','ray','aperture','matrix','interferometer','polarizer','dichroic','jones','atomic'];
+export const numericalGroups=['fundamental','analytic','wave','field','optics','refraction','film','polarization','polarization-marker','structure','angular','molecule','color','complex','reflection-wave','expansion-wave','moire','scene','quantum','light','dynamics','electromagnet','circuit','potential','diffraction','beam','ray','aperture','matrix','interferometer','polarizer','dichroic','jones','atomic','modern-next','nuclear-next','general-next-field','optics-next-lattice','general-next-boundary','optics-next-surface','nuclear-next-as3','modern-next-rotor'];
 export const combinationGroups=['superposition-combinations'];
 
 export function runtimeEvidence(){
@@ -30,6 +30,8 @@ export function runtimeEvidence(){
     const group=groups.find(g=>g.report.results.some(x=>x.id===r.id));
     const numeric=group?.report.results.find(x=>x.id===r.id);
     const check=numeric?.numeric||numeric;
+    const numericSHA=numeric?.sha256||numeric?.originalSHA256;
+    if(numeric&&numericSHA!==r.sha256)throw Error('Original runtime hash mismatch: '+r.id);
     const finiteCombinationEvidence=combinations.flatMap(g=>g.report.results.filter(v=>v.id===r.id).map(v=>({report:`docs/${g.name}-runtime-report.json`,sha256:v.sha256,passed:v.passed,comparisons:v.comparisons,expected:g.report.expectedTuples,observed:g.report.observedTuples,complete:v.passed&&g.report.expectedTuples===g.report.observedTuples,scope:v.scope})));
     if(numeric?.finiteInputCombinations)finiteCombinationEvidence.push({report:`docs/${group.name}-runtime-report.json`,sha256:numeric.sha256,passed:numeric.passed,...numeric.finiteInputCombinations,comparisonsIncludedInPrimaryNumerical:true});
     return {
@@ -42,7 +44,7 @@ export function runtimeEvidence(){
         scope:'Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted.'
       }:null,
       numerical:numeric?{
-        report:`docs/${group.name}-runtime-report.json`,sha256:numeric.sha256,
+        report:`docs/${group.name}-runtime-report.json`,sha256:numericSHA,
         passed:check.passed,comparisons:check.comparisons,
         scope:check.scope||group.report.scope||numeric.scope,
         maxAbsoluteError:check.maxAbsoluteError??Math.max(...numeric.cases.map(c=>c.maxAbsoluteError)),

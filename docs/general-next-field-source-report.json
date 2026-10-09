@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-09T11:10:41.289Z",
+  "method": "Independent private original ActionScript functions; runtime evidence remains separate",
+  "nativeModelHashes": {
+    "assets/general-next-field-physics.mjs": "91c6182bcd7f45b32d303721019056cd84d3ed3d485ac32b7f31fc12bfdeea42",
+    "assets/general-next-field-specs.mjs": "ecbc3993aca7c1e87f2739073559520ec7276a8103b99536ba50330a99a8b90e"
+  },
+  "files": 3,
+  "comparisons": 1672832,
+  "results": [
+    {
+      "id": "flash-88a45295e0343222",
+      "type": "electricfield3D",
+      "comparisons": 516096,
+      "cases": 144,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "sourceHash": "5ec190c01c4f874dd248c5c27bfe265b7af94db92301627265fdaac6da616582",
+      "scope": "Independent private original AVM2 Remake and VectorFtn functions; all four original source configurations × every36integer vector scales × all512grid arrows, full endpoints and original overlength masking. Not original AVM2 runtime or arbitrary camera pointer history.",
+      "passed": true
+    },
+    {
+      "id": "flash-03248f88cf65d710",
+      "type": "magneticfield3D",
+      "comparisons": 516096,
+      "cases": 144,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "sourceHash": "7e43455aa7226250c5dc686a4981508aba66e815d1864beef6aae046cdd69d99",
+      "scope": "Independent private original AVM2 Remake and VectorFtn functions; all four original source configurations × every36integer vector scales × all512grid arrows, full endpoints and original overlength masking. Not original AVM2 runtime or arbitrary camera pointer history.",
+      "passed": true
+    },
+    {
+      "id": "flash-88b240309f887ae7",
+      "type": "emwavexx",
+      "comparisons": 640640,
+      "cases": 1001,
+      "maxAbsoluteError": 1.8474111129762605e-12,
+      "mismatches": [],
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "sourceHash": "f10c6fa27e80d9cb2ef2ee63391f2f0c315918caa7a0824f97f70d4fb218bbf6",
+      "scope": "Original AS2 root calcAllAndMove direct execution, every80electric/magnetic field endpoint at all1001 cycle steps. Actual original runtime report remains separate.",
+      "passed": true
+    }
+  ]
+}

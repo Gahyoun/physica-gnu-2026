@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-09T21:49:37.424Z",
+  "files": 1,
+  "method": "Actual original Ruffle read-only AVM1 observer; source timer and real original checkbox clicks. AS3 nuclear reaction/radiation runtime observer remains pending.",
+  "nativeModelHashes": {
+    "assets/nuclear-next-physics.mjs": "46d914e0cfe899daf7623e11870af9a79718a6ff8bce310f417d209b18a38e36",
+    "assets/nuclear-next-specs.mjs": "0b0b8c68fea1c60a15dbf140b7ada56e3c8e09f3c50c0fc1d3d5d9baa8dd6689"
+  },
+  "comparisons": 216,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-a02de5c41a974c03",
+      "type": "spin",
+      "sha256": "88ff575a94f35701e0db925aa29bdb0e7361ad44d34bbb48df89b128dac5f384",
+      "sha256Verified": true,
+      "cases": [
+        {
+          "label": "initial",
+          "time": 14,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 0",
+          "time": 18,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 1",
+          "time": 22,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 2",
+          "time": 26,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 3",
+          "time": 31,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 4",
+          "time": 35,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 5",
+          "time": 39,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 6",
+          "time": 43,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 7",
+          "time": 47,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 8",
+          "time": 51,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 9",
+          "time": 56,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 10",
+          "time": 60,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "forward 11",
+          "time": 64,
+          "reverse": false,
+          "passed": true
+        },
+        {
+          "label": "reverse click",
+          "time": 74,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 0",
+          "time": 79,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 1",
+          "time": 83,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 2",
+          "time": 87,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 3",
+          "time": 91,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 4",
+          "time": 95,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 5",
+          "time": 99,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 6",
+          "time": 104,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 7",
+          "time": 108,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 8",
+          "time": 112,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 9",
+          "time": 116,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 10",
+          "time": 120,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "reverse 11",
+          "time": 124,
+          "reverse": true,
+          "passed": true
+        },
+        {
+          "label": "restore click",
+          "time": 135,
+          "reverse": false,
+          "passed": true
+        }
+      ],
+      "controls": [
+        {
+          "kind": "original checkbox click",
+          "state": true,
+          "passed": true
+        },
+        {
+          "kind": "original checkbox click",
+          "state": false,
+          "passed": true
+        }
+      ],
+      "comparisons": 216,
+      "maxAbsoluteError": 0.0000015352345030805736,
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Actual original AS2 timer with read-only observations of two spin-sector angles and angular/magnetic-moment arrow coordinates; naturally observed 27 states and real reverse checkbox clicks in both directions. All24sector vertices, continuous pointer/event histories and all elapsed times remain outside this runtime scope. Independent source comparison separately covers every native step."
+    }
+  ]
+}

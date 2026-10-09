@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-09T15:42:47.970Z",
+  "method": "Independent private original AS2 functions; runtime separate",
+  "nativeModelHashes": {
+    "assets/general-next-boundary-physics.mjs": "b9a08a7c3e947cb1fc76a41c45ca8d241e0edb988048dab3d7554c0cf704d0dd",
+    "assets/general-next-boundary-specs.mjs": "3fec37a555ba931f75b092207f3d89f3d34596e142d3f3b3dc8ae8f0b007ec65"
+  },
+  "files": 1,
+  "comparisons": 19230288,
+  "results": [
+    {
+      "id": "flash-69907620961b0f60",
+      "comparisons": 19230288,
+      "cases": 39732,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "originalRuntimeVerified": false,
+      "fullEquivalence": false,
+      "sourceHash": "a5a19fe967b4b0fd57a634abadc536407f5973130818a4b25db5ae7b97332c81",
+      "passed": true,
+      "scope": "Independent original AS2 pulse, incident, reflection and transmission functions: all four original random shape outcomes × every33original velocity slider levels (31→100,32→1000) × every301fifth-step timeline point × every121original spatial samples, four quantities each. Actual original runtime evidence is separate."
+    }
+  ]
+}

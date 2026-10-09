@@ -1,0 +1,237 @@
+[
+  {
+    "id": "flash-34ec368aac272ea1",
+    "type": "phasor1",
+    "title": "파동의 위상자",
+    "source": "phasor1.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/phasor1.swf",
+    "lesson": "2-2-3-3",
+    "animated": true,
+    "fps": 20,
+    "max": 10000,
+    "value": 0,
+    "controls": [
+      {
+        "key": "omega",
+        "label": "각진동수 / 10",
+        "min": 0.2,
+        "max": 2.0,
+        "step": 0.1,
+        "value": 1.0,
+        "origin": "original"
+      }
+    ],
+    "sourceRuntime": "pending-avm2-observer"
+  },
+  {
+    "id": "flash-2719277c02991730",
+    "type": "phasor2",
+    "title": "2차원 파동의 위상자",
+    "source": "phasor2.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/phasor2.swf",
+    "lesson": "2-2-3-3",
+    "animated": true,
+    "fps": 20,
+    "max": 10000,
+    "value": 0,
+    "controls": [
+      {
+        "key": "omega",
+        "label": "각진동수 / 10",
+        "min": 0.2,
+        "max": 2.0,
+        "step": 0.1,
+        "value": 1.0,
+        "origin": "original"
+      }
+    ],
+    "sourceRuntime": "pending-avm2-observer"
+  },
+  {
+    "id": "flash-689f25aa00b6c60d",
+    "type": "phasor3",
+    "title": "파동의 합성",
+    "source": "phasor3.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/phasor3.swf",
+    "lesson": "2-2-3-3",
+    "animated": true,
+    "fps": 20,
+    "max": 10000,
+    "value": 0,
+    "controls": [
+      {
+        "key": "omega1",
+        "label": "각진동수 1 / 10",
+        "min": 0.2,
+        "max": 3.0,
+        "step": 0.1,
+        "value": 1.0,
+        "origin": "original"
+      },
+      {
+        "key": "omega2",
+        "label": "각진동수 2 / 10",
+        "min": 0.1,
+        "max": 3.0,
+        "step": 0.1,
+        "value": 1.1,
+        "origin": "original"
+      },
+      {
+        "key": "amp2",
+        "label": "진폭 비",
+        "min": 0.1,
+        "max": 1.2,
+        "step": 0.1,
+        "value": 1.0,
+        "origin": "original"
+      }
+    ],
+    "sourceRuntime": "pending-avm2-observer"
+  },
+  {
+    "id": "flash-1f72424931955085",
+    "type": "phasor4",
+    "title": "파동의 위상자와 푸리에 급수",
+    "source": "phasor4.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/phasor4.swf",
+    "lesson": "2-2-3-4",
+    "animated": true,
+    "fps": 50,
+    "max": 10000,
+    "value": 0,
+    "controls": [
+      {
+        "key": "omega",
+        "label": "각진동수 / 10",
+        "min": 0.2,
+        "max": 5.0,
+        "step": 0.1,
+        "value": 2.0,
+        "origin": "original"
+      },
+      {
+        "key": "number",
+        "label": "최고 차수",
+        "min": 1.0,
+        "max": 51.0,
+        "step": 2.0,
+        "value": 11.0,
+        "origin": "original"
+      }
+    ],
+    "sourceRuntime": "pending-avm2-observer"
+  },
+  {
+    "id": "flash-fa99f99b491eb9c9",
+    "type": "phasor5",
+    "title": "정상파의 위상자",
+    "source": "phasor5.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/resonant/phasor5.swf",
+    "lesson": "2-2-4-1",
+    "animated": true,
+    "fps": 20,
+    "max": 10000,
+    "value": 0,
+    "controls": [],
+    "sourceRuntime": "pending-avm2-observer"
+  },
+  {
+    "id": "flash-2e0d8ee594ee6ed5",
+    "type": "phasor6",
+    "title": "위상자에 의한 간섭의 해석",
+    "source": "phasor6.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/phasor6.swf",
+    "lesson": "2-2-5-3",
+    "animated": true,
+    "fps": 20,
+    "max": 10000,
+    "value": 0,
+    "controls": [
+      {
+        "key": "phase",
+        "label": "위상차 / 도",
+        "min": -180.0,
+        "max": 180.0,
+        "step": 1.0,
+        "value": 0.0,
+        "origin": "original"
+      },
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 10.0,
+        "max": 100.0,
+        "step": 1.0,
+        "value": 40.0,
+        "origin": "original"
+      },
+      {
+        "key": "slitWidth",
+        "label": "광원 간격",
+        "min": 5.0,
+        "max": 200.0,
+        "step": 1.0,
+        "value": 80.0,
+        "origin": "original"
+      }
+    ],
+    "sourceRuntime": "pending-avm2-observer"
+  },
+  {
+    "id": "flash-c6e54331b672455f",
+    "type": "phasor7",
+    "title": "위상자의 합성",
+    "source": "phasor7.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/phasor7.swf",
+    "lesson": "2-2-5-3",
+    "animated": true,
+    "fps": 20,
+    "max": 10000,
+    "value": 0,
+    "controls": [
+      {
+        "key": "A1",
+        "label": "진폭 1",
+        "min": 5.0,
+        "max": 100.0,
+        "step": 1.0,
+        "value": 75.0,
+        "origin": "original"
+      },
+      {
+        "key": "A2",
+        "label": "진폭 2",
+        "min": 5.0,
+        "max": 100.0,
+        "step": 1.0,
+        "value": 50.0,
+        "origin": "original"
+      },
+      {
+        "key": "phase",
+        "label": "위상차 / 도",
+        "min": -180.0,
+        "max": 180.0,
+        "step": 1.0,
+        "value": 45.0,
+        "origin": "original"
+      }
+    ],
+    "sourceRuntime": "pending-avm2-observer"
+  },
+  {
+    "id": "flash-63059d3d00cd8eb6",
+    "type": "fourier1new",
+    "title": "사각파의 푸리에 급수 표현",
+    "source": "fourier1new.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/fourier1new.swf",
+    "lesson": "2-2-3-4",
+    "animated": false,
+    "fps": 20,
+    "max": 10000,
+    "value": 0,
+    "controls": [],
+    "sourceRuntime": "pending-avm2-observer"
+  }
+]

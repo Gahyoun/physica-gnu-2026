@@ -1,0 +1,26 @@
+[
+  {
+    "id": "flash-69907620961b0f60",
+    "type": "refract1",
+    "title": "경계에서 파동의 반사와 투과",
+    "source": "refract1.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/wave/wave/reflect/refract1.swf",
+    "lesson": "2-1-4-2",
+    "animated": true,
+    "fps": 10,
+    "max": 300,
+    "value": 0,
+    "controls": [
+      {
+        "key": "level",
+        "label": "매질 2의 파속도",
+        "min": 0,
+        "max": 32,
+        "step": 1,
+        "value": 20,
+        "origin": "original"
+      }
+    ],
+    "sourceRuntime": "pending-avm1-observer"
+  }
+]

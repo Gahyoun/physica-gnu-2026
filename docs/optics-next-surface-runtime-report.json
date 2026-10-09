@@ -1,0 +1,714 @@
+{
+  "date": "2026-10-09T15:43:42.368Z",
+  "nativeModelHashes": {
+    "assets/optics-next-surface-physics.mjs": "33bfbf70c4d006358485b93a2a9e658e48048690ae982037b9ad34f44a6a5675",
+    "assets/optics-next-surface-specs.mjs": "34d77a6a6d411d24f53cd961bd1c58616082805bae5bc5feca1cbc243ebfdf05"
+  },
+  "method": "Actual original Ruffle; private read-only AVM1 observer and real pointer slider/checkbox gestures",
+  "files": 3,
+  "comparisons": 2420,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-e06b32b2ecda3516",
+      "type": "directions",
+      "sha256": "b5f3dbaa071bda2fdcc0ef1797d22698269e7f84613445f8f4c0a19f66f22e7f",
+      "sha256Verified": true,
+      "comparisons": 657,
+      "maxAbsoluteError": 2.8421709430404007e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "original default",
+          "p": {
+            "nx": 1.5,
+            "ny": 2,
+            "nz": 1.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "nx 1",
+          "p": {
+            "nx": 1,
+            "ny": 2,
+            "nz": 1.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "nx 1.5",
+          "p": {
+            "nx": 1.5,
+            "ny": 2,
+            "nz": 1.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "nx 2.5",
+          "p": {
+            "nx": 2.5,
+            "ny": 2,
+            "nz": 1.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "ny 1",
+          "p": {
+            "nx": 2.5,
+            "ny": 1,
+            "nz": 1.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "ny 2",
+          "p": {
+            "nx": 2.5,
+            "ny": 2,
+            "nz": 1.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "ny 2.5",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 1.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "nz 1",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 1,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "nz 1.5",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 1.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "nz 2.5",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "angle 0",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5,
+            "angle": 0
+          },
+          "mode": 0
+        },
+        {
+          "label": "angle 30",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5,
+            "angle": 30
+          },
+          "mode": 0
+        },
+        {
+          "label": "angle 360",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5,
+            "angle": 360
+          },
+          "mode": 0
+        },
+        {
+          "label": "chk1 toggle",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5,
+            "angle": 360
+          },
+          "mode": 1
+        },
+        {
+          "label": "chk2 toggle",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5,
+            "angle": 360
+          },
+          "mode": 0
+        }
+      ],
+      "controls": [
+        {
+          "kind": "real pointer slider",
+          "key": "nx",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nx",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nx",
+          "target": 2.5,
+          "actual": 2.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "ny",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "ny",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "ny",
+          "target": 2.5,
+          "actual": 2.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nz",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nz",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nz",
+          "target": 2.5,
+          "actual": 2.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "angle",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "angle",
+          "target": 30,
+          "actual": 30,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "angle",
+          "target": 360,
+          "actual": 360,
+          "passed": true
+        },
+        {
+          "kind": "real checkbox",
+          "clip": "chk1",
+          "passed": true
+        },
+        {
+          "kind": "real checkbox",
+          "clip": "chk2",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Original settled default, all min/default/max slider gestures, both ordinary/extraordinary mode checkbox gestures or three section visibility toggles, all original ellipse bases/vector endpoints and refraction angle/speed readouts/markers. Marker positions quantized to0.05px. Source independent control-step grid separate. Original perspective events, every rendered pixel and full continuous multi-input Cartesian product remain outside scope."
+    },
+    {
+      "id": "flash-e53d7ad01f620e90",
+      "type": "surfaces",
+      "sha256": "2836b110939e7fd6f43d1bc4f652438aa06e5fa21d835ade22f87fdf31c2be04",
+      "sha256Verified": true,
+      "comparisons": 1647,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "original default",
+          "p": {
+            "nx": 1.5,
+            "ny": 2,
+            "nz": 1.5
+          },
+          "mode": 0
+        },
+        {
+          "label": "nx 1",
+          "p": {
+            "nx": 1,
+            "ny": 2,
+            "nz": 1.5
+          },
+          "mode": 0
+        },
+        {
+          "label": "nx 1.5",
+          "p": {
+            "nx": 1.5,
+            "ny": 2,
+            "nz": 1.5
+          },
+          "mode": 0
+        },
+        {
+          "label": "nx 2.5",
+          "p": {
+            "nx": 2.5,
+            "ny": 2,
+            "nz": 1.5
+          },
+          "mode": 0
+        },
+        {
+          "label": "ny 1",
+          "p": {
+            "nx": 2.5,
+            "ny": 1,
+            "nz": 1.5
+          },
+          "mode": 0
+        },
+        {
+          "label": "ny 2",
+          "p": {
+            "nx": 2.5,
+            "ny": 2,
+            "nz": 1.5
+          },
+          "mode": 0
+        },
+        {
+          "label": "ny 2.5",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 1.5
+          },
+          "mode": 0
+        },
+        {
+          "label": "nz 1",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 1
+          },
+          "mode": 0
+        },
+        {
+          "label": "nz 1.5",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 1.5
+          },
+          "mode": 0
+        },
+        {
+          "label": "nz 2.5",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5
+          },
+          "mode": 0
+        },
+        {
+          "label": "chk1 toggle",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5
+          },
+          "mode": 1
+        },
+        {
+          "label": "chk2 toggle",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5
+          },
+          "mode": 1
+        },
+        {
+          "label": "chk3 toggle",
+          "p": {
+            "nx": 2.5,
+            "ny": 2.5,
+            "nz": 2.5
+          },
+          "mode": 1
+        }
+      ],
+      "controls": [
+        {
+          "kind": "real pointer slider",
+          "key": "nx",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nx",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nx",
+          "target": 2.5,
+          "actual": 2.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "ny",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "ny",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "ny",
+          "target": 2.5,
+          "actual": 2.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nz",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nz",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "nz",
+          "target": 2.5,
+          "actual": 2.5,
+          "passed": true
+        },
+        {
+          "kind": "real checkbox",
+          "clip": "chk1",
+          "passed": true
+        },
+        {
+          "kind": "real checkbox",
+          "clip": "chk2",
+          "passed": true
+        },
+        {
+          "kind": "real checkbox",
+          "clip": "chk3",
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Original settled default, all min/default/max slider gestures, both ordinary/extraordinary mode checkbox gestures or three section visibility toggles, all original ellipse bases/vector endpoints and refraction angle/speed readouts/markers. Marker positions quantized to0.05px. Source independent control-step grid separate. Original perspective events, every rendered pixel and full continuous multi-input Cartesian product remain outside scope."
+    },
+    {
+      "id": "flash-03bf5655767214f2",
+      "type": "refraction",
+      "sha256": "9a51e44f6add3692823b36f95789f48c3d1682a55dcd5eae93f7b9d0c55c72f2",
+      "sha256Verified": true,
+      "comparisons": 116,
+      "maxAbsoluteError": 0.046588560843986215,
+      "mismatches": [],
+      "cases": [
+        {
+          "label": "original default",
+          "p": {
+            "no": 1.5,
+            "ne": 2,
+            "a": 30,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "no 1",
+          "p": {
+            "no": 1,
+            "ne": 2,
+            "a": 30,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "no 1.5",
+          "p": {
+            "no": 1.5,
+            "ne": 2,
+            "a": 30,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "no 2.5",
+          "p": {
+            "no": 2.5,
+            "ne": 2,
+            "a": 30,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "ne 1",
+          "p": {
+            "no": 2.5,
+            "ne": 1,
+            "a": 30,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "ne 2",
+          "p": {
+            "no": 2.5,
+            "ne": 2,
+            "a": 30,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "ne 2.5",
+          "p": {
+            "no": 2.5,
+            "ne": 2.5,
+            "a": 30,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "a -90",
+          "p": {
+            "no": 2.5,
+            "ne": 2.5,
+            "a": -90,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "a 30",
+          "p": {
+            "no": 2.5,
+            "ne": 2.5,
+            "a": 30,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "a 90",
+          "p": {
+            "no": 2.5,
+            "ne": 2.5,
+            "a": 90,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "incidentA 0",
+          "p": {
+            "no": 2.5,
+            "ne": 2.5,
+            "a": 90,
+            "incidentA": 0
+          },
+          "mode": 1
+        },
+        {
+          "label": "incidentA 30",
+          "p": {
+            "no": 2.5,
+            "ne": 2.5,
+            "a": 90,
+            "incidentA": 30
+          },
+          "mode": 1
+        },
+        {
+          "label": "incidentA 90",
+          "p": {
+            "no": 2.5,
+            "ne": 2.5,
+            "a": 90,
+            "incidentA": 90
+          },
+          "mode": 1
+        }
+      ],
+      "controls": [
+        {
+          "kind": "real pointer slider",
+          "key": "no",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "no",
+          "target": 1.5,
+          "actual": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "no",
+          "target": 2.5,
+          "actual": 2.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "ne",
+          "target": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "ne",
+          "target": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "ne",
+          "target": 2.5,
+          "actual": 2.5,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "a",
+          "target": -90,
+          "actual": -90,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "a",
+          "target": 30,
+          "actual": 30,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "a",
+          "target": 90,
+          "actual": 90,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "incidentA",
+          "target": 0,
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "incidentA",
+          "target": 30,
+          "actual": 30,
+          "passed": true
+        },
+        {
+          "kind": "real pointer slider",
+          "key": "incidentA",
+          "target": 90,
+          "actual": 90,
+          "passed": true
+        }
+      ],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Original settled default, all min/default/max slider gestures, both ordinary/extraordinary mode checkbox gestures or three section visibility toggles, all original ellipse bases/vector endpoints and refraction angle/speed readouts/markers. Marker positions quantized to0.05px. Source independent control-step grid separate. Original perspective events, every rendered pixel and full continuous multi-input Cartesian product remain outside scope."
+    }
+  ]
+}

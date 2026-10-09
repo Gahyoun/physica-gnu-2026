@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-09T15:54:54.144Z",
+  "files": 1,
+  "nativeModelHashes": {
+    "assets/modern-next-rotor-physics.mjs": "8808f75079ad06143af21265b01460748f56c75bf6413fafbfe9c5f1102a60d7",
+    "assets/modern-next-rotor-specs.mjs": "9e4a841b39f3b1938c2982c5c1d01e2ef2ebb5346f3fb2db4d937a51ba2a15c6",
+    "tools/modern-next-as3-observer.mjs": "d27ed066a894d99092a0d4a34b6df8443dfc22a6e2e177b3417d84f5a262e626",
+    "tools/modern-next-as3-compile.mjs": "58dee99da7fd35c8434bd36f1c14a411040cf60156565cc8fa276db3afae2f60",
+    "tools/java/PhysicaAS3ObserverModern.as": "ec4b4fa2a0f0e7d8befab893b2d309ce1700554c492ecc9648d27588265ee90d",
+    "tools/modern-next-as3-observer-pilot.mjs": "40d32813c4d8fb7f0abbfd0ea4e7e8b3884334a0e3380b596c89d6505b03ecb0"
+  },
+  "observerABCSHA256": "d054e41323ca983d729d562c8d375419c3b5db2ccb6680e145b144566ed5348b",
+  "comparisons": 120,
+  "originalRuntimeVerified": true,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "date": "2026-10-09T15:54:48.825Z",
+      "id": "flash-6b7f2453525617d2",
+      "originalSHA256": "68840725904c55124f1e9547f2707a3b1cfd23fed73efb6d624f4a1b03c01c7a",
+      "originalUnchanged": true,
+      "originalTagsByteIdentical": true,
+      "originalHeaderPreserved": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "probeClass": "PhysicaAS3ObserverModern",
+      "observerOnlyReads": true,
+      "queriesOnlyPublicScalars": true,
+      "comparisons": 120,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "samples": [
+        {
+          "n": 28,
+          "axis": "none",
+          "f": 1000,
+          "kind": "initial absolute geometry"
+        },
+        {
+          "n": 37,
+          "axis": "none",
+          "f": 1000,
+          "kind": "initial absolute geometry"
+        },
+        {
+          "n": 45,
+          "axis": "none",
+          "f": 1000,
+          "kind": "initial absolute geometry"
+        },
+        {
+          "n": 53,
+          "axis": "none",
+          "f": 1000,
+          "kind": "initial absolute geometry"
+        },
+        {
+          "n": 62,
+          "axis": "none",
+          "f": 1000,
+          "kind": "initial absolute geometry"
+        },
+        {
+          "n": 91,
+          "axis": "x",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 99,
+          "axis": "x",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 108,
+          "axis": "x",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 116,
+          "axis": "x",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 124,
+          "axis": "x",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 154,
+          "axis": "y",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 162,
+          "axis": "y",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 170,
+          "axis": "y",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 179,
+          "axis": "y",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 187,
+          "axis": "y",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 216,
+          "axis": "z",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 224,
+          "axis": "z",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 233,
+          "axis": "z",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 241,
+          "axis": "z",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        },
+        {
+          "n": 249,
+          "axis": "z",
+          "f": 1000,
+          "kind": "consecutive timer propagation"
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Bounded pilot: actual unmodified original AS3 document class and original Timer, observer attached as a distinct blank Sprite class. Reads public scalar state only. No native substitution, original class replacement, write queries, or original function calls.",
+      "originalAxisClicks": [
+        {
+          "axis": "x",
+          "x": 131.25,
+          "y": 290.95,
+          "n": 83
+        },
+        {
+          "axis": "y",
+          "x": 186.75,
+          "y": 290.95,
+          "n": 145
+        },
+        {
+          "axis": "z",
+          "x": 242.25,
+          "y": 290.95,
+          "n": 208
+        }
+      ],
+      "traces": [
+        "PHYSICA_RT|_root.currentTime=245|_root.ball1.center.x=0|_root.ball1.center.y=0|_root.ball1.center.z=-50|_root.ball2.center.x=0|_root.ball2.center.y=0|_root.ball2.center.z=70|_root.xChk.isChecked=false|_root.yChk.isChecked=false|_root.zChk.isChecked=true|_root.cam.f=1000",
+        "PHYSICA_RT|_root.currentTime=249|_root.ball1.center.x=0|_root.ball1.center.y=0|_root.ball1.center.z=-50|_root.ball2.center.x=0|_root.ball2.center.y=0|_root.ball2.center.z=70|_root.xChk.isChecked=false|_root.yChk.isChecked=false|_root.zChk.isChecked=true|_root.cam.f=1000"
+      ],
+      "originalRuntimeVerified": true
+    }
+  ],
+  "method": "Actual original AS3 bytecode and unmodified original Timer, observed by an added blank Sprite ENTER_FRAME read-only observer in a private in-memory SWF copy; existing root SymbolClass and all original ABC/tags preserved byte-for-byte."
+}

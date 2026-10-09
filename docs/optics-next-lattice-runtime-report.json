@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-09T15:34:35.262Z",
+  "method": "Actual original Ruffle with private read-only AVM1 observer; naturally advancing original timer",
+  "nativeModelHashes": {
+    "assets/optics-next-lattice-physics.mjs": "ff23ec8ce76df3c38d0ef289956078dd8c4fd21ae3e9c56107383dd7d4641722",
+    "assets/optics-next-lattice-specs.mjs": "607b9df44c709bbcd4864275a9e46cfbc178c72fb5878315e5f43799b87d4250"
+  },
+  "files": 1,
+  "comparisons": 480,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-a87b31c576c38eb6",
+      "type": "lattice",
+      "sha256": "7638d19449a3cd5c5c74487f8f867b3ff0468282e4cc5061c5ec96bcae6b7270",
+      "sha256Verified": true,
+      "diagnosticSha256": "981c77e4e98cd1c97473776d06055556f8254600c0e33c60b704ee1a0599b0e2",
+      "comparisons": 480,
+      "maxAbsoluteError": 0.04946101840855022,
+      "mismatches": [],
+      "cases": [
+        {
+          "name": "naturally advancing clock 0",
+          "time": 6,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 1",
+          "time": 8.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 2",
+          "time": 11,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 3",
+          "time": 13.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 4",
+          "time": 16,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 5",
+          "time": 18.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 6",
+          "time": 21,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 7",
+          "time": 23.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 8",
+          "time": 26,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 9",
+          "time": 28.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 10",
+          "time": 31,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 11",
+          "time": 33.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 12",
+          "time": 36,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 13",
+          "time": 38.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 14",
+          "time": 41,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 15",
+          "time": 43.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 16",
+          "time": 46,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 17",
+          "time": 48.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 18",
+          "time": 51,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 19",
+          "time": 53.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 20",
+          "time": 56,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 21",
+          "time": 58.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 22",
+          "time": 61,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 23",
+          "time": 63.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 24",
+          "time": 66,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 25",
+          "time": 68.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 26",
+          "time": 71,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 27",
+          "time": 73.5,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 28",
+          "time": 76,
+          "comparisons": 16,
+          "passed": true
+        },
+        {
+          "name": "naturally advancing clock 29",
+          "time": 78.5,
+          "comparisons": 16,
+          "passed": true
+        }
+      ],
+      "controls": [],
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Thirty advancing original timer samples, all eight mass x/y positions, compared at the observed original time. MovieClip positions quantized to 0.05px. No original clocks, events or parameters forced. Original has no motion input controls; native mass selection, playback speed and history graph are explicitly added. Spring raster geometry and all possible time phases remain outside scope."
+    }
+  ]
+}

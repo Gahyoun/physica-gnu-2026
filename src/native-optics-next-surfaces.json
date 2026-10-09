@@ -1,0 +1,172 @@
+[
+  {
+    "id": "flash-e06b32b2ecda3516",
+    "type": "directions",
+    "title": "파벡터, 전기장, 자기장, 광선의 진행방향",
+    "source": "desurface.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/desurface.swf",
+    "lesson": "5-3-4-7",
+    "animated": false,
+    "controls": [
+      {
+        "key": "nx",
+        "label": "x 굴절률",
+        "min": 1,
+        "max": 2.5,
+        "value": 1.5,
+        "step": 0.1,
+        "clip": "nxSlider"
+      },
+      {
+        "key": "ny",
+        "label": "y 굴절률",
+        "min": 1,
+        "max": 2.5,
+        "value": 2,
+        "step": 0.1,
+        "clip": "nySlider"
+      },
+      {
+        "key": "nz",
+        "label": "z 굴절률",
+        "min": 1,
+        "max": 2.5,
+        "value": 1.5,
+        "step": 0.1,
+        "clip": "nzSlider"
+      },
+      {
+        "key": "angle",
+        "label": "방향 / °",
+        "min": 0,
+        "max": 360,
+        "value": 30,
+        "step": 5,
+        "clip": "angleSlider"
+      }
+    ],
+    "camera": [
+      [
+        -0.36,
+        0.93,
+        0
+      ],
+      [
+        -0.32,
+        0,
+        0.98
+      ],
+      [
+        0.91,
+        0.36,
+        0.21
+      ]
+    ],
+    "sourceSha256": "f1e1ca70996d607b1b5d2c53ee89aed48f1af000a4cdfb52ff6c08eb65a38bcc"
+  },
+  {
+    "id": "flash-e53d7ad01f620e90",
+    "type": "surfaces",
+    "title": "파벡터 공간에서의 편광",
+    "source": "ksurface.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/ksurface.swf",
+    "lesson": "5-3-4-3",
+    "animated": false,
+    "controls": [
+      {
+        "key": "nx",
+        "label": "x 굴절률",
+        "min": 1,
+        "max": 2.5,
+        "value": 1.5,
+        "step": 0.1,
+        "clip": "nxSlider"
+      },
+      {
+        "key": "ny",
+        "label": "y 굴절률",
+        "min": 1,
+        "max": 2.5,
+        "value": 2,
+        "step": 0.1,
+        "clip": "nySlider"
+      },
+      {
+        "key": "nz",
+        "label": "z 굴절률",
+        "min": 1,
+        "max": 2.5,
+        "value": 1.5,
+        "step": 0.1,
+        "clip": "nzSlider"
+      }
+    ],
+    "camera": [
+      [
+        -0.36,
+        0.93,
+        0
+      ],
+      [
+        -0.32,
+        0,
+        0.98
+      ],
+      [
+        0.91,
+        0.36,
+        0.21
+      ]
+    ],
+    "sourceSha256": "d409ba4d7dc34de14b75bcc3fb6e1025a756b84f4f0de45616f3b5c5eda2a6ab"
+  },
+  {
+    "id": "flash-03bf5655767214f2",
+    "type": "refraction",
+    "title": "단축성 물질의 주요면에서의 복굴절",
+    "source": "direfraction.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/direfraction.swf",
+    "lesson": "5-3-4-9",
+    "animated": false,
+    "controls": [
+      {
+        "key": "no",
+        "label": "정상 굴절률",
+        "min": 1,
+        "max": 2.5,
+        "value": 1.5,
+        "step": 0.005,
+        "clip": "noSlider"
+      },
+      {
+        "key": "ne",
+        "label": "이상 굴절률",
+        "min": 1,
+        "max": 2.5,
+        "value": 2,
+        "step": 0.005,
+        "clip": "neSlider"
+      },
+      {
+        "key": "a",
+        "label": "광축 방향 / °",
+        "min": -90,
+        "max": 90,
+        "value": 30,
+        "step": 0.1,
+        "clip": "aSlider"
+      },
+      {
+        "key": "incidentA",
+        "label": "입사각 / °",
+        "min": 0,
+        "max": 90,
+        "value": 30,
+        "step": 0.1,
+        "clip": "incidentASlider"
+      }
+    ],
+    "camera": null,
+    "sourceSha256": "d194318020ba24dc335572afd304503afe8798e3b44246fe58f0bde639ae36d1"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "id": "flash-d6702d6db2c6746f",
+  "method": "Actual original AS3 Timer, read-only public time/cm display fields; no forced control.",
+  "fullEquivalence": false,
+  "observations": [
+    {
+      "n": 0,
+      "x": 46.3,
+      "y": 75
+    },
+    {
+      "n": 0,
+      "x": 195,
+      "y": 75,
+      "previous": {
+        "n": 349,
+        "x": 195
+      }
+    },
+    {
+      "n": 0,
+      "x": 195,
+      "y": 75,
+      "previous": {
+        "n": 349,
+        "x": 195
+      }
+    }
+  ]
+}

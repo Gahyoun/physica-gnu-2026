@@ -1,0 +1,28 @@
+[
+  {
+    "id": "flash-fd22913dca9a2564",
+    "type": "nucleus",
+    "source": "nucleusCS3.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/nuclear/nuclearmodel/nuclearmodel/nucleusCS3.swf",
+    "title": "핵의 구성",
+    "lesson": "7-1-2-1",
+    "animated": true,
+    "max": 500,
+    "fps": 6.0,
+    "seed": 12673,
+    "controls": []
+  },
+  {
+    "id": "flash-eb9eff83b6af5015",
+    "type": "excited",
+    "source": "nucleusCS32.swf",
+    "originalSource": "http://physica.gnu.ac.kr/phtml/nuclear/nucleardecay/radioactivedecay/nucleusCS32.swf",
+    "title": "들뜬 원자핵",
+    "lesson": "7-2-1-5",
+    "animated": true,
+    "max": 500,
+    "fps": 6.0,
+    "seed": 12673,
+    "controls": []
+  }
+]

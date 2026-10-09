@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-09T11:05:31.773Z",
+  "method": "Independent private original numeric ActionScript execution, not original AVM2 runtime",
+  "nativeModelHashes": {
+    "assets/general-next-phasor-physics.mjs": "4a7870e1f712168df8734fda7efd8c448263fd98672631d56d61f63442d166f4",
+    "assets/general-next-phasor-specs.mjs": "58bc35b8e239b9e49bfed8dc3855658d4d0b1a1cf1470ceca30927080f714b23"
+  },
+  "files": 8,
+  "comparisons": 206460,
+  "results": [
+    {
+      "id": "flash-34ec368aac272ea1",
+      "type": "phasor1",
+      "comparisons": 80,
+      "cases": 38,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+      "passed": true,
+      "sourceHash": "31336482a95cc88771ab55d89f3b029725cdb212accda4fe18ee05388422c56e"
+    },
+    {
+      "id": "flash-2719277c02991730",
+      "type": "phasor2",
+      "comparisons": 6692,
+      "cases": 3344,
+      "mismatches": [],
+      "maxAbsoluteError": 1.291189377639057e-13,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+      "passed": true,
+      "sourceHash": "5ceee30a679a96fc98acb8d18fa7d46e856c5f7594255b1682d3f8ad6b391847"
+    },
+    {
+      "id": "flash-689f25aa00b6c60d",
+      "type": "phasor3",
+      "comparisons": 20892,
+      "cases": 5220,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+      "passed": true,
+      "sourceHash": "fa53bbc857fa43953e152a0bfe670afd96a8cb4ca28f7986e99f355507e03974"
+    },
+    {
+      "id": "flash-1f72424931955085",
+      "type": "phasor4",
+      "comparisons": 53516,
+      "cases": 343,
+      "mismatches": [],
+      "maxAbsoluteError": 3.552713678800501e-15,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+      "passed": true,
+      "sourceHash": "003ec5fb63fea5c6d67db0d2a43563c2b93cc8a5afc08d2049832a42c5f472ac"
+    },
+    {
+      "id": "flash-fa99f99b491eb9c9",
+      "type": "phasor5",
+      "comparisons": 60600,
+      "cases": 101,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+      "passed": true,
+      "sourceHash": "4d0bab0cefded0a690104091389938595a71713577998de131e72837eac97623"
+    },
+    {
+      "id": "flash-2e0d8ee594ee6ed5",
+      "type": "phasor6",
+      "comparisons": 3288,
+      "cases": 819,
+      "mismatches": [],
+      "maxAbsoluteError": 2.19912976717751e-12,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+      "passed": true,
+      "sourceHash": "07a7a1ecc14fe2b9c8f56b452dd0e24086fb91fd96d29ba72236075059b17973"
+    },
+    {
+      "id": "flash-c6e54331b672455f",
+      "type": "phasor7",
+      "comparisons": 46092,
+      "cases": 9216,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+      "passed": true,
+      "sourceHash": "8310a1fe596866c83631c5a62959967181f3a50f53d6d830e8fdb04a7abb698b"
+    },
+    {
+      "id": "flash-63059d3d00cd8eb6",
+      "type": "fourier1new",
+      "comparisons": 15300,
+      "cases": 15300,
+      "mismatches": [],
+      "maxAbsoluteError": 0,
+      "fullEquivalence": false,
+      "originalRuntimeVerified": false,
+      "scope": "Private original ActionScript numeric functions and inspector controls: finite original frequencies, 2D phasor grid, Fourier coefficients/modes/orders, bounded wave-time histories and selected amplitude/phase/distance combinations. Does not assert original AVM2 runtime or every continuous pointer history.",
+      "passed": true,
+      "sourceHash": "12e4d5a4d3148c32678d271a535bb4955277e292813aac1298ec1f7392054c1d"
+    }
+  ]
+}

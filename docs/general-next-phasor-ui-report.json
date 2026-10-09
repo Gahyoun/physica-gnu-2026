@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-09T15:54:48.846Z",
+  "scope": "Eight individual AS3-source ports at320/768/1360; original control endpoints/defaults, playback pause seek slow, max→play immediate rewind and actual geometry change, nearmax bounded loop, pointer source/phase selection, wave modes, CSV current state/history, no static timeline, SVG-only .65 curves, themes and fit. Does not constitute originalAVM2 runtime evidence.",
+  "nativeModelHashes": {
+    "assets/general-next-phasor-physics.mjs": "4a7870e1f712168df8734fda7efd8c448263fd98672631d56d61f63442d166f4",
+    "assets/general-next-phasor-specs.mjs": "58bc35b8e239b9e49bfed8dc3855658d4d0b1a1cf1470ceca30927080f714b23",
+    "assets/native-general-next-phasor.mjs": "ecc2c3f8026aee3f1ae6991dab626caf54980904ce10eb6eba59c65588e4ec27",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+  },
+  "results": [
+    {
+      "id": "flash-34ec368aac272ea1",
+      "width": 320,
+      "passed": true,
+      "controls": 3,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-2719277c02991730",
+      "width": 320,
+      "passed": true,
+      "controls": 3,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-689f25aa00b6c60d",
+      "width": 320,
+      "passed": true,
+      "controls": 9,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-1f72424931955085",
+      "width": 320,
+      "passed": true,
+      "controls": 6,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-fa99f99b491eb9c9",
+      "width": 320,
+      "passed": true,
+      "controls": 0,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-2e0d8ee594ee6ed5",
+      "width": 320,
+      "passed": true,
+      "controls": 9,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-c6e54331b672455f",
+      "width": 320,
+      "passed": true,
+      "controls": 9,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-63059d3d00cd8eb6",
+      "width": 320,
+      "passed": true,
+      "controls": 0,
+      "staticNoFakePlayback": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-34ec368aac272ea1",
+      "width": 768,
+      "passed": true,
+      "controls": 3,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-2719277c02991730",
+      "width": 768,
+      "passed": true,
+      "controls": 3,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-689f25aa00b6c60d",
+      "width": 768,
+      "passed": true,
+      "controls": 9,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-1f72424931955085",
+      "width": 768,
+      "passed": true,
+      "controls": 6,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-fa99f99b491eb9c9",
+      "width": 768,
+      "passed": true,
+      "controls": 0,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-2e0d8ee594ee6ed5",
+      "width": 768,
+      "passed": true,
+      "controls": 9,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-c6e54331b672455f",
+      "width": 768,
+      "passed": true,
+      "controls": 9,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-63059d3d00cd8eb6",
+      "width": 768,
+      "passed": true,
+      "controls": 0,
+      "staticNoFakePlayback": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-34ec368aac272ea1",
+      "width": 1360,
+      "passed": true,
+      "controls": 3,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-2719277c02991730",
+      "width": 1360,
+      "passed": true,
+      "controls": 3,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-689f25aa00b6c60d",
+      "width": 1360,
+      "passed": true,
+      "controls": 9,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-1f72424931955085",
+      "width": 1360,
+      "passed": true,
+      "controls": 6,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-fa99f99b491eb9c9",
+      "width": 1360,
+      "passed": true,
+      "controls": 0,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-2e0d8ee594ee6ed5",
+      "width": 1360,
+      "passed": true,
+      "controls": 9,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "pointerSelection": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-c6e54331b672455f",
+      "width": 1360,
+      "passed": true,
+      "controls": 9,
+      "endReplayGeometryAndBoundedLoop": true,
+      "playPauseSeekSlow": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    },
+    {
+      "id": "flash-63059d3d00cd8eb6",
+      "width": 1360,
+      "passed": true,
+      "controls": 0,
+      "staticNoFakePlayback": true,
+      "csvCurrent": true,
+      "themesResetFit": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

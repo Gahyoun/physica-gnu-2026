@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-09T15:36:24.096Z",
+  "method": "Private independently executed original AS2 timer body",
+  "nativeModelHashes": {
+    "assets/optics-next-lattice-physics.mjs": "ff23ec8ce76df3c38d0ef289956078dd8c4fd21ae3e9c56107383dd7d4641722",
+    "assets/optics-next-lattice-specs.mjs": "607b9df44c709bbcd4864275a9e46cfbc178c72fb5878315e5f43799b87d4250"
+  },
+  "files": 1,
+  "comparisons": 9616,
+  "passed": true,
+  "results": [
+    {
+      "id": "flash-a87b31c576c38eb6",
+      "type": "lattice",
+      "cases": 601,
+      "comparisons": 9616,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "originalSourceSha256": "0ea131a1a3960a56a15020438a2438a3d5a89aef28ae3fbd07485041f5986cc6",
+      "fullEquivalence": false,
+      "passed": true,
+      "scope": "Original runthis body executed independently for every native timeline step0..600: all8 x/ypositions. Source spring drawing helpers stubbed because SVG coils are newly designed gray polylines. Native mass selection and temporal graph are explicitly added; runtime proof separate."
+    }
+  ]
+}

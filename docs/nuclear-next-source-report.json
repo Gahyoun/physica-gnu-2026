@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-09T15:59:23.629Z",
+  "files": 6,
+  "method": "Private original ActionScript functions executed in a numerical VM and compared with independent JS/SVG geometry. This is source-function evidence, not the original Flash runtime.",
+  "nativeModelHashes": {
+    "src/native-nuclear-next.json": "a76415526cd7025c1b6f8019663fd7e0abd837203452288c13a37cad1700e370",
+    "assets/nuclear-next-physics.mjs": "46d914e0cfe899daf7623e11870af9a79718a6ff8bce310f417d209b18a38e36",
+    "assets/native-nuclear-next.mjs": "220e91a7d12b61be376d7c5ec1a2c13d0a334cb948130fd0a019a00adf45f012",
+    "assets/nuclear-next-specs.mjs": "0b0b8c68fea1c60a15dbf140b7ada56e3c8e09f3c50c0fc1d3d5d9baa8dd6689"
+  },
+  "comparisons": 485520,
+  "fullEquivalence": false,
+  "originalRuntimePending": [
+    "flash-f07439fbd4c95c61",
+    "flash-828f6de5c2e80dae",
+    "flash-3eb8435919224d2c",
+    "flash-d6702d6db2c6746f",
+    "flash-fcebbc075faedcd3",
+    "flash-a02de5c41a974c03"
+  ],
+  "results": [
+    {
+      "id": "flash-f07439fbd4c95c61",
+      "type": "alpha",
+      "sha256": "44b5d9fca292439153d159257aff65d982da444e89edb7f959372a63adecbba7",
+      "sha256Verified": true,
+      "sourceScriptSha256": "76e03f321b971c46e0f3c6592f603283e2b52a9ac27f44c3093ee3b0e13e478a",
+      "cases": 250,
+      "comparisons": 2000,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "scope": "Every timer step in one original cycle, including both sides of every reaction boundary and hold phase"
+    },
+    {
+      "id": "flash-828f6de5c2e80dae",
+      "type": "capture",
+      "sha256": "dcabe84ead8b2d081654cddb2d32ae22a6a47af10fcdb74e469450c1a41f45cf",
+      "sha256Verified": true,
+      "sourceScriptSha256": "46fd67f58202505072bbecd347c001804d918b392178c485016bf9cf310b7053",
+      "cases": 250,
+      "comparisons": 2000,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "scope": "Every timer step in one original cycle, including both sides of every reaction boundary and hold phase"
+    },
+    {
+      "id": "flash-3eb8435919224d2c",
+      "type": "cm",
+      "sha256": "4894504bad2e5e8f32f489fec623946a324322aac56c142bf3469b6f0968b25d",
+      "sha256Verified": true,
+      "sourceScriptSha256": "3c7a196ebb8c2dd38dffa14c8ee928e25b351c2ff63aabefa7aeeef3b9d706e6",
+      "cases": 300,
+      "comparisons": 2400,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "scope": "Every timer step in one original cycle, including both sides of every reaction boundary and hold phase"
+    },
+    {
+      "id": "flash-d6702d6db2c6746f",
+      "type": "lab",
+      "sha256": "f06b4575654570b4c6ecddac71a6efeed0482ef6eaa4c0bad2cc28f4545ffe5d",
+      "sha256Verified": true,
+      "sourceScriptSha256": "e99ee12f29f30a2641946b5c6a64e3e07313ae93465a195384000ad343718d42",
+      "cases": 351,
+      "comparisons": 3502,
+      "maxAbsoluteError": 0,
+      "passed": true,
+      "scope": "Every timer step in one original cycle, including both sides of every reaction boundary and hold phase"
+    },
+    {
+      "id": "flash-fcebbc075faedcd3",
+      "type": "radiation",
+      "sha256": "f594627858b75431e069b8958020ac52fcdba5fe138850c8b5f4869280ac118e",
+      "sha256Verified": true,
+      "sourceScriptSha256": "4018b8bba64d7ba4a3b5014bd885c4686c65363c1161cb9bb8e2b9a5c48ce297",
+      "cases": 401,
+      "comparisons": 336802,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "passed": true,
+      "scope": "Every step 0..400, original proton position and every vertex in all 20 emitted arcs"
+    },
+    {
+      "id": "flash-a02de5c41a974c03",
+      "type": "spin",
+      "sha256": "88ff575a94f35701e0db925aa29bdb0e7361ad44d34bbb48df89b128dac5f384",
+      "sha256Verified": true,
+      "sourceScriptSha256": "94f1e1d8dfe8dca5224ef57399051b7c2f30f84ebf2bfcaab96a6274980ce165",
+      "cases": 482,
+      "comparisons": 138816,
+      "maxAbsoluteError": 6.821210263296962e-13,
+      "passed": true,
+      "scope": "Every integer step 0..240 × both original direction states, all 24 wedges on both nucleons"
+    }
+  ]
+}
