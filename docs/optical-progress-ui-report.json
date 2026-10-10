@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-10T03:45:50.464Z",
+  "base": "http://127.0.0.1:8775/",
+  "passed": true,
+  "results": [
+    {
+      "id": "flash-9252322b7f86ca63",
+      "source": "simprism1.swf",
+      "width": 320,
+      "end": 38,
+      "changedEnd": 68,
+      "passed": true
+    },
+    {
+      "id": "flash-190ba027454d6737",
+      "source": "simprism5.swf",
+      "width": 320,
+      "end": 38,
+      "changedEnd": null,
+      "passed": true
+    },
+    {
+      "id": "flash-9252322b7f86ca63",
+      "source": "simprism1.swf",
+      "width": 768,
+      "end": 38,
+      "changedEnd": 68,
+      "passed": true
+    },
+    {
+      "id": "flash-190ba027454d6737",
+      "source": "simprism5.swf",
+      "width": 768,
+      "end": 38,
+      "changedEnd": null,
+      "passed": true
+    },
+    {
+      "id": "flash-9252322b7f86ca63",
+      "source": "simprism1.swf",
+      "width": 1360,
+      "end": 38,
+      "changedEnd": 68,
+      "passed": true
+    },
+    {
+      "id": "flash-190ba027454d6737",
+      "source": "simprism5.swf",
+      "width": 1360,
+      "end": 38,
+      "changedEnd": null,
+      "passed": true
+    }
+  ],
+  "nativeModelHashes": {
+    "assets/optical-progress.mjs": "9bf22131cf4caa28dcc93f1f6bc10393e7743ee434fc76cc27caaf16b4198b90",
+    "assets/native-optics-batch50.mjs": "dadb36d98b9e9293bab00cc51a7bc0d9d9a1b816c91d682e434caf034473d489",
+    "assets/native-optics-batch50b.mjs": "8230b4d428188f6a31d36ebd3d696b9d67b446631c29800096010a8b91a88402"
+  }
+}

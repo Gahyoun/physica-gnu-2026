@@ -1,103 +1,9 @@
 {
-  "date": "2026-10-10T03:49:27.430Z",
-  "files": 20,
-  "comparisons": 382437,
+  "date": "2026-10-10T03:49:05.927Z",
   "method": "Independently interpreted original AS3 method bodies with dynamic member scope versus published lexical JS calculation ports; original stage placement numbers, original per-file kernel versions, typed input ranges. This is source execution, not actual Ruffle AVM2 runtime.",
-  "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted. The mirage focalgrinsim3 case has the wider 100 default / 12 individual-control step evidence; exact caps are recorded in each result.",
-  "fullEquivalence": false,
-  "displayRendererEvidence": {
-    "file": "docs/optics-batch50b-ui-report.json",
-    "sha256": "b4111108be42556d4c787bd70d3c6b1ec105345e57cd89f8f01154470fd1ae88",
-    "note": "The numerical program/kernel/adapter remain unchanged. Current normalized progress, pause/resume and condition-change behavior are separately verified by the 60-case actual UI report; historical numerical parts retain their original renderer hashes."
-  },
-  "numericEvidenceReused": true,
-  "numericEvidenceReuseReason": "The independently executed original numerical parts are retained without re-execution. Their original program, kernel and adapter hashes are checked against current unchanged files; current display-only renderer changes are independently verified by the referenced current 60-case UI report. A new full source execution is also retained separately; the wider historical mirage step coverage is preserved in these primary results.",
-  "evidenceParts": [
-    {
-      "generatedAt": "2026-10-09T23:01:05.475Z",
-      "sha256": "fc2742cf0c80b2a4bc7cb99cb1e8c6644f40c773d32f682eefd97bc4d4eae913",
-      "files": 1,
-      "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; 100 original optical distance steps at defaults; 12 steps per individual control case; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted.",
-      "nativeModelHashes": {
-        "assets/optics-batch50b-program-flash-48312d928701845d.mjs": "22551cb355933b98a2278f9e90c4a9d748b3d95955f788f1ab80efb4f7207a99",
-        "assets/optics-batch50b-kernel-92ed958d3a7c87a7.mjs": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611",
-        "assets/optics-batch50b-program-flash-93516affb99b4e72.mjs": "b32f37367f2f7ca64a4f810efe059173e4624efa55642c658e178b00435083db",
-        "assets/optics-batch50b-program-flash-0f0cac3815eda408.mjs": "1f36759f6a15c6ed986954de4dc33b885b231a88553554519eb0adcc222db4cf",
-        "assets/optics-batch50b-kernel-8bfa72046f6cac7a.mjs": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7",
-        "assets/optics-batch50b-program-flash-07388eb4da3a86fe.mjs": "43c3ad6194dbb73708a0643c4bf2646f13833ab41ad5297ce5383abd6d6d942b",
-        "assets/optics-batch50b-program-flash-79e619a9377f414a.mjs": "f6ddbe04a5b387e348ab0acf30fce90bd90794cc8d6d46798978913c7c025ff9",
-        "assets/optics-batch50b-program-flash-7d2fe52076b32c5f.mjs": "9641a8c7a0a0b25c35f9fea20685bfe7a02565cbe6360325e396cd5ff35efd7a",
-        "assets/optics-batch50b-program-flash-367212c8f467ffa9.mjs": "77ae8da482692f75d859eb14d310545bd064b39721bd841dbbcc3c3bea8f909f",
-        "assets/optics-batch50b-program-flash-e8c180cb17a1844d.mjs": "3672971d8ab538c9a7f6c52eb5e26d31bb5e0a29e4f37c637d1fcc0da490347d",
-        "assets/optics-batch50b-kernel-ac7e5dcd3e4a6001.mjs": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c",
-        "assets/optics-batch50b-program-flash-b26a7903e99b96d2.mjs": "bcbcb6cb75f3b50decb83e2f92658e2737825dd4fe4f8c43c19c1710772d0495",
-        "assets/optics-batch50b-kernel-ae8a9f17db010661.mjs": "4dfc3b6e90b78154e94f30d2db55c3a1e0fb0a1b27f451ce6bf0c2af70bcc88d",
-        "assets/optics-batch50b-program-flash-84d5263a3db489ee.mjs": "c6362021b8dfbce0bd9b61c38f4ff50f25d2c3802a82170718dacf8d16ed6935",
-        "assets/optics-batch50b-kernel-ab0c9d27902bfe9d.mjs": "e8bebe7e62e31b4c964fa86eeb96e6fa3578598c8d3940cbc925f6faf91ca388",
-        "assets/optics-batch50b-program-flash-93b905ce5b8916d1.mjs": "9a990ba6ace6dcc55b5b9c217015ce4631c33644581ab07aad7183da9edf929e",
-        "assets/optics-batch50b-program-flash-e9a8b8d594d9e6eb.mjs": "ca82b958ff93c984db3024e4e0436fa06a1df719361ddff9f60304fc050d9820",
-        "assets/optics-batch50b-kernel-854192265c1537d3.mjs": "7d592281a7edd4fa394b2ab68c3113e60eeaa17112b3fa882dcc666b85d459ef",
-        "assets/optics-batch50b-program-flash-0a5ae23ffadf7614.mjs": "99076c7a035ea3b2122e32ee1fe19b3a35d79d9bdd8054d9523017c5cda18051",
-        "assets/optics-batch50b-kernel-6632a04ecc70a480.mjs": "aed516101550cffd28dabad38590652cdf445f6e3b6857c5a0c1fd6f6f02ff66",
-        "assets/optics-batch50b-program-flash-1acef37d4c4d3fa6.mjs": "db6d29e36cb83eb78374df5afea3c82e349aeed314e5f677cbb4318d6589ff9f",
-        "assets/optics-batch50b-kernel-f402a795ba065de6.mjs": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918",
-        "assets/optics-batch50b-program-flash-6ae189308a390e4c.mjs": "15f40346869f8cacd32d293f4818dd74b879bc351268f0ff5f87792a6806dbb2",
-        "assets/optics-batch50b-kernel-4bbd29b1bfc0a729.mjs": "eb246439fa69fcbeffb3e2bb2b7f59d62aa2c000216ce0b485649ff79bb77aa9",
-        "assets/optics-batch50b-program-flash-9252322b7f86ca63.mjs": "ed9875f7bf712260c70c70074741e688f8bfeb762419b22ff4f227c822ff17d5",
-        "assets/optics-batch50b-program-flash-f91b55d3bb43716c.mjs": "ccaac11661db055f7f696497cce9499feade8e9dfae40b9f7f0678738a34d285",
-        "assets/optics-batch50b-program-flash-76b8c6a36b336ddd.mjs": "21cdf71e9aa8d449ec0a28b4b267a341b63914dbb7f618e66bb12931b679863e",
-        "assets/optics-batch50b-program-flash-ad51d54b1b079073.mjs": "14c975aeea63fbc5aa39f9474b2bc4514553f92df54707cbf7444881db9d01e5",
-        "assets/optics-batch50b-program-flash-190ba027454d6737.mjs": "3748174622b413ce029cd2127f236efedf86afaba6a1a39224782b46422d3a9a",
-        "assets/optics-batch50b-kernel-a95275a0a29e44e0.mjs": "3ac3d82dd3d80088d06a2a2ca9b9b0ed8905f0ec8d8953f8af51bd3120d8e61b",
-        "assets/optics-batch50b-adapter.mjs": "2e06f9f6c99662a0f112a8d1dfa4aef515d083d13fcf0449a8bbf7c5741b9007",
-        "assets/native-optics-batch50b.mjs": "c40fd288318f45bbc351f7969bd2fdbdae8002ee417f104d1fa1d44731eabc9a",
-        "assets/optics-batch50b-specs.mjs": "2fb1afabdd893cde7be42f4c6cf9c44ea69f9b9a7071f9d9cbd2212cd13a7ed2",
-        "src/native-optics-batch50b-rays.json": "7a680745806dfd89a8990707b8c2155f6d02c2e8cf33770cb09e1f247bb0c606"
-      }
-    },
-    {
-      "generatedAt": "2026-10-09T23:07:45.269Z",
-      "sha256": "539e67857f931c92d54d1db69f0ba815fe81d610afeebb42f5ab17993c7d29d3",
-      "files": 19,
-      "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted.",
-      "nativeModelHashes": {
-        "assets/optics-batch50b-program-flash-48312d928701845d.mjs": "22551cb355933b98a2278f9e90c4a9d748b3d95955f788f1ab80efb4f7207a99",
-        "assets/optics-batch50b-kernel-92ed958d3a7c87a7.mjs": "45ab311bba86c2e443eb404a5b96ad3f3dd425d801ebf2288cda1a215f21c611",
-        "assets/optics-batch50b-program-flash-93516affb99b4e72.mjs": "b32f37367f2f7ca64a4f810efe059173e4624efa55642c658e178b00435083db",
-        "assets/optics-batch50b-program-flash-0f0cac3815eda408.mjs": "1f36759f6a15c6ed986954de4dc33b885b231a88553554519eb0adcc222db4cf",
-        "assets/optics-batch50b-kernel-8bfa72046f6cac7a.mjs": "b92aa2725d57729c5030df1c5df1b689f8072c56e3002ef34b610667f5067ea7",
-        "assets/optics-batch50b-program-flash-07388eb4da3a86fe.mjs": "43c3ad6194dbb73708a0643c4bf2646f13833ab41ad5297ce5383abd6d6d942b",
-        "assets/optics-batch50b-program-flash-79e619a9377f414a.mjs": "f6ddbe04a5b387e348ab0acf30fce90bd90794cc8d6d46798978913c7c025ff9",
-        "assets/optics-batch50b-program-flash-7d2fe52076b32c5f.mjs": "9641a8c7a0a0b25c35f9fea20685bfe7a02565cbe6360325e396cd5ff35efd7a",
-        "assets/optics-batch50b-program-flash-367212c8f467ffa9.mjs": "77ae8da482692f75d859eb14d310545bd064b39721bd841dbbcc3c3bea8f909f",
-        "assets/optics-batch50b-program-flash-e8c180cb17a1844d.mjs": "3672971d8ab538c9a7f6c52eb5e26d31bb5e0a29e4f37c637d1fcc0da490347d",
-        "assets/optics-batch50b-kernel-ac7e5dcd3e4a6001.mjs": "19cc30ab2e8f9e9c51ead9ad2c20559cb832a52b3dc5aff9791af9b062a5339c",
-        "assets/optics-batch50b-program-flash-b26a7903e99b96d2.mjs": "bcbcb6cb75f3b50decb83e2f92658e2737825dd4fe4f8c43c19c1710772d0495",
-        "assets/optics-batch50b-kernel-ae8a9f17db010661.mjs": "4dfc3b6e90b78154e94f30d2db55c3a1e0fb0a1b27f451ce6bf0c2af70bcc88d",
-        "assets/optics-batch50b-program-flash-84d5263a3db489ee.mjs": "c6362021b8dfbce0bd9b61c38f4ff50f25d2c3802a82170718dacf8d16ed6935",
-        "assets/optics-batch50b-kernel-ab0c9d27902bfe9d.mjs": "e8bebe7e62e31b4c964fa86eeb96e6fa3578598c8d3940cbc925f6faf91ca388",
-        "assets/optics-batch50b-program-flash-93b905ce5b8916d1.mjs": "9a990ba6ace6dcc55b5b9c217015ce4631c33644581ab07aad7183da9edf929e",
-        "assets/optics-batch50b-program-flash-e9a8b8d594d9e6eb.mjs": "ca82b958ff93c984db3024e4e0436fa06a1df719361ddff9f60304fc050d9820",
-        "assets/optics-batch50b-kernel-854192265c1537d3.mjs": "7d592281a7edd4fa394b2ab68c3113e60eeaa17112b3fa882dcc666b85d459ef",
-        "assets/optics-batch50b-program-flash-0a5ae23ffadf7614.mjs": "99076c7a035ea3b2122e32ee1fe19b3a35d79d9bdd8054d9523017c5cda18051",
-        "assets/optics-batch50b-kernel-6632a04ecc70a480.mjs": "aed516101550cffd28dabad38590652cdf445f6e3b6857c5a0c1fd6f6f02ff66",
-        "assets/optics-batch50b-program-flash-1acef37d4c4d3fa6.mjs": "db6d29e36cb83eb78374df5afea3c82e349aeed314e5f677cbb4318d6589ff9f",
-        "assets/optics-batch50b-kernel-f402a795ba065de6.mjs": "8bb6d47e0effe6fb71a98c7b852081fdd262bc560e29f75a6e91a8f1a9d2e918",
-        "assets/optics-batch50b-program-flash-6ae189308a390e4c.mjs": "15f40346869f8cacd32d293f4818dd74b879bc351268f0ff5f87792a6806dbb2",
-        "assets/optics-batch50b-kernel-4bbd29b1bfc0a729.mjs": "eb246439fa69fcbeffb3e2bb2b7f59d62aa2c000216ce0b485649ff79bb77aa9",
-        "assets/optics-batch50b-program-flash-9252322b7f86ca63.mjs": "ed9875f7bf712260c70c70074741e688f8bfeb762419b22ff4f227c822ff17d5",
-        "assets/optics-batch50b-program-flash-f91b55d3bb43716c.mjs": "ccaac11661db055f7f696497cce9499feade8e9dfae40b9f7f0678738a34d285",
-        "assets/optics-batch50b-program-flash-76b8c6a36b336ddd.mjs": "21cdf71e9aa8d449ec0a28b4b267a341b63914dbb7f618e66bb12931b679863e",
-        "assets/optics-batch50b-program-flash-ad51d54b1b079073.mjs": "14c975aeea63fbc5aa39f9474b2bc4514553f92df54707cbf7444881db9d01e5",
-        "assets/optics-batch50b-program-flash-190ba027454d6737.mjs": "3748174622b413ce029cd2127f236efedf86afaba6a1a39224782b46422d3a9a",
-        "assets/optics-batch50b-kernel-a95275a0a29e44e0.mjs": "3ac3d82dd3d80088d06a2a2ca9b9b0ed8905f0ec8d8953f8af51bd3120d8e61b",
-        "assets/optics-batch50b-adapter.mjs": "2e06f9f6c99662a0f112a8d1dfa4aef515d083d13fcf0449a8bbf7c5741b9007",
-        "assets/native-optics-batch50b.mjs": "ddf12e35b31d0be68e3c721edd9dfa9c8fe7d1147d5e0c35d8b0ee6156797a9f",
-        "assets/optics-batch50b-specs.mjs": "2fb1afabdd893cde7be42f4c6cf9c44ea69f9b9a7071f9d9cbd2212cd13a7ed2",
-        "src/native-optics-batch50b-rays.json": "7a680745806dfd89a8990707b8c2155f6d02c2e8cf33770cb09e1f247bb0c606"
-      }
-    }
-  ],
+  "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted.",
+  "files": 20,
+  "comparisons": 378727,
   "results": [
     {
       "id": "flash-48312d928701845d",
@@ -166,11 +72,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "739fda919fb15315146b738bef78ed894c65de9ae0d61b1b0fd795648075f10c",
           "currentSha256": "739fda919fb15315146b738bef78ed894c65de9ae0d61b1b0fd795648075f10c"
-        },
-        {
-          "path": "aberAChromatic1_fla/MainTimeline.as",
-          "sha256": "3bea898b095419b43847cb9076b8da66955792895e6fae7352c33299e148b01a",
-          "currentSha256": "3bea898b095419b43847cb9076b8da66955792895e6fae7352c33299e148b01a"
         }
       ],
       "sourceSHA256": "3bea898b095419b43847cb9076b8da66955792895e6fae7352c33299e148b01a",
@@ -248,11 +149,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "739fda919fb15315146b738bef78ed894c65de9ae0d61b1b0fd795648075f10c",
           "currentSha256": "739fda919fb15315146b738bef78ed894c65de9ae0d61b1b0fd795648075f10c"
-        },
-        {
-          "path": "aberAChromatic2_fla/MainTimeline.as",
-          "sha256": "3c4976695919affbd9a0c6e26756a2c21435a6fa22b8020db351826a819ff430",
-          "currentSha256": "3c4976695919affbd9a0c6e26756a2c21435a6fa22b8020db351826a819ff430"
         }
       ],
       "sourceSHA256": "3c4976695919affbd9a0c6e26756a2c21435a6fa22b8020db351826a819ff430",
@@ -330,11 +226,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "aberChromatic1_w_fla/MainTimeline.as",
-          "sha256": "292e61ae74aa217faf4441813e17c48243ba69b0ce1b6f5603c6f1be4972e208",
-          "currentSha256": "292e61ae74aa217faf4441813e17c48243ba69b0ce1b6f5603c6f1be4972e208"
         }
       ],
       "sourceSHA256": "292e61ae74aa217faf4441813e17c48243ba69b0ce1b6f5603c6f1be4972e208",
@@ -412,11 +303,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "aberComa1_w_fla/MainTimeline.as",
-          "sha256": "32aacc5ca72d9c6afd2e5686af9a8d24a945bc9c8733dc6c15556001adebcfea",
-          "currentSha256": "32aacc5ca72d9c6afd2e5686af9a8d24a945bc9c8733dc6c15556001adebcfea"
         }
       ],
       "sourceSHA256": "32aacc5ca72d9c6afd2e5686af9a8d24a945bc9c8733dc6c15556001adebcfea",
@@ -494,11 +380,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "aberSpherical1_w_fla/MainTimeline.as",
-          "sha256": "cd030477cacaf0932a6efe1d95c819551a80fca1df887c1bdb700480b9f15c9b",
-          "currentSha256": "cd030477cacaf0932a6efe1d95c819551a80fca1df887c1bdb700480b9f15c9b"
         }
       ],
       "sourceSHA256": "cd030477cacaf0932a6efe1d95c819551a80fca1df887c1bdb700480b9f15c9b",
@@ -576,11 +457,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "aberSpherical2_w_fla/MainTimeline.as",
-          "sha256": "024072e29ee06a9014dc5a1f8b96e9dc3d328672088899eda34514fb3d4f4c79",
-          "currentSha256": "024072e29ee06a9014dc5a1f8b96e9dc3d328672088899eda34514fb3d4f4c79"
         }
       ],
       "sourceSHA256": "024072e29ee06a9014dc5a1f8b96e9dc3d328672088899eda34514fb3d4f4c79",
@@ -658,11 +534,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "aberSphericalSim1_w_fla/MainTimeline.as",
-          "sha256": "0f8ad7a8cb8fbdedeb3e4594f44310daaa22faf5455ac00aa08ae7a9fd2b2b1b",
-          "currentSha256": "0f8ad7a8cb8fbdedeb3e4594f44310daaa22faf5455ac00aa08ae7a9fd2b2b1b"
         }
       ],
       "sourceSHA256": "0f8ad7a8cb8fbdedeb3e4594f44310daaa22faf5455ac00aa08ae7a9fd2b2b1b",
@@ -740,11 +611,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "focalgrinsim1_w_fla/MainTimeline.as",
-          "sha256": "97a6401ec844b19d52c8727fe14929a4e41e64f962e8cc48ce10a1f99ffb9f59",
-          "currentSha256": "97a6401ec844b19d52c8727fe14929a4e41e64f962e8cc48ce10a1f99ffb9f59"
         }
       ],
       "sourceSHA256": "97a6401ec844b19d52c8727fe14929a4e41e64f962e8cc48ce10a1f99ffb9f59",
@@ -812,11 +678,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "dc3ec811588a2562fb51b1da08e7ed1f270646c2b0948bab60a420e2ab6b6022",
           "currentSha256": "dc3ec811588a2562fb51b1da08e7ed1f270646c2b0948bab60a420e2ab6b6022"
-        },
-        {
-          "path": "focalgrinsim2_w_fla/MainTimeline.as",
-          "sha256": "c5f1d76d96cc8bda5eb98c78d3ef978e33f1de4a6dd0b0d0959a78e7af4447ba",
-          "currentSha256": "c5f1d76d96cc8bda5eb98c78d3ef978e33f1de4a6dd0b0d0959a78e7af4447ba"
         }
       ],
       "sourceSHA256": "c5f1d76d96cc8bda5eb98c78d3ef978e33f1de4a6dd0b0d0959a78e7af4447ba",
@@ -833,7 +694,7 @@
       "status": "pass",
       "passed": true,
       "cases": 5,
-      "comparisons": 6580,
+      "comparisons": 2870,
       "sourceFiles": [
         {
           "path": "RayTracer/CoordTrans.as",
@@ -894,20 +755,15 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "739fda919fb15315146b738bef78ed894c65de9ae0d61b1b0fd795648075f10c",
           "currentSha256": "739fda919fb15315146b738bef78ed894c65de9ae0d61b1b0fd795648075f10c"
-        },
-        {
-          "path": "focalgrinsim3_fla/MainTimeline.as",
-          "sha256": "1ffc1d8b1716030712af3b4c42123b0ba4b2579afb24d1d64d01051d40e8850a",
-          "currentSha256": "1ffc1d8b1716030712af3b4c42123b0ba4b2579afb24d1d64d01051d40e8850a"
         }
       ],
       "sourceSHA256": "1ffc1d8b1716030712af3b4c42123b0ba4b2579afb24d1d64d01051d40e8850a",
       "programSHA256": "c6362021b8dfbce0bd9b61c38f4ff50f25d2c3802a82170718dacf8d16ed6935",
       "kernelSHA256": "e8bebe7e62e31b4c964fa86eeb96e6fa3578598c8d3940cbc925f6faf91ca388",
-      "originalNumericalRuntime": "pending",
-      "allOriginalInputHistoriesCompared": false,
-      "defaultStepCap": 100,
-      "controlStepCap": 12
+      "defaultStepCap": 12,
+      "controlStepCap": 6,
+      "originalNumericalRuntime": "verified-separately-in-runtime-report",
+      "allOriginalInputHistoriesCompared": false
     },
     {
       "id": "flash-93b905ce5b8916d1",
@@ -976,11 +832,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "simgrin1_w_fla/MainTimeline.as",
-          "sha256": "7ca555eea409dba97341d378cb550dca016b3d230fb3d0b96247efa74694fb8a",
-          "currentSha256": "7ca555eea409dba97341d378cb550dca016b3d230fb3d0b96247efa74694fb8a"
         }
       ],
       "sourceSHA256": "7ca555eea409dba97341d378cb550dca016b3d230fb3d0b96247efa74694fb8a",
@@ -1058,11 +909,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "simMicrolens1_w_fla/MainTimeline.as",
-          "sha256": "17c842a095b5eda9d7952ade6b4c0356e6ccc2d7ba9998ceea2bd005dd7975e2",
-          "currentSha256": "17c842a095b5eda9d7952ade6b4c0356e6ccc2d7ba9998ceea2bd005dd7975e2"
         }
       ],
       "sourceSHA256": "17c842a095b5eda9d7952ade6b4c0356e6ccc2d7ba9998ceea2bd005dd7975e2",
@@ -1110,11 +956,6 @@
           "path": "RayTracer/ScreenCoord.as",
           "sha256": "a17d5fdc2eccab4d5cd41de75524660a3f6f73cfa1e87a4a4c18a8373d469cc4",
           "currentSha256": "a17d5fdc2eccab4d5cd41de75524660a3f6f73cfa1e87a4a4c18a8373d469cc4"
-        },
-        {
-          "path": "graph_dispersion_w_fla/MainTimeline.as",
-          "sha256": "ad2982b26d863d3a461bef34bb39f65c1f8cdadfa144f639cd578647bcbf789e",
-          "currentSha256": "ad2982b26d863d3a461bef34bb39f65c1f8cdadfa144f639cd578647bcbf789e"
         }
       ],
       "sourceSHA256": "ad2982b26d863d3a461bef34bb39f65c1f8cdadfa144f639cd578647bcbf789e",
@@ -1192,11 +1033,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "simdisprism1_w_fla/MainTimeline.as",
-          "sha256": "79f016c68e792f653faf866aefdfaffd3f38f4afed3d8b68a424a0d3039bc7b7",
-          "currentSha256": "79f016c68e792f653faf866aefdfaffd3f38f4afed3d8b68a424a0d3039bc7b7"
         }
       ],
       "sourceSHA256": "79f016c68e792f653faf866aefdfaffd3f38f4afed3d8b68a424a0d3039bc7b7",
@@ -1279,11 +1115,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "simdisprism2_w_fla/MainTimeline.as",
-          "sha256": "03da3ea2ec5bac20019cd85504de517509e240ae9d7fa876fb1cbb810c38a7dd",
-          "currentSha256": "03da3ea2ec5bac20019cd85504de517509e240ae9d7fa876fb1cbb810c38a7dd"
         }
       ],
       "sourceSHA256": "03da3ea2ec5bac20019cd85504de517509e240ae9d7fa876fb1cbb810c38a7dd",
@@ -1361,11 +1192,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "simprism1_w_fla/MainTimeline.as",
-          "sha256": "4a8dc8e9268900f0b2c7f15750835e6b61095e2aab04f33a96fb2251f37b6b11",
-          "currentSha256": "4a8dc8e9268900f0b2c7f15750835e6b61095e2aab04f33a96fb2251f37b6b11"
         }
       ],
       "sourceSHA256": "4a8dc8e9268900f0b2c7f15750835e6b61095e2aab04f33a96fb2251f37b6b11",
@@ -1443,11 +1269,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "simprism2_w_fla/MainTimeline.as",
-          "sha256": "842466aead4fc719727d78db85ff3f5fac98e00d3754043d9de1abe1e16de3cc",
-          "currentSha256": "842466aead4fc719727d78db85ff3f5fac98e00d3754043d9de1abe1e16de3cc"
         }
       ],
       "sourceSHA256": "842466aead4fc719727d78db85ff3f5fac98e00d3754043d9de1abe1e16de3cc",
@@ -1525,11 +1346,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "simprism3_w_fla/MainTimeline.as",
-          "sha256": "a378c991580e111485942ac66785d0f0df27c2e3617b6b3e739734b719605f2e",
-          "currentSha256": "a378c991580e111485942ac66785d0f0df27c2e3617b6b3e739734b719605f2e"
         }
       ],
       "sourceSHA256": "a378c991580e111485942ac66785d0f0df27c2e3617b6b3e739734b719605f2e",
@@ -1607,11 +1423,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
           "currentSha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
-        },
-        {
-          "path": "simprism4_w_fla/MainTimeline.as",
-          "sha256": "d5bd372cc9285f22d139705ac428d5129d51186bf257cbd117cbb78fb0f6a092",
-          "currentSha256": "d5bd372cc9285f22d139705ac428d5129d51186bf257cbd117cbb78fb0f6a092"
         }
       ],
       "sourceSHA256": "d5bd372cc9285f22d139705ac428d5129d51186bf257cbd117cbb78fb0f6a092",
@@ -1684,11 +1495,6 @@
           "path": "RayTracer/WaveFront.as",
           "sha256": "dc3ec811588a2562fb51b1da08e7ed1f270646c2b0948bab60a420e2ab6b6022",
           "currentSha256": "dc3ec811588a2562fb51b1da08e7ed1f270646c2b0948bab60a420e2ab6b6022"
-        },
-        {
-          "path": "simprism5_w_fla/MainTimeline.as",
-          "sha256": "685af8d21d58877897b831b873bd4064f733a6bfe6654c470047435b09d8820d",
-          "currentSha256": "685af8d21d58877897b831b873bd4064f733a6bfe6654c470047435b09d8820d"
         }
       ],
       "sourceSHA256": "685af8d21d58877897b831b873bd4064f733a6bfe6654c470047435b09d8820d",
@@ -1740,10 +1546,5 @@
     "adapter": "2e06f9f6c99662a0f112a8d1dfa4aef515d083d13fcf0449a8bbf7c5741b9007",
     "ui": "8230b4d428188f6a31d36ebd3d696b9d67b446631c29800096010a8b91a88402"
   },
-  "numericReexecutionEvidence": {
-    "file": "docs/optical-progress-50b-source-rerun-report.json",
-    "sha256": "ff886052fca8441ad7f2a31003885b7357952113ec787fbccb82d1d3098eb155",
-    "comparisons": 378727,
-    "scope": "Default plus each original slider min/default/mid/max independently; each checkbox toggle; original buttons; two source-position drags; Up to 100 original optical distance steps at defaults and 12 steps per individual control case; GRIN gradient integrators are bounded at 12 default / 6 individual-control steps due to dense original per-step integration; natural completion may stop earlier; all original material selector choices; all static curve coordinates. All rays positions/directions/crossing counts/connectivity and original text readouts. Cartesian products and unbounded event histories are not exhausted."
-  }
+  "fullEquivalence": false
 }

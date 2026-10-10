@@ -27,6 +27,7 @@ const families={
  'assets/native-modern-batch50-periodic.mjs':'modern-batch50-periodic-',
  'assets/modern-batch50-periodic-specs.mjs':'modern-batch50-periodic-',
  'assets/native-optics-batch50.mjs':'opticsbatch50-',
+ 'assets/optical-progress.mjs':['opticsbatch50-','opticsbatch50b-'],
  'assets/native-modern-next.mjs':'modern-next-',
  'assets/native-nuclear-next.mjs':'nuclearnext-',
  'assets/nuclear-next-physics.mjs':'nuclearnext-',
@@ -40,7 +41,7 @@ for(const file of Object.keys(base.nativeModelHashes)){
  const m=file.match(/^assets\/(?:native-)?(nuclear|general|modern|optics)-batch50b(?:-.*)?\.mjs$/);
  if(m)families[file]=m[1]==='optics'?'opticsbatch50b-':m[1]+'-batch50b-';
 }
-for(const file of changedAssets){assert.ok(families[file],`Shared/unknown asset requires a full rerun: ${file}`);const prefix='#native-'+families[file];for(const row of catalog.filter(row=>row.nativeHref.includes(prefix)))assert.ok(ids.includes(row.id),`Affected model omitted: ${row.id}`);}
+for(const file of changedAssets){assert.ok(families[file],`Shared/unknown asset requires a full rerun: ${file}`);const prefixes=[families[file]].flat().map(family=>'#native-'+family);for(const row of catalog.filter(row=>prefixes.some(prefix=>row.nativeHref.includes(prefix))))assert.ok(ids.includes(row.id),`Affected model omitted: ${row.id}`);}
 const replacements=new Map(rerun.results.map(row=>[row.id+'/'+row.width,row]));
 const superseded=base.results.filter(row=>replacements.has(row.id+'/'+row.width)&&!row.passed).map(({id,width,error,replayFromEnd})=>({id,width,error,replayFromEnd}));
 base.results=base.results.map(row=>replacements.get(row.id+'/'+row.width)||row);
