@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10T03:16:46.176Z",
+  "date": "2026-10-10T04:30:24.452Z",
   "base": "http://127.0.0.1:8775/",
   "programs": 117,
   "widths": [
@@ -19,7 +19,7 @@
     "assets/legacy-general-sound-physics.mjs": "91d651ef0284f11fd2788c72cdef281b100a89b60fc8992532a72a79b4c4fce0",
     "assets/legacy-general-sound.mjs": "a5751536bcde07f8fe390783f5a80289a576a1c6a8d7726d6a0141570813729d",
     "assets/legacy-general-thermo-physics.mjs": "79b9c76a2e792f8e4c5f9514d62d44a6d57b8008dc3073ed4fa14d39d917259e",
-    "assets/legacy-general-thermo.mjs": "483ebad03e41a1ccd0c740e48829160f3e149aaa976284c4099340f79d96d0ee",
+    "assets/legacy-general-thermo.mjs": "4b33885a9d327cd04d55c50a33d4d193e8cf73dcc2e808e764f4520dd7fc9fdd",
     "assets/legacy-general.mjs": "b244090d9e40bf2417b4c7e11c7b5c4d84523aa0858678e3b375a49510d77fb4",
     "assets/legacy-hydrogen-physics.mjs": "88009e54dc5e8409ad0fc89b6c8cba41f2b87b80f08d54661caeb8eba2b1071c",
     "assets/legacy-kepler-physics.mjs": "5370c930efcc99225008d09b44740fdf46e43b027e196952171f5286f427a357",
@@ -39,9 +39,9 @@
   },
   "results": [
     {
-      "id": "java-motion-box-3d",
+      "id": "java-motion-hydrogen-3d",
       "group": "quantum",
-      "inputs": 16,
+      "inputs": 14,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -62,9 +62,9 @@
       ]
     },
     {
-      "id": "java-motion-hydrogen-3d",
+      "id": "java-motion-box-3d",
       "group": "quantum",
-      "inputs": 14,
+      "inputs": 16,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -499,10 +499,10 @@
       ]
     },
     {
-      "id": "java-particle-di",
+      "id": "java-potential-2d",
       "group": "quantum",
-      "inputs": 18,
-      "options": 2,
+      "inputs": 20,
+      "options": 22,
       "playback": true,
       "csv": true,
       "passed": true,
@@ -522,10 +522,10 @@
       ]
     },
     {
-      "id": "java-potential-2d",
+      "id": "java-particle-di",
       "group": "quantum",
-      "inputs": 20,
-      "options": 22,
+      "inputs": 18,
+      "options": 2,
       "playback": true,
       "csv": true,
       "passed": true,
@@ -1097,9 +1097,9 @@
       ]
     },
     {
-      "id": "polarize5-java",
+      "id": "polari7-java",
       "group": "optics",
-      "inputs": 3,
+      "inputs": 4,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -1120,9 +1120,9 @@
       ]
     },
     {
-      "id": "polari7-java",
+      "id": "polarize5-java",
       "group": "optics",
-      "inputs": 4,
+      "inputs": 3,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -1189,9 +1189,9 @@
       ]
     },
     {
-      "id": "phasor2-java",
+      "id": "wavefront2-java",
       "group": "optics",
-      "inputs": 15,
+      "inputs": 10,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -1212,9 +1212,9 @@
       ]
     },
     {
-      "id": "wavefront2-java",
+      "id": "phasor2-java",
       "group": "optics",
-      "inputs": 10,
+      "inputs": 15,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -2070,6 +2070,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 100,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2116,29 +2120,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
-      "themes": [
-        {
-          "theme": "light",
-          "color": "rgb(34, 34, 34)",
-          "surface": "#fff",
-          "text": "#222"
-        },
-        {
-          "theme": "dark",
-          "color": "rgb(230, 237, 242)",
-          "surface": "#151c22",
-          "text": "#e6edf2"
-        }
-      ]
-    },
-    {
-      "id": "general-next-vander1",
-      "group": "general",
-      "inputs": 4,
-      "options": 0,
-      "playback": true,
-      "csv": true,
-      "passed": true,
+      "particleStyle": {
+        "count": 65,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2162,6 +2147,37 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 105,
+        "passed": true
+      },
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander1",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "particleStyle": {
+        "count": 7,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2185,6 +2201,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 75,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2208,6 +2228,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 75,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2254,6 +2278,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 24,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2277,6 +2305,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 13,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2300,6 +2332,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 130,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2323,6 +2359,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 100,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2346,6 +2386,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 12,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2369,6 +2413,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 50,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2392,6 +2440,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 50,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2415,6 +2467,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 51,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2438,6 +2494,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 40,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2461,29 +2521,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
-      "themes": [
-        {
-          "theme": "light",
-          "color": "rgb(34, 34, 34)",
-          "surface": "#fff",
-          "text": "#222"
-        },
-        {
-          "theme": "dark",
-          "color": "rgb(230, 237, 242)",
-          "surface": "#151c22",
-          "text": "#e6edf2"
-        }
-      ]
-    },
-    {
-      "id": "general-next-kineticgas23-manycol23",
-      "group": "general",
-      "inputs": 6,
-      "options": 18,
-      "playback": true,
-      "csv": true,
-      "passed": true,
+      "particleStyle": {
+        "count": 100,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2507,6 +2548,37 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 100,
+        "passed": true
+      },
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-kineticgas23-manycol23",
+      "group": "general",
+      "inputs": 6,
+      "options": 18,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "particleStyle": {
+        "count": 100,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2530,6 +2602,37 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 50,
+        "passed": true
+      },
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander",
+      "group": "general",
+      "inputs": 10,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "particleStyle": {
+        "count": 50,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2553,6 +2656,10 @@
       "playback": true,
       "csv": true,
       "passed": true,
+      "particleStyle": {
+        "count": 15,
+        "passed": true
+      },
       "themes": [
         {
           "theme": "light",
@@ -2569,9 +2676,9 @@
       ]
     },
     {
-      "id": "general-next-vander",
-      "group": "general",
-      "inputs": 10,
+      "id": "rutherford-scattering",
+      "group": "nuclear",
+      "inputs": 4,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -2597,29 +2704,6 @@
       "inputs": 0,
       "options": 64,
       "playback": false,
-      "csv": true,
-      "passed": true,
-      "themes": [
-        {
-          "theme": "light",
-          "color": "rgb(34, 34, 34)",
-          "surface": "#fff",
-          "text": "#222"
-        },
-        {
-          "theme": "dark",
-          "color": "rgb(230, 237, 242)",
-          "surface": "#151c22",
-          "text": "#e6edf2"
-        }
-      ]
-    },
-    {
-      "id": "rutherford-scattering",
-      "group": "nuclear",
-      "inputs": 4,
-      "options": 0,
-      "playback": true,
       "csv": true,
       "passed": true,
       "themes": [

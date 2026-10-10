@@ -21,6 +21,7 @@ try{await Promise.all(Array.from({length:3},async()=>{
    await page.setViewportSize({width:1360,height:950});await page.goto(base+s.href,{waitUntil:'load'});
    const host=page.locator('[data-legacy-id="'+s.id+'"]');await host.scrollIntoViewIfNeeded();await page.waitForFunction(id=>!!document.querySelector('[data-legacy-id="'+id+'"]')?.dataset.legacyState,s.id,{timeout:60000});
    if(!await finite(host))throw Error('Nonfinite initial state');
+   const particles=host.locator('[data-particle]');if(await particles.count()){r.particleStyle=await particles.evaluateAll(es=>({count:es.length,passed:es.every(e=>{const c=getComputedStyle(e);return Number(c.fillOpacity)===.65&&c.stroke==='none';})}));if(!r.particleStyle.passed)throw Error('Particle opacity or border mismatch');}
    const reset=host.getByRole('button',{name:/^(초기화|처음 상태)$/}).first();
    const ranges=await host.locator('input[type=range]').all();
    for(const range of ranges){const initial=await range.inputValue();for(const b of ['min','max']){
