@@ -1086,6 +1086,8 @@ input[type=search]{width:100%;min-height:46px;border:1px solid var(--ui-line);bo
 .remaster-scene [data-beam]{fill:none}.remaster-scene [data-drag-tip]{cursor:grab;touch-action:none}.remaster-scene [data-drag-tip]:active{cursor:grabbing}[data-theme="dark"] .native-orbit{fill:#73b8e8}
 
 .chain-spring{stroke:var(--plot-muted);stroke-width:2;fill:none}.chain-side-force{stroke:var(--plot-muted);stroke-width:1.5}.chain-net-force{stroke:var(--ui-action);stroke-width:2.5}.chain-bob{cursor:grab;touch-action:none}
+/* SVG circles alone do not prevent Chromium from cancelling a touch drag. */
+[data-chain-scene] svg,[data-mechanics-scene] svg{touch-action:none}
 .timeline-native-stage{position:relative;max-width:800px;margin:1rem auto;aspect-ratio:var(--timeline-aspect);background:#fff;border:1px solid var(--border);overflow:hidden}.timeline-native-stage iframe{width:100%;height:100%;border:0;display:block}.timeline-native-stage [data-timeline-status]{position:absolute;inset:0;padding:1rem;font-size:.9rem;color:#42545c;background:#fff;z-index:1}
 [data-flash-native^="chain"] .native-controls{max-height:22rem;overflow-y:auto}[data-flash-native^="chain"] .book-readouts{max-height:14rem;overflow-y:auto}
 

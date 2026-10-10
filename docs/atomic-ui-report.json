@@ -5,7 +5,7 @@
     "assets/atomic-specs.mjs": "37dfa551cb6921d65a6e6d007fc16efa5c34ceeb9f8d146bdfc1e9a0982520a9",
     "assets/native-atomic.mjs": "d2e3bd02a1dd7a1f5f1af52fb5f979dc3fb0fd148a3e6e0bd4d925821505c358",
     "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
-    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
+    "assets/style.css": "af924ddb59c88db4694fc11ee86c6f14ee30f3afab653fd40fe612a68c363566"
   },
   "scope": "Six ports × 320/768/1360: every original Z on desktop, every electron arrangement with energy toggle, all 256 table group masks and every permitted affinity pair; mobile/tablet boundaries; same selected SVG geometry/table values, both plots and actual graph/cell clicks, keyboard, automatic element play/pause/wrap/input interruption, no playback/timeline on static models, CSV, themes and overflow fit. Original finite source and bounded actual-runtime evidence remain separate.",
   "results": [
@@ -225,5 +225,17 @@
     }
   ],
   "errors": [],
-  "passed": true
+  "passed": true,
+  "dependencyRevalidations": [
+    {
+      "date": "2026-10-10T01:28:10.436Z",
+      "baseCommit": "7c7d519ac1bb42ec5bf95ef3615acbf8b1134305",
+      "file": "assets/style.css",
+      "beforeSHA256": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86",
+      "afterSHA256": "af924ddb59c88db4694fc11ee86c6f14ee30f3afab653fd40fe612a68c363566",
+      "exactAddedCSS": "/* SVG circles alone do not prevent Chromium from cancelling a touch drag. */\n[data-chain-scene] svg,[data-mechanics-scene] svg{touch-action:none}\n",
+      "scope": "Only touch-action on two SVG scene containers changes. All JavaScript, mathematical functions, SVG geometry, control values, timers, CSV and other CSS are byte-identical. Prior desktop/rendering/unrelated touch observations are retained with their original dates; they were not rerun by this revalidation. The 13 affected models have a separate real Chromium touch regression report (26 mobile/tablet cases).",
+      "touchReport": "docs/touch-drag-local-ui-report.json"
+    }
+  ]
 }

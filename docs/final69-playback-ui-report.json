@@ -285,7 +285,7 @@
     "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
     "assets/scene-physics.mjs": "ca7c46f2a70cd69cba9336c5317221ee0bfce5756a23887debd4811211377a3a",
     "assets/scene-specs.mjs": "7712e3123e9d74aaf0448a3e6ecc5a7e5909086f50be77251419c5342a60a4a2",
-    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86",
+    "assets/style.css": "af924ddb59c88db4694fc11ee86c6f14ee30f3afab653fd40fe612a68c363566",
     "assets/timeline-specs.mjs": "c7327528d4a64667bd31bca206ab62cb0bbc3e509bc10ef9f671e5b51b32a0e4",
     "assets/transition-motion.mjs": "0977f15e73a81f0492075aa2b77d777932b0ea1832da7361a36ddffe7f3e3f77",
     "assets/visionlaser-final69-data-flash-04e263fc3721f5df.mjs": "7b85b9e07a9f4cd8c6af77e7516e74833cf3f08e2b2f537103e3a48697187e9a",
@@ -4956,6 +4956,16 @@
       "afterSHA256": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204",
       "exactAddedStatement": "e.style.pointerEvents='none';",
       "scope": "Exact single added statement changes hit testing only on force lines. All physics, SVG geometry, timers, labels, inputs, and CSV code are byte-identical. Earlier numerical/runtime and unrelated UI rows are retained, not claimed to have been rerun. Chain playback and pointer interaction are separately rechecked."
+    },
+    {
+      "date": "2026-10-10T01:28:10.436Z",
+      "baseCommit": "7c7d519ac1bb42ec5bf95ef3615acbf8b1134305",
+      "file": "assets/style.css",
+      "beforeSHA256": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86",
+      "afterSHA256": "af924ddb59c88db4694fc11ee86c6f14ee30f3afab653fd40fe612a68c363566",
+      "exactAddedCSS": "/* SVG circles alone do not prevent Chromium from cancelling a touch drag. */\n[data-chain-scene] svg,[data-mechanics-scene] svg{touch-action:none}\n",
+      "scope": "Only touch-action on two SVG scene containers changes. All JavaScript, mathematical functions, SVG geometry, control values, timers, CSV and other CSS are byte-identical. Prior desktop/rendering/unrelated touch observations are retained with their original dates; they were not rerun by this revalidation. The 13 affected models have a separate real Chromium touch regression report (26 mobile/tablet cases).",
+      "touchReport": "docs/touch-drag-local-ui-report.json"
     }
   ]
 }

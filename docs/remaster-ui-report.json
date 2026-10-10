@@ -1,5 +1,5 @@
 {
-  "base": "https://gahyoun.github.io/physica-gnu-2026/",
+  "base": "http://127.0.0.1:8775/",
   "nativeModels": [
     "stick",
     "potential"

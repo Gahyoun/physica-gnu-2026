@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-10T01:26:36.282Z",
+  "base": "https://gahyoun.github.io/physica-gnu-2026/",
+  "engine": "Chromium",
+  "input": "CDP touchStart/touchMove/touchEnd, native browser touch events",
+  "widths": [
+    320,
+    768
+  ],
+  "expected": 26,
+  "observed": 26,
+  "passed": false,
+  "scope": "11 elastic-network models and 2 mechanics models; drag initial conditions, release auto-play, touch pause, state/graph synchronization, scroll and horizontal overflow. Emulation only, not physical-device or original-runtime input equivalence.",
+  "results": [
+    {
+      "width": 320,
+      "kind": "chain10longitudinal",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "chain10transverse",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "chain10planar",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "transverse",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "longitudinal",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "planar",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "chain2",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "chain3",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "chain5",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "chain12",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "chain20",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "stick",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 320,
+      "kind": "potential",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "chain10longitudinal",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "chain10transverse",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "chain10planar",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "transverse",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "longitudinal",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "planar",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "chain2",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "chain3",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "chain5",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "chain12",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "chain20",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "stick",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    },
+    {
+      "width": 768,
+      "kind": "potential",
+      "passed": false,
+      "hitTarget": true,
+      "error": "page.waitForFunction: Timeout 4000ms exceeded."
+    }
+  ],
+  "errors": []
+}
