@@ -1,0 +1,331 @@
+[
+  {
+    "id": "java-motion-box-3d",
+    "title": "3차원 상자에 갇힌 파동묶음의 운동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/MotionBox3DApp.html",
+    "lessonId": "6-4-8-1",
+    "sourceAliases": [],
+    "kind": "box3d",
+    "parameters": [
+      {
+        "key": "kx",
+        "label": "파수 kₓ",
+        "min": -2,
+        "max": 4,
+        "step": 0.1,
+        "value": 2
+      },
+      {
+        "key": "ky",
+        "label": "파수 kᵧ",
+        "min": -2,
+        "max": 4,
+        "step": 0.1,
+        "value": 0
+      },
+      {
+        "key": "kz",
+        "label": "파수 k_z",
+        "min": -2,
+        "max": 4,
+        "step": 0.1,
+        "value": 0
+      },
+      {
+        "key": "x0",
+        "label": "처음 중심 x₀",
+        "min": 0,
+        "max": 0.75,
+        "step": 0.05,
+        "value": 0
+      },
+      {
+        "key": "uncertainty",
+        "label": "가우스 폭 Δ",
+        "min": 0.01,
+        "max": 0.3,
+        "step": 0.01,
+        "value": 0.1
+      },
+      {
+        "key": "iso",
+        "label": "등고면 높이 / %",
+        "min": 1,
+        "max": 82,
+        "step": 1,
+        "value": 28
+      }
+    ],
+    "equations": [
+      "\\psi(\\mathbf r,t)=\\sum_{n_x,n_y,n_z}c_{n_xn_yn_z}\\,\\phi_{n_x}(x)\\phi_{n_y}(y)\\phi_{n_z}(z)e^{-iE_{n_xn_yn_z}t}",
+      "E_{n_xn_yn_z}=\\frac{\\pi^2}{4}(n_x^2+n_y^2+n_z^2),\\quad -1\\le x,y,z\\le1"
+    ],
+    "provenance": {
+      "originalFormat": "Java applet + native VTK",
+      "archive": "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar",
+      "archiveSHA256": "b17d7ce3e9d24912ddfdf8efdddda44ed2c0dafa60aaf880eaa8dc2a402728fe",
+      "originalClass": "MotionBox3DApp.class",
+      "method": "Original bytecode and headless Java numerical classes",
+      "projectionGrid": [
+        51,
+        51,
+        51
+      ],
+      "basisBuildCount": 1000,
+      "amplitudeCutoff": 0.04,
+      "clock": {
+        "millisecondInterval": 200,
+        "timeStep": 0.001,
+        "fastTimeStep": 0.01
+      },
+      "limits": [
+        "Native VTK viewer was not executed; SVG isosurface mesh is a new renderer.",
+        "Three parameter configurations and twelve complex-wave samples were compared with original Java classes; not all parameter combinations were enumerated."
+      ],
+      "sourcePageSHA256": "21aadcf57b588e692af003827a1ed8f8ffa813aebd04f531b117bd7206e33c45"
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-motion-harmonic-3d",
+    "title": "조화력을 받는 3차원 파동묶음의 운동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/MotionHarmonic3DApp.html",
+    "lessonId": "6-4-8-2",
+    "sourceAliases": [],
+    "kind": "harmonic3d",
+    "parameters": [
+      {
+        "key": "kx",
+        "label": "파수 kₓ",
+        "min": -2,
+        "max": 10,
+        "step": 0.1,
+        "value": 0
+      },
+      {
+        "key": "ky",
+        "label": "파수 kᵧ",
+        "min": -2,
+        "max": 10,
+        "step": 0.1,
+        "value": 5
+      },
+      {
+        "key": "kz",
+        "label": "파수 k_z",
+        "min": -2,
+        "max": 10,
+        "step": 0.1,
+        "value": 0
+      },
+      {
+        "key": "x0",
+        "label": "처음 중심 x₀",
+        "min": 0,
+        "max": 0.75,
+        "step": 0.05,
+        "value": 0.5
+      },
+      {
+        "key": "uncertainty",
+        "label": "가우스 폭 Δ",
+        "min": 0.01,
+        "max": 0.4,
+        "step": 0.01,
+        "value": 0.1
+      },
+      {
+        "key": "iso",
+        "label": "등고면 높이 / %",
+        "min": 1,
+        "max": 82,
+        "step": 1,
+        "value": 28
+      }
+    ],
+    "equations": [
+      "\\psi(\\mathbf r,t)=\\sum_{n_x,n_y,n_z}c_{n_xn_yn_z}\\,\\phi_{n_x}(x)\\phi_{n_y}(y)\\phi_{n_z}(z)e^{-iE_{n_xn_yn_z}t}",
+      "E_{n_xn_yn_z}=50\\left(n_x+n_y+n_z+\\frac32\\right)"
+    ],
+    "provenance": {
+      "originalFormat": "Java applet + native VTK",
+      "archive": "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar",
+      "archiveSHA256": "b17d7ce3e9d24912ddfdf8efdddda44ed2c0dafa60aaf880eaa8dc2a402728fe",
+      "originalClass": "MotionHarmonic3DApp.class",
+      "method": "Original bytecode and headless Java numerical classes",
+      "projectionGrid": [
+        51,
+        51,
+        51
+      ],
+      "basisBuildCount": 1000,
+      "amplitudeCutoff": 0.02,
+      "clock": {
+        "millisecondInterval": 200,
+        "timeStep": 0.001,
+        "fastTimeStep": 0.01
+      },
+      "limits": [
+        "Native VTK viewer was not executed; SVG isosurface mesh is a new renderer.",
+        "Three parameter configurations and twelve complex-wave samples were compared with original Java classes; not all parameter combinations were enumerated."
+      ],
+      "sourcePageSHA256": "3289db8bb73702c5077a83abb5c8bac0fefe243076aa9d9608653b05aca28ba8"
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-motion-hydrogen-3d",
+    "title": "수소 원자에서 파동묶음의 운동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/MotionHydrogen3DApp.html",
+    "lessonId": "6-4-8-3",
+    "sourceAliases": [],
+    "kind": "hydrogen3d",
+    "parameters": [
+      {
+        "key": "ky",
+        "label": "파수 kᵧ / a₀⁻¹",
+        "min": -0.15,
+        "max": 0.15,
+        "step": 0.01,
+        "value": 0.05
+      },
+      {
+        "key": "kz",
+        "label": "파수 k_z / a₀⁻¹",
+        "min": -0.15,
+        "max": 0.15,
+        "step": 0.01,
+        "value": 0
+      },
+      {
+        "key": "z0",
+        "label": "처음 중심 z₀ / a₀",
+        "min": 0,
+        "max": 25,
+        "step": 1,
+        "value": 15
+      },
+      {
+        "key": "uncertainty",
+        "label": "가우스 폭 Δ / a₀",
+        "min": 2,
+        "max": 10,
+        "step": 0.1,
+        "value": 5
+      },
+      {
+        "key": "iso",
+        "label": "등고면 높이 / %",
+        "min": 1,
+        "max": 82,
+        "step": 1,
+        "value": 48
+      }
+    ],
+    "equations": [
+      "\\psi(\\mathbf r,t)=\\sum_{n,l,m}c_{nlm}R_{nl}(r)Y_l^m(\\theta,\\phi)e^{-iE_nt/\\hbar}",
+      "E_n=-\\frac{13.5984}{n^2}\\,\\mathrm{eV},\\qquad a_0\\text{ : Bohr radius}"
+    ],
+    "provenance": {
+      "originalFormat": "Java applet + native VTK",
+      "archive": "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar",
+      "archiveSHA256": "b17d7ce3e9d24912ddfdf8efdddda44ed2c0dafa60aaf880eaa8dc2a402728fe",
+      "originalClass": "MotionHydrogen3DApp.class",
+      "method": "Original bytecode and headless Java numerical classes",
+      "projectionGrid": [
+        201,
+        37,
+        37
+      ],
+      "basisBuildCount": 500,
+      "amplitudeCutoff": 0.01,
+      "clock": {
+        "millisecondInterval": 200,
+        "timeStepSeconds": 5e-17,
+        "fastTimeStepSeconds": 5e-16
+      },
+      "limits": [
+        "Native VTK viewer was not executed; SVG isosurface mesh is a new renderer.",
+        "Three parameter configurations and twelve complex-wave samples were compared with original Java classes; not all parameter combinations were enumerated.",
+        "The source uses bound states through n=12 and a finite sphere of radius 50 Bohr radii. Cartesian display interpolates the preserved spherical complex field."
+      ],
+      "sourcePageSHA256": "a05274d090c40fd788442af14e00d50cc70bcf6eecd33573616973c47f3c7e25",
+      "basisStateCount": 650,
+      "projectionQuirk": "Source Gaussian coordinates divide by 201/37/37; basis and quadrature divide by 200/36/36. Both coordinate rules are preserved."
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-motion-hydrogen-kepler-3d",
+    "title": "수소원자에서 결맞는 상태 운동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/MotionHydrogen3DKeplerApp.html",
+    "lessonId": "6-4-8-4",
+    "sourceAliases": [],
+    "kind": "kepler3d",
+    "parameters": [
+      {
+        "key": "n0",
+        "label": "중심 주양자수 n₀",
+        "min": 50,
+        "max": 150,
+        "step": 1,
+        "value": 100
+      },
+      {
+        "key": "dn",
+        "label": "양자수 폭 Δn",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "value": 2
+      },
+      {
+        "key": "iso",
+        "label": "등고면 높이 / %",
+        "min": 1,
+        "max": 82,
+        "step": 1,
+        "value": 48
+      }
+    ],
+    "equations": [
+      "c_n=\\exp\\!\\left[-\\frac{(n-n_0)^2}{4(\\Delta n)^2}\\right],\\quad l=m=n-1",
+      "E_n=-\\frac{13.5984}{n^2}\\,\\mathrm{eV}"
+    ],
+    "provenance": {
+      "originalFormat": "Java applet + native VTK",
+      "archive": "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar",
+      "archiveSHA256": "b17d7ce3e9d24912ddfdf8efdddda44ed2c0dafa60aaf880eaa8dc2a402728fe",
+      "originalClass": "MotionHydrogen3DKeplerApp.class",
+      "method": "Original bytecode and headless Java numerical classes",
+      "projectionGrid": [
+        51,
+        11,
+        301
+      ],
+      "basisBuildCount": null,
+      "amplitudeCutoff": null,
+      "clock": {
+        "millisecondInterval": 200,
+        "timeStepSeconds": 1e-12,
+        "availableMultipliers": [
+          1,
+          10,
+          50,
+          500
+        ],
+        "defaultMultiplier": 10
+      },
+      "limits": [
+        "Native VTK viewer was not executed; SVG isosurface mesh is a new renderer.",
+        "Original Java classes were executed for three configurations, twelve complex probes and nine actual runtime table probes; not every input combination.",
+        "Cartesian display interpolates the actual original spherical wedge r1600..40000, theta63..90 degrees, phi0..360 degrees. Camera extent adapts to the packet.",
+        "Actual original radial-table indexing differs from intended circular-state formula, preserved as a historical source behavior."
+      ],
+      "sourcePageSHA256": "927c4280dc7e7c0107ffe0e6d2c16e123de4e3351dc5a9be512f7bd23ab9874d",
+      "basisRule": "floor(n0 - 4 dn) ... ceil(n0 + 4 dn), no amplitude cutoff",
+      "radialTableIndexDiscrepancy": "Actual original radial table evaluates nEnd + index; state coefficients, angular quantum numbers and energies use nStart + index. Preserved and disclosed in UI; not asserted to be a physically correct eigenstate solution."
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  }
+]

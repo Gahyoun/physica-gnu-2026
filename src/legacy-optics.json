@@ -1,0 +1,1131 @@
+[
+  {
+    "id": "gaussian-beam-3d",
+    "title": "가우스 빔의 3차원 모습",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/GaussianBeamApp.html",
+    "lessonId": "5-6-5-2",
+    "sourceAliases": [],
+    "kind": "gaussian",
+    "parameters": [
+      {
+        "key": "iso",
+        "label": "등값면",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "value": 25,
+        "unit": "%"
+      },
+      {
+        "key": "w0",
+        "label": "빔 허리 w₀",
+        "min": 0.2,
+        "max": 2,
+        "step": 0.04,
+        "value": 1,
+        "unit": "μm"
+      },
+      {
+        "key": "z0",
+        "label": "레이리 길이 z₀",
+        "min": 0.4,
+        "max": 4,
+        "step": 0.08,
+        "value": 2,
+        "unit": "μm"
+      },
+      {
+        "key": "slice",
+        "label": "단면 z",
+        "min": -4,
+        "max": 4,
+        "step": 0.08,
+        "value": 0,
+        "unit": "μm"
+      },
+      {
+        "key": "ySlice",
+        "label": "단면 y",
+        "min": -2,
+        "max": 2,
+        "step": 0.08,
+        "value": 0,
+        "unit": "μm"
+      }
+    ],
+    "equations": [
+      "w(z)=w_0\\sqrt{1+(z/z_0)^2}",
+      "I(x,y,z)=\\frac{w_0^2}{w^2(z)}\\exp\\!\\left[-\\frac{2(x^2+y^2)}{w^2(z)}\\right]"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/GaussianBeamApp.html",
+      "archive": "signedCWFtn.jar",
+      "archiveSHA256": "b17d7ce3e9d24912ddfdf8efdddda44ed2c0dafa60aaf880eaa8dc2a402728fe",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original spMath.LaserBeamFtn executed in JVM: 300 intensity/real/imag values per model, normalized error <= 1.21e-13. Original applet GUI/VTK rendering was not executed.",
+      "limitations": [
+        "Browser surface uses sampled threshold crossings, not original VTK voxel rendering; scalar functions and original sliders restored."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "hermite-gaussian-beam-3d",
+    "title": "에르미트-가우스 빔의 3차원 모습",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/HermiteGaussianBeamApp.html",
+    "lessonId": "5-6-5-7",
+    "sourceAliases": [],
+    "kind": "hermite",
+    "parameters": [
+      {
+        "key": "iso",
+        "label": "등값면",
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "value": 35,
+        "unit": "%"
+      },
+      {
+        "key": "m",
+        "label": "x 방향 차수",
+        "min": 0,
+        "max": 4,
+        "step": 1,
+        "value": 2,
+        "unit": ""
+      },
+      {
+        "key": "n",
+        "label": "y 방향 차수",
+        "min": 0,
+        "max": 4,
+        "step": 1,
+        "value": 3,
+        "unit": ""
+      },
+      {
+        "key": "w0",
+        "label": "빔 허리 w₀",
+        "min": 0.48,
+        "max": 1.6,
+        "step": 0.04,
+        "value": 1,
+        "unit": "μm"
+      },
+      {
+        "key": "z0",
+        "label": "레이리 길이 z₀",
+        "min": 0.96,
+        "max": 4,
+        "step": 0.08,
+        "value": 2.4,
+        "unit": "μm"
+      },
+      {
+        "key": "slice",
+        "label": "단면 z",
+        "min": -4,
+        "max": 4,
+        "step": 0.08,
+        "value": 0,
+        "unit": "μm"
+      },
+      {
+        "key": "ySlice",
+        "label": "단면 y",
+        "min": -2,
+        "max": 2,
+        "step": 0.08,
+        "value": 0.64,
+        "unit": "μm"
+      }
+    ],
+    "equations": [
+      "E_{mn}=\\frac{w_0}{w}H_m(1.414x/w)H_n(1.414y/w)e^{-(x^2+y^2)/w^2}e^{i\\Phi_{mn}}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/HermiteGaussianBeamApp.html",
+      "archive": "signedCWFtn.jar",
+      "archiveSHA256": "b17d7ce3e9d24912ddfdf8efdddda44ed2c0dafa60aaf880eaa8dc2a402728fe",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original spMath.LaserBeamFtn executed in JVM: 300 intensity/real/imag values per model, normalized error <= 1.21e-13. Original applet GUI/VTK rendering was not executed.",
+      "limitations": [
+        "Browser surface uses sampled threshold crossings, not original VTK voxel rendering; scalar functions and original sliders restored."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "elliptic-gaussian-beam-3d",
+    "title": "타원형 가우스 빔의 3차원 모습",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/EllipticBeamApp.html",
+    "lessonId": "5-6-5-8",
+    "sourceAliases": [],
+    "kind": "elliptic",
+    "parameters": [
+      {
+        "key": "iso",
+        "label": "등값면",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "value": 25,
+        "unit": "%"
+      },
+      {
+        "key": "wx0",
+        "label": "x 방향 빔 허리",
+        "min": 0.2,
+        "max": 2,
+        "step": 0.04,
+        "value": 0.8,
+        "unit": "μm"
+      },
+      {
+        "key": "wy0",
+        "label": "y 방향 빔 허리",
+        "min": 0.2,
+        "max": 2,
+        "step": 0.04,
+        "value": 1.2,
+        "unit": "μm"
+      },
+      {
+        "key": "delta",
+        "label": "허리 위치 차 Δ",
+        "min": -2,
+        "max": 2,
+        "step": 0.04,
+        "value": 0,
+        "unit": "μm"
+      },
+      {
+        "key": "lambda",
+        "label": "파장 λ",
+        "min": 0.8,
+        "max": 2,
+        "step": 0.04,
+        "value": 1.4,
+        "unit": "μm"
+      },
+      {
+        "key": "slice",
+        "label": "단면 z",
+        "min": -4,
+        "max": 4,
+        "step": 0.08,
+        "value": 0,
+        "unit": "μm"
+      },
+      {
+        "key": "ySlice",
+        "label": "단면 y",
+        "min": -2,
+        "max": 2,
+        "step": 0.08,
+        "value": 0,
+        "unit": "μm"
+      }
+    ],
+    "equations": [
+      "w_x(z)=w_{x0}\\sqrt{1+[(z-\\Delta/2)/z_{Rx}]^2}",
+      "w_y(z)=w_{y0}\\sqrt{1+[(z+\\Delta/2)/z_{Ry}]^2}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/EllipticBeamApp.html",
+      "archive": "signedCWFtn.jar",
+      "archiveSHA256": "b17d7ce3e9d24912ddfdf8efdddda44ed2c0dafa60aaf880eaa8dc2a402728fe",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original spMath.LaserBeamFtn executed in JVM: 300 intensity/real/imag values per model, normalized error <= 1.21e-13. Original applet GUI/VTK rendering was not executed.",
+      "limitations": [
+        "Browser surface uses sampled threshold crossings, not original VTK voxel rendering; scalar functions and original sliders restored."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "single-slit-java",
+    "title": "단일슬릿 회절의 진폭과 밝기 분포",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.SingleSlit.html",
+    "lessonId": "5-5-1-3",
+    "sourceAliases": [],
+    "kind": "single",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 380,
+        "max": 780,
+        "step": 10,
+        "value": 550,
+        "unit": "nm"
+      },
+      {
+        "key": "width",
+        "label": "슬릿 폭 b",
+        "min": 0.2,
+        "max": 2,
+        "step": 0.1,
+        "value": 1,
+        "unit": ""
+      },
+      {
+        "key": "exposure",
+        "label": "노출 단계",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "value": 3,
+        "unit": ""
+      }
+    ],
+    "equations": [
+      "A=\\operatorname{sinc}\\beta,\\qquad I=|A|^2"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.SingleSlit.html",
+      "archive": "diffpatern.jar",
+      "archiveSHA256": "f66f8068ca1d4033e28069126c5b5654ba46ee15be8ccd044b7de4b8cf06baec",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original class equations decompiled and independently tested for symmetry, center normalization and diffraction zeros. Shared original Java scalar kernels executed for comparison; applet GUI not executed.",
+      "limitations": [],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "circular-aperture-java",
+    "title": "원형구멍 회절무늬 그래프",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.Circular.html",
+    "lessonId": "5-5-2-1",
+    "sourceAliases": [],
+    "kind": "circular",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 380,
+        "max": 780,
+        "step": 10,
+        "value": 500,
+        "unit": "nm"
+      },
+      {
+        "key": "radius",
+        "label": "개구 반경",
+        "min": 0.2,
+        "max": 2,
+        "step": 0.1,
+        "value": 1,
+        "unit": ""
+      },
+      {
+        "key": "exposure",
+        "label": "노출 단계",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "value": 3,
+        "unit": ""
+      }
+    ],
+    "equations": [
+      "A=\\frac{2J_1(\\rho)}{\\rho},\\qquad I=|A|^2"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.Circular.html",
+      "archive": "diffpatern.jar",
+      "archiveSHA256": "f66f8068ca1d4033e28069126c5b5654ba46ee15be8ccd044b7de4b8cf06baec",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original MathSpc.bessel1 JVM executed at 101 arguments in [-5,5]: normalized error <= 1.21e-13; first diffraction zero/center/symmetry tested. Stable asymptotic continuation intentionally replaces original cutoff outside r=30. Applet GUI not executed.",
+      "limitations": [
+        "Bessel evaluation is stabilized outside the original truncated Taylor-series interval; original returned zero at r>30."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "many-slit-java",
+    "title": "이중슬릿 및 다중슬릿 회절의 진폭과 밝기 분포",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.ManySlit.html",
+    "lessonId": "5-5-3-1",
+    "sourceAliases": [],
+    "kind": "many",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 380,
+        "max": 780,
+        "step": 10,
+        "value": 500,
+        "unit": "nm"
+      },
+      {
+        "key": "count",
+        "label": "슬릿 수 N",
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "value": 2,
+        "unit": ""
+      },
+      {
+        "key": "spacing",
+        "label": "슬릿 간격 a",
+        "min": 0.2,
+        "max": 4,
+        "step": 0.1,
+        "value": 2,
+        "unit": ""
+      },
+      {
+        "key": "ratio",
+        "label": "개방 비율 b/a",
+        "min": 0.05,
+        "max": 0.95,
+        "step": 0.01,
+        "value": 0.5,
+        "unit": ""
+      },
+      {
+        "key": "exposure",
+        "label": "노출 단계",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "value": 3,
+        "unit": ""
+      }
+    ],
+    "equations": [
+      "A=\\operatorname{sinc}\\beta\\frac{\\sin N\\alpha}{N\\sin\\alpha},\\qquad I=|A|^2"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.ManySlit.html",
+      "archive": "diffpatern.jar",
+      "archiveSHA256": "f66f8068ca1d4033e28069126c5b5654ba46ee15be8ccd044b7de4b8cf06baec",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original MathSpc.sinNc JVM executed for 101 arguments × 30 slit counts: 3,030 values, normalized error <= 1.21e-13. Center/zeros/symmetry separately tested. Applet GUI not executed.",
+      "limitations": [],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "rectangular-aperture-java",
+    "title": "직사각형구멍의 회절 무늬",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.Retangular.html",
+    "lessonId": "5-5-3-3",
+    "sourceAliases": [],
+    "kind": "rectangle",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 380,
+        "max": 780,
+        "step": 10,
+        "value": 500,
+        "unit": "nm"
+      },
+      {
+        "key": "width",
+        "label": "개구 폭",
+        "min": 0.4,
+        "max": 2,
+        "step": 0.1,
+        "value": 1,
+        "unit": ""
+      },
+      {
+        "key": "height",
+        "label": "개구 높이",
+        "min": 0.4,
+        "max": 2,
+        "step": 0.1,
+        "value": 1.5,
+        "unit": ""
+      },
+      {
+        "key": "exposure",
+        "label": "노출 단계",
+        "min": 0,
+        "max": 12,
+        "step": 1,
+        "value": 4,
+        "unit": ""
+      }
+    ],
+    "equations": [
+      "A=\\operatorname{sinc}\\beta_x\\operatorname{sinc}\\beta_y,\\qquad I=|A|^2"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.Retangular.html",
+      "archive": "diffpatern.jar",
+      "archiveSHA256": "f66f8068ca1d4033e28069126c5b5654ba46ee15be8ccd044b7de4b8cf06baec",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original class equations decompiled and independently tested for symmetry, center normalization and diffraction zeros. Shared original Java scalar kernels executed for comparison; applet GUI not executed.",
+      "limitations": [],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "diffraction-fft-1d-java",
+    "title": "1차원 회절과 푸리에 변환",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/twodimfft.diff1D.html",
+    "lessonId": "5-5-4-2",
+    "sourceAliases": [],
+    "kind": "fft1d",
+    "parameters": [
+      {
+        "key": "shape",
+        "label": "입사 개구",
+        "min": 0,
+        "max": 11,
+        "step": 1,
+        "value": 0,
+        "unit": ""
+      },
+      {
+        "key": "xScale",
+        "label": "x 배율",
+        "min": 1,
+        "max": 9,
+        "step": 1,
+        "value": 5,
+        "unit": ""
+      },
+      {
+        "key": "position",
+        "label": "개구 위치",
+        "min": -20,
+        "max": 20,
+        "step": 1,
+        "value": 0,
+        "unit": ""
+      },
+      {
+        "key": "offset",
+        "label": "진폭 오프셋",
+        "min": -10,
+        "max": 10,
+        "step": 1,
+        "value": 0,
+        "unit": ""
+      },
+      {
+        "key": "exposure",
+        "label": "노출 단계",
+        "min": 1,
+        "max": 9,
+        "step": 1,
+        "value": 5,
+        "unit": ""
+      },
+      {
+        "key": "seed",
+        "label": "난수 시드",
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "value": 1,
+        "unit": ""
+      }
+    ],
+    "equations": [
+      "\\widetilde A(k)=\\mathcal F[A(x)],\\qquad I(k)=|\\widetilde A(k)|^2"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/twodimfft.diff1D.html",
+      "archive": "twodimfft.jar",
+      "archiveSHA256": "4e734d38533e89b3d26ecebbe537ed74b69f2e3ba4e180053c60d7531cb9bb4d",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original twodimfft.FFT1D JVM executed: 512-point aperture with shift and offset, 1,024 real/imag values, normalized error <= 1.21e-13. All 12 aperture variants tested for finite output; applet GUI not executed.",
+      "limitations": [],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "diffraction-fft-2d-java",
+    "title": "2차원 회절과 푸리에 변환결과",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/twodimfft.diff2D.html",
+    "lessonId": "5-5-4-3",
+    "sourceAliases": [],
+    "kind": "fft2d",
+    "parameters": [
+      {
+        "key": "shape",
+        "label": "입사 개구",
+        "min": 0,
+        "max": 12,
+        "step": 1,
+        "value": 0,
+        "unit": ""
+      },
+      {
+        "key": "xScale",
+        "label": "x 배율",
+        "min": 1,
+        "max": 9,
+        "step": 1,
+        "value": 5,
+        "unit": ""
+      },
+      {
+        "key": "yScale",
+        "label": "y 배율",
+        "min": 1,
+        "max": 9,
+        "step": 1,
+        "value": 5,
+        "unit": ""
+      },
+      {
+        "key": "rotation",
+        "label": "개구 회전",
+        "min": -180,
+        "max": 180,
+        "step": 10,
+        "value": 0,
+        "unit": "°"
+      },
+      {
+        "key": "exposure",
+        "label": "노출 단계",
+        "min": 0,
+        "max": 11,
+        "step": 1,
+        "value": 6,
+        "unit": ""
+      },
+      {
+        "key": "seed",
+        "label": "난수 시드",
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "value": 1,
+        "unit": ""
+      }
+    ],
+    "equations": [
+      "\\widetilde A(k_x,k_y)=\\mathcal F_{2D}[A(x,y)],\\qquad I=|\\widetilde A|^2"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/twodimfft.diff2D.html",
+      "archive": "twodimfft.jar",
+      "archiveSHA256": "4e734d38533e89b3d26ecebbe537ed74b69f2e3ba4e180053c60d7531cb9bb4d",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original shared FFT1D JVM executed (1,024 complex components). Source-verified 2D transform/rotation and 13 aperture variants independently tested for central Fourier amplitude and finite power; full original FFT2D applet GUI not executed.",
+      "limitations": [
+        "Original seven photo aperture modes are not included. Random aperture is reproducible seeded alternative; original used Math.random."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "gaussian-beam-propagation-java",
+    "title": "빔의 회절과 전파",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/onedimquantum.gaussianBeam.html",
+    "lessonId": "5-6-5-1",
+    "sourceAliases": [],
+    "kind": "propagation",
+    "parameters": [
+      {
+        "key": "shape",
+        "label": "입사 빔",
+        "min": 0,
+        "max": 3,
+        "step": 1,
+        "value": 1,
+        "unit": ""
+      },
+      {
+        "key": "beamWidth",
+        "label": "초기 빔 폭",
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "value": 50,
+        "unit": ""
+      },
+      {
+        "key": "windowWidth",
+        "label": "통과 개구 폭",
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "value": 100,
+        "unit": ""
+      }
+    ],
+    "equations": [
+      "\\widetilde\\psi(k,n)=\\widetilde\\psi(k,0)e^{-ik^2n\\times10^{-6}}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/onedimquantum.gaussianBeam.html",
+      "archive": "gaussianBeam.class",
+      "archiveSHA256": "75d552a689edef325454e6069dfb6bf6c44b3c1c901239677f34cd8a07acdaa7",
+      "inspection": "HTML object code/archive and CFR 0.152 bytecode decompilation",
+      "mathVerification": "Original onedimquantum.FFT1D/Complex JVM executed: 4 original beam shapes × steps 0/200/800/999 × 1024 points, 32,768 complex components, normalized error <= 1.60e-14. Conservation/aperture filtering separately tested; original applet GUI not executed.",
+      "limitations": [
+        "Original selectors Hermite 2/Cosine were present but generateFtn implements only 0–3. Native shows only the four implemented original inputs.",
+        "Time history surface is replaced by synchronized current field/graph; original GUI rendering not compared; original scalar FFT/complex runtime compared."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "cie-rgb-java",
+    "title": "rgb 색대응함수",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/CIErgbGraph.html",
+    "lessonId": "5-1-6-2",
+    "sourceAliases": [],
+    "kind": "cie-rgb",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 360,
+        "max": 829,
+        "step": 0.1,
+        "value": 550,
+        "unit": "nm"
+      }
+    ],
+    "equations": [],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/CIErgbGraph.html",
+      "archive": "CIErgbGraph.class",
+      "archiveSHA256": "d4abfc60fc77067ac8b4bd805be99f1dab5d3474150370c0753b03c55927c3ad",
+      "inspection": "CFR 0.152 source/class controls and original scalar constants",
+      "mathVerification": "Original CIEdata/Point3D JVM executed: 944 wavelengths × XYZ and NTSC RGB triplets = 5,664 values, normalized error <= 1.10e-16. Applet GUI not executed.",
+      "limitations": [
+        "Original Java GUI rendering not compared."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "cie-xyz-java",
+    "title": "XYZ 색대응 함수",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/CIEXYZGraph.html",
+    "lessonId": "5-1-6-2",
+    "sourceAliases": [],
+    "kind": "cie-xyz",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 360,
+        "max": 829,
+        "step": 0.1,
+        "value": 550,
+        "unit": "nm"
+      }
+    ],
+    "equations": [],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/CIEXYZGraph.html",
+      "archive": "CIEXYZGraph.class",
+      "archiveSHA256": "6e6b83e477133187c644634a450bf6b03bc6d79a5518bf2719023e382b418004",
+      "inspection": "CFR 0.152 source/class controls and original scalar constants",
+      "mathVerification": "Original CIEdata/Point3D JVM executed: 944 wavelengths × XYZ and NTSC RGB triplets = 5,664 values, normalized error <= 1.10e-16. Applet GUI not executed.",
+      "limitations": [
+        "Original Java GUI rendering not compared."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "reflection-phase-java",
+    "title": "매질의 경계면에서의 파동의 반사와 위상변화",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/ReflectPhase.html",
+    "lessonId": "5-4-4-1",
+    "sourceAliases": [],
+    "kind": "reflection-phase",
+    "parameters": [
+      {
+        "key": "phase",
+        "label": "반사 위상차",
+        "min": -180,
+        "max": 180,
+        "step": 1,
+        "value": 0,
+        "unit": "°"
+      }
+    ],
+    "equations": [
+      "E_i=\\sin(kx-\\omega t),\\qquad E_r=\\sin[k(2x_b-x)-\\omega t+\\delta]"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/ReflectPhase.html",
+      "archive": "ReflectPhase.class",
+      "archiveSHA256": "26998366d88479f54a2fff2c78d8baddd04502f71ce4bb95f3da91f36c0b5d42",
+      "inspection": "CFR 0.152 source/class controls and original scalar constants",
+      "mathVerification": "Original TheoryCanvas/GraphCanvas sinusoid, wavelength, period and phase controls decompiled. Independent boundary-node and time-change tests passed. Original applet GUI/runtime not executed.",
+      "limitations": [
+        "Original Java GUI rendering not compared.",
+        "Original separate phase-bar strip and phasor-panel view are replaced by simultaneous incident/reflected/resultant graph."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "hermite-transverse-java",
+    "title": "에르미트-가우스 빔의 가로 단면",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/beamoptics.hermiteGaussian.html",
+    "lessonId": "5-6-5-7",
+    "sourceAliases": [],
+    "kind": "hermite-transverse",
+    "parameters": [
+      {
+        "key": "m",
+        "label": "x 방향 차수",
+        "min": 0,
+        "max": 5,
+        "step": 1,
+        "value": 0
+      },
+      {
+        "key": "n",
+        "label": "y 방향 차수",
+        "min": 0,
+        "max": 5,
+        "step": 1,
+        "value": 0
+      },
+      {
+        "key": "z",
+        "label": "전파 위치 z",
+        "min": -50,
+        "max": 50,
+        "step": 1,
+        "value": 0
+      }
+    ],
+    "equations": [
+      "E_{mn}=\\frac{w_0}{w}H_m(1.414x/w)H_n(1.414y/w)e^{-(x^2+y^2)/w^2}e^{i\\Phi_{mn}}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/beamoptics.hermiteGaussian.html",
+      "archive": "beamoptics.hermiteGaussian.class",
+      "archiveSHA256": "c2e01fe33c0d0b50d2dbc090907d05abbba80d7c48a5d374d3fbbd54af036dae",
+      "inspection": "CFR decompilation of original beamoptics.hermiteGaussian",
+      "mathVerification": "Original private Hermite_Gaussian_Beam formula/coordinate grid recovered; physical parity/phase tested.",
+      "limitations": [
+        "Original separate three-dimensional surface view is replaced by a two-dimensional slice and synchronized section graph.",
+        "Original applet GUI runtime not executed."
+      ],
+      "browserVerification": {
+        "models": 14,
+        "scenarios": 56,
+        "viewports": [
+          1280,
+          320
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "checks": [
+          "all exposed slider minimum and maximum",
+          "all select options",
+          "reset",
+          "CSV where available",
+          "play and pause for time models",
+          "horizontal overflow"
+        ],
+        "originalAppletGUIExecuted": false
+      }
+    },
+    "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "decay-series-table",
+    "title": "4개의 자연 방사성붕괴 계열",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/radioactivity.seriesTable.html",
+    "lessonId": "7-2-6-1",
+    "sourceAliases": [],
+    "kind": "seriesTable",
+    "parameters": [],
+    "provenance": {
+      "format": "Java",
+      "classes": [
+        "radioactivity.seriesTable",
+        "radioactivity.decayCurve",
+        "radioactivity.FourSeries",
+        "radioactivity.Sequence",
+        "radioactivity.Element"
+      ],
+      "sha256": {
+        "decayCurve$MyCanvas.class": "251b15f8eb1349a20774cef8a8c9761a0132bb329d3f158cecfb063bf98e253b",
+        "Sequence.class": "94f25faf74539dd5e626c29e64c3591b40a06921313932ab5404196bf0c7f202",
+        "Element.class": "0193924bfe759d2b32b9a70317fb35ed333fe5588c9e2911048be0a3fe0dd899",
+        "decayCurve.class": "3c56743d31071367dd4df96fca9a33bb8d8b263a576ba6f2b6c44d3f3054f510",
+        "seriesPanel.class": "ee90815491f2d9cae6a1be9fb681f1da3b69437a07bbe40a7fdbf1a8d49b2bdc",
+        "seriesPanelAll.class": "cc33cdfdc96dd4606a39099e8b2e08e3419e719c7d8cc738041b3f7c33dde0a5",
+        "seriesTable.class": "a354c49b082ac48ccfebe9a6374815239ae41956a36d1e348ede1353d7430865",
+        "FourSeries.class": "e1f380284a437f8a7196653153b4c69215f150c69b6b5fc9ecea86fccaf82f17"
+      }
+    },
+    "verificationStatus": "source-derived; numerical class probe passed; original Swing GUI not exhaustively compared"
+  },
+  {
+    "id": "decay-series-curves",
+    "title": "거듭되는 핵변환",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/radioactivity.decayCurve.html",
+    "lessonId": "7-2-6-2",
+    "sourceAliases": [],
+    "kind": "decayCurve",
+    "parameters": [
+      {
+        "key": "speed",
+        "label": "시간 진행 지수",
+        "min": 1,
+        "max": 9,
+        "step": 1,
+        "value": 5
+      }
+    ],
+    "equations": [
+      "N_i(t)=\\sum_{j=0}^{i}c_{ij}e^{-\\lambda_jt}"
+    ],
+    "provenance": {
+      "format": "Java",
+      "classes": [
+        "radioactivity.seriesTable",
+        "radioactivity.decayCurve",
+        "radioactivity.FourSeries",
+        "radioactivity.Sequence",
+        "radioactivity.Element"
+      ],
+      "sha256": {
+        "decayCurve$MyCanvas.class": "251b15f8eb1349a20774cef8a8c9761a0132bb329d3f158cecfb063bf98e253b",
+        "Sequence.class": "94f25faf74539dd5e626c29e64c3591b40a06921313932ab5404196bf0c7f202",
+        "Element.class": "0193924bfe759d2b32b9a70317fb35ed333fe5588c9e2911048be0a3fe0dd899",
+        "decayCurve.class": "3c56743d31071367dd4df96fca9a33bb8d8b263a576ba6f2b6c44d3f3054f510",
+        "seriesPanel.class": "ee90815491f2d9cae6a1be9fb681f1da3b69437a07bbe40a7fdbf1a8d49b2bdc",
+        "seriesPanelAll.class": "cc33cdfdc96dd4606a39099e8b2e08e3419e719c7d8cc738041b3f7c33dde0a5",
+        "seriesTable.class": "a354c49b082ac48ccfebe9a6374815239ae41956a36d1e348ede1353d7430865",
+        "FourSeries.class": "e1f380284a437f8a7196653153b4c69215f150c69b6b5fc9ecea86fccaf82f17"
+      }
+    },
+    "verificationStatus": "source-derived; numerical class probe passed; original Swing GUI not exhaustively compared"
+  }
+]

@@ -1,0 +1,418 @@
+[
+  {
+    "id": "general-collision2d121",
+    "title": "같은 질량의 여러 물체의 충돌",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/collision.Collision2D121.html",
+    "lessonId": "1-1-4-2",
+    "sourceAliases": [],
+    "kind": "collision",
+    "model": "Collision2D121",
+    "parameters": {},
+    "description": "원본 좌표 눈금으로 질점의 운동을 관찰합니다. 움직임과 운동량·에너지 그래프는 같은 계산 상태를 표시합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "collision.Collision2D121.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/mechanics/collision/Collision2D121.class",
+      "sha256": "94d21b5e17a8d0d54f218d24138b59212f207c8b92f53768844cbdde2c88ec72",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "getForceX",
+        "getForceY",
+        "proceedOneStep",
+        "calcNextPosition"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-collision2d11",
+    "title": "포사체의 운동량 변화 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D11.html",
+    "lessonId": "1-1-1-2",
+    "sourceAliases": [],
+    "kind": "collision",
+    "model": "Collision2D11",
+    "parameters": {},
+    "description": "원본 좌표 눈금으로 질점의 운동을 관찰합니다. 움직임과 운동량·에너지 그래프는 같은 계산 상태를 표시합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "collision.Collision2D11.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/mechanics/collision/Collision2D11.class",
+      "sha256": "98427f9bb0ee3538760542f30261bc8267c2b6e22baacd02d2d01c007045aa95",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "getForceX",
+        "getForceY",
+        "proceedOneStep",
+        "calcNextPosition"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-collision2d12",
+    "title": "1차원 충돌의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D12.html",
+    "lessonId": "1-1-4-2",
+    "sourceAliases": [],
+    "kind": "collision",
+    "model": "Collision2D12",
+    "parameters": {},
+    "description": "원본 좌표 눈금으로 질점의 운동을 관찰합니다. 움직임과 운동량·에너지 그래프는 같은 계산 상태를 표시합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "collision.Collision2D12.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/mechanics/collision/Collision2D12.class",
+      "sha256": "1f00cd9bab81a98abcb4029716609d30d955ee7c520cea37c2fc5387a657ce61",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "getForceX",
+        "getForceY",
+        "proceedOneStep",
+        "calcNextPosition"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-collision2d1",
+    "title": "2차원 충돌 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D1.html",
+    "lessonId": "1-1-5-1",
+    "sourceAliases": [],
+    "kind": "collision",
+    "model": "Collision2D1",
+    "parameters": {},
+    "description": "원본 좌표 눈금으로 질점의 운동을 관찰합니다. 움직임과 운동량·에너지 그래프는 같은 계산 상태를 표시합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "collision.Collision2D1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/mechanics/collision/Collision2D1.class",
+      "sha256": "21ba65c8010246d0b82d3b4ddeaad0dc60fcb1d4b6235e99c5133740c8f7bb36",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "getForceX",
+        "getForceY",
+        "proceedOneStep",
+        "calcNextPosition"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-collision2d111",
+    "title": "지면에서 되튀는 운동 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D111.html",
+    "lessonId": "1-1-5-2",
+    "sourceAliases": [],
+    "kind": "collision",
+    "model": "Collision2D111",
+    "parameters": {},
+    "description": "원본 좌표 눈금으로 질점의 운동을 관찰합니다. 움직임과 운동량·에너지 그래프는 같은 계산 상태를 표시합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "collision.Collision2D111.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/mechanics/collision/Collision2D111.class",
+      "sha256": "0c0b4f7765697fc033a1f1355d1fd807a1710f8afaf7cfad26b33e12677fc310",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "getForceX",
+        "getForceY",
+        "proceedOneStep",
+        "calcNextPosition"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-collision2d13",
+    "title": "당구의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/collision.Collision2D13.html",
+    "lessonId": "1-1-5-3",
+    "sourceAliases": [],
+    "kind": "collision",
+    "model": "Collision2D13",
+    "parameters": {},
+    "description": "원본 좌표 눈금으로 질점의 운동을 관찰합니다. 움직임과 운동량·에너지 그래프는 같은 계산 상태를 표시합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "collision.Collision2D13.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/mechanics/collision/Collision2D13.class",
+      "sha256": "7a2af665daa15aea7943d27496d4a148fd5f0d408b3809fa7e0da61991ad82c2",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "getForceX",
+        "getForceY",
+        "proceedOneStep",
+        "calcNextPosition"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-collision2dk",
+    "title": "충돌을 통한 질량추정",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/collision.Collision2DK.html",
+    "lessonId": "1-1-5-3",
+    "sourceAliases": [],
+    "kind": "collision",
+    "model": "Collision2DK",
+    "parameters": {},
+    "description": "원본 좌표 눈금으로 질점의 운동을 관찰합니다. 움직임과 운동량·에너지 그래프는 같은 계산 상태를 표시합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "collision.Collision2DK.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/mechanics/collision/Collision2DK.class",
+      "sha256": "b99adb7be64d67fcca61a88e57f5d8b1dd230e695ada2b7d480cfbabf21c647d",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "getForceX",
+        "getForceY",
+        "proceedOneStep",
+        "calcNextPosition"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-collision2dkg",
+    "title": "에너지 등분배의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2DKG.html",
+    "lessonId": "3-1-3-1",
+    "sourceAliases": [],
+    "kind": "collision",
+    "model": "Collision2DKG",
+    "parameters": {},
+    "description": "원본 좌표 눈금으로 질점의 운동을 관찰합니다. 움직임과 운동량·에너지 그래프는 같은 계산 상태를 표시합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "collision.Collision2DKG.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/mechanics/collision/Collision2DKG.class",
+      "sha256": "0552be6dd0632d5281fe3c7c32e4a17c9a1f7d90ac4b3b61abb5d6ec850d2154",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "getForceX",
+        "getForceY",
+        "proceedOneStep",
+        "calcNextPosition"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending; legacy-options-partial"
+  },
+  {
+    "id": "general-d2wave3p",
+    "title": "원형 막의 정상파의 운동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave3p.html",
+    "lessonId": "2-2-4-4",
+    "sourceAliases": [],
+    "kind": "membrane",
+    "model": "d2wave3p",
+    "parameters": {},
+    "description": "모드 m·n을 바꾸면 원형 막의 마디선과 진동수가 달라집니다. 표본점 변위 그래프는 막의 운동과 동시에 변합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "d2wave3p.class",
+      "sourceResource": "http://physica.gnu.ac.kr/phtml/wave/superpose/resonant/applets/d2wave3p.class",
+      "sha256": "9929e293498f149cf7cb88d4081988cf3f9ba21bcca93149abc76a05f7da943c",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "Bessel",
+        "wave",
+        "paintWave"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-d2wave3",
+    "title": "북의 여러 진동 모드",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave3.html",
+    "lessonId": "2-3-3-3",
+    "sourceAliases": [],
+    "kind": "membrane",
+    "model": "d2wave3",
+    "parameters": {},
+    "description": "모드 m·n을 바꾸면 원형 막의 마디선과 진동수가 달라집니다. 표본점 변위 그래프는 막의 운동과 동시에 변합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "d2wave3.class",
+      "sourceResource": "http://physica.gnu.ac.kr/phtml/wave/sound/instrument/applets/d2wave3.class",
+      "sha256": "55ff66982fbafaa5d7bfa036d8c5978680961120280071bde54ca39ba57e5756",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "Bessel",
+        "wave",
+        "paintWave"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-ripple1",
+    "title": "수면파의 간섭의 원리",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/ripple1.html",
+    "lessonId": "2-2-5-1",
+    "sourceAliases": [],
+    "kind": "ripple",
+    "model": "ripple1",
+    "parameters": {},
+    "description": "두 파원의 간격과 파장을 바꾸어 파면과 간섭을 비교합니다. 청록색 표본점의 두 변위와 합성 변위를 함께 표시합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "ripple1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/applets/ripple1.class",
+      "sha256": "9c053b20e456db29853a3aa716fd13be78008b47a2b8b3b3ebb0c5027b1b8f68",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "oneWave",
+        "drawFringe",
+        "paintWave"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-doppler1",
+    "title": "파원이 운동하는 경우의 도플러 효과",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/doppler1.html",
+    "lessonId": "2-3-2-1",
+    "sourceAliases": [],
+    "kind": "doppler",
+    "model": "doppler1",
+    "parameters": {},
+    "description": "파면의 간격과 관측자가 만나는 위상을 비교합니다. 화면의 느린 움직임과 별개로 표시 시간은 원본의 실제 시간입니다.",
+    "provenance": {
+      "format": "original-p5-javascript",
+      "originalClass": null,
+      "sourceResource": "http://physica.gnu.ac.kr/applets/p5.js/doppler/doppler1.js",
+      "sha256": "c5cfbee56c9ccf026c7f908ffd351d0f55c76df8a3a44258a0675c60ce7326ea",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "paintWave",
+        "generateNew"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-doppler2",
+    "title": "관측자가 움직일 때의 도플러 효과",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/doppler2.html",
+    "lessonId": "2-3-2-2",
+    "sourceAliases": [],
+    "kind": "doppler",
+    "model": "doppler2",
+    "parameters": {},
+    "description": "파면의 간격과 관측자가 만나는 위상을 비교합니다. 화면의 느린 움직임과 별개로 표시 시간은 원본의 실제 시간입니다.",
+    "provenance": {
+      "format": "original-p5-javascript",
+      "originalClass": null,
+      "sourceResource": "http://physica.gnu.ac.kr/applets/p5.js/doppler/doppler2.js",
+      "sha256": "d7dcdc54bc481bea6902ce0c97551ecb42c2bb8a26569f01a5f462b9b0402a9e",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "paintWave",
+        "generateNew"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-string1",
+    "title": "현악기의 정상파",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/string1.html",
+    "lessonId": "2-3-3-1",
+    "sourceAliases": [],
+    "kind": "standing-wave",
+    "model": "string1",
+    "parameters": {},
+    "description": "변위와 표본점 시간 그래프가 같은 진동 상태를 표시합니다. 모드를 변경해 마디와 진동수를 비교할 수 있습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "string1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/phtml/wave/sound/instrument/applets/string1.class",
+      "sha256": "4b4dbd33a7346e3f25e1d1662f6c1d30bd5c6f016ab488aae547618afa43e7ad",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "generateNew",
+        "myTwoWave",
+        "paintWave"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-resonan1",
+    "title": "한쪽 끝이 막힌 관에서의 공명",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/resonan1.html",
+    "lessonId": "2-2-4-3",
+    "sourceAliases": [],
+    "kind": "standing-wave",
+    "model": "resonan1",
+    "parameters": {},
+    "description": "변위와 표본점 시간 그래프가 같은 진동 상태를 표시합니다. 모드를 변경해 마디와 진동수를 비교할 수 있습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "resonan1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/phtml/wave/superpose/resonant/applets/resonan1.class",
+      "sha256": "b03cf6e75b818a7bc890f5221aff6d976e1d04e829ed907b4cc9ee66cf2a34e5",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "Wave",
+        "PWave",
+        "paintWave"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-stringmotion",
+    "title": "줄의 파동 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/StringMotion.html",
+    "lessonId": "2-1-2-5",
+    "sourceAliases": [],
+    "kind": "discrete-field",
+    "model": "StringMotion",
+    "parameters": {},
+    "description": "원본 이웃 질점의 힘과 시간 적분을 보존했습니다. 질점을 직접 조작하며 장면과 시간 그래프를 함께 관찰합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "StringMotion.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/wave/string/StringMotion.class",
+      "sha256": "d4a4584055f1b083e7ac08109d1bbb9cd6c2c762cd4a9fa49e881254ecc2fc6b",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "proceedOneStep",
+        "calcNextPosition",
+        "getForce",
+        "modeSetting"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-membranemotion",
+    "title": "막의 파동 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/MembraneMotion.html",
+    "lessonId": "2-1-2-7",
+    "sourceAliases": [],
+    "kind": "discrete-field",
+    "model": "MembraneMotion",
+    "parameters": {},
+    "description": "원본 이웃 질점의 힘과 시간 적분을 보존했습니다. 질점을 직접 조작하며 장면과 시간 그래프를 함께 관찰합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "MembraneMotion.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/wave/membrane/MembraneMotion.class",
+      "sha256": "c9bf72ba83fa6b6e8cba0166fc10e15029ddbdea50b2238238d9bd2a47cb470e",
+      "retrieved": "2026-10-10",
+      "methods": [
+        "proceedOneStep",
+        "calcNextPosition",
+        "getForce",
+        "modeSetting"
+      ]
+    },
+    "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  }
+]

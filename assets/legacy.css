@@ -1,0 +1,9 @@
+/* Legacy program ports share the same light/dark palette as the textbook. */
+.legacy-figure{--text:var(--ui-text);--surface:var(--ui-bg);--surface-soft:var(--ui-surface);--muted:var(--ui-muted);--ui-border:var(--ui-line);color:var(--ui-text)}
+.legacy-figure svg text{fill:currentColor;font-family:var(--font-kr)}
+.legacy-figure .native-controls{grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr))}
+.legacy-figure .native-toolbar button{min-inline-size:7em}
+.legacy-loading,.legacy-readout{padding:12px 20px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.legacy-legend{display:flex;flex-wrap:wrap;gap:8px 16px;padding:12px 20px;font-size:.85rem}
+.legacy-legend span{display:inline-flex;align-items:center;gap:6px}
+.legacy-legend svg{width:30px;height:12px;flex:none}

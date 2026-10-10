@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-10T02:25:47.825Z",
+  "base": "http://127.0.0.1:8781/",
+  "kind": "direct-module-mount",
+  "ports": [
+    {
+      "id": "java-motion-box-3d",
+      "passed": true,
+      "fastTime": 0.03,
+      "slowTime": 0.003,
+      "sliderBoundaryChecks": 12,
+      "rotation": true,
+      "CSV": true,
+      "seek": true,
+      "widths": [
+        320,
+        768,
+        1100
+      ]
+    },
+    {
+      "id": "java-motion-harmonic-3d",
+      "passed": true,
+      "fastTime": 0.03,
+      "slowTime": 0.003,
+      "sliderBoundaryChecks": 12,
+      "rotation": true,
+      "CSV": true,
+      "seek": true,
+      "widths": [
+        320,
+        768,
+        1100
+      ]
+    },
+    {
+      "id": "java-motion-hydrogen-3d",
+      "passed": true,
+      "fastTime": 1.5,
+      "slowTime": 0.15,
+      "sliderBoundaryChecks": 10,
+      "rotation": true,
+      "CSV": true,
+      "seek": true,
+      "widths": [
+        320,
+        768,
+        1100
+      ]
+    },
+    {
+      "id": "java-motion-hydrogen-kepler-3d",
+      "passed": true,
+      "fastTime": 30,
+      "slowTime": 3,
+      "sliderBoundaryChecks": 6,
+      "rotation": true,
+      "CSV": true,
+      "seek": true,
+      "widths": [
+        320,
+        768,
+        1100
+      ]
+    }
+  ],
+  "errors": []
+}

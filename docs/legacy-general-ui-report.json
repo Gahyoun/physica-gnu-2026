@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-10T02:22:39.581Z",
+  "scope": "17 independently mounted general legacy models; browser playback controls and endpoint inputs",
+  "base": "http://127.0.0.1:8826/",
+  "passed": true,
+  "checks": [
+    {
+      "id": "general-collision2d121",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 2,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-collision2d11",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-collision2d12",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-collision2d1",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 6,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-collision2d111",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-collision2d13",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 6,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-collision2dk",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 2,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-collision2dkg",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 2,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-d2wave3p",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-d2wave3",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-ripple1",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-doppler1",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-doppler2",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-string1",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-resonan1",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 2,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-stringmotion",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 4,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    },
+    {
+      "id": "general-membranemotion",
+      "play": true,
+      "pause": true,
+      "parameterEndpoints": 2,
+      "seek": true,
+      "reset": true,
+      "finite": true
+    }
+  ],
+  "errors": [],
+  "originalAWTRuntimeChecked": false
+}

@@ -13,8 +13,9 @@ test('Local catalog destinations are available textbook links, not falsely pendi
  }
  for(const r of catalog.search)if(r.href&&!r.href.startsWith('http'))assert.equal(r.restored,true,r.title);
 });
-test('The 3D box Java applet links to its textbook section without claiming an HTML animation port',()=>{
+test('The 3D box Java applet links to its actual HTML interaction',()=>{
  const source='http://physica.gnu.ac.kr/phtml/bank/sim/MotionBox3DApp.html';
- const r=catalog.search.find(r=>r.source===source);assert.ok(r);assert.equal(r.href,'lesson-6-4-8-1.html#section-source-1');assert.equal(r.restored,true);assert.equal(r.linkedTextbook,true);assert.equal(r.edition,'learning');
- const row=rows('materials.html').find(r=>r.includes(source));assert.ok(row.includes('교재에서 보기'));assert.ok(!row.includes('리마스터 애니메이션'));
+ const r=catalog.search.find(r=>r.source===source);assert.ok(r);assert.equal(r.href,'lesson-6-4-8-1.html#native-legacy-java-motion-box-3d');assert.equal(r.restored,true);assert.equal(r.linkedTextbook,false);assert.equal(r.edition,'remaster');
+ const row=rows('materials.html').find(r=>r.includes(source));assert.ok(row.includes('리마스터 애니메이션'));
+ assert.ok(read('lesson-6-4-8-1.html').includes('data-legacy-id="java-motion-box-3d"'));
 });

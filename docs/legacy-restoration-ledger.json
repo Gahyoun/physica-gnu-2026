@@ -1,0 +1,5521 @@
+{
+  "date": "2026-10-10T02:27:31.145Z",
+  "scope": "Java bank wrappers, independent of Flash 518",
+  "htmlPrograms": 37,
+  "javaHTMLPrograms": 35,
+  "javaExecutables": 115,
+  "portedJavaExecutables": 35,
+  "unportedJavaExecutables": 80,
+  "javaWrappers": 119,
+  "linkedWrappers": 35,
+  "unportedWrappers": 84,
+  "verification": "Per-program source equations and inputs, plus recorded numerical/browser tests; original GUI exhaustive equivalence is not asserted.",
+  "programs": [
+    {
+      "format": "Java",
+      "class": "collision.Collision2D121.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "200",
+        "codebase": "/applets/mechanics",
+        "archive": "",
+        "code": "collision.Collision2D121.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/collision.Collision2D121.html"
+      ],
+      "htmlPort": "lesson-1-1-4-2.html#native-legacy-general-collision2d121"
+    },
+    {
+      "format": "Java",
+      "class": "collision.Collision2DK.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "/applets/mechanics",
+        "archive": "",
+        "code": "collision.Collision2DK.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/collision.Collision2DK.html"
+      ],
+      "htmlPort": "lesson-1-1-5-3.html#native-legacy-general-collision2dk"
+    },
+    {
+      "format": "Java",
+      "class": "collision.Collision2D13.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+      "archives": [],
+      "parameters": {
+        "width": "800",
+        "height": "500",
+        "codebase": "/applets/mechanics",
+        "archive": "",
+        "code": "collision.Collision2D13.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/collision.Collision2D13.html"
+      ],
+      "htmlPort": "lesson-1-1-5-3.html#native-legacy-general-collision2d13"
+    },
+    {
+      "format": "Java",
+      "class": "resonan1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/resonant/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "500",
+        "height": "100",
+        "codebase": "../../wave/superpose/resonant/applets/",
+        "archive": "",
+        "code": "resonan1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/resonan1.html"
+      ],
+      "htmlPort": "lesson-2-2-4-3.html#native-legacy-general-resonan1"
+    },
+    {
+      "format": "Java",
+      "class": "d2wave3p.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/resonant/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "640",
+        "height": "400",
+        "codebase": "../../wave/superpose/resonant/applets/",
+        "archive": "",
+        "code": "d2wave3p.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave3p.html"
+      ],
+      "htmlPort": "lesson-2-2-4-4.html#native-legacy-general-d2wave3p"
+    },
+    {
+      "format": "Java",
+      "class": "ripple1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "300",
+        "codebase": "../../wave/superpose/waveinterference/applets/",
+        "archive": "",
+        "code": "ripple1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/ripple1.html"
+      ],
+      "htmlPort": "lesson-2-2-5-1.html#native-legacy-general-ripple1"
+    },
+    {
+      "format": "Java",
+      "class": "d2wave_ripple.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "750",
+        "height": "414",
+        "codebase": "../../wave/superpose/waveinterference/applets/",
+        "archive": "",
+        "code": "d2wave_ripple.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave_ripple.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "waveform1.Waveform1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/sound",
+      "archives": [],
+      "parameters": {
+        "width": "500",
+        "height": "250",
+        "codebase": "/applets/sound",
+        "archive": "",
+        "code": "waveform1.Waveform1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/waveform1.Waveform1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "string1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/wave/sound/instrument/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "150",
+        "codebase": "../../wave/sound/instrument/applets/",
+        "archive": "",
+        "code": "string1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/string1.html"
+      ],
+      "htmlPort": "lesson-2-3-3-1.html#native-legacy-general-string1"
+    },
+    {
+      "format": "Java",
+      "class": "d2wave3.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/wave/sound/instrument/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "360",
+        "height": "220",
+        "codebase": "../../wave/sound/instrument/applets/",
+        "archive": "",
+        "code": "d2wave3.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave3.html"
+      ],
+      "htmlPort": "lesson-2-3-3-3.html#native-legacy-general-d2wave3"
+    },
+    {
+      "format": "Java",
+      "class": "manyCol3.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "400",
+        "codebase": "/applets/thermodynamics/kineticgas",
+        "archive": "",
+        "code": "manyCol3.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol3.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "vander2.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander2.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/vander2.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "manyCol1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "/applets/thermodynamics/kineticgas",
+        "archive": "",
+        "code": "manyCol1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "vander1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "500",
+        "height": "400",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/vander1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "vander3.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander3.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/vander3.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "vander3_1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander3_1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/vander3_1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "vander1_2.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "550",
+        "height": "300",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander1_2.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_2.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "vander1_1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "320",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander1_1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "vander4.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "250",
+        "height": "350",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander4.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/vander4.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "manyCol5.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "archives": [],
+      "parameters": {
+        "width": "800",
+        "height": "300",
+        "codebase": "/applets/thermodynamics/kineticgas",
+        "archive": "",
+        "code": "manyCol5.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol5.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "huyray1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/ray/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "300",
+        "codebase": "../../optics/light/ray/applets/",
+        "archive": "",
+        "code": "huyray1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/huyray1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "ChromaDiagram.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/color/applets/CIEcolor/",
+      "archives": [],
+      "parameters": {
+        "width": "550",
+        "height": "600",
+        "codebase": "../../optics/light/color/applets/CIEcolor/",
+        "archive": "",
+        "code": "ChromaDiagram.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/ChromaDiagram.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "lens01.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/image/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "200",
+        "codebase": "../../optics/geometric/image/applets/",
+        "archive": "",
+        "code": "lens01.class",
+        "skin": "w",
+        "thema": "1"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/lens01.html",
+        "http://physica.gnu.ac.kr/phtml/bank/sim/lens2.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "lens02.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/image/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "300",
+        "codebase": "../../optics/geometric/image/applets/",
+        "archive": "",
+        "code": "lens02.class",
+        "skin": "w",
+        "thema": "1"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/lens02.html",
+        "http://physica.gnu.ac.kr/phtml/bank/sim/lens3.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "single.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+      "archives": [],
+      "parameters": {
+        "width": "725",
+        "height": "200",
+        "codebase": "/applets/optics/instrum",
+        "archive": "",
+        "code": "single.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/single.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "twolens.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+      "archives": [],
+      "parameters": {
+        "width": "725",
+        "height": "200",
+        "codebase": "/applets/optics/instrum",
+        "archive": "",
+        "code": "twolens.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/twolens.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "threelens.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+      "archives": [],
+      "parameters": {
+        "width": "725",
+        "height": "200",
+        "codebase": "/applets/optics/instrum",
+        "archive": "",
+        "code": "threelens.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/threelens.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "singlestop.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+      "archives": [],
+      "parameters": {
+        "width": "725",
+        "height": "200",
+        "codebase": "/applets/optics/instrum",
+        "archive": "",
+        "code": "singlestop.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/singlestop.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "Polarize3.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarization/applets/Polarize3",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "200",
+        "codebase": "../../optics/polarization/polarization/applets/Polarize3",
+        "archive": "",
+        "code": "Polarize3.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize3.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "Polarize5.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarization/applets/Polarize5",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "300",
+        "codebase": "../../optics/polarization/polarization/applets/Polarize5",
+        "archive": "",
+        "code": "Polarize5.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize5.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "onedimquantum.gaussianBeam.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "800",
+        "height": "500",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "onedimquantum.gaussianBeam.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/onedimquantum.gaussianBeam.html"
+      ],
+      "htmlPort": "lesson-5-6-5-1.html#native-legacy-gaussian-beam-propagation-java"
+    },
+    {
+      "format": "Java",
+      "class": "rutherford0.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/nuclear/classes",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "450",
+        "codebase": "/applets/nuclear/classes",
+        "archive": "",
+        "code": "rutherford0.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford0.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "rutherford1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/bohr/applet/rutherford1/",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "400",
+        "codebase": "../../modern/light_quantum/bohr/applet/rutherford1/",
+        "archive": "",
+        "code": "rutherford1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "bohr1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/bohr/applet/bohr1/",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "400",
+        "codebase": "../../modern/light_quantum/bohr/applet/bohr1/",
+        "archive": "",
+        "code": "bohr1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/bohr1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "particleSlit.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "archives": [],
+      "parameters": {
+        "width": "730",
+        "height": "280",
+        "codebase": "/applets/thermodynamics/kineticgas",
+        "archive": "",
+        "code": "particleSlit.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/particleSlit.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "MotionBox3DApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "parameters": {
+        "width": "720",
+        "height": "760",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "MotionBox3DApp.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/MotionBox3DApp.html"
+      ],
+      "htmlPort": "lesson-6-4-8-1.html#native-legacy-java-motion-box-3d"
+    },
+    {
+      "format": "Java",
+      "class": "MotionHarmonic3DApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "parameters": {
+        "width": "720",
+        "height": "760",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "MotionHarmonic3DApp.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/MotionHarmonic3DApp.html"
+      ],
+      "htmlPort": "lesson-6-4-8-2.html#native-legacy-java-motion-harmonic-3d"
+    },
+    {
+      "format": "Java",
+      "class": "MotionHydrogen3DApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "parameters": {
+        "width": "720",
+        "height": "720",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "MotionHydrogen3DApp.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/MotionHydrogen3DApp.html"
+      ],
+      "htmlPort": "lesson-6-4-8-3.html#native-legacy-java-motion-hydrogen-3d"
+    },
+    {
+      "format": "Java",
+      "class": "MotionHydrogen3DKeplerApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "parameters": {
+        "width": "720",
+        "height": "660",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "MotionHydrogen3DKeplerApp.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/MotionHydrogen3DKeplerApp.html"
+      ],
+      "htmlPort": "lesson-6-4-8-4.html#native-legacy-java-motion-hydrogen-kepler-3d"
+    },
+    {
+      "format": "Java",
+      "class": "vander1_4.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "500",
+        "height": "350",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander1_4.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_4.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "vander1_3.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "500",
+        "height": "350",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander1_3.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_3.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "rutherford1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/nuclear/classes",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "450",
+        "codebase": "/applets/nuclear/classes",
+        "archive": "",
+        "code": "rutherford1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford2.html",
+        "http://physica.gnu.ac.kr/phtml/bank/ani/rutherford1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "radioactivity.decayCurve.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "500",
+        "height": "400",
+        "codebase": "/applets/",
+        "archive": "",
+        "code": "radioactivity.decayCurve.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/radioactivity.decayCurve.html"
+      ],
+      "htmlPort": "lesson-7-2-6-2.html#native-legacy-decay-series-curves"
+    },
+    {
+      "format": "Java",
+      "class": "manyCol24.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas21",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "330",
+        "codebase": "/applets/thermodynamics/kineticgas21",
+        "archive": "",
+        "code": "manyCol24.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol24.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "manyCol23.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas21",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "320",
+        "codebase": "/applets/thermodynamics/kineticgas21",
+        "archive": "",
+        "code": "manyCol23.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol23.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "fourier1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/applets/fourier1/",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "340",
+        "codebase": "../../wave/superpose/compositionfourier/applets/fourier1/",
+        "archive": "",
+        "code": "fourier1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/fourier1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "spec1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/applets/spec1/",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "340",
+        "codebase": "../../wave/superpose/compositionfourier/applets/spec1/",
+        "archive": "",
+        "code": "spec1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/spec1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "CIErgbGraph.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/color/applets/CIEcolor/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/library/graph.jar"
+      ],
+      "parameters": {
+        "width": "500",
+        "height": "350",
+        "codebase": "../../optics/light/color/applets/CIEcolor/",
+        "archive": "/applets/library/graph.jar",
+        "code": "CIErgbGraph.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/CIErgbGraph.html"
+      ],
+      "htmlPort": "lesson-5-1-6-2.html#native-legacy-cie-rgb-java"
+    },
+    {
+      "format": "Java",
+      "class": "CIEXYZGraph.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/color/applets/CIEcolor/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/library/graph.jar"
+      ],
+      "parameters": {
+        "width": "500",
+        "height": "350",
+        "codebase": "../../optics/light/color/applets/CIEcolor/",
+        "archive": "/applets/library/graph.jar",
+        "code": "CIEXYZGraph.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/CIEXYZGraph.html"
+      ],
+      "htmlPort": "lesson-5-1-6-2.html#native-legacy-cie-xyz-java"
+    },
+    {
+      "format": "Java",
+      "class": "ReflectPhase.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/interference/thinfilm/classes",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "/applets/interference/thinfilm/classes",
+        "archive": "",
+        "code": "ReflectPhase.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/ReflectPhase.html"
+      ],
+      "htmlPort": "lesson-5-4-4-1.html#native-legacy-reflection-phase-java"
+    },
+    {
+      "format": "Java",
+      "class": "diffpatern.SingleSlit.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/diffraction",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/diffpatern.jar"
+      ],
+      "parameters": {
+        "width": "650",
+        "height": "520",
+        "codebase": "/applets/diffraction",
+        "archive": "diffpatern.jar",
+        "code": "diffpatern.SingleSlit.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.SingleSlit.html"
+      ],
+      "htmlPort": "lesson-5-5-1-3.html#native-legacy-single-slit-java"
+    },
+    {
+      "format": "Java",
+      "class": "diffpatern.Circular.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/diffraction/diffpatern.jar"
+      ],
+      "parameters": {
+        "width": "700",
+        "height": "600",
+        "codebase": "/applets/diffraction/",
+        "archive": "diffpatern.jar",
+        "code": "diffpatern.Circular.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.Circular.html"
+      ],
+      "htmlPort": "lesson-5-5-2-1.html#native-legacy-circular-aperture-java"
+    },
+    {
+      "format": "Java",
+      "class": "diffpatern.ManySlit.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/diffraction/diffpatern.jar"
+      ],
+      "parameters": {
+        "width": "700",
+        "height": "560",
+        "codebase": "/applets/diffraction/",
+        "archive": "diffpatern.jar",
+        "code": "diffpatern.ManySlit.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.ManySlit.html"
+      ],
+      "htmlPort": "lesson-5-5-3-1.html#native-legacy-many-slit-java"
+    },
+    {
+      "format": "Java",
+      "class": "diffpatern.Retangular.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/diffraction/diffpatern.jar"
+      ],
+      "parameters": {
+        "width": "700",
+        "height": "630",
+        "codebase": "/applets/diffraction/",
+        "archive": "diffpatern.jar",
+        "code": "diffpatern.Retangular.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.Retangular.html"
+      ],
+      "htmlPort": "lesson-5-5-3-3.html#native-legacy-rectangular-aperture-java"
+    },
+    {
+      "format": "Java",
+      "class": "twodimfft.diff1D.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/diffraction/twodimfft.jar"
+      ],
+      "parameters": {
+        "width": "550",
+        "height": "430",
+        "codebase": "/applets/diffraction/",
+        "archive": "twodimfft.jar",
+        "code": "twodimfft.diff1D.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/twodimfft.diff1D.html"
+      ],
+      "htmlPort": "lesson-5-5-4-2.html#native-legacy-diffraction-fft-1d-java"
+    },
+    {
+      "format": "Java",
+      "class": "twodimfft.diff2D.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/diffraction/twodimfft.jar"
+      ],
+      "parameters": {
+        "width": "1034",
+        "height": "614",
+        "codebase": "/applets/diffraction/",
+        "archive": "twodimfft.jar",
+        "code": "twodimfft.diff2D.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/twodimfft.diff2D.html"
+      ],
+      "htmlPort": "lesson-5-5-4-3.html#native-legacy-diffraction-fft-2d-java"
+    },
+    {
+      "format": "Java",
+      "class": "balckbody.Blackbody0.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/modern/blackbody/classes",
+      "archives": [],
+      "parameters": {
+        "width": "500",
+        "height": "400",
+        "codebase": "/applets/modern/blackbody/classes",
+        "archive": "",
+        "code": "balckbody.Blackbody0.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/balckbody.Blackbody0.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "GaussianBeamApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "parameters": {
+        "width": "600",
+        "height": "500",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "GaussianBeamApp.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/GaussianBeamApp.html"
+      ],
+      "htmlPort": "lesson-5-6-5-2.html#native-legacy-gaussian-beam-3d"
+    },
+    {
+      "format": "Java",
+      "class": "beamoptics.hermiteGaussian.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/optics/",
+      "archives": [],
+      "parameters": {
+        "width": "650",
+        "height": "600",
+        "codebase": "/applets/optics/",
+        "archive": "",
+        "code": "beamoptics.hermiteGaussian.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/beamoptics.hermiteGaussian.html"
+      ],
+      "htmlPort": "lesson-5-6-5-7.html#native-legacy-hermite-transverse-java"
+    },
+    {
+      "format": "Java",
+      "class": "HermiteGaussianBeamApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "parameters": {
+        "width": "650",
+        "height": "500",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "HermiteGaussianBeamApp.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/HermiteGaussianBeamApp.html"
+      ],
+      "htmlPort": "lesson-5-6-5-7.html#native-legacy-hermite-gaussian-beam-3d"
+    },
+    {
+      "format": "Java",
+      "class": "EllipticBeamApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "parameters": {
+        "width": "650",
+        "height": "500",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "EllipticBeamApp.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/EllipticBeamApp.html"
+      ],
+      "htmlPort": "lesson-5-6-5-8.html#native-legacy-elliptic-gaussian-beam-3d"
+    },
+    {
+      "format": "Java",
+      "class": "balckbody.Blackbody1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/modern/blackbody/classes",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "450",
+        "codebase": "/applets/modern/blackbody/classes",
+        "archive": "",
+        "code": "balckbody.Blackbody1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/balckbody.Blackbody1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "hydrogen.hydrogenCloud.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "720",
+        "height": "760",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "hydrogen.hydrogenCloud.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/hydrogen.hydrogenCloud.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "HydrogenApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "parameters": {
+        "width": "720",
+        "height": "760",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "HydrogenApp.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/HydrogenApp.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "HydrogenMixApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "parameters": {
+        "width": "720",
+        "height": "800",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "HydrogenMixApp.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/HydrogenMixApp.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "radioactivity.seriesTable.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "565",
+        "height": "700",
+        "codebase": "/applets/",
+        "archive": "",
+        "code": "radioactivity.seriesTable.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/graph/radioactivity.seriesTable.html"
+      ],
+      "htmlPort": "lesson-7-2-6-1.html#native-legacy-decay-series-table"
+    },
+    {
+      "format": "Java",
+      "class": "Polari7.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarization/applets/Polari7",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "335",
+        "codebase": "../../optics/polarization/polarization/applets/Polari7",
+        "archive": "",
+        "code": "Polari7.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/ani/Polari7.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "Polari8.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarizer/applets/Polari8",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "345",
+        "codebase": "../../optics/polarization/polarizer/applets/Polari8",
+        "archive": "",
+        "code": "Polari8.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/ani/Polari8.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "Phasor2.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/interference/lphasor/applets",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "../../optics/interference/lphasor/applets",
+        "archive": "",
+        "code": "Phasor2.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/ani/Phasor2.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "Hologram1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/laser/holography/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "300",
+        "height": "300",
+        "codebase": "../../optics/laser/holography/applets/",
+        "archive": "",
+        "code": "Hologram1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/ani/Hologram1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "sterngerlach.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/instrument/sterngerlach",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/library/idx3d.jar"
+      ],
+      "parameters": {
+        "width": "400",
+        "height": "400",
+        "codebase": "/applets/instrument/sterngerlach",
+        "archive": "/applets/library/idx3d.jar",
+        "code": "sterngerlach.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/ani/sterngerlach.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "fission1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/nuclear/classes",
+      "archives": [],
+      "parameters": {
+        "width": "400",
+        "height": "450",
+        "codebase": "/applets/nuclear/classes",
+        "archive": "",
+        "code": "fission1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/ani/fission1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "collision.Collision2D11.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "400",
+        "codebase": "/applets/mechanics",
+        "archive": "",
+        "code": "collision.Collision2D11.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D11.html"
+      ],
+      "htmlPort": "lesson-1-1-1-2.html#native-legacy-general-collision2d11"
+    },
+    {
+      "format": "Java",
+      "class": "collision.Collision2D12.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "200",
+        "codebase": "/applets/mechanics",
+        "archive": "",
+        "code": "collision.Collision2D12.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D12.html"
+      ],
+      "htmlPort": "lesson-1-1-4-2.html#native-legacy-general-collision2d12"
+    },
+    {
+      "format": "Java",
+      "class": "collision.Collision2D1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "400",
+        "codebase": "/applets/mechanics",
+        "archive": "",
+        "code": "collision.Collision2D1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D1.html"
+      ],
+      "htmlPort": "lesson-1-1-5-1.html#native-legacy-general-collision2d1"
+    },
+    {
+      "format": "Java",
+      "class": "collision.Collision2D111.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "400",
+        "codebase": "/applets/mechanics",
+        "archive": "",
+        "code": "collision.Collision2D111.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D111.html"
+      ],
+      "htmlPort": "lesson-1-1-5-2.html#native-legacy-general-collision2d111"
+    },
+    {
+      "format": "Java",
+      "class": "StringMotion.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/wave/string",
+      "archives": [],
+      "parameters": {
+        "width": "820",
+        "height": "400",
+        "codebase": "/applets/wave/string",
+        "archive": "",
+        "code": "StringMotion.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/StringMotion.html"
+      ],
+      "htmlPort": "lesson-2-1-2-5.html#native-legacy-general-stringmotion"
+    },
+    {
+      "format": "Java",
+      "class": "MembraneMotion.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/wave/membrane",
+      "archives": [],
+      "parameters": {
+        "width": "820",
+        "height": "500",
+        "codebase": "/applets/wave/membrane",
+        "archive": "",
+        "code": "MembraneMotion.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/MembraneMotion.html"
+      ],
+      "htmlPort": "lesson-2-1-2-7.html#native-legacy-general-membranemotion"
+    },
+    {
+      "format": "Java",
+      "class": "beat1.Beat1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/sound",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "190",
+        "codebase": "/applets/sound",
+        "archive": "",
+        "code": "beat1.Beat1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/beat1.Beat1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "inter1.Inter1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/sound",
+      "archives": [],
+      "parameters": {
+        "width": "500",
+        "height": "450",
+        "codebase": "/applets/sound",
+        "archive": "",
+        "code": "inter1.Inter1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/inter1.Inter1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "doppler.Doppler.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/sound",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/doppler.jar"
+      ],
+      "parameters": {
+        "width": "800",
+        "height": "400",
+        "codebase": "/applets/sound",
+        "archive": "doppler.jar",
+        "code": "doppler.Doppler.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/doppler.Doppler.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "synthe.guitarSyn.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/sound",
+      "archives": [],
+      "parameters": {
+        "width": "530",
+        "height": "360",
+        "codebase": "/applets/sound",
+        "archive": "",
+        "code": "synthe.guitarSyn.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/synthe.guitarSyn.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "synthe.pianoSyn.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/sound",
+      "archives": [],
+      "parameters": {
+        "width": "530",
+        "height": "360",
+        "codebase": "/applets/sound",
+        "archive": "",
+        "code": "synthe.pianoSyn.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/synthe.pianoSyn.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "syndi1.Syndi1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/sound",
+      "archives": [],
+      "parameters": {
+        "width": "760",
+        "height": "300",
+        "codebase": "/applets/sound",
+        "archive": "",
+        "code": "syndi1.Syndi1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/syndi1.Syndi1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "midisound.midi.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/sound",
+      "archives": [],
+      "parameters": {
+        "width": "760",
+        "height": "370",
+        "codebase": "/applets/sound",
+        "archive": "",
+        "code": "midisound.midi.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/midisound.midi.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "manyCol6.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "archives": [],
+      "parameters": {
+        "width": "350",
+        "height": "600",
+        "codebase": "/applets/thermodynamics/kineticgas",
+        "archive": "",
+        "code": "manyCol6.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol6.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "manyCol23.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas23",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "800",
+        "codebase": "/applets/thermodynamics/kineticgas23",
+        "archive": "",
+        "code": "manyCol23.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol23.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "manyCol4.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "archives": [],
+      "parameters": {
+        "width": "450",
+        "height": "620",
+        "codebase": "/applets/thermodynamics/kineticgas",
+        "archive": "",
+        "code": "manyCol4.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol4.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "manyCol2.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "400",
+        "codebase": "/applets/thermodynamics/kineticgas",
+        "archive": "",
+        "code": "manyCol2.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol2.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "manyCol31.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas31",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/library/idx3d.jar"
+      ],
+      "parameters": {
+        "width": "700",
+        "height": "540",
+        "codebase": "/applets/thermodynamics/kineticgas31",
+        "archive": "/applets/library/idx3d.jar",
+        "code": "manyCol31.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol31.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "collision.Collision2DKG.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+      "archives": [],
+      "parameters": {
+        "width": "660",
+        "height": "440",
+        "codebase": "/applets/mechanics",
+        "archive": "",
+        "code": "collision.Collision2DKG.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2DKG.html"
+      ],
+      "htmlPort": "lesson-3-1-3-1.html#native-legacy-general-collision2dkg"
+    },
+    {
+      "format": "Java",
+      "class": "vander.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "archives": [],
+      "parameters": {
+        "width": "620",
+        "height": "500",
+        "codebase": "/applets/thermodynamics/kineticgas4",
+        "archive": "",
+        "code": "vander.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/vander.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "wavefront2.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/refract/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "../../optics/light/refract/applets/",
+        "archive": "",
+        "code": "wavefront2.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/wavefront2.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "rainbow.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/rainbow/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "550",
+        "height": "500",
+        "codebase": "../../optics/light/rainbow/applets/",
+        "archive": "",
+        "code": "rainbow.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/rainbow.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "optfiber.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/fiber/applets",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "500",
+        "codebase": "../../optics/geometric/fiber/applets",
+        "archive": "",
+        "code": "optfiber.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/optfiber.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "lens01m.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/microscope/applets/",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "270",
+        "codebase": "../../optics/geometric/microscope/applets/",
+        "archive": "",
+        "code": "lens01m.class",
+        "skin": "w",
+        "thema": "1"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/lens01m.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "microscope.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+      "archives": [],
+      "parameters": {
+        "width": "800",
+        "height": "300",
+        "codebase": "/applets/optics/instrum",
+        "archive": "",
+        "code": "microscope.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/microscope.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "kepler.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+      "archives": [],
+      "parameters": {
+        "width": "800",
+        "height": "300",
+        "codebase": "/applets/optics/instrum",
+        "archive": "",
+        "code": "kepler.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/kepler.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "newton.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+      "archives": [],
+      "parameters": {
+        "width": "670",
+        "height": "400",
+        "codebase": "/applets/optics/instrum",
+        "archive": "",
+        "code": "newton.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/newton.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "binoculars.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+      "archives": [],
+      "parameters": {
+        "width": "750",
+        "height": "450",
+        "codebase": "/applets/optics/instrum",
+        "archive": "",
+        "code": "binoculars.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/binoculars.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "ThinFilmTheory.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/interference/thinfilm/classes",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "/applets/interference/thinfilm/classes",
+        "archive": "",
+        "code": "ThinFilmTheory.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilmTheory.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "NewtonRing.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/interference/thinfilm/classes",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "/applets/interference/thinfilm/classes",
+        "archive": "",
+        "code": "NewtonRing.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/NewtonRing.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "ThinFilm1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/interference/thinfilm/classes",
+      "archives": [],
+      "parameters": {
+        "width": "600",
+        "height": "400",
+        "codebase": "/applets/interference/thinfilm/classes",
+        "archive": "",
+        "code": "ThinFilm1.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilm1.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "reldistortion.zView.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/modern/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/modern/reldistortion.jar"
+      ],
+      "parameters": {
+        "width": "800",
+        "height": "500",
+        "codebase": "/applets/modern/",
+        "archive": "reldistortion.jar",
+        "code": "reldistortion.zView.class",
+        "skin": "w",
+        "viewdirection": "0"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/reldistortion.zView.html",
+        "http://physica.gnu.ac.kr/phtml/bank/exp/reldistortion.zView2.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "OneDim.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/photon/applet/Resonant/",
+      "archives": [],
+      "parameters": {
+        "width": "520",
+        "height": "300",
+        "codebase": "../../modern/light_quantum/photon/applet/Resonant/",
+        "archive": "",
+        "code": "OneDim.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/OneDim.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "TwoDim.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/photon/applet/Resonant/",
+      "archives": [],
+      "parameters": {
+        "width": "420",
+        "height": "477",
+        "codebase": "../../modern/light_quantum/photon/applet/Resonant/",
+        "archive": "",
+        "code": "TwoDim.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/TwoDim.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "onedimquantum.freeParticle.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "800",
+        "height": "500",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "onedimquantum.freeParticle.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeParticle.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "onedimquantum.freeBox.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "650",
+        "height": "480",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "onedimquantum.freeBox.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeBox.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "onedimquantum.freeRing.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "580",
+        "height": "570",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "onedimquantum.freeRing.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeRing.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "twodimquantum.twoDimBox.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "700",
+        "height": "400",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoDimBox.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimBox.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "onedimquantum.oneDimQuantum.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "1034",
+        "height": "614",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "onedimquantum.oneDimQuantum.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.oneDimQuantum.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "twodimquantum.twoDimHarmonicOsc.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "750",
+        "height": "570",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoDimHarmonicOsc.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimHarmonicOsc.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "twodimquantum.twoDimQuantum.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "800",
+        "height": "560",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoDimQuantum.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimQuantum.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "twodimquantum.twoParticleDI.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "750",
+        "height": "570",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoParticleDI.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoParticleDI.html"
+      ],
+      "htmlPort": null
+    },
+    {
+      "format": "Java",
+      "class": "twodimquantum.twoParticleFD.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "parameters": {
+        "width": "750",
+        "height": "570",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoParticleFD.class",
+        "skin": "w"
+      },
+      "sources": [
+        "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoParticleFD.html"
+      ],
+      "htmlPort": null
+    }
+  ],
+  "records": [
+    {
+      "title": "같은 질량의 여러 물체의 충돌",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/collision.Collision2D121.html",
+      "lessonId": "1-1-4-2",
+      "section": "힘과 운동",
+      "subsection": "운동량과 충돌",
+      "type": "시뮬레이션",
+      "sha256": "19c2bc7dd28e81912c60b01d4f550fbf3069db132ee65959651389a35e6a92be",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "collision.Collision2D121.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "200",
+            "codebase": "/applets/mechanics",
+            "archive": "",
+            "code": "collision.Collision2D121.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-1-1-4-2.html#native-legacy-general-collision2d121",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "충돌을 통한 질량추정",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/collision.Collision2DK.html",
+      "lessonId": "1-1-5-3",
+      "section": "힘과 운동",
+      "subsection": "운동량과 충돌",
+      "type": "시뮬레이션",
+      "sha256": "1af82575683bdf996142ea5b2bad5c4706b98f649179077688cd23b8fbd69a3f",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "collision.Collision2DK.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "/applets/mechanics",
+            "archive": "",
+            "code": "collision.Collision2DK.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-1-1-5-3.html#native-legacy-general-collision2dk",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "당구의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/collision.Collision2D13.html",
+      "lessonId": "1-1-5-3",
+      "section": "힘과 운동",
+      "subsection": "운동량과 충돌",
+      "type": "시뮬레이션",
+      "sha256": "9992e78074200df88621820c1609406e7107f4170e3ae56973f315ef9809c30a",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "collision.Collision2D13.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+          "archives": [],
+          "parameters": {
+            "width": "800",
+            "height": "500",
+            "codebase": "/applets/mechanics",
+            "archive": "",
+            "code": "collision.Collision2D13.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-1-1-5-3.html#native-legacy-general-collision2d13",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "한쪽 끝이 막힌 관에서의 공명",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/resonan1.html",
+      "lessonId": "2-2-4-3",
+      "section": "파동",
+      "subsection": "중첩의 원리",
+      "type": "시뮬레이션",
+      "sha256": "03ef44fd3a59262ac0cc387bb0a27d43a65e13463a8449225bb59ef6152f3a4e",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "resonan1.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/resonant/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "500",
+            "height": "100",
+            "codebase": "../../wave/superpose/resonant/applets/",
+            "archive": "",
+            "code": "resonan1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-2-2-4-3.html#native-legacy-general-resonan1",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "원형 막의 정상파의 운동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave3p.html",
+      "lessonId": "2-2-4-4",
+      "section": "파동",
+      "subsection": "중첩의 원리",
+      "type": "시뮬레이션",
+      "sha256": "e08e66b85e5b39bf4f4b38eff34a16616ecaa931fb709777fa68b1b2b4654cfa",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "d2wave3p.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/resonant/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "640",
+            "height": "400",
+            "codebase": "../../wave/superpose/resonant/applets/",
+            "archive": "",
+            "code": "d2wave3p.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-2-2-4-4.html#native-legacy-general-d2wave3p",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "수면파의 간섭의 원리",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/ripple1.html",
+      "lessonId": "2-2-5-1",
+      "section": "파동",
+      "subsection": "중첩의 원리",
+      "type": "시뮬레이션",
+      "sha256": "2d706fa60fd2341a3428f7045aa5bfa28f8b09bf0eee9c9b57714a5d1f1c20ce",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "ripple1.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "300",
+            "codebase": "../../wave/superpose/waveinterference/applets/",
+            "archive": "",
+            "code": "ripple1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-2-2-5-1.html#native-legacy-general-ripple1",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "물결통 실험의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave_ripple.html",
+      "lessonId": "2-2-5-2",
+      "section": "파동",
+      "subsection": "중첩의 원리",
+      "type": "시뮬레이션",
+      "sha256": "d47abba70b5ce336e9a883c835503bf867551b6b689cfa374c87787566156d5c",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "d2wave_ripple.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "750",
+            "height": "414",
+            "codebase": "../../wave/superpose/waveinterference/applets/",
+            "archive": "",
+            "code": "d2wave_ripple.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "파형과 소리",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/waveform1.Waveform1.html",
+      "lessonId": "2-3-1-3",
+      "section": "파동",
+      "subsection": "음파",
+      "type": "시뮬레이션",
+      "sha256": "f2491fd549eb321fc638376b7490dbd4e3f4e41daab2947fdab7f0dff2bc4e9f",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "waveform1.Waveform1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/sound",
+          "archives": [],
+          "parameters": {
+            "width": "500",
+            "height": "250",
+            "codebase": "/applets/sound",
+            "archive": "",
+            "code": "waveform1.Waveform1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "현악기의 정상파",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/string1.html",
+      "lessonId": "2-3-3-1",
+      "section": "파동",
+      "subsection": "음파",
+      "type": "시뮬레이션",
+      "sha256": "ee8041060188c12fa22a82cc30f23ab3ad11a158f24fc41c91f7dcdc99fe1384",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "string1.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/wave/sound/instrument/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "150",
+            "codebase": "../../wave/sound/instrument/applets/",
+            "archive": "",
+            "code": "string1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-2-3-3-1.html#native-legacy-general-string1",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "북의 여러 진동 모드",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave3.html",
+      "lessonId": "2-3-3-3",
+      "section": "파동",
+      "subsection": "음파",
+      "type": "시뮬레이션",
+      "sha256": "dcffc7bf9a5d81b10b8bf432a7038b2f9f7b659ddd6168589a27a87705d17d27",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "d2wave3.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/wave/sound/instrument/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "360",
+            "height": "220",
+            "codebase": "../../wave/sound/instrument/applets/",
+            "archive": "",
+            "code": "d2wave3.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-2-3-3-3.html#native-legacy-general-d2wave3",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "두 종류의 기체의 혼합",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol3.html",
+      "lessonId": "3-1-3-5",
+      "section": "열과 물질의 상태",
+      "subsection": "기체 상태",
+      "type": "시뮬레이션",
+      "sha256": "0bbe81b778c10cc6b59dc127db8b58ef07931dae9adf25fc698eb0688ceec6cb",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol3.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "400",
+            "codebase": "/applets/thermodynamics/kineticgas",
+            "archive": "",
+            "code": "manyCol3.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "확산의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander2.html",
+      "lessonId": "3-1-4-1",
+      "section": "열과 물질의 상태",
+      "subsection": "기체 상태",
+      "type": "시뮬레이션",
+      "sha256": "36d5462e77829dd8ee581bdc605b9c8e8ae3b69b32750a51e586cc79ce7da0a4",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander2.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander2.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "브라운 운동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol1.html",
+      "lessonId": "3-1-4-2",
+      "section": "열과 물질의 상태",
+      "subsection": "기체 상태",
+      "type": "시뮬레이션",
+      "sha256": "2c51316430b6ce69b0fe840144b527ce95300855ec02ac4a91c3da6d2d8028f3",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "/applets/thermodynamics/kineticgas",
+            "archive": "",
+            "code": "manyCol1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "물질의 상태변화",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1.html",
+      "lessonId": "3-2-2-1",
+      "section": "열과 물질의 상태",
+      "subsection": "물질의 상태",
+      "type": "시뮬레이션",
+      "sha256": "fb2ab2b65933da93ca4664cb0926f68c40633d29307bf8988c92532330194ee7",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "500",
+            "height": "400",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "혼합물질의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander3.html",
+      "lessonId": "3-2-2-3",
+      "section": "열과 물질의 상태",
+      "subsection": "물질의 상태",
+      "type": "시뮬레이션",
+      "sha256": "dbb84d7e5ed3fd69507ec7c952e4d43dfa7eaf563749c497afd2dc0508e603dd",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander3.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander3.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "세 가지 혼합물질의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander3_1.html",
+      "lessonId": "3-2-2-3",
+      "section": "열과 물질의 상태",
+      "subsection": "물질의 상태",
+      "type": "시뮬레이션",
+      "sha256": "32d558740450aa153bde371ee6ccf1e3d6456d2bac361519aba5da8052b5172e",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander3_1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander3_1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "액화의 과정",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_2.html",
+      "lessonId": "3-2-3-1",
+      "section": "열과 물질의 상태",
+      "subsection": "물질의 상태",
+      "type": "시뮬레이션",
+      "sha256": "9b5a65dd8f239d2ec75ed48de04d2df1227ff74bd3cae359ef60191756540945",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander1_2.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "550",
+            "height": "300",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander1_2.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "액체 분자들이 받는 힘",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_1.html",
+      "lessonId": "3-2-3-1",
+      "section": "열과 물질의 상태",
+      "subsection": "물질의 상태",
+      "type": "시뮬레이션",
+      "sha256": "bb9d02214c6184d4c1739305f6bdb70b7a4cb20daa6f241e1804c9814006787d",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander1_1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "320",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander1_1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "표면장력",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander4.html",
+      "lessonId": "3-2-3-2",
+      "section": "열과 물질의 상태",
+      "subsection": "물질의 상태",
+      "type": "시뮬레이션",
+      "sha256": "3750e7e865c47cc49bd2f2283d00d29810479cbb367d0ab33f342e82436b5930",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander4.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "250",
+            "height": "350",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander4.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "비가역반응 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol5.html",
+      "lessonId": "3-3-2-1",
+      "section": "열과 물질의 상태",
+      "subsection": "열역학 법칙",
+      "type": "시뮬레이션",
+      "sha256": "25e7adff520a238abcf4f39caaf79e1e82ab7e5818adfb1a1664514360ce0209",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol5.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+          "archives": [],
+          "parameters": {
+            "width": "800",
+            "height": "300",
+            "codebase": "/applets/thermodynamics/kineticgas",
+            "archive": "",
+            "code": "manyCol5.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "파면과 광선의 전파",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/huyray1.html",
+      "lessonId": "5-1-2-1",
+      "section": "빛",
+      "subsection": "빛의 성질",
+      "type": "시뮬레이션",
+      "sha256": "d6e1df94cc71f3ae1ca366195bb6f652cc193bf681c50ff60aa6c649c5c21877",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "huyray1.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/ray/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "300",
+            "codebase": "../../optics/light/ray/applets/",
+            "archive": "",
+            "code": "huyray1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "CIE 색도표",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/ChromaDiagram.html",
+      "lessonId": "5-1-6-2",
+      "section": "빛",
+      "subsection": "빛의 성질",
+      "type": "시뮬레이션",
+      "sha256": "c8b509f0e8de396787cd45a55844b24109889e65d66d99f4f0963a4f6ff4af4c",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "ChromaDiagram.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/color/applets/CIEcolor/",
+          "archives": [],
+          "parameters": {
+            "width": "550",
+            "height": "600",
+            "codebase": "../../optics/light/color/applets/CIEcolor/",
+            "archive": "",
+            "code": "ChromaDiagram.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "볼록렌즈의 결상과정을 알아보는 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens01.html",
+      "lessonId": "5-2-3-2",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "시뮬레이션",
+      "sha256": "7acd0fcf11cdcbb803b1c5bed343a7e6e0bdbec83eb59117b27a3f86fa84debe",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "lens01.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/image/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "200",
+            "codebase": "../../optics/geometric/image/applets/",
+            "archive": "",
+            "code": "lens01.class",
+            "skin": "w",
+            "thema": "1"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "오목렌즈의 결상과정을 알아보는 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens2.html",
+      "lessonId": "5-2-3-3",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "시뮬레이션",
+      "sha256": "5eaf02bf0ed48d5e68d20e52e5da6090349d9d4025c94207372db26126c4b28c",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "lens01.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/image/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "200",
+            "codebase": "../../optics/geometric/image/applets/",
+            "archive": "",
+            "code": "lens01.class",
+            "skin": "w",
+            "thema": "2"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "볼록렌즈에 의한 상의 왜곡 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens02.html",
+      "lessonId": "5-2-3-4",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "시뮬레이션",
+      "sha256": "d8d9778c23c059648baf0eaf2ff71d8a72157c21786016cfa7b6b456d85ab747",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "lens02.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/image/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "300",
+            "codebase": "../../optics/geometric/image/applets/",
+            "archive": "",
+            "code": "lens02.class",
+            "skin": "w",
+            "thema": "1"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "오목렌즈에 의한 상의 왜곡 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens3.html",
+      "lessonId": "5-2-3-4",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "시뮬레이션",
+      "sha256": "53e849d3b882a30fc734b6524eebe5249111e0a50c829b270b478abc4256024f",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "lens02.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/image/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "300",
+            "codebase": "../../optics/geometric/image/applets/",
+            "archive": "",
+            "code": "lens02.class",
+            "skin": "w",
+            "thema": "2"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "얇은 렌즈의 결상",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/single.html",
+      "lessonId": "5-2-3-6",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "시뮬레이션",
+      "sha256": "c13abd01c77cd34695d0c5f1de53c64926f8d23b07ab6d337a05e366eb7ac17a",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "single.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+          "archives": [],
+          "parameters": {
+            "width": "725",
+            "height": "200",
+            "codebase": "/applets/optics/instrum",
+            "archive": "",
+            "code": "single.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "두 렌즈에 의한 결상",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/twolens.html",
+      "lessonId": "5-2-4-2",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "시뮬레이션",
+      "sha256": "5fa4a9bc6a2ea873059962273096ce7c21a0fd31a7eba1d19bb41cfa99bfc649",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "twolens.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+          "archives": [],
+          "parameters": {
+            "width": "725",
+            "height": "200",
+            "codebase": "/applets/optics/instrum",
+            "archive": "",
+            "code": "twolens.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "세 렌즈에 의한 결상",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/threelens.html",
+      "lessonId": "5-2-4-3",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "시뮬레이션",
+      "sha256": "e23b3e61081df1e9209ecd5964b0b1740ab3f39eee017ce16419bba3af4e7b24",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "threelens.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+          "archives": [],
+          "parameters": {
+            "width": "725",
+            "height": "200",
+            "codebase": "/applets/optics/instrum",
+            "archive": "",
+            "code": "threelens.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "조리개의 원리를 알아보는 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/singlestop.html",
+      "lessonId": "5-2-9-4",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "시뮬레이션",
+      "sha256": "697d0774fbcb27cfcbafdf46d1612781fa49ccadd0b976204900149038e48156",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "singlestop.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+          "archives": [],
+          "parameters": {
+            "width": "725",
+            "height": "200",
+            "codebase": "/applets/optics/instrum",
+            "archive": "",
+            "code": "singlestop.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "x 선편광의 전기장과 자기장이 진동하는 모양",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize3.html",
+      "lessonId": "5-3-1-2",
+      "section": "빛",
+      "subsection": "빛의 편광",
+      "type": "시뮬레이션",
+      "sha256": "664e1b5cb45e26dfb6cc1f7e840eba3b0dd0725253350512173241ffa705ab83",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "Polarize3.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarization/applets/Polarize3",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "200",
+            "codebase": "../../optics/polarization/polarization/applets/Polarize3",
+            "archive": "",
+            "code": "Polarize3.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "일반적인 편광",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize5.html",
+      "lessonId": "5-3-1-3",
+      "section": "빛",
+      "subsection": "빛의 편광",
+      "type": "시뮬레이션",
+      "sha256": "f118a987beb5ed589a6e8cb53b0e710c8ce86ee5316a1b5ac59abb09163a9285",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "Polarize5.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarization/applets/Polarize5",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "300",
+            "codebase": "../../optics/polarization/polarization/applets/Polarize5",
+            "archive": "",
+            "code": "Polarize5.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "빔의 회절과 전파",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/onedimquantum.gaussianBeam.html",
+      "lessonId": "5-6-5-1",
+      "section": "빛",
+      "subsection": "레이저",
+      "type": "시뮬레이션",
+      "sha256": "125271b20d329c46737046d2b4cdc7eeeed22c784eed85ae233c5437b6fb024d",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "onedimquantum.gaussianBeam.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "800",
+            "height": "500",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "onedimquantum.gaussianBeam.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-6-5-1.html#native-legacy-gaussian-beam-propagation-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "원자핵에 의한 알파입자의 산란",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford0.html",
+      "lessonId": "6-2-3-2",
+      "section": "현대물리",
+      "subsection": "양자론",
+      "type": "시뮬레이션",
+      "sha256": "27902a1768c4cd30de7427a877b3c61339b9199ba7762067e6a2069922016d21",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "rutherford0.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/nuclear/classes",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "450",
+            "codebase": "/applets/nuclear/classes",
+            "archive": "",
+            "code": "rutherford0.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "러더퍼드의 원자모형에 의한 전자의 운동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford1.html",
+      "lessonId": "6-2-3-4",
+      "section": "현대물리",
+      "subsection": "양자론",
+      "type": "시뮬레이션",
+      "sha256": "5ded77c4e8bbf194830d5703c2e82259e5fc5d7e25b9829ba5012459f1a70be0",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "rutherford1.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/bohr/applet/rutherford1/",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "400",
+            "codebase": "../../modern/light_quantum/bohr/applet/rutherford1/",
+            "archive": "",
+            "code": "rutherford1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "보어의 원자모형",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/bohr1.html",
+      "lessonId": "6-2-3-6",
+      "section": "현대물리",
+      "subsection": "양자론",
+      "type": "시뮬레이션",
+      "sha256": "3ddd497219fc90fb51e83359478fec219ed25c0e54a6b6d9dc4e93176fe01401",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "bohr1.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/bohr/applet/bohr1/",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "400",
+            "codebase": "../../modern/light_quantum/bohr/applet/bohr1/",
+            "archive": "",
+            "code": "bohr1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "이중슬릿과 입자",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/particleSlit.html",
+      "lessonId": "6-3-1-5",
+      "section": "현대물리",
+      "subsection": "물질파",
+      "type": "시뮬레이션",
+      "sha256": "e0ebf053b985d6aa1b7b6b2ebd9aae4eafac68a8c99b30c82af47e73122a342a",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "particleSlit.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+          "archives": [],
+          "parameters": {
+            "width": "730",
+            "height": "280",
+            "codebase": "/applets/thermodynamics/kineticgas",
+            "archive": "",
+            "code": "particleSlit.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "3차원 상자에 갇힌 파동묶음의 운동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/MotionBox3DApp.html",
+      "lessonId": "6-4-8-1",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "시뮬레이션",
+      "sha256": "21aadcf57b588e692af003827a1ed8f8ffa813aebd04f531b117bd7206e33c45",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "MotionBox3DApp.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+          ],
+          "parameters": {
+            "width": "720",
+            "height": "760",
+            "codebase": "/applets/vtkapp/",
+            "archive": "signedCWFtn.jar",
+            "code": "MotionBox3DApp.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-6-4-8-1.html#native-legacy-java-motion-box-3d",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "조화력을 받는 3차원 파동묶음의 운동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/MotionHarmonic3DApp.html",
+      "lessonId": "6-4-8-2",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "시뮬레이션",
+      "sha256": "3289db8bb73702c5077a83abb5c8bac0fefe243076aa9d9608653b05aca28ba8",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "MotionHarmonic3DApp.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+          ],
+          "parameters": {
+            "width": "720",
+            "height": "760",
+            "codebase": "/applets/vtkapp/",
+            "archive": "signedCWFtn.jar",
+            "code": "MotionHarmonic3DApp.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-6-4-8-2.html#native-legacy-java-motion-harmonic-3d",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "수소원자에서 파동묶음의 운동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/MotionHydrogen3DApp.html",
+      "lessonId": "6-4-8-3",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "시뮬레이션",
+      "sha256": "a05274d090c40fd788442af14e00d50cc70bcf6eecd33573616973c47f3c7e25",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "MotionHydrogen3DApp.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+          ],
+          "parameters": {
+            "width": "720",
+            "height": "720",
+            "codebase": "/applets/vtkapp/",
+            "archive": "signedCWFtn.jar",
+            "code": "MotionHydrogen3DApp.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-6-4-8-3.html#native-legacy-java-motion-hydrogen-3d",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "수소원자에서 결맞는 상태 운동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/MotionHydrogen3DKeplerApp.html",
+      "lessonId": "6-4-8-4",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "시뮬레이션",
+      "sha256": "927c4280dc7e7c0107ffe0e6d2c16e123de4e3351dc5a9be512f7bd23ab9874d",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "MotionHydrogen3DKeplerApp.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+          ],
+          "parameters": {
+            "width": "720",
+            "height": "660",
+            "codebase": "/applets/vtkapp/",
+            "archive": "signedCWFtn.jar",
+            "code": "MotionHydrogen3DKeplerApp.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-6-4-8-4.html#native-legacy-java-motion-hydrogen-kepler-3d",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "이온결합에 의한 고체의 형성",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_4.html",
+      "lessonId": "6-8-1-1",
+      "section": "현대물리",
+      "subsection": "고체물리",
+      "type": "시뮬레이션",
+      "sha256": "9c0e14efb1f304b10370f71c40414de7586a7c6c4f0ed281e70bf348fd977927",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander1_4.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "500",
+            "height": "350",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander1_4.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "판데르발스 결합에 의한 고체의 형성",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_3.html",
+      "lessonId": "6-8-1-1",
+      "section": "현대물리",
+      "subsection": "고체물리",
+      "type": "시뮬레이션",
+      "sha256": "784bd55dcd04a1cda88c68b2c696ab790a2eec22120b7227519978cb43798622",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander1_3.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "500",
+            "height": "350",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander1_3.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "러더퍼드 모형의 원자 구조",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford2.html",
+      "lessonId": "7-1-1-1",
+      "section": "핵물리",
+      "subsection": "핵의 구조와 모형",
+      "type": "시뮬레이션",
+      "sha256": "fc57fb500dcff47293362b9467a1c267027eafa6aa1f3b06d41804bcdc436288",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "rutherford1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/nuclear/classes",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "450",
+            "codebase": "/applets/nuclear/classes",
+            "archive": "",
+            "code": "rutherford1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "거듭되는 핵변환",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/radioactivity.decayCurve.html",
+      "lessonId": "7-2-6-2",
+      "section": "핵물리",
+      "subsection": "방사성 붕괴",
+      "type": "시뮬레이션",
+      "sha256": "de0a689d2b51b3599f294d851b0cc85b2c8edf211a9772e4cc7fc16f9cfd6a8d",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "radioactivity.decayCurve.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "500",
+            "height": "400",
+            "codebase": "/applets/",
+            "archive": "",
+            "code": "radioactivity.decayCurve.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-7-2-6-2.html#native-legacy-decay-series-curves",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "중성자의 감속",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol24.html",
+      "lessonId": "7-4-2-2",
+      "section": "핵물리",
+      "subsection": "핵의 이용",
+      "type": "시뮬레이션",
+      "sha256": "0a22b96e1ec3daa63de68b17d12316828c82e58451c38b42b09c622dc1f48432",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol24.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas21",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "330",
+            "codebase": "/applets/thermodynamics/kineticgas21",
+            "archive": "",
+            "code": "manyCol24.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "열중성자와 물질의 열평형",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol23.html",
+      "lessonId": "7-4-2-2",
+      "section": "핵물리",
+      "subsection": "핵의 이용",
+      "type": "시뮬레이션",
+      "sha256": "74beb6a5f581b5c0bdb1b23a7a117765399bfc1224d12fab62f5fa2abcb37de3",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol23.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas21",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "320",
+            "codebase": "/applets/thermodynamics/kineticgas21",
+            "archive": "",
+            "code": "manyCol23.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "푸리에 해석의 과정",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/fourier1.html",
+      "lessonId": "2-2-3-4",
+      "section": "파동",
+      "subsection": "중첩의 원리",
+      "type": "그래프",
+      "sha256": "2097a2a6c8a65991da9989e11db7e4dfe6d463fd26abd46abd7f5b0a694f4a07",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "fourier1.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/applets/fourier1/",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "340",
+            "codebase": "../../wave/superpose/compositionfourier/applets/fourier1/",
+            "archive": "",
+            "code": "fourier1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "FFT를 이용한 신호의 처리",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/spec1.html",
+      "lessonId": "2-2-3-5",
+      "section": "파동",
+      "subsection": "중첩의 원리",
+      "type": "그래프",
+      "sha256": "0a3e70e8ada46ed91b57c10f11f498a2e90e509222f7fd3255c9afd5d1386246",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "spec1.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/applets/spec1/",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "340",
+            "codebase": "../../wave/superpose/compositionfourier/applets/spec1/",
+            "archive": "",
+            "code": "spec1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "rgb 색대응함수",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/CIErgbGraph.html",
+      "lessonId": "5-1-6-2",
+      "section": "빛",
+      "subsection": "빛의 성질",
+      "type": "그래프",
+      "sha256": "4cc5e2abc25727fd6ec5a68d12694e3de802f9317c106f749fe29f7ff4fcb32a",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "CIErgbGraph.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/color/applets/CIEcolor/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/library/graph.jar"
+          ],
+          "parameters": {
+            "width": "500",
+            "height": "350",
+            "codebase": "../../optics/light/color/applets/CIEcolor/",
+            "archive": "/applets/library/graph.jar",
+            "code": "CIErgbGraph.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-1-6-2.html#native-legacy-cie-rgb-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "XYZ 색대응 함수",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/CIEXYZGraph.html",
+      "lessonId": "5-1-6-2",
+      "section": "빛",
+      "subsection": "빛의 성질",
+      "type": "그래프",
+      "sha256": "2ff8838f55d8d511ceff4f959c48e584e2f82027bfe0991862ce6e9de0458354",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "CIEXYZGraph.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/color/applets/CIEcolor/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/library/graph.jar"
+          ],
+          "parameters": {
+            "width": "500",
+            "height": "350",
+            "codebase": "../../optics/light/color/applets/CIEcolor/",
+            "archive": "/applets/library/graph.jar",
+            "code": "CIEXYZGraph.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-1-6-2.html#native-legacy-cie-xyz-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "매질의 경계면에서의 파동의 반사와 위상변화",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/ReflectPhase.html",
+      "lessonId": "5-4-4-1",
+      "section": "빛",
+      "subsection": "빛의 간섭",
+      "type": "그래프",
+      "sha256": "b1ec81e6be858739d3c289f6c0454f564441a6e49423875ed557fa5eb8a6caf0",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "ReflectPhase.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/interference/thinfilm/classes",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "/applets/interference/thinfilm/classes",
+            "archive": "",
+            "code": "ReflectPhase.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-4-4-1.html#native-legacy-reflection-phase-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "단일슬릿 회절의 진폭과 밝기 분포",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.SingleSlit.html",
+      "lessonId": "5-5-1-3",
+      "section": "빛",
+      "subsection": "빛의 회절",
+      "type": "그래프",
+      "sha256": "ee186085b02dfe57e6ec69dd7c0b95464eeed881b26d8cfe0baf1948fc78d44d",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "diffpatern.SingleSlit.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/diffraction",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/diffpatern.jar"
+          ],
+          "parameters": {
+            "width": "650",
+            "height": "520",
+            "codebase": "/applets/diffraction",
+            "archive": "diffpatern.jar",
+            "code": "diffpatern.SingleSlit.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-5-1-3.html#native-legacy-single-slit-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "원형구멍 회절무늬 그래프",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.Circular.html",
+      "lessonId": "5-5-2-1",
+      "section": "빛",
+      "subsection": "빛의 회절",
+      "type": "그래프",
+      "sha256": "8187b25e06d2ca781ab1ca1fda04651166f75d11b0d9b133f40bd001d26bfd3f",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "diffpatern.Circular.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/diffraction/diffpatern.jar"
+          ],
+          "parameters": {
+            "width": "700",
+            "height": "600",
+            "codebase": "/applets/diffraction/",
+            "archive": "diffpatern.jar",
+            "code": "diffpatern.Circular.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-5-2-1.html#native-legacy-circular-aperture-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "이중슬릿 및 다중슬릿 회절의 진폭과 밝기 분포",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.ManySlit.html",
+      "lessonId": "5-5-3-1",
+      "section": "빛",
+      "subsection": "빛의 회절",
+      "type": "그래프",
+      "sha256": "516f57a51b77358498ef002f3676609e666dd6c0a1e66f2814a0ee60238527ba",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "diffpatern.ManySlit.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/diffraction/diffpatern.jar"
+          ],
+          "parameters": {
+            "width": "700",
+            "height": "560",
+            "codebase": "/applets/diffraction/",
+            "archive": "diffpatern.jar",
+            "code": "diffpatern.ManySlit.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-5-3-1.html#native-legacy-many-slit-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "직사각형구멍의 회절 무늬",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/diffpatern.Retangular.html",
+      "lessonId": "5-5-3-3",
+      "section": "빛",
+      "subsection": "빛의 회절",
+      "type": "그래프",
+      "sha256": "04f658a8412f0d3d8c121a577cb71c0fb4a26f4d62be7330d5f70368f3101b34",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "diffpatern.Retangular.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/diffraction/diffpatern.jar"
+          ],
+          "parameters": {
+            "width": "700",
+            "height": "630",
+            "codebase": "/applets/diffraction/",
+            "archive": "diffpatern.jar",
+            "code": "diffpatern.Retangular.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-5-3-3.html#native-legacy-rectangular-aperture-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "1차원 회절과 푸리에 변환",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/twodimfft.diff1D.html",
+      "lessonId": "5-5-4-2",
+      "section": "빛",
+      "subsection": "빛의 회절",
+      "type": "그래프",
+      "sha256": "d02634cf73f789efee25e3fc9f3ee99f54e992038e34b464dd1cf1b15ca3178c",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "twodimfft.diff1D.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/diffraction/twodimfft.jar"
+          ],
+          "parameters": {
+            "width": "550",
+            "height": "430",
+            "codebase": "/applets/diffraction/",
+            "archive": "twodimfft.jar",
+            "code": "twodimfft.diff1D.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-5-4-2.html#native-legacy-diffraction-fft-1d-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "2차원 회절과 푸리에 변환결과",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/twodimfft.diff2D.html",
+      "lessonId": "5-5-4-3",
+      "section": "빛",
+      "subsection": "빛의 회절",
+      "type": "그래프",
+      "sha256": "9ee83780156d205394c5143752ff3e914b9476397fdae878371c56c9465ef495",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "twodimfft.diff2D.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/diffraction/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/diffraction/twodimfft.jar"
+          ],
+          "parameters": {
+            "width": "1034",
+            "height": "614",
+            "codebase": "/applets/diffraction/",
+            "archive": "twodimfft.jar",
+            "code": "twodimfft.diff2D.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-5-4-3.html#native-legacy-diffraction-fft-2d-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "흑체복사 스펙트럼",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/balckbody.Blackbody0.html",
+      "lessonId": "5-6-1-2",
+      "section": "빛",
+      "subsection": "레이저",
+      "type": "그래프",
+      "sha256": "12149c3ce5bad16cd3b146c7f726047e830be32155144125dbbbcf29f7091e0e",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "balckbody.Blackbody0.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/modern/blackbody/classes",
+          "archives": [],
+          "parameters": {
+            "width": "500",
+            "height": "400",
+            "codebase": "/applets/modern/blackbody/classes",
+            "archive": "",
+            "code": "balckbody.Blackbody0.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "가우스 빔의 3차원 모습",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/GaussianBeamApp.html",
+      "lessonId": "5-6-5-2",
+      "section": "빛",
+      "subsection": "레이저",
+      "type": "그래프",
+      "sha256": "4bea9144d288bb37dc55bd589600100d0f91eef928de377d4f1ef7f0c42c8e3c",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "GaussianBeamApp.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+          ],
+          "parameters": {
+            "width": "600",
+            "height": "500",
+            "codebase": "/applets/vtkapp/",
+            "archive": "signedCWFtn.jar",
+            "code": "GaussianBeamApp.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-6-5-2.html#native-legacy-gaussian-beam-3d",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "레이저의 가로방향 진동 모드",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/beamoptics.hermiteGaussian.html",
+      "lessonId": "5-6-5-7",
+      "section": "빛",
+      "subsection": "레이저",
+      "type": "그래프",
+      "sha256": "5ed25da0d97a7ac016720eaa4301eb2c1793d78745c040c87e2ed4ea2477feca",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "beamoptics.hermiteGaussian.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/optics/",
+          "archives": [],
+          "parameters": {
+            "width": "650",
+            "height": "600",
+            "codebase": "/applets/optics/",
+            "archive": "",
+            "code": "beamoptics.hermiteGaussian.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-6-5-7.html#native-legacy-hermite-transverse-java",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "에르미트-가우스 빔의 3차원 모습",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/HermiteGaussianBeamApp.html",
+      "lessonId": "5-6-5-7",
+      "section": "빛",
+      "subsection": "레이저",
+      "type": "그래프",
+      "sha256": "53266ea6ed29c9d6aac00f3c32b37227d381f2b4559ebc79edc76c01f61d0ffe",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "HermiteGaussianBeamApp.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+          ],
+          "parameters": {
+            "width": "650",
+            "height": "500",
+            "codebase": "/applets/vtkapp/",
+            "archive": "signedCWFtn.jar",
+            "code": "HermiteGaussianBeamApp.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-6-5-7.html#native-legacy-hermite-gaussian-beam-3d",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "타원형 가우스 빔의 3차원 모습",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/EllipticBeamApp.html",
+      "lessonId": "5-6-5-8",
+      "section": "빛",
+      "subsection": "레이저",
+      "type": "그래프",
+      "sha256": "6ec63b35b4e3c874026647775f7c007774bd32f0cf9706d6c2c99bcd1ed1d87a",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "EllipticBeamApp.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+          ],
+          "parameters": {
+            "width": "650",
+            "height": "500",
+            "codebase": "/applets/vtkapp/",
+            "archive": "signedCWFtn.jar",
+            "code": "EllipticBeamApp.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-5-6-5-8.html#native-legacy-elliptic-gaussian-beam-3d",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "흑체복사 스펙트럼과 슈테판-볼츠만 법칙, 빈의 변위법칙 그래프",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/balckbody.Blackbody1.html",
+      "lessonId": "6-2-1-1",
+      "section": "현대물리",
+      "subsection": "양자론",
+      "type": "그래프",
+      "sha256": "2af1a65299827295bd5100dcd774c7abd78bd3603852df186abdbeb6821c16bd",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "balckbody.Blackbody1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/modern/blackbody/classes",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "450",
+            "codebase": "/applets/modern/blackbody/classes",
+            "archive": "",
+            "code": "balckbody.Blackbody1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "수소원자의 전자분포",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/hydrogen.hydrogenCloud.html",
+      "lessonId": "6-4-6-5",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "그래프",
+      "sha256": "68263bf2aa7c985b546d701b25ee6da96aee90249c837bd4753aded744e5dc54",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "hydrogen.hydrogenCloud.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "720",
+            "height": "760",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "hydrogen.hydrogenCloud.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "수소원자의 3차원 파동함수의 구조",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/HydrogenApp.html",
+      "lessonId": "6-4-6-10",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "그래프",
+      "sha256": "52b0886f4132835c3b4374ef6c8f497828c91cc0007c7f1d6fa0a6ba97545cd1",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "HydrogenApp.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+          ],
+          "parameters": {
+            "width": "720",
+            "height": "760",
+            "codebase": "/applets/vtkapp/",
+            "archive": "signedCWFtn.jar",
+            "code": "HydrogenApp.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "수소원자의 중첩된 파동함수의 구조",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/HydrogenMixApp.html",
+      "lessonId": "6-4-6-11",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "그래프",
+      "sha256": "1cabf0b30ae5f0ccf12301d90eae5eae2e7010fa81f8a5dad416739f6d33bc80",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "HydrogenMixApp.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+          ],
+          "parameters": {
+            "width": "720",
+            "height": "800",
+            "codebase": "/applets/vtkapp/",
+            "archive": "signedCWFtn.jar",
+            "code": "HydrogenMixApp.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "4개의 자연 방사성붕괴 계열",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/radioactivity.seriesTable.html",
+      "lessonId": "7-2-6-1",
+      "section": "핵물리",
+      "subsection": "방사성 붕괴",
+      "type": "그래프",
+      "sha256": "a6a2d0cefe562a8247a3e20e7f23918986249be27a7a0e905edefea1e5b6869e",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "radioactivity.seriesTable.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "565",
+            "height": "700",
+            "codebase": "/applets/",
+            "archive": "",
+            "code": "radioactivity.seriesTable.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-7-2-6-1.html#native-legacy-decay-series-table",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "자연광의 편광상태",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Polari7.html",
+      "lessonId": "5-3-1-6",
+      "section": "빛",
+      "subsection": "빛의 편광",
+      "type": "애니메이션",
+      "sha256": "29bf3aa5d1ae6a874392766d638173e628c61825ca667b442ac382fa3d5c1dff",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "Polari7.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarization/applets/Polari7",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "335",
+            "codebase": "../../optics/polarization/polarization/applets/Polari7",
+            "archive": "",
+            "code": "Polari7.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "편광판의 작동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Polari8.html",
+      "lessonId": "5-3-2-4",
+      "section": "빛",
+      "subsection": "빛의 편광",
+      "type": "애니메이션",
+      "sha256": "3ccb860dccf0e36c8e9927a6805368e933e90fcbc84e15113e711bc8191a822d",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "Polari8.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarizer/applets/Polari8",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "345",
+            "codebase": "../../optics/polarization/polarizer/applets/Polari8",
+            "archive": "",
+            "code": "Polari8.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "두 원운동의 합성운동과 위상자",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Phasor2.html",
+      "lessonId": "5-4-2-2",
+      "section": "빛",
+      "subsection": "빛의 간섭",
+      "type": "애니메이션",
+      "sha256": "268e21808413df0f28d6a8875d0048c17abe6603ed4d2237d79290aece02bb1d",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "Phasor2.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/interference/lphasor/applets",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "../../optics/interference/lphasor/applets",
+            "archive": "",
+            "code": "Phasor2.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "두 평면파의 간섭무늬",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Hologram1.html",
+      "lessonId": "5-6-7-2",
+      "section": "빛",
+      "subsection": "레이저",
+      "type": "애니메이션",
+      "sha256": "76c9bf1dca7fad16ac3c3332dba59088753068d94f72d5ee577cf4c4a6213e5c",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "Hologram1.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/laser/holography/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "300",
+            "height": "300",
+            "codebase": "../../optics/laser/holography/applets/",
+            "archive": "",
+            "code": "Hologram1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "러더퍼드 모형의 원자",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/rutherford1.html",
+      "lessonId": "6-2-3-5",
+      "section": "현대물리",
+      "subsection": "양자론",
+      "type": "애니메이션",
+      "sha256": "b44176d4ec9d7d360a832cdc15346d4fee9229419006327217c4e09d58232149",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "rutherford1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/nuclear/classes",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "450",
+            "codebase": "/applets/nuclear/classes",
+            "archive": "",
+            "code": "rutherford1.class",
+            "skin": "w",
+            "isradiating": "true"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "슈테른과 게를라흐의 실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/sterngerlach.html",
+      "lessonId": "6-5-1-2",
+      "section": "현대물리",
+      "subsection": "원자",
+      "type": "애니메이션",
+      "sha256": "22da8d82ca72bd9849a0b129cab975eecbaa03e4381c4e87259863cd6afde7e0",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "sterngerlach.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/instrument/sterngerlach",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/library/idx3d.jar"
+          ],
+          "parameters": {
+            "width": "400",
+            "height": "400",
+            "codebase": "/applets/instrument/sterngerlach",
+            "archive": "/applets/library/idx3d.jar",
+            "code": "sterngerlach.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "중성자에 의한 핵의 분열",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/fission1.html",
+      "lessonId": "7-3-2-1",
+      "section": "핵물리",
+      "subsection": "핵반응",
+      "type": "애니메이션",
+      "sha256": "439558b0c2641dc7d2ffdb2bf86f272ac7a5bd4f6792da119ee0e9d2ecfacf97",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "fission1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/nuclear/classes",
+          "archives": [],
+          "parameters": {
+            "width": "400",
+            "height": "450",
+            "codebase": "/applets/nuclear/classes",
+            "archive": "",
+            "code": "fission1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "포사체의 운동량 변화 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D11.html",
+      "lessonId": "1-1-1-2",
+      "section": "힘과 운동",
+      "subsection": "운동량과 충돌",
+      "type": "모의실험",
+      "sha256": "ec10541a36d1b96fd57be9fef727d88f383e5d7c985496054939b8e6493b94b7",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "collision.Collision2D11.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "400",
+            "codebase": "/applets/mechanics",
+            "archive": "",
+            "code": "collision.Collision2D11.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-1-1-1-2.html#native-legacy-general-collision2d11",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "1차원 충돌의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D12.html",
+      "lessonId": "1-1-4-2",
+      "section": "힘과 운동",
+      "subsection": "운동량과 충돌",
+      "type": "모의실험",
+      "sha256": "52c45de0f31cf8a7944e022d4118f4d5c55efd50c49b77f0b619a0ad74272341",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "collision.Collision2D12.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "200",
+            "codebase": "/applets/mechanics",
+            "archive": "",
+            "code": "collision.Collision2D12.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-1-1-4-2.html#native-legacy-general-collision2d12",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "2차원 충돌 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D1.html",
+      "lessonId": "1-1-5-1",
+      "section": "힘과 운동",
+      "subsection": "운동량과 충돌",
+      "type": "모의실험",
+      "sha256": "ad024d5e991eef51e45ca8577ce143d9276d84faaafe69a36d01ef7b6e4f9f71",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "collision.Collision2D1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "400",
+            "codebase": "/applets/mechanics",
+            "archive": "",
+            "code": "collision.Collision2D1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-1-1-5-1.html#native-legacy-general-collision2d1",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "지면에서 되튀는 운동 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2D111.html",
+      "lessonId": "1-1-5-2",
+      "section": "힘과 운동",
+      "subsection": "운동량과 충돌",
+      "type": "모의실험",
+      "sha256": "c72078b12ac7439b70d79b16baabc3531a2227722d78b800057074db2baf225d",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "collision.Collision2D111.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "400",
+            "codebase": "/applets/mechanics",
+            "archive": "",
+            "code": "collision.Collision2D111.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-1-1-5-2.html#native-legacy-general-collision2d111",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "줄의 파동 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/StringMotion.html",
+      "lessonId": "2-1-2-5",
+      "section": "파동",
+      "subsection": "파동의 성질",
+      "type": "모의실험",
+      "sha256": "6e8c9e24c0e4fd6fddd391045729757081784a601245454e26c795d76c76e454",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "StringMotion.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/wave/string",
+          "archives": [],
+          "parameters": {
+            "width": "820",
+            "height": "400",
+            "codebase": "/applets/wave/string",
+            "archive": "",
+            "code": "StringMotion.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-2-1-2-5.html#native-legacy-general-stringmotion",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "막의 파동 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/MembraneMotion.html",
+      "lessonId": "2-1-2-7",
+      "section": "파동",
+      "subsection": "파동의 성질",
+      "type": "모의실험",
+      "sha256": "4e15159a576661c1857478c1fa09c424f6fd928e2bbe5acb2d262d489793146b",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "MembraneMotion.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/wave/membrane",
+          "archives": [],
+          "parameters": {
+            "width": "820",
+            "height": "500",
+            "codebase": "/applets/wave/membrane",
+            "archive": "",
+            "code": "MembraneMotion.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-2-1-2-7.html#native-legacy-general-membranemotion",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "음파의 맥놀이",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/beat1.Beat1.html",
+      "lessonId": "2-2-1-3",
+      "section": "파동",
+      "subsection": "중첩의 원리",
+      "type": "모의실험",
+      "sha256": "ec7b80f304c069f1e8763b2736e3c48def97be6235d6c72ee14e7e55e2570be8",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "beat1.Beat1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/sound",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "190",
+            "codebase": "/applets/sound",
+            "archive": "",
+            "code": "beat1.Beat1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "음파의 간섭 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/inter1.Inter1.html",
+      "lessonId": "2-2-5-4",
+      "section": "파동",
+      "subsection": "중첩의 원리",
+      "type": "모의실험",
+      "sha256": "e284e48111221e860f4e46beaae67b90aa023bc7c53324550caa772e2178265e",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "inter1.Inter1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/sound",
+          "archives": [],
+          "parameters": {
+            "width": "500",
+            "height": "450",
+            "codebase": "/applets/sound",
+            "archive": "",
+            "code": "inter1.Inter1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "도플러 효과에 대한 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/doppler.Doppler.html",
+      "lessonId": "2-3-2-3",
+      "section": "파동",
+      "subsection": "음파",
+      "type": "모의실험",
+      "sha256": "e8fc6cfd8ec789c8db65dfdc3b2dced4d9151591bf843e12406438e9a50d0f50",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "doppler.Doppler.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/sound",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/doppler.jar"
+          ],
+          "parameters": {
+            "width": "800",
+            "height": "400",
+            "codebase": "/applets/sound",
+            "archive": "doppler.jar",
+            "code": "doppler.Doppler.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "기타의 소리",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/synthe.guitarSyn.html",
+      "lessonId": "2-3-3-1",
+      "section": "파동",
+      "subsection": "음파",
+      "type": "모의실험",
+      "sha256": "707130cc222cdc01ba6b89270337f786352348fde7555c8c1b69f171e712bf56",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "synthe.guitarSyn.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/sound",
+          "archives": [],
+          "parameters": {
+            "width": "530",
+            "height": "360",
+            "codebase": "/applets/sound",
+            "archive": "",
+            "code": "synthe.guitarSyn.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "피아노의 소리",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/synthe.pianoSyn.html",
+      "lessonId": "2-3-3-1",
+      "section": "파동",
+      "subsection": "음파",
+      "type": "모의실험",
+      "sha256": "de810a5e6139b620f604a60a733c05deb7a986f4a1b24ace2d50d4a637c33037",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "synthe.pianoSyn.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/sound",
+          "archives": [],
+          "parameters": {
+            "width": "530",
+            "height": "360",
+            "codebase": "/applets/sound",
+            "archive": "",
+            "code": "synthe.pianoSyn.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "신시사이저의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/syndi1.Syndi1.html",
+      "lessonId": "2-3-3-4",
+      "section": "파동",
+      "subsection": "음파",
+      "type": "모의실험",
+      "sha256": "89e567fe5e2a698029a43bdbd73c84e0394c6d28c3362682b04ffd83cc51d763",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "syndi1.Syndi1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/sound",
+          "archives": [],
+          "parameters": {
+            "width": "760",
+            "height": "300",
+            "codebase": "/applets/sound",
+            "archive": "",
+            "code": "syndi1.Syndi1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "미디 연주기",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/midisound.midi.html",
+      "lessonId": "2-3-3-4",
+      "section": "파동",
+      "subsection": "음파",
+      "type": "모의실험",
+      "sha256": "578e9984a3fa8c7a48dff4eb73d8a0a4e50b7435f4c808fc653b78dc40192f48",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "midisound.midi.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/sound",
+          "archives": [],
+          "parameters": {
+            "width": "760",
+            "height": "370",
+            "codebase": "/applets/sound",
+            "archive": "",
+            "code": "midisound.midi.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "보일-샤를의 법칙 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol6.html",
+      "lessonId": "3-1-1-2",
+      "section": "열과 물질의 상태",
+      "subsection": "기체 상태",
+      "type": "모의실험",
+      "sha256": "033a1d1b2db318c71a94555701e72310c59edefb049969dabc8eabd22b19195a",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol6.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+          "archives": [],
+          "parameters": {
+            "width": "350",
+            "height": "600",
+            "codebase": "/applets/thermodynamics/kineticgas",
+            "archive": "",
+            "code": "manyCol6.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "보일-샤를의 법칙 모의실험3",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol23.html",
+      "lessonId": "3-1-1-4",
+      "section": "열과 물질의 상태",
+      "subsection": "기체 상태",
+      "type": "모의실험",
+      "sha256": "768091a63cdbcb902e3bb50ad9815b6efda8dbe1b51487e7bee3810370d6c5cb",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol23.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas23",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "800",
+            "codebase": "/applets/thermodynamics/kineticgas23",
+            "archive": "",
+            "code": "manyCol23.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "대기의 법칙 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol4.html",
+      "lessonId": "3-1-1-5",
+      "section": "열과 물질의 상태",
+      "subsection": "기체 상태",
+      "type": "모의실험",
+      "sha256": "522051deaae7f9cc800c57c5cf2e825892308af08250854d3fed7490fdeb4813",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol4.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+          "archives": [],
+          "parameters": {
+            "width": "450",
+            "height": "620",
+            "codebase": "/applets/thermodynamics/kineticgas",
+            "archive": "",
+            "code": "manyCol4.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "기체분자운동 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol2.html",
+      "lessonId": "3-1-2-2",
+      "section": "열과 물질의 상태",
+      "subsection": "기체 상태",
+      "type": "모의실험",
+      "sha256": "807159834c5f0d0cfad42902e75a9f810e5e4598fbfd1480696dddaea5b1d669",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol2.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "400",
+            "codebase": "/applets/thermodynamics/kineticgas",
+            "archive": "",
+            "code": "manyCol2.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "3차원 기체분자운동의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol31.html",
+      "lessonId": "3-1-2-7",
+      "section": "열과 물질의 상태",
+      "subsection": "기체 상태",
+      "type": "모의실험",
+      "sha256": "002b9bb81c10f5722fbd56c3c90106cccc18deda066c6ecba3c7316daf8d64a1",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "manyCol31.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas31",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/library/idx3d.jar"
+          ],
+          "parameters": {
+            "width": "700",
+            "height": "540",
+            "codebase": "/applets/thermodynamics/kineticgas31",
+            "archive": "/applets/library/idx3d.jar",
+            "code": "manyCol31.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "에너지 등분배의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/collision.Collision2DKG.html",
+      "lessonId": "3-1-3-1",
+      "section": "열과 물질의 상태",
+      "subsection": "기체 상태",
+      "type": "모의실험",
+      "sha256": "b264464dd44b3440bf8f778a8065b90020597fd04256dbc55b7b846eb210a662",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "collision.Collision2DKG.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/mechanics",
+          "archives": [],
+          "parameters": {
+            "width": "660",
+            "height": "440",
+            "codebase": "/applets/mechanics",
+            "archive": "",
+            "code": "collision.Collision2DKG.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": "lesson-3-1-3-1.html#native-legacy-general-collision2dkg",
+      "status": "source-derived-html"
+    },
+    {
+      "title": "실제 기체와 상태변화 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/vander.html",
+      "lessonId": "3-2-2-2",
+      "section": "열과 물질의 상태",
+      "subsection": "물질의 상태",
+      "type": "모의실험",
+      "sha256": "ff62a9dab7737e53a3cc2a7a71a0490fffda4d87fa7dbf90b70e452236674ce2",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "vander.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+          "archives": [],
+          "parameters": {
+            "width": "620",
+            "height": "500",
+            "codebase": "/applets/thermodynamics/kineticgas4",
+            "archive": "",
+            "code": "vander.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "굴절의 법칙에 대한 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/wavefront2.html",
+      "lessonId": "5-1-1-3",
+      "section": "빛",
+      "subsection": "빛의 성질",
+      "type": "모의실험",
+      "sha256": "51a3f91e219d6077c2f305697bbf6f246b8816dc4c9f6c73a69e4d7b28136eac",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "wavefront2.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/refract/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "../../optics/light/refract/applets/",
+            "archive": "",
+            "code": "wavefront2.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "무지개의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/rainbow.html",
+      "lessonId": "5-1-5-2",
+      "section": "빛",
+      "subsection": "빛의 성질",
+      "type": "모의실험",
+      "sha256": "c4f8efd87372f1917fd306cd6ad8890d54e6bec5fe5414e6efdcd35eea061e09",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "rainbow.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/light/rainbow/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "550",
+            "height": "500",
+            "codebase": "../../optics/light/rainbow/applets/",
+            "archive": "",
+            "code": "rainbow.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "광섬유의 원리에 대한 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/optfiber.html",
+      "lessonId": "5-2-7-2",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "모의실험",
+      "sha256": "bef6503f7ad15bf8267b5cf397f675d8f0ea8b8446251f4605cfe2ff8b1db0c6",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "optfiber.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/fiber/applets",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "500",
+            "codebase": "../../optics/geometric/fiber/applets",
+            "archive": "",
+            "code": "optfiber.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "확대경의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/lens01m.html",
+      "lessonId": "5-2-11-2",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "모의실험",
+      "sha256": "48320204e7af12e20090f287cbd3e3e092a4bbca80dc98269ffeaee59a7fe9c8",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "lens01m.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/optics/geometric/microscope/applets/",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "270",
+            "codebase": "../../optics/geometric/microscope/applets/",
+            "archive": "",
+            "code": "lens01m.class",
+            "skin": "w",
+            "thema": "1"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "현미경의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/microscope.html",
+      "lessonId": "5-2-11-4",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "모의실험",
+      "sha256": "7c4abb869ec6a50e399528b1f5385f08faae8c1aac4f4476ee5019be96449766",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "microscope.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+          "archives": [],
+          "parameters": {
+            "width": "800",
+            "height": "300",
+            "codebase": "/applets/optics/instrum",
+            "archive": "",
+            "code": "microscope.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "케플러식 굴절망원경의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/kepler.html",
+      "lessonId": "5-2-12-2",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "모의실험",
+      "sha256": "e5490ba97caeb0f92626c0fdbcff744245617b833bc0ac55989f24d16740c8ac",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "kepler.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+          "archives": [],
+          "parameters": {
+            "width": "800",
+            "height": "300",
+            "codebase": "/applets/optics/instrum",
+            "archive": "",
+            "code": "kepler.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "뉴턴식 반사망원경의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/newton.html",
+      "lessonId": "5-2-12-4",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "모의실험",
+      "sha256": "13876ba2e5e26fa7af65f38771d18a6b49a45de0ac665d33d6014d032b39f4a0",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "newton.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+          "archives": [],
+          "parameters": {
+            "width": "670",
+            "height": "400",
+            "codebase": "/applets/optics/instrum",
+            "archive": "",
+            "code": "newton.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "쌍안경의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/binoculars.html",
+      "lessonId": "5-2-12-6",
+      "section": "빛",
+      "subsection": "기하광학",
+      "type": "모의실험",
+      "sha256": "4c498aa7bc6de008159f7bfb8703905b3e4f3af72535a3604c3144ce1698a4e7",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "binoculars.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/optics/instrum",
+          "archives": [],
+          "parameters": {
+            "width": "750",
+            "height": "450",
+            "codebase": "/applets/optics/instrum",
+            "archive": "",
+            "code": "binoculars.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "박막에서의 빛의 간섭 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilmTheory.html",
+      "lessonId": "5-4-4-1",
+      "section": "빛",
+      "subsection": "빛의 간섭",
+      "type": "모의실험",
+      "sha256": "5caacda2a5c9cd6737fe05822e42a5959150704c411d516608a165f0e1a84e94",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "ThinFilmTheory.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/interference/thinfilm/classes",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "/applets/interference/thinfilm/classes",
+            "archive": "",
+            "code": "ThinFilmTheory.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "뉴턴 링의 간섭 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/NewtonRing.html",
+      "lessonId": "5-4-4-2",
+      "section": "빛",
+      "subsection": "빛의 간섭",
+      "type": "모의실험",
+      "sha256": "13d5f057e393a26b5aed90ca79dc99ba6644c69c6ef05db516f6421ce6d16ae5",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "NewtonRing.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/interference/thinfilm/classes",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "/applets/interference/thinfilm/classes",
+            "archive": "",
+            "code": "NewtonRing.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "막의 간섭 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilm1.html",
+      "lessonId": "5-4-4-2",
+      "section": "빛",
+      "subsection": "빛의 간섭",
+      "type": "모의실험",
+      "sha256": "5eafdcef64a7febe99a43def51a4187fcc332fe3a765f2939a95abfbefc1c048",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "ThinFilm1.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/interference/thinfilm/classes",
+          "archives": [],
+          "parameters": {
+            "width": "600",
+            "height": "400",
+            "codebase": "/applets/interference/thinfilm/classes",
+            "archive": "",
+            "code": "ThinFilm1.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "옆으로 운동하는 물체의 모습",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/reldistortion.zView.html",
+      "lessonId": "6-1-4-3",
+      "section": "현대물리",
+      "subsection": "상대성이론",
+      "type": "모의실험",
+      "sha256": "37d5ef10f3a39b5c4c731160826c13f255588f37ec8a1e20b9ea22284fc2b441",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "reldistortion.zView.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/modern/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/modern/reldistortion.jar"
+          ],
+          "parameters": {
+            "width": "800",
+            "height": "500",
+            "codebase": "/applets/modern/",
+            "archive": "reldistortion.jar",
+            "code": "reldistortion.zView.class",
+            "skin": "w",
+            "viewdirection": "0"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "다가오는 물체의 모습",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/reldistortion.zView2.html",
+      "lessonId": "6-1-4-3",
+      "section": "현대물리",
+      "subsection": "상대성이론",
+      "type": "모의실험",
+      "sha256": "227b1d2ae2fa4df8d81fa1b1d8928c0e7c77e8ffd0b2f282efcdc4974e4d96db",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "reldistortion.zView.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/modern/",
+          "archives": [
+            "http://physica.gnu.ac.kr/applets/modern/reldistortion.jar"
+          ],
+          "parameters": {
+            "width": "800",
+            "height": "500",
+            "codebase": "/applets/modern/",
+            "archive": "reldistortion.jar",
+            "code": "reldistortion.zView.class",
+            "skin": "w",
+            "viewdirection": "1"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "1차원 고유진동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/OneDim.html",
+      "lessonId": "6-2-1-2",
+      "section": "현대물리",
+      "subsection": "양자론",
+      "type": "모의실험",
+      "sha256": "5c9d736621dea8250b695e34e8713bb3f6ab78d9b029ff1c4919f647edc74e21",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "OneDim.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/photon/applet/Resonant/",
+          "archives": [],
+          "parameters": {
+            "width": "520",
+            "height": "300",
+            "codebase": "../../modern/light_quantum/photon/applet/Resonant/",
+            "archive": "",
+            "code": "OneDim.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "2차원 고유진동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/TwoDim.html",
+      "lessonId": "6-2-1-2",
+      "section": "현대물리",
+      "subsection": "양자론",
+      "type": "모의실험",
+      "sha256": "aa6d44248597780e10e66e678dc87c43e13ce0562e6704d75b7bf97f5c959df2",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "TwoDim.class",
+          "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/photon/applet/Resonant/",
+          "archives": [],
+          "parameters": {
+            "width": "420",
+            "height": "477",
+            "codebase": "../../modern/light_quantum/photon/applet/Resonant/",
+            "archive": "",
+            "code": "TwoDim.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "자유공간에서의 물질파의 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeParticle.html",
+      "lessonId": "6-3-5-3",
+      "section": "현대물리",
+      "subsection": "물질파",
+      "type": "모의실험",
+      "sha256": "9ef139f0ce50ecaac58aba1f2dc35bf1f09b5630f29ea69f4a815ff85d48c578",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "onedimquantum.freeParticle.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "800",
+            "height": "500",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "onedimquantum.freeParticle.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "1차원 상자에 갇힌 물질파",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeBox.html",
+      "lessonId": "6-3-5-4",
+      "section": "현대물리",
+      "subsection": "물질파",
+      "type": "모의실험",
+      "sha256": "a1a24c0935529d5e9a7643c13b8622e192f6ea89cef1acbc13eff20a3821fb48",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "onedimquantum.freeBox.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "650",
+            "height": "480",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "onedimquantum.freeBox.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "고리에 갇힌 물질파",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeRing.html",
+      "lessonId": "6-3-5-5",
+      "section": "현대물리",
+      "subsection": "물질파",
+      "type": "모의실험",
+      "sha256": "eaa266d574e7c15e2fa76c95132c51245a5ffe135615e03c1e5591f9c1abc19a",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "onedimquantum.freeRing.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "580",
+            "height": "570",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "onedimquantum.freeRing.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "2차원 상자에 갇힌 물질파",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimBox.html",
+      "lessonId": "6-3-5-6",
+      "section": "현대물리",
+      "subsection": "물질파",
+      "type": "모의실험",
+      "sha256": "643571481a6c7f4fe9e400cef1a33a4867d29cf8041b867f0b36747eea892e4d",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "twodimquantum.twoDimBox.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "700",
+            "height": "400",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "twodimquantum.twoDimBox.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "파동묶음의 운동 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.oneDimQuantum.html",
+      "lessonId": "6-4-2-8",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "모의실험",
+      "sha256": "afff076d2e58308dd2228643acc81daf3a92701191686ab35465d554cd3aba01",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "onedimquantum.oneDimQuantum.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "1034",
+            "height": "614",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "onedimquantum.oneDimQuantum.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "2차원 조화진동자에서의 파동묶음의 운동",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimHarmonicOsc.html",
+      "lessonId": "6-4-3-2",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "모의실험",
+      "sha256": "12538b50ec5e0f2b6d7b4c9ec2598988efa4493926a1415563fd2d3006f2f43c",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "twodimquantum.twoDimHarmonicOsc.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "750",
+            "height": "570",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "twodimquantum.twoDimHarmonicOsc.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "2차원 파동묶음의 운동 모의실험",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimQuantum.html",
+      "lessonId": "6-4-3-3",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "모의실험",
+      "sha256": "8c531e2626797a669b6ad227a8efe6d67d24804263c5f2093b21a6fea3107521",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "twodimquantum.twoDimQuantum.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "800",
+            "height": "560",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "twodimquantum.twoDimQuantum.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "두 입자가 결합된 조화진동자",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoParticleDI.html",
+      "lessonId": "6-4-3-4",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "모의실험",
+      "sha256": "5c9418b8689b7f2b2a41ac2734d517ab12990fa4e39ee9007ee774c03296570e",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "twodimquantum.twoParticleDI.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "750",
+            "height": "570",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "twodimquantum.twoParticleDI.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    },
+    {
+      "title": "두 입자가 결합된 조화진동자",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoParticleFD.html",
+      "lessonId": "6-4-3-5",
+      "section": "현대물리",
+      "subsection": "양자물리",
+      "type": "모의실험",
+      "sha256": "4363b60286ef9be392b577aeff1e314fa6c0ad5b106e94ab91b9d6a71d849a90",
+      "programs": [
+        {
+          "format": "Java",
+          "class": "twodimquantum.twoParticleFD.class",
+          "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+          "archives": [],
+          "parameters": {
+            "width": "750",
+            "height": "570",
+            "codebase": "/applets/quantum/",
+            "archive": "",
+            "code": "twodimquantum.twoParticleFD.class",
+            "skin": "w"
+          }
+        }
+      ],
+      "available": true,
+      "htmlPort": null,
+      "status": "not-ported"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-10T02:23:07.963Z",
+  "checks": [
+    {
+      "id": "general-stringmotion",
+      "selectOptions": 5,
+      "drag": true,
+      "tabletAndMobile": true
+    },
+    {
+      "id": "general-membranemotion",
+      "selectOptions": 9,
+      "drag": true,
+      "tabletAndMobile": true
+    }
+  ],
+  "originalAWTRuntimeChecked": false
+}
