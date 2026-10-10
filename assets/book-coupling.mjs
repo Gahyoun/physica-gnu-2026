@@ -16,7 +16,7 @@ export function flowDiagram(flow,labels){
  b+=text(42,55,labels[0])+text(42,78,labels[1])+text(315,67,'열기관')+text(553,55,labels[2])+text(553,78,labels[3]);
  for(const [x1,y1,x2,y2,value,label,color]of [[197,62,300,62,heatIn,'Qh',blue],[440,62,545,62,heatOut,'Qc',gray],[370,92,370,164,work,'W',blue]]){
   b+=line(x1,y1,x2,y2,color,2+14*value)+`<path d="${x1===x2?`M${x2-8} ${y2-12}L${x2} ${y2}L${x2+8} ${y2-12}Z`:`M${x2-12} ${y2-8}L${x2} ${y2}L${x2-12} ${y2+8}Z`}" fill="${color}"/>`+text(x1===x2?395:(x1+x2)/2-25,y1===y2?23:137,label+' = '+fmt(value));
-  b+=`<circle data-flow-dot="${label}" cx="${x1+(x2-x1)*phase}" cy="${y1+(y2-y1)*phase}" r="5" fill="${color}"/>`;
+  b+=`<circle data-flow-dot="${label}" cx="${x1+(x2-x1)*phase}" cy="${y1+(y2-y1)*phase}" r="6" fill="var(--ui-bg)" fill-opacity=".65" stroke="none"/>`;
  }
  return b+text(64,194,'Qh = W + Qc · 화살표 폭은 에너지 비율')+text(64,220,'열 흐름 도식 · 이동하는 점은 흐름 방향 표시');
 }
