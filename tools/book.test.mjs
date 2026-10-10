@@ -22,6 +22,21 @@ test('all chapter pages keep original order and have learning material and valid
  }
  const c=JSON.parse(fs.readFileSync(new URL('../src/catalog.json',import.meta.url)));for(const r of c.lessons)assert.equal(localHref(r.source),pages.find(p=>p.id===r.id).file);
 });
+test('nuclear equations use element symbols consistent with their atomic numbers',()=>{
+ // Standard periodic-table symbols; D and T denote hydrogen isotopes.
+ const symbols='H He Li Be B C N O F Ne Na Mg Al Si P S Cl Ar K Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr Rb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Xe Cs Ba La Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb Lu Hf Ta W Re Os Ir Pt Au Hg Tl Pb Bi Po At Rn Fr Ra Ac Th Pa U Np Pu Am Cm Bk Cf Es Fm Md No Lr Rf Db Sg Bh Hs Mt Ds Rg Cn Nh Fl Mc Lv Ts Og'.split(' ');
+ let checked=0;
+ for(const page of pages.filter(p=>p.id.startsWith('7-')))for(const block of page.sections.flatMap(s=>s.blocks)){
+  if(block.type!=='equation')continue;
+  for(const [,mass,number,symbol] of block.tex.matchAll(/\^\{?(\d+)\}?_\{?\s*~*(\d+)\}?\\mathrm\{([A-Z][a-z]?)\}/g)){
+   const hydrogenAlias=Number(number)===1&&((symbol==='D'&&Number(mass)===2)||(symbol==='T'&&Number(mass)===3));
+   assert.ok(hydrogenAlias||symbols[Number(number)-1]===symbol,`${page.id}: ${mass}/${number} ${symbol}`);checked++;
+  }
+ }
+ assert.ok(checked>=100,'Validate explicit nuclides throughout the nuclear chapter');
+ const source=JSON.parse(fs.readFileSync(new URL('../src/book-survey.json',import.meta.url))).pages.find(p=>p.id==='7-3-1-1');
+ assert.ok(source.sections[0].equations.some(tex=>tex.includes('{^{43}_{21}\\mathrm{Se}^*}')),'Retain the original source record');
+});
 test('supplementary models keep finite readouts at parameter boundaries',()=>{
  for(const [name,m] of Object.entries(models)){
   const initial=Object.fromEntries(m.controls.map(c=>[c.key,c.value]));

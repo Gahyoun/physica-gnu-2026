@@ -16,6 +16,12 @@ export function normalizeTex(raw){
 export const legacyMacros={'\\array':'\\begin{matrix}#1\\end{matrix}','\\matrix':'\\begin{matrix}#1\\end{matrix}','\\eqalign':'\\begin{aligned}#1\\end{aligned}','\\cases':'\\begin{cases}#1\\end{cases}','\\scr':'\\mathcal'};
 const p=text=>({type:'p',text});
 const eq=tex=>({type:'equation',tex:normalizeTex(tex),legacy:true});
+function sourceEquation(lessonId,tex){
+ // Keep the archived survey intact; correct identified source typos in the reading edition.
+ if(lessonId==='7-3-1-1')return tex.replace('{^{43}_{21}\\mathrm{Se}^*}','{^{43}_{21}\\mathrm{Sc}^*}');
+ if(lessonId==='4-7-2-4')return tex.replace('\\varepsilon \\mu \\omega +','\\varepsilon \\mu \\omega^2 +');
+ return tex;
+}
 export const pages=catalog.lessons.map(lesson=>{
  if(detailed.has(lesson.source)){
   const page=detailed.get(lesson.source),sections=page.sections.slice();
@@ -24,7 +30,7 @@ export const pages=catalog.lessons.map(lesson=>{
  }
  const guide=guides[lesson.title];if(!guide)throw Error('Missing topic guide: '+lesson.title);
  const record=original.get(lesson.id);if(!record)throw Error('Missing source survey: '+lesson.id);
- const safeSections=lesson.title==='핵무기'?[]:record.sections.map(s=>({...s,equations:s.equations.filter(tex=>!(lesson.id==='1-1-1-1'&&tex.includes('\\frac{dm}{dt}'))).map(tex=>lesson.id==='4-7-2-4'?tex.replace('\\varepsilon \\mu \\omega +','\\varepsilon \\mu \\omega^2 +'):tex)}));
+ const safeSections=lesson.title==='핵무기'?[]:record.sections.map(s=>({...s,equations:s.equations.filter(tex=>!(lesson.id==='1-1-1-1'&&tex.includes('\\frac{dm}{dt}'))).map(tex=>sourceEquation(lesson.id,tex))}));
  const anchors=new Set();
  const sections=[{id:'guide',title:'학습 핵심',blocks:[p(guide.intro),p(guide.insight)]},
   ...safeSections.map((s,i)=>{const anchor=s.anchor&&!anchors.has(s.anchor)?s.anchor:'';if(anchor)anchors.add(anchor);return {id:'source-'+i,title:s.title,originalAnchor:anchor,blocks:sectionContent[lesson.id]?.[s.title]|| (s.equations.length?s.equations.map(eq):(()=>{throw Error('Missing section explanation: '+lesson.id+' / '+s.title);})())};})];
