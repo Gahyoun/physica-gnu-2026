@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-10T00:16:16.895Z",
+  "files": 7,
+  "cases": 21,
+  "scope": "Actual browser authored SVG; 320/768/1360, min/max/default controls, physical motion, camera, stop/replay/bounded end, fast/slow and current CSV. Original full equivalence not claimed.",
+  "nativeModelHashes": {
+    "assets/general-final69-physics.mjs": "de56c166db3e5606315939374100d535c480f0ec3840d4042233b3a80415699b",
+    "assets/general-final69-specs.mjs": "f7baa7e397078ce0a7642ea3df6d007831cae4ba14c2a3e188ef4355e7bb730f",
+    "assets/general-final69-worker.mjs": "b2c9c311f0465624b847ca1c49e594829107387383c35612291062fa9935f299",
+    "assets/native-general-final69.mjs": "fe825c7494cadd3f5a0dc7b966c7152d9bed3a757613044133afad9325c1387c",
+    "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86",
+    "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
+    "tools/general-final69-browser-check.mjs": "6a0512aa7286fbd5657b2e63f8d0ae3061b66b46cf813dc4bf4f325ce264bf62"
+  },
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-b66fa4af7d939944",
+      "width": 320,
+      "checks": 2,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-f3ab84b3b8f2ee77",
+      "width": 320,
+      "checks": 7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-1bf714eda508b5be",
+      "width": 320,
+      "checks": 22,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-7ba7f761a85e3395",
+      "width": 320,
+      "checks": 22,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-37a9b32a0ca67516",
+      "width": 320,
+      "checks": 31,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-ffc4e4eab856732d",
+      "width": 320,
+      "checks": 25,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-60bbd9b257ac7ced",
+      "width": 320,
+      "checks": 20,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-b66fa4af7d939944",
+      "width": 768,
+      "checks": 2,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-f3ab84b3b8f2ee77",
+      "width": 768,
+      "checks": 7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-1bf714eda508b5be",
+      "width": 768,
+      "checks": 22,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-7ba7f761a85e3395",
+      "width": 768,
+      "checks": 22,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-37a9b32a0ca67516",
+      "width": 768,
+      "checks": 31,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-ffc4e4eab856732d",
+      "width": 768,
+      "checks": 25,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-60bbd9b257ac7ced",
+      "width": 768,
+      "checks": 20,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-b66fa4af7d939944",
+      "width": 1360,
+      "checks": 2,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-f3ab84b3b8f2ee77",
+      "width": 1360,
+      "checks": 7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-1bf714eda508b5be",
+      "width": 1360,
+      "checks": 22,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-7ba7f761a85e3395",
+      "width": 1360,
+      "checks": 22,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-37a9b32a0ca67516",
+      "width": 1360,
+      "checks": 31,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-ffc4e4eab856732d",
+      "width": 1360,
+      "checks": 25,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "flash-60bbd9b257ac7ced",
+      "width": 1360,
+      "checks": 20,
+      "passed": true,
+      "failures": []
+    }
+  ]
+}

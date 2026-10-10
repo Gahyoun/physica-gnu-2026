@@ -1,0 +1,416 @@
+{
+  "date": "2026-10-10T00:00:37.280Z",
+  "files": 21,
+  "cases": 63,
+  "checks": 1041,
+  "results": [
+    {
+      "id": "flash-e72128ed0d1a1c0d",
+      "width": 320,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-58bd5e6343d0b297",
+      "width": 320,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-ba4e68a82d2bcb7e",
+      "width": 320,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-dc2240f1cd33fdbb",
+      "width": 320,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-3ef0b27f92a0167e",
+      "width": 320,
+      "checks": 10,
+      "passed": true
+    },
+    {
+      "id": "flash-4536001836ccd77c",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-3faab689d25799e8",
+      "width": 320,
+      "checks": 112,
+      "passed": true
+    },
+    {
+      "id": "flash-fb0581a89a156c72",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-40e242d41c0c96fa",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-7746e258bd68068f",
+      "width": 320,
+      "checks": 13,
+      "passed": true
+    },
+    {
+      "id": "flash-86aa98d7539f79b0",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-9cddf79b62881ba6",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-f5fbc403edc871ab",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-4761a9e31f05f6a9",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-be465f1359e1fc24",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-600791362273ca0d",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-076f3a9b0422707e",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-c45b00a29f9dea7d",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-04e263fc3721f5df",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-c06501cc89d19195",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-b64d39d51c05193d",
+      "width": 320,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-e72128ed0d1a1c0d",
+      "width": 768,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-58bd5e6343d0b297",
+      "width": 768,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-ba4e68a82d2bcb7e",
+      "width": 768,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-3ef0b27f92a0167e",
+      "width": 768,
+      "checks": 10,
+      "passed": true
+    },
+    {
+      "id": "flash-dc2240f1cd33fdbb",
+      "width": 768,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-4536001836ccd77c",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-3faab689d25799e8",
+      "width": 768,
+      "checks": 112,
+      "passed": true
+    },
+    {
+      "id": "flash-fb0581a89a156c72",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-40e242d41c0c96fa",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-7746e258bd68068f",
+      "width": 768,
+      "checks": 13,
+      "passed": true
+    },
+    {
+      "id": "flash-86aa98d7539f79b0",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-9cddf79b62881ba6",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-f5fbc403edc871ab",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-4761a9e31f05f6a9",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-be465f1359e1fc24",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-600791362273ca0d",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-076f3a9b0422707e",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-c45b00a29f9dea7d",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-04e263fc3721f5df",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-c06501cc89d19195",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-b64d39d51c05193d",
+      "width": 768,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-e72128ed0d1a1c0d",
+      "width": 1360,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-58bd5e6343d0b297",
+      "width": 1360,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-ba4e68a82d2bcb7e",
+      "width": 1360,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-3ef0b27f92a0167e",
+      "width": 1360,
+      "checks": 10,
+      "passed": true
+    },
+    {
+      "id": "flash-dc2240f1cd33fdbb",
+      "width": 1360,
+      "checks": 11,
+      "passed": true
+    },
+    {
+      "id": "flash-4536001836ccd77c",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-3faab689d25799e8",
+      "width": 1360,
+      "checks": 112,
+      "passed": true
+    },
+    {
+      "id": "flash-fb0581a89a156c72",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-40e242d41c0c96fa",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-7746e258bd68068f",
+      "width": 1360,
+      "checks": 13,
+      "passed": true
+    },
+    {
+      "id": "flash-86aa98d7539f79b0",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-9cddf79b62881ba6",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-f5fbc403edc871ab",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-4761a9e31f05f6a9",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-be465f1359e1fc24",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-600791362273ca0d",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-076f3a9b0422707e",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-c45b00a29f9dea7d",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-04e263fc3721f5df",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-b64d39d51c05193d",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    },
+    {
+      "id": "flash-c06501cc89d19195",
+      "width": 1360,
+      "checks": 12,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "nativeModelHashes": {
+    "assets/native-visionlaser-final69.mjs": "6bb12b60aeb859c097018424dff962ffca84bebd66462b8c4e71ad887278cb89",
+    "assets/visionlaser-final69-specs.mjs": "37d6012798c70e6c2c6e83343c840449c67a34cf90c60d0dcca71ae58dac5cc3",
+    "assets/visionlaser-final69-physics.mjs": "3989ab22a1880443ea0846fc774fb3f6e58e55af12d43f1d5d2886142b5788ce",
+    "src/native-visionlaser-final69.json": "95e43e78f95c795be55ba9075c2239fe1b53962f91f1117fdf29941c03c8c9ae",
+    "tools/visionlaser-final69-browser-check.mjs": "8cbadc95eddbad68c0d4b0fff5fcc7d17e3b3100e9c4cc2b28ddd7c78f12d5fe",
+    "assets/visionlaser-final69-data-flash-04e263fc3721f5df.mjs": "7b85b9e07a9f4cd8c6af77e7516e74833cf3f08e2b2f537103e3a48697187e9a",
+    "assets/visionlaser-final69-data-flash-076f3a9b0422707e.mjs": "df7198ae0d935401c5d22e02e2cf764392ee9bff4c1ea786f0e5b00e2618154d",
+    "assets/visionlaser-final69-data-flash-3ef0b27f92a0167e.mjs": "25e1ccd253127db1afd9af3bd1fb7b3c1cfab3dba25580f7ea2d30d6c4ac6d92",
+    "assets/visionlaser-final69-data-flash-3faab689d25799e8.mjs": "36e2298bb3fc4f13e0922e4ed7c0252408854a6d25fd86226b272056547f90d4",
+    "assets/visionlaser-final69-data-flash-40e242d41c0c96fa.mjs": "a66874fb37393a1de90b323a13c75ad70fbf3f057c7030b135a11dc6ca5b72f1",
+    "assets/visionlaser-final69-data-flash-4536001836ccd77c.mjs": "4f3fb04af9211204b4eda33691867df463536e36fc63f096246df85d85f8fc12",
+    "assets/visionlaser-final69-data-flash-4761a9e31f05f6a9.mjs": "ef1fa654e088d36032da57303c412554db1c30b5e99c3f731ca669d3e4900c2f",
+    "assets/visionlaser-final69-data-flash-58bd5e6343d0b297.mjs": "cddd6b85adf2ca33d86e50a5fc3559ea6b9abe7594c8c4736dd6dc5bb71186bb",
+    "assets/visionlaser-final69-data-flash-600791362273ca0d.mjs": "726682f44f67f902ee9f2c53d42ccee17604c1adf55c93d7998eaacf4d457d2c",
+    "assets/visionlaser-final69-data-flash-7746e258bd68068f.mjs": "a09b6589d0b1a08f7ec750746dc0c546b0bd3addb1e7608f77111789359436ba",
+    "assets/visionlaser-final69-data-flash-86aa98d7539f79b0.mjs": "07a6278e43be1e984d4516a5cccf18975b144dc149a9f9db81845d4e7291dd39",
+    "assets/visionlaser-final69-data-flash-9cddf79b62881ba6.mjs": "75c65479d1e93b54d5b977070164f5d47d265fdbea9fd2160b19826912f2142d",
+    "assets/visionlaser-final69-data-flash-b64d39d51c05193d.mjs": "b985541df98e590d4e1349be694583a0b04d8740f8cbec076cb891a2bb4357bd",
+    "assets/visionlaser-final69-data-flash-ba4e68a82d2bcb7e.mjs": "b76a73f5e74b48e230f892fbf10746b71736e1f37b1bc85ddb5b8baaeeba1826",
+    "assets/visionlaser-final69-data-flash-be465f1359e1fc24.mjs": "25648a7bc3cdea5d1fd4c47e0bb9f7bb2aba4f5f2b628455ba05ba3800d4dc95",
+    "assets/visionlaser-final69-data-flash-c06501cc89d19195.mjs": "694eef65db7aae56b7d87c23a44cf643578880f3f38d90b3fafd3e77a75d23b6",
+    "assets/visionlaser-final69-data-flash-c45b00a29f9dea7d.mjs": "76956e2b693e25710b105e8951b67314da9d634b252c52fb7bef2a0acca83972",
+    "assets/visionlaser-final69-data-flash-dc2240f1cd33fdbb.mjs": "b5c8c2f6b063a4dc7735c1c846444218b20719d36189cca1c0fbe7a11dda860e",
+    "assets/visionlaser-final69-data-flash-f5fbc403edc871ab.mjs": "a084964e62963df6784d3b7e8aea4bac59088a9fd6c69113bded1483d0e92a85",
+    "assets/visionlaser-final69-data-flash-fb0581a89a156c72.mjs": "ca43d23b154143e67efcada88629268e095ab9094c6b28119dead94196b61250"
+  },
+  "fullEquivalence": false,
+  "scope": "Actual reading pages at320/768/1360: fresh SVG without originals, play/movement, pause, seek-end replay, slow/default-fast, confirmation, wavelength controls, reset, nonempty CSV and horizontal fit."
+}

@@ -1,0 +1,665 @@
+{
+  "date": "2026-10-09T23:59:04.361Z",
+  "files": 20,
+  "comparisons": 4850,
+  "originalRuntimeVerified": true,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-88dcd0ec7ac4ff7a",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/aberComa2.swf",
+      "originalSHA256": "0fec92a1966e7efb2d769bedacb3bab9128b809158af9b4ff27bc772cd057b1b",
+      "programSHA256": "3b97e6973d59ee2b1f98d955a13da4a9593958487cf1744f691e12f86743e55e",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "comparisons": 876,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": 11,
+          "comparisons": 438
+        },
+        {
+          "step": 75,
+          "comparisons": 438
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-a88e894980293e64",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/aberSpherical4.swf",
+      "originalSHA256": "a9b3f5a6424bafae45eb38db197ad377c8df0df2889d627bf4c615f2517a1229",
+      "programSHA256": "96eeff5a5f1eeee03f7d476f59a2f1b787370d7a316f5496bd5f6929f5ea868d",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "comparisons": 634,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "observedStates": [
+        {
+          "step": 11,
+          "comparisons": 317
+        },
+        {
+          "step": 75,
+          "comparisons": 317
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [
+        "root.angle"
+      ],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-a503a95f16f31f43",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/phaseAberImage.swf",
+      "originalSHA256": "1d3c1c22724fd7f2e7d79da0a10f91357a18651b9dc57e0dd5ba62659e1a3893",
+      "programSHA256": "c1e6939e2562dd2e5bf2e690421894c6e43de3650a3470d68b7062dd2c6f2755",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 598,
+      "maxAbsoluteError": 1.1102230246251565e-16,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 299
+        },
+        {
+          "step": 0,
+          "comparisons": 299
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "realControlDragAttempted": true,
+      "originalControlObservedValue": 0,
+      "actualOriginalControlCompared": true,
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-833b671bb8f1fdf2",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/pupilSpherical.swf",
+      "originalSHA256": "a87ecd7ec99fbe01a8a6f93319f0f20d0773d205a9096af76726898ef64d896b",
+      "programSHA256": "bdc8deb38ee0340509ca66e4560b4386320b43b073ba2770853c1b4c17c42658",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 538,
+      "maxAbsoluteError": 4.618527782440651e-14,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 269
+        },
+        {
+          "step": 0,
+          "comparisons": 269
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "realControlDragAttempted": true,
+      "originalControlObservedValue": 230,
+      "actualOriginalControlCompared": true,
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-c8db27599ba6e756",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/circle/rp2.swf",
+      "originalSHA256": "ef63a6cd3093ee9350bd545ca8c369be4dfcf9e72690f742463e4ca0ce8420e3",
+      "programSHA256": "dcccc6e9c0bb169ffa7aee595309d80aa07678ae5969f386f10b05faf3fc5f58",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "comparisons": 6,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 3
+        },
+        {
+          "step": 0,
+          "comparisons": 3
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "categoricalReadouts": [
+        {
+          "path": "root.exp.text",
+          "original": "분해불가능",
+          "native": "분해불가능",
+          "equal": true
+        },
+        {
+          "path": "root.exp.text",
+          "original": "분해불가능",
+          "native": "분해불가능",
+          "equal": true
+        }
+      ],
+      "missingOriginal": [
+        "root.diameter",
+        "root.dd",
+        "root.wavelength",
+        "root.adDiameter",
+        "root.rhoFactor"
+      ],
+      "realControlDragAttempted": true,
+      "originalControlObservedValue": 50,
+      "actualOriginalControlCompared": true,
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Original resolved/unresolved classification and actual original slider values observed; original internal diffraction curve fields are inaccessible to the public observer and remain missingOriginal, so its curve numbers are source-checked rather than claimed runtime-observed. Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-5b4df2e3e2d7f004",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/astigmatism.swf",
+      "originalSHA256": "ddea0016fd215c35729a5dd23c75b204c929037485aec4051ab05e463f5ba429",
+      "programSHA256": "d88ffd06dc2b66a0e63e89ad1f465501b97ed6a14800cd07bc9966ac250a90a0",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "comparisons": 106,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 106
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-e1f3b51663ebef1c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/fiber/totalref3.swf",
+      "originalSHA256": "3a4a753746dc356ea1bbae73851add0794f144710b376a4579f7ec9b97522883",
+      "programSHA256": "29a04aa2a98d42bf806191f43f2ebe207df885a0fcfed9ed9a6172b71e63b27a",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 20,
+      "maxAbsoluteError": 4.831690603168681e-13,
+      "observedStates": [
+        {
+          "step": 9,
+          "comparisons": 10
+        },
+        {
+          "step": 21,
+          "comparisons": 10
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-bcf751c6bdf6ac2e",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/fresnelshape.swf",
+      "originalSHA256": "fd67b7097b286fd5c3925eac25c7c8262fd62d6937a8898529285b5986817796",
+      "programSHA256": "e767b1c34d0bd2d8c7e9216edb1b0438b260897880e5dbb6de915803984b9c07",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "comparisons": 12,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 12
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-326e10f58c5fc432",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/interference/young/moireint4cs3.swf",
+      "originalSHA256": "0a2329b58d899f527a21863e08c89e19b371d8c8bd1de944e2b9a922b67d50a9",
+      "programSHA256": "000b79ac46d2e1f927c20e3c62f2ec1035be294210927130d594a222a2fd47dc",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "comparisons": 16,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 8
+        },
+        {
+          "step": 0,
+          "comparisons": 8
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "realControlDragAttempted": true,
+      "originalControlObservedValue": 100,
+      "actualOriginalControlCompared": true,
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-45e0cb978ce7c1c6",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/activity/activity.swf",
+      "originalSHA256": "e63e90e3829a131a4cff217e3bf756dc85b49868e3b32b212f0f10de17781216",
+      "programSHA256": "ce6b29d4d4f5092ceb101c0c10877146616d6dcaadf5e9b5b66a3efb10a284d5",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 584,
+      "maxAbsoluteError": 1.2116903504194741e-27,
+      "observedStates": [
+        {
+          "step": null,
+          "comparisons": 292
+        },
+        {
+          "step": null,
+          "comparisons": 292
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [
+        "root.rotatoryP.level"
+      ],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-b88fb994bb3e1f8a",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/disample.swf",
+      "originalSHA256": "9244a27f518036b7364fe968ad3f7ef67f971bf50eae288ae382406c69563e3a",
+      "programSHA256": "df13656cefebb881c4497b34067fdc2d85971cb330609b9664c0dd182a7ef959",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 54,
+      "maxAbsoluteError": 3.552713678800501e-15,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 54
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-a31c6f6c9dcd2fd5",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/light_crystal.swf",
+      "originalSHA256": "6e003a47be73400b34e0ff0e25f5aaf10865961472e0dc80ec74efcc42b1527d",
+      "programSHA256": "64ee8e9037683008c3b69f8f8213b95f7b1c8aef7b029f049c7d75c54588afd4",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 26,
+      "maxAbsoluteError": 0.04953884165810507,
+      "observedStates": [
+        {
+          "step": null,
+          "comparisons": 13
+        },
+        {
+          "step": null,
+          "comparisons": 13
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "displayCoordinateTolerance": {
+        "absolutePixels": 0.05,
+        "reason": "Original AVM1 MovieClip placement is quantized to 1/20 pixel (one SWF twip); native retains continuous source-calculated coordinates. Raw errors remain reported."
+      },
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-2c0dad26bfbc41ed",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/faradayef.swf",
+      "originalSHA256": "81b89cb3cd9a3eca0b924bae78ad5f89ff15e81fe059a2cd404b77fd6a00e9e2",
+      "programSHA256": "f1031bb5bb75afd1eb6dff4516d7e16149b4420d92f434eab588bffee55fd1e5",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 66,
+      "maxAbsoluteError": 3.836930773104541e-13,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 66
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-8281e1704ab81337",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/kerrcell.swf",
+      "originalSHA256": "04bcbf76ea4dddf5ff896375da12c92d449ce65e6e4cb168f0256d50b71c4ed5",
+      "programSHA256": "08eeff6a86f1a2a2456b5a96a4a2eb4bc7b07efda5d3e0ca9e7c4872e6c0b269",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 201,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 67
+        },
+        {
+          "step": 0,
+          "comparisons": 67
+        },
+        {
+          "step": 0,
+          "comparisons": 67
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [
+        "root.startBtn.isON",
+        "root.arrow1.eDir.x",
+        "root.arrow1.eDir.y",
+        "root.arrow1.eDir.z",
+        "root.arrow2.eDir.x",
+        "root.arrow2.eDir.y",
+        "root.arrow2.eDir.z",
+        "root.arrow3.eDir.x",
+        "root.arrow3.eDir.y",
+        "root.arrow3.eDir.z",
+        "root.arrow4.eDir.x",
+        "root.arrow4.eDir.y",
+        "root.arrow4.eDir.z",
+        "root.arrow5.eDir.x",
+        "root.arrow5.eDir.y",
+        "root.arrow5.eDir.z",
+        "root.arrow6.eDir.x",
+        "root.arrow6.eDir.y",
+        "root.arrow6.eDir.z"
+      ],
+      "actualOriginalButtonStates": [
+        false,
+        true
+      ],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-a382e596416eab8c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/pockels.swf",
+      "originalSHA256": "747ee0b1e4106b193d42f2a174d37b71c6a720f02ff5a08975207c6722059154",
+      "programSHA256": "69f394f07340aadec8eb98ec7e53b90e9e8bfc75440b1b4324d604273e30f386",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 66,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 66
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-4a361b3b26555a71",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/liquidcrystal/stnsimV2.swf",
+      "originalSHA256": "7d2d1a632ce8e05f1aeda075225f54ef20b1e629f64fbe1faa35edaf3d56279f",
+      "programSHA256": "acd6a227816b513b5a9e571ba689608535ea94b1a392aea471c9f12658a8ddb5",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "comparisons": 540,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": null,
+          "comparisons": 270
+        },
+        {
+          "step": null,
+          "comparisons": 270
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-62dbf7d5b9674686",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarizer/polarizer5.swf",
+      "originalSHA256": "76d5d5ed569895d8d32c0adf84f34df93cd39647641744300eaa133e451e87af",
+      "programSHA256": "2922b908c6fe80cd515249d0a27edf37936ca92506a6e54230a35bd28182c3c5",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 3,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 1
+        },
+        {
+          "step": 0,
+          "comparisons": 1
+        },
+        {
+          "step": 0,
+          "comparisons": 1
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "actualOriginalButtonStates": [
+        2,
+        1
+      ],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-c5aa8a53793797ab",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polrepresent/jonesmatrix.swf",
+      "originalSHA256": "f05954f6e4c5db951cf9e13c31b828c05e0086ee372c50c8e3863f21e181d69c",
+      "programSHA256": "a0f97ab50a447f20a1b962765884ba0c3fafc87d6082371a4b8e0cd6174df98d",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 54,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 54
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-78a4cbab0b8ef677",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polrepresent/poincaresphereV3.swf",
+      "originalSHA256": "b9b2b47c62428f0afac89d1cbb4dc2cfe9b35c0783004e04fd02492bac7f3ee1",
+      "programSHA256": "6f4c794eec92b5ce8078aa3999e8ceb81aacf84871b4128dc84553ca03840469",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "comparisons": 18,
+      "maxAbsoluteError": 0,
+      "observedStates": [
+        {
+          "step": null,
+          "comparisons": 9
+        },
+        {
+          "step": null,
+          "comparisons": 9
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    },
+    {
+      "id": "flash-95128c2fde383176",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/scatterpol/scattering.swf",
+      "originalSHA256": "4b832b8763353d7c266bd83ac154ed618c5f15cf101e3dd6aed2ee158e8121d4",
+      "programSHA256": "a30d51d725b055affcd2882446ff9fe02648f6515fb15f910f5f6d1337b4bb0f",
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "originalABCPreserved": false,
+      "originalDocumentClassPreserved": false,
+      "comparisons": 432,
+      "maxAbsoluteError": 4.121147867408581e-13,
+      "observedStates": [
+        {
+          "step": 0,
+          "comparisons": 432
+        }
+      ],
+      "missingNative": [],
+      "mismatches": [],
+      "fullEquivalence": false,
+      "missingOriginal": [],
+      "originalRuntimeVerified": true,
+      "passed": true,
+      "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted."
+    }
+  ],
+  "nativeModelHashes": {
+    "assets/optics-final69-adapter.mjs": "23fd8d339fff8e0ed561194b51a713baeb54b9962fd9106febc6ca935a48a37e",
+    "assets/optics-final69-model.mjs": "efba446346f7820f09e69b98f3514eb3a903a853e773b721c70f34adbf8eb386",
+    "tools/optics-final69-runtime-check.mjs": "e793bec72bc17482dae4e44e53eef9517e00f875922ce310d4ac8c6f4dc146ce",
+    "tools/optics-final69-runtime-paths.mjs": "39be9fc4e0bf098b52f875014dc1da30bde34933498f891d20e4407b9967c3fa",
+    "tools/optics-final69-as3-compile.mjs": "3266f5816f5f8d9eea6eb31fcb882082a9cf15178f38840e92aa7204ec85a5e3",
+    "tools/optics-final69-observer/PhysicaOpticsFinal69Observer.as": "da03f5388b393830486c841bc134118b3b8829656756e09b1d521ce294077d04",
+    "assets/optics-final69-program-flash-88dcd0ec7ac4ff7a.mjs": "3b97e6973d59ee2b1f98d955a13da4a9593958487cf1744f691e12f86743e55e",
+    "assets/optics-final69-program-flash-a88e894980293e64.mjs": "96eeff5a5f1eeee03f7d476f59a2f1b787370d7a316f5496bd5f6929f5ea868d",
+    "assets/optics-final69-program-flash-a503a95f16f31f43.mjs": "c1e6939e2562dd2e5bf2e690421894c6e43de3650a3470d68b7062dd2c6f2755",
+    "assets/optics-final69-program-flash-833b671bb8f1fdf2.mjs": "bdc8deb38ee0340509ca66e4560b4386320b43b073ba2770853c1b4c17c42658",
+    "assets/optics-final69-program-flash-c8db27599ba6e756.mjs": "dcccc6e9c0bb169ffa7aee595309d80aa07678ae5969f386f10b05faf3fc5f58",
+    "assets/optics-final69-program-flash-5b4df2e3e2d7f004.mjs": "d88ffd06dc2b66a0e63e89ad1f465501b97ed6a14800cd07bc9966ac250a90a0",
+    "assets/optics-final69-program-flash-e1f3b51663ebef1c.mjs": "29a04aa2a98d42bf806191f43f2ebe207df885a0fcfed9ed9a6172b71e63b27a",
+    "assets/optics-final69-program-flash-bcf751c6bdf6ac2e.mjs": "e767b1c34d0bd2d8c7e9216edb1b0438b260897880e5dbb6de915803984b9c07",
+    "assets/optics-final69-program-flash-326e10f58c5fc432.mjs": "000b79ac46d2e1f927c20e3c62f2ec1035be294210927130d594a222a2fd47dc",
+    "assets/optics-final69-program-flash-45e0cb978ce7c1c6.mjs": "ce6b29d4d4f5092ceb101c0c10877146616d6dcaadf5e9b5b66a3efb10a284d5",
+    "assets/optics-final69-program-flash-b88fb994bb3e1f8a.mjs": "df13656cefebb881c4497b34067fdc2d85971cb330609b9664c0dd182a7ef959",
+    "assets/optics-final69-program-flash-a31c6f6c9dcd2fd5.mjs": "64ee8e9037683008c3b69f8f8213b95f7b1c8aef7b029f049c7d75c54588afd4",
+    "assets/optics-final69-program-flash-2c0dad26bfbc41ed.mjs": "f1031bb5bb75afd1eb6dff4516d7e16149b4420d92f434eab588bffee55fd1e5",
+    "assets/optics-final69-program-flash-8281e1704ab81337.mjs": "08eeff6a86f1a2a2456b5a96a4a2eb4bc7b07efda5d3e0ca9e7c4872e6c0b269",
+    "assets/optics-final69-program-flash-a382e596416eab8c.mjs": "69f394f07340aadec8eb98ec7e53b90e9e8bfc75440b1b4324d604273e30f386",
+    "assets/optics-final69-program-flash-4a361b3b26555a71.mjs": "acd6a227816b513b5a9e571ba689608535ea94b1a392aea471c9f12658a8ddb5",
+    "assets/optics-final69-program-flash-62dbf7d5b9674686.mjs": "2922b908c6fe80cd515249d0a27edf37936ca92506a6e54230a35bd28182c3c5",
+    "assets/optics-final69-program-flash-c5aa8a53793797ab.mjs": "a0f97ab50a447f20a1b962765884ba0c3fafc87d6082371a4b8e0cd6174df98d",
+    "assets/optics-final69-program-flash-78a4cbab0b8ef677.mjs": "6f4c794eec92b5ce8078aa3999e8ceb81aacf84871b4128dc84553ca03840469",
+    "assets/optics-final69-program-flash-95128c2fde383176.mjs": "a30d51d725b055affcd2882446ff9fe02648f6515fb15f910f5f6d1337b4bb0f"
+  }
+}

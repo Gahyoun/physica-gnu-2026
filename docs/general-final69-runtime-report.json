@@ -1,0 +1,352 @@
+{
+  "date": "2026-10-10T00:14:07.640Z",
+  "files": 7,
+  "comparisons": 7924,
+  "observerABCSHA256": "f83d94f961deb02a57c0638b988207261eeade4e6624699ed318b8116ae71163",
+  "nativeModelHashes": {
+    "assets/general-final69-physics.mjs": "de56c166db3e5606315939374100d535c480f0ec3840d4042233b3a80415699b",
+    "assets/general-final69-specs.mjs": "f7baa7e397078ce0a7642ea3df6d007831cae4ba14c2a3e188ef4355e7bb730f",
+    "tools/general-final69-runtime-check.mjs": "78496c825689186e575e8d41d33b879118ec628bf0bdcf633a90e45871e1eea0",
+    "tools/general-final69-as3-compile.mjs": "e2c27997426bf1756c2abf34028e90deacda75acf53258f98a131061b634d92a",
+    "tools/GeneralFinal69Observer.as": "f9109a74443e79ed8e9bfe76e8d7ab8d14f2d1598062e380bd5b1075e30197a2"
+  },
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-b66fa4af7d939944",
+      "sha256": "3d44e3b1a10ef9e215e043feb66cc40a352b9999d29a5d4b13c3fc45725ba56c",
+      "sha256Verified": true,
+      "comparisons": 18,
+      "maxAbsoluteError": 0.06601262643950001,
+      "mismatches": [],
+      "samples": [
+        {
+          "on": false,
+          "frame": 1,
+          "angles": [
+            -12.0339873735605,
+            -12.0339873735605,
+            -12.0339873735605,
+            -12.0339873735605,
+            -12.0339873735605,
+            -12.0339873735605
+          ]
+        },
+        {
+          "on": true,
+          "frame": 2,
+          "angles": [
+            69.4,
+            16.4,
+            -69.4,
+            -118.6,
+            167.7,
+            110.6
+          ]
+        },
+        {
+          "on": false,
+          "frame": 1,
+          "angles": [
+            -12.1,
+            -12.1,
+            -12.1,
+            -12.1,
+            -12.1,
+            -12.1
+          ]
+        }
+      ],
+      "fullEquivalence": false,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "scope": "Actual original Ruffle on/off button clicks at SWF tag-derived button positions; all six original compass rotations modulo360 degrees; tolerance0.08 degrees accounts for fixed-point source placement matrix angle (initial measured error0.066 degrees). New authored compass artwork not pixel-matched.",
+      "passed": true,
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-f3ab84b3b8f2ee77",
+      "sha256": "600b40902eda53433dba58d36e629a96bc9433a855c3194cbff9ff3b87bf0d82",
+      "sha256Verified": true,
+      "comparisons": 8,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "samples": [
+        {
+          "frame": 8
+        },
+        {
+          "frame": 10
+        },
+        {
+          "frame": 12
+        },
+        {
+          "frame": 14
+        },
+        {
+          "frame": 16
+        },
+        {
+          "frame": 18
+        },
+        {
+          "frame": 20
+        },
+        {
+          "frame": 22
+        }
+      ],
+      "fullEquivalence": false,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "scope": "Actual original Ruffle natural timeline frame sequence mapped to native 140-frame playback. Source-specific mathematical controls absent. New discharge branch shape/phase composition is not proven equivalent to original illustrated scenes.",
+      "passed": true,
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-1bf714eda508b5be",
+      "sha256": "aba9c7c9620a9dbeebcfe41a9fe5c7951fd5aa89d7812ed1ef95a282a81499df",
+      "sha256Verified": true,
+      "comparisons": 3584,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "samples": [
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        }
+      ],
+      "fullEquivalence": false,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "scope": "Actual original Ruffle default field at observed pass counts; all fixed boundary/electrode and interior sample coordinates compared with native initialization/ordered sweeps (512/448 or81 grid locations per observation). Four/nine-point control sweeps additionally source-tested; original all control sequences not runtime-exhausted.",
+      "passed": true,
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-7ba7f761a85e3395",
+      "sha256": "9e47a89625ed03b7d2c470808408d31f9e738fbaff188fca32c8e9ea4c28b93e",
+      "sha256Verified": true,
+      "comparisons": 3136,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "samples": [
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        },
+        {
+          "pass": 100
+        }
+      ],
+      "fullEquivalence": false,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "scope": "Actual original Ruffle default field at observed pass counts; all fixed boundary/electrode and interior sample coordinates compared with native initialization/ordered sweeps (512/448 or81 grid locations per observation). Four/nine-point control sweeps additionally source-tested; original all control sequences not runtime-exhausted.",
+      "passed": true,
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-37a9b32a0ca67516",
+      "sha256": "f8e1a33a5ffe631b010958c6154fdfb31d0d3e7adc83cdbbb47646ee22573d2f",
+      "sha256Verified": true,
+      "comparisons": 567,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "samples": [
+        {
+          "pass": 6
+        },
+        {
+          "pass": 12
+        },
+        {
+          "pass": 19
+        },
+        {
+          "pass": 26
+        },
+        {
+          "pass": 33
+        },
+        {
+          "pass": 40
+        },
+        {
+          "pass": 47
+        }
+      ],
+      "fullEquivalence": false,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "scope": "Actual original Ruffle default field at observed pass counts; all fixed boundary/electrode and interior sample coordinates compared with native initialization/ordered sweeps (512/448 or81 grid locations per observation). Four/nine-point control sweeps additionally source-tested; original all control sequences not runtime-exhausted.",
+      "passed": true,
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-ffc4e4eab856732d",
+      "sha256": "aa761eb4d833d129fb6e0dd546886ba115a41fe931b403d646aa3fea70fdb52a",
+      "sha256Verified": true,
+      "comparisons": 567,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "samples": [
+        {
+          "pass": 4
+        },
+        {
+          "pass": 8
+        },
+        {
+          "pass": 11
+        },
+        {
+          "pass": 15
+        },
+        {
+          "pass": 19
+        },
+        {
+          "pass": 23
+        },
+        {
+          "pass": 28
+        }
+      ],
+      "fullEquivalence": false,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "scope": "Actual original Ruffle default field at observed pass counts; all fixed boundary/electrode and interior sample coordinates compared with native initialization/ordered sweeps (512/448 or81 grid locations per observation). Four/nine-point control sweeps additionally source-tested; original all control sequences not runtime-exhausted.",
+      "passed": true,
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-60bbd9b257ac7ced",
+      "sha256": "a081f5958c3149c8e7d0912b06f62854863ba715e6e5ba45ec1bea8010df0d3a",
+      "sha256Verified": true,
+      "comparisons": 44,
+      "maxAbsoluteError": 5.684341886080801e-13,
+      "mismatches": [],
+      "samples": [
+        {
+          "kind": "equilibrium",
+          "n": 0
+        },
+        {
+          "kind": "equilibrium",
+          "n": 0
+        },
+        {
+          "kind": "equilibrium",
+          "n": 0
+        },
+        {
+          "kind": "equilibrium",
+          "n": 0
+        },
+        {
+          "kind": "drag-release",
+          "n": 10,
+          "y": 221.666781902007,
+          "vy": 0.0381607125919953,
+          "theta": 0,
+          "omega": 0
+        },
+        {
+          "kind": "drag-release",
+          "n": 12,
+          "y": 230.569107025636,
+          "vy": 0.56912122591688,
+          "theta": 0,
+          "omega": 0
+        },
+        {
+          "kind": "drag-release",
+          "n": 14,
+          "y": 246.833462353358,
+          "vy": 0.868696589370851,
+          "theta": 0,
+          "omega": 0
+        },
+        {
+          "kind": "drag-release",
+          "n": 16,
+          "y": 264.002773616955,
+          "vy": 0.825256126416197,
+          "theta": 0,
+          "omega": 0
+        },
+        {
+          "kind": "drag-release",
+          "n": 18,
+          "y": 275.397339423029,
+          "vy": 0.462480751624856,
+          "theta": 0,
+          "omega": 0
+        },
+        {
+          "kind": "drag-release",
+          "n": 20,
+          "y": 276.710985673426,
+          "vy": -0.0725179248385808,
+          "theta": 0,
+          "omega": 0
+        },
+        {
+          "kind": "drag-release",
+          "n": 22,
+          "y": 267.634627922151,
+          "vy": -0.568733172803026,
+          "theta": 0,
+          "omega": 0
+        },
+        {
+          "kind": "drag-release",
+          "n": 24,
+          "y": 251.896654056332,
+          "vy": -0.834405266285405,
+          "theta": 0,
+          "omega": 0
+        }
+      ],
+      "fullEquivalence": false,
+      "originalTagsByteIdentical": true,
+      "originalTimerUnchanged": true,
+      "scope": "Actual default equilibrium and one original spring-mass drag/release trajectory. Consecutive observed physical states compared with unchanged native steps; arbitrary simultaneous pivot/drag callback sequences not exhausted.",
+      "passed": true,
+      "originalRuntimeVerified": true
+    }
+  ]
+}

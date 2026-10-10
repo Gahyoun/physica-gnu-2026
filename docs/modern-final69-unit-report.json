@@ -1,0 +1,21 @@
+{
+  "method": "Node meaningful deterministic unit tests; no private source files required. Actual final run: 16 tests, 16 passed, 0 failed.",
+  "files": 21,
+  "cases": 16,
+  "passed": true,
+  "fullEquivalence": false,
+  "nativeModelHashes": {
+    "tools/modern-final69.test.mjs": "985a42336bec326658c833a7c63498d10ad4025201ca0b32fb1555b3fc6070ea",
+    "assets/modern-final69-quantum-worker.mjs": "6091c2f6955779b4b1166e12666b3e73d9fa5e6394ac373700e1a6da83b1d621",
+    "assets/modern-final69-relativity-physics.mjs": "84e01c71da60007dde98aef95394d062ae328a6698417280bffaabe22d8ceb35",
+    "assets/modern-final69-photon-physics.mjs": "7b44836ee6a7f5e3a2adf0172ee3e3a0c154b113ea83058de0be4b939ce60eca",
+    "assets/modern-final69-compton-data.mjs": "36c55c5911205ee2bd62c864f1a56b4e5ad05861829c00224bd4def27f8da1b1",
+    "assets/modern-final69-atomic-physics.mjs": "845fc426f3c3505d94aa55c928343469a7c349c3d52a120ffd673ddedb51ca3b",
+    "assets/modern-final69-quantum-physics.mjs": "d9ab480e70970d9c0435798d70a69b9da03a073e34aceec2ff5a482cf23d4a21",
+    "assets/modern-final69-atomic-data.mjs": "6657cf2f031c6145e4acfed6f7aae2af30f57111323fe328f3a7a2e3e791fd36",
+    "assets/modern-final69-quantum-engine.mjs": "6a53b741e7b4037a06e08c6677bf8537dae83a1f50e3d6595156a9bcde17871d",
+    "assets/modern-final69-specs.mjs": "36ea6c9c003e687d368e49f1b62707a93215d7fb7ac991c23d47ac0c8364cb09",
+    "tools/modern-final69-compton-reference.mjs": "3e5214634b2b999a68dab84d8d56431ed602b95257c35d95f63b9dee6e84fe9e"
+  },
+  "testOutput": "✔ periodic table separates complete lanthanide/actinide chains and individual data (0.552542ms)\n✔ covalent solver resolves distance-dependent tunnelling split without nonfinite values (5.444125ms)\n✔ impurity eigenstates honor control variants and numerical CSV columns (9.546792ms)\n✔ two bound particles move from both wells with no nonfinite coordinates (2.5665ms)\n✔ Michelson photons meet only at the same optical-path step (0.087083ms)\n✔ river comoving coordinates preserve relative boat motion (0.154375ms)\n✔ curved potential is finite at origin and integration really moves (0.097208ms)\n✔ twin charts and both clocks share one source phase across turnaround (0.162208ms)\n✔ moving-observer pulse arrivals break simultaneity and source clocks synchronize locally (0.52375ms)\n✔ cavity and original Compton poses are deterministic finite source states (0.51325ms)\n✔ Franck-Hertz inelastic collision loses the selected excitation quantum (0.159625ms)\n✔ original Rodrigues projection preserves lengths and known missing spectral bins (0.256583ms)\n✔ static sources have no false playback range; original source controls have valid defaults (0.048875ms)\n✔ structured CSV safely quotes comma-containing numerical series (0.125834ms)\n✔ Franck-Hertz manual controls preserve current particles, stop tracking; tracking restarts at zero voltage (0.788125ms)\n✔ independent source sprite decoder preserves signed fixed-point scale, rotation, twips and frame transport (0.906792ms)\nℹ tests 16\nℹ suites 0\nℹ pass 16\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 63.384791\n"
+}

@@ -1,0 +1,1 @@
+import{quantumState}from'./modern-final69-quantum-physics.mjs';self.onmessage=e=>{const{id,s,p}=e.data;try{const q=s.type==='bound'?[quantumState(s,p),quantumState(s,{...p,mode:p.mode2})]:quantumState(s,p);self.postMessage({id,q});}catch(error){self.postMessage({id,error:String(error)});}};

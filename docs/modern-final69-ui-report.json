@@ -1,0 +1,1470 @@
+{
+  "method": "Actual generated reading pages at 320, 768, 1360 widths. Lazy nativeReady, source-specific SVG geometry, real input, play/pause/end replay and slower speed, static no timeline, dark text colors and overflow. Detailed SVG remains scrollable rather than shrinking below readable scale.",
+  "files": 21,
+  "cases": 63,
+  "fullEquivalence": false,
+  "originalRuntimeVerified": false,
+  "nativeModelHashes": {
+    "assets/native-modern-final69.mjs": "d7dd9ea3f929f170b1aad6b099c82deaa9493429b480276d7f27356b7f2fe267",
+    "assets/modern-final69-specs.mjs": "36ea6c9c003e687d368e49f1b62707a93215d7fb7ac991c23d47ac0c8364cb09",
+    "assets/modern-final69-quantum-worker.mjs": "6091c2f6955779b4b1166e12666b3e73d9fa5e6394ac373700e1a6da83b1d621",
+    "tools/modern-final69-browser-check.mjs": "31a67edc65501379dae1e312022f8731ea8b2e3a819cda95d4dfbbf18a9286b2"
+  },
+  "results": [
+    {
+      "id": "flash-43834abb48f3463d",
+      "type": "table",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-5-2-4.html#native-modern-final69-flash-43834abb48f3463d",
+      "failures": [],
+      "geometry": 118,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "element",
+        "val": 2,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(139, 204, 248)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-53b1f7b53747d01e",
+      "type": "compton",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-2-1-7.html#native-modern-final69-flash-53b1f7b53747d01e",
+      "failures": [],
+      "geometry": 5,
+      "graphHorizontalAccess": true,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-1140491ce19ba43a",
+      "type": "cavity",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-2-1-1.html#native-modern-final69-flash-1140491ce19ba43a",
+      "failures": [],
+      "geometry": 5,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "seed",
+        "val": 20,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-a79d576b4d9393cf",
+      "type": "franck",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-2-4-4.html#native-modern-final69-flash-a79d576b4d9393cf",
+      "failures": [],
+      "geometry": 7,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "voltage",
+        "val": 25,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 56,
+        "pauseStable": true,
+        "replay": 32,
+        "slow": 14
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(102, 152, 194)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-abc9f1ad0cf746d5",
+      "type": "spectrum",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-2-2-1.html#native-modern-final69-flash-abc9f1ad0cf746d5",
+      "failures": [],
+      "geometry": 58,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "yaw",
+        "val": 180,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-73be9774daba6348",
+      "type": "bond",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-6-1-4.html#native-modern-final69-flash-73be9774daba6348",
+      "failures": [],
+      "geometry": 5,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "distance",
+        "val": 0.6,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-9b41f82783cf8a46",
+      "type": "bound",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-4-7-1.html#native-modern-final69-flash-9b41f82783cf8a46",
+      "failures": [],
+      "geometry": 16,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "mode",
+        "val": 7,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-dec768b8e9c2034f",
+      "type": "river",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-1-2.html#native-modern-final69-flash-dec768b8e9c2034f",
+      "failures": [],
+      "geometry": 13,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "river",
+        "val": 9,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(102, 152, 194)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-88b7e17d5c10ff99",
+      "type": "michelson",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-1-2.html#native-modern-final69-flash-88b7e17d5c10ff99",
+      "failures": [],
+      "geometry": 11,
+      "graphHorizontalAccess": true,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-eb2235affe5d7d5f",
+      "type": "curved",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-9-2.html#native-modern-final69-flash-eb2235affe5d7d5f",
+      "failures": [],
+      "geometry": 24,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "x",
+        "val": 160,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-c8db8a44814f023b",
+      "type": "equiv",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-9-1.html#native-modern-final69-flash-c8db8a44814f023b",
+      "failures": [],
+      "geometry": 18,
+      "graphHorizontalAccess": true,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-668f1814a44090a8",
+      "type": "lightpath",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-9-1.html#native-modern-final69-flash-668f1814a44090a8",
+      "failures": [],
+      "geometry": 10,
+      "graphHorizontalAccess": true,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-2981dda64c3b445e",
+      "type": "worldline",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-5-3.html#native-modern-final69-flash-2981dda64c3b445e",
+      "failures": [],
+      "geometry": 7,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "x",
+        "val": 390,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-e80fec4ff9e94883",
+      "type": "twin",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-7-2.html#native-modern-final69-flash-e80fec4ff9e94883",
+      "failures": [],
+      "geometry": 7,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "beta",
+        "val": 0.99,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-ca65a61665935993",
+      "type": "twinresolve",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-7-1.html#native-modern-final69-flash-ca65a61665935993",
+      "failures": [],
+      "geometry": 6,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "beta",
+        "val": 0.99,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-113614d4bfcaccf9",
+      "type": "coincide",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-2-1.html#native-modern-final69-flash-113614d4bfcaccf9",
+      "failures": [],
+      "geometry": 297,
+      "graphHorizontalAccess": true,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(139, 204, 248)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-880647c22c26343c",
+      "type": "simultaneous",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-2-1.html#native-modern-final69-flash-880647c22c26343c",
+      "failures": [],
+      "geometry": 4,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "beta",
+        "val": 0.5,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-b9557638baf4eee6",
+      "type": "clocks",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-1-2-1.html#native-modern-final69-flash-b9557638baf4eee6",
+      "failures": [],
+      "geometry": 189,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "seed",
+        "val": 20,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 9,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-41f497a574da2503",
+      "type": "crystal",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-6.html#native-modern-final69-flash-41f497a574da2503",
+      "failures": [],
+      "geometry": 117,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "element",
+        "val": 2,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(139, 204, 248)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-acf2dab16134634a",
+      "type": "impurity",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-4-4.html#native-modern-final69-flash-acf2dab16134634a",
+      "failures": [],
+      "geometry": 14,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "factor",
+        "val": 1.5,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-c0b1169024f0a018",
+      "type": "semi",
+      "width": 320,
+      "url": "http://127.0.0.1:8775/lesson-6-8-4-1.html#native-modern-final69-flash-c0b1169024f0a018",
+      "failures": [],
+      "geometry": 72,
+      "graphHorizontalAccess": true,
+      "input": {
+        "key": "element",
+        "val": 2,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-43834abb48f3463d",
+      "type": "table",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-5-2-4.html#native-modern-final69-flash-43834abb48f3463d",
+      "failures": [],
+      "geometry": 118,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "element",
+        "val": 2,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(139, 204, 248)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-53b1f7b53747d01e",
+      "type": "compton",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-2-1-7.html#native-modern-final69-flash-53b1f7b53747d01e",
+      "failures": [],
+      "geometry": 5,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-1140491ce19ba43a",
+      "type": "cavity",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-2-1-1.html#native-modern-final69-flash-1140491ce19ba43a",
+      "failures": [],
+      "geometry": 5,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "seed",
+        "val": 20,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-a79d576b4d9393cf",
+      "type": "franck",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-2-4-4.html#native-modern-final69-flash-a79d576b4d9393cf",
+      "failures": [],
+      "geometry": 7,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "voltage",
+        "val": 25,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 56,
+        "pauseStable": true,
+        "replay": 32,
+        "slow": 14
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(102, 152, 194)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-abc9f1ad0cf746d5",
+      "type": "spectrum",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-2-2-1.html#native-modern-final69-flash-abc9f1ad0cf746d5",
+      "failures": [],
+      "geometry": 58,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "yaw",
+        "val": 180,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-73be9774daba6348",
+      "type": "bond",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-6-1-4.html#native-modern-final69-flash-73be9774daba6348",
+      "failures": [],
+      "geometry": 5,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "distance",
+        "val": 0.6,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-9b41f82783cf8a46",
+      "type": "bound",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-4-7-1.html#native-modern-final69-flash-9b41f82783cf8a46",
+      "failures": [],
+      "geometry": 16,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "mode",
+        "val": 7,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-dec768b8e9c2034f",
+      "type": "river",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-1-2.html#native-modern-final69-flash-dec768b8e9c2034f",
+      "failures": [],
+      "geometry": 13,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "river",
+        "val": 9,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(102, 152, 194)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-88b7e17d5c10ff99",
+      "type": "michelson",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-1-2.html#native-modern-final69-flash-88b7e17d5c10ff99",
+      "failures": [],
+      "geometry": 11,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-eb2235affe5d7d5f",
+      "type": "curved",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-9-2.html#native-modern-final69-flash-eb2235affe5d7d5f",
+      "failures": [],
+      "geometry": 24,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "x",
+        "val": 160,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-c8db8a44814f023b",
+      "type": "equiv",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-9-1.html#native-modern-final69-flash-c8db8a44814f023b",
+      "failures": [],
+      "geometry": 18,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-668f1814a44090a8",
+      "type": "lightpath",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-9-1.html#native-modern-final69-flash-668f1814a44090a8",
+      "failures": [],
+      "geometry": 10,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-2981dda64c3b445e",
+      "type": "worldline",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-5-3.html#native-modern-final69-flash-2981dda64c3b445e",
+      "failures": [],
+      "geometry": 7,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "x",
+        "val": 390,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-e80fec4ff9e94883",
+      "type": "twin",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-7-2.html#native-modern-final69-flash-e80fec4ff9e94883",
+      "failures": [],
+      "geometry": 7,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "beta",
+        "val": 0.99,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-ca65a61665935993",
+      "type": "twinresolve",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-7-1.html#native-modern-final69-flash-ca65a61665935993",
+      "failures": [],
+      "geometry": 6,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "beta",
+        "val": 0.99,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-113614d4bfcaccf9",
+      "type": "coincide",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-2-1.html#native-modern-final69-flash-113614d4bfcaccf9",
+      "failures": [],
+      "geometry": 297,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(139, 204, 248)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-880647c22c26343c",
+      "type": "simultaneous",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-2-1.html#native-modern-final69-flash-880647c22c26343c",
+      "failures": [],
+      "geometry": 4,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "beta",
+        "val": 0.5,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-b9557638baf4eee6",
+      "type": "clocks",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-1-2-1.html#native-modern-final69-flash-b9557638baf4eee6",
+      "failures": [],
+      "geometry": 189,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "seed",
+        "val": 20,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-41f497a574da2503",
+      "type": "crystal",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-6.html#native-modern-final69-flash-41f497a574da2503",
+      "failures": [],
+      "geometry": 117,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "element",
+        "val": 2,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(139, 204, 248)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-acf2dab16134634a",
+      "type": "impurity",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-4-4.html#native-modern-final69-flash-acf2dab16134634a",
+      "failures": [],
+      "geometry": 14,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "factor",
+        "val": 1.5,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-c0b1169024f0a018",
+      "type": "semi",
+      "width": 768,
+      "url": "http://127.0.0.1:8775/lesson-6-8-4-1.html#native-modern-final69-flash-c0b1169024f0a018",
+      "failures": [],
+      "geometry": 72,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "element",
+        "val": 2,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-43834abb48f3463d",
+      "type": "table",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-5-2-4.html#native-modern-final69-flash-43834abb48f3463d",
+      "failures": [],
+      "geometry": 118,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "element",
+        "val": 2,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(139, 204, 248)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-53b1f7b53747d01e",
+      "type": "compton",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-2-1-7.html#native-modern-final69-flash-53b1f7b53747d01e",
+      "failures": [],
+      "geometry": 5,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-1140491ce19ba43a",
+      "type": "cavity",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-2-1-1.html#native-modern-final69-flash-1140491ce19ba43a",
+      "failures": [],
+      "geometry": 5,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "seed",
+        "val": 20,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-a79d576b4d9393cf",
+      "type": "franck",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-2-4-4.html#native-modern-final69-flash-a79d576b4d9393cf",
+      "failures": [],
+      "geometry": 7,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "voltage",
+        "val": 25,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 56,
+        "pauseStable": true,
+        "replay": 32,
+        "slow": 14
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(102, 152, 194)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-abc9f1ad0cf746d5",
+      "type": "spectrum",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-2-2-1.html#native-modern-final69-flash-abc9f1ad0cf746d5",
+      "failures": [],
+      "geometry": 58,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "yaw",
+        "val": 180,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-73be9774daba6348",
+      "type": "bond",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-6-1-4.html#native-modern-final69-flash-73be9774daba6348",
+      "failures": [],
+      "geometry": 5,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "distance",
+        "val": 0.6,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-9b41f82783cf8a46",
+      "type": "bound",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-4-7-1.html#native-modern-final69-flash-9b41f82783cf8a46",
+      "failures": [],
+      "geometry": 16,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "mode",
+        "val": 7,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-dec768b8e9c2034f",
+      "type": "river",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-1-2.html#native-modern-final69-flash-dec768b8e9c2034f",
+      "failures": [],
+      "geometry": 13,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "river",
+        "val": 9,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(102, 152, 194)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-88b7e17d5c10ff99",
+      "type": "michelson",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-1-2.html#native-modern-final69-flash-88b7e17d5c10ff99",
+      "failures": [],
+      "geometry": 11,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-eb2235affe5d7d5f",
+      "type": "curved",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-9-2.html#native-modern-final69-flash-eb2235affe5d7d5f",
+      "failures": [],
+      "geometry": 24,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "x",
+        "val": 160,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-c8db8a44814f023b",
+      "type": "equiv",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-9-1.html#native-modern-final69-flash-c8db8a44814f023b",
+      "failures": [],
+      "geometry": 18,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-668f1814a44090a8",
+      "type": "lightpath",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-9-1.html#native-modern-final69-flash-668f1814a44090a8",
+      "failures": [],
+      "geometry": 10,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-2981dda64c3b445e",
+      "type": "worldline",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-5-3.html#native-modern-final69-flash-2981dda64c3b445e",
+      "failures": [],
+      "geometry": 7,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "x",
+        "val": 390,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-e80fec4ff9e94883",
+      "type": "twin",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-7-2.html#native-modern-final69-flash-e80fec4ff9e94883",
+      "failures": [],
+      "geometry": 7,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "beta",
+        "val": 0.99,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 9,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-ca65a61665935993",
+      "type": "twinresolve",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-7-1.html#native-modern-final69-flash-ca65a61665935993",
+      "failures": [],
+      "geometry": 6,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "beta",
+        "val": 0.99,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-113614d4bfcaccf9",
+      "type": "coincide",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-2-1.html#native-modern-final69-flash-113614d4bfcaccf9",
+      "failures": [],
+      "geometry": 297,
+      "graphHorizontalAccess": false,
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(139, 204, 248)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-880647c22c26343c",
+      "type": "simultaneous",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-2-1.html#native-modern-final69-flash-880647c22c26343c",
+      "failures": [],
+      "geometry": 4,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "beta",
+        "val": 0.5,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-b9557638baf4eee6",
+      "type": "clocks",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-1-2-1.html#native-modern-final69-flash-b9557638baf4eee6",
+      "failures": [],
+      "geometry": 189,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "seed",
+        "val": 20,
+        "geometryChanged": true
+      },
+      "play": {
+        "n": 14,
+        "pauseStable": true,
+        "replay": 8,
+        "slow": 3
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-41f497a574da2503",
+      "type": "crystal",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-1-6.html#native-modern-final69-flash-41f497a574da2503",
+      "failures": [],
+      "geometry": 117,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "element",
+        "val": 2,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(139, 204, 248)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-acf2dab16134634a",
+      "type": "impurity",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-4-4.html#native-modern-final69-flash-acf2dab16134634a",
+      "failures": [],
+      "geometry": 14,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "factor",
+        "val": 1.5,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    },
+    {
+      "id": "flash-c0b1169024f0a018",
+      "type": "semi",
+      "width": 1360,
+      "url": "http://127.0.0.1:8775/lesson-6-8-4-1.html#native-modern-final69-flash-c0b1169024f0a018",
+      "failures": [],
+      "geometry": 72,
+      "graphHorizontalAccess": false,
+      "input": {
+        "key": "element",
+        "val": 2,
+        "geometryChanged": true
+      },
+      "dark": {
+        "text": "rgb(230, 237, 242)",
+        "fill": "rgb(230, 237, 242)",
+        "stroke": "rgb(190, 205, 213)"
+      },
+      "passed": true
+    }
+  ]
+}

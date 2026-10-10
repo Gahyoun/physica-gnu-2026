@@ -1,0 +1,1253 @@
+{
+  "date": "2026-10-10T00:00:30.742Z",
+  "files": 20,
+  "comparisons": 6505341,
+  "maxAbsoluteError": 0,
+  "method": "Original extracted ActionScript independently parsed into test-only dynamically scoped method interpreters. No native program source read by the reference emitter. Production uses different lexical member rewriting. Shared vector adapter only; original math body preserved.",
+  "originalRuntime": false,
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-88dcd0ec7ac4ff7a",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/aberComa2.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 4,
+      "comparisons": 2547928,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 1520,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "RayTracer/Point2D.as",
+          "sha256": "74c4bad9691fe0d351cac254ae9a880de8aa6a4049d30f030ed571cf9577af68",
+          "currentSHA256": "74c4bad9691fe0d351cac254ae9a880de8aa6a4049d30f030ed571cf9577af68"
+        },
+        {
+          "path": "RayTracer/IndexField.as",
+          "sha256": "4ec58c10cc0b1d7f6f3b16bdc70d2cf6d491e78badacc59ad424d382058f76ad",
+          "currentSHA256": "4ec58c10cc0b1d7f6f3b16bdc70d2cf6d491e78badacc59ad424d382058f76ad"
+        },
+        {
+          "path": "RayTracer/FillStyle.as",
+          "sha256": "c109f1e3f01a5942521871ef18b2571d7c380231c6251d0dff6a843673a176d1",
+          "currentSHA256": "c109f1e3f01a5942521871ef18b2571d7c380231c6251d0dff6a843673a176d1"
+        },
+        {
+          "path": "RayTracer/EGraphics.as",
+          "sha256": "feeb9fa7ccbb3e367118d5c132d38083e3cbf5fb9c2dfb8f4eb2372939c78e67",
+          "currentSHA256": "feeb9fa7ccbb3e367118d5c132d38083e3cbf5fb9c2dfb8f4eb2372939c78e67"
+        },
+        {
+          "path": "RayTracer/Prototype.as",
+          "sha256": "4ab654b83c6c73b593337008201d9f4980df6afde6d4e6788938d5b47748bbac",
+          "currentSHA256": "4ab654b83c6c73b593337008201d9f4980df6afde6d4e6788938d5b47748bbac"
+        },
+        {
+          "path": "RayTracer/ThickLens.as",
+          "sha256": "b44582dd98ced1433a83966668686c22fd1f7f23939c0ab1f40efcf494d31b88",
+          "currentSHA256": "b44582dd98ced1433a83966668686c22fd1f7f23939c0ab1f40efcf494d31b88"
+        },
+        {
+          "path": "RayTracer/LineStyle.as",
+          "sha256": "d731ffa89f43d29d89196639b26323e401f2710a54570210f0ae4d93d56482e1",
+          "currentSHA256": "d731ffa89f43d29d89196639b26323e401f2710a54570210f0ae4d93d56482e1"
+        },
+        {
+          "path": "RayTracer/ScreenCoord.as",
+          "sha256": "a17d5fdc2eccab4d5cd41de75524660a3f6f73cfa1e87a4a4c18a8373d469cc4",
+          "currentSHA256": "a17d5fdc2eccab4d5cd41de75524660a3f6f73cfa1e87a4a4c18a8373d469cc4"
+        },
+        {
+          "path": "RayTracer/Rindex.as",
+          "sha256": "88d02247fc8d5c6fe9d48b3fd7f295d76d37fb76c961df64f3c7de3e67f81709",
+          "currentSHA256": "88d02247fc8d5c6fe9d48b3fd7f295d76d37fb76c961df64f3c7de3e67f81709"
+        },
+        {
+          "path": "RayTracer/RayTrace.as",
+          "sha256": "4671019da1743c5f25f207dbfbfe162f034de5064384a200ad9d98e5e5938823",
+          "currentSHA256": "4671019da1743c5f25f207dbfbfe162f034de5064384a200ad9d98e5e5938823"
+        },
+        {
+          "path": "RayTracer/WaveFront.as",
+          "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
+          "currentSHA256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
+        },
+        {
+          "path": "RayTracer/CoordTrans.as",
+          "sha256": "a7cd8719744bc96191b40738639704b69ecc8c577e47348e4ff4a8f5fa6f8108",
+          "currentSHA256": "a7cd8719744bc96191b40738639704b69ecc8c577e47348e4ff4a8f5fa6f8108"
+        },
+        {
+          "path": "aberComa2_w_fla/MainTimeline.as",
+          "sha256": "eefc610ee47530864032add1d12c1872f58965cddd04f2f9fe553f5826a3eca2",
+          "currentSHA256": "eefc610ee47530864032add1d12c1872f58965cddd04f2f9fe553f5826a3eca2"
+        }
+      ],
+      "programSHA256": "3b97e6973d59ee2b1f98d955a13da4a9593958487cf1744f691e12f86743e55e",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-a88e894980293e64",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/aberSpherical4.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 4,
+      "comparisons": 1839392,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 1520,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "RayTracer/Point2D.as",
+          "sha256": "74c4bad9691fe0d351cac254ae9a880de8aa6a4049d30f030ed571cf9577af68",
+          "currentSHA256": "74c4bad9691fe0d351cac254ae9a880de8aa6a4049d30f030ed571cf9577af68"
+        },
+        {
+          "path": "RayTracer/IndexField.as",
+          "sha256": "4ec58c10cc0b1d7f6f3b16bdc70d2cf6d491e78badacc59ad424d382058f76ad",
+          "currentSHA256": "4ec58c10cc0b1d7f6f3b16bdc70d2cf6d491e78badacc59ad424d382058f76ad"
+        },
+        {
+          "path": "RayTracer/FillStyle.as",
+          "sha256": "c109f1e3f01a5942521871ef18b2571d7c380231c6251d0dff6a843673a176d1",
+          "currentSHA256": "c109f1e3f01a5942521871ef18b2571d7c380231c6251d0dff6a843673a176d1"
+        },
+        {
+          "path": "RayTracer/EGraphics.as",
+          "sha256": "feeb9fa7ccbb3e367118d5c132d38083e3cbf5fb9c2dfb8f4eb2372939c78e67",
+          "currentSHA256": "feeb9fa7ccbb3e367118d5c132d38083e3cbf5fb9c2dfb8f4eb2372939c78e67"
+        },
+        {
+          "path": "RayTracer/Prototype.as",
+          "sha256": "4ab654b83c6c73b593337008201d9f4980df6afde6d4e6788938d5b47748bbac",
+          "currentSHA256": "4ab654b83c6c73b593337008201d9f4980df6afde6d4e6788938d5b47748bbac"
+        },
+        {
+          "path": "RayTracer/ThickLens.as",
+          "sha256": "b44582dd98ced1433a83966668686c22fd1f7f23939c0ab1f40efcf494d31b88",
+          "currentSHA256": "b44582dd98ced1433a83966668686c22fd1f7f23939c0ab1f40efcf494d31b88"
+        },
+        {
+          "path": "RayTracer/LineStyle.as",
+          "sha256": "d731ffa89f43d29d89196639b26323e401f2710a54570210f0ae4d93d56482e1",
+          "currentSHA256": "d731ffa89f43d29d89196639b26323e401f2710a54570210f0ae4d93d56482e1"
+        },
+        {
+          "path": "RayTracer/ScreenCoord.as",
+          "sha256": "a17d5fdc2eccab4d5cd41de75524660a3f6f73cfa1e87a4a4c18a8373d469cc4",
+          "currentSHA256": "a17d5fdc2eccab4d5cd41de75524660a3f6f73cfa1e87a4a4c18a8373d469cc4"
+        },
+        {
+          "path": "RayTracer/Rindex.as",
+          "sha256": "88d02247fc8d5c6fe9d48b3fd7f295d76d37fb76c961df64f3c7de3e67f81709",
+          "currentSHA256": "88d02247fc8d5c6fe9d48b3fd7f295d76d37fb76c961df64f3c7de3e67f81709"
+        },
+        {
+          "path": "RayTracer/RayTrace.as",
+          "sha256": "4671019da1743c5f25f207dbfbfe162f034de5064384a200ad9d98e5e5938823",
+          "currentSHA256": "4671019da1743c5f25f207dbfbfe162f034de5064384a200ad9d98e5e5938823"
+        },
+        {
+          "path": "RayTracer/WaveFront.as",
+          "sha256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce",
+          "currentSHA256": "47a5c33b2381c0082aeb421220ba35e69ee5e1551bd6ab87891c4673981ab4ce"
+        },
+        {
+          "path": "RayTracer/CoordTrans.as",
+          "sha256": "a7cd8719744bc96191b40738639704b69ecc8c577e47348e4ff4a8f5fa6f8108",
+          "currentSHA256": "a7cd8719744bc96191b40738639704b69ecc8c577e47348e4ff4a8f5fa6f8108"
+        },
+        {
+          "path": "aberSpherical4_w_fla/MainTimeline.as",
+          "sha256": "46aa6914b2d148a9ab3d3c826a571867bace68f5827b560c6841987d05017d15",
+          "currentSHA256": "46aa6914b2d148a9ab3d3c826a571867bace68f5827b560c6841987d05017d15"
+        }
+      ],
+      "programSHA256": "96eeff5a5f1eeee03f7d476f59a2f1b787370d7a316f5496bd5f6929f5ea868d",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-a503a95f16f31f43",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/phaseAberImage.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 59,
+      "comparisons": 70564,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 19293,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_27/CLIPACTIONRECORD on(construct).as",
+          "sha256": "6f4d754df664d25ea21c186193f4178f2faccb940eed00898a3f97398480ccb7",
+          "currentSHA256": "6f4d754df664d25ea21c186193f4178f2faccb940eed00898a3f97398480ccb7"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_28/CLIPACTIONRECORD on(construct).as",
+          "sha256": "6f4d754df664d25ea21c186193f4178f2faccb940eed00898a3f97398480ccb7",
+          "currentSHA256": "6f4d754df664d25ea21c186193f4178f2faccb940eed00898a3f97398480ccb7"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_29/CLIPACTIONRECORD on(construct).as",
+          "sha256": "1ce338e31500705b82a49d48e7ed195e04a9c28c01908e23ec27a204fcff751c",
+          "currentSHA256": "1ce338e31500705b82a49d48e7ed195e04a9c28c01908e23ec27a204fcff751c"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_30/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_31/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_32/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_33/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_34/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_35/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_36/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_37/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_38/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_39/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_40/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_41/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_42/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_13_KsSlider2_43/CLIPACTIONRECORD on(construct).as",
+          "sha256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218",
+          "currentSHA256": "bb2348aa7bcf0857a234c22d7ebd1cc0da596ce57054ab3ca0049e2f9acf9218"
+        },
+        {
+          "path": "frame_1/PlaceObject2_11_KsToggleBtn2_44/CLIPACTIONRECORD on(construct).as",
+          "sha256": "74ae10008918d48759232bff344146b0e53f970763ea95629037d977d1b49b45",
+          "currentSHA256": "74ae10008918d48759232bff344146b0e53f970763ea95629037d977d1b49b45"
+        },
+        {
+          "path": "frame_1/PlaceObject2_11_KsToggleBtn2_45/CLIPACTIONRECORD on(construct).as",
+          "sha256": "a3d790714bd4adff0656eb4d7e755d20e466ce5570118a009ed35fa54d405257",
+          "currentSHA256": "a3d790714bd4adff0656eb4d7e755d20e466ce5570118a009ed35fa54d405257"
+        },
+        {
+          "path": "frame_1/PlaceObject2_8_KsSpinor2_46/CLIPACTIONRECORD on(construct).as",
+          "sha256": "29f03911ba7ef870cc25e50024e23249251f4770a9d91cd6f34d4272f39116ed",
+          "currentSHA256": "29f03911ba7ef870cc25e50024e23249251f4770a9d91cd6f34d4272f39116ed"
+        },
+        {
+          "path": "__Packages/DirObject.as",
+          "sha256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362",
+          "currentSHA256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362"
+        },
+        {
+          "path": "__Packages/SpecialFtn.as",
+          "sha256": "7bba8596a8af73641be9f8917ce48391258363dbb301d5cc6f5f5b020b053b16",
+          "currentSHA256": "7bba8596a8af73641be9f8917ce48391258363dbb301d5cc6f5f5b020b053b16"
+        },
+        {
+          "path": "__Packages/Pupil.as",
+          "sha256": "08d46d26fccc28a3027722621d46c73a235d4200ac31257f4105b27ec8f10ad5",
+          "currentSHA256": "08d46d26fccc28a3027722621d46c73a235d4200ac31257f4105b27ec8f10ad5"
+        },
+        {
+          "path": "__Packages/Complex.as",
+          "sha256": "cda49b45ebdb629d506663a30317f3282b6d5dd893ae84906a8d6ab10a11a4c9",
+          "currentSHA256": "cda49b45ebdb629d506663a30317f3282b6d5dd893ae84906a8d6ab10a11a4c9"
+        },
+        {
+          "path": "__Packages/FillColor.as",
+          "sha256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219",
+          "currentSHA256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219"
+        },
+        {
+          "path": "__Packages/Ellipse.as",
+          "sha256": "9ca590a0694ffe42a55e6968305543e5183ad7e914b8afdebe449cf74c9a16ec",
+          "currentSHA256": "9ca590a0694ffe42a55e6968305543e5183ad7e914b8afdebe449cf74c9a16ec"
+        },
+        {
+          "path": "__Packages/PtObject.as",
+          "sha256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16",
+          "currentSHA256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16"
+        },
+        {
+          "path": "__Packages/Vector.as",
+          "sha256": "fe76f8da47427d74a78b447e906f1e0b976edc077c643f7d3341bfc792762c56",
+          "currentSHA256": "fe76f8da47427d74a78b447e906f1e0b976edc077c643f7d3341bfc792762c56"
+        },
+        {
+          "path": "__Packages/LineColor.as",
+          "sha256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d",
+          "currentSHA256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d"
+        },
+        {
+          "path": "__Packages/Cam.as",
+          "sha256": "6cd44a4d764cf75578b50362f4cef1ac226cb1a0787a41b1ac41e92b9006d03a",
+          "currentSHA256": "6cd44a4d764cf75578b50362f4cef1ac226cb1a0787a41b1ac41e92b9006d03a"
+        },
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "aaa1d7e2bcae6e28f96f87d4bd22e12936381c4fa14ae65e8e5539df1893a332",
+          "currentSHA256": "aaa1d7e2bcae6e28f96f87d4bd22e12936381c4fa14ae65e8e5539df1893a332"
+        },
+        {
+          "path": "frame_1/DoAction_2.as",
+          "sha256": "5a13112b8fc3b8c69e2bbc5a56291c2c2be853a3bc5f8b5d82cd7e57f1bbc794",
+          "currentSHA256": "5a13112b8fc3b8c69e2bbc5a56291c2c2be853a3bc5f8b5d82cd7e57f1bbc794"
+        },
+        {
+          "path": "frame_1/DoAction_3.as",
+          "sha256": "dfa97d6ae3305f7bfae800709c8a68bd92899014313d624ddde279c4100e49b5",
+          "currentSHA256": "dfa97d6ae3305f7bfae800709c8a68bd92899014313d624ddde279c4100e49b5"
+        }
+      ],
+      "programSHA256": "c1e6939e2562dd2e5bf2e690421894c6e43de3650a3470d68b7062dd2c6f2755",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-833b671bb8f1fdf2",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/pupilSpherical.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 6,
+      "comparisons": 7098,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 1860,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "frame_1/PlaceObject2_11_KsSlider2_16/CLIPACTIONRECORD on(construct).as",
+          "sha256": "242fe8dfd8508d6d2444c9167b74d36d43426a92134c5416b22fff88049241dc",
+          "currentSHA256": "242fe8dfd8508d6d2444c9167b74d36d43426a92134c5416b22fff88049241dc"
+        },
+        {
+          "path": "__Packages/DirObject.as",
+          "sha256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362",
+          "currentSHA256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362"
+        },
+        {
+          "path": "__Packages/SpecialFtn.as",
+          "sha256": "8a7cef686e7caadacbb728db0682bdf7abb765a0012d06b9f7ba8212886ae017",
+          "currentSHA256": "8a7cef686e7caadacbb728db0682bdf7abb765a0012d06b9f7ba8212886ae017"
+        },
+        {
+          "path": "__Packages/Pupil.as",
+          "sha256": "08d46d26fccc28a3027722621d46c73a235d4200ac31257f4105b27ec8f10ad5",
+          "currentSHA256": "08d46d26fccc28a3027722621d46c73a235d4200ac31257f4105b27ec8f10ad5"
+        },
+        {
+          "path": "__Packages/FillColor.as",
+          "sha256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219",
+          "currentSHA256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219"
+        },
+        {
+          "path": "__Packages/Ellipse.as",
+          "sha256": "9ca590a0694ffe42a55e6968305543e5183ad7e914b8afdebe449cf74c9a16ec",
+          "currentSHA256": "9ca590a0694ffe42a55e6968305543e5183ad7e914b8afdebe449cf74c9a16ec"
+        },
+        {
+          "path": "__Packages/PtObject.as",
+          "sha256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16",
+          "currentSHA256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16"
+        },
+        {
+          "path": "__Packages/Vector.as",
+          "sha256": "fe76f8da47427d74a78b447e906f1e0b976edc077c643f7d3341bfc792762c56",
+          "currentSHA256": "fe76f8da47427d74a78b447e906f1e0b976edc077c643f7d3341bfc792762c56"
+        },
+        {
+          "path": "__Packages/LineColor.as",
+          "sha256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d",
+          "currentSHA256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d"
+        },
+        {
+          "path": "__Packages/Cam.as",
+          "sha256": "6cd44a4d764cf75578b50362f4cef1ac226cb1a0787a41b1ac41e92b9006d03a",
+          "currentSHA256": "6cd44a4d764cf75578b50362f4cef1ac226cb1a0787a41b1ac41e92b9006d03a"
+        },
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "3e02f42e0fe09bde320497918b3c961623050ca685298007a9db4accca0a2076",
+          "currentSHA256": "3e02f42e0fe09bde320497918b3c961623050ca685298007a9db4accca0a2076"
+        },
+        {
+          "path": "frame_1/DoAction_2.as",
+          "sha256": "c7f57376a99f2e949a6bc36e74f0086bbe6478c513850f50b6f961a61360a051",
+          "currentSHA256": "c7f57376a99f2e949a6bc36e74f0086bbe6478c513850f50b6f961a61360a051"
+        }
+      ],
+      "programSHA256": "bdc8deb38ee0340509ca66e4560b4386320b43b073ba2770853c1b4c17c42658",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-c8db27599ba6e756",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/circle/rp2.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 14,
+      "comparisons": 31164,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 112,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "rp2_w_fla/MainTimeline.as",
+          "sha256": "ec1f8c8ea7d4ba3e14501b5bee7a4b1daa792835c9456502937dff858253a281",
+          "currentSHA256": "ec1f8c8ea7d4ba3e14501b5bee7a4b1daa792835c9456502937dff858253a281"
+        }
+      ],
+      "programSHA256": "dcccc6e9c0bb169ffa7aee595309d80aa07678ae5969f386f10b05faf3fc5f58",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-5b4df2e3e2d7f004",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/astigmatism.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 2,
+      "comparisons": 1306,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 322,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "Sprite3D/Triangle.as",
+          "sha256": "cc0ca18741c1bc4a24266c9e0444187e98561147bcc8d74188065fcd92419117",
+          "currentSHA256": "cc0ca18741c1bc4a24266c9e0444187e98561147bcc8d74188065fcd92419117"
+        },
+        {
+          "path": "Sprite3D/Point3D.as",
+          "sha256": "cbfca45fb8aae59e8435d6db0ca987c382c0d7f3ca60e694b2980f420e46c903",
+          "currentSHA256": "cbfca45fb8aae59e8435d6db0ca987c382c0d7f3ca60e694b2980f420e46c903"
+        },
+        {
+          "path": "Sprite3D/Sprite3D.as",
+          "sha256": "ebb1bee03e4a84d4fc33de57f4048475f7a9f1eba214a464994a7a4a20cd1cd8",
+          "currentSHA256": "ebb1bee03e4a84d4fc33de57f4048475f7a9f1eba214a464994a7a4a20cd1cd8"
+        },
+        {
+          "path": "Sprite3D/Cylinder.as",
+          "sha256": "79019cffcdfc568f90626b27432bef174305d87baff373e1ac1c75890c387fa8",
+          "currentSHA256": "79019cffcdfc568f90626b27432bef174305d87baff373e1ac1c75890c387fa8"
+        },
+        {
+          "path": "Sprite3D/FillStyle.as",
+          "sha256": "7b145effde70a497f2603c1b024d7a3d97da9f789c783d7a592ebdfe266db6c6",
+          "currentSHA256": "7b145effde70a497f2603c1b024d7a3d97da9f789c783d7a592ebdfe266db6c6"
+        },
+        {
+          "path": "Sprite3D/Ellipse.as",
+          "sha256": "42e436713514ee5d28d545f556d452251851deab2087580a3cc415b16feb8303",
+          "currentSHA256": "42e436713514ee5d28d545f556d452251851deab2087580a3cc415b16feb8303"
+        },
+        {
+          "path": "Sprite3D/PtObject.as",
+          "sha256": "d97783cebbad3c00ffbd94781c630a83d83bcc19a84b65f1892024087be0c086",
+          "currentSHA256": "d97783cebbad3c00ffbd94781c630a83d83bcc19a84b65f1892024087be0c086"
+        },
+        {
+          "path": "Sprite3D/LineStyle.as",
+          "sha256": "7fa6288fedf425f28cebcfd3402a9196e83e4f97cccd557e0e808e253eeb0083",
+          "currentSHA256": "7fa6288fedf425f28cebcfd3402a9196e83e4f97cccd557e0e808e253eeb0083"
+        },
+        {
+          "path": "Sprite3D/Arrow.as",
+          "sha256": "9c5bd818d82be93847891b6c4c8e7fd2bc0cb30b52cf34c068408086632110c5",
+          "currentSHA256": "9c5bd818d82be93847891b6c4c8e7fd2bc0cb30b52cf34c068408086632110c5"
+        },
+        {
+          "path": "Sprite3D/Cam.as",
+          "sha256": "e12921bf5d1c59c44f45a5e812625d975d9bdb94eef4f83eb62d0e131b8a1a30",
+          "currentSHA256": "e12921bf5d1c59c44f45a5e812625d975d9bdb94eef4f83eb62d0e131b8a1a30"
+        },
+        {
+          "path": "Sprite3D/Line.as",
+          "sha256": "75bd2ccda4cb017f99e9b9aaff1c7a9626f4fe816d583e27dd4f975215e40f83",
+          "currentSHA256": "75bd2ccda4cb017f99e9b9aaff1c7a9626f4fe816d583e27dd4f975215e40f83"
+        },
+        {
+          "path": "astigmatism_w_fla/MainTimeline.as",
+          "sha256": "50f255d984b5e6ce46ccb7218d10011f49fa149380cbb4b2d5b998e3b5a434f1",
+          "currentSHA256": "50f255d984b5e6ce46ccb7218d10011f49fa149380cbb4b2d5b998e3b5a434f1"
+        }
+      ],
+      "programSHA256": "d88ffd06dc2b66a0e63e89ad1f465501b97ed6a14800cd07bc9966ac250a90a0",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-e1f3b51663ebef1c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/fiber/totalref3.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 5,
+      "comparisons": 39930,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 9021,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "frame_1/PlaceObject2_22_8/CLIPACTIONRECORD onClipEvent(load).as",
+          "sha256": "bdad9840f5b83e2501d9109c04c6014a37272acf43223d954685150058274348",
+          "currentSHA256": "bdad9840f5b83e2501d9109c04c6014a37272acf43223d954685150058274348"
+        },
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "ae995a1d06c766d548ed868e2c33ebcfbf7b903604a13d35da723e33485d894c",
+          "currentSHA256": "ae995a1d06c766d548ed868e2c33ebcfbf7b903604a13d35da723e33485d894c"
+        },
+        {
+          "path": "frame_2/DoAction.as",
+          "sha256": "a95fe11713717a5051446b824709555e233547996088297f014d315aad0e23d0",
+          "currentSHA256": "a95fe11713717a5051446b824709555e233547996088297f014d315aad0e23d0"
+        }
+      ],
+      "programSHA256": "29a04aa2a98d42bf806191f43f2ebe207df885a0fcfed9ed9a6172b71e63b27a",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-bcf751c6bdf6ac2e",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/fresnelshape.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 1,
+      "comparisons": 1390,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 2,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "RayTracer/Point2D.as",
+          "sha256": "6364895c5766ac9076d5cefd7eed7a2d6fb25d5909c52c85c1f41ccea786855e",
+          "currentSHA256": "6364895c5766ac9076d5cefd7eed7a2d6fb25d5909c52c85c1f41ccea786855e"
+        },
+        {
+          "path": "RayTracer/IndexField.as",
+          "sha256": "4ec58c10cc0b1d7f6f3b16bdc70d2cf6d491e78badacc59ad424d382058f76ad",
+          "currentSHA256": "4ec58c10cc0b1d7f6f3b16bdc70d2cf6d491e78badacc59ad424d382058f76ad"
+        },
+        {
+          "path": "RayTracer/FillStyle.as",
+          "sha256": "7c808b587a9e43968f87f4570580e2fe5036183c393c19054c61c86efe029f57",
+          "currentSHA256": "7c808b587a9e43968f87f4570580e2fe5036183c393c19054c61c86efe029f57"
+        },
+        {
+          "path": "RayTracer/EGraphics.as",
+          "sha256": "7a1524db5a364dba11085ed47f7fb6991c3fe561cdd731431654d02e7a66d952",
+          "currentSHA256": "7a1524db5a364dba11085ed47f7fb6991c3fe561cdd731431654d02e7a66d952"
+        },
+        {
+          "path": "RayTracer/LineStyle.as",
+          "sha256": "d731ffa89f43d29d89196639b26323e401f2710a54570210f0ae4d93d56482e1",
+          "currentSHA256": "d731ffa89f43d29d89196639b26323e401f2710a54570210f0ae4d93d56482e1"
+        },
+        {
+          "path": "RayTracer/Fresnel.as",
+          "sha256": "2ecffd2ce41aff02e1f1050cee93d4ba375d7cf6feefd808e3d3d5543361b32b",
+          "currentSHA256": "2ecffd2ce41aff02e1f1050cee93d4ba375d7cf6feefd808e3d3d5543361b32b"
+        },
+        {
+          "path": "RayTracer/Rindex.as",
+          "sha256": "452b98b08f2f55e1ee277dfe74f1ab6971b96dc24569efa52743e8633208fe99",
+          "currentSHA256": "452b98b08f2f55e1ee277dfe74f1ab6971b96dc24569efa52743e8633208fe99"
+        },
+        {
+          "path": "RayTracer/CoordTrans.as",
+          "sha256": "a7cd8719744bc96191b40738639704b69ecc8c577e47348e4ff4a8f5fa6f8108",
+          "currentSHA256": "a7cd8719744bc96191b40738639704b69ecc8c577e47348e4ff4a8f5fa6f8108"
+        },
+        {
+          "path": "fresnelshape_w_fla/MainTimeline.as",
+          "sha256": "5f39b4331120d0c2866fc7aab36078972811822304a552c3124b97b7517d3c60",
+          "currentSHA256": "5f39b4331120d0c2866fc7aab36078972811822304a552c3124b97b7517d3c60"
+        }
+      ],
+      "programSHA256": "e767b1c34d0bd2d8c7e9216edb1b0438b260897880e5dbb6de915803984b9c07",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-326e10f58c5fc432",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/interference/young/moireint4cs3.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 12,
+      "comparisons": 11046,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 72,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "moireint4cs3_fla/MainTimeline.as",
+          "sha256": "cf0391aa89d3ed180fe778c9c379153059c51e5525d16923c1ea9610070b63fd",
+          "currentSHA256": "cf0391aa89d3ed180fe778c9c379153059c51e5525d16923c1ea9610070b63fd"
+        }
+      ],
+      "programSHA256": "000b79ac46d2e1f927c20e3c62f2ec1035be294210927130d594a222a2fd47dc",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-45e0cb978ce7c1c6",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/activity/activity.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 6,
+      "comparisons": 90042,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 10494,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "daeeea428b97cbc3d7049c39e57085f34a59eb05dec281eecf58f9046bc6a565",
+          "currentSHA256": "daeeea428b97cbc3d7049c39e57085f34a59eb05dec281eecf58f9046bc6a565"
+        }
+      ],
+      "programSHA256": "ce6b29d4d4f5092ceb101c0c10877146616d6dcaadf5e9b5b66a3efb10a284d5",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-b88fb994bb3e1f8a",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/disample.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 2,
+      "comparisons": 2086,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 214,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "90bfc706cec3e43b8920b39fa5b5872141293b6ec34458366813c544d31265ac",
+          "currentSHA256": "90bfc706cec3e43b8920b39fa5b5872141293b6ec34458366813c544d31265ac"
+        }
+      ],
+      "programSHA256": "df13656cefebb881c4497b34067fdc2d85971cb330609b9664c0dd182a7ef959",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-a31c6f6c9dcd2fd5",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/light_crystal.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 1,
+      "comparisons": 15826,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 3608,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "frame_1/PlaceObject2_12_58/CLIPACTIONRECORD onClipEvent(load).as",
+          "sha256": "7376971fc7fbc67738df4161ecde0ea06c909abda07a243437bd4a41dc33065b",
+          "currentSHA256": "7376971fc7fbc67738df4161ecde0ea06c909abda07a243437bd4a41dc33065b"
+        },
+        {
+          "path": "frame_1/PlaceObject2_12_58/CLIPACTIONRECORD onClipEvent(enterFrame).as",
+          "sha256": "8b03da4821684754c03e4e5c4948fed47e52eb3fbaf6709f7da6fcd1a5cc6ff0",
+          "currentSHA256": "8b03da4821684754c03e4e5c4948fed47e52eb3fbaf6709f7da6fcd1a5cc6ff0"
+        },
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "e7427c89ecb84cf1e410aa903710ec93febe69c14e6974f99bcc2710abb4a4f3",
+          "currentSHA256": "e7427c89ecb84cf1e410aa903710ec93febe69c14e6974f99bcc2710abb4a4f3"
+        },
+        {
+          "path": "frame_1/DoAction_2.as",
+          "sha256": "8aea5271c2c41f87c0e4f5946812e88511e96881b38d44305eecb8f8c60de618",
+          "currentSHA256": "8aea5271c2c41f87c0e4f5946812e88511e96881b38d44305eecb8f8c60de618"
+        }
+      ],
+      "programSHA256": "64ee8e9037683008c3b69f8f8213b95f7b1c8aef7b029f049c7d75c54588afd4",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-2c0dad26bfbc41ed",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/faradayef.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 2,
+      "comparisons": 1086,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 258,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "__Packages/DirObject.as",
+          "sha256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362",
+          "currentSHA256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362"
+        },
+        {
+          "path": "__Packages/Cylinder.as",
+          "sha256": "3298e07dfef00ae2f62333cdf21aefe61f5e51668c0a924c9ff2270309b51d6d",
+          "currentSHA256": "3298e07dfef00ae2f62333cdf21aefe61f5e51668c0a924c9ff2270309b51d6d"
+        },
+        {
+          "path": "__Packages/FillColor.as",
+          "sha256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219",
+          "currentSHA256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219"
+        },
+        {
+          "path": "__Packages/Ellipse.as",
+          "sha256": "e4b7da91669e18e4e7d166ed9579e45c70ce1800ead100408710e32c898de51f",
+          "currentSHA256": "e4b7da91669e18e4e7d166ed9579e45c70ce1800ead100408710e32c898de51f"
+        },
+        {
+          "path": "__Packages/PtObject.as",
+          "sha256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16",
+          "currentSHA256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16"
+        },
+        {
+          "path": "__Packages/Polarizer.as",
+          "sha256": "ce96d27f32bfe969ed66769730e636b51463648ccfc1f9a0ed53b48f527ba88d",
+          "currentSHA256": "ce96d27f32bfe969ed66769730e636b51463648ccfc1f9a0ed53b48f527ba88d"
+        },
+        {
+          "path": "__Packages/Vector.as",
+          "sha256": "5d0fdccc09206388125c7897dfa5034e07078f041742957f84dd8d0e17105d00",
+          "currentSHA256": "5d0fdccc09206388125c7897dfa5034e07078f041742957f84dd8d0e17105d00"
+        },
+        {
+          "path": "__Packages/LineColor.as",
+          "sha256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d",
+          "currentSHA256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d"
+        },
+        {
+          "path": "__Packages/Cam.as",
+          "sha256": "538b5e21f26e80011e087c0f02a15357a626e0e0d86f9f05af49e8e945ac7fff",
+          "currentSHA256": "538b5e21f26e80011e087c0f02a15357a626e0e0d86f9f05af49e8e945ac7fff"
+        },
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "610412361b37dcac2414b1f6e7d003584a1b1212a1ccc1c854c6f51b31f9a0ef",
+          "currentSHA256": "610412361b37dcac2414b1f6e7d003584a1b1212a1ccc1c854c6f51b31f9a0ef"
+        }
+      ],
+      "programSHA256": "f1031bb5bb75afd1eb6dff4516d7e16149b4420d92f434eab588bffee55fd1e5",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-8281e1704ab81337",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/kerrcell.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 3,
+      "comparisons": 1098,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 285,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "frame_1/PlaceObject2_4_KsToggleBtn2_14/CLIPACTIONRECORD on(construct).as",
+          "sha256": "aee1d7b7b36bbbe70d334bd68d90073ff260825e62e2e18248af8f1566a1fe01",
+          "currentSHA256": "aee1d7b7b36bbbe70d334bd68d90073ff260825e62e2e18248af8f1566a1fe01"
+        },
+        {
+          "path": "__Packages/DirObject.as",
+          "sha256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362",
+          "currentSHA256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362"
+        },
+        {
+          "path": "__Packages/FillColor.as",
+          "sha256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219",
+          "currentSHA256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219"
+        },
+        {
+          "path": "__Packages/Ellipse.as",
+          "sha256": "f46652ed7b733846294660742fda9b27c71c079236e24df719517dc71a516e5a",
+          "currentSHA256": "f46652ed7b733846294660742fda9b27c71c079236e24df719517dc71a516e5a"
+        },
+        {
+          "path": "__Packages/PtObject.as",
+          "sha256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16",
+          "currentSHA256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16"
+        },
+        {
+          "path": "__Packages/Polarizer.as",
+          "sha256": "ce96d27f32bfe969ed66769730e636b51463648ccfc1f9a0ed53b48f527ba88d",
+          "currentSHA256": "ce96d27f32bfe969ed66769730e636b51463648ccfc1f9a0ed53b48f527ba88d"
+        },
+        {
+          "path": "__Packages/Vector.as",
+          "sha256": "d75e83c6bec2c392da1737c2fa6c068de52aea27ee04d2ad2ad12766de867d8d",
+          "currentSHA256": "d75e83c6bec2c392da1737c2fa6c068de52aea27ee04d2ad2ad12766de867d8d"
+        },
+        {
+          "path": "__Packages/LineColor.as",
+          "sha256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d",
+          "currentSHA256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d"
+        },
+        {
+          "path": "__Packages/Plate.as",
+          "sha256": "2b7c31302cf0f0867f75196de712b9b66c313c61e377d0f9cbbce9c64015d448",
+          "currentSHA256": "2b7c31302cf0f0867f75196de712b9b66c313c61e377d0f9cbbce9c64015d448"
+        },
+        {
+          "path": "__Packages/Box.as",
+          "sha256": "b124bccf4dfb2dfbd16dfdb5898800acc90e2ba053c95654069b49137d2d340a",
+          "currentSHA256": "b124bccf4dfb2dfbd16dfdb5898800acc90e2ba053c95654069b49137d2d340a"
+        },
+        {
+          "path": "__Packages/Cam.as",
+          "sha256": "6cd44a4d764cf75578b50362f4cef1ac226cb1a0787a41b1ac41e92b9006d03a",
+          "currentSHA256": "6cd44a4d764cf75578b50362f4cef1ac226cb1a0787a41b1ac41e92b9006d03a"
+        },
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "3fb37efa8795631d9fb31d1ac3d794eb61a21b2836b4d112b6c6902d7648e2fd",
+          "currentSHA256": "3fb37efa8795631d9fb31d1ac3d794eb61a21b2836b4d112b6c6902d7648e2fd"
+        },
+        {
+          "path": "frame_1/DoAction_2.as",
+          "sha256": "60774fce149659e94aa478cd36f467a2f89eef924fd18af8d316b83933ef2df5",
+          "currentSHA256": "60774fce149659e94aa478cd36f467a2f89eef924fd18af8d316b83933ef2df5"
+        }
+      ],
+      "programSHA256": "08eeff6a86f1a2a2456b5a96a4a2eb4bc7b07efda5d3e0ca9e7c4872e6c0b269",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-a382e596416eab8c",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/pockels.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 2,
+      "comparisons": 722,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 184,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "__Packages/DirObject.as",
+          "sha256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362",
+          "currentSHA256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362"
+        },
+        {
+          "path": "__Packages/Cylinder.as",
+          "sha256": "3298e07dfef00ae2f62333cdf21aefe61f5e51668c0a924c9ff2270309b51d6d",
+          "currentSHA256": "3298e07dfef00ae2f62333cdf21aefe61f5e51668c0a924c9ff2270309b51d6d"
+        },
+        {
+          "path": "__Packages/FillColor.as",
+          "sha256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219",
+          "currentSHA256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219"
+        },
+        {
+          "path": "__Packages/Ellipse.as",
+          "sha256": "f46652ed7b733846294660742fda9b27c71c079236e24df719517dc71a516e5a",
+          "currentSHA256": "f46652ed7b733846294660742fda9b27c71c079236e24df719517dc71a516e5a"
+        },
+        {
+          "path": "__Packages/PtObject.as",
+          "sha256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16",
+          "currentSHA256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16"
+        },
+        {
+          "path": "__Packages/Polarizer.as",
+          "sha256": "ce96d27f32bfe969ed66769730e636b51463648ccfc1f9a0ed53b48f527ba88d",
+          "currentSHA256": "ce96d27f32bfe969ed66769730e636b51463648ccfc1f9a0ed53b48f527ba88d"
+        },
+        {
+          "path": "__Packages/Vector.as",
+          "sha256": "5d0fdccc09206388125c7897dfa5034e07078f041742957f84dd8d0e17105d00",
+          "currentSHA256": "5d0fdccc09206388125c7897dfa5034e07078f041742957f84dd8d0e17105d00"
+        },
+        {
+          "path": "__Packages/LineColor.as",
+          "sha256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d",
+          "currentSHA256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d"
+        },
+        {
+          "path": "__Packages/Cam.as",
+          "sha256": "097a7b4b47ebcde4e76bb759ce0fb07ddc3c3ee169b5207c5913d62b4d637604",
+          "currentSHA256": "097a7b4b47ebcde4e76bb759ce0fb07ddc3c3ee169b5207c5913d62b4d637604"
+        },
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "8cff6e9722b914dc3336effba71e29814a4427814b6a76e75d7068925d752026",
+          "currentSHA256": "8cff6e9722b914dc3336effba71e29814a4427814b6a76e75d7068925d752026"
+        }
+      ],
+      "programSHA256": "69f394f07340aadec8eb98ec7e53b90e9e8bfc75440b1b4324d604273e30f386",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-4a361b3b26555a71",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/liquidcrystal/stnsimV2.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 31,
+      "comparisons": 1459366,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 152574,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "Sprite3D/JonesMatrix.as",
+          "sha256": "4c5c1dafbb4adaa7f866f0e20835d3480a2a734ee2bd5c29b41239ec7dec24ea",
+          "currentSHA256": "4c5c1dafbb4adaa7f866f0e20835d3480a2a734ee2bd5c29b41239ec7dec24ea"
+        },
+        {
+          "path": "Sprite3D/JonesVector.as",
+          "sha256": "845e52eca67c9737292cc973fd7a47f6c40c212e7d4a41a5c9778e4bf7e5df6e",
+          "currentSHA256": "845e52eca67c9737292cc973fd7a47f6c40c212e7d4a41a5c9778e4bf7e5df6e"
+        },
+        {
+          "path": "Sprite3D/Point3D.as",
+          "sha256": "2c07f3bb1ca5fdd8b39a5b3e53f21d29d748e414f2808680774baac71979d706",
+          "currentSHA256": "2c07f3bb1ca5fdd8b39a5b3e53f21d29d748e414f2808680774baac71979d706"
+        },
+        {
+          "path": "Sprite3D/Sprite3D.as",
+          "sha256": "ebb1bee03e4a84d4fc33de57f4048475f7a9f1eba214a464994a7a4a20cd1cd8",
+          "currentSHA256": "ebb1bee03e4a84d4fc33de57f4048475f7a9f1eba214a464994a7a4a20cd1cd8"
+        },
+        {
+          "path": "Sprite3D/Cylinder.as",
+          "sha256": "feed790d0bafc6a00c2364336e278d2dd973d85bce0f79167b3362cbe4db8b9f",
+          "currentSHA256": "feed790d0bafc6a00c2364336e278d2dd973d85bce0f79167b3362cbe4db8b9f"
+        },
+        {
+          "path": "Sprite3D/FillStyle.as",
+          "sha256": "7fe730707ea0bd8059acc8f30eb1547ad29a74867fc6a3087f771c8ebefd4ef8",
+          "currentSHA256": "7fe730707ea0bd8059acc8f30eb1547ad29a74867fc6a3087f771c8ebefd4ef8"
+        },
+        {
+          "path": "Sprite3D/Complex.as",
+          "sha256": "d0a6a049976417de41096d24689670347bfc1fdad93c5174b026be7f56b169ed",
+          "currentSHA256": "d0a6a049976417de41096d24689670347bfc1fdad93c5174b026be7f56b169ed"
+        },
+        {
+          "path": "Sprite3D/Ellipse.as",
+          "sha256": "9f2e9a1e51bfb8059063795cc4695e4191aa3b71291faae33d72a83e86d4df30",
+          "currentSHA256": "9f2e9a1e51bfb8059063795cc4695e4191aa3b71291faae33d72a83e86d4df30"
+        },
+        {
+          "path": "Sprite3D/PtObject.as",
+          "sha256": "6422302395e624683906547be294b3e3052053e7a08ce813014bd5af83d54c4b",
+          "currentSHA256": "6422302395e624683906547be294b3e3052053e7a08ce813014bd5af83d54c4b"
+        },
+        {
+          "path": "Sprite3D/Polarizer.as",
+          "sha256": "73e89e30383bc4f41dff5883c7506fdf68d96d4e2295324eaf8066f7c6c46619",
+          "currentSHA256": "73e89e30383bc4f41dff5883c7506fdf68d96d4e2295324eaf8066f7c6c46619"
+        },
+        {
+          "path": "Sprite3D/Line2.as",
+          "sha256": "b1ab32f1de8ecbc4da4c1fa6e6fae9577d03f76782af2c33bf8a385433613fb4",
+          "currentSHA256": "b1ab32f1de8ecbc4da4c1fa6e6fae9577d03f76782af2c33bf8a385433613fb4"
+        },
+        {
+          "path": "Sprite3D/LineStyle.as",
+          "sha256": "5cbd54637114a6efa300a2662250336aa73dd5d4e5d9db890cccaaa4d91fd49e",
+          "currentSHA256": "5cbd54637114a6efa300a2662250336aa73dd5d4e5d9db890cccaaa4d91fd49e"
+        },
+        {
+          "path": "Sprite3D/PolarizationState.as",
+          "sha256": "30ce5667e8ed5209f5cf12cc772ba335f2780d37b859db108c282cf99701040b",
+          "currentSHA256": "30ce5667e8ed5209f5cf12cc772ba335f2780d37b859db108c282cf99701040b"
+        },
+        {
+          "path": "Sprite3D/Plate.as",
+          "sha256": "c2ed82c079e2c028dab167b9d41e7696cbc6e3b6bd1ccccbfba44a136ccd41a1",
+          "currentSHA256": "c2ed82c079e2c028dab167b9d41e7696cbc6e3b6bd1ccccbfba44a136ccd41a1"
+        },
+        {
+          "path": "Sprite3D/Arrow.as",
+          "sha256": "a97c6171c124a3aaa3876cf54a6566a5e0756f2a8892a53318dbadf867aff707",
+          "currentSHA256": "a97c6171c124a3aaa3876cf54a6566a5e0756f2a8892a53318dbadf867aff707"
+        },
+        {
+          "path": "Sprite3D/Cam.as",
+          "sha256": "8d78d39afa9f282eb6532b0b83f03ebcdf8f3ba768d6bdc51f0dc8121ed22d8c",
+          "currentSHA256": "8d78d39afa9f282eb6532b0b83f03ebcdf8f3ba768d6bdc51f0dc8121ed22d8c"
+        },
+        {
+          "path": "stnsimV2_fla/MainTimeline.as",
+          "sha256": "cfc8a210a46aa99f56db3383e608a74ad8f2af8be5d508291382020c25ee2179",
+          "currentSHA256": "cfc8a210a46aa99f56db3383e608a74ad8f2af8be5d508291382020c25ee2179"
+        }
+      ],
+      "programSHA256": "acd6a227816b513b5a9e571ba689608535ea94b1a392aea471c9f12658a8ddb5",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-62dbf7d5b9674686",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarizer/polarizer5.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 1,
+      "comparisons": 1,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 10,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+          "currentSHA256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+        },
+        {
+          "path": "frame_2/DoAction.as",
+          "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+          "currentSHA256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655"
+        }
+      ],
+      "programSHA256": "2922b908c6fe80cd515249d0a27edf37936ca92506a6e54230a35bd28182c3c5",
+      "scope": "Static original stop/frame definitions, no mathematical calculator or timer to compare; actual two-state UI original runtime separately.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-c5aa8a53793797ab",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polrepresent/jonesmatrix.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 2,
+      "comparisons": 740,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 278,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "__Packages/DirObject.as",
+          "sha256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362",
+          "currentSHA256": "a7c843e8a3c6a28fd9697d3828f6ec074adfb3159e2dd74102cdb60c4ec62362"
+        },
+        {
+          "path": "__Packages/Cylinder.as",
+          "sha256": "3298e07dfef00ae2f62333cdf21aefe61f5e51668c0a924c9ff2270309b51d6d",
+          "currentSHA256": "3298e07dfef00ae2f62333cdf21aefe61f5e51668c0a924c9ff2270309b51d6d"
+        },
+        {
+          "path": "__Packages/FillColor.as",
+          "sha256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219",
+          "currentSHA256": "8e7bca5d1bee02847bc04ccc820969dc27d7279f8b9d8ecedb50f2813bc03219"
+        },
+        {
+          "path": "__Packages/Ellipse.as",
+          "sha256": "f46652ed7b733846294660742fda9b27c71c079236e24df719517dc71a516e5a",
+          "currentSHA256": "f46652ed7b733846294660742fda9b27c71c079236e24df719517dc71a516e5a"
+        },
+        {
+          "path": "__Packages/PtObject.as",
+          "sha256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16",
+          "currentSHA256": "f04650d6dc490d2f4d2a0297d95b8f1a41747455692d8fe89ba6092434011e16"
+        },
+        {
+          "path": "__Packages/Polarizer.as",
+          "sha256": "ce96d27f32bfe969ed66769730e636b51463648ccfc1f9a0ed53b48f527ba88d",
+          "currentSHA256": "ce96d27f32bfe969ed66769730e636b51463648ccfc1f9a0ed53b48f527ba88d"
+        },
+        {
+          "path": "__Packages/Vector.as",
+          "sha256": "d75e83c6bec2c392da1737c2fa6c068de52aea27ee04d2ad2ad12766de867d8d",
+          "currentSHA256": "d75e83c6bec2c392da1737c2fa6c068de52aea27ee04d2ad2ad12766de867d8d"
+        },
+        {
+          "path": "__Packages/LineColor.as",
+          "sha256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d",
+          "currentSHA256": "d71ead3a6a91accec8aa0231bbe3a1517e1a5858bb14e131ae1cf27a63533a5d"
+        },
+        {
+          "path": "__Packages/Box.as",
+          "sha256": "b124bccf4dfb2dfbd16dfdb5898800acc90e2ba053c95654069b49137d2d340a",
+          "currentSHA256": "b124bccf4dfb2dfbd16dfdb5898800acc90e2ba053c95654069b49137d2d340a"
+        },
+        {
+          "path": "__Packages/Cam.as",
+          "sha256": "6cd44a4d764cf75578b50362f4cef1ac226cb1a0787a41b1ac41e92b9006d03a",
+          "currentSHA256": "6cd44a4d764cf75578b50362f4cef1ac226cb1a0787a41b1ac41e92b9006d03a"
+        },
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "442f97d17845f257ccae2c0a98bd9071c280773df51638302869f4d815865733",
+          "currentSHA256": "442f97d17845f257ccae2c0a98bd9071c280773df51638302869f4d815865733"
+        }
+      ],
+      "programSHA256": "a0f97ab50a447f20a1b962765884ba0c3fafc87d6082371a4b8e0cd6174df98d",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-78a4cbab0b8ef677",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polrepresent/poincaresphereV3.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 2,
+      "comparisons": 382698,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 37800,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "Sprite3D/JonesVector.as",
+          "sha256": "696b93c4daceed48461119a84385a237b454256789c0bedd97bbe16d9f2b53b6",
+          "currentSHA256": "696b93c4daceed48461119a84385a237b454256789c0bedd97bbe16d9f2b53b6"
+        },
+        {
+          "path": "Sprite3D/Point3D.as",
+          "sha256": "cbfca45fb8aae59e8435d6db0ca987c382c0d7f3ca60e694b2980f420e46c903",
+          "currentSHA256": "cbfca45fb8aae59e8435d6db0ca987c382c0d7f3ca60e694b2980f420e46c903"
+        },
+        {
+          "path": "Sprite3D/Sprite3D.as",
+          "sha256": "ebb1bee03e4a84d4fc33de57f4048475f7a9f1eba214a464994a7a4a20cd1cd8",
+          "currentSHA256": "ebb1bee03e4a84d4fc33de57f4048475f7a9f1eba214a464994a7a4a20cd1cd8"
+        },
+        {
+          "path": "Sprite3D/FillStyle.as",
+          "sha256": "7b145effde70a497f2603c1b024d7a3d97da9f789c783d7a592ebdfe266db6c6",
+          "currentSHA256": "7b145effde70a497f2603c1b024d7a3d97da9f789c783d7a592ebdfe266db6c6"
+        },
+        {
+          "path": "Sprite3D/Complex.as",
+          "sha256": "0cc2ff3d2d4ef7f1c8284fc7fc0107c41ac1a7a12909335740ff454fe9b73e69",
+          "currentSHA256": "0cc2ff3d2d4ef7f1c8284fc7fc0107c41ac1a7a12909335740ff454fe9b73e69"
+        },
+        {
+          "path": "Sprite3D/Ellipse.as",
+          "sha256": "42e436713514ee5d28d545f556d452251851deab2087580a3cc415b16feb8303",
+          "currentSHA256": "42e436713514ee5d28d545f556d452251851deab2087580a3cc415b16feb8303"
+        },
+        {
+          "path": "Sprite3D/PtObject.as",
+          "sha256": "d97783cebbad3c00ffbd94781c630a83d83bcc19a84b65f1892024087be0c086",
+          "currentSHA256": "d97783cebbad3c00ffbd94781c630a83d83bcc19a84b65f1892024087be0c086"
+        },
+        {
+          "path": "Sprite3D/LineStyle.as",
+          "sha256": "7fa6288fedf425f28cebcfd3402a9196e83e4f97cccd557e0e808e253eeb0083",
+          "currentSHA256": "7fa6288fedf425f28cebcfd3402a9196e83e4f97cccd557e0e808e253eeb0083"
+        },
+        {
+          "path": "Sprite3D/PolarizationState.as",
+          "sha256": "e3497261ac6d38e5f054c7d45b7e445f7c7e5f1fb5f9776147298de7b99e5e62",
+          "currentSHA256": "e3497261ac6d38e5f054c7d45b7e445f7c7e5f1fb5f9776147298de7b99e5e62"
+        },
+        {
+          "path": "Sprite3D/Arrow.as",
+          "sha256": "d5421c5124adad9d80f7cb1b4a1e22a262e86061e294fbaa5bf445329a67d6cf",
+          "currentSHA256": "d5421c5124adad9d80f7cb1b4a1e22a262e86061e294fbaa5bf445329a67d6cf"
+        },
+        {
+          "path": "Sprite3D/Cam.as",
+          "sha256": "e12921bf5d1c59c44f45a5e812625d975d9bdb94eef4f83eb62d0e131b8a1a30",
+          "currentSHA256": "e12921bf5d1c59c44f45a5e812625d975d9bdb94eef4f83eb62d0e131b8a1a30"
+        },
+        {
+          "path": "poincaresphereV3_w_fla/MainTimeline.as",
+          "sha256": "db3965eaf5e7b515818984b0aaa3eb45a7ee5086b933cbcecf777a0c192a69c0",
+          "currentSHA256": "db3965eaf5e7b515818984b0aaa3eb45a7ee5086b933cbcecf777a0c192a69c0"
+        }
+      ],
+      "programSHA256": "6f4c794eec92b5ce8078aa3999e8ceb81aacf84871b4128dc84553ca03840469",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    },
+    {
+      "id": "flash-95128c2fde383176",
+      "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/scatterpol/scattering.swf",
+      "passed": true,
+      "sourceVerified": true,
+      "cases": 2,
+      "comparisons": 1858,
+      "maxAbsoluteError": 0,
+      "skippedTransient": 230,
+      "errors": [],
+      "sourceFiles": [
+        {
+          "path": "frame_1/DoAction.as",
+          "sha256": "c61151879a131721201f34219a9fb090ca91b61f86250abb820ba204d0a15bf5",
+          "currentSHA256": "c61151879a131721201f34219a9fb090ca91b61f86250abb820ba204d0a15bf5"
+        }
+      ],
+      "programSHA256": "a30d51d725b055affcd2882446ff9fe02648f6515fb15f910f5f6d1337b4bb0f",
+      "scope": "Independent original dynamic-scope interpreter versus lexical source port: finite default steps, each original control min/default/mid/max independently, checkbox/button changes and camera transform. All finite shared mathematical fields/array samples and mandatory full pupil samples; temporaries/display-only allocation metadata excluded.",
+      "fullEquivalence": false
+    }
+  ],
+  "nativeModelHashes": {
+    "assets/native-optics-final69.mjs": "a967606bfb77a74a1a534250daccfbf162077094683fa940d117abb705a13f13",
+    "assets/optics-final69-model.mjs": "efba446346f7820f09e69b98f3514eb3a903a853e773b721c70f34adbf8eb386",
+    "assets/optics-final69-adapter.mjs": "23fd8d339fff8e0ed561194b51a713baeb54b9962fd9106febc6ca935a48a37e",
+    "assets/optics-final69-specs.mjs": "7df85718c47a0fc1cae295780b1e5137f6a6b04388f781133293bd18e2a4c21a",
+    "src/native-optics-final69.json": "63b801be5d7570de52737fd89e55d4821342bb029aa732261e0873d41f5c69d0",
+    "assets/optics-final69-program-flash-88dcd0ec7ac4ff7a.mjs": "3b97e6973d59ee2b1f98d955a13da4a9593958487cf1744f691e12f86743e55e",
+    "assets/optics-final69-program-flash-a88e894980293e64.mjs": "96eeff5a5f1eeee03f7d476f59a2f1b787370d7a316f5496bd5f6929f5ea868d",
+    "assets/optics-final69-program-flash-a503a95f16f31f43.mjs": "c1e6939e2562dd2e5bf2e690421894c6e43de3650a3470d68b7062dd2c6f2755",
+    "assets/optics-final69-program-flash-833b671bb8f1fdf2.mjs": "bdc8deb38ee0340509ca66e4560b4386320b43b073ba2770853c1b4c17c42658",
+    "assets/optics-final69-program-flash-c8db27599ba6e756.mjs": "dcccc6e9c0bb169ffa7aee595309d80aa07678ae5969f386f10b05faf3fc5f58",
+    "assets/optics-final69-program-flash-5b4df2e3e2d7f004.mjs": "d88ffd06dc2b66a0e63e89ad1f465501b97ed6a14800cd07bc9966ac250a90a0",
+    "assets/optics-final69-program-flash-e1f3b51663ebef1c.mjs": "29a04aa2a98d42bf806191f43f2ebe207df885a0fcfed9ed9a6172b71e63b27a",
+    "assets/optics-final69-program-flash-bcf751c6bdf6ac2e.mjs": "e767b1c34d0bd2d8c7e9216edb1b0438b260897880e5dbb6de915803984b9c07",
+    "assets/optics-final69-program-flash-326e10f58c5fc432.mjs": "000b79ac46d2e1f927c20e3c62f2ec1035be294210927130d594a222a2fd47dc",
+    "assets/optics-final69-program-flash-45e0cb978ce7c1c6.mjs": "ce6b29d4d4f5092ceb101c0c10877146616d6dcaadf5e9b5b66a3efb10a284d5",
+    "assets/optics-final69-program-flash-b88fb994bb3e1f8a.mjs": "df13656cefebb881c4497b34067fdc2d85971cb330609b9664c0dd182a7ef959",
+    "assets/optics-final69-program-flash-a31c6f6c9dcd2fd5.mjs": "64ee8e9037683008c3b69f8f8213b95f7b1c8aef7b029f049c7d75c54588afd4",
+    "assets/optics-final69-program-flash-2c0dad26bfbc41ed.mjs": "f1031bb5bb75afd1eb6dff4516d7e16149b4420d92f434eab588bffee55fd1e5",
+    "assets/optics-final69-program-flash-8281e1704ab81337.mjs": "08eeff6a86f1a2a2456b5a96a4a2eb4bc7b07efda5d3e0ca9e7c4872e6c0b269",
+    "assets/optics-final69-program-flash-a382e596416eab8c.mjs": "69f394f07340aadec8eb98ec7e53b90e9e8bfc75440b1b4324d604273e30f386",
+    "assets/optics-final69-program-flash-4a361b3b26555a71.mjs": "acd6a227816b513b5a9e571ba689608535ea94b1a392aea471c9f12658a8ddb5",
+    "assets/optics-final69-program-flash-62dbf7d5b9674686.mjs": "2922b908c6fe80cd515249d0a27edf37936ca92506a6e54230a35bd28182c3c5",
+    "assets/optics-final69-program-flash-c5aa8a53793797ab.mjs": "a0f97ab50a447f20a1b962765884ba0c3fafc87d6082371a4b8e0cd6174df98d",
+    "assets/optics-final69-program-flash-78a4cbab0b8ef677.mjs": "6f4c794eec92b5ce8078aa3999e8ceb81aacf84871b4128dc84553ca03840469",
+    "assets/optics-final69-program-flash-95128c2fde383176.mjs": "a30d51d725b055affcd2882446ff9fe02648f6515fb15f910f5f6d1337b4bb0f"
+  }
+}

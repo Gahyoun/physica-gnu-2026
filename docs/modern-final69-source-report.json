@@ -1,0 +1,676 @@
+{
+  "method": "Independent VM of original extracted AS functions/classes compared with authored models; original numerical classes are recompiled separately with original root initialization. Bounds/defaults/control alternatives and numerical arrays tested. Source evidence is not runtime evidence.",
+  "files": 21,
+  "comparisons": 183464,
+  "nativeModelHashes": {
+    "assets/modern-final69-atomic-data.mjs": "6657cf2f031c6145e4acfed6f7aae2af30f57111323fe328f3a7a2e3e791fd36",
+    "assets/modern-final69-atomic-physics.mjs": "845fc426f3c3505d94aa55c928343469a7c349c3d52a120ffd673ddedb51ca3b",
+    "assets/modern-final69-quantum-engine.mjs": "6a53b741e7b4037a06e08c6677bf8537dae83a1f50e3d6595156a9bcde17871d",
+    "assets/modern-final69-quantum-physics.mjs": "d9ab480e70970d9c0435798d70a69b9da03a073e34aceec2ff5a482cf23d4a21",
+    "assets/modern-final69-relativity-physics.mjs": "84e01c71da60007dde98aef95394d062ae328a6698417280bffaabe22d8ceb35",
+    "assets/modern-final69-photon-physics.mjs": "7b44836ee6a7f5e3a2adf0172ee3e3a0c154b113ea83058de0be4b939ce60eca",
+    "assets/modern-final69-compton-data.mjs": "36c55c5911205ee2bd62c864f1a56b4e5ad05861829c00224bd4def27f8da1b1",
+    "assets/modern-final69-specs.mjs": "36ea6c9c003e687d368e49f1b62707a93215d7fb7ac991c23d47ac0c8364cb09",
+    "tools/modern-final69-source-check.mjs": "eafd0e63b2f393e80252b30ff17bfa964bb619e9cdd8c6434fdecd6c076d445a",
+    "tools/modern-final69-compton-reference.mjs": "3e5214634b2b999a68dab84d8d56431ed602b95257c35d95f63b9dee6e84fe9e"
+  },
+  "fullEquivalence": false,
+  "results": [
+    {
+      "id": "flash-43834abb48f3463d",
+      "type": "table",
+      "passed": true,
+      "comparisons": 2596,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [
+        "118 original scalar facts and original period/group placement; group UI where present"
+      ],
+      "sourceHashes": {
+        "/KsToggleBtn2.as": "696e19a44267febff8e581e15ad6c6592fe360262c86802e910824dbab95b8fa",
+        "/__Packages/Atom.as": "7a28410fa1c93cf913bce9be58358a286e3b36c60ec5dce196a3f2f230057cf3",
+        "/__Packages/Atom2.as": "5ecae9eb31febecdd2757ff089470e73536b8f4aad593f877bb249b66b1a1563",
+        "/__Packages/MCU2.as": "fe996f471e4253cca50b4450a3927089b30fd764e4e45f295a2a9b23bff5e16b",
+        "/__Packages/TBtnCompClass2.as": "dda6a509b6d24154e9f9795efcf194311560233c10a28a7d5c9705ec4f53e4d1",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "0ef46f151d430c2c8dc33bd82caf4e4397673fe54e9d009d5c71ad66e7da582f",
+        "/frame_1/PlaceObject2_19_1/CLIPACTIONRECORD on(release).as": "772b08ec22ca8b5074335a994300854c9e742f5ab47fd45881e33c1664efc5e9",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_43/CLIPACTIONRECORD on(construct).as": "7702e25c76be8cbf3614e991d4fd901e77fc8de08e113c90c4a87199086324be",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_44/CLIPACTIONRECORD on(construct).as": "b382aab3229dede514a4ce7049a21fbdc408fb9d74c4025e28b4455321f07be5",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_45/CLIPACTIONRECORD on(construct).as": "93695f6b9329dc2c770892be8565130a65afc87693469ebdab56cbc603bf026f",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_46/CLIPACTIONRECORD on(construct).as": "d4c868a77938beb74ca9a649296d14a85000f9faf141e6c41c0ef4e5ecbfe248",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_47/CLIPACTIONRECORD on(construct).as": "f00c02a80b81007969fa6a7e5749b0c185d0ca0fe28b1102d2212ce1bbd2f9a6",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_48/CLIPACTIONRECORD on(construct).as": "bcb5d0b4702339f158a65bb6b750ece134f398f0340e26c3d032472af2a86df8",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_49/CLIPACTIONRECORD on(construct).as": "51804bac88fec60f0169f176523205757ddb1626d322afb89fdebd8d43598e84",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_50/CLIPACTIONRECORD on(construct).as": "aeb6dbf74ad3f61761fbd5b3924856ceae7ff5c25cef350d80c4a02612890cd2",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_51/CLIPACTIONRECORD on(construct).as": "2caea22a83c5cbc42bcbed7b7ef182a3419eac59d5ed2328b086617663ed4363",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_52/CLIPACTIONRECORD on(construct).as": "74cc8bed6b90aa7f532e29f2d85f60cf17bf900371080f4fa1e4bf5c1f73ff16",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_53/CLIPACTIONRECORD on(construct).as": "d3d00e838ea71e11c3aec46475889eee14f1db40cff59e287d3ea861ce1cdcc9",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_54/CLIPACTIONRECORD on(construct).as": "65fad2cee3f211d6885554809f59f953edb8753b9211f293acd28d724d086a79",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_55/CLIPACTIONRECORD on(construct).as": "c1fd0651af8993602961d7f01955f6d1a9c733eec4bb79cf6b13d38769edc2fc",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_56/CLIPACTIONRECORD on(construct).as": "94e6d06f9957b36a4345322d1eb5ee5ab11d0e8eeaea0441eefa51a010725a1e",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_57/CLIPACTIONRECORD on(construct).as": "3b49425532aad0dc1043efe8196531b32a17171b1f26c9358cb8d4551306ead7",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_58/CLIPACTIONRECORD on(construct).as": "bcd5dfa9fccbd161f4cb6aa4580970547a24189e7c84072f4fbf8135b2ff0359",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_59/CLIPACTIONRECORD on(construct).as": "15c180877894d698368c28e5a5807802d40f99809290639ec8b6e998c77b6e2a"
+      }
+    },
+    {
+      "id": "flash-53b1f7b53747d01e",
+      "type": "compton",
+      "passed": true,
+      "comparisons": 1442,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [
+        "All 120 original nested timeline frame transforms for both photon/electron independently decoded from raw tag bytes; no artwork output. Five natural runtime frames also compared separately."
+      ],
+      "sourceHashes": {
+        "/DefineButton2_30/BUTTONCONDACTION on(release).as": "302e8f3d8aed26fad3e4229dee9252f69553f120d7cff520b34a841394d18602",
+        "/DefineButton2_32/BUTTONCONDACTION on(release).as": "9db10c0c87ec817b484de196a961b80e411145bc0dd169a61a9d909b94ed08d5"
+      }
+    },
+    {
+      "id": "flash-1140491ce19ba43a",
+      "type": "cavity",
+      "passed": true,
+      "comparisons": 2100,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [
+        {
+          "seed": 1
+        },
+        {
+          "seed": 3
+        },
+        {
+          "seed": 9
+        }
+      ],
+      "sourceHashes": {
+        "/frame_1/DoAction.as": "76c18e8dfdbc9f7f85950bbf220c2684868fd86636e12dac713173c4e9afa519",
+        "/frame_2/DoAction.as": "b8158de70f18df9c42c689e123fffe519d65094a7e36e435f6cb00f49f027790",
+        "/frame_3/DoAction.as": "aad9fbd033f4051df0d5b0428acd91b40fea4614cb0f7e65dce362f29d541857"
+      }
+    },
+    {
+      "id": "flash-a79d576b4d9393cf",
+      "type": "franck",
+      "passed": true,
+      "comparisons": 30030,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/DefineSprite_17/frame_1/DoAction.as": "a796c77ac072d8cd9289840129d38d598935f561b27ec3c1bedf4b7d5acbd56a",
+        "/DefineSprite_30/frame_1/DoAction.as": "0f8249e25b4b0609412cbd3b7156e3347dbcc8a426431b15227156c3d7122399",
+        "/DefineSprite_54/frame_1/DoAction.as": "e9dea469a0e94a337c01aa7d38bf20db35f115706f217bc67eee7179f4905495",
+        "/KsCombo2.as": "1638bed0c12ddd0e049b06e03669d73fba6804c347c9aa13c134ab09cb852d88",
+        "/KsSlider2.as": "e564957cbf1eb8bb8d48eba27c76e9f46d8a99227e57d439dee0e0cb9353740a",
+        "/KsToggleBtn2.as": "696e19a44267febff8e581e15ad6c6592fe360262c86802e910824dbab95b8fa",
+        "/__Packages/ComboCompClass2.as": "b5d957cff7b6311218255425bc2e8dd66c7a0006b754fbb93239c59888b8301d",
+        "/__Packages/MCU2.as": "fe996f471e4253cca50b4450a3927089b30fd764e4e45f295a2a9b23bff5e16b",
+        "/__Packages/SliderCompClass2.as": "a0a4aeea8f214500c5ccebd3db6533abfea436ddbd94e6bf2127fd4c94e61e75",
+        "/__Packages/TBtnCompClass2.as": "dda6a509b6d24154e9f9795efcf194311560233c10a28a7d5c9705ec4f53e4d1",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "b29421d0ff3385a5ac2411ec3d223be282c9a94f728d804bfd53182b69e86d2f",
+        "/frame_1/DoAction_2.as": "ddd4a60cc6445acbfa7ceace73f859f7a5d40aa061c087c67f3e974ac9f80aed",
+        "/frame_1/DoAction_3.as": "cbb04971a9dedad82a89e6c70ba83272053a2e67ecaf0eb6529802bc59004ad4",
+        "/frame_1/PlaceObject2_10_KsSlider2_7/CLIPACTIONRECORD on(construct).as": "6fd946169ecaa8b31b99ef081f72d2c19e9c502d385ef284c6e6d8f764ffd318",
+        "/frame_1/PlaceObject2_10_KsSlider2_8/CLIPACTIONRECORD on(construct).as": "c29257d06152ea69e50cb6e4f4dd3417cd0d7bbb8b14bff22fb68035b9f28c0f",
+        "/frame_1/PlaceObject2_4_KsCombo2_71/CLIPACTIONRECORD on(construct).as": "cf562a6d95fa69ee3bcd73405eba43ca5f3b884e144f7dd15829e95f7cc2419f",
+        "/frame_1/PlaceObject2_8_KsToggleBtn2_53/CLIPACTIONRECORD on(construct).as": "c2e445d9d37b5518da086735baf377c1ca9473d1ae93b6b7963552a694710755",
+        "/frame_1/PlaceObject2_8_KsToggleBtn2_73/CLIPACTIONRECORD on(construct).as": "b885721273bbd4101e5828b8245b9133367756bfaa4aa0a2d73bffc86545a942"
+      }
+    },
+    {
+      "id": "flash-abc9f1ad0cf746d5",
+      "type": "spectrum",
+      "passed": true,
+      "comparisons": 27,
+      "maxAbsoluteError": 1.1102230246251565e-16,
+      "failures": [],
+      "cases": [
+        {
+          "yaw": -28,
+          "pitch": 8
+        },
+        {
+          "yaw": 60,
+          "pitch": 50
+        },
+        {
+          "yaw": -90,
+          "pitch": -40
+        }
+      ],
+      "sourceHashes": {
+        "/DefineButton2_7/BUTTONCONDACTION on(press).as": "51743f7357ae888a1715fcdb38e5a0f20a09da53b4e1334bd03260ff5f5c94e0",
+        "/DefineButton2_7/BUTTONCONDACTION on(release, rollOut, dragOut).as": "934ddebacf3a2da8e11b762f11e093a39b39ae3f254a4e28a5841d2dca6bc9d5",
+        "/frame_1/DoAction.as": "0d60bf4f46f0a6e66faa0259eb1f169e92a7bc3df3275435eb9e53c13fb4bc71",
+        "/frame_3/DoAction.as": "79540c87452b27e8810351a3590d09abeba2901579ad1a88c1cdfbb7ae54e816"
+      }
+    },
+    {
+      "id": "flash-73be9774daba6348",
+      "type": "bond",
+      "passed": true,
+      "comparisons": 16300,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [
+        {
+          "distance": 0.3,
+          "depth": 100,
+          "hydrogen": false,
+          "higher": false,
+          "waves": false
+        },
+        {
+          "distance": 0,
+          "depth": 100,
+          "hydrogen": false,
+          "higher": false,
+          "waves": false
+        },
+        {
+          "distance": 0.6,
+          "depth": 100,
+          "hydrogen": false,
+          "higher": false,
+          "waves": false
+        },
+        {
+          "distance": 0.3,
+          "depth": 50,
+          "hydrogen": false,
+          "higher": false,
+          "waves": false
+        },
+        {
+          "distance": 0.3,
+          "depth": 150,
+          "hydrogen": false,
+          "higher": false,
+          "waves": false
+        },
+        {
+          "distance": 0.3,
+          "depth": 100,
+          "hydrogen": true,
+          "higher": false,
+          "waves": false
+        },
+        {
+          "distance": 0.3,
+          "depth": 100,
+          "hydrogen": false,
+          "higher": true,
+          "waves": false
+        }
+      ],
+      "sourceHashes": {
+        "/EGr.as": "66bbfd1cbb56d60d4fb5ff59396056743052dbec277fe2f9e443fbad9bb4785a",
+        "/KsButton.as": "97e7344ce12ee0c3039da1bd33c4dd2880f0f2bf09f0eddc90a2c239bc874042",
+        "/KsCheckBox.as": "9ef878ef9b0c8f4d3d31e33371fe25470b391c6e0f0eac217d741b4d9fbea50a",
+        "/KsSlider.as": "d9464d66304af1f0c46d75428827af6a3362fda6f2496643a9cbc29b9c7ee56c",
+        "/QuantumSolver/EigenfunctionData.as": "dad6ba3a67b45353070642b05635b81295d502aef1fab9b5d6c0916377c1a10c",
+        "/QuantumSolver/EigenfunctionFinder.as": "edc27c0f4e4ddb6f960be145a7f931db3530e6e2b85b54f68fd8ef3c419d0096",
+        "/QuantumSolver/FittingProtocol.as": "53a91f248f3d9e1489a855fcef1169fc90a8fa68321da42008cf4bf8fda44b32",
+        "/QuantumSolver/Mathematics.as": "962a24a1cc094b00658dab6ed806bcf1ad10442635ee561385ebf4867fc5fe25",
+        "/QuantumSolver/PotentialPointer.as": "69ab588294d7766c272b38dbd560abc312989c41595bccb24ad7f11c7b87f699",
+        "/covalentbond_w_fla/MainTimeline.as": "13bc9891786317abda8e2ea564d44cdba08ba63379ff66912a5e957476cc7ad1",
+        "/fl/controls/BaseButton.as": "ceb297a34217fdf96a46ee6d8ef1a774462fa84252d529c6fbb3724ad7836cff",
+        "/fl/controls/Button.as": "468c783e3fc61eed434ded1b61dbd2359e9d712306977740cf8126d1a8ab7460",
+        "/fl/controls/ButtonLabelPlacement.as": "4fa9849ec005ca967e6970ca754c8f775690387856c6bfaf130e97fc7f9f625b",
+        "/fl/controls/LabelButton.as": "b3a3906bbce73f2875951400b591570c2959f0234406910f467dd7ab15c09c9a",
+        "/fl/core/InvalidationType.as": "f5cffa56b794ed50acddf55c8523d8fdfa8116aa6a5044893ac422e6de6c8088",
+        "/fl/core/UIComponent.as": "a864e83bfde98e45029e8b2f948d220b2dc47f767ea3565bcb9e888b009d1912",
+        "/fl/events/ComponentEvent.as": "5aa8d0711c07a2f71c8ad9f237fe11a2e1a34fc159ca1d0ba72671056c06e252",
+        "/fl/events/SliderEvent.as": "21ae0eec35e6f99953ae5b80356d1db6a9d30b8872f4401750a4cce76d330730",
+        "/fl/managers/FocusManager.as": "0899328dd16ae2f6f3590b9d649e247621846a30a3c5b7eda8afa1319ece01b2",
+        "/fl/managers/IFocusManager.as": "f860f2a1238fdf53903907311bb17f22f09b39d2d0bf957effe7ac0cd2f8fd5c",
+        "/fl/managers/IFocusManagerComponent.as": "a86e152383f62830cc0c5d1eadb191b2e448503e0c08ee293d5fcce1590fa171",
+        "/fl/managers/IFocusManagerGroup.as": "73a08daaaf5bfe98b1cb8e42becd10338f54f3a9b338445abd5da2694d789201",
+        "/fl/managers/StyleManager.as": "d5ef18613cb441a1f52329e97b158f18a5139b0911823917b5f162237108676d"
+      }
+    },
+    {
+      "id": "flash-9b41f82783cf8a46",
+      "type": "bound",
+      "passed": true,
+      "comparisons": 4100,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [
+        {
+          "mode": 2,
+          "mode2": 4,
+          "x1": 258,
+          "x2": 280
+        },
+        {
+          "mode": 1,
+          "mode2": 4,
+          "x1": 258,
+          "x2": 280
+        },
+        {
+          "mode": 7,
+          "mode2": 4,
+          "x1": 258,
+          "x2": 280
+        },
+        {
+          "mode": 2,
+          "mode2": 1,
+          "x1": 258,
+          "x2": 280
+        },
+        {
+          "mode": 2,
+          "mode2": 7,
+          "x1": 258,
+          "x2": 280
+        }
+      ],
+      "sourceHashes": {
+        "/DefineButton2_2/BUTTONCONDACTION on(press).as": "324078d448c063d615d8230580baafd0bdb09c49a7bd8feec9d10b79340475b7",
+        "/DefineButton2_2/BUTTONCONDACTION on(release, releaseOutside).as": "b913a53f998b8b2189616ea4a994cc43c7472b132d55644c2159b110de56bfff",
+        "/DefineSprite_5/frame_1/DoAction.as": "3ce76b8971d65750ef4aa93289692fdac51491be88d392bb787d83cd89f39599",
+        "/DefineSprite_8/frame_1/DoAction.as": "3ce76b8971d65750ef4aa93289692fdac51491be88d392bb787d83cd89f39599",
+        "/__Packages/EigenfunctionData.as": "d7a5f01038bfa4fcaf4123a9c0ab11edc9b802b1c6ab4782db38658f477f3240",
+        "/__Packages/EigenfunctionFinder.as": "fe6c78a15a271c6ca27ebad47b25d114b6e25abbfb5eca6d399fcfe03a419c9e",
+        "/__Packages/FittingProtocol.as": "d1df70e3c6b27d8ef5aae60592ad48ff06bdfb2dda82c2bf8bd39117a36e583a",
+        "/__Packages/Mathematics.as": "e1e6591713c3ca589f3e51952b145985b4ac4acc3e82d015f882e4cf4fb8761d",
+        "/__Packages/PotentialPointer.as": "0cc7a1d93a666ac934f2b752c5bfddbcebec1ab69e8cea0c01307da13cfd3c85",
+        "/frame_1/DoAction.as": "5a878ab0204603d965e700db2e06440dac8e06498d98db0cd0c1978059b742a4",
+        "/frame_1/PlaceObject2_5_1/CLIPACTIONRECORD onClipEvent(enterFrame).as": "faf8b97ccea7224a5c6bc1c6c542a6162b31e6584059a23ef170f4d5d754a855",
+        "/frame_1/PlaceObject2_5_1/CLIPACTIONRECORD onClipEvent(load).as": "bad7b4b20f50039d965a15a06a631dfac9679673bbb1ceecee97b3f98bd78483",
+        "/frame_1/PlaceObject2_8_5/CLIPACTIONRECORD onClipEvent(enterFrame).as": "69fec99233a4b41363f1f69d0d78ab07f401dc3caacde13b7b6dd3e8af0b637c",
+        "/frame_1/PlaceObject2_8_5/CLIPACTIONRECORD onClipEvent(load).as": "bad7b4b20f50039d965a15a06a631dfac9679673bbb1ceecee97b3f98bd78483"
+      }
+    },
+    {
+      "id": "flash-dec768b8e9c2034f",
+      "type": "river",
+      "passed": true,
+      "comparisons": 597,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/Border.as": "79ab80ff4a723cc88502d92b926c8d39488227b1e0969931598358949aa74ef2",
+        "/Button.as": "da4d20556bb48863953133011d7ec5aed2cc544940c04113a0ea637e3d6e4243",
+        "/ButtonSkin.as": "4e711961b22005f243fc7244ca03e2247a8bf514f6ea9d972cc5bc3cc11fbf09",
+        "/Defaults.as": "c8512064814044698783da389fe9913e1f9b2128c015dee4f26157ce26e80388",
+        "/DefineButton2_23/BUTTONCONDACTION on(keyPress Tab).as": "4fdbe627718d60f99344e0ba100061116d1689e9128fab3113e429392114702f",
+        "/DefineButton2_61/BUTTONCONDACTION on(press).as": "e9d3bd25ddf03b61f3614e20859f8467d1725441613ec5ad78c0079c58be2980",
+        "/DefineButton2_61/BUTTONCONDACTION on(release, releaseOutside, rollOut, dragOut).as": "2d74b705e3275461c923acb22112d56b86763a562fe75b30a850a724d88499a5",
+        "/DefineButton2_92/BUTTONCONDACTION on(release).as": "a40aec4a610e8d9bd7d17a3294eba944b4631fd574f752e987ecd01b0c2f8156",
+        "/DefineButton2_99/BUTTONCONDACTION on(release).as": "93a7499a7b5d030bbfdc61d837db8835c913f515baa61a3d2b112e66d269af3c",
+        "/DefineSprite_10_BrdrFace/frame_1/DoAction.as": "19005a5dc78bf4c08d2b3aa4fef992a542e9ee6fa5a66c4e86becc3eff6787d7",
+        "/DefineSprite_13_BrdrBlk/frame_1/DoAction.as": "e3aead787ca9583efc060c063a1237902f4a8cc5d37e2a43b19a21610c718926",
+        "/DefineSprite_15_BrdrHilght/frame_1/DoAction.as": "2fc012c4f7daf54bc02479535e27549fe9fa87a69e277fcd7c1156a751831bde",
+        "/DefineSprite_20_UIObject/frame_1/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+        "/DefineSprite_25_FocusManager/frame_1/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+        "/DefineSprite_27_UIComponent/frame_1/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+        "/DefineSprite_28_SimpleButton/frame_1/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+        "/DefineSprite_29_Border/frame_1/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+        "/DefineSprite_30_RectBorder/frame_1/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+        "/DefineSprite_32_Button/frame_1/DoAction.as": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+        "/DefineSprite_32_Button/frame_2/PlaceObject2_28_SimpleButton_1/CLIPACTIONRECORD on(initialize).as": "c5118454faaa25f7fae0da8538ac345f73a0576cd21ebd345d07a300a9d7260f",
+        "/DefineSprite_63/frame_1/PlaceObject2_62_1/CLIPACTIONRECORD onClipEvent(enterFrame).as": "c9515bb37a35a618d308474b63bf101f73f5be7c7d91ee64316de20ca7351534",
+        "/DefineSprite_8_BrdrShdw/frame_1/DoAction.as": "c7ee093bc4ca32603ddcf67be86cdfb7df7a556b6b6741c95b4e20673fb5dc55",
+        "/FocusManager.as": "bfe206371a96a42b14b09ba9acb3fa9693ea25154488898a16aca218182e3c6e",
+        "/FocusRect.as": "78a9fd533bc4922b24e3752410889a044ae132d095031742af0938636a47ef33",
+        "/RectBorder.as": "4e32f13302af43486dc62a0ef762a1e8ef5aec84ace848ff67524832ad53f06e",
+        "/SimpleButton.as": "2f7210b1fcee807855a10bd3c3cb693029a0cd7f6b0d0170600a47a664ededc9",
+        "/UIComponent.as": "223624ac045d45cca0bca5a9a3d24843f24cba2ae37e75eaac05a3b2662d191f",
+        "/UIComponentExtensions.as": "b08eab905dfca5e107ab0eaa3714a817227644e3a58081a12a8a4186cb083c13",
+        "/UIObject.as": "504803da8e67f5f8b1598d36312498156108b952db88020391861a0aaccf0ff0",
+        "/UIObjectExtensions.as": "8d167bbbdbcde4f769aa2df0a747fde6c3f9862167b14e55b1c204a9db506db3",
+        "/frame_1/DoAction.as": "4c58226c4bda6af217f65cb9ff362bc9f0da619c6520949e115bbe67f13ebd90",
+        "/frame_2/DoAction.as": "613686ac30f0521be7b89be082b3adecb248f8fc59b4732579501e67de222748",
+        "/frame_3/DoAction.as": "aad9fbd033f4051df0d5b0428acd91b40fea4614cb0f7e65dce362f29d541857"
+      }
+    },
+    {
+      "id": "flash-88b7e17d5c10ff99",
+      "type": "michelson",
+      "passed": true,
+      "comparisons": 1650,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/frame_1/DoAction.as": "dfab963fb94d51d9ef8d9a0d3d123376c30f7bdf3d15fead9789c14ed5773715",
+        "/frame_2/DoAction.as": "3c4f385f23330ceed037d840b618952f6084be043401b8f7d30ff50a78193be4",
+        "/frame_3/DoAction.as": "aad9fbd033f4051df0d5b0428acd91b40fea4614cb0f7e65dce362f29d541857"
+      }
+    },
+    {
+      "id": "flash-eb2235affe5d7d5f",
+      "type": "curved",
+      "passed": true,
+      "comparisons": 400,
+      "maxAbsoluteError": 1.3130829756846651e-11,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/DefineButton2_2/BUTTONCONDACTION on(press).as": "324078d448c063d615d8230580baafd0bdb09c49a7bd8feec9d10b79340475b7",
+        "/DefineButton2_2/BUTTONCONDACTION on(release, releaseOutside).as": "b913a53f998b8b2189616ea4a994cc43c7472b132d55644c2159b110de56bfff",
+        "/DefineSprite_5/frame_1/DoAction.as": "3ce76b8971d65750ef4aa93289692fdac51491be88d392bb787d83cd89f39599",
+        "/frame_1/DoAction.as": "af96ebf4ce27285dcbf86756cb10744cd81317b53b4c66b46f9df0ad3be0671f"
+      }
+    },
+    {
+      "id": "flash-c8db8a44814f023b",
+      "type": "equiv",
+      "passed": true,
+      "comparisons": 6300,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/DefineSprite_15/frame_1/DoAction.as": "a1c39a5e5a8fc571bf72aba59f321f69b95df4341b5fcd4549aa190583023ad1",
+        "/DefineSprite_15/frame_2/DoAction.as": "35053f002c5674b71a6b615ae0d190871a1a56ad1c185af6cd86771bbcde532c",
+        "/frame_1/DoAction.as": "771d5494423b8c724318e68df6a82d68500d2eafbf34b238f275ab794e360d57"
+      }
+    },
+    {
+      "id": "flash-668f1814a44090a8",
+      "type": "lightpath",
+      "passed": true,
+      "comparisons": 500,
+      "maxAbsoluteError": 2.842170943040401e-14,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/DefineSprite_17/frame_1/DoAction.as": "128b62324f435567977f4ebe58099fe5cbd20c69c93ccb3f22a69449f9124c67",
+        "/DefineSprite_17/frame_2/DoAction.as": "35053f002c5674b71a6b615ae0d190871a1a56ad1c185af6cd86771bbcde532c",
+        "/frame_1/DoAction.as": "af29982af4d9c40327fcfbceec442be188372940d7bc4e772c67c98583224625"
+      }
+    },
+    {
+      "id": "flash-2981dda64c3b445e",
+      "type": "worldline",
+      "passed": true,
+      "comparisons": 720,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/DefineButton2_2/BUTTONCONDACTION on(press).as": "324078d448c063d615d8230580baafd0bdb09c49a7bd8feec9d10b79340475b7",
+        "/DefineButton2_2/BUTTONCONDACTION on(release, releaseOutside).as": "b913a53f998b8b2189616ea4a994cc43c7472b132d55644c2159b110de56bfff",
+        "/DefineSprite_21/frame_1/DoAction.as": "9c596ba794d5b33851e26b7f2330237c8d7ecb0ae77f0e788ba9a51e6a7d3bf0",
+        "/DefineSprite_5/frame_1/DoAction.as": "388881fc3f967b1fb411da4d9bca58147424afd69248c771c0eeae6e90023fcb",
+        "/frame_1/DoAction.as": "96ed3274bb4e7ab2c05daa946831e79ec2eda3a02dbd158c0f7c45d9084eb201",
+        "/frame_1/PlaceObject2_5_1/CLIPACTIONRECORD onClipEvent(enterFrame).as": "e55b00cffdaefe658217317ee40749619e20fd9a66394f971186cd44e5384cc9",
+        "/frame_1/PlaceObject2_5_1/CLIPACTIONRECORD onClipEvent(load).as": "bad7b4b20f50039d965a15a06a631dfac9679673bbb1ceecee97b3f98bd78483",
+        "/frame_2/DoAction.as": "29ece41d06b87b0cc17bfdbda8101c2cf3944121ddf62f3f599081ab76e3c207",
+        "/frame_3/DoAction.as": "aad9fbd033f4051df0d5b0428acd91b40fea4614cb0f7e65dce362f29d541857"
+      }
+    },
+    {
+      "id": "flash-e80fec4ff9e94883",
+      "type": "twin",
+      "passed": true,
+      "comparisons": 1803,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/EGr.as": "2809724c2f745e33263f7b9b5ab9fb4e6d89c14d58bec702aade06a7270b1f22",
+        "/KsButton.as": "f9ba2576b587503adbd1d331901c0dd0e6d9005fe1b3739462dd7dc78f38998d",
+        "/KsCheckBox.as": "18dfe5d36f0813372dcadcb0f4975b1755699596129e7ba5995ae71a2185f8bd",
+        "/KsSlider.as": "0cc66920744b1d76f31e5b5dfe7af63c6271861178f82dcaea9fdc245cfadc3e",
+        "/fl/controls/BaseButton.as": "e6e44b3098715cc35b58dfc3d573393b33556a497c9cbfdc6001546fbbeba659",
+        "/fl/controls/Button.as": "bf42ea59e4092ea9cc3c6b4c9618954a7e3a895df6b7377636493c15de9910fc",
+        "/fl/controls/ButtonLabelPlacement.as": "4fa9849ec005ca967e6970ca754c8f775690387856c6bfaf130e97fc7f9f625b",
+        "/fl/controls/LabelButton.as": "1573504c9791491b0e037a503cb833b12e34e93eb9db91f23ddb1eeab4707978",
+        "/fl/core/InvalidationType.as": "f5cffa56b794ed50acddf55c8523d8fdfa8116aa6a5044893ac422e6de6c8088",
+        "/fl/core/UIComponent.as": "9d066d4f57444b0b2f8f8a379e8c614946abfe302702db7d959aa88bc96759f4",
+        "/fl/events/ComponentEvent.as": "5aa8d0711c07a2f71c8ad9f237fe11a2e1a34fc159ca1d0ba72671056c06e252",
+        "/fl/events/SliderEvent.as": "96a0244ab59dd7ff19cd5cd9bc10e459a4db948d62dcbd6f0a23029912d9eeb6",
+        "/fl/managers/FocusManager.as": "e71bbfc552517b51b14b109aab152c1a8fd3f473200a3269be8ef44d684b8154",
+        "/fl/managers/IFocusManager.as": "8539b72aa3181891ed164a403db2d54660611d4f271484ee8f6eb2ba33ac9a2f",
+        "/fl/managers/IFocusManagerComponent.as": "a86e152383f62830cc0c5d1eadb191b2e448503e0c08ee293d5fcce1590fa171",
+        "/fl/managers/IFocusManagerGroup.as": "41f42415ebe36de4e0aa83fce900a1a6dd3a1b41ee2cf9962c33fd3f7cb2b55d",
+        "/fl/managers/StyleManager.as": "3badbb99e4a301e6b575289b17048076c58ae401d632fa712a1886319aafff31",
+        "/pulseB.as": "a11c407b638d41bb53fae137cee7820938bbe0133a68b26e8417009c42ef4c93",
+        "/pulseR.as": "36c9564d4d798e9853913171af4e0008b0b0b6b7cd27646c78c799010251495d",
+        "/twinspacetimeCS3_w_fla/MainTimeline.as": "1e93401d3a438ff14ccb55904b7f8f5e9967acfb81e8a84f169bbada8ddbd9f3",
+        "/twinspacetimeCS3_w_fla/clock_3.as": "cdf0bedd81187473d0ec29707c4559d9a0cd08ef69fe8a0b5e2a56a09702c0f6",
+        "/twinspacetimeCS3_w_fla/spaceShipFrame_6.as": "c67c2cce37e8060011cf62386e1d5ffc81b0d4e6f8eaab01d989ee2726c68c03"
+      }
+    },
+    {
+      "id": "flash-ca65a61665935993",
+      "type": "twinresolve",
+      "passed": true,
+      "comparisons": 1803,
+      "maxAbsoluteError": 1.1368683772161603e-13,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/EGr.as": "2809724c2f745e33263f7b9b5ab9fb4e6d89c14d58bec702aade06a7270b1f22",
+        "/KsButton.as": "b3275132edc57527166aeff9f8a29dacb0bb0187480b63382333f21e0fc69991",
+        "/KsSlider.as": "bdda21af4284ce415d6f62fab487a2bcd255cf09a64ca6dca57955715c708ae4",
+        "/fl/controls/BaseButton.as": "e6e44b3098715cc35b58dfc3d573393b33556a497c9cbfdc6001546fbbeba659",
+        "/fl/controls/Button.as": "bf42ea59e4092ea9cc3c6b4c9618954a7e3a895df6b7377636493c15de9910fc",
+        "/fl/controls/ButtonLabelPlacement.as": "4fa9849ec005ca967e6970ca754c8f775690387856c6bfaf130e97fc7f9f625b",
+        "/fl/controls/LabelButton.as": "1573504c9791491b0e037a503cb833b12e34e93eb9db91f23ddb1eeab4707978",
+        "/fl/core/InvalidationType.as": "f5cffa56b794ed50acddf55c8523d8fdfa8116aa6a5044893ac422e6de6c8088",
+        "/fl/core/UIComponent.as": "9d066d4f57444b0b2f8f8a379e8c614946abfe302702db7d959aa88bc96759f4",
+        "/fl/events/ComponentEvent.as": "5aa8d0711c07a2f71c8ad9f237fe11a2e1a34fc159ca1d0ba72671056c06e252",
+        "/fl/events/SliderEvent.as": "96a0244ab59dd7ff19cd5cd9bc10e459a4db948d62dcbd6f0a23029912d9eeb6",
+        "/fl/managers/FocusManager.as": "e71bbfc552517b51b14b109aab152c1a8fd3f473200a3269be8ef44d684b8154",
+        "/fl/managers/IFocusManager.as": "8539b72aa3181891ed164a403db2d54660611d4f271484ee8f6eb2ba33ac9a2f",
+        "/fl/managers/IFocusManagerComponent.as": "a86e152383f62830cc0c5d1eadb191b2e448503e0c08ee293d5fcce1590fa171",
+        "/fl/managers/IFocusManagerGroup.as": "41f42415ebe36de4e0aa83fce900a1a6dd3a1b41ee2cf9962c33fd3f7cb2b55d",
+        "/fl/managers/StyleManager.as": "3badbb99e4a301e6b575289b17048076c58ae401d632fa712a1886319aafff31",
+        "/twinspacetimesol_w_fla/MainTimeline.as": "971c75a1b6b38649e236d31b511d15e05897af4dc7625f1e151867b9d6ef0ae1",
+        "/twinspacetimesol_w_fla/clock_6.as": "bbf65a595d986ef4846f614524c6f6230c298aead3abc14c17f8f6e3486962e2",
+        "/twinspacetimesol_w_fla/spaceShipFrame_3.as": "fd83b0341fb9437409b67eeecc6f392884ad712d411df0c1c5f49f0ea69fa133"
+      }
+    },
+    {
+      "id": "flash-113614d4bfcaccf9",
+      "type": "coincide",
+      "passed": true,
+      "comparisons": 72,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/DefineSprite_5/frame_1/PlaceObject2_4_2/CLIPACTIONRECORD onClipEvent(enterFrame).as": "57ad5ad01bc88e03d17a1d3cdad5452007f2f5e255e917532cb765fd7375ea3d"
+      }
+    },
+    {
+      "id": "flash-880647c22c26343c",
+      "type": "simultaneous",
+      "passed": true,
+      "comparisons": 2200,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [],
+      "sourceHashes": {
+        "/DefineSprite_44/frame_1/DoAction.as": "7ca2e5d8552d715afc364088793354dd43a1c44678cd146dff9a4268a6e7100d",
+        "/KsSlider2.as": "e564957cbf1eb8bb8d48eba27c76e9f46d8a99227e57d439dee0e0cb9353740a",
+        "/__Packages/MCU2.as": "fe996f471e4253cca50b4450a3927089b30fd764e4e45f295a2a9b23bff5e16b",
+        "/__Packages/SliderCompClass2.as": "a0a4aeea8f214500c5ccebd3db6533abfea436ddbd94e6bf2127fd4c94e61e75",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "2c6b6ccc69afcf22acf2e6910391b922f97c5a49e53b62489512375db3ea4804",
+        "/frame_1/DoAction_2.as": "91efee8afa8fdbbe7602895d94ef7c2aa73b57bac649d7082f2a0aebb4fc1b48",
+        "/frame_1/PlaceObject2_4_KsSlider2_30/CLIPACTIONRECORD on(construct).as": "b3f9e9ad2b3358f1ebc102d893fe437fb0347b2dadb00baf1e6b9d8fed6773c8",
+        "/frame_2/DoAction.as": "b7e1b419b1940e7ef6d6c429caeaafa8b2d749e6b1c0a681cfd53fe7f547637a",
+        "/frame_3/DoAction.as": "aad9fbd033f4051df0d5b0428acd91b40fea4614cb0f7e65dce362f29d541857"
+      }
+    },
+    {
+      "id": "flash-b9557638baf4eee6",
+      "type": "clocks",
+      "passed": true,
+      "comparisons": 8190,
+      "maxAbsoluteError": 1.1823431123048067e-11,
+      "failures": [],
+      "cases": [
+        "63 clocks, 130 natural increments"
+      ],
+      "sourceHashes": {
+        "/DefineSprite_15/frame_1/DoAction.as": "7fe5e2b2c081640d4bafd956bc41de9aee3220cbb760d0e407420c2bf04a8391",
+        "/KsToggleBtn.as": "4d84490fddde2a3577146f18f6519cd686f3b407defcf60e2a662a394b050532",
+        "/__Packages/MCU.as": "d9ec5ea8b79e6385c2088eb0f3de82f12020c6ac00b86f78fef5f4404458538b",
+        "/__Packages/TBtnCompClass.as": "eda72dd66c9106db3ee297b4c6e3e58444d8247b802577559d25eae114934212",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "64ff234a28308dd26dab45b50aafe36fe59730280cd6f68288d75236b4e9cdac",
+        "/frame_1/PlaceObject2_4_KsToggleBtn_15/CLIPACTIONRECORD on(construct).as": "6cf29a2175cd624a16db536c488862d8c18ad156437182f37381083abdeb9672",
+        "/frame_1/PlaceObject2_4_KsToggleBtn_16/CLIPACTIONRECORD on(construct).as": "75903eeb969196c4c8e8cd162c9d45d4cac8a4a2558a4ac35c6ff2e4e6628caf",
+        "/frame_2/DoAction.as": "708a66212fc5239043c14f742460ba5762fbcedbc0716999220b80371b011ddf",
+        "/frame_3/DoAction.as": "323c64093ecaf78c96e87e50c3facc85f7a66ab58de169006408059c26dc225c",
+        "/frame_4/DoAction.as": "7e745cff7100b0947034b09f5b7084279eb3b8ff656bd9b94680c1900ff17f6c"
+      }
+    },
+    {
+      "id": "flash-41f497a574da2503",
+      "type": "crystal",
+      "passed": true,
+      "comparisons": 2594,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [
+        "118 original scalar facts and original period/group placement; group UI where present"
+      ],
+      "sourceHashes": {
+        "/KsToggleBtn2.as": "696e19a44267febff8e581e15ad6c6592fe360262c86802e910824dbab95b8fa",
+        "/__Packages/Atom.as": "3d53672d93b5ba89e86369766baa30bad78eb10144a3ef9b286fcc73a28df7c9",
+        "/__Packages/Atom3.as": "b4296cafd8f005b997069c09ddc89b2e0c806d29a51c563545f2dc502d262cd0",
+        "/__Packages/MCU2.as": "fe996f471e4253cca50b4450a3927089b30fd764e4e45f295a2a9b23bff5e16b",
+        "/__Packages/TBtnCompClass2.as": "dda6a509b6d24154e9f9795efcf194311560233c10a28a7d5c9705ec4f53e4d1",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "8c48db4ef7c097f92bd14061f2da5a3d375f89b2bfec8dce63f6a2a1299e1c7f",
+        "/frame_1/PlaceObject2_18_1/CLIPACTIONRECORD on(release).as": "772b08ec22ca8b5074335a994300854c9e742f5ab47fd45881e33c1664efc5e9",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_38/CLIPACTIONRECORD on(construct).as": "7702e25c76be8cbf3614e991d4fd901e77fc8de08e113c90c4a87199086324be",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_39/CLIPACTIONRECORD on(construct).as": "b382aab3229dede514a4ce7049a21fbdc408fb9d74c4025e28b4455321f07be5",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_40/CLIPACTIONRECORD on(construct).as": "93695f6b9329dc2c770892be8565130a65afc87693469ebdab56cbc603bf026f",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_41/CLIPACTIONRECORD on(construct).as": "d4c868a77938beb74ca9a649296d14a85000f9faf141e6c41c0ef4e5ecbfe248",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_42/CLIPACTIONRECORD on(construct).as": "f00c02a80b81007969fa6a7e5749b0c185d0ca0fe28b1102d2212ce1bbd2f9a6",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_43/CLIPACTIONRECORD on(construct).as": "bcb5d0b4702339f158a65bb6b750ece134f398f0340e26c3d032472af2a86df8",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_44/CLIPACTIONRECORD on(construct).as": "51804bac88fec60f0169f176523205757ddb1626d322afb89fdebd8d43598e84",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_45/CLIPACTIONRECORD on(construct).as": "aeb6dbf74ad3f61761fbd5b3924856ceae7ff5c25cef350d80c4a02612890cd2",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_46/CLIPACTIONRECORD on(construct).as": "2caea22a83c5cbc42bcbed7b7ef182a3419eac59d5ed2328b086617663ed4363",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_47/CLIPACTIONRECORD on(construct).as": "74cc8bed6b90aa7f532e29f2d85f60cf17bf900371080f4fa1e4bf5c1f73ff16",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_48/CLIPACTIONRECORD on(construct).as": "d3d00e838ea71e11c3aec46475889eee14f1db40cff59e287d3ea861ce1cdcc9",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_49/CLIPACTIONRECORD on(construct).as": "65fad2cee3f211d6885554809f59f953edb8753b9211f293acd28d724d086a79",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_50/CLIPACTIONRECORD on(construct).as": "c1fd0651af8993602961d7f01955f6d1a9c733eec4bb79cf6b13d38769edc2fc",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_51/CLIPACTIONRECORD on(construct).as": "94e6d06f9957b36a4345322d1eb5ee5ab11d0e8eeaea0441eefa51a010725a1e",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_52/CLIPACTIONRECORD on(construct).as": "3b49425532aad0dc1043efe8196531b32a17171b1f26c9358cb8d4551306ead7",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_53/CLIPACTIONRECORD on(construct).as": "bcd5dfa9fccbd161f4cb6aa4580970547a24189e7c84072f4fbf8135b2ff0359",
+        "/frame_1/PlaceObject2_4_KsToggleBtn2_54/CLIPACTIONRECORD on(construct).as": "15c180877894d698368c28e5a5807802d40f99809290639ec8b6e998c77b6e2a"
+      }
+    },
+    {
+      "id": "flash-acf2dab16134634a",
+      "type": "impurity",
+      "passed": true,
+      "comparisons": 99542,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [
+        {
+          "factor": 0.8,
+          "level": 1,
+          "hydrogen": false,
+          "higher": false,
+          "waves": false,
+          "selected": false,
+          "lattice": false
+        },
+        {
+          "factor": 0.5,
+          "level": 1,
+          "hydrogen": false,
+          "higher": false,
+          "waves": false,
+          "selected": false,
+          "lattice": false
+        },
+        {
+          "factor": 1.5,
+          "level": 1,
+          "hydrogen": false,
+          "higher": false,
+          "waves": false,
+          "selected": false,
+          "lattice": false
+        },
+        {
+          "factor": 0.8,
+          "level": 1,
+          "hydrogen": true,
+          "higher": false,
+          "waves": false,
+          "selected": false,
+          "lattice": false
+        },
+        {
+          "factor": 0.8,
+          "level": 1,
+          "hydrogen": false,
+          "higher": true,
+          "waves": false,
+          "selected": false,
+          "lattice": false
+        }
+      ],
+      "sourceHashes": {
+        "/EGr.as": "66bbfd1cbb56d60d4fb5ff59396056743052dbec277fe2f9e443fbad9bb4785a",
+        "/KsButton.as": "b24db42ae0635cad26f7e58f81938f328db1cae45aa5970319b7c6edba1a9f9e",
+        "/KsCheckBox.as": "2c409de6fdc5fa98ab0c383be892d5e8c7d50f1b23c40af31b8829ca7d8674a0",
+        "/KsSlider.as": "119af5aa16f62826baca5cbcdceb9aeb5f22b85fb6d92cf6b7cfec84ffd37f92",
+        "/KsSpinor.as": "6b447a3ca0c75a76aa82c58bb992a2be0a4687d349178d3012c19950faaa2531",
+        "/QuantumSolver/EigenfunctionData.as": "dad6ba3a67b45353070642b05635b81295d502aef1fab9b5d6c0916377c1a10c",
+        "/QuantumSolver/EigenfunctionFinder.as": "edc27c0f4e4ddb6f960be145a7f931db3530e6e2b85b54f68fd8ef3c419d0096",
+        "/QuantumSolver/FittingProtocol.as": "53a91f248f3d9e1489a855fcef1169fc90a8fa68321da42008cf4bf8fda44b32",
+        "/QuantumSolver/Mathematics.as": "962a24a1cc094b00658dab6ed806bcf1ad10442635ee561385ebf4867fc5fe25",
+        "/QuantumSolver/PotentialPointer.as": "fef8cc1acf756efa79cef798b74826edff1381c139c6a8e55bfc9a0f11098b6f",
+        "/fl/controls/BaseButton.as": "ceb297a34217fdf96a46ee6d8ef1a774462fa84252d529c6fbb3724ad7836cff",
+        "/fl/controls/Button.as": "468c783e3fc61eed434ded1b61dbd2359e9d712306977740cf8126d1a8ab7460",
+        "/fl/controls/ButtonLabelPlacement.as": "4fa9849ec005ca967e6970ca754c8f775690387856c6bfaf130e97fc7f9f625b",
+        "/fl/controls/LabelButton.as": "b3a3906bbce73f2875951400b591570c2959f0234406910f467dd7ab15c09c9a",
+        "/fl/core/InvalidationType.as": "f5cffa56b794ed50acddf55c8523d8fdfa8116aa6a5044893ac422e6de6c8088",
+        "/fl/core/UIComponent.as": "a864e83bfde98e45029e8b2f948d220b2dc47f767ea3565bcb9e888b009d1912",
+        "/fl/events/ComponentEvent.as": "5aa8d0711c07a2f71c8ad9f237fe11a2e1a34fc159ca1d0ba72671056c06e252",
+        "/fl/events/SliderEvent.as": "21ae0eec35e6f99953ae5b80356d1db6a9d30b8872f4401750a4cce76d330730",
+        "/fl/managers/FocusManager.as": "0899328dd16ae2f6f3590b9d649e247621846a30a3c5b7eda8afa1319ece01b2",
+        "/fl/managers/IFocusManager.as": "f860f2a1238fdf53903907311bb17f22f09b39d2d0bf957effe7ac0cd2f8fd5c",
+        "/fl/managers/IFocusManagerComponent.as": "a86e152383f62830cc0c5d1eadb191b2e448503e0c08ee293d5fcce1590fa171",
+        "/fl/managers/IFocusManagerGroup.as": "73a08daaaf5bfe98b1cb8e42becd10338f54f3a9b338445abd5da2694d789201",
+        "/fl/managers/StyleManager.as": "d5ef18613cb441a1f52329e97b158f18a5139b0911823917b5f162237108676d",
+        "/periodicpotimpurity_w_fla/MainTimeline.as": "e7be942b9e919fd9a18b9a514831c09fa2c7fd2ed00651c786f7e647abc614e3"
+      }
+    },
+    {
+      "id": "flash-c0b1169024f0a018",
+      "type": "semi",
+      "passed": true,
+      "comparisons": 498,
+      "maxAbsoluteError": 0,
+      "failures": [],
+      "cases": [
+        "118 original scalar facts and original period/group placement; group UI where present"
+      ],
+      "sourceHashes": {
+        "/KsToggleBtn2.as": "696e19a44267febff8e581e15ad6c6592fe360262c86802e910824dbab95b8fa",
+        "/__Packages/Atom.as": "3d53672d93b5ba89e86369766baa30bad78eb10144a3ef9b286fcc73a28df7c9",
+        "/__Packages/Atom2.as": "75f4ecdef76c14b71d795e4e0bd96321691a9771ac0cc4981e536bde9b67fd6a",
+        "/__Packages/MCU2.as": "fe996f471e4253cca50b4450a3927089b30fd764e4e45f295a2a9b23bff5e16b",
+        "/__Packages/TBtnCompClass2.as": "dda6a509b6d24154e9f9795efcf194311560233c10a28a7d5c9705ec4f53e4d1",
+        "/__Packages/mx/events/EventDispatcher.as": "8973c3f08699325ff6f170cfadc557fa287ccee083a53bef8e6cf791003312a3",
+        "/frame_1/DoAction.as": "8689abe2de80e9a15407ebdb70a2b06b392aa5269284a5b4728a420e167ff3bb",
+        "/frame_1/PlaceObject2_17_1/CLIPACTIONRECORD on(release).as": "772b08ec22ca8b5074335a994300854c9e742f5ab47fd45881e33c1664efc5e9"
+      }
+    }
+  ]
+}

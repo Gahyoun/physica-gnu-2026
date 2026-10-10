@@ -1,0 +1,818 @@
+{
+  "method": "Read-only preserved original SWF Ruffle in-memory diagnostic route: original document class/ABC and every original tag byte preserved. Original Timer/frame loops naturally run; actual UI pointer starts originals where required. One-time public stochastic state alignment only; no updater invocation or per-frame original state copying.",
+  "files": 21,
+  "comparisons": 2274,
+  "fullEquivalence": false,
+  "nativeModelHashes": {
+    "assets/modern-final69-atomic-data.mjs": "6657cf2f031c6145e4acfed6f7aae2af30f57111323fe328f3a7a2e3e791fd36",
+    "assets/modern-final69-atomic-physics.mjs": "845fc426f3c3505d94aa55c928343469a7c349c3d52a120ffd673ddedb51ca3b",
+    "assets/modern-final69-quantum-engine.mjs": "6a53b741e7b4037a06e08c6677bf8537dae83a1f50e3d6595156a9bcde17871d",
+    "assets/modern-final69-quantum-physics.mjs": "d9ab480e70970d9c0435798d70a69b9da03a073e34aceec2ff5a482cf23d4a21",
+    "assets/modern-final69-relativity-physics.mjs": "84e01c71da60007dde98aef95394d062ae328a6698417280bffaabe22d8ceb35",
+    "assets/modern-final69-photon-physics.mjs": "7b44836ee6a7f5e3a2adf0172ee3e3a0c154b113ea83058de0be4b939ce60eca",
+    "assets/modern-final69-compton-data.mjs": "36c55c5911205ee2bd62c864f1a56b4e5ad05861829c00224bd4def27f8da1b1",
+    "assets/modern-final69-specs.mjs": "36ea6c9c003e687d368e49f1b62707a93215d7fb7ac991c23d47ac0c8364cb09",
+    "tools/modern-final69-runtime-check.mjs": "eec93511b6cb9dcdacda1b6b4af6e12138dd1179325ec00ba20d57f588890eeb",
+    "tools/modern-final69-observer/PhysicaModernFinal69Observer.as": "8149b7fe34f90715298baabf4b8100b7abfe9238d6ff66302ce822bd4d0461b3",
+    "tools/modern-final69-compile-observer.mjs": "a9473feb1d5fadaade2e849339bab3b7824188f76925e168565e27fb2897639a",
+    "tools/modern-next-as3-observer.mjs": "d27ed066a894d99092a0d4a34b6df8443dfc22a6e2e177b3417d84f5a262e626",
+    "tools/swf-runtime-probe.mjs": "4867b9a887797a34befeafcc4a73528e7626e0b6f2a9f7907d7cd583c638dd03"
+  },
+  "results": [
+    {
+      "id": "flash-43834abb48f3463d",
+      "type": "table",
+      "originalSHA256": "307dea418c7eb66389d8fc2462017b7ffb68ccdaac6383478eb75fe83a544965",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 693,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Original stored element facts and individual element placement; controls/group data separately source checked.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-53b1f7b53747d01e",
+      "type": "compton",
+      "originalSHA256": "8878fd18087178ea0e675ccc2f44a48445bbed3b0c65fb7e35cd8d77f865f062",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 20,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": "",
+          "phase": ""
+        },
+        {
+          "trial": 1,
+          "time": "",
+          "phase": ""
+        },
+        {
+          "trial": 2,
+          "time": "",
+          "phase": ""
+        },
+        {
+          "trial": 3,
+          "time": "",
+          "phase": ""
+        },
+        {
+          "trial": 4,
+          "time": "",
+          "phase": ""
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Natural original nested child timeline positions at five observed frames; new glyphs use source timeline numeric matrices; all original artwork retained only in originals.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-1140491ce19ba43a",
+      "type": "cavity",
+      "originalSHA256": "4a64b9dd98e209dbdbdff257813aefce6b4dd10e33d8682af659343af0fe1e0c",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 30,
+      "maxAbsoluteError": 5.115907697472721e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 6,
+          "phase": ""
+        },
+        {
+          "trial": 1,
+          "time": 8,
+          "phase": ""
+        },
+        {
+          "trial": 2,
+          "time": 10,
+          "phase": ""
+        },
+        {
+          "trial": 3,
+          "time": 12,
+          "phase": ""
+        },
+        {
+          "trial": 4,
+          "time": 14,
+          "phase": ""
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "One-time public ray origin/direction snapshot aligned; independent straight-segment evolution between natural Timer samples, bounded before next stochastic wall reflection. Full reflection law separately source checked under deterministic random oracle.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-a79d576b4d9393cf",
+      "type": "franck",
+      "originalSHA256": "5d4861837de13a257c79745b88e8b8d07063fe927f74102125d5fa842e44d5d0",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 32,
+      "maxAbsoluteError": 7.460698725481052e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": null,
+          "phase": null
+        },
+        {
+          "trial": 1,
+          "time": null,
+          "phase": null,
+          "steps": 7,
+          "particles": 2
+        },
+        {
+          "trial": 2,
+          "time": null,
+          "phase": null,
+          "steps": 13,
+          "particles": 2
+        },
+        {
+          "trial": 3,
+          "time": null,
+          "phase": null,
+          "steps": 20,
+          "particles": 2
+        },
+        {
+          "trial": 4,
+          "time": null,
+          "phase": null,
+          "steps": 27,
+          "particles": 2
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Original initial particle state read once; independently predict eligible accelerated particles at natural public counter/dataCounter steps. Excludes random deflections and threshold/boundary collisions; full 250-particle stochastic arithmetic source checked separately.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-abc9f1ad0cf746d5",
+      "type": "spectrum",
+      "originalSHA256": "185f3e16420fee1d1b8c5823007f50ec63fb3d15b07ddc1c8a22d9942a743e57",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 10,
+      "maxAbsoluteError": 2.220446049250313e-16,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": "",
+          "phase": ""
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Original initial 3D rotation matrix and 63 spectral fan surfaces; original missing wavelength bins are independently source checked. Native HTML sliders/drag use original Rodrigues rotation law.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-73be9774daba6348",
+      "type": "bond",
+      "originalSHA256": "524d9d144b65b86967ea8ee2a643da981497f1a3a63c64f2f6b4388af8fcff5b",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 10,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0
+        },
+        {
+          "trial": 1
+        },
+        {
+          "trial": 2
+        },
+        {
+          "trial": 3
+        },
+        {
+          "trial": 4
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Original AS3 numerical solver stored pure energy getters and public original controls at initial/default setting. Original ABC/root class and timer unmodified.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-9b41f82783cf8a46",
+      "type": "bound",
+      "originalSHA256": "5894a2f8cbc0e81e6add958a3c2dcbdafec4e6435bf1f1ed112c5ffb295f5721",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 120,
+      "maxAbsoluteError": 4.973799150320701e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": null,
+          "phase": null
+        },
+        {
+          "trial": 1,
+          "time": null,
+          "phase": null
+        },
+        {
+          "trial": 2,
+          "time": null,
+          "phase": null
+        },
+        {
+          "trial": 3,
+          "time": null,
+          "phase": null
+        },
+        {
+          "trial": 4,
+          "time": null,
+          "phase": null
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Original random potential modes read once; original stored potential arrays (22 individual samples) and pure energy getters match native. Original natural motion observed but tick count is not exposed; exact motion arithmetic checked independently in source oracle.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-dec768b8e9c2034f",
+      "type": "river",
+      "originalSHA256": "6d488c02826badf97730ffe57330483414e7b13ab26a5146dd866a3ef07509ef",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 15,
+      "maxAbsoluteError": 4.263256414560601e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 6,
+          "phase": ""
+        },
+        {
+          "trial": 1,
+          "time": 8,
+          "phase": ""
+        },
+        {
+          "trial": 2,
+          "time": 10,
+          "phase": ""
+        },
+        {
+          "trial": 3,
+          "time": 12,
+          "phase": ""
+        },
+        {
+          "trial": 4,
+          "time": 14,
+          "phase": ""
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Actual original action button pointer click starts original frame loop; individual canoe coordinates compared at natural public time steps.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-88b7e17d5c10ff99",
+      "type": "michelson",
+      "originalSHA256": "a994daee3bdb81cf29113deeb596a19d29cae29f4940700fcbfc1bc26d51f4b2",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 20,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": "",
+          "phase": ""
+        },
+        {
+          "trial": 1,
+          "time": "",
+          "phase": ""
+        },
+        {
+          "trial": 2,
+          "time": "",
+          "phase": ""
+        },
+        {
+          "trial": 3,
+          "time": "",
+          "phase": ""
+        },
+        {
+          "trial": 4,
+          "time": "",
+          "phase": ""
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Natural original two optical-path positions at public frame t; display properties retain original twip quantization tolerance.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-eb2235affe5d7d5f",
+      "type": "curved",
+      "originalSHA256": "327347437b0105b092d651ff73414110d2ae0b60e3d2e51db1598502f1360230",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 20,
+      "maxAbsoluteError": 4.263256414560601e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 11,
+          "phase": null
+        },
+        {
+          "trial": 1,
+          "time": 15,
+          "phase": null
+        },
+        {
+          "trial": 2,
+          "time": 18,
+          "phase": null
+        },
+        {
+          "trial": 3,
+          "time": 21,
+          "phase": null
+        },
+        {
+          "trial": 4,
+          "time": 25,
+          "phase": null
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Natural original gravity finite-difference integrator public x/y/velocities before randomized reset.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-c8db8a44814f023b",
+      "type": "equiv",
+      "originalSHA256": "47566642342dd30ca0ff3517ea2f058e9cb79cbc0a4570bbcce2ecc14bbf581b",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 100,
+      "maxAbsoluteError": 0.2600000000000193,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 21,
+          "phase": null
+        },
+        {
+          "trial": 1,
+          "time": 24,
+          "phase": null
+        },
+        {
+          "trial": 2,
+          "time": 28,
+          "phase": null
+        },
+        {
+          "trial": 3,
+          "time": 31,
+          "phase": null
+        },
+        {
+          "trial": 4,
+          "time": 34,
+          "phase": null
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "One-time original randomized star display positions read; native independently advances acceleration until random wrap. Bounded display tolerance accounts for per-frame original 1/20-pixel property quantization.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-668f1814a44090a8",
+      "type": "lightpath",
+      "originalSHA256": "b154fd83fa9df8a4d0a46a179775de8c35e5f8b5d31fd0ae08a73444014aa155",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 20,
+      "maxAbsoluteError": 0.4000000000000057,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 21,
+          "phase": 11
+        },
+        {
+          "trial": 1,
+          "time": 24,
+          "phase": 14
+        },
+        {
+          "trial": 2,
+          "time": 28,
+          "phase": 18
+        },
+        {
+          "trial": 3,
+          "time": 31,
+          "phase": 21
+        },
+        {
+          "trial": 4,
+          "time": 34,
+          "phase": 24
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Both original accelerating light paths and shared public pulse timestep; per-frame original display twip quantization bounded, not an arbitrary numerical tolerance.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-2981dda64c3b445e",
+      "type": "worldline",
+      "originalSHA256": "832584ef6f5f5f26fd47e19efcebeec277da2ad8e7aaf59b902cbd95be08e5de",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 10,
+      "maxAbsoluteError": 4.263256414560601e-13,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 6,
+          "phase": null
+        },
+        {
+          "trial": 1,
+          "time": 8,
+          "phase": null
+        },
+        {
+          "trial": 2,
+          "time": 10,
+          "phase": null
+        },
+        {
+          "trial": 3,
+          "time": 12,
+          "phase": null
+        },
+        {
+          "trial": 4,
+          "time": 14,
+          "phase": null
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Original force integration public scalar bx/bv at bounded natural time steps before source time reset.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-e80fec4ff9e94883",
+      "type": "twin",
+      "originalSHA256": "89d21b4cfd8f5cdc811def8e468a99de1cea123cb9088da6bce2031219e2eeb0",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 20,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 13
+        },
+        {
+          "trial": 1,
+          "time": 17
+        },
+        {
+          "trial": 2,
+          "time": 22
+        },
+        {
+          "trial": 3,
+          "time": 26
+        },
+        {
+          "trial": 4,
+          "time": 30
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Actual original move toggle pointer starts unchanged AS3 Timer. Shared original time drives original ship coordinate and both clocks; comparison checks shared-phase synchronization.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-ca65a61665935993",
+      "type": "twinresolve",
+      "originalSHA256": "a4370c3fa679b4755886d34bc63f06d765914bce3552f11edf1822fa9899ce32",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 25,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 13
+        },
+        {
+          "trial": 1,
+          "time": 18
+        },
+        {
+          "trial": 2,
+          "time": 22
+        },
+        {
+          "trial": 3,
+          "time": 26
+        },
+        {
+          "trial": 4,
+          "time": 30
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Actual original move toggle pointer starts unchanged AS3 Timer. Shared original time drives original ship coordinate and both clocks; comparison checks shared-phase synchronization.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-113614d4bfcaccf9",
+      "type": "coincide",
+      "originalSHA256": "0a727b158a5b35bfedf2265eec783ee4df20c3c01204334d578e09bce14679bc",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 5,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": "",
+          "phase": 15
+        },
+        {
+          "trial": 1,
+          "time": "",
+          "phase": 25
+        },
+        {
+          "trial": 2,
+          "time": "",
+          "phase": 35
+        },
+        {
+          "trial": 3,
+          "time": "",
+          "phase": 45
+        },
+        {
+          "trial": 4,
+          "time": "",
+          "phase": 55
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Natural original nested 11×9 synchronized clock hand enterFrame rotation; one representative hand from the preserved root Sprite observed at five frames.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-880647c22c26343c",
+      "type": "simultaneous",
+      "originalSHA256": "26bd03f8130dbd6c20beaf86e00d3352157194b9127f6fcd065b727ed3e96f50",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 25,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 9,
+          "phase": null
+        },
+        {
+          "trial": 1,
+          "time": 11,
+          "phase": null
+        },
+        {
+          "trial": 2,
+          "time": 13,
+          "phase": null
+        },
+        {
+          "trial": 3,
+          "time": 15,
+          "phase": null
+        },
+        {
+          "trial": 4,
+          "time": 17,
+          "phase": null
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Natural original event timing, moving ship and four distinct flash pulses; observations include pre-event phase at default speed.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-b9557638baf4eee6",
+      "type": "clocks",
+      "originalSHA256": "b5651b966f3257b9461eec4044da0ae684d4a0bfb86c751e6ee6beabd68b8f1b",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 15,
+      "maxAbsoluteError": 5.684341886080802e-14,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0,
+          "time": 0.4,
+          "phase": null
+        },
+        {
+          "trial": 1,
+          "time": 0.6,
+          "phase": null
+        },
+        {
+          "trial": 2,
+          "time": 0.8,
+          "phase": null
+        },
+        {
+          "trial": 3,
+          "time": 1,
+          "phase": null
+        },
+        {
+          "trial": 4,
+          "time": 1.2,
+          "phase": null
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "One-time original random clock settings read; all observed clocks advance independently by same actual original time delta. Native synchronization wave law source checked separately.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-41f497a574da2503",
+      "type": "crystal",
+      "originalSHA256": "2137fa9eb90c07ad6e1d7cbcebfc9122b308ca9ba27b82c10997a76d04d99973",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 741,
+      "maxAbsoluteError": 2.220446049250313e-16,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Original stored element facts and individual element placement; controls/group data separately source checked.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-acf2dab16134634a",
+      "type": "impurity",
+      "originalSHA256": "041731e7b156847426bad7d2f35dcd653cf4615dd0a997770a8631d9d1237023",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 55,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0
+        },
+        {
+          "trial": 1
+        },
+        {
+          "trial": 2
+        },
+        {
+          "trial": 3
+        },
+        {
+          "trial": 4
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Original AS3 numerical solver stored pure energy getters and public original controls at initial/default setting. Original ABC/root class and timer unmodified.",
+      "originalRuntimeVerified": true
+    },
+    {
+      "id": "flash-c0b1169024f0a018",
+      "type": "semi",
+      "originalSHA256": "fcb4dcf0780de098ca224a63188e3c132e35fd6785a5a5b525c9ab75d8f6b64b",
+      "originalTagsByteIdentical": true,
+      "originalABCPreserved": true,
+      "originalDocumentClassPreserved": true,
+      "originalTimerUnchanged": true,
+      "comparisons": 288,
+      "maxAbsoluteError": 0,
+      "mismatches": [],
+      "cases": [
+        {
+          "trial": 0
+        }
+      ],
+      "passed": true,
+      "fullEquivalence": false,
+      "scope": "Original stored element facts and individual element placement; controls/group data separately source checked.",
+      "originalRuntimeVerified": true
+    }
+  ]
+}

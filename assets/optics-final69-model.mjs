@@ -1,0 +1,16 @@
+import {AS2,TimerEvent,MouseEvent,SliderEvent} from './optics-final69-adapter.mjs';
+export async function createOpticsFinal69Model(spec){const module=await import('./'+spec.programModule);const create=module.createTimeline;let t=create(),step=0,finished=false;const type=spec.type;
+ function focus(){AS2.root=t;}
+ function pause(){t.pt?.stopAni();t.aniTimer?.stop();t.isRunning=false;}
+ function initial(){focus();if(type==='total'){t.init();t.isRunning=false;}if(type==='activity'){t.changeRotatoryPower(t.rotatoryP.level);}pause();}
+ initial();
+ function set(c,value){focus();t[c.clip][c.property||'value']=value;if(type==='total'){t.init();t.isRunning=false;}else if(type==='activity')t.changeRotatoryPower(value);else t[c.clip].dispatchEvent({type:SliderEvent.CHANGE,target:t[c.clip]});pause();step=0;finished=false;}
+ function tick(){focus();if(type==='ray'){t.pt.animationTimer.running=true;t.pt.onTick(new TimerEvent('timer'));}else if(type==='total'){if(t.gtime>=725){t.setStatic();return false;}t.isRunning=true;t.gtime++;t.calcAllAndMove();}else if(type==='activity'){t.time++;if(t.time>5000)t.time=0;t.remakeWave();t.RenderScene();}else if(type==='crystal')t.runthis();else if(type==='stn'||type==='poincare'){t.aniTimer.running=true;t.onTick(new TimerEvent('timer'));}step++;const active=type==='ray'?t.pt.animationTimer.running:type==='total'?t.isRunning:step<limit();finished=!active;return active;}
+ function limit(){return type==='ray'?t.pt.aniTimeLimit:type==='total'?725:500;}
+ function reset(){t=create();step=0;finished=false;initial();return t;}
+ function seek(n){const values=spec.controls.map(c=>[c,t[c.clip][c.property||'value']]);const checks=spec.checks.map(c=>[c,t[c.clip].isChecked]);reset();for(const[c,v]of values)set(c,v);for(const[c,v]of checks){t[c.clip].isChecked=v;t[c.clip].dispatchEvent({type:MouseEvent.CLICK});}for(let i=0;i<n;i++)if(!tick())break;pause();}
+ function rotate(dx,dy){focus();if(t.cam?.SetTransformMatrix)t.cam.SetTransformMatrix(-dy/3,dx/3,0);else if(t.SetTransformMatrix)t.SetTransformMatrix(-dy/3,dx/3,0,t.TransformMatrix??t.cam?.TransformMatrix);if(t.RenderScene)t.RenderScene();else if(t.RedrawAll)t.RedrawAll();}
+ function button(b){focus();if(b.toggle)t[b.clip].isON=!t[b.clip].isON;t[b.clip].dispatchEvent({type:MouseEvent.CLICK,target:t[b.clip]});if(type==='ray')step=0;pause();}
+ function check(c,v){focus();t[c.clip].isChecked=v;t[c.clip].dispatchEvent({type:MouseEvent.CLICK,target:t[c.clip]});}
+ return{get timeline(){return t;},get step(){return step;},get finished(){return finished;},set,check,tick,pause,reset,seek,rotate,button,limit,focus};}
+export function numericOpticsFinal69Snapshot(t){const out={};const seen=new Set();function walk(v,path,d){if(typeof v==='number'){if(Number.isFinite(v))out[path]=v;return;}if(typeof v==='boolean'){out[path]=Number(v);return;}if(v===null||typeof v!=='object'||d>7||seen.has(v))return;seen.add(v);for(const[k,w]of Object.entries(v)){if(['listeners','parent','_root','stage','spec','graphics','children','transform'].includes(k)||k.startsWith('__')||['width','height','x','y','value','isChecked','isON','visible'].includes(k)&&v.graphics)continue;walk(w,path+'.'+k,d+1);}seen.delete(v);}walk(t,'root',0);return out;}

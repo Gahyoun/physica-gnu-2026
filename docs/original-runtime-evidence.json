@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09T23:23:40.331Z",
+  "date": "2026-10-10T00:15:20.050Z",
   "engine": "0.6.0",
   "nativeModelHashes": {
     "assets/fundamental-physics.mjs": "826af3c93e30055281977515316559ed4e1321ec6300685c61272833dc95ee96",
@@ -180,16 +180,84 @@
     "assets/optics-batch50b-adapter.mjs": "2e06f9f6c99662a0f112a8d1dfa4aef515d083d13fcf0449a8bbf7c5741b9007",
     "tools/optics-batch50b-runtime-check.mjs": "024197df1713428bcc9e8913cb68018e899e14f145a5b8f371997b13831722bd",
     "tools/optics-batch50b-as3-compile.mjs": "4a9b7479ba5ed580317af14354fb30d152f4fa1d4e9ed5e0bc7e61493dad1507",
-    "tools/optics-batch50b-observer/PhysicaOpticsBatch50bObserver.as": "13855b870357cb452338c833821db21b37352168c712dbc43e97cf6b2c1a4581"
+    "tools/optics-batch50b-observer/PhysicaOpticsBatch50bObserver.as": "13855b870357cb452338c833821db21b37352168c712dbc43e97cf6b2c1a4581",
+    "assets/general-final69-physics.mjs": "de56c166db3e5606315939374100d535c480f0ec3840d4042233b3a80415699b",
+    "assets/general-final69-specs.mjs": "f7baa7e397078ce0a7642ea3df6d007831cae4ba14c2a3e188ef4355e7bb730f",
+    "tools/general-final69-runtime-check.mjs": "78496c825689186e575e8d41d33b879118ec628bf0bdcf633a90e45871e1eea0",
+    "tools/general-final69-as3-compile.mjs": "e2c27997426bf1756c2abf34028e90deacda75acf53258f98a131061b634d92a",
+    "tools/GeneralFinal69Observer.as": "f9109a74443e79ed8e9bfe76e8d7ab8d14f2d1598062e380bd5b1075e30197a2",
+    "assets/optics-final69-adapter.mjs": "23fd8d339fff8e0ed561194b51a713baeb54b9962fd9106febc6ca935a48a37e",
+    "assets/optics-final69-model.mjs": "efba446346f7820f09e69b98f3514eb3a903a853e773b721c70f34adbf8eb386",
+    "tools/optics-final69-runtime-check.mjs": "e793bec72bc17482dae4e44e53eef9517e00f875922ce310d4ac8c6f4dc146ce",
+    "tools/optics-final69-runtime-paths.mjs": "39be9fc4e0bf098b52f875014dc1da30bde34933498f891d20e4407b9967c3fa",
+    "tools/optics-final69-as3-compile.mjs": "3266f5816f5f8d9eea6eb31fcb882082a9cf15178f38840e92aa7204ec85a5e3",
+    "tools/optics-final69-observer/PhysicaOpticsFinal69Observer.as": "da03f5388b393830486c841bc134118b3b8829656756e09b1d521ce294077d04",
+    "assets/optics-final69-program-flash-88dcd0ec7ac4ff7a.mjs": "3b97e6973d59ee2b1f98d955a13da4a9593958487cf1744f691e12f86743e55e",
+    "assets/optics-final69-program-flash-a88e894980293e64.mjs": "96eeff5a5f1eeee03f7d476f59a2f1b787370d7a316f5496bd5f6929f5ea868d",
+    "assets/optics-final69-program-flash-a503a95f16f31f43.mjs": "c1e6939e2562dd2e5bf2e690421894c6e43de3650a3470d68b7062dd2c6f2755",
+    "assets/optics-final69-program-flash-833b671bb8f1fdf2.mjs": "bdc8deb38ee0340509ca66e4560b4386320b43b073ba2770853c1b4c17c42658",
+    "assets/optics-final69-program-flash-c8db27599ba6e756.mjs": "dcccc6e9c0bb169ffa7aee595309d80aa07678ae5969f386f10b05faf3fc5f58",
+    "assets/optics-final69-program-flash-5b4df2e3e2d7f004.mjs": "d88ffd06dc2b66a0e63e89ad1f465501b97ed6a14800cd07bc9966ac250a90a0",
+    "assets/optics-final69-program-flash-e1f3b51663ebef1c.mjs": "29a04aa2a98d42bf806191f43f2ebe207df885a0fcfed9ed9a6172b71e63b27a",
+    "assets/optics-final69-program-flash-bcf751c6bdf6ac2e.mjs": "e767b1c34d0bd2d8c7e9216edb1b0438b260897880e5dbb6de915803984b9c07",
+    "assets/optics-final69-program-flash-326e10f58c5fc432.mjs": "000b79ac46d2e1f927c20e3c62f2ec1035be294210927130d594a222a2fd47dc",
+    "assets/optics-final69-program-flash-45e0cb978ce7c1c6.mjs": "ce6b29d4d4f5092ceb101c0c10877146616d6dcaadf5e9b5b66a3efb10a284d5",
+    "assets/optics-final69-program-flash-b88fb994bb3e1f8a.mjs": "df13656cefebb881c4497b34067fdc2d85971cb330609b9664c0dd182a7ef959",
+    "assets/optics-final69-program-flash-a31c6f6c9dcd2fd5.mjs": "64ee8e9037683008c3b69f8f8213b95f7b1c8aef7b029f049c7d75c54588afd4",
+    "assets/optics-final69-program-flash-2c0dad26bfbc41ed.mjs": "f1031bb5bb75afd1eb6dff4516d7e16149b4420d92f434eab588bffee55fd1e5",
+    "assets/optics-final69-program-flash-8281e1704ab81337.mjs": "08eeff6a86f1a2a2456b5a96a4a2eb4bc7b07efda5d3e0ca9e7c4872e6c0b269",
+    "assets/optics-final69-program-flash-a382e596416eab8c.mjs": "69f394f07340aadec8eb98ec7e53b90e9e8bfc75440b1b4324d604273e30f386",
+    "assets/optics-final69-program-flash-4a361b3b26555a71.mjs": "acd6a227816b513b5a9e571ba689608535ea94b1a392aea471c9f12658a8ddb5",
+    "assets/optics-final69-program-flash-62dbf7d5b9674686.mjs": "2922b908c6fe80cd515249d0a27edf37936ca92506a6e54230a35bd28182c3c5",
+    "assets/optics-final69-program-flash-c5aa8a53793797ab.mjs": "a0f97ab50a447f20a1b962765884ba0c3fafc87d6082371a4b8e0cd6174df98d",
+    "assets/optics-final69-program-flash-78a4cbab0b8ef677.mjs": "6f4c794eec92b5ce8078aa3999e8ceb81aacf84871b4128dc84553ca03840469",
+    "assets/optics-final69-program-flash-95128c2fde383176.mjs": "a30d51d725b055affcd2882446ff9fe02648f6515fb15f910f5f6d1337b4bb0f",
+    "assets/modern-final69-atomic-data.mjs": "6657cf2f031c6145e4acfed6f7aae2af30f57111323fe328f3a7a2e3e791fd36",
+    "assets/modern-final69-atomic-physics.mjs": "845fc426f3c3505d94aa55c928343469a7c349c3d52a120ffd673ddedb51ca3b",
+    "assets/modern-final69-quantum-engine.mjs": "6a53b741e7b4037a06e08c6677bf8537dae83a1f50e3d6595156a9bcde17871d",
+    "assets/modern-final69-quantum-physics.mjs": "d9ab480e70970d9c0435798d70a69b9da03a073e34aceec2ff5a482cf23d4a21",
+    "assets/modern-final69-relativity-physics.mjs": "84e01c71da60007dde98aef95394d062ae328a6698417280bffaabe22d8ceb35",
+    "assets/modern-final69-photon-physics.mjs": "7b44836ee6a7f5e3a2adf0172ee3e3a0c154b113ea83058de0be4b939ce60eca",
+    "assets/modern-final69-compton-data.mjs": "36c55c5911205ee2bd62c864f1a56b4e5ad05861829c00224bd4def27f8da1b1",
+    "assets/modern-final69-specs.mjs": "36ea6c9c003e687d368e49f1b62707a93215d7fb7ac991c23d47ac0c8364cb09",
+    "tools/modern-final69-runtime-check.mjs": "eec93511b6cb9dcdacda1b6b4af6e12138dd1179325ec00ba20d57f588890eeb",
+    "tools/modern-final69-observer/PhysicaModernFinal69Observer.as": "8149b7fe34f90715298baabf4b8100b7abfe9238d6ff66302ce822bd4d0461b3",
+    "tools/modern-final69-compile-observer.mjs": "a9473feb1d5fadaade2e849339bab3b7824188f76925e168565e27fb2897639a",
+    "tools/swf-runtime-probe.mjs": "4867b9a887797a34befeafcc4a73528e7626e0b6f2a9f7907d7cd583c638dd03",
+    "src/native-visionlaser-final69.json": "95e43e78f95c795be55ba9075c2239fe1b53962f91f1117fdf29941c03c8c9ae",
+    "assets/visionlaser-final69-specs.mjs": "37d6012798c70e6c2c6e83343c840449c67a34cf90c60d0dcca71ae58dac5cc3",
+    "assets/visionlaser-final69-physics.mjs": "3989ab22a1880443ea0846fc774fb3f6e58e55af12d43f1d5d2886142b5788ce",
+    "tools/visionlaser-final69-runtime-check.mjs": "67590ce91a289d7ed146c42fcfa169f2d806f1e7157a2895534f46f2dc57b930",
+    "tools/runtime-session.mjs": "4ef6e99ca3e1daec9ae9ee2360f78ccecf20df2f3d655cd48815e69ca034b44f",
+    "assets/visionlaser-final69-data-flash-04e263fc3721f5df.mjs": "7b85b9e07a9f4cd8c6af77e7516e74833cf3f08e2b2f537103e3a48697187e9a",
+    "assets/visionlaser-final69-data-flash-076f3a9b0422707e.mjs": "df7198ae0d935401c5d22e02e2cf764392ee9bff4c1ea786f0e5b00e2618154d",
+    "assets/visionlaser-final69-data-flash-3ef0b27f92a0167e.mjs": "25e1ccd253127db1afd9af3bd1fb7b3c1cfab3dba25580f7ea2d30d6c4ac6d92",
+    "assets/visionlaser-final69-data-flash-3faab689d25799e8.mjs": "36e2298bb3fc4f13e0922e4ed7c0252408854a6d25fd86226b272056547f90d4",
+    "assets/visionlaser-final69-data-flash-40e242d41c0c96fa.mjs": "a66874fb37393a1de90b323a13c75ad70fbf3f057c7030b135a11dc6ca5b72f1",
+    "assets/visionlaser-final69-data-flash-4536001836ccd77c.mjs": "4f3fb04af9211204b4eda33691867df463536e36fc63f096246df85d85f8fc12",
+    "assets/visionlaser-final69-data-flash-4761a9e31f05f6a9.mjs": "ef1fa654e088d36032da57303c412554db1c30b5e99c3f731ca669d3e4900c2f",
+    "assets/visionlaser-final69-data-flash-58bd5e6343d0b297.mjs": "cddd6b85adf2ca33d86e50a5fc3559ea6b9abe7594c8c4736dd6dc5bb71186bb",
+    "assets/visionlaser-final69-data-flash-600791362273ca0d.mjs": "726682f44f67f902ee9f2c53d42ccee17604c1adf55c93d7998eaacf4d457d2c",
+    "assets/visionlaser-final69-data-flash-7746e258bd68068f.mjs": "a09b6589d0b1a08f7ec750746dc0c546b0bd3addb1e7608f77111789359436ba",
+    "assets/visionlaser-final69-data-flash-86aa98d7539f79b0.mjs": "07a6278e43be1e984d4516a5cccf18975b144dc149a9f9db81845d4e7291dd39",
+    "assets/visionlaser-final69-data-flash-9cddf79b62881ba6.mjs": "75c65479d1e93b54d5b977070164f5d47d265fdbea9fd2160b19826912f2142d",
+    "assets/visionlaser-final69-data-flash-b64d39d51c05193d.mjs": "b985541df98e590d4e1349be694583a0b04d8740f8cbec076cb891a2bb4357bd",
+    "assets/visionlaser-final69-data-flash-ba4e68a82d2bcb7e.mjs": "b76a73f5e74b48e230f892fbf10746b71736e1f37b1bc85ddb5b8baaeeba1826",
+    "assets/visionlaser-final69-data-flash-be465f1359e1fc24.mjs": "25648a7bc3cdea5d1fd4c47e0bb9f7bb2aba4f5f2b628455ba05ba3800d4dc95",
+    "assets/visionlaser-final69-data-flash-c06501cc89d19195.mjs": "694eef65db7aae56b7d87c23a44cf643578880f3f38d90b3fafd3e77a75d23b6",
+    "assets/visionlaser-final69-data-flash-c45b00a29f9dea7d.mjs": "76956e2b693e25710b105e8951b67314da9d634b252c52fb7bef2a0acca83972",
+    "assets/visionlaser-final69-data-flash-dc2240f1cd33fdbb.mjs": "b5c8c2f6b063a4dc7735c1c846444218b20719d36189cca1c0fbe7a11dda860e",
+    "assets/visionlaser-final69-data-flash-f5fbc403edc871ab.mjs": "a084964e62963df6784d3b7e8aea4bac59088a9fd6c69113bded1483d0e92a85",
+    "assets/visionlaser-final69-data-flash-fb0581a89a156c72.mjs": "ca43d23b154143e67efcada88629268e095ab9094c6b28119dead94196b61250"
   },
   "total": 518,
   "originalPlaybackPassed": 518,
   "originalPointerProbes": 456,
-  "numericalFiles": 345,
-  "numericalFilesPassed": 345,
-  "numericalSampleComparisons": 1083149,
+  "numericalFiles": 414,
+  "numericalFilesPassed": 414,
+  "numericalSampleComparisons": 1100545,
   "combinationComparisons": 198600,
-  "numericalComparisons": 1281749,
+  "numericalComparisons": 1299145,
   "finiteCombinationScopes": 6,
   "finiteCombinationScopesPassed": 6,
   "rootTimelineFiles": 29,
@@ -838,7 +906,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-final69-runtime-report.json",
+        "sha256": "3d44e3b1a10ef9e215e043feb66cc40a352b9999d29a5d4b13c3fc45725ba56c",
+        "passed": true,
+        "comparisons": 18,
+        "scope": "Actual original Ruffle on/off button clicks at SWF tag-derived button positions; all six original compass rotations modulo360 degrees; tolerance0.08 degrees accounts for fixed-point source placement matrix angle (initial measured error0.066 degrees). New authored compass artwork not pixel-matched.",
+        "maxAbsoluteError": 0.06601262643950001
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -996,7 +1071,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-final69-runtime-report.json",
+        "sha256": "600b40902eda53433dba58d36e629a96bc9433a855c3194cbff9ff3b87bf0d82",
+        "passed": true,
+        "comparisons": 8,
+        "scope": "Actual original Ruffle natural timeline frame sequence mapped to native 140-frame playback. Source-specific mathematical controls absent. New discharge branch shape/phase composition is not proven equivalent to original illustrated scenes.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1067,7 +1149,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-final69-runtime-report.json",
+        "sha256": "aba9c7c9620a9dbeebcfe41a9fe5c7951fd5aa89d7812ed1ef95a282a81499df",
+        "passed": true,
+        "comparisons": 3584,
+        "scope": "Actual original Ruffle default field at observed pass counts; all fixed boundary/electrode and interior sample coordinates compared with native initialization/ordered sweeps (512/448 or81 grid locations per observation). Four/nine-point control sweeps additionally source-tested; original all control sequences not runtime-exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1086,7 +1175,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-final69-runtime-report.json",
+        "sha256": "9e47a89625ed03b7d2c470808408d31f9e738fbaff188fca32c8e9ea4c28b93e",
+        "passed": true,
+        "comparisons": 3136,
+        "scope": "Actual original Ruffle default field at observed pass counts; all fixed boundary/electrode and interior sample coordinates compared with native initialization/ordered sweeps (512/448 or81 grid locations per observation). Four/nine-point control sweeps additionally source-tested; original all control sequences not runtime-exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1105,7 +1201,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-final69-runtime-report.json",
+        "sha256": "f8e1a33a5ffe631b010958c6154fdfb31d0d3e7adc83cdbbb47646ee22573d2f",
+        "passed": true,
+        "comparisons": 567,
+        "scope": "Actual original Ruffle default field at observed pass counts; all fixed boundary/electrode and interior sample coordinates compared with native initialization/ordered sweeps (512/448 or81 grid locations per observation). Four/nine-point control sweeps additionally source-tested; original all control sequences not runtime-exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1124,7 +1227,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-final69-runtime-report.json",
+        "sha256": "aa761eb4d833d129fb6e0dd546886ba115a41fe931b403d646aa3fea70fdb52a",
+        "passed": true,
+        "comparisons": 567,
+        "scope": "Actual original Ruffle default field at observed pass counts; all fixed boundary/electrode and interior sample coordinates compared with native initialization/ordered sweeps (512/448 or81 grid locations per observation). Four/nine-point control sweeps additionally source-tested; original all control sequences not runtime-exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -1399,7 +1509,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/general-final69-runtime-report.json",
+        "sha256": "a081f5958c3149c8e7d0912b06f62854863ba715e6e5ba45ec1bea8010df0d3a",
+        "passed": true,
+        "comparisons": 44,
+        "scope": "Actual default equilibrium and one original spring-mass drag/release trajectory. Consecutive observed physical states compared with unchanged native steps; arbitrary simultaneous pivot/drag callback sequences not exhausted.",
+        "maxAbsoluteError": 5.684341886080801e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2126,7 +2243,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "307dea418c7eb66389d8fc2462017b7ffb68ccdaac6383478eb75fe83a544965",
+        "passed": true,
+        "comparisons": 693,
+        "scope": "Original stored element facts and individual element placement; controls/group data separately source checked.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2223,7 +2347,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "8878fd18087178ea0e675ccc2f44a48445bbed3b0c65fb7e35cd8d77f865f062",
+        "passed": true,
+        "comparisons": 20,
+        "scope": "Natural original nested child timeline positions at five observed frames; new glyphs use source timeline numeric matrices; all original artwork retained only in originals.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2242,7 +2373,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "4a64b9dd98e209dbdbdff257813aefce6b4dd10e33d8682af659343af0fe1e0c",
+        "passed": true,
+        "comparisons": 30,
+        "scope": "One-time public ray origin/direction snapshot aligned; independent straight-segment evolution between natural Timer samples, bounded before next stochastic wall reflection. Full reflection law separately source checked under deterministic random oracle.",
+        "maxAbsoluteError": 5.115907697472721e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2261,7 +2399,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "5d4861837de13a257c79745b88e8b8d07063fe927f74102125d5fa842e44d5d0",
+        "passed": true,
+        "comparisons": 32,
+        "scope": "Original initial particle state read once; independently predict eligible accelerated particles at natural public counter/dataCounter steps. Excludes random deflections and threshold/boundary collisions; full 250-particle stochastic arithmetic source checked separately.",
+        "maxAbsoluteError": 7.460698725481052e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2280,7 +2425,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "185f3e16420fee1d1b8c5823007f50ec63fb3d15b07ddc1c8a22d9942a743e57",
+        "passed": true,
+        "comparisons": 10,
+        "scope": "Original initial 3D rotation matrix and 63 spectral fan surfaces; original missing wavelength bins are independently source checked. Native HTML sliders/drag use original Rodrigues rotation law.",
+        "maxAbsoluteError": 2.220446049250313e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -2429,7 +2581,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "524d9d144b65b86967ea8ee2a643da981497f1a3a63c64f2f6b4388af8fcff5b",
+        "passed": true,
+        "comparisons": 10,
+        "scope": "Original AS3 numerical solver stored pure energy getters and public original controls at initial/default setting. Original ABC/root class and timer unmodified.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -3596,7 +3755,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "5894a2f8cbc0e81e6add958a3c2dcbdafec4e6435bf1f1ed112c5ffb295f5721",
+        "passed": true,
+        "comparisons": 120,
+        "scope": "Original random potential modes read once; original stored potential arrays (22 individual samples) and pure energy getters match native. Original natural motion observed but tick count is not exposed; exact motion arithmetic checked independently in source oracle.",
+        "maxAbsoluteError": 4.973799150320701e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4057,7 +4223,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "6d488c02826badf97730ffe57330483414e7b13ab26a5146dd866a3ef07509ef",
+        "passed": true,
+        "comparisons": 15,
+        "scope": "Actual original action button pointer click starts original frame loop; individual canoe coordinates compared at natural public time steps.",
+        "maxAbsoluteError": 4.263256414560601e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4076,7 +4249,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "a994daee3bdb81cf29113deeb596a19d29cae29f4940700fcbfc1bc26d51f4b2",
+        "passed": true,
+        "comparisons": 20,
+        "scope": "Natural original two optical-path positions at public frame t; display properties retain original twip quantization tolerance.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4121,7 +4301,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "327347437b0105b092d651ff73414110d2ae0b60e3d2e51db1598502f1360230",
+        "passed": true,
+        "comparisons": 20,
+        "scope": "Natural original gravity finite-difference integrator public x/y/velocities before randomized reset.",
+        "maxAbsoluteError": 4.263256414560601e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4140,7 +4327,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "47566642342dd30ca0ff3517ea2f058e9cb79cbc0a4570bbcce2ecc14bbf581b",
+        "passed": true,
+        "comparisons": 100,
+        "scope": "One-time original randomized star display positions read; native independently advances acceleration until random wrap. Bounded display tolerance accounts for per-frame original 1/20-pixel property quantization.",
+        "maxAbsoluteError": 0.2600000000000193
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4159,7 +4353,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "b154fd83fa9df8a4d0a46a179775de8c35e5f8b5d31fd0ae08a73444014aa155",
+        "passed": true,
+        "comparisons": 20,
+        "scope": "Both original accelerating light paths and shared public pulse timestep; per-frame original display twip quantization bounded, not an arbitrary numerical tolerance.",
+        "maxAbsoluteError": 0.4000000000000057
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4256,7 +4457,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "832584ef6f5f5f26fd47e19efcebeec277da2ad8e7aaf59b902cbd95be08e5de",
+        "passed": true,
+        "comparisons": 10,
+        "scope": "Original force integration public scalar bx/bv at bounded natural time steps before source time reset.",
+        "maxAbsoluteError": 4.263256414560601e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4301,7 +4509,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "89d21b4cfd8f5cdc811def8e468a99de1cea123cb9088da6bce2031219e2eeb0",
+        "passed": true,
+        "comparisons": 20,
+        "scope": "Actual original move toggle pointer starts unchanged AS3 Timer. Shared original time drives original ship coordinate and both clocks; comparison checks shared-phase synchronization.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4320,7 +4535,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "a4370c3fa679b4755886d34bc63f06d765914bce3552f11edf1822fa9899ce32",
+        "passed": true,
+        "comparisons": 25,
+        "scope": "Actual original move toggle pointer starts unchanged AS3 Timer. Shared original time drives original ship coordinate and both clocks; comparison checks shared-phase synchronization.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4339,7 +4561,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "0a727b158a5b35bfedf2265eec783ee4df20c3c01204334d578e09bce14679bc",
+        "passed": true,
+        "comparisons": 5,
+        "scope": "Natural original nested 11×9 synchronized clock hand enterFrame rotation; one representative hand from the preserved root Sprite observed at five frames.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4358,7 +4587,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "26bd03f8130dbd6c20beaf86e00d3352157194b9127f6fcd065b727ed3e96f50",
+        "passed": true,
+        "comparisons": 25,
+        "scope": "Natural original event timing, moving ship and four distinct flash pulses; observations include pre-event phase at default speed.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4377,7 +4613,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "b5651b966f3257b9461eec4044da0ae684d4a0bfb86c751e6ee6beabd68b8f1b",
+        "passed": true,
+        "comparisons": 15,
+        "scope": "One-time original random clock settings read; all observed clocks advance independently by same actual original time delta. Native synchronization wave law source checked separately.",
+        "maxAbsoluteError": 5.684341886080802e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -4873,7 +5116,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "2137fa9eb90c07ad6e1d7cbcebfc9122b308ca9ba27b82c10997a76d04d99973",
+        "passed": true,
+        "comparisons": 741,
+        "scope": "Original stored element facts and individual element placement; controls/group data separately source checked.",
+        "maxAbsoluteError": 2.220446049250313e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5126,7 +5376,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "041731e7b156847426bad7d2f35dcd653cf4615dd0a997770a8631d9d1237023",
+        "passed": true,
+        "comparisons": 55,
+        "scope": "Original AS3 numerical solver stored pure energy getters and public original controls at initial/default setting. Original ABC/root class and timer unmodified.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5145,7 +5402,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/modern-final69-runtime-report.json",
+        "sha256": "fcb4dcf0780de098ca224a63188e3c132e35fd6785a5a5b525c9ab75d8f6b64b",
+        "passed": true,
+        "comparisons": 288,
+        "scope": "Original stored element facts and individual element placement; controls/group data separately source checked.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5979,7 +6243,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "0fec92a1966e7efb2d769bedacb3bab9128b809158af9b4ff27bc772cd057b1b",
+        "passed": true,
+        "comparisons": 876,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -5998,7 +6269,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "a9b3f5a6424bafae45eb38db197ad377c8df0df2889d627bf4c615f2517a1229",
+        "passed": true,
+        "comparisons": 634,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 1.1368683772161603e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6095,7 +6373,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "1d3c1c22724fd7f2e7d79da0a10f91357a18651b9dc57e0dd5ba62659e1a3893",
+        "passed": true,
+        "comparisons": 598,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 1.1102230246251565e-16
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6114,7 +6399,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "a87ecd7ec99fbe01a8a6f93319f0f20d0773d205a9096af76726898ef64d896b",
+        "passed": true,
+        "comparisons": 538,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 4.618527782440651e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6229,7 +6521,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "ef63a6cd3093ee9350bd545ca8c369be4dfcf9e72690f742463e4ca0ce8420e3",
+        "passed": true,
+        "comparisons": 6,
+        "scope": "Original resolved/unresolved classification and actual original slider values observed; original internal diffraction curve fields are inaccessible to the public observer and remain missingOriginal, so its curve numbers are source-checked rather than claimed runtime-observed. Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6717,7 +7016,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "ddea0016fd215c35729a5dd23c75b204c929037485aec4051ab05e463f5ba429",
+        "passed": true,
+        "comparisons": 106,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -6762,7 +7068,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "3a4a753746dc356ea1bbae73851add0794f144710b376a4579f7ec9b97522883",
+        "passed": true,
+        "comparisons": 20,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 4.831690603168681e-13
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "3a4a753746dc356ea1bbae73851add0794f144710b376a4579f7ec9b97522883",
@@ -6868,7 +7181,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "fd67b7097b286fd5c3925eac25c7c8262fd62d6937a8898529285b5986817796",
+        "passed": true,
+        "comparisons": 12,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -8355,7 +8675,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "0a2329b58d899f527a21863e08c89e19b371d8c8bd1de944e2b9a922b67d50a9",
+        "passed": true,
+        "comparisons": 16,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -8690,7 +9017,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "d9d348e2a062c477cd07efcea2b5f84b7edb483037e3c5476b57d072e5a81572",
+        "passed": true,
+        "comparisons": 127,
+        "scope": "Actual preserved original Ruffle nitrogen y/time samples over at least one50-step oscillation, compared to independent HTML formula with source twip rounding tolerance0.051; molecular bond pixels excluded.",
+        "maxAbsoluteError": 0.03332335643046491
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9013,7 +9347,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "29a9da8e9b307e03fa1a6964c6483a281245c51cc0348a859bc6e6392fb81b5f",
+        "passed": true,
+        "comparisons": 800,
+        "scope": "Actual preserved original Ruffle: all internal move timeline frames in natural order; original sphere instance1 x/y sampled against authored main placements. Nested sphere drawing phase and every sphere are not exhaustively measured. Fresh vector paths and timer control tested separately.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9032,7 +9373,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "56046dd55ab09dd4066b4f7761152d3f06cb3bac14d0f98755e9d74c7f9e6870",
+        "passed": true,
+        "comparisons": 300,
+        "scope": "Actual preserved original Ruffle: all internal move timeline frames in natural order; original sphere instance1 x/y sampled against authored main placements. Nested sphere drawing phase and every sphere are not exhaustively measured. Fresh vector paths and timer control tested separately.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9051,7 +9399,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "bed5d1466b8151046c305ada34176a76c069382bfdaef1634ca26a4307f25cd4",
+        "passed": true,
+        "comparisons": 402,
+        "scope": "Actual preserved original Ruffle: all internal move timeline frames in natural order; original sphere instance1 x/y sampled against authored main placements. Nested sphere drawing phase and every sphere are not exhaustively measured. Fresh vector paths and timer control tested separately.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9279,7 +9634,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "81c7a439a04ff2c18224d6c6f3e602f7e5838d2fc5102aa9b1080968dd05e0b4",
+        "passed": true,
+        "comparisons": 65,
+        "scope": "Actual preserved original Ruffle convertRGB calls at12 boundary/visible wavelengths with brightness0.9. Static cone response artwork is sampled separately, not a precision physiology claim.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9585,7 +9947,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "e3ccef145807631851ea813bc29385f81921231e639c8576ea29ab7c942cf4a3",
+        "passed": true,
+        "comparisons": 24,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9604,7 +9973,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "7e4a2f64f18e0b4f547606eecae94757fea05a87c411e99f33f2bb446489c0f3",
+        "passed": true,
+        "comparisons": 54,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9623,7 +9999,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "3e58b669350cfe42e88cd75c4673117fbf5b54344120a321003920322e572306",
+        "passed": true,
+        "comparisons": 44,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9642,7 +10025,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "fa6e12d16128970a38c355b9f82f5791aca4935e937b1932c1e1622443969d56",
+        "passed": true,
+        "comparisons": 62,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9661,7 +10051,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "faa135ed906767f9bfcbf0acd0f52c1d0406f653b0ee60b4b54f5b9c7f212ba7",
+        "passed": true,
+        "comparisons": 27,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9680,7 +10077,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "919c8c2bbd349d20ffa2fb7ab6671c6dbbd57b74539ad847132db807a81238a4",
+        "passed": true,
+        "comparisons": 29,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9699,7 +10103,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "9e7a68846c94d23084549956f0f827b68296e52dd982dde4dc72311a4583dc66",
+        "passed": true,
+        "comparisons": 45,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9718,7 +10129,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "3d38439eca4f6301ee8d4bc0dac81fe145ac36e001315c0fc48e80b091f6fdc3",
+        "passed": true,
+        "comparisons": 29,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9737,7 +10155,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "787a65a31dc1d68149c20b30e614859732c1c62e72204a78c652e5dd932ed80e",
+        "passed": true,
+        "comparisons": 42,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9756,7 +10181,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "5c6a9d89eb496bb3ef6d57d6c8870a4dd72d39975cbbf7baa9ecdb740c40198e",
+        "passed": true,
+        "comparisons": 17,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9775,7 +10207,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "9c4119441dd913a61d07493c9c4babbcfdfe4b7eaf0d2c00a525f2dc5aab7bae",
+        "passed": true,
+        "comparisons": 29,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9794,7 +10233,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "bfc74adec5cb9da9b011ea8959afe5dcd4888274bbc3ce0e11dfa6e7b556aed7",
+        "passed": true,
+        "comparisons": 29,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9813,7 +10259,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "3eb58a8ce5cd64adc057a754f71355ea452df8b6be4ecfd2d6faceaf0d6dd5fd",
+        "passed": true,
+        "comparisons": 62,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9832,7 +10285,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "b34110401fc461e68ff5e0939ed35f36557654a773dbc62ce775d0a36428931e",
+        "passed": true,
+        "comparisons": 45,
+        "scope": "Actual preserved original Ruffle: press confirmation, observe every finite root frame in natural order, press original replay. Fresh SVG keeps frame count/rate and semantic confirmation; new geometry choreography and pixels are not asserted identical.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9851,7 +10311,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "53c2bca6e9afcc735e9ef0f09d700cece55181e1a8e867c7cae8d0a21ee5bb0c",
+        "passed": true,
+        "comparisons": 58,
+        "scope": "Actual preserved original Ruffle: original nested confirmation button tested but did not advance. In-memory diagnostic root.play then observed every original root frame in natural order. Fresh SVG play/confirmation/replay tested separately; original button behavior and new geometry choreography are not equivalent.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -9870,7 +10337,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/visionlaser-final69-runtime-report.json",
+        "sha256": "ec6823aa0607a3e439bbd0310ce2a016d8c36cc5e87b817532061c8085bfed5d",
+        "passed": true,
+        "comparisons": 58,
+        "scope": "Actual preserved original Ruffle: original nested confirmation button tested but did not advance. In-memory diagnostic root.play then observed every original root frame in natural order. Fresh SVG play/confirmation/replay tested separately; original button behavior and new geometry choreography are not equivalent.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10063,7 +10537,14 @@
         "clickProbes": 3,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "e63e90e3829a131a4cff217e3bf756dc85b49868e3b32b212f0f10de17781216",
+        "passed": true,
+        "comparisons": 584,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 1.2116903504194741e-27
+      },
       "sliders": {
         "report": "docs/flash-slider-runtime-report.json",
         "sha256": "e63e90e3829a131a4cff217e3bf756dc85b49868e3b32b212f0f10de17781216",
@@ -10188,7 +10669,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "9244a27f518036b7364fe968ad3f7ef67f971bf50eae288ae382406c69563e3a",
+        "passed": true,
+        "comparisons": 54,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 3.552713678800501e-15
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10233,7 +10721,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "6e003a47be73400b34e0ff0e25f5aaf10865961472e0dc80ec74efcc42b1527d",
+        "passed": true,
+        "comparisons": 26,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0.04953884165810507
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10358,7 +10853,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "81b89cb3cd9a3eca0b924bae78ad5f89ff15e81fe059a2cd404b77fd6a00e9e2",
+        "passed": true,
+        "comparisons": 66,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 3.836930773104541e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10377,7 +10879,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "04bcbf76ea4dddf5ff896375da12c92d449ce65e6e4cb168f0256d50b71c4ed5",
+        "passed": true,
+        "comparisons": 201,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 2.842170943040401e-14
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10434,7 +10943,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "747ee0b1e4106b193d42f2a174d37b71c6a720f02ff5a08975207c6722059154",
+        "passed": true,
+        "comparisons": 66,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10529,7 +11045,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "7d2d1a632ce8e05f1aeda075225f54ef20b1e629f64fbe1faa35edaf3d56279f",
+        "passed": true,
+        "comparisons": 540,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -10910,7 +11433,14 @@
         "clickProbes": 2,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "76d5d5ed569895d8d32c0adf84f34df93cd39647641744300eaa133e451e87af",
+        "passed": true,
+        "comparisons": 3,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11042,7 +11572,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "f05954f6e4c5db951cf9e13c31b828c05e0086ee372c50c8e3863f21e181d69c",
+        "passed": true,
+        "comparisons": 54,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11087,7 +11624,14 @@
         "clickProbes": 0,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "b9b2b47c62428f0afac89d1cbb4dc2cfe9b35c0783004e04fd02492bac7f3ee1",
+        "passed": true,
+        "comparisons": 18,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 0
+      },
       "sliders": null,
       "rootTimeline": null
     },
@@ -11106,7 +11650,14 @@
         "clickProbes": 1,
         "scope": "Unmodified original in Ruffle; timed playback, renderer suspension/resumption, geometry-based pointer probes and reload. Click meaning and Adobe Player equivalence are not asserted."
       },
-      "numerical": null,
+      "numerical": {
+        "report": "docs/optics-final69-runtime-report.json",
+        "sha256": "4b832b8763353d7c266bd83ac154ed618c5f15cf101e3dd6aed2ee158e8121d4",
+        "passed": true,
+        "comparisons": 432,
+        "scope": "Bounded actual original Ruffle AVM1/AVM2 public fields and mathematical arrays. Original tags, code and timers unchanged; only a read-only diagnostic child added. Naturally advancing time matched to independent native computation, finite ray distance candidates matched as a whole. Missing fields remain explicit and are never filled with zero. Static original UI has no fictitious animation. Continuous inputs and unbounded histories not exhausted.",
+        "maxAbsoluteError": 4.121147867408581e-13
+      },
       "sliders": null,
       "rootTimeline": null
     },

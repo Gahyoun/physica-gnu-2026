@@ -1,0 +1,431 @@
+{
+  "date": "2026-10-10",
+  "batch": "final69",
+  "total": 69,
+  "baselineHTML": 449,
+  "baselineCommit": "6cd8aaabcdf32860261716fa732f0a0eb63b7e7a",
+  "groups": {
+    "optics": [
+      {
+        "id": "flash-88dcd0ec7ac4ff7a",
+        "title": "코마를 가진 파면",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/aberComa2.swf",
+        "originalSHA256": "0fec92a1966e7efb2d769bedacb3bab9128b809158af9b4ff27bc772cd057b1b"
+      },
+      {
+        "id": "flash-a88e894980293e64",
+        "title": "구면수차를 가진 파면",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/aberSpherical4.swf",
+        "originalSHA256": "a9b3f5a6424bafae45eb38db197ad377c8df0df2889d627bf4c615f2517a1229"
+      },
+      {
+        "id": "flash-a503a95f16f31f43",
+        "title": "수차와 회절무늬",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/phaseAberImage.swf",
+        "originalSHA256": "1d3c1c22724fd7f2e7d79da0a10f91357a18651b9dc57e0dd5ba62659e1a3893"
+      },
+      {
+        "id": "flash-833b671bb8f1fdf2",
+        "title": "결상계의 이상적인 파면",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/aberdiff/pupilSpherical.swf",
+        "originalSHA256": "a87ecd7ec99fbe01a8a6f93319f0f20d0773d205a9096af76726898ef64d896b"
+      },
+      {
+        "id": "flash-c8db27599ba6e756",
+        "title": "광학기기의 분해능",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/diffraction/circle/rp2.swf",
+        "originalSHA256": "ef63a6cd3093ee9350bd545ca8c369be4dfcf9e72690f742463e4ca0ce8420e3"
+      },
+      {
+        "id": "flash-5b4df2e3e2d7f004",
+        "title": "렌즈의 비점수차",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/aberration/astigmatism.swf",
+        "originalSHA256": "ddea0016fd215c35729a5dd23c75b204c929037485aec4051ab05e463f5ba429"
+      },
+      {
+        "id": "flash-e1f3b51663ebef1c",
+        "title": "전반사",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/fiber/totalref3.swf",
+        "originalSHA256": "3a4a753746dc356ea1bbae73851add0794f144710b376a4579f7ec9b97522883"
+      },
+      {
+        "id": "flash-bcf751c6bdf6ac2e",
+        "title": "프레넬 렌즈",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/geometric/grinetc/fresnelshape.swf",
+        "originalSHA256": "fd67b7097b286fd5c3925eac25c7c8262fd62d6937a8898529285b5986817796"
+      },
+      {
+        "id": "flash-326e10f58c5fc432",
+        "title": "다중슬릿 간섭",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/interference/young/moireint4cs3.swf",
+        "originalSHA256": "0a2329b58d899f527a21863e08c89e19b371d8c8bd1de944e2b9a922b67d50a9"
+      },
+      {
+        "id": "flash-45e0cb978ce7c1c6",
+        "title": "광활성의 물체에서의 편광면의 회전 모양",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/activity/activity.swf",
+        "originalSHA256": "e63e90e3829a131a4cff217e3bf756dc85b49868e3b32b212f0f10de17781216"
+      },
+      {
+        "id": "flash-b88fb994bb3e1f8a",
+        "title": "복굴절 물질을 통과하는 빛",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/disample.swf",
+        "originalSHA256": "9244a27f518036b7364fe968ad3f7ef67f971bf50eae288ae382406c69563e3a"
+      },
+      {
+        "id": "flash-a31c6f6c9dcd2fd5",
+        "title": "결정에서 빛의 전파",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/birefringence/light_crystal.swf",
+        "originalSHA256": "6e003a47be73400b34e0ff0e25f5aaf10865961472e0dc80ec74efcc42b1527d"
+      },
+      {
+        "id": "flash-2c0dad26bfbc41ed",
+        "title": "광고립장치에서 빛이 투과 및 차단되는 상황",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/faradayef.swf",
+        "originalSHA256": "81b89cb3cd9a3eca0b924bae78ad5f89ff15e81fe059a2cd404b77fd6a00e9e2"
+      },
+      {
+        "id": "flash-8281e1704ab81337",
+        "title": "커 셀",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/kerrcell.swf",
+        "originalSHA256": "04bcbf76ea4dddf5ff896375da12c92d449ce65e6e4cb168f0256d50b71c4ed5"
+      },
+      {
+        "id": "flash-a382e596416eab8c",
+        "title": "포켈스 셀을 이용한 셔터",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/emeffect/pockels.swf",
+        "originalSHA256": "747ee0b1e4106b193d42f2a174d37b71c6a720f02ff5a08975207c6722059154"
+      },
+      {
+        "id": "flash-4a361b3b26555a71",
+        "title": "꼬인 네마틱 액정 모의실험",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/liquidcrystal/stnsimV2.swf",
+        "originalSHA256": "7d2d1a632ce8e05f1aeda075225f54ef20b1e629f64fbe1faa35edaf3d56279f"
+      },
+      {
+        "id": "flash-62dbf7d5b9674686",
+        "title": "이색성 결정에 의한 선편광",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polarizer/polarizer5.swf",
+        "originalSHA256": "76d5d5ed569895d8d32c0adf84f34df93cd39647641744300eaa133e451e87af"
+      },
+      {
+        "id": "flash-c5aa8a53793797ab",
+        "title": "광학기구의 존스 행렬",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polrepresent/jonesmatrix.swf",
+        "originalSHA256": "f05954f6e4c5db951cf9e13c31b828c05e0086ee372c50c8e3863f21e181d69c"
+      },
+      {
+        "id": "flash-78a4cbab0b8ef677",
+        "title": "푸앵카레 구",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/polrepresent/poincaresphereV3.swf",
+        "originalSHA256": "b9b2b47c62428f0afac89d1cbb4dc2cfe9b35c0783004e04fd02492bac7f3ee1"
+      },
+      {
+        "id": "flash-95128c2fde383176",
+        "title": "산란된 빛의 편광 상태",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/polarization/scatterpol/scattering.swf",
+        "originalSHA256": "4b832b8763353d7c266bd83ac154ed618c5f15cf101e3dd6aed2ee158e8121d4"
+      }
+    ],
+    "visionlaser": [
+      {
+        "id": "flash-e72128ed0d1a1c0d",
+        "title": "암모니아로부터의 마이크로파 발생",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/laser/lasergen/maser_NH3.swf",
+        "originalSHA256": "d9d348e2a062c477cd07efcea2b5f84b7edb483037e3c5476b57d072e5a81572"
+      },
+      {
+        "id": "flash-58bd5e6343d0b297",
+        "title": "2 준위 원자",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/laser2level.swf",
+        "originalSHA256": "29a9da8e9b307e03fa1a6964c6483a281245c51cc0348a859bc6e6392fb81b5f"
+      },
+      {
+        "id": "flash-ba4e68a82d2bcb7e",
+        "title": "3 준위 원자의 펌핑과 밀도반전의 과정",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/laser3level.swf",
+        "originalSHA256": "56046dd55ab09dd4066b4f7761152d3f06cb3bac14d0f98755e9d74c7f9e6870"
+      },
+      {
+        "id": "flash-dc2240f1cd33fdbb",
+        "title": "4 준위 원자의 펌핑과 밀도반전의 과정",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/laser/laserpri/laser4level.swf",
+        "originalSHA256": "bed5d1466b8151046c305ada34176a76c069382bfdaef1634ca26a4307f25cd4"
+      },
+      {
+        "id": "flash-3ef0b27f92a0167e",
+        "title": "세 가지 추상체의 파장별 감도 그래프",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/color/colorsense.swf",
+        "originalSHA256": "81c7a439a04ff2c18224d6c6f3e602f7e5838d2fc5102aa9b1080968dd05e0b4"
+      },
+      {
+        "id": "flash-4536001836ccd77c",
+        "title": "착시 1",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion01.swf",
+        "originalSHA256": "e3ccef145807631851ea813bc29385f81921231e639c8576ea29ab7c942cf4a3"
+      },
+      {
+        "id": "flash-3faab689d25799e8",
+        "title": "착시 2",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion02.swf",
+        "originalSHA256": "7e4a2f64f18e0b4f547606eecae94757fea05a87c411e99f33f2bb446489c0f3"
+      },
+      {
+        "id": "flash-fb0581a89a156c72",
+        "title": "착시 3",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion03.swf",
+        "originalSHA256": "3e58b669350cfe42e88cd75c4673117fbf5b54344120a321003920322e572306"
+      },
+      {
+        "id": "flash-40e242d41c0c96fa",
+        "title": "착시 4",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion04.swf",
+        "originalSHA256": "fa6e12d16128970a38c355b9f82f5791aca4935e937b1932c1e1622443969d56"
+      },
+      {
+        "id": "flash-7746e258bd68068f",
+        "title": "착시 5",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion05.swf",
+        "originalSHA256": "faa135ed906767f9bfcbf0acd0f52c1d0406f653b0ee60b4b54f5b9c7f212ba7"
+      },
+      {
+        "id": "flash-86aa98d7539f79b0",
+        "title": "착시 6",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion06.swf",
+        "originalSHA256": "919c8c2bbd349d20ffa2fb7ab6671c6dbbd57b74539ad847132db807a81238a4"
+      },
+      {
+        "id": "flash-9cddf79b62881ba6",
+        "title": "착시 7",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion07.swf",
+        "originalSHA256": "9e7a68846c94d23084549956f0f827b68296e52dd982dde4dc72311a4583dc66"
+      },
+      {
+        "id": "flash-f5fbc403edc871ab",
+        "title": "착시 8",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion08.swf",
+        "originalSHA256": "3d38439eca4f6301ee8d4bc0dac81fe145ac36e001315c0fc48e80b091f6fdc3"
+      },
+      {
+        "id": "flash-4761a9e31f05f6a9",
+        "title": "착시 9",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion09.swf",
+        "originalSHA256": "787a65a31dc1d68149c20b30e614859732c1c62e72204a78c652e5dd932ed80e"
+      },
+      {
+        "id": "flash-be465f1359e1fc24",
+        "title": "착시 10",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion10.swf",
+        "originalSHA256": "5c6a9d89eb496bb3ef6d57d6c8870a4dd72d39975cbbf7baa9ecdb740c40198e"
+      },
+      {
+        "id": "flash-600791362273ca0d",
+        "title": "착시 11",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion11.swf",
+        "originalSHA256": "9c4119441dd913a61d07493c9c4babbcfdfe4b7eaf0d2c00a525f2dc5aab7bae"
+      },
+      {
+        "id": "flash-076f3a9b0422707e",
+        "title": "착시 12",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion12.swf",
+        "originalSHA256": "bfc74adec5cb9da9b011ea8959afe5dcd4888274bbc3ce0e11dfa6e7b556aed7"
+      },
+      {
+        "id": "flash-c45b00a29f9dea7d",
+        "title": "착시 13",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion13.swf",
+        "originalSHA256": "3eb58a8ce5cd64adc057a754f71355ea452df8b6be4ecfd2d6faceaf0d6dd5fd"
+      },
+      {
+        "id": "flash-04e263fc3721f5df",
+        "title": "착시 14",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion14.swf",
+        "originalSHA256": "b34110401fc461e68ff5e0939ed35f36557654a773dbc62ce775d0a36428931e"
+      },
+      {
+        "id": "flash-c06501cc89d19195",
+        "title": "착시 15",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion15.swf",
+        "originalSHA256": "53c2bca6e9afcc735e9ef0f09d700cece55181e1a8e867c7cae8d0a21ee5bb0c"
+      },
+      {
+        "id": "flash-b64d39d51c05193d",
+        "title": "착시 16",
+        "source": "http://physica.gnu.ac.kr/phtml/optics/light/illusion/illusion16.swf",
+        "originalSHA256": "ec6823aa0607a3e439bbd0310ce2a016d8c36cc5e87b817532061c8085bfed5d"
+      }
+    ],
+    "modern": [
+      {
+        "id": "flash-43834abb48f3463d",
+        "title": "주기율표",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/atomstructure/periodictable/pertable.swf",
+        "originalSHA256": "307dea418c7eb66389d8fc2462017b7ffb68ccdaac6383478eb75fe83a544965"
+      },
+      {
+        "id": "flash-53b1f7b53747d01e",
+        "title": "광자와 전자의 충돌",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/photon/compton.swf",
+        "originalSHA256": "8878fd18087178ea0e675ccc2f44a48445bbed3b0c65fb7e35cd8d77f865f062"
+      },
+      {
+        "id": "flash-1140491ce19ba43a",
+        "title": "공동",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/photon/holerad.swf",
+        "originalSHA256": "4a64b9dd98e209dbdbdff257813aefce6b4dd10e33d8682af659343af0fe1e0c"
+      },
+      {
+        "id": "flash-a79d576b4d9393cf",
+        "title": "프랑크-헤르츠 실험의 모의실험",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/quanta/franckhertzexp.swf",
+        "originalSHA256": "5d4861837de13a257c79745b88e8b8d07063fe927f74102125d5fa842e44d5d0"
+      },
+      {
+        "id": "flash-abc9f1ad0cf746d5",
+        "title": "기체의 스펙트럼",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/spectrum/gratingspec.swf",
+        "originalSHA256": "185f3e16420fee1d1b8c5823007f50ec63fb3d15b07ddc1c8a22d9942a743e57"
+      },
+      {
+        "id": "flash-73be9774daba6348",
+        "title": "공유결합 모의실험",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/molecular/mocombine/covalentbond.swf",
+        "originalSHA256": "524d9d144b65b86967ea8ee2a643da981497f1a3a63c64f2f6b4388af8fcff5b"
+      },
+      {
+        "id": "flash-9b41f82783cf8a46",
+        "title": "속박상태의 파동함수",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/q_mechanics/schronumeric/psiprop.swf",
+        "originalSHA256": "5894a2f8cbc0e81e6add958a3c2dcbdafec4e6435bf1f1ed112c5ffb295f5721"
+      },
+      {
+        "id": "flash-dec768b8e9c2034f",
+        "title": "마이컬슨-몰리의 실험의 비유",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/covariance/michelson1.swf",
+        "originalSHA256": "6d488c02826badf97730ffe57330483414e7b13ab26a5146dd866a3ef07509ef"
+      },
+      {
+        "id": "flash-88b7e17d5c10ff99",
+        "title": "마이컬슨-몰리의 실험",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/covariance/michelson2.swf",
+        "originalSHA256": "a994daee3bdb81cf29113deeb596a19d29cae29f4940700fcbfc1bc26d51f4b2"
+      },
+      {
+        "id": "flash-eb2235affe5d7d5f",
+        "title": "휘어진 공간에서의 물체의 운동",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/generalrel/curvedspace.swf",
+        "originalSHA256": "327347437b0105b092d651ff73414110d2ae0b60e3d2e51db1598502f1360230"
+      },
+      {
+        "id": "flash-c8db8a44814f023b",
+        "title": "가속되는 우주선과 중력이 작용하는 우주선",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/generalrel/equivprn.swf",
+        "originalSHA256": "47566642342dd30ca0ff3517ea2f058e9cb79cbc0a4570bbcce2ecc14bbf581b"
+      },
+      {
+        "id": "flash-668f1814a44090a8",
+        "title": "빛의 경로",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/generalrel/equivprn3.swf",
+        "originalSHA256": "b154fd83fa9df8a4d0a46a179775de8c35e5f8b5d31fd0ae08a73444014aa155"
+      },
+      {
+        "id": "flash-2981dda64c3b445e",
+        "title": "시공간 좌표",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/lorentz/worldline.swf",
+        "originalSHA256": "832584ef6f5f5f26fd47e19efcebeec277da2ad8e7aaf59b902cbd95be08e5de"
+      },
+      {
+        "id": "flash-e80fec4ff9e94883",
+        "title": "쌍둥이 역설에 대한 시공간 좌표",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/paradox/twinspacetimeCS3.swf",
+        "originalSHA256": "89d21b4cfd8f5cdc811def8e468a99de1cea123cb9088da6bce2031219e2eeb0"
+      },
+      {
+        "id": "flash-ca65a61665935993",
+        "title": "쌍둥이 역설의 해소",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/paradox/twinspacetimesol.swf",
+        "originalSHA256": "a4370c3fa679b4755886d34bc63f06d765914bce3552f11edf1822fa9899ce32"
+      },
+      {
+        "id": "flash-113614d4bfcaccf9",
+        "title": "시공간연속체",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/simultaneity/coincide.swf",
+        "originalSHA256": "0a727b158a5b35bfedf2265eec783ee4df20c3c01204334d578e09bce14679bc"
+      },
+      {
+        "id": "flash-880647c22c26343c",
+        "title": "동시성의 의미",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/simultaneity/simultaneityCS3.swf",
+        "originalSHA256": "26bd03f8130dbd6c20beaf86e00d3352157194b9127f6fcd065b727ed3e96f50"
+      },
+      {
+        "id": "flash-b9557638baf4eee6",
+        "title": "시계 맞추기",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/relativity/simultaneity/timesetting.swf",
+        "originalSHA256": "b5651b966f3257b9461eec4044da0ae684d4a0bfb86c751e6ee6beabd68b8f1b"
+      },
+      {
+        "id": "flash-41f497a574da2503",
+        "title": "원소의 결정구조",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/crystalphysics/pertabletiny.swf",
+        "originalSHA256": "2137fa9eb90c07ad6e1d7cbcebfc9122b308ca9ba27b82c10997a76d04d99973"
+      },
+      {
+        "id": "flash-acf2dab16134634a",
+        "title": "불순물이 주입된 격자의 양자상태",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/semiconductorphysics/periodicpotimpurity.swf",
+        "originalSHA256": "041731e7b156847426bad7d2f35dcd653cf4615dd0a997770a8631d9d1237023"
+      },
+      {
+        "id": "flash-c0b1169024f0a018",
+        "title": "화합물반도체의 후보군",
+        "source": "http://physica.gnu.ac.kr/phtml/modern/solidstate/semiconductorphysics/pertablesemi.swf",
+        "originalSHA256": "fcb4dcf0780de098ca224a63188e3c132e35fd6785a5a5b525c9ab75d8f6b64b"
+      }
+    ],
+    "general": [
+      {
+        "id": "flash-b66fa4af7d939944",
+        "title": "전류가 만드는 자기장",
+        "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/magnetic/mfield/mf_7.swf",
+        "originalSHA256": "3d44e3b1a10ef9e215e043feb66cc40a352b9999d29a5d4b13c3fc45725ba56c"
+      },
+      {
+        "id": "flash-f3ab84b3b8f2ee77",
+        "title": "번개",
+        "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/potential/potential/lightning.swf",
+        "originalSHA256": "600b40902eda53433dba58d36e629a96bc9433a855c3194cbff9ff3b87bf0d82"
+      },
+      {
+        "id": "flash-1bf714eda508b5be",
+        "title": "정육면체 내부의 전위 분포",
+        "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/potential/potentialnumeric/relaxation3D1.swf",
+        "originalSHA256": "aba9c7c9620a9dbeebcfe41a9fe5c7951fd5aa89d7812ed1ef95a282a81499df"
+      },
+      {
+        "id": "flash-7ba7f761a85e3395",
+        "title": "쌍극자와 유사한 구조의 전위 분포",
+        "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/potential/potentialnumeric/relaxation3D2.swf",
+        "originalSHA256": "9e47a89625ed03b7d2c470808408d31f9e738fbaff188fca32c8e9ea4c28b93e"
+      },
+      {
+        "id": "flash-37a9b32a0ca67516",
+        "title": "가장자리 전위가 주어진 퍼텐셜",
+        "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/potential/potentialnumeric/relaxationex1.swf",
+        "originalSHA256": "f8e1a33a5ffe631b010958c6154fdfb31d0d3e7adc83cdbbb47646ee22573d2f"
+      },
+      {
+        "id": "flash-ffc4e4eab856732d",
+        "title": "중심 전위가 주어진 퍼텐셜",
+        "source": "http://physica.gnu.ac.kr/phtml/electromagnetic/potential/potentialnumeric/relaxationex2.swf",
+        "originalSHA256": "aa761eb4d833d129fb6e0dd546886ba115a41fe931b403d646aa3fea70fdb52a"
+      },
+      {
+        "id": "flash-60bbd9b257ac7ced",
+        "title": "강제진동",
+        "source": "http://physica.gnu.ac.kr/phtml/mechanics/oscillation/drivenosc/drivenosc1.swf",
+        "originalSHA256": "a081f5958c3149c8e7d0912b06f62854863ba715e6e5ba45ec1bea8010df0d3a"
+      }
+    ]
+  }
+}
