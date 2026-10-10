@@ -109,7 +109,7 @@
     "assets/native-aperture.mjs": "4c33ef956422a2bbb617f0764f7cdf8f2a2d0a1cfbc37a77239c573006d93e43",
     "assets/native-atomic.mjs": "d2e3bd02a1dd7a1f5f1af52fb5f979dc3fb0fd148a3e6e0bd4d925821505c358",
     "assets/native-beam.mjs": "c41e5c8cd64d511148e5321403ae4580dcb24bfb1504978f9f24290f0b6cf76f",
-    "assets/native-chain.mjs": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
+    "assets/native-chain.mjs": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204",
     "assets/native-circuits.mjs": "9900169c48121ae48f2a5acc6bd9e064509d026a438adee2e4b39124639d0c26",
     "assets/native-diagrams.mjs": "9f83be7c470f2953271175ed0356e175007cd23688f0d148a5079e2c0a369198",
     "assets/native-dichroic.mjs": "943469357bdc27c16cf65ca125bbe913f39b4e0b25db03910ac86ffc2ee0e39a",
@@ -4947,5 +4947,15 @@
     "replacedCases": 21,
     "retainedUnchangedCases": 186,
     "reason": "Final worker displayed-field baseline and source pass-reset correction."
-  }
+  },
+  "dependencyRevalidations": [
+    {
+      "date": "2026-10-10T00:30:07.817Z",
+      "file": "assets/native-chain.mjs",
+      "beforeSHA256": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
+      "afterSHA256": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204",
+      "exactAddedStatement": "e.style.pointerEvents='none';",
+      "scope": "Exact single added statement changes hit testing only on force lines. All physics, SVG geometry, timers, labels, inputs, and CSV code are byte-identical. Earlier numerical/runtime and unrelated UI rows are retained, not claimed to have been rerun. Chain playback and pointer interaction are separately rechecked."
+    }
+  ]
 }

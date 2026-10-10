@@ -5,7 +5,7 @@
   "nativeModelHashes": {
     "assets/scene-physics.mjs": "ca7c46f2a70cd69cba9336c5317221ee0bfce5756a23887debd4811211377a3a",
     "assets/scene-specs.mjs": "7712e3123e9d74aaf0448a3e6ecc5a7e5909086f50be77251419c5342a60a4a2",
-    "assets/native-chain.mjs": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586"
+    "assets/native-chain.mjs": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204"
   },
   "method": "Actual Ruffle geometry and numerical steps; real original slider arrows and pointer drags; private read-only telemetry in diagnostic copies",
   "fullEquivalence": false,
@@ -2447,6 +2447,16 @@
       "sha256Verified": true,
       "scope": "Actual original first-bob drag in both directions, followed by all ten particles compared for consecutive recurrence steps; source display coordinates retain 0.05 px quantization. Continuous multi-bob drag combinations are not exhausted.",
       "passed": true
+    }
+  ],
+  "dependencyRevalidations": [
+    {
+      "date": "2026-10-10T00:30:07.817Z",
+      "file": "assets/native-chain.mjs",
+      "beforeSHA256": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
+      "afterSHA256": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204",
+      "exactAddedStatement": "e.style.pointerEvents='none';",
+      "scope": "Exact single added statement changes hit testing only on force lines. All physics, SVG geometry, timers, labels, inputs, and CSV code are byte-identical. Earlier numerical/runtime and unrelated UI rows are retained, not claimed to have been rerun. Chain playback and pointer interaction are separately rechecked."
     }
   ]
 }

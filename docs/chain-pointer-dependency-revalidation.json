@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-10T00:30:07.817Z",
+  "file": "assets/native-chain.mjs",
+  "beforeSHA256": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
+  "afterSHA256": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204",
+  "exactAddedStatement": "e.style.pointerEvents='none';",
+  "scope": "Exact single added statement changes hit testing only on force lines. All physics, SVG geometry, timers, labels, inputs, and CSV code are byte-identical. Earlier numerical/runtime and unrelated UI rows are retained, not claimed to have been rerun. Chain playback and pointer interaction are separately rechecked."
+}

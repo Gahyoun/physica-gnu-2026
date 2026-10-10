@@ -1,0 +1,8 @@
+{
+  "pages": 577,
+  "references": 61070,
+  "issues": [],
+  "date": "2026-10-10T00:25:32.521328+00:00",
+  "checkedCommit": "8523da058dc5fe6588a2dd209aabfb78581792dd",
+  "scope": "Static generated HTML: all relative file and fragment references in anchors, stylesheets, scripts and images. External links and dynamic query contents are excluded. Public page rendering is checked separately."
+}

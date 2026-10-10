@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10T00:15:19.905Z",
+  "date": "2026-10-10T00:30:07.838Z",
   "engine": "chromium",
   "widths": [
     320,
@@ -109,7 +109,7 @@
     "assets/native-aperture.mjs": "4c33ef956422a2bbb617f0764f7cdf8f2a2d0a1cfbc37a77239c573006d93e43",
     "assets/native-atomic.mjs": "d2e3bd02a1dd7a1f5f1af52fb5f979dc3fb0fd148a3e6e0bd4d925821505c358",
     "assets/native-beam.mjs": "c41e5c8cd64d511148e5321403ae4580dcb24bfb1504978f9f24290f0b6cf76f",
-    "assets/native-chain.mjs": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
+    "assets/native-chain.mjs": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204",
     "assets/native-circuits.mjs": "9900169c48121ae48f2a5acc6bd9e064509d026a438adee2e4b39124639d0c26",
     "assets/native-diagrams.mjs": "9f83be7c470f2953271175ed0356e175007cd23688f0d148a5079e2c0a369198",
     "assets/native-dichroic.mjs": "943469357bdc27c16cf65ca125bbe913f39b4e0b25db03910ac86ffc2ee0e39a",
@@ -9716,34 +9716,6 @@
       "classification": "animated"
     },
     {
-      "id": "flash-d1dde891c99fa6d9",
-      "title": "2차원 진동자",
-      "href": "lesson-2-1-2-1.html#native-planar",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "planar",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":170,\"y\":270,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "planar",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":134.61429463203874,\"y\":153.18932284951146,\"vx\":12.142662613747785,\"vy\":35.29725148949081}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
       "id": "flash-eb06907beb17a943",
       "title": "파동묶음 모의실험",
       "href": "lesson-2-2-2-1.html#native-quantum-flash-eb06907beb17a943",
@@ -9800,62 +9772,6 @@
       "classification": "animated"
     },
     {
-      "id": "flash-bfc916726b6abfc5",
-      "title": "수평운동 진동자",
-      "href": "lesson-2-1-2-1.html#native-longitudinal",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":142.0735909686242,\"y\":25,\"vx\":18.500792149344253,\"vy\":0}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-a165a6c6346e837e",
-      "title": "진동자",
-      "href": "lesson-2-1-2-1.html#native-transverse",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "transverse",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "transverse",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":130,\"y\":175.07605834045626,\"vx\":0,\"vy\":38.10129912669784}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
       "id": "flash-609175641dfc40eb",
       "title": "줄의 파동에 대한 종합실험",
       "href": "lesson-2-1-2-8.html#native-general-batch50b-dynamics-flash-609175641dfc40eb",
@@ -9882,206 +9798,6 @@
       "classification": "animated"
     },
     {
-      "id": "flash-c637632d6f67819b",
-      "title": "12개의 진동자",
-      "href": "lesson-2-1-2-2.html#native-chain12",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain12",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":350,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain12",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":162.95690147415075,\"vx\":0,\"vy\":3.8597435627208894},{\"x\":230,\"y\":194.971202804341,\"vx\":0,\"vy\":8.725588311686165},{\"x\":330,\"y\":228.53325160432328,\"vx\":0,\"vy\":2.7321067007693154},{\"x\":430,\"y\":184.82818939715872,\"vx\":0,\"vy\":-17.330657801131768},{\"x\":530,\"y\":112.91698944654868,\"vx\":0,\"vy\":-5.114980425075398},{\"x\":630,\"y\":167.73530712770983,\"vx\":0,\"vy\":12.09083622388394},{\"x\":730,\"y\":140.0265347480622,\"vx\":0,\"vy\":-12.386962434931041},{\"x\":830,\"y\":167.73522949073384,\"vx\":0,\"vy\":12.090786725904033},{\"x\":930,\"y\":112.91537047811826,\"vx\":0,\"vy\":-5.1159265356358254},{\"x\":1030,\"y\":184.80282247616714,\"vx\":0,\"vy\":-17.343994972010933},{\"x\":1130,\"y\":228.24137865155342,\"vx\":0,\"vy\":2.5977229234853354},{\"x\":1230,\"y\":192.59304235450026,\"vx\":0,\"vy\":7.807568166934406}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-b9eb242a7011b37a",
-      "title": "종파와 횡파의 중첩",
-      "href": "lesson-2-1-2-4.html#native-chain10planar",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
-    },
-    {
-      "id": "flash-e2b4258dc320b64f",
-      "title": "두 개가 연결된 진동자",
-      "href": "lesson-2-1-2-1.html#native-chain2",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain2",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain2",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":130,\"y\":152.08632950931607,\"vx\":0,\"vy\":12.398009358205446},{\"x\":230,\"y\":37.81515818892886,\"vx\":0,\"vy\":-6.624844932928784}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-40d552b8badcaf26",
-      "title": "진동자가 만드는 종파",
-      "href": "lesson-2-1-2-4.html#native-chain10longitudinal",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":137.29900239097782,\"y\":25,\"vx\":-4.733051209370204,\"vy\":0},{\"x\":231.84450384428996,\"y\":25,\"vx\":10.432158578598855,\"vy\":0},{\"x\":295.98456514605147,\"y\":25,\"vx\":-3.0682653675733715,\"vy\":0},{\"x\":431.60351904654505,\"y\":25,\"vx\":-6.992292423536897,\"vy\":0},{\"x\":546.6727703932379,\"y\":25,\"vx\":0.8894965617810353,\"vy\":0},{\"x\":637.7859785605553,\"y\":25,\"vx\":1.8748910321861278,\"vy\":0},{\"x\":731.7666616498146,\"y\":25,\"vx\":0.6233749218985012,\"vy\":0},{\"x\":830.2464150148318,\"y\":25,\"vx\":0.10816961146363704,\"vy\":0},{\"x\":930.0233148518815,\"y\":25,\"vx\":0.011916123281519926,\"vy\":0},{\"x\":1030.001576948884,\"y\":25,\"vx\":0.0009048429236342784,\"vy\":0}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
-    },
-    {
-      "id": "flash-1350b84c91be2ad1",
-      "title": "진동자가 만드는 횡파",
-      "href": "lesson-2-1-2-4.html#native-chain10transverse",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
-    },
-    {
       "id": "flash-0a4e877f1a5b00af",
       "title": "2차원 파동의 생성",
       "href": "lesson-2-1-2-6.html#native-general-batch50b-dynamics-flash-0a4e877f1a5b00af",
@@ -10104,34 +9820,6 @@
       "pauseStopsGeometry": true,
       "resumeActive": true,
       "endBeforePlay": "1200",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-d7195fa6f1d8b1de",
-      "title": "세 개가 연결된 진동자",
-      "href": "lesson-2-1-2-1.html#native-chain3",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain3",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain3",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":130,\"y\":165.68616487463024,\"vx\":0,\"vy\":16.226802529740436},{\"x\":230,\"y\":72.88033522812626,\"vx\":0,\"vy\":-4.3503254066064},{\"x\":330,\"y\":141.53898293738186,\"vx\":0,\"vy\":-20.77478176894806}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
       "replayFromEnd": true,
       "classification": "animated"
     },
@@ -10228,102 +9916,6 @@
       "endBeforePlay": "300",
       "replayFromEnd": true,
       "classification": "animated"
-    },
-    {
-      "id": "flash-2a0f03f14dd46105",
-      "title": "5개의 진동자",
-      "href": "lesson-2-1-2-2.html#native-chain5",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":157.2989232030529,\"vx\":0,\"vy\":-4.733101099217498},{\"x\":230,\"y\":151.84292389040334,\"vx\":0,\"vy\":10.4312516896073},{\"x\":330,\"y\":115.9612502069368,\"vx\":0,\"vy\":-3.0801815543075355},{\"x\":430,\"y\":151.3571040297662,\"vx\":0,\"vy\":-7.100462036500232},{\"x\":530,\"y\":164.90610874339004,\"vx\":0,\"vy\":0.2661216398554995}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
-    },
-    {
-      "id": "flash-ca50bf80869574b4",
-      "title": "20개의 진동자",
-      "href": "lesson-2-1-2-2.html#native-chain20",
-      "width": 320,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":360,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":307.67400533032065,\"vx\":0,\"vy\":-4.898107765230739},{\"x\":230,\"y\":301.8354330405336,\"vx\":0,\"vy\":10.866052649096183},{\"x\":330,\"y\":264.4727106198348,\"vx\":0,\"vy\":-3.260369398711063},{\"x\":430,\"y\":301.5322671286809,\"vx\":0,\"vy\":-7.242214937938048},{\"x\":530,\"y\":317.1961644716328,\"vx\":0,\"vy\":0.9457292100266808},{\"x\":630,\"y\":308.0244475976711,\"vx\":0,\"vy\":1.9448733307486976},{\"x\":730,\"y\":301.8176959630827,\"vx\":0,\"vy\":0.6438592672997984},{\"x\":830,\"y\":300.25305031897864,\"vx\":0,\"vy\":0.11138187531708932},{\"x\":930,\"y\":300.0238953008113,\"vx\":0,\"vy\":0.012237405134056203},{\"x\":1030,\"y\":300.0016160211001,\"vx\":0,\"vy\":0.000929036887872507},{\"x\":1130,\"y\":300.0000809200135,\"vx\":0,\"vy\":0.00005105239830853642},{\"x\":1230,\"y\":300.0000030630737,\"vx\":0,\"vy\":0.0000020878239880590097},{\"x\":1330,\"y\":300.0000000887133,\"vx\":0,\"vy\":6.458255291669477e-8},{\"x\":1430,\"y\":300.00000000197576,\"vx\":0,\"vy\":1.5227545208704329e-9},{\"x\":1530,\"y\":300.00000000003376,\"vx\":0,\"vy\":2.7377914804404225e-11},{\"x\":1630,\"y\":300.0000000000004,\"vx\":0,\"vy\":3.694197005188471e-13},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":2.842170943040401e-15},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
     },
     {
       "id": "flash-ecaaedb4a5ab6511",
@@ -20130,34 +19722,6 @@
       "classification": "animated"
     },
     {
-      "id": "flash-d1dde891c99fa6d9",
-      "title": "2차원 진동자",
-      "href": "lesson-2-1-2-1.html#native-planar",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "planar",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":170,\"y\":270,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "planar",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":134.61429463203874,\"y\":153.18932284951146,\"vx\":12.142662613747785,\"vy\":35.29725148949081}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
       "id": "flash-eb06907beb17a943",
       "title": "파동묶음 모의실험",
       "href": "lesson-2-2-2-1.html#native-quantum-flash-eb06907beb17a943",
@@ -20214,34 +19778,6 @@
       "classification": "animated"
     },
     {
-      "id": "flash-bfc916726b6abfc5",
-      "title": "수평운동 진동자",
-      "href": "lesson-2-1-2-1.html#native-longitudinal",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":142.0735909686242,\"y\":25,\"vx\":18.500792149344253,\"vy\":0}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
       "id": "flash-609175641dfc40eb",
       "title": "줄의 파동에 대한 종합실험",
       "href": "lesson-2-1-2-8.html#native-general-batch50b-dynamics-flash-609175641dfc40eb",
@@ -20268,234 +19804,6 @@
       "classification": "animated"
     },
     {
-      "id": "flash-a165a6c6346e837e",
-      "title": "진동자",
-      "href": "lesson-2-1-2-1.html#native-transverse",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "transverse",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "transverse",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":130,\"y\":175.07605834045626,\"vx\":0,\"vy\":38.10129912669784}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-b9eb242a7011b37a",
-      "title": "종파와 횡파의 중첩",
-      "href": "lesson-2-1-2-4.html#native-chain10planar",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
-    },
-    {
-      "id": "flash-c637632d6f67819b",
-      "title": "12개의 진동자",
-      "href": "lesson-2-1-2-2.html#native-chain12",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain12",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":350,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain12",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":162.95690147415075,\"vx\":0,\"vy\":3.8597435627208894},{\"x\":230,\"y\":194.971202804341,\"vx\":0,\"vy\":8.725588311686165},{\"x\":330,\"y\":228.53325160432328,\"vx\":0,\"vy\":2.7321067007693154},{\"x\":430,\"y\":184.82818939715872,\"vx\":0,\"vy\":-17.330657801131768},{\"x\":530,\"y\":112.91698944654868,\"vx\":0,\"vy\":-5.114980425075398},{\"x\":630,\"y\":167.73530712770983,\"vx\":0,\"vy\":12.09083622388394},{\"x\":730,\"y\":140.0265347480622,\"vx\":0,\"vy\":-12.386962434931041},{\"x\":830,\"y\":167.73522949073384,\"vx\":0,\"vy\":12.090786725904033},{\"x\":930,\"y\":112.91537047811826,\"vx\":0,\"vy\":-5.1159265356358254},{\"x\":1030,\"y\":184.80282247616714,\"vx\":0,\"vy\":-17.343994972010933},{\"x\":1130,\"y\":228.24137865155342,\"vx\":0,\"vy\":2.5977229234853354},{\"x\":1230,\"y\":192.59304235450026,\"vx\":0,\"vy\":7.807568166934406}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-e2b4258dc320b64f",
-      "title": "두 개가 연결된 진동자",
-      "href": "lesson-2-1-2-1.html#native-chain2",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain2",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain2",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":130,\"y\":152.08632950931607,\"vx\":0,\"vy\":12.398009358205446},{\"x\":230,\"y\":37.81515818892886,\"vx\":0,\"vy\":-6.624844932928784}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-40d552b8badcaf26",
-      "title": "진동자가 만드는 종파",
-      "href": "lesson-2-1-2-4.html#native-chain10longitudinal",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":137.29900239097782,\"y\":25,\"vx\":-4.733051209370204,\"vy\":0},{\"x\":231.84450384428996,\"y\":25,\"vx\":10.432158578598855,\"vy\":0},{\"x\":295.98456514605147,\"y\":25,\"vx\":-3.0682653675733715,\"vy\":0},{\"x\":431.60351904654505,\"y\":25,\"vx\":-6.992292423536897,\"vy\":0},{\"x\":546.6727703932379,\"y\":25,\"vx\":0.8894965617810353,\"vy\":0},{\"x\":637.7859785605553,\"y\":25,\"vx\":1.8748910321861278,\"vy\":0},{\"x\":731.7666616498146,\"y\":25,\"vx\":0.6233749218985012,\"vy\":0},{\"x\":830.2464150148318,\"y\":25,\"vx\":0.10816961146363704,\"vy\":0},{\"x\":930.0233148518815,\"y\":25,\"vx\":0.011916123281519926,\"vy\":0},{\"x\":1030.001576948884,\"y\":25,\"vx\":0.0009048429236342784,\"vy\":0}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
-    },
-    {
-      "id": "flash-1350b84c91be2ad1",
-      "title": "진동자가 만드는 횡파",
-      "href": "lesson-2-1-2-4.html#native-chain10transverse",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
-    },
-    {
       "id": "flash-0a4e877f1a5b00af",
       "title": "2차원 파동의 생성",
       "href": "lesson-2-1-2-6.html#native-general-batch50b-dynamics-flash-0a4e877f1a5b00af",
@@ -20518,34 +19826,6 @@
       "pauseStopsGeometry": true,
       "resumeActive": true,
       "endBeforePlay": "1200",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-d7195fa6f1d8b1de",
-      "title": "세 개가 연결된 진동자",
-      "href": "lesson-2-1-2-1.html#native-chain3",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain3",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain3",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":130,\"y\":165.68616487463024,\"vx\":0,\"vy\":16.226802529740436},{\"x\":230,\"y\":72.88033522812626,\"vx\":0,\"vy\":-4.3503254066064},{\"x\":330,\"y\":141.53898293738186,\"vx\":0,\"vy\":-20.77478176894806}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
       "replayFromEnd": true,
       "classification": "animated"
     },
@@ -20582,54 +19862,6 @@
       "endBeforePlay": "136",
       "replayFromEnd": true,
       "classification": "animated"
-    },
-    {
-      "id": "flash-ca50bf80869574b4",
-      "title": "20개의 진동자",
-      "href": "lesson-2-1-2-2.html#native-chain20",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":360,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":307.67400533032065,\"vx\":0,\"vy\":-4.898107765230739},{\"x\":230,\"y\":301.8354330405336,\"vx\":0,\"vy\":10.866052649096183},{\"x\":330,\"y\":264.4727106198348,\"vx\":0,\"vy\":-3.260369398711063},{\"x\":430,\"y\":301.5322671286809,\"vx\":0,\"vy\":-7.242214937938048},{\"x\":530,\"y\":317.1961644716328,\"vx\":0,\"vy\":0.9457292100266808},{\"x\":630,\"y\":308.0244475976711,\"vx\":0,\"vy\":1.9448733307486976},{\"x\":730,\"y\":301.8176959630827,\"vx\":0,\"vy\":0.6438592672997984},{\"x\":830,\"y\":300.25305031897864,\"vx\":0,\"vy\":0.11138187531708932},{\"x\":930,\"y\":300.0238953008113,\"vx\":0,\"vy\":0.012237405134056203},{\"x\":1030,\"y\":300.0016160211001,\"vx\":0,\"vy\":0.000929036887872507},{\"x\":1130,\"y\":300.0000809200135,\"vx\":0,\"vy\":0.00005105239830853642},{\"x\":1230,\"y\":300.0000030630737,\"vx\":0,\"vy\":0.0000020878239880590097},{\"x\":1330,\"y\":300.0000000887133,\"vx\":0,\"vy\":6.458255291669477e-8},{\"x\":1430,\"y\":300.00000000197576,\"vx\":0,\"vy\":1.5227545208704329e-9},{\"x\":1530,\"y\":300.00000000003376,\"vx\":0,\"vy\":2.7377914804404225e-11},{\"x\":1630,\"y\":300.0000000000004,\"vx\":0,\"vy\":3.694197005188471e-13},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":2.842170943040401e-15},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
     },
     {
       "id": "flash-58ca7560b196cc7c",
@@ -20700,54 +19932,6 @@
       "endBeforePlay": "300",
       "replayFromEnd": true,
       "classification": "animated"
-    },
-    {
-      "id": "flash-2a0f03f14dd46105",
-      "title": "5개의 진동자",
-      "href": "lesson-2-1-2-2.html#native-chain5",
-      "width": 768,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":157.2989232030529,\"vx\":0,\"vy\":-4.733101099217498},{\"x\":230,\"y\":151.84292389040334,\"vx\":0,\"vy\":10.4312516896073},{\"x\":330,\"y\":115.9612502069368,\"vx\":0,\"vy\":-3.0801815543075355},{\"x\":430,\"y\":151.3571040297662,\"vx\":0,\"vy\":-7.100462036500232},{\"x\":530,\"y\":164.90610874339004,\"vx\":0,\"vy\":0.2661216398554995}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
     },
     {
       "id": "flash-ecaaedb4a5ab6511",
@@ -30547,34 +29731,6 @@
       "classification": "animated"
     },
     {
-      "id": "flash-d1dde891c99fa6d9",
-      "title": "2차원 진동자",
-      "href": "lesson-2-1-2-1.html#native-planar",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "planar",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":170,\"y\":270,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "planar",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":134.61429463203874,\"y\":153.18932284951146,\"vx\":12.142662613747785,\"vy\":35.29725148949081}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
       "id": "flash-df88a01f28e2add7",
       "title": "도미노",
       "href": "lesson-2-1-2-4.html#native-general-batch50b-dynamics-flash-df88a01f28e2add7",
@@ -30599,82 +29755,6 @@
       "endBeforePlay": "1500",
       "replayFromEnd": true,
       "classification": "animated"
-    },
-    {
-      "id": "flash-bfc916726b6abfc5",
-      "title": "수평운동 진동자",
-      "href": "lesson-2-1-2-1.html#native-longitudinal",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":142.0735909686242,\"y\":25,\"vx\":18.500792149344253,\"vy\":0}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-b9eb242a7011b37a",
-      "title": "종파와 횡파의 중첩",
-      "href": "lesson-2-1-2-4.html#native-chain10planar",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10planar",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
     },
     {
       "id": "flash-609175641dfc40eb",
@@ -30703,186 +29783,6 @@
       "classification": "animated"
     },
     {
-      "id": "flash-a165a6c6346e837e",
-      "title": "진동자",
-      "href": "lesson-2-1-2-1.html#native-transverse",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "transverse",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "transverse",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":130,\"y\":175.07605834045626,\"vx\":0,\"vy\":38.10129912669784}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-c637632d6f67819b",
-      "title": "12개의 진동자",
-      "href": "lesson-2-1-2-2.html#native-chain12",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain12",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":350,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain12",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":162.95690147415075,\"vx\":0,\"vy\":3.8597435627208894},{\"x\":230,\"y\":194.971202804341,\"vx\":0,\"vy\":8.725588311686165},{\"x\":330,\"y\":228.53325160432328,\"vx\":0,\"vy\":2.7321067007693154},{\"x\":430,\"y\":184.82818939715872,\"vx\":0,\"vy\":-17.330657801131768},{\"x\":530,\"y\":112.91698944654868,\"vx\":0,\"vy\":-5.114980425075398},{\"x\":630,\"y\":167.73530712770983,\"vx\":0,\"vy\":12.09083622388394},{\"x\":730,\"y\":140.0265347480622,\"vx\":0,\"vy\":-12.386962434931041},{\"x\":830,\"y\":167.73522949073384,\"vx\":0,\"vy\":12.090786725904033},{\"x\":930,\"y\":112.91537047811826,\"vx\":0,\"vy\":-5.1159265356358254},{\"x\":1030,\"y\":184.80282247616714,\"vx\":0,\"vy\":-17.343994972010933},{\"x\":1130,\"y\":228.24137865155342,\"vx\":0,\"vy\":2.5977229234853354},{\"x\":1230,\"y\":192.59304235450026,\"vx\":0,\"vy\":7.807568166934406}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-e2b4258dc320b64f",
-      "title": "두 개가 연결된 진동자",
-      "href": "lesson-2-1-2-1.html#native-chain2",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain2",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain2",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":130,\"y\":152.08632950931607,\"vx\":0,\"vy\":12.398009358205446},{\"x\":230,\"y\":37.81515818892886,\"vx\":0,\"vy\":-6.624844932928784}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-40d552b8badcaf26",
-      "title": "진동자가 만드는 종파",
-      "href": "lesson-2-1-2-4.html#native-chain10longitudinal",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10longitudinal",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":137.29900239097782,\"y\":25,\"vx\":-4.733051209370204,\"vy\":0},{\"x\":231.84450384428996,\"y\":25,\"vx\":10.432158578598855,\"vy\":0},{\"x\":295.98456514605147,\"y\":25,\"vx\":-3.0682653675733715,\"vy\":0},{\"x\":431.60351904654505,\"y\":25,\"vx\":-6.992292423536897,\"vy\":0},{\"x\":546.6727703932379,\"y\":25,\"vx\":0.8894965617810353,\"vy\":0},{\"x\":637.7859785605553,\"y\":25,\"vx\":1.8748910321861278,\"vy\":0},{\"x\":731.7666616498146,\"y\":25,\"vx\":0.6233749218985012,\"vy\":0},{\"x\":830.2464150148318,\"y\":25,\"vx\":0.10816961146363704,\"vy\":0},{\"x\":930.0233148518815,\"y\":25,\"vx\":0.011916123281519926,\"vy\":0},{\"x\":1030.001576948884,\"y\":25,\"vx\":0.0009048429236342784,\"vy\":0}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
-    },
-    {
-      "id": "flash-1350b84c91be2ad1",
-      "title": "진동자가 만드는 횡파",
-      "href": "lesson-2-1-2-4.html#native-chain10transverse",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain10transverse",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
-    },
-    {
       "id": "flash-0a4e877f1a5b00af",
       "title": "2차원 파동의 생성",
       "href": "lesson-2-1-2-6.html#native-general-batch50b-dynamics-flash-0a4e877f1a5b00af",
@@ -30905,34 +29805,6 @@
       "pauseStopsGeometry": true,
       "resumeActive": true,
       "endBeforePlay": "1200",
-      "replayFromEnd": true,
-      "classification": "animated"
-    },
-    {
-      "id": "flash-d7195fa6f1d8b1de",
-      "title": "세 개가 연결된 진동자",
-      "href": "lesson-2-1-2-1.html#native-chain3",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain3",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain3",
-          "nativeReady": "true",
-          "nativeStep": "15",
-          "nativeState": "[{\"x\":130,\"y\":165.68616487463024,\"vx\":0,\"vy\":16.226802529740436},{\"x\":230,\"y\":72.88033522812626,\"vx\":0,\"vy\":-4.3503254066064},{\"x\":330,\"y\":141.53898293738186,\"vx\":0,\"vy\":-20.77478176894806}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
       "replayFromEnd": true,
       "classification": "animated"
     },
@@ -30969,54 +29841,6 @@
       "endBeforePlay": "136",
       "replayFromEnd": true,
       "classification": "animated"
-    },
-    {
-      "id": "flash-ca50bf80869574b4",
-      "title": "20개의 진동자",
-      "href": "lesson-2-1-2-2.html#native-chain20",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":360,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain20",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":307.67400533032065,\"vx\":0,\"vy\":-4.898107765230739},{\"x\":230,\"y\":301.8354330405336,\"vx\":0,\"vy\":10.866052649096183},{\"x\":330,\"y\":264.4727106198348,\"vx\":0,\"vy\":-3.260369398711063},{\"x\":430,\"y\":301.5322671286809,\"vx\":0,\"vy\":-7.242214937938048},{\"x\":530,\"y\":317.1961644716328,\"vx\":0,\"vy\":0.9457292100266808},{\"x\":630,\"y\":308.0244475976711,\"vx\":0,\"vy\":1.9448733307486976},{\"x\":730,\"y\":301.8176959630827,\"vx\":0,\"vy\":0.6438592672997984},{\"x\":830,\"y\":300.25305031897864,\"vx\":0,\"vy\":0.11138187531708932},{\"x\":930,\"y\":300.0238953008113,\"vx\":0,\"vy\":0.012237405134056203},{\"x\":1030,\"y\":300.0016160211001,\"vx\":0,\"vy\":0.000929036887872507},{\"x\":1130,\"y\":300.0000809200135,\"vx\":0,\"vy\":0.00005105239830853642},{\"x\":1230,\"y\":300.0000030630737,\"vx\":0,\"vy\":0.0000020878239880590097},{\"x\":1330,\"y\":300.0000000887133,\"vx\":0,\"vy\":6.458255291669477e-8},{\"x\":1430,\"y\":300.00000000197576,\"vx\":0,\"vy\":1.5227545208704329e-9},{\"x\":1530,\"y\":300.00000000003376,\"vx\":0,\"vy\":2.7377914804404225e-11},{\"x\":1630,\"y\":300.0000000000004,\"vx\":0,\"vy\":3.694197005188471e-13},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":2.842170943040401e-15},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
     },
     {
       "id": "flash-089f941f0c6727cb",
@@ -31087,54 +29911,6 @@
       "classification": "static",
       "frameControls": 0,
       "staticHasNoFrameBar": true
-    },
-    {
-      "id": "flash-2a0f03f14dd46105",
-      "title": "5개의 진동자",
-      "href": "lesson-2-1-2-2.html#native-chain5",
-      "width": 1360,
-      "passed": true,
-      "defaultPlayback": {
-        "geometryChanged": false,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
-        }
-      },
-      "nonzeroInput": {
-        "selector": "[data-chain-initial]",
-        "value": 60
-      },
-      "nonzeroPlayback": {
-        "geometryChanged": true,
-        "playActivated": true,
-        "before": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "0",
-          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
-        },
-        "after": {
-          "flashNative": "chain5",
-          "nativeReady": "true",
-          "nativeStep": "20",
-          "nativeState": "[{\"x\":130,\"y\":157.2989232030529,\"vx\":0,\"vy\":-4.733101099217498},{\"x\":230,\"y\":151.84292389040334,\"vx\":0,\"vy\":10.4312516896073},{\"x\":330,\"y\":115.9612502069368,\"vx\":0,\"vy\":-3.0801815543075355},{\"x\":430,\"y\":151.3571040297662,\"vx\":0,\"vy\":-7.100462036500232},{\"x\":530,\"y\":164.90610874339004,\"vx\":0,\"vy\":0.2661216398554995}]"
-        }
-      },
-      "pauseStopsGeometry": true,
-      "resumeActive": true,
-      "endBeforePlay": "2000",
-      "replayFromEnd": true,
-      "classification": "equilibrium-input-tested"
     },
     {
       "id": "flash-ecaaedb4a5ab6511",
@@ -36132,17 +34908,1247 @@
       "endBeforePlay": "1001",
       "replayFromEnd": true,
       "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-d1dde891c99fa6d9",
+      "title": "2차원 진동자",
+      "href": "lesson-2-1-2-1.html#native-planar",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "planar",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":170,\"y\":270,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "planar",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":134.61429463203874,\"y\":153.18932284951146,\"vx\":12.142662613747785,\"vy\":35.29725148949081}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-bfc916726b6abfc5",
+      "title": "수평운동 진동자",
+      "href": "lesson-2-1-2-1.html#native-longitudinal",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":142.0735909686242,\"y\":25,\"vx\":18.500792149344253,\"vy\":0}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-b9eb242a7011b37a",
+      "title": "종파와 횡파의 중첩",
+      "href": "lesson-2-1-2-4.html#native-chain10planar",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-a165a6c6346e837e",
+      "title": "진동자",
+      "href": "lesson-2-1-2-1.html#native-transverse",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "transverse",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "transverse",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":130,\"y\":175.07605834045626,\"vx\":0,\"vy\":38.10129912669784}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-40d552b8badcaf26",
+      "title": "진동자가 만드는 종파",
+      "href": "lesson-2-1-2-4.html#native-chain10longitudinal",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":137.29900239097782,\"y\":25,\"vx\":-4.733051209370204,\"vy\":0},{\"x\":231.84450384428996,\"y\":25,\"vx\":10.432158578598855,\"vy\":0},{\"x\":295.98456514605147,\"y\":25,\"vx\":-3.0682653675733715,\"vy\":0},{\"x\":431.60351904654505,\"y\":25,\"vx\":-6.992292423536897,\"vy\":0},{\"x\":546.6727703932379,\"y\":25,\"vx\":0.8894965617810353,\"vy\":0},{\"x\":637.7859785605553,\"y\":25,\"vx\":1.8748910321861278,\"vy\":0},{\"x\":731.7666616498146,\"y\":25,\"vx\":0.6233749218985012,\"vy\":0},{\"x\":830.2464150148318,\"y\":25,\"vx\":0.10816961146363704,\"vy\":0},{\"x\":930.0233148518815,\"y\":25,\"vx\":0.011916123281519926,\"vy\":0},{\"x\":1030.001576948884,\"y\":25,\"vx\":0.0009048429236342784,\"vy\":0}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-c637632d6f67819b",
+      "title": "12개의 진동자",
+      "href": "lesson-2-1-2-2.html#native-chain12",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain12",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":350,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain12",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":162.95690147415075,\"vx\":0,\"vy\":3.8597435627208894},{\"x\":230,\"y\":194.971202804341,\"vx\":0,\"vy\":8.725588311686165},{\"x\":330,\"y\":228.53325160432328,\"vx\":0,\"vy\":2.7321067007693154},{\"x\":430,\"y\":184.82818939715872,\"vx\":0,\"vy\":-17.330657801131768},{\"x\":530,\"y\":112.91698944654868,\"vx\":0,\"vy\":-5.114980425075398},{\"x\":630,\"y\":167.73530712770983,\"vx\":0,\"vy\":12.09083622388394},{\"x\":730,\"y\":140.0265347480622,\"vx\":0,\"vy\":-12.386962434931041},{\"x\":830,\"y\":167.73522949073384,\"vx\":0,\"vy\":12.090786725904033},{\"x\":930,\"y\":112.91537047811826,\"vx\":0,\"vy\":-5.1159265356358254},{\"x\":1030,\"y\":184.80282247616714,\"vx\":0,\"vy\":-17.343994972010933},{\"x\":1130,\"y\":228.24137865155342,\"vx\":0,\"vy\":2.5977229234853354},{\"x\":1230,\"y\":192.59304235450026,\"vx\":0,\"vy\":7.807568166934406}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-1350b84c91be2ad1",
+      "title": "진동자가 만드는 횡파",
+      "href": "lesson-2-1-2-4.html#native-chain10transverse",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-e2b4258dc320b64f",
+      "title": "두 개가 연결된 진동자",
+      "href": "lesson-2-1-2-1.html#native-chain2",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain2",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain2",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":130,\"y\":152.08632950931607,\"vx\":0,\"vy\":12.398009358205446},{\"x\":230,\"y\":37.81515818892886,\"vx\":0,\"vy\":-6.624844932928784}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-ca50bf80869574b4",
+      "title": "20개의 진동자",
+      "href": "lesson-2-1-2-2.html#native-chain20",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":360,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":307.67400533032065,\"vx\":0,\"vy\":-4.898107765230739},{\"x\":230,\"y\":301.8354330405336,\"vx\":0,\"vy\":10.866052649096183},{\"x\":330,\"y\":264.4727106198348,\"vx\":0,\"vy\":-3.260369398711063},{\"x\":430,\"y\":301.5322671286809,\"vx\":0,\"vy\":-7.242214937938048},{\"x\":530,\"y\":317.1961644716328,\"vx\":0,\"vy\":0.9457292100266808},{\"x\":630,\"y\":308.0244475976711,\"vx\":0,\"vy\":1.9448733307486976},{\"x\":730,\"y\":301.8176959630827,\"vx\":0,\"vy\":0.6438592672997984},{\"x\":830,\"y\":300.25305031897864,\"vx\":0,\"vy\":0.11138187531708932},{\"x\":930,\"y\":300.0238953008113,\"vx\":0,\"vy\":0.012237405134056203},{\"x\":1030,\"y\":300.0016160211001,\"vx\":0,\"vy\":0.000929036887872507},{\"x\":1130,\"y\":300.0000809200135,\"vx\":0,\"vy\":0.00005105239830853642},{\"x\":1230,\"y\":300.0000030630737,\"vx\":0,\"vy\":0.0000020878239880590097},{\"x\":1330,\"y\":300.0000000887133,\"vx\":0,\"vy\":6.458255291669477e-8},{\"x\":1430,\"y\":300.00000000197576,\"vx\":0,\"vy\":1.5227545208704329e-9},{\"x\":1530,\"y\":300.00000000003376,\"vx\":0,\"vy\":2.7377914804404225e-11},{\"x\":1630,\"y\":300.0000000000004,\"vx\":0,\"vy\":3.694197005188471e-13},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":2.842170943040401e-15},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-d7195fa6f1d8b1de",
+      "title": "세 개가 연결된 진동자",
+      "href": "lesson-2-1-2-1.html#native-chain3",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain3",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain3",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":130,\"y\":165.68616487463024,\"vx\":0,\"vy\":16.226802529740436},{\"x\":230,\"y\":72.88033522812626,\"vx\":0,\"vy\":-4.3503254066064},{\"x\":330,\"y\":141.53898293738186,\"vx\":0,\"vy\":-20.77478176894806}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-d1dde891c99fa6d9",
+      "title": "2차원 진동자",
+      "href": "lesson-2-1-2-1.html#native-planar",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "planar",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":170,\"y\":270,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "planar",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":134.61429463203874,\"y\":153.18932284951146,\"vx\":12.142662613747785,\"vy\":35.29725148949081}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-2a0f03f14dd46105",
+      "title": "5개의 진동자",
+      "href": "lesson-2-1-2-2.html#native-chain5",
+      "width": 320,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":157.2989232030529,\"vx\":0,\"vy\":-4.733101099217498},{\"x\":230,\"y\":151.84292389040334,\"vx\":0,\"vy\":10.4312516896073},{\"x\":330,\"y\":115.9612502069368,\"vx\":0,\"vy\":-3.0801815543075355},{\"x\":430,\"y\":151.3571040297662,\"vx\":0,\"vy\":-7.100462036500232},{\"x\":530,\"y\":164.90610874339004,\"vx\":0,\"vy\":0.2661216398554995}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-bfc916726b6abfc5",
+      "title": "수평운동 진동자",
+      "href": "lesson-2-1-2-1.html#native-longitudinal",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":142.0735909686242,\"y\":25,\"vx\":18.500792149344253,\"vy\":0}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-b9eb242a7011b37a",
+      "title": "종파와 횡파의 중첩",
+      "href": "lesson-2-1-2-4.html#native-chain10planar",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-40d552b8badcaf26",
+      "title": "진동자가 만드는 종파",
+      "href": "lesson-2-1-2-4.html#native-chain10longitudinal",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":137.29900239097782,\"y\":25,\"vx\":-4.733051209370204,\"vy\":0},{\"x\":231.84450384428996,\"y\":25,\"vx\":10.432158578598855,\"vy\":0},{\"x\":295.98456514605147,\"y\":25,\"vx\":-3.0682653675733715,\"vy\":0},{\"x\":431.60351904654505,\"y\":25,\"vx\":-6.992292423536897,\"vy\":0},{\"x\":546.6727703932379,\"y\":25,\"vx\":0.8894965617810353,\"vy\":0},{\"x\":637.7859785605553,\"y\":25,\"vx\":1.8748910321861278,\"vy\":0},{\"x\":731.7666616498146,\"y\":25,\"vx\":0.6233749218985012,\"vy\":0},{\"x\":830.2464150148318,\"y\":25,\"vx\":0.10816961146363704,\"vy\":0},{\"x\":930.0233148518815,\"y\":25,\"vx\":0.011916123281519926,\"vy\":0},{\"x\":1030.001576948884,\"y\":25,\"vx\":0.0009048429236342784,\"vy\":0}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-a165a6c6346e837e",
+      "title": "진동자",
+      "href": "lesson-2-1-2-1.html#native-transverse",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "transverse",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "transverse",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":130,\"y\":175.07605834045626,\"vx\":0,\"vy\":38.10129912669784}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-1350b84c91be2ad1",
+      "title": "진동자가 만드는 횡파",
+      "href": "lesson-2-1-2-4.html#native-chain10transverse",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-e2b4258dc320b64f",
+      "title": "두 개가 연결된 진동자",
+      "href": "lesson-2-1-2-1.html#native-chain2",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain2",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain2",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":130,\"y\":152.08632950931607,\"vx\":0,\"vy\":12.398009358205446},{\"x\":230,\"y\":37.81515818892886,\"vx\":0,\"vy\":-6.624844932928784}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-c637632d6f67819b",
+      "title": "12개의 진동자",
+      "href": "lesson-2-1-2-2.html#native-chain12",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain12",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":350,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain12",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":162.95690147415075,\"vx\":0,\"vy\":3.8597435627208894},{\"x\":230,\"y\":194.971202804341,\"vx\":0,\"vy\":8.725588311686165},{\"x\":330,\"y\":228.53325160432328,\"vx\":0,\"vy\":2.7321067007693154},{\"x\":430,\"y\":184.82818939715872,\"vx\":0,\"vy\":-17.330657801131768},{\"x\":530,\"y\":112.91698944654868,\"vx\":0,\"vy\":-5.114980425075398},{\"x\":630,\"y\":167.73530712770983,\"vx\":0,\"vy\":12.09083622388394},{\"x\":730,\"y\":140.0265347480622,\"vx\":0,\"vy\":-12.386962434931041},{\"x\":830,\"y\":167.73522949073384,\"vx\":0,\"vy\":12.090786725904033},{\"x\":930,\"y\":112.91537047811826,\"vx\":0,\"vy\":-5.1159265356358254},{\"x\":1030,\"y\":184.80282247616714,\"vx\":0,\"vy\":-17.343994972010933},{\"x\":1130,\"y\":228.24137865155342,\"vx\":0,\"vy\":2.5977229234853354},{\"x\":1230,\"y\":192.59304235450026,\"vx\":0,\"vy\":7.807568166934406}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-d7195fa6f1d8b1de",
+      "title": "세 개가 연결된 진동자",
+      "href": "lesson-2-1-2-1.html#native-chain3",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain3",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain3",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":130,\"y\":165.68616487463024,\"vx\":0,\"vy\":16.226802529740436},{\"x\":230,\"y\":72.88033522812626,\"vx\":0,\"vy\":-4.3503254066064},{\"x\":330,\"y\":141.53898293738186,\"vx\":0,\"vy\":-20.77478176894806}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-ca50bf80869574b4",
+      "title": "20개의 진동자",
+      "href": "lesson-2-1-2-2.html#native-chain20",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":360,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":307.67400533032065,\"vx\":0,\"vy\":-4.898107765230739},{\"x\":230,\"y\":301.8354330405336,\"vx\":0,\"vy\":10.866052649096183},{\"x\":330,\"y\":264.4727106198348,\"vx\":0,\"vy\":-3.260369398711063},{\"x\":430,\"y\":301.5322671286809,\"vx\":0,\"vy\":-7.242214937938048},{\"x\":530,\"y\":317.1961644716328,\"vx\":0,\"vy\":0.9457292100266808},{\"x\":630,\"y\":308.0244475976711,\"vx\":0,\"vy\":1.9448733307486976},{\"x\":730,\"y\":301.8176959630827,\"vx\":0,\"vy\":0.6438592672997984},{\"x\":830,\"y\":300.25305031897864,\"vx\":0,\"vy\":0.11138187531708932},{\"x\":930,\"y\":300.0238953008113,\"vx\":0,\"vy\":0.012237405134056203},{\"x\":1030,\"y\":300.0016160211001,\"vx\":0,\"vy\":0.000929036887872507},{\"x\":1130,\"y\":300.0000809200135,\"vx\":0,\"vy\":0.00005105239830853642},{\"x\":1230,\"y\":300.0000030630737,\"vx\":0,\"vy\":0.0000020878239880590097},{\"x\":1330,\"y\":300.0000000887133,\"vx\":0,\"vy\":6.458255291669477e-8},{\"x\":1430,\"y\":300.00000000197576,\"vx\":0,\"vy\":1.5227545208704329e-9},{\"x\":1530,\"y\":300.00000000003376,\"vx\":0,\"vy\":2.7377914804404225e-11},{\"x\":1630,\"y\":300.0000000000004,\"vx\":0,\"vy\":3.694197005188471e-13},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":2.842170943040401e-15},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-2a0f03f14dd46105",
+      "title": "5개의 진동자",
+      "href": "lesson-2-1-2-2.html#native-chain5",
+      "width": 768,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":157.2989232030529,\"vx\":0,\"vy\":-4.733101099217498},{\"x\":230,\"y\":151.84292389040334,\"vx\":0,\"vy\":10.4312516896073},{\"x\":330,\"y\":115.9612502069368,\"vx\":0,\"vy\":-3.0801815543075355},{\"x\":430,\"y\":151.3571040297662,\"vx\":0,\"vy\":-7.100462036500232},{\"x\":530,\"y\":164.90610874339004,\"vx\":0,\"vy\":0.2661216398554995}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-d1dde891c99fa6d9",
+      "title": "2차원 진동자",
+      "href": "lesson-2-1-2-1.html#native-planar",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "planar",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":170,\"y\":270,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "planar",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":134.61429463203874,\"y\":153.18932284951146,\"vx\":12.142662613747785,\"vy\":35.29725148949081}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-bfc916726b6abfc5",
+      "title": "수평운동 진동자",
+      "href": "lesson-2-1-2-1.html#native-longitudinal",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":142.0735909686242,\"y\":25,\"vx\":18.500792149344253,\"vy\":0}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-b9eb242a7011b37a",
+      "title": "종파와 횡파의 중첩",
+      "href": "lesson-2-1-2-4.html#native-chain10planar",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10planar",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-a165a6c6346e837e",
+      "title": "진동자",
+      "href": "lesson-2-1-2-1.html#native-transverse",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "transverse",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "transverse",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":130,\"y\":175.07605834045626,\"vx\":0,\"vy\":38.10129912669784}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-40d552b8badcaf26",
+      "title": "진동자가 만드는 종파",
+      "href": "lesson-2-1-2-4.html#native-chain10longitudinal",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":190,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":25,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":25,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10longitudinal",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":137.29900239097782,\"y\":25,\"vx\":-4.733051209370204,\"vy\":0},{\"x\":231.84450384428996,\"y\":25,\"vx\":10.432158578598855,\"vy\":0},{\"x\":295.98456514605147,\"y\":25,\"vx\":-3.0682653675733715,\"vy\":0},{\"x\":431.60351904654505,\"y\":25,\"vx\":-6.992292423536897,\"vy\":0},{\"x\":546.6727703932379,\"y\":25,\"vx\":0.8894965617810353,\"vy\":0},{\"x\":637.7859785605553,\"y\":25,\"vx\":1.8748910321861278,\"vy\":0},{\"x\":731.7666616498146,\"y\":25,\"vx\":0.6233749218985012,\"vy\":0},{\"x\":830.2464150148318,\"y\":25,\"vx\":0.10816961146363704,\"vy\":0},{\"x\":930.0233148518815,\"y\":25,\"vx\":0.011916123281519926,\"vy\":0},{\"x\":1030.001576948884,\"y\":25,\"vx\":0.0009048429236342784,\"vy\":0}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-1350b84c91be2ad1",
+      "title": "진동자가 만드는 횡파",
+      "href": "lesson-2-1-2-4.html#native-chain10transverse",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain10transverse",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":157.29900239097776,\"vx\":0,\"vy\":-4.733051209370235},{\"x\":230,\"y\":151.84450384428987,\"vx\":0,\"vy\":10.432158578598855},{\"x\":330,\"y\":115.98456514605142,\"vx\":0,\"vy\":-3.0682653675733573},{\"x\":430,\"y\":151.60351904654513,\"vx\":0,\"vy\":-6.9922924235368855},{\"x\":530,\"y\":166.67277039323798,\"vx\":0,\"vy\":0.8894965617810421},{\"x\":630,\"y\":157.78597856055538,\"vx\":0,\"vy\":1.8748910321860834},{\"x\":730,\"y\":151.76666164981458,\"vx\":0,\"vy\":0.623374921898511},{\"x\":830,\"y\":150.24641501483183,\"vx\":0,\"vy\":0.10816961146363746},{\"x\":930,\"y\":150.0233148518815,\"vx\":0,\"vy\":0.011916123281495682},{\"x\":1030,\"y\":150.0015769488842,\"vx\":0,\"vy\":0.0009048429237157131}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-c637632d6f67819b",
+      "title": "12개의 진동자",
+      "href": "lesson-2-1-2-2.html#native-chain12",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain12",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":350,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":200,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain12",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":162.95690147415075,\"vx\":0,\"vy\":3.8597435627208894},{\"x\":230,\"y\":194.971202804341,\"vx\":0,\"vy\":8.725588311686165},{\"x\":330,\"y\":228.53325160432328,\"vx\":0,\"vy\":2.7321067007693154},{\"x\":430,\"y\":184.82818939715872,\"vx\":0,\"vy\":-17.330657801131768},{\"x\":530,\"y\":112.91698944654868,\"vx\":0,\"vy\":-5.114980425075398},{\"x\":630,\"y\":167.73530712770983,\"vx\":0,\"vy\":12.09083622388394},{\"x\":730,\"y\":140.0265347480622,\"vx\":0,\"vy\":-12.386962434931041},{\"x\":830,\"y\":167.73522949073384,\"vx\":0,\"vy\":12.090786725904033},{\"x\":930,\"y\":112.91537047811826,\"vx\":0,\"vy\":-5.1159265356358254},{\"x\":1030,\"y\":184.80282247616714,\"vx\":0,\"vy\":-17.343994972010933},{\"x\":1130,\"y\":228.24137865155342,\"vx\":0,\"vy\":2.5977229234853354},{\"x\":1230,\"y\":192.59304235450026,\"vx\":0,\"vy\":7.807568166934406}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-e2b4258dc320b64f",
+      "title": "두 개가 연결된 진동자",
+      "href": "lesson-2-1-2-1.html#native-chain2",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain2",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain2",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":130,\"y\":152.08632950931607,\"vx\":0,\"vy\":12.398009358205446},{\"x\":230,\"y\":37.81515818892886,\"vx\":0,\"vy\":-6.624844932928784}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-ca50bf80869574b4",
+      "title": "20개의 진동자",
+      "href": "lesson-2-1-2-2.html#native-chain20",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":360,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1030,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1130,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1230,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1330,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1430,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1530,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1630,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain20",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":307.67400533032065,\"vx\":0,\"vy\":-4.898107765230739},{\"x\":230,\"y\":301.8354330405336,\"vx\":0,\"vy\":10.866052649096183},{\"x\":330,\"y\":264.4727106198348,\"vx\":0,\"vy\":-3.260369398711063},{\"x\":430,\"y\":301.5322671286809,\"vx\":0,\"vy\":-7.242214937938048},{\"x\":530,\"y\":317.1961644716328,\"vx\":0,\"vy\":0.9457292100266808},{\"x\":630,\"y\":308.0244475976711,\"vx\":0,\"vy\":1.9448733307486976},{\"x\":730,\"y\":301.8176959630827,\"vx\":0,\"vy\":0.6438592672997984},{\"x\":830,\"y\":300.25305031897864,\"vx\":0,\"vy\":0.11138187531708932},{\"x\":930,\"y\":300.0238953008113,\"vx\":0,\"vy\":0.012237405134056203},{\"x\":1030,\"y\":300.0016160211001,\"vx\":0,\"vy\":0.000929036887872507},{\"x\":1130,\"y\":300.0000809200135,\"vx\":0,\"vy\":0.00005105239830853642},{\"x\":1230,\"y\":300.0000030630737,\"vx\":0,\"vy\":0.0000020878239880590097},{\"x\":1330,\"y\":300.0000000887133,\"vx\":0,\"vy\":6.458255291669477e-8},{\"x\":1430,\"y\":300.00000000197576,\"vx\":0,\"vy\":1.5227545208704329e-9},{\"x\":1530,\"y\":300.00000000003376,\"vx\":0,\"vy\":2.7377914804404225e-11},{\"x\":1630,\"y\":300.0000000000004,\"vx\":0,\"vy\":3.694197005188471e-13},{\"x\":1730,\"y\":300,\"vx\":0,\"vy\":2.842170943040401e-15},{\"x\":1830,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":1930,\"y\":300,\"vx\":0,\"vy\":0},{\"x\":2030,\"y\":300,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
+    },
+    {
+      "id": "flash-d7195fa6f1d8b1de",
+      "title": "세 개가 연결된 진동자",
+      "href": "lesson-2-1-2-1.html#native-chain3",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain3",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":270,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain3",
+          "nativeReady": "true",
+          "nativeStep": "15",
+          "nativeState": "[{\"x\":130,\"y\":165.68616487463024,\"vx\":0,\"vy\":16.226802529740436},{\"x\":230,\"y\":72.88033522812626,\"vx\":0,\"vy\":-4.3503254066064},{\"x\":330,\"y\":141.53898293738186,\"vx\":0,\"vy\":-20.77478176894806}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "animated"
+    },
+    {
+      "id": "flash-2a0f03f14dd46105",
+      "title": "5개의 진동자",
+      "href": "lesson-2-1-2-2.html#native-chain5",
+      "width": 1360,
+      "passed": true,
+      "defaultPlayback": {
+        "geometryChanged": false,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
+        }
+      },
+      "nonzeroInput": {
+        "selector": "[data-chain-initial]",
+        "value": 60
+      },
+      "nonzeroPlayback": {
+        "geometryChanged": true,
+        "playActivated": true,
+        "before": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "0",
+          "nativeState": "[{\"x\":130,\"y\":210,\"vx\":0,\"vy\":0},{\"x\":230,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":330,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":430,\"y\":150,\"vx\":0,\"vy\":0},{\"x\":530,\"y\":150,\"vx\":0,\"vy\":0}]"
+        },
+        "after": {
+          "flashNative": "chain5",
+          "nativeReady": "true",
+          "nativeStep": "20",
+          "nativeState": "[{\"x\":130,\"y\":157.2989232030529,\"vx\":0,\"vy\":-4.733101099217498},{\"x\":230,\"y\":151.84292389040334,\"vx\":0,\"vy\":10.4312516896073},{\"x\":330,\"y\":115.9612502069368,\"vx\":0,\"vy\":-3.0801815543075355},{\"x\":430,\"y\":151.3571040297662,\"vx\":0,\"vy\":-7.100462036500232},{\"x\":530,\"y\":164.90610874339004,\"vx\":0,\"vy\":0.2661216398554995}]"
+        }
+      },
+      "pauseStopsGeometry": true,
+      "resumeActive": true,
+      "endBeforePlay": "2000",
+      "replayFromEnd": true,
+      "classification": "equilibrium-input-tested"
     }
   ],
   "errors": [],
   "revalidation": {
-    "report": "docs/final69-playback-ui-report.json",
-    "changedFiles": [
-      "assets/general-final69-worker.mjs",
-      "assets/native-general-final69.mjs"
-    ],
-    "replacedCases": 207,
-    "retainedUnchangedCases": 1347,
-    "reason": "Worker seek-to-end/play race fixed. Rechecked all final69 in three screen widths; unchanged earlier remaster assets retain their full-collection checks."
-  }
+    "report": "docs/chain-pointer-playback-ui-report.json",
+    "replacedCases": 33,
+    "retainedUnchangedCases": 1521,
+    "reason": "Force-line hit testing only; all eleven affected chain models rechecked at three widths."
+  },
+  "dependencyRevalidations": [
+    {
+      "date": "2026-10-10T00:30:07.817Z",
+      "file": "assets/native-chain.mjs",
+      "beforeSHA256": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
+      "afterSHA256": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204",
+      "exactAddedStatement": "e.style.pointerEvents='none';",
+      "scope": "Exact single added statement changes hit testing only on force lines. All physics, SVG geometry, timers, labels, inputs, and CSV code are byte-identical. Earlier numerical/runtime and unrelated UI rows are retained, not claimed to have been rerun. Chain playback and pointer interaction are separately rechecked."
+    }
+  ]
 }

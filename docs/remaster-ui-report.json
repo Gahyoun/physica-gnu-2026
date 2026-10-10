@@ -6,6 +6,9 @@
   ],
   "potentialModes": 6,
   "chainModels": [
+    "chain10longitudinal",
+    "chain10transverse",
+    "chain10planar",
     "transverse",
     "longitudinal",
     "planar",
@@ -37,7 +40,7 @@
     1360
   ],
   "darkMode": true,
-  "remasterCatalog": 111,
+  "remasterCatalog": 518,
   "originalPlaybackExamples": 2,
   "noFlashOnReadingPage": true,
   "errors": []

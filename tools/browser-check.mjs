@@ -9,7 +9,7 @@ const base=process.env.PHYSICA_BASE_URL || 'http://127.0.0.1:8775/';
 const output=new URL('../preview/',import.meta.url);
 await fs.mkdir(output,{recursive:true});
 const browser=await chromium.launch({headless:true});
-const report={pages:[],widths:[320,768,1024,1360],errors:[],externalResources:[],interactionChecks:0};
+const report={date:new Date().toISOString(),base,pages:[],widths:[320,768,1024,1360],errors:[],externalResources:[],interactionChecks:0};
 try{
   const page=await browser.newPage({viewport:{width:1360,height:1000},reducedMotion:'reduce'});
   page.on('pageerror',e=>report.errors.push(e.message));
@@ -141,7 +141,8 @@ try{
   assert.equal(await page.locator('math .concept-term').count(),0);
   assert.equal(await page.locator('.concept-term').first().evaluate(e=>getComputedStyle(e).color),'rgb(45, 121, 83)');
   await page.locator('.ego-link').first().click();
-  await page.waitForFunction(()=>Number(document.querySelector('canvas').dataset.nodeCount)>0);
+  await page.waitForURL('**/network.html?**');
+  await page.waitForFunction(()=>Number(document.querySelector('canvas')?.dataset.nodeCount)>0);
   const firstCount=Number(await page.locator('canvas').getAttribute('data-node-count'));
   await page.locator('[data-network-direction]').selectOption('out');
   assert.ok(Number(await page.locator('canvas').getAttribute('data-node-count'))<=firstCount);
@@ -162,9 +163,10 @@ try{
   await page.locator('[data-network-hops]').selectOption('1');await page.locator('[data-network-direction]').selectOption('both');
   await page.locator('canvas').scrollIntoViewIfNeeded();await page.waitForTimeout(1800);
   await page.screenshot({path:fileURLToPath(new URL('concept-network-desktop.png',output))});
-  const shared=page.url();await page.reload({waitUntil:'networkidle'});await page.waitForFunction(()=>Number(document.querySelector('canvas').dataset.nodeCount)>0);
+  const shared=page.url();await page.reload({waitUntil:'networkidle'});await page.waitForFunction(()=>Number(document.querySelector('canvas')?.dataset.nodeCount)>0);
   assert.equal(await page.locator('[data-ego-query]').inputValue(),'양자통계');assert.equal(page.url(),shared);
-  await page.locator('[data-network-detail] a').first().click();assert.ok((await page.locator('h1').innerText()).length>0);
+  const detailLink=page.locator('[data-network-detail] a').first(),detailTarget=new URL(await detailLink.getAttribute('href'),page.url()).href;
+  await detailLink.click();await page.waitForURL(detailTarget);assert.ok((await page.locator('h1').innerText()).length>0);
   await page.goto(new URL('headwords.html',base).href,{waitUntil:'networkidle'});
   await page.locator('[data-filter]').fill('양자역학');await page.waitForTimeout(200);
   assert.ok(await page.locator('[data-catalog-row]:visible a[aria-label$="개념 관계"]').count()>0);
@@ -178,10 +180,11 @@ try{
   await page.getByRole('button',{name:'모두 감추기',exact:true}).click();
   assert.equal(await page.locator('.toc-tree details[open]').count(),0);report.interactionChecks+=2;
   await page.locator('.chapter-links a').first().click();
-  await page.waitForFunction(()=>document.querySelector('#chapter-1').open);
+  await page.waitForFunction(()=>document.querySelector('#chapter-1')?.open);
   await page.locator('#chapter-1 .toc-section>summary').first().click();
   await page.locator('#chapter-1 .toc-pages a').first().click();
-  await page.waitForFunction(()=>document.querySelector('h1').textContent.includes('운동량'));
+  await page.waitForURL('**/lesson-1-1-1-1.html');
+  await page.waitForFunction(()=>document.querySelector('h1')?.textContent.includes('운동량'));
   assert.equal(await page.locator('h1').innerText(),'운동량 · 1쪽');
   assert.ok((await page.locator('.reading-info a').first().getAttribute('href')).endsWith('momentum.html'));
   assert.ok(await page.locator('math').count()>0);assert.equal(await page.locator('.book-lab').count(),1);

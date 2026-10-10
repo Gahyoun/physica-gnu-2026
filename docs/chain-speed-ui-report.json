@@ -271,10 +271,20 @@
   "scope": "11 connected oscillator models at widths 320, 768 and 1360. Default fast; slow at one sixth speed; live switch preserves current state; pause stops progression.",
   "method": "Controlled browser clock: 6000 ms per speed, then live switching and pause.",
   "nativeModelHashes": {
-    "assets/native-chain.mjs": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
+    "assets/native-chain.mjs": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204",
     "assets/render-utils.mjs": "01be086ddf68d6f69a7513fd367376ae4f34a5546f65361abe48c0f1ec452d63",
     "assets/style.css": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86"
   },
   "physicsUnchanged": true,
-  "baselineCommit": "401167ebb2f7604755458280b16d2e04280b4406"
+  "baselineCommit": "401167ebb2f7604755458280b16d2e04280b4406",
+  "dependencyRevalidations": [
+    {
+      "date": "2026-10-10T00:30:07.817Z",
+      "file": "assets/native-chain.mjs",
+      "beforeSHA256": "18eb0413d7694011d81d449c50a70c4d4b40b419dc30dc3bb4fb0b1c8c96b586",
+      "afterSHA256": "b8e85c7e5a375135ca245e102af82e426ebdc455e98a589fff2d5d13e3d41204",
+      "exactAddedStatement": "e.style.pointerEvents='none';",
+      "scope": "Exact single added statement changes hit testing only on force lines. All physics, SVG geometry, timers, labels, inputs, and CSV code are byte-identical. Earlier numerical/runtime and unrelated UI rows are retained, not claimed to have been rerun. Chain playback and pointer interaction are separately rechecked."
+    }
+  ]
 }
