@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-10T00:33:10.494Z",
+  "base": "https://gahyoun.github.io/physica-gnu-2026/",
+  "checkedCommit": "3b4f2be3b5eb2a94903c881a669546cb1291c381",
+  "passed": true,
+  "environment": "Headless Chromium on macOS. 320/768/1024/1360 viewport and tablet touch emulation; no claim of physical-device or Safari/Firefox coverage.",
+  "navigation": {
+    "pages": 17,
+    "widths": [
+      320,
+      768,
+      1024,
+      1360
+    ],
+    "interactionChecks": 134,
+    "errors": 0,
+    "report": "docs/browser-report.json"
+  },
+  "textbook": {
+    "pages": 566,
+    "supplementalModels": 79,
+    "sliderBoundaryChecks": 306,
+    "report": "docs/book-browser-report.json"
+  },
+  "math": {
+    "pages": 571,
+    "displayChecks": 1713,
+    "errors": 0,
+    "report": "docs/math-ui-report.json"
+  },
+  "internalReferences": {
+    "pages": 577,
+    "references": 61070,
+    "issues": 0,
+    "scope": "Static generated HTML: all relative file and fragment references in anchors, stylesheets, scripts and images. External links and dynamic query contents are excluded. Public page rendering is checked separately.",
+    "report": "docs/internal-link-health-report.json"
+  },
+  "publicRemasters": {
+    "files": 518,
+    "width": 1360,
+    "animated": 321,
+    "equilibrium": 11,
+    "static": 186,
+    "failed": 0,
+    "report": "docs/public-playback-ui-report.json",
+    "scope": "Reading-page play clicks with normal scrolling; timed SVG scene geometry, pause/resume, seek from end and replay. Authored waits and equilibrium/boundary defaults are explicit, with a separate nonzero-input motion test. Static models are counted separately. This is playback QA, not all original-runtime input equivalence."
+  },
+  "repair": {
+    "problem": "A force arrow from another mass could intercept pointerdown on a chain mass.",
+    "fix": "Force lines ignore pointer events. Physics, geometry, timelines and CSV unchanged.",
+    "affectedModels": 11,
+    "threeViewportPlaybackCases": 33,
+    "publicRepairPlaybackCases": 11,
+    "publicDragKeyboardAndCSV": true,
+    "originalRuffleExamples": 2,
+    "deployedAndConfirmed": true,
+    "report": "docs/remaster-ui-report.json"
+  },
+  "fullOriginalInputEquivalence": false
+}
