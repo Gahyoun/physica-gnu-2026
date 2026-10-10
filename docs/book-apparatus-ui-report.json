@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-10T04:08:02.777Z",
+  "base": "http://127.0.0.1:8775/",
+  "results": [
+    {
+      "key": "thermo",
+      "file": "lesson-3-3-1-1.html",
+      "width": 320,
+      "darkThemeFinite": true,
+      "passed": true,
+      "flowLoopBounded": true,
+      "flowDotSharesPhase": true
+    },
+    {
+      "key": "gas",
+      "file": "lesson-3-1-1-1.html",
+      "width": 320,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "phase",
+      "file": "lesson-3-2-2-1.html",
+      "width": 320,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "capacitor",
+      "file": "lesson-4-3-3-1.html",
+      "width": 320,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "fresnel",
+      "file": "lesson-5-1-4-1.html",
+      "width": 320,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "polarizer",
+      "file": "lesson-5-3-2-1.html",
+      "width": 320,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "doppler",
+      "file": "lesson-2-3-2-1.html",
+      "width": 320,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "energy",
+      "file": "lesson-7-4-2-1.html",
+      "width": 320,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "quantumwell",
+      "file": "lesson-6-2-4-1.html",
+      "width": 320,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "thermo",
+      "file": "lesson-3-3-1-1.html",
+      "width": 768,
+      "darkThemeFinite": true,
+      "passed": true,
+      "flowLoopBounded": true,
+      "flowDotSharesPhase": true
+    },
+    {
+      "key": "gas",
+      "file": "lesson-3-1-1-1.html",
+      "width": 768,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "phase",
+      "file": "lesson-3-2-2-1.html",
+      "width": 768,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "capacitor",
+      "file": "lesson-4-3-3-1.html",
+      "width": 768,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "fresnel",
+      "file": "lesson-5-1-4-1.html",
+      "width": 768,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "polarizer",
+      "file": "lesson-5-3-2-1.html",
+      "width": 768,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "doppler",
+      "file": "lesson-2-3-2-1.html",
+      "width": 768,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "energy",
+      "file": "lesson-7-4-2-1.html",
+      "width": 768,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "quantumwell",
+      "file": "lesson-6-2-4-1.html",
+      "width": 768,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "thermo",
+      "file": "lesson-3-3-1-1.html",
+      "width": 1360,
+      "darkThemeFinite": true,
+      "passed": true,
+      "flowLoopBounded": true,
+      "flowDotSharesPhase": true
+    },
+    {
+      "key": "gas",
+      "file": "lesson-3-1-1-1.html",
+      "width": 1360,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "phase",
+      "file": "lesson-3-2-2-1.html",
+      "width": 1360,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "capacitor",
+      "file": "lesson-4-3-3-1.html",
+      "width": 1360,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "fresnel",
+      "file": "lesson-5-1-4-1.html",
+      "width": 1360,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "polarizer",
+      "file": "lesson-5-3-2-1.html",
+      "width": 1360,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "doppler",
+      "file": "lesson-2-3-2-1.html",
+      "width": 1360,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "energy",
+      "file": "lesson-7-4-2-1.html",
+      "width": 1360,
+      "darkThemeFinite": true,
+      "passed": true
+    },
+    {
+      "key": "quantumwell",
+      "file": "lesson-6-2-4-1.html",
+      "width": 1360,
+      "darkThemeFinite": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "nativeModelHashes": {
+    "assets/book-coupling.mjs": "f72ebac97e6ff90ca3b99f53d5ef10479fed3e3291eacd52f57e826ff0cd5488",
+    "assets/book-labs.mjs": "6f0c5b0d34e5165886acd4aefaeaaa27961376457c6f63a036d30abc2ed991d8",
+    "assets/book-models.mjs": "3b9d1ae635108154a398b02b7afd88aa27cfb6c4440d57e3ddb21c4abf87dbbf",
+    "assets/book-motion.mjs": "8859bd8183f9c72ac4173190d35f0748eb183e082c4a343a8eed0d0d92cc5df3"
+  }
+}

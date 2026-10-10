@@ -29,7 +29,7 @@ try{
    assert.ok(!/NaN|Infinity|undefined/.test(await page.locator('.book-lab .book-readouts').innerText()),lesson.file);report.sliderChecks++;
   }
   await page.locator('[data-book-reset]').click();
-  for(const width of report.widths){await page.setViewportSize({width,height:950});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),lesson.file+' @ '+width);}
+  for(const width of report.widths){await page.setViewportSize({width,height:950});await page.waitForTimeout(180);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),lesson.file+' @ '+width);}
   await page.setViewportSize({width:1360,height:950});
   const play=page.locator('[data-book-play]');if(await play.count()){
    await play.scrollIntoViewIfNeeded();await play.click();await page.waitForTimeout(180);assert.ok(Number(await page.locator('[data-book-lab]').getAttribute('data-time'))>0);await play.click();

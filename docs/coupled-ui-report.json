@@ -8,6 +8,8 @@
     "impulse",
     "decay",
     "decay-chain",
+    "thermo",
+    "induction",
     "wave",
     "reflection",
     "standing",

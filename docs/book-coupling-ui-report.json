@@ -1,0 +1,1546 @@
+{
+  "date": "2026-10-10T04:05:09.551Z",
+  "base": "http://127.0.0.1:8775/",
+  "widths": [
+    320,
+    768,
+    1360
+  ],
+  "scope": "All independent supplementary models: each control min/default/max, curve-selected state, visible geometry/play/pause where animated, static controls without playback, Carnot energy conservation. Not original SWF equivalence.",
+  "nativeModelHashes": {
+    "assets/book-coupling.mjs": "f72ebac97e6ff90ca3b99f53d5ef10479fed3e3291eacd52f57e826ff0cd5488",
+    "assets/book-labs.mjs": "6f0c5b0d34e5165886acd4aefaeaaa27961376457c6f63a036d30abc2ed991d8",
+    "assets/book-models.mjs": "3b9d1ae635108154a398b02b7afd88aa27cfb6c4440d57e3ddb21c4abf87dbbf",
+    "assets/book-motion.mjs": "8859bd8183f9c72ac4173190d35f0748eb183e082c4a343a8eed0d0d92cc5df3"
+  },
+  "expected": 79,
+  "observed": 79,
+  "results": [
+    {
+      "key": "momentum",
+      "file": "lesson-1-1-1-1.html",
+      "controls": [
+        {
+          "key": "m",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "v",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "F",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": true,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "centre",
+      "file": "lesson-1-1-2-1.html",
+      "controls": [
+        {
+          "key": "m1",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "m2",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "d",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "impulse",
+      "file": "lesson-1-1-3-1.html",
+      "controls": [
+        {
+          "key": "F",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "duration",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": true,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "collision",
+      "file": "lesson-1-1-4-1.html",
+      "controls": [
+        {
+          "key": "m1",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "m2",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "u1",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "u2",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "e",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "oscillator",
+      "file": "lesson-1-2-1-1.html",
+      "controls": [
+        {
+          "key": "a",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "w",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": true,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "coupled",
+      "file": "lesson-1-2-3-1.html",
+      "controls": [
+        {
+          "key": "coupling",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": true,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "lissajous",
+      "file": "lesson-1-2-4-1.html",
+      "controls": [
+        {
+          "key": "ratio",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "phase",
+          "visualResponds": true,
+          "readoutResponds": false
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "damped",
+      "file": "lesson-1-2-5-1.html",
+      "controls": [
+        {
+          "key": "gamma",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": true,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "resonance",
+      "file": "lesson-1-2-6-1.html",
+      "controls": [
+        {
+          "key": "gamma",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "wave",
+      "file": "lesson-2-1-1-1.html",
+      "controls": [
+        {
+          "key": "a",
+          "visualResponds": true,
+          "readoutResponds": false
+        },
+        {
+          "key": "k",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "v",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "reflection",
+      "file": "lesson-2-1-4-1.html",
+      "controls": [
+        {
+          "key": "r",
+          "visualResponds": true,
+          "readoutResponds": false
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "interference",
+      "file": "lesson-2-2-1-1.html",
+      "controls": [
+        {
+          "key": "phase",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "ratio",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "packet",
+      "file": "lesson-2-2-2-1.html",
+      "controls": [
+        {
+          "key": "width",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "velocity",
+          "visualResponds": true,
+          "readoutResponds": false
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "fourier",
+      "file": "lesson-2-2-3-1.html",
+      "controls": [
+        {
+          "key": "N",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "standing",
+      "file": "lesson-2-2-4-1.html",
+      "controls": [
+        {
+          "key": "n",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "moire",
+      "file": "lesson-2-2-6-1.html",
+      "controls": [
+        {
+          "key": "angle",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "diffraction",
+      "file": "lesson-2-2-7-1.html",
+      "controls": [
+        {
+          "key": "a",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "doppler",
+      "file": "lesson-2-3-2-1.html",
+      "controls": [
+        {
+          "key": "v",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": true,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "gas",
+      "file": "lesson-3-1-1-1.html",
+      "controls": [
+        {
+          "key": "T",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "V",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": true,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "maxwell",
+      "file": "lesson-3-1-2-1.html",
+      "controls": [
+        {
+          "key": "T",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "mass",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "equipartition",
+      "file": "lesson-3-1-3-1.html",
+      "controls": [
+        {
+          "key": "f",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "T",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "transport",
+      "file": "lesson-3-1-4-1.html",
+      "controls": [
+        {
+          "key": "D",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "time",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "realgas",
+      "file": "lesson-3-2-1-1.html",
+      "controls": [
+        {
+          "key": "T",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "phase",
+      "file": "lesson-3-2-2-1.html",
+      "controls": [
+        {
+          "key": "Q",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": true,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "capillary",
+      "file": "lesson-3-2-3-1.html",
+      "controls": [
+        {
+          "key": "r",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "angle",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "thermo",
+      "file": "lesson-3-3-1-1.html",
+      "controls": [
+        {
+          "key": "Th",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "Tc",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": true,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "charge",
+      "file": "lesson-4-1-1-1.html",
+      "controls": [
+        {
+          "key": "q1",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "q2",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "gauss",
+      "file": "lesson-4-2-2-1.html",
+      "controls": [
+        {
+          "key": "R",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "potential",
+      "file": "lesson-4-2-4-1.html",
+      "controls": [
+        {
+          "key": "q2",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "laplace",
+      "file": "lesson-4-3-2-1.html",
+      "controls": [
+        {
+          "key": "iterations",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "capacitor",
+      "file": "lesson-4-3-3-1.html",
+      "controls": [
+        {
+          "key": "A",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "d",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "V",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": true,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "circuit",
+      "file": "lesson-4-4-1-1.html",
+      "controls": [
+        {
+          "key": "R1",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "R2",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "V",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "magnetic",
+      "file": "lesson-4-5-1-1.html",
+      "controls": [
+        {
+          "key": "B",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "v",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "induction",
+      "file": "lesson-4-6-1-1.html",
+      "controls": [
+        {
+          "key": "w",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": true,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "emwave",
+      "file": "lesson-4-7-1-1.html",
+      "controls": [
+        {
+          "key": "amplitude",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "refraction",
+      "file": "lesson-5-1-1-1.html",
+      "controls": [
+        {
+          "key": "n1",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "n2",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "angle",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "fresnel",
+      "file": "lesson-5-1-4-1.html",
+      "controls": [
+        {
+          "key": "n1",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "n2",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "angle",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": true,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "colour",
+      "file": "lesson-5-1-6-1.html",
+      "controls": [
+        {
+          "key": "red",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "green",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "blue",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "illusion",
+      "file": "lesson-5-1-7-1.html",
+      "controls": [
+        {
+          "key": "background",
+          "visualResponds": true,
+          "readoutResponds": false
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "lens",
+      "file": "lesson-5-2-1-1.html",
+      "controls": [
+        {
+          "key": "f",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "s",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "mirror",
+      "file": "lesson-5-2-2-1.html",
+      "controls": [
+        {
+          "key": "f",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "s",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "aberration",
+      "file": "lesson-5-2-10-1.html",
+      "controls": [
+        {
+          "key": "defocus",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "polarization",
+      "file": "lesson-5-3-1-1.html",
+      "controls": [
+        {
+          "key": "a",
+          "visualResponds": true,
+          "readoutResponds": false
+        },
+        {
+          "key": "phase",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "polarizer",
+      "file": "lesson-5-3-2-1.html",
+      "controls": [
+        {
+          "key": "angle",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": true,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "double-slit",
+      "file": "lesson-5-4-3-1.html",
+      "controls": [
+        {
+          "key": "a",
+          "visualResponds": true,
+          "readoutResponds": false
+        },
+        {
+          "key": "d",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "film",
+      "file": "lesson-5-4-4-1.html",
+      "controls": [
+        {
+          "key": "n",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "d",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "multibeam",
+      "file": "lesson-5-4-5-1.html",
+      "controls": [
+        {
+          "key": "R",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "airy",
+      "file": "lesson-5-5-2-1.html",
+      "controls": [
+        {
+          "key": "scale",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "grating",
+      "file": "lesson-5-5-3-1.html",
+      "controls": [
+        {
+          "key": "N",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "fresnel-diffraction",
+      "file": "lesson-5-5-5-1.html",
+      "controls": [
+        {
+          "key": "F",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "laser",
+      "file": "lesson-5-6-1-1.html",
+      "controls": [
+        {
+          "key": "R",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "loss",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "L",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "cavity",
+      "file": "lesson-5-6-4-1.html",
+      "controls": [
+        {
+          "key": "L",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "n",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "gaussian",
+      "file": "lesson-5-6-5-1.html",
+      "controls": [
+        {
+          "key": "w0",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "lambda",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "pulse",
+      "file": "lesson-5-6-6-1.html",
+      "controls": [
+        {
+          "key": "duration",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "relativity",
+      "file": "lesson-6-1-1-1.html",
+      "controls": [
+        {
+          "key": "beta",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "light-doppler",
+      "file": "lesson-6-1-6-1.html",
+      "controls": [
+        {
+          "key": "beta",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "gravity",
+      "file": "lesson-6-1-9-1.html",
+      "controls": [
+        {
+          "key": "height",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "photoelectric",
+      "file": "lesson-6-2-1-1.html",
+      "controls": [
+        {
+          "key": "work",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "frequency",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "bohr",
+      "file": "lesson-6-2-2-1.html",
+      "controls": [
+        {
+          "key": "Z",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "ni",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "nf",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "quantumwell",
+      "file": "lesson-6-2-4-1.html",
+      "controls": [
+        {
+          "key": "n",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "L",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": true,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "uncertainty",
+      "file": "lesson-6-3-4-1.html",
+      "controls": [
+        {
+          "key": "width",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "quantum-oscillator",
+      "file": "lesson-6-4-5-1.html",
+      "controls": [
+        {
+          "key": "n",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "quantum-superposition",
+      "file": "lesson-6-4-8-1.html",
+      "controls": [
+        {
+          "key": "mix",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "perturbation",
+      "file": "lesson-6-4-9-1.html",
+      "controls": [
+        {
+          "key": "coupling",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "spin",
+      "file": "lesson-6-5-1-1.html",
+      "controls": [
+        {
+          "key": "angle",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "shells",
+      "file": "lesson-6-5-2-1.html",
+      "controls": [
+        {
+          "key": "n",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "angular",
+      "file": "lesson-6-5-3-1.html",
+      "controls": [
+        {
+          "key": "l",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "bond",
+      "file": "lesson-6-6-1-1.html",
+      "controls": [
+        {
+          "key": "d",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "molecular",
+      "file": "lesson-6-6-2-1.html",
+      "controls": [
+        {
+          "key": "B",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "J",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "crystal",
+      "file": "lesson-6-8-1-1.html",
+      "controls": [
+        {
+          "key": "d",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "lambda",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "bands",
+      "file": "lesson-6-8-2-1.html",
+      "controls": [
+        {
+          "key": "t",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "semiconductor",
+      "file": "lesson-6-8-4-1.html",
+      "controls": [
+        {
+          "key": "gap",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "T",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "binding",
+      "file": "lesson-7-1-1-1.html",
+      "controls": [
+        {
+          "key": "mass",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "decay",
+      "file": "lesson-7-2-1-1.html",
+      "controls": [
+        {
+          "key": "half",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": true,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "tunneling",
+      "file": "lesson-7-2-3-1.html",
+      "controls": [
+        {
+          "key": "barrier",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "width",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "beta",
+      "file": "lesson-7-2-5-1.html",
+      "controls": [
+        {
+          "key": "Q",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "decay-chain",
+      "file": "lesson-7-2-6-1.html",
+      "controls": [
+        {
+          "key": "a",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "b",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": true,
+      "animated": true,
+      "playChangesScene": true,
+      "passed": true
+    },
+    {
+      "key": "gamow",
+      "file": "lesson-7-3-3-1.html",
+      "controls": [
+        {
+          "key": "T",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": false,
+      "apparatus": false,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    },
+    {
+      "key": "energy",
+      "file": "lesson-7-4-2-1.html",
+      "controls": [
+        {
+          "key": "thermal",
+          "visualResponds": true,
+          "readoutResponds": true
+        },
+        {
+          "key": "efficiency",
+          "visualResponds": true,
+          "readoutResponds": true
+        }
+      ],
+      "selectedPoints": true,
+      "apparatus": true,
+      "animated": false,
+      "playChangesScene": null,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
