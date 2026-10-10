@@ -1127,5 +1127,2610 @@
       }
     },
     "verificationStatus": "source-math-verified; browser-interactions-checked; original-gui-runtime-unverified"
+  },
+  {
+    "id": "huyray1-java",
+    "title": "파면과 광선의 전파",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/huyray1.html",
+    "lessonId": "5-1-2-1",
+    "sourceAliases": [],
+    "kind": "restore-huyray1",
+    "model": "ray",
+    "parameters": [
+      {
+        "key": "index",
+        "label": "매질 굴절률",
+        "min": 0,
+        "max": 3,
+        "step": 0.01,
+        "value": 1.5
+      },
+      {
+        "key": "wavelength",
+        "label": "광학 거리 간격",
+        "min": 15,
+        "max": 60,
+        "step": 1,
+        "value": 30
+      },
+      {
+        "key": "tilt",
+        "label": "파면 기울기",
+        "min": -0.5,
+        "max": 0.5,
+        "step": 0.01,
+        "value": 0
+      }
+    ],
+    "controls": [
+      {
+        "key": "shape",
+        "label": "원본 경계 모양",
+        "type": "select",
+        "options": [
+          [
+            2,
+            "평면"
+          ],
+          [
+            3,
+            "주름 경계"
+          ],
+          [
+            4,
+            "볼록렌즈"
+          ],
+          [
+            5,
+            "프리즘"
+          ],
+          [
+            6,
+            "포물면"
+          ],
+          [
+            7,
+            "타원"
+          ],
+          [
+            8,
+            "균일 공간"
+          ],
+          [
+            9,
+            "균일 공간 2"
+          ]
+        ],
+        "value": 3
+      },
+      {
+        "key": "front",
+        "label": "파면",
+        "type": "select",
+        "options": [
+          [
+            "plane",
+            "평면파"
+          ],
+          [
+            "circular",
+            "원형파"
+          ]
+        ],
+        "value": "plane"
+      }
+    ],
+    "temporal": true,
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/huyray1.html",
+      "archive": "huyray1.class",
+      "archiveSHA256": "5ea58835a1e65ac71a2fb440e2169d2f7188281363e4bbbb330cecab55cb2e57",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Original random renewal is made reproducible through exposed representative parameters or seeded waves, preserving its scalar wave equations."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 1,
+        "discreteProduct": 1,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 2,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "chromadiagram-java",
+    "title": "CIE 색도표",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/ChromaDiagram.html",
+    "lessonId": "5-1-6-2",
+    "sourceAliases": [],
+    "kind": "restore-chromadiagram",
+    "model": "cie",
+    "parameters": [
+      {
+        "key": "x",
+        "label": "색도 x",
+        "min": 0.005,
+        "max": 0.8,
+        "step": 0.001,
+        "value": 0.3333333333333333
+      },
+      {
+        "key": "y",
+        "label": "색도 y",
+        "min": 0.005,
+        "max": 0.85,
+        "step": 0.001,
+        "value": 0.3333333333333333
+      }
+    ],
+    "controls": [
+      {
+        "key": "gamut",
+        "label": "표현가능색만",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "precise",
+        "label": "정교한 그림",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "grid",
+        "label": "모눈 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "spectral",
+        "label": "단색광 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "primaries",
+        "label": "삼원색 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "ntsc",
+        "label": "NTSC RGB",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "fill",
+        "label": "내부 채움",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "purity",
+        "label": "순도선·주파장선 표시",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": false,
+    "instructions": "색도표의 선택점을 끌어 색도·주파장·순도를 확인하세요. 도표 내부의 색은 색채 과학 데이터이며, UI와 마커는 학교의 파랑색을 사용합니다.",
+    "equations": [
+      "x=\\frac{X}{X+Y+Z},\\quad y=\\frac{Y}{X+Y+Z}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/ChromaDiagram.html",
+      "archive": "ChromaDiagram.class",
+      "archiveSHA256": "8d5718f665ad33af8c011a374c53e274df19ffc1e8f08c370ef259dd8a78dd46",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 256,
+        "discreteProduct": 256,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 0,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "lens01-java",
+    "title": "볼록렌즈의 결상과정을 알아보는 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens01.html",
+    "lessonId": "5-2-3-2",
+    "sourceAliases": [
+      "http://physica.gnu.ac.kr/phtml/bank/sim/lens2.html"
+    ],
+    "kind": "restore-lens01",
+    "model": "lens",
+    "parameters": [
+      {
+        "key": "distance",
+        "label": "물체 거리",
+        "min": 5,
+        "max": 500,
+        "step": 1,
+        "value": 250
+      },
+      {
+        "key": "height",
+        "label": "물체 높이",
+        "min": -100,
+        "max": 100,
+        "step": 1,
+        "value": 50
+      },
+      {
+        "key": "focal",
+        "label": "초점거리 크기",
+        "min": 5,
+        "max": 250,
+        "step": 1,
+        "value": 100
+      },
+      {
+        "key": "lensX",
+        "label": "렌즈 위치",
+        "min": 100,
+        "max": 650,
+        "step": 1,
+        "value": 300
+      }
+    ],
+    "controls": [
+      {
+        "key": "concave",
+        "label": "오목렌즈",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": false,
+    "variant": "simple",
+    "instructions": "물체·초점·렌즈의 점을 끌어 결상 조건을 바꿀 수 있습니다. 초점 위의 물체는 무한대 상으로 표시합니다. 오목렌즈 원본 자료는 렌즈 종류 선택으로 함께 볼 수 있습니다.",
+    "equations": [
+      "\\frac{1}{f}=\\frac{1}{s}+\\frac{1}{s\\prime}",
+      "M=-\\frac{s\\prime}{s}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens01.html",
+      "archive": "lens01.class",
+      "archiveSHA256": "27ca035370beae561e16e83eeb1825789ba2c40d60b2d5091a26d43899f7075a",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 1,
+        "discreteProduct": 1,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 0,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed",
+    "wrapperInitialStates": {
+      "http://physica.gnu.ac.kr/phtml/bank/sim/lens2.html": {
+        "concave": true
+      }
+    }
+  },
+  {
+    "id": "lens02-java",
+    "title": "볼록렌즈에 의한 상의 왜곡 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens02.html",
+    "lessonId": "5-2-3-4",
+    "sourceAliases": [
+      "http://physica.gnu.ac.kr/phtml/bank/sim/lens3.html"
+    ],
+    "kind": "restore-lens02",
+    "model": "lens",
+    "parameters": [
+      {
+        "key": "distance",
+        "label": "물체 거리",
+        "min": 5,
+        "max": 500,
+        "step": 1,
+        "value": 150
+      },
+      {
+        "key": "height",
+        "label": "물체 높이",
+        "min": -100,
+        "max": 100,
+        "step": 1,
+        "value": 30
+      },
+      {
+        "key": "focal",
+        "label": "초점거리 크기",
+        "min": 5,
+        "max": 250,
+        "step": 1,
+        "value": 75
+      },
+      {
+        "key": "lensX",
+        "label": "렌즈 위치",
+        "min": 100,
+        "max": 650,
+        "step": 1,
+        "value": 300
+      }
+    ],
+    "controls": [
+      {
+        "key": "concave",
+        "label": "오목렌즈",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "shape",
+        "label": "물체 모양",
+        "type": "select",
+        "options": [
+          [
+            0,
+            "원"
+          ],
+          [
+            1,
+            "십자"
+          ],
+          [
+            2,
+            "나선"
+          ],
+          [
+            3,
+            "사각형"
+          ]
+        ],
+        "value": 2
+      }
+    ],
+    "temporal": false,
+    "variant": "object2d",
+    "instructions": "물체·초점·렌즈의 점을 끌어 결상 조건을 바꿀 수 있습니다. 초점 위의 물체는 무한대 상으로 표시합니다. 오목렌즈 원본 자료는 렌즈 종류 선택으로 함께 볼 수 있습니다.",
+    "equations": [
+      "\\frac{1}{f}=\\frac{1}{s}+\\frac{1}{s\\prime}",
+      "M=-\\frac{s\\prime}{s}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens02.html",
+      "archive": "lens02.class",
+      "archiveSHA256": "c8beead371daf02a9966a76abbf9bf1cb2b63f4af125f39204adc982a698f453",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 1,
+        "discreteProduct": 1,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 0,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed",
+    "wrapperInitialStates": {
+      "http://physica.gnu.ac.kr/phtml/bank/sim/lens3.html": {
+        "concave": true
+      }
+    }
+  },
+  {
+    "id": "single-java",
+    "title": "얇은 렌즈의 결상",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/single.html",
+    "lessonId": "5-2-3-6",
+    "sourceAliases": [],
+    "kind": "restore-single",
+    "model": "instrument",
+    "parameters": [],
+    "controls": [
+      {
+        "key": "front",
+        "label": "화살 앞 광선",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "back",
+        "label": "화살 뒤 광선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "images",
+        "label": "상 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "aux",
+        "label": "역추적선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "stray",
+        "label": "길잃은 광선 포함",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "rays",
+        "label": "광선 수",
+        "type": "select",
+        "options": [
+          3,
+          7,
+          13,
+          21,
+          31,
+          51
+        ],
+        "value": 7
+      },
+      {
+        "key": "theme",
+        "label": "원본 배치",
+        "type": "select",
+        "options": [
+          [
+            0,
+            "초기설정"
+          ],
+          [
+            1,
+            "볼록렌즈"
+          ],
+          [
+            2,
+            "오목렌즈"
+          ],
+          [
+            3,
+            "볼록거울"
+          ],
+          [
+            4,
+            "오목거울"
+          ],
+          [
+            5,
+            "평면거울"
+          ]
+        ],
+        "value": 0
+      }
+    ],
+    "temporal": true,
+    "variant": "single",
+    "instructions": "렌즈·거울의 중심과 초점 및 물체의 끝점을 드래그할 수 있습니다. 재생하면 물체 위의 광원 위치를 따라 상을 추적합니다. 축소·확대는 표시 범위만 바꿉니다.",
+    "equations": [
+      "\\tan\\theta\\prime=\\tan\\theta-\\frac{h}{f}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/single.html",
+      "archive": "single.class",
+      "archiveSHA256": "71ef465165563141b9cad8fc42c145db46a41d6488b28c1a1b098afddb211935",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 1152,
+        "discreteProduct": 1152,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 4,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "twolens-java",
+    "title": "두 렌즈에 의한 결상",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/twolens.html",
+    "lessonId": "5-2-4-2",
+    "sourceAliases": [],
+    "kind": "restore-twolens",
+    "model": "instrument",
+    "parameters": [],
+    "controls": [
+      {
+        "key": "front",
+        "label": "화살 앞 광선",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "back",
+        "label": "화살 뒤 광선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "images",
+        "label": "상 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "aux",
+        "label": "역추적선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "stray",
+        "label": "길잃은 광선 포함",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "rays",
+        "label": "광선 수",
+        "type": "select",
+        "options": [
+          3,
+          7,
+          13,
+          21,
+          31
+        ],
+        "value": 7
+      },
+      {
+        "key": "theme",
+        "label": "원본 배치",
+        "type": "select",
+        "options": [
+          [
+            0,
+            "초기설정"
+          ],
+          [
+            1,
+            "볼록/볼록"
+          ],
+          [
+            2,
+            "오목/볼록"
+          ],
+          [
+            3,
+            "볼록/오목"
+          ],
+          [
+            4,
+            "오목/오목"
+          ],
+          [
+            5,
+            "렌즈/거울"
+          ]
+        ],
+        "value": 0
+      }
+    ],
+    "temporal": true,
+    "variant": "twolens",
+    "instructions": "렌즈·거울의 중심과 초점 및 물체의 끝점을 드래그할 수 있습니다. 재생하면 물체 위의 광원 위치를 따라 상을 추적합니다. 축소·확대는 표시 범위만 바꿉니다.",
+    "equations": [
+      "\\tan\\theta\\prime=\\tan\\theta-\\frac{h}{f}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/twolens.html",
+      "archive": "twolens.class",
+      "archiveSHA256": "7b0d448cf42936d2471f7c70a48b2b39e3bfc6142a1c0d7976f09a88fa35c70d",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 960,
+        "discreteProduct": 960,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 4,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "threelens-java",
+    "title": "세 렌즈에 의한 결상",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/threelens.html",
+    "lessonId": "5-2-4-3",
+    "sourceAliases": [],
+    "kind": "restore-threelens",
+    "model": "instrument",
+    "parameters": [],
+    "controls": [
+      {
+        "key": "front",
+        "label": "화살 앞 광선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "back",
+        "label": "화살 뒤 광선",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "images",
+        "label": "상 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "aux",
+        "label": "역추적선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "stray",
+        "label": "길잃은 광선 포함",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "rays",
+        "label": "광선 수",
+        "type": "select",
+        "options": [
+          3,
+          7,
+          13,
+          21,
+          31
+        ],
+        "value": 7
+      },
+      {
+        "key": "theme",
+        "label": "원본 배치",
+        "type": "select",
+        "options": [
+          [
+            0,
+            "초기설정"
+          ],
+          [
+            1,
+            "평행광선 광원"
+          ],
+          [
+            2,
+            "빔확대 배치"
+          ],
+          [
+            3,
+            "빔축소 배치"
+          ],
+          [
+            4,
+            "빔확대 배치 2"
+          ],
+          [
+            5,
+            "빔축소 배치 2"
+          ]
+        ],
+        "value": 0
+      }
+    ],
+    "temporal": true,
+    "variant": "threelens",
+    "instructions": "렌즈·거울의 중심과 초점 및 물체의 끝점을 드래그할 수 있습니다. 재생하면 물체 위의 광원 위치를 따라 상을 추적합니다. 축소·확대는 표시 범위만 바꿉니다.",
+    "equations": [
+      "\\tan\\theta\\prime=\\tan\\theta-\\frac{h}{f}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/threelens.html",
+      "archive": "threelens.class",
+      "archiveSHA256": "39b7896d93884048f3f59de7e52205faa25ec0783081b4ef1dbf3b022d88e957",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 960,
+        "discreteProduct": 960,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 4,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "singlestop-java",
+    "title": "조리개의 원리를 알아보는 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/singlestop.html",
+    "lessonId": "5-2-9-4",
+    "sourceAliases": [],
+    "kind": "restore-singlestop",
+    "model": "instrument",
+    "parameters": [],
+    "controls": [
+      {
+        "key": "front",
+        "label": "화살 앞 광선",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "back",
+        "label": "화살 뒤 광선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "images",
+        "label": "상 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "aux",
+        "label": "역추적선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "stray",
+        "label": "길잃은 광선 포함",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "rays",
+        "label": "광선 수",
+        "type": "select",
+        "options": [
+          3,
+          7,
+          13,
+          21,
+          31,
+          61
+        ],
+        "value": 13
+      },
+      {
+        "key": "theme",
+        "label": "원본 배치",
+        "type": "select",
+        "options": [
+          [
+            0,
+            "초기설정"
+          ],
+          [
+            1,
+            "볼록렌즈"
+          ],
+          [
+            2,
+            "오목렌즈"
+          ],
+          [
+            3,
+            "볼록거울"
+          ],
+          [
+            4,
+            "오목거울"
+          ]
+        ],
+        "value": 0
+      }
+    ],
+    "temporal": true,
+    "variant": "singlestop",
+    "instructions": "렌즈·거울의 중심과 초점 및 물체의 끝점을 드래그할 수 있습니다. 재생하면 물체 위의 광원 위치를 따라 상을 추적합니다. 축소·확대는 표시 범위만 바꿉니다.",
+    "equations": [
+      "\\tan\\theta\\prime=\\tan\\theta-\\frac{h}{f}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/singlestop.html",
+      "archive": "singlestop.class",
+      "archiveSHA256": "4104210ccd4aff393a26534cbc9fd79d3770028ddd82212af30741a8b17d4e10",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 960,
+        "discreteProduct": 960,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 4,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "polarize3-java",
+    "title": "x 선편광의 전기장과 자기장이 진동하는 모양",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize3.html",
+    "lessonId": "5-3-1-2",
+    "sourceAliases": [],
+    "kind": "restore-polarize3",
+    "model": "polar",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 100,
+        "max": 300,
+        "step": 1,
+        "value": 200
+      }
+    ],
+    "controls": [],
+    "temporal": true,
+    "variant": "em",
+    "equations": [
+      "E_x=A_x\\sin(kz-\\omega t)",
+      "E_y=A_y\\sin(kz-\\omega t+\\delta)"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize3.html",
+      "archive": "Polarize3.class",
+      "archiveSHA256": "836fea733d3aec45c70a0380fd1a768e6780172878c6143ab3bb005ac846d55e",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Original random renewal is made reproducible through exposed representative parameters or seeded waves, preserving its scalar wave equations."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 1,
+        "discreteProduct": 1,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 0,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "polarize5-java",
+    "title": "일반적인 편광",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize5.html",
+    "lessonId": "5-3-1-3",
+    "sourceAliases": [],
+    "kind": "restore-polarize5",
+    "model": "polar",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 100,
+        "max": 300,
+        "step": 1,
+        "value": 200
+      }
+    ],
+    "controls": [],
+    "temporal": true,
+    "variant": "circular",
+    "equations": [
+      "E_x=A_x\\sin(kz-\\omega t)",
+      "E_y=A_y\\sin(kz-\\omega t+\\delta)"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize5.html",
+      "archive": "Polarize5.class",
+      "archiveSHA256": "bad25647ce07a6809d5a112f3653ef6e2cb9cc212a27916386a505e992210466",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Original random renewal is made reproducible through exposed representative parameters or seeded waves, preserving its scalar wave equations."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 1,
+        "discreteProduct": 1,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 0,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "polari7-java",
+    "title": "자연광의 편광상태",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Polari7.html",
+    "lessonId": "5-3-1-6",
+    "sourceAliases": [],
+    "kind": "restore-polari7",
+    "model": "polar",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "단색광 파장",
+        "min": 380,
+        "max": 710,
+        "step": 10,
+        "value": 500,
+        "unit": "nm"
+      }
+    ],
+    "controls": [
+      {
+        "key": "monochrome",
+        "label": "단색광",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": true,
+    "variant": "ensemble",
+    "equations": [
+      "E_x=A_x\\sin(kz-\\omega t)",
+      "E_y=A_y\\sin(kz-\\omega t+\\delta)"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Polari7.html",
+      "archive": "Polari7.class",
+      "archiveSHA256": "9a052af64b61703974c1b25496cd7280b560367ed5d8e41164ae640ef62eb7f8",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Original random renewal is made reproducible through exposed representative parameters or seeded waves, preserving its scalar wave equations."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 2,
+        "discreteProduct": 2,
+        "capped": false,
+        "rangeBoundaryCases": 4,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 1,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "polari8-java",
+    "title": "편광판의 작동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Polari8.html",
+    "lessonId": "5-3-2-4",
+    "sourceAliases": [],
+    "kind": "restore-polari8",
+    "model": "polar",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "단색광 파장",
+        "min": 380,
+        "max": 710,
+        "step": 10,
+        "value": 500,
+        "unit": "nm"
+      }
+    ],
+    "controls": [
+      {
+        "key": "monochrome",
+        "label": "단색광",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "analyzer",
+        "label": "검광판 추가",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": true,
+    "variant": "analyzer",
+    "equations": [
+      "E_x=A_x\\sin(kz-\\omega t)",
+      "E_y=A_y\\sin(kz-\\omega t+\\delta)"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Polari8.html",
+      "archive": "Polari8.class",
+      "archiveSHA256": "3c8041cb87340fef1a2b9a8b5696b0e623e1fd07945c542f8b915a6053b889e4",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Original random renewal is made reproducible through exposed representative parameters or seeded waves, preserving its scalar wave equations."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 4,
+        "discreteProduct": 4,
+        "capped": false,
+        "rangeBoundaryCases": 4,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 1,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "phasor2-java",
+    "title": "두 원운동의 합성운동과 위상자",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Phasor2.html",
+    "lessonId": "5-4-2-2",
+    "sourceAliases": [],
+    "kind": "restore-phasor2",
+    "model": "phasor",
+    "parameters": [
+      {
+        "key": "a1",
+        "label": "진폭 1",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "value": 90
+      },
+      {
+        "key": "a2",
+        "label": "진폭 2",
+        "min": 10,
+        "max": 110,
+        "step": 1,
+        "value": 50
+      },
+      {
+        "key": "phase1",
+        "label": "위상 1",
+        "min": 0,
+        "max": 359,
+        "step": 1,
+        "value": 0,
+        "unit": "°"
+      },
+      {
+        "key": "phase2",
+        "label": "위상 2",
+        "min": 0,
+        "max": 359,
+        "step": 1,
+        "value": 40,
+        "unit": "°"
+      },
+      {
+        "key": "omega1",
+        "label": "각속도 1",
+        "min": 0.1,
+        "max": 3,
+        "step": 0.1,
+        "value": 1
+      },
+      {
+        "key": "omega2",
+        "label": "각속도 2",
+        "min": 0.1,
+        "max": 3,
+        "step": 0.1,
+        "value": 1
+      }
+    ],
+    "controls": [
+      {
+        "key": "oscillation",
+        "label": "단진동",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "sum",
+        "label": "합성",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": true,
+    "equations": [
+      "\\mathbf A=\\mathbf A_1+\\mathbf A_2"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Phasor2.html",
+      "archive": "Phasor2.class",
+      "archiveSHA256": "c0708f6c1f3970f6e7099db6f170f1e846765b7b92bbcee1057a9ceb73e92343",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Original random renewal is made reproducible through exposed representative parameters or seeded waves, preserving its scalar wave equations."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 4,
+        "discreteProduct": 4,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 1,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "hologram1-java",
+    "title": "두 평면파의 간섭무늬",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Hologram1.html",
+    "lessonId": "5-6-7-2",
+    "sourceAliases": [],
+    "kind": "restore-hologram1",
+    "model": "hologram",
+    "parameters": [],
+    "controls": [],
+    "temporal": true,
+    "instructions": "재생하여 두 평면파의 간섭과 기록 필름의 노출을 관찰하세요. 초기화는 원본의 지우기 동작입니다. 원본 확률 감광을 평균 감광 확률로 표시합니다.",
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Hologram1.html",
+      "archive": "Hologram1.class",
+      "archiveSHA256": "3b02860b6c5523640afcf7791191be232397294459402f1530691ea5e9eca053",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Original Hologram1 bytecode fails Java 11 validation: invalid LocalVariableTable start_pc 259. Source reconstruction uses expected exposure probability instead of original stochastic pixels.",
+        "Original GUI required JVM -noverify for obsolete malformed debug bytecode. Native film uses deterministic expected exposure probability rather than the original ten random pixel samples per paint."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 1,
+        "discreteProduct": 1,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": true,
+        "buttonActions": 1,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed-noverify; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "wavefront2-java",
+    "title": "굴절의 법칙에 대한 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/wavefront2.html",
+    "lessonId": "5-1-1-3",
+    "sourceAliases": [],
+    "kind": "restore-wavefront2",
+    "model": "refraction",
+    "parameters": [
+      {
+        "key": "n1",
+        "label": "입사 매질 굴절률",
+        "min": 1,
+        "max": 3,
+        "step": 0.01,
+        "value": 1
+      },
+      {
+        "key": "n2",
+        "label": "투과 매질 굴절률",
+        "min": 1,
+        "max": 3,
+        "step": 0.01,
+        "value": 1.5
+      },
+      {
+        "key": "angle",
+        "label": "입사각",
+        "min": 0,
+        "max": 90,
+        "step": 1,
+        "value": 45,
+        "unit": "°"
+      },
+      {
+        "key": "wavelength",
+        "label": "진공 파장 / 원본 좌표",
+        "min": 15,
+        "max": 120,
+        "step": 1,
+        "value": 80
+      }
+    ],
+    "controls": [
+      {
+        "key": "reflected",
+        "label": "반사 파면 보기",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": true,
+    "equations": [
+      "n_1\\sin\\theta_1=n_2\\sin\\theta_2"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/wavefront2.html",
+      "archive": "wavefront2.class",
+      "archiveSHA256": "8fa58064934d6b3f1bc1c02377301d6e753ef46574299ee8ca244bbcccbab271",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 2,
+        "discreteProduct": 2,
+        "capped": false,
+        "rangeBoundaryCases": 12,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 2,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "rainbow-java",
+    "title": "무지개의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/rainbow.html",
+    "lessonId": "5-1-5-2",
+    "sourceAliases": [],
+    "kind": "restore-rainbow",
+    "model": "rainbow",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 400,
+        "max": 700,
+        "step": 1,
+        "value": 550,
+        "unit": "nm"
+      }
+    ],
+    "controls": [
+      {
+        "key": "secondary",
+        "label": "이차 무지개",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "real",
+        "label": "실제 물방울의 분산",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": true,
+    "equations": [
+      "n(\\lambda)=1.35-0.02\\frac{\\lambda-400}{300}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/rainbow.html",
+      "archive": "rainbow.class",
+      "archiveSHA256": "52fd4b1ac11796df68d57558e49a7aa0d5d1a2736f1fcb68eaaefbde506db47f",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Original random renewal is made reproducible through exposed representative parameters or seeded waves, preserving its scalar wave equations."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 4,
+        "discreteProduct": 4,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 3,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "optfiber-java",
+    "title": "광섬유의 원리에 대한 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/optfiber.html",
+    "lessonId": "5-2-7-2",
+    "sourceAliases": [],
+    "kind": "restore-optfiber",
+    "model": "fiber",
+    "parameters": [
+      {
+        "key": "space",
+        "label": "광섬유 굽힘 지름",
+        "min": 80,
+        "max": 330,
+        "step": 1,
+        "value": 250
+      },
+      {
+        "key": "thickness",
+        "label": "광섬유 반두께",
+        "min": 5,
+        "max": 40,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "key": "index",
+        "label": "중심 굴절률",
+        "min": 1.1,
+        "max": 3,
+        "step": 0.01,
+        "value": 2
+      },
+      {
+        "key": "sourceX",
+        "label": "광원 위치 x",
+        "min": 5,
+        "max": 200,
+        "step": 1,
+        "value": 30
+      },
+      {
+        "key": "sourceY",
+        "label": "광원 위치 y",
+        "min": 5,
+        "max": 410,
+        "step": 1,
+        "value": 50
+      }
+    ],
+    "controls": [
+      {
+        "key": "gradation",
+        "label": "굴절률 농도 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "profile",
+        "label": "굴절률 분포",
+        "type": "select",
+        "options": [
+          [
+            22,
+            "선형 굴절률"
+          ],
+          [
+            23,
+            "2차형 굴절률"
+          ],
+          [
+            24,
+            "불연속 굴절률"
+          ]
+        ],
+        "value": 22
+      }
+    ],
+    "temporal": true,
+    "instructions": "광원 점을 끌거나 광섬유의 굽힘·두께·굴절률을 조절하세요. 원본의 선형·2차형 굴절률과 불연속 경계의 전반사를 계산합니다.",
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/optfiber.html",
+      "archive": "optfiber.class",
+      "archiveSHA256": "b6b6b1c2d475cc00a4e0b8c35957947100005cb3dd60b0ef15664eb02488b09d",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 6,
+        "discreteProduct": 6,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 2,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "lens01m-java",
+    "title": "확대경의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/lens01m.html",
+    "lessonId": "5-2-11-2",
+    "sourceAliases": [],
+    "kind": "restore-lens01m",
+    "model": "lens",
+    "parameters": [
+      {
+        "key": "distance",
+        "label": "물체 거리",
+        "min": 5,
+        "max": 500,
+        "step": 1,
+        "value": 70
+      },
+      {
+        "key": "height",
+        "label": "물체 높이",
+        "min": -100,
+        "max": 100,
+        "step": 1,
+        "value": 20
+      },
+      {
+        "key": "focal",
+        "label": "초점거리 크기",
+        "min": 5,
+        "max": 250,
+        "step": 1,
+        "value": 100
+      },
+      {
+        "key": "lensX",
+        "label": "렌즈 위치",
+        "min": 100,
+        "max": 650,
+        "step": 1,
+        "value": 500
+      },
+      {
+        "key": "eye",
+        "label": "눈 위치",
+        "min": 505,
+        "max": 740,
+        "step": 1,
+        "value": 550
+      }
+    ],
+    "controls": [
+      {
+        "key": "concave",
+        "label": "오목렌즈",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": false,
+    "variant": "magnifier",
+    "instructions": "물체·초점·렌즈의 점을 끌어 결상 조건을 바꿀 수 있습니다. 초점 위의 물체는 무한대 상으로 표시합니다.",
+    "equations": [
+      "\\frac{1}{f}=\\frac{1}{s}+\\frac{1}{s\\prime}",
+      "M=-\\frac{s\\prime}{s}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/lens01m.html",
+      "archive": "lens01m.class",
+      "archiveSHA256": "7638bc150f72ce59e6d464d1dbc5d6687f49d511f3fa634687071758af7915fe",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Original object height was fixed at 20; the native height slider is an additional accessible control."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 1,
+        "discreteProduct": 1,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 0,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "microscope-java",
+    "title": "현미경의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/microscope.html",
+    "lessonId": "5-2-11-4",
+    "sourceAliases": [],
+    "kind": "restore-microscope",
+    "model": "instrument",
+    "parameters": [],
+    "controls": [
+      {
+        "key": "front",
+        "label": "화살 앞 광선",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "back",
+        "label": "화살 뒤 광선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "images",
+        "label": "상 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "aux",
+        "label": "역추적선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "stray",
+        "label": "길잃은 광선 포함",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "rays",
+        "label": "광선 수",
+        "type": "select",
+        "options": [
+          3,
+          7,
+          13,
+          21,
+          31
+        ],
+        "value": 7
+      },
+      {
+        "key": "objective",
+        "label": "대물 렌즈/거울",
+        "type": "select",
+        "options": [
+          80,
+          53.333333333333336,
+          40,
+          32,
+          22.857142857142858,
+          16,
+          3.2
+        ],
+        "value": 40
+      },
+      {
+        "key": "eyepiece",
+        "label": "접안 렌즈",
+        "type": "select",
+        "options": [
+          125,
+          83.33333333333333,
+          62.5,
+          50,
+          35.714285714285715,
+          25
+        ],
+        "value": 50
+      }
+    ],
+    "temporal": true,
+    "variant": "microscope",
+    "instructions": "렌즈·거울의 중심과 초점 및 물체의 끝점을 드래그할 수 있습니다. 재생하면 물체 위의 광원 위치를 따라 상을 추적합니다. 축소·확대는 표시 범위만 바꿉니다.",
+    "equations": [
+      "\\tan\\theta\\prime=\\tan\\theta-\\frac{h}{f}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/microscope.html",
+      "archive": "microscope.class",
+      "archiveSHA256": "495a7f5770ae71a16b4acb0870564f1912fd147c125c68f874dd45bed9cf74f0",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 6720,
+        "discreteProduct": 6720,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 4,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "kepler-java",
+    "title": "케플러식 굴절망원경의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/kepler.html",
+    "lessonId": "5-2-12-2",
+    "sourceAliases": [],
+    "kind": "restore-kepler",
+    "model": "instrument",
+    "parameters": [],
+    "controls": [
+      {
+        "key": "front",
+        "label": "화살 앞 광선",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "back",
+        "label": "화살 뒤 광선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "images",
+        "label": "상 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "aux",
+        "label": "역추적선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "stray",
+        "label": "길잃은 광선 포함",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "rays",
+        "label": "광선 수",
+        "type": "select",
+        "options": [
+          3,
+          7,
+          13,
+          21,
+          31
+        ],
+        "value": 7
+      },
+      {
+        "key": "objective",
+        "label": "대물 렌즈/거울",
+        "type": "select",
+        "options": [
+          200,
+          150,
+          100,
+          75,
+          50
+        ],
+        "value": 100
+      },
+      {
+        "key": "eyepiece",
+        "label": "접안 렌즈",
+        "type": "select",
+        "options": [
+          50,
+          25,
+          20,
+          10
+        ],
+        "value": 20
+      }
+    ],
+    "temporal": true,
+    "variant": "kepler",
+    "instructions": "렌즈·거울의 중심과 초점 및 물체의 끝점을 드래그할 수 있습니다. 재생하면 물체 위의 광원 위치를 따라 상을 추적합니다. 축소·확대는 표시 범위만 바꿉니다.",
+    "equations": [
+      "\\tan\\theta\\prime=\\tan\\theta-\\frac{h}{f}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/kepler.html",
+      "archive": "kepler.class",
+      "archiveSHA256": "da3b670f143ec2c65cba1773d897f82d5fca890b7fb43329f4472d26a0edecce",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 3200,
+        "discreteProduct": 3200,
+        "capped": false,
+        "rangeBoundaryCases": 8,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 4,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "newton-java",
+    "title": "뉴턴식 반사망원경의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/newton.html",
+    "lessonId": "5-2-12-4",
+    "sourceAliases": [],
+    "kind": "restore-newton",
+    "model": "instrument",
+    "parameters": [],
+    "controls": [
+      {
+        "key": "front",
+        "label": "화살 앞 광선",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "back",
+        "label": "화살 뒤 광선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "images",
+        "label": "상 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "aux",
+        "label": "역추적선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "stray",
+        "label": "길잃은 광선 포함",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "rays",
+        "label": "광선 수",
+        "type": "select",
+        "options": [
+          3,
+          7,
+          13,
+          21,
+          31
+        ],
+        "value": 7
+      },
+      {
+        "key": "objective",
+        "label": "대물 렌즈/거울",
+        "type": "select",
+        "options": [
+          500,
+          300,
+          200,
+          150,
+          100
+        ],
+        "value": 200
+      },
+      {
+        "key": "eyepiece",
+        "label": "접안 렌즈",
+        "type": "select",
+        "options": [
+          50,
+          25,
+          20,
+          10
+        ],
+        "value": 25
+      }
+    ],
+    "temporal": true,
+    "variant": "newton",
+    "instructions": "렌즈·거울의 중심과 초점 및 물체의 끝점을 드래그할 수 있습니다. 재생하면 물체 위의 광원 위치를 따라 상을 추적합니다. 축소·확대는 표시 범위만 바꿉니다.",
+    "equations": [
+      "\\tan\\theta\\prime=\\tan\\theta-\\frac{h}{f}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/newton.html",
+      "archive": "newton.class",
+      "archiveSHA256": "90653012078b7cea07b7238fe1597bef633e23baf88be7b2b20fdf17dbbe88b0",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 3200,
+        "discreteProduct": 3200,
+        "capped": false,
+        "rangeBoundaryCases": 8,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 4,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "binoculars-java",
+    "title": "쌍안경의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/binoculars.html",
+    "lessonId": "5-2-12-6",
+    "sourceAliases": [],
+    "kind": "restore-binoculars",
+    "model": "instrument",
+    "parameters": [],
+    "controls": [
+      {
+        "key": "front",
+        "label": "화살 앞 광선",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "back",
+        "label": "화살 뒤 광선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "images",
+        "label": "상 표시",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "aux",
+        "label": "역추적선",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "stray",
+        "label": "길잃은 광선 포함",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "rays",
+        "label": "광선 수",
+        "type": "select",
+        "options": [
+          3,
+          7,
+          13,
+          21,
+          31
+        ],
+        "value": 7
+      }
+    ],
+    "temporal": true,
+    "variant": "binoculars",
+    "instructions": "렌즈·거울의 중심과 초점 및 물체의 끝점을 드래그할 수 있습니다. 재생하면 물체 위의 광원 위치를 따라 상을 추적합니다. 축소·확대는 표시 범위만 바꿉니다.",
+    "equations": [
+      "\\tan\\theta\\prime=\\tan\\theta-\\frac{h}{f}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/binoculars.html",
+      "archive": "binoculars.class",
+      "archiveSHA256": "9970705e6c72acd37e05a5b71594765c72ce2eadc4fbedd2709bd2d8e26ee7d5",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 160,
+        "discreteProduct": 160,
+        "capped": false,
+        "rangeBoundaryCases": 0,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 4,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "thinfilmtheory-java",
+    "title": "박막에서의 빛의 간섭 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilmTheory.html",
+    "lessonId": "5-4-4-1",
+    "sourceAliases": [],
+    "kind": "restore-thinfilmtheory",
+    "model": "filmtheory",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 400,
+        "max": 700,
+        "step": 1,
+        "value": 600,
+        "unit": "nm"
+      },
+      {
+        "key": "thickness",
+        "label": "박막 두께 / 10 nm",
+        "min": 1,
+        "max": 150,
+        "step": 1,
+        "value": 100
+      }
+    ],
+    "controls": [
+      {
+        "key": "medium",
+        "label": "매질 배치",
+        "type": "select",
+        "options": [
+          [
+            0,
+            "공기 | n=1.3 | 공기"
+          ],
+          [
+            1,
+            "n=1.5 | 공기 | n=1.5"
+          ],
+          [
+            2,
+            "공기 | n=1.3 | n=1.5"
+          ],
+          [
+            3,
+            "공기 | n=1.7 | n=1.5"
+          ]
+        ],
+        "value": 0
+      },
+      {
+        "key": "second",
+        "label": "이차 반사파 보기",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "total",
+        "label": "합성 결과 보기",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "explanation",
+        "label": "설명 그림 보기",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": true,
+    "equations": [
+      "\\Delta\\phi=\\frac{4\\pi nd}{\\lambda}+\\phi_2-\\phi_1",
+      "I_{\\rm rel}=\\cos^2(\\Delta\\phi/2)"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilmTheory.html",
+      "archive": "ThinFilmTheory.class",
+      "archiveSHA256": "4f48e8beebf747e8f20118a6cd0f4173737bcc560530cc2efcbd73f63c819f86",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits.",
+        "Native optical phase uses continuous physical thickness; original GUI rounded the film boundary to an integer screen pixel, introducing a display-resolution dependent phase difference."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 32,
+        "discreteProduct": 32,
+        "capped": false,
+        "rangeBoundaryCases": 8,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 1,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "newtonring-java",
+    "title": "뉴턴 링의 간섭 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/NewtonRing.html",
+    "lessonId": "5-4-4-2",
+    "sourceAliases": [],
+    "kind": "restore-newtonring",
+    "model": "ring",
+    "parameters": [
+      {
+        "key": "curvature",
+        "label": "곡률 반경 / 10 m",
+        "min": 2,
+        "max": 50,
+        "step": 1,
+        "value": 10
+      },
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 400,
+        "max": 700,
+        "step": 1,
+        "value": 500,
+        "unit": "nm"
+      }
+    ],
+    "controls": [
+      {
+        "key": "white",
+        "label": "백색광",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "temporal": false,
+    "equations": [
+      "d(r)=R-\\sqrt{R^2-r^2}"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/NewtonRing.html",
+      "archive": "NewtonRing.class",
+      "archiveSHA256": "d6cc9559e103833b88978979b3ec47d4f5c5432b539bd905b2a2dcd4e48df941",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 2,
+        "discreteProduct": 2,
+        "capped": false,
+        "rangeBoundaryCases": 8,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 0,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
+  },
+  {
+    "id": "thinfilm1-java",
+    "title": "막의 간섭 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilm1.html",
+    "lessonId": "5-4-4-2",
+    "sourceAliases": [],
+    "kind": "restore-thinfilm1",
+    "model": "film",
+    "parameters": [
+      {
+        "key": "wavelength",
+        "label": "파장",
+        "min": 400,
+        "max": 700,
+        "step": 1,
+        "value": 500,
+        "unit": "nm"
+      },
+      {
+        "key": "curvature",
+        "label": "박막 두께 계수 / 10 nm",
+        "min": 0,
+        "max": 600,
+        "step": 1,
+        "value": 200
+      }
+    ],
+    "controls": [
+      {
+        "key": "finite",
+        "label": "유한 가간섭 길이",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "white",
+        "label": "백색광",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "shape",
+        "label": "박막 모양",
+        "type": "select",
+        "options": [
+          [
+            0,
+            "선형"
+          ],
+          [
+            1,
+            "2차 함수형"
+          ],
+          [
+            2,
+            "동일 두께"
+          ],
+          [
+            3,
+            "볼록 기둥형"
+          ]
+        ],
+        "value": 0
+      }
+    ],
+    "temporal": false,
+    "equations": [
+      "I_{\\rm rel}=\\cos^2\\!\\left(\\frac{2\\pi d}{\\lambda}+\\frac{\\pi}{2}\\right)"
+    ],
+    "provenance": {
+      "format": "Java applet",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilm1.html",
+      "archive": "ThinFilm1.class",
+      "archiveSHA256": "7c8e54b3ecc266eb33c2d823bae52978eb4c4003176f6219ca92473794739b18",
+      "inspection": "Original HTML code/codebase/params; recursively recovered .class dependencies; CFR 0.152 bytecode inspection",
+      "mathVerification": "Original JVM bytecode executed: shared ThinLens/rIndex/raytrace1/RGBcolor/SpecColor kernels compared in 49,600 scalar cases with 0 failures; model-specific formulas also source-inspected and tested. This is not a frame-by-frame equivalence proof for every model.",
+      "limitations": [
+        "Continuous pointer coordinates and random original configurations are sampled, not an exhaustive infinite-input equivalence proof.",
+        "Web ranges for originally pointer-only editing are explicit accessibility controls; not original numerical limits."
+      ],
+      "originalGUIVerification": {
+        "status": "passed",
+        "discreteCombinations": 16,
+        "discreteProduct": 16,
+        "capped": false,
+        "rangeBoundaryCases": 8,
+        "error": "",
+        "verificationDisabled": false,
+        "buttonActions": 1,
+        "scope": "Actual original AWT/Swing applet GUI; finite choice/checkbox Cartesian product up to65536; slider min/mid/max/default; button actions. Text field and pointer gesture combinations are NOT exhaustive. Source/JVM numerical comparisons are separate."
+      },
+      "browserVerification": {
+        "status": "passed",
+        "scenarios": 4,
+        "viewports": [
+          320,
+          1280
+        ],
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "scope": "All visible range min/max, each choice option, checkbox toggle, reset, CSV, actual geometry/time playback and pause. Choices are tested individually; browser Cartesian products and continuous pointer gestures are not exhaustive."
+      }
+    },
+    "verificationStatus": "source-ported; original-gui-passed; shared-kernel-jvm-compared; browser-qa-passed"
   }
 ]

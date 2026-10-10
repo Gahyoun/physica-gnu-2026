@@ -4,10 +4,10 @@ import fs from 'node:fs';
 import {collisionModels,collisionInitial,collisionStep,collisionTotals,sourceBessel,membraneState,membraneRoots,rippleState,dopplerState,standingWaveState,fieldInitial,fieldStep,fieldSummary} from '../assets/legacy-general-physics.mjs';
 const close=(a,b,tolerance=1e-9)=>assert.ok(Math.abs(a-b)<tolerance,`${a} != ${b}`);
 const specs=JSON.parse(fs.readFileSync(new URL('../src/legacy-general.json',import.meta.url)));
-test('general legacy catalog has 15 Java identities and two p5 identities with checked source hashes',()=>{
- assert.equal(specs.length,17);assert.equal(new Set(specs.map(s=>s.id )).size,17);
- assert.equal(specs.filter(s=>s.provenance.format==='java-applet').length,15);
- for(const s of specs){assert.match(s.provenance.sha256,/^[a-f0-9]{64}$/);assert.match(s.verificationStatus,/original-runtime-pending/);assert.match(s.lessonId,/^[1-4]-/);}
+test('general legacy catalog has 47 Java identities and two p5 identities with checked source hashes',()=>{
+ assert.equal(specs.length,49);assert.equal(new Set(specs.map(s=>s.id )).size,49);
+ assert.equal(specs.filter(s=>s.provenance.format==='java-applet').length,47);
+ for(const s of specs){assert.match(s.provenance.sha256,/^[a-f0-9]{64}$/);assert.match(s.verificationStatus,/original-(runtime|gui)-pending|original-gui-controls-(checked|partial)/);assert.match(s.lessonId,/^[1-7]-/);}
 });
 for(const model of Object.keys(collisionModels))test(`${model}: real movement, reproducible seed, finite state at parameter corners`,()=>{
  const p={speed:50,mass:1,y:70,angle:10},start=collisionInitial(model,p,15),copy=collisionInitial(model,p,15);assert.deepEqual(start,copy);

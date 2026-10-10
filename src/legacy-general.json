@@ -414,5 +414,1422 @@
       ]
     },
     "verificationStatus": "source-derived; numerical-invariants-tested; original-runtime-pending"
+  },
+  {
+    "id": "general-next-d2wave-ripple",
+    "title": "물결통 실험의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave_ripple.html",
+    "sourceAliases": [],
+    "lessonId": "2-2-5-2",
+    "kind": "sound-legacy",
+    "model": "d2wave_ripple",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "d2wave_ripple.class",
+      "sourceResource": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/applets/d2wave_ripple.class",
+      "sha256": "db336395f6d99e13d78b149d61a29aba033b6750d30f788c4fa870eabda02ccc",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slWavelength",
+          "minimum": "40",
+          "maximum": "210",
+          "value": "100"
+        },
+        {
+          "originalId": "slWavelengthDiff",
+          "minimum": "-10",
+          "maximum": "12",
+          "value": "0",
+          "visibleAmount": "2"
+        },
+        {
+          "originalId": "slDistance",
+          "minimum": "20",
+          "maximum": "210",
+          "value": "50"
+        },
+        {
+          "originalId": "slPhase",
+          "minimum": "-180",
+          "maximum": "200",
+          "value": "0",
+          "visibleAmount": "20"
+        }
+      ],
+      "originalCodebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/waveinterference/applets/",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 16,
+        "buttons": 0,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-waveform1-waveform1",
+    "title": "파형과 소리",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/waveform1.Waveform1.html",
+    "sourceAliases": [],
+    "lessonId": "2-3-1-3",
+    "kind": "sound-legacy",
+    "model": "waveform1.Waveform1",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "waveform1.Waveform1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/sound/waveform1/Waveform1.class",
+      "sha256": "603413124c98cdeb2f5d726182b46677ebbbc1db0db6a1c20d1324f65a00d80a",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "jslFrequency",
+          "maximum": "250",
+          "value": "70"
+        },
+        {
+          "originalId": "jslAmplitude",
+          "value": "70"
+        }
+      ],
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/sound",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 8,
+        "sliderBoundaryCases": 8,
+        "buttons": 2,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-fourier1",
+    "title": "푸리에 해석의 과정",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/fourier1.html",
+    "sourceAliases": [],
+    "lessonId": "2-2-3-4",
+    "kind": "sound-legacy",
+    "model": "fourier1",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "fourier1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/applets/fourier1/fourier1.class",
+      "sha256": "26bc3373534202719bd5b99defdfccad7c1fa17b7062ead743f2d18eee0cf903",
+      "retrieved": "2026-10-10",
+      "originalControls": [],
+      "originalCodebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/applets/fourier1/",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 0,
+        "buttons": 3,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-spec1",
+    "title": "FFT를 이용한 신호의 처리",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/spec1.html",
+    "sourceAliases": [],
+    "lessonId": "2-2-3-5",
+    "kind": "sound-legacy",
+    "model": "spec1",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "spec1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/applets/spec1/spec1.class",
+      "sha256": "e47b49e56479088d6f54a8471f0c0647d53dcf3abd90a1daf8322d744a1bfbfc",
+      "retrieved": "2026-10-10",
+      "originalControls": [],
+      "originalCodebase": "http://physica.gnu.ac.kr/phtml/wave/superpose/compositionfourier/applets/spec1/",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 30,
+        "sliderBoundaryCases": 12,
+        "buttons": 0,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-beat1-beat1",
+    "title": "음파의 맥놀이",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/beat1.Beat1.html",
+    "sourceAliases": [],
+    "lessonId": "2-2-1-3",
+    "kind": "sound-legacy",
+    "model": "beat1.Beat1",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "beat1.Beat1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/sound/beat1/Beat1.class",
+      "sha256": "a5d2cb4b9fe1dc851b2d1740c5a3fcb7c8d6ed0b438c1c558546d160e07dc3aa",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "jslAmp1",
+          "value": "70"
+        },
+        {
+          "originalId": "jslFre2",
+          "value": "70"
+        },
+        {
+          "originalId": "jslAmp2",
+          "value": "70"
+        }
+      ],
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/sound",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "partial",
+        "discreteCases": 4,
+        "sliderBoundaryCases": 12,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-partial"
+  },
+  {
+    "id": "general-next-inter1-inter1",
+    "title": "음파의 간섭 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/inter1.Inter1.html",
+    "sourceAliases": [],
+    "lessonId": "2-2-5-4",
+    "kind": "sound-legacy",
+    "model": "inter1.Inter1",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "inter1.Inter1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/sound/inter1/Inter1.class",
+      "sha256": "23b251abf8c268e4c9d1ac4e3af914f49a22106846c79fc0631854b312b42594",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "jslFrequency",
+          "maximum": "116",
+          "value": "48"
+        },
+        {
+          "originalId": "jslPhase",
+          "minimum": "-180",
+          "maximum": "180",
+          "value": "0"
+        },
+        {
+          "originalId": "jslDistance",
+          "minimum": "1",
+          "maximum": "40",
+          "value": "20"
+        },
+        {
+          "originalId": "jslAmplitude",
+          "value": "70"
+        }
+      ],
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/sound",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 16,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-doppler-doppler",
+    "title": "도플러 효과에 대한 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/doppler.Doppler.html",
+    "sourceAliases": [],
+    "lessonId": "2-3-2-3",
+    "kind": "sound-legacy",
+    "model": "doppler.Doppler",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "doppler.Doppler.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/sound/doppler.jar#doppler/Doppler.class",
+      "sha256": "3ee6e4cf4cfac480fbbbf5e2c87671ee03a8104fe6f7fc6652918d713a38f9b5",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "jslSourceSpeed",
+          "maximum": "40",
+          "value": "(int)(this.vs / 20.0)"
+        },
+        {
+          "originalId": "jslSpace",
+          "maximum": "150",
+          "value": "(int)(this.h / 2.0)"
+        },
+        {
+          "originalId": "jslReceiverSpeed",
+          "minimum": "-40",
+          "maximum": "40",
+          "value": "(int)(this.vr / 20.0)"
+        }
+      ],
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/sound",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "jarSource": "http://physica.gnu.ac.kr/applets/sound/doppler.jar",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 16,
+        "sliderBoundaryCases": 12,
+        "buttons": 2,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-synthe-guitarsyn",
+    "title": "기타의 소리",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/synthe.guitarSyn.html",
+    "sourceAliases": [],
+    "lessonId": "2-3-3-1",
+    "kind": "sound-legacy",
+    "model": "synthe.guitarSyn",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "synthe.guitarSyn.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/sound/synthe/guitarSyn.class",
+      "sha256": "d61d6c2f698e3603b461e1ff7d82b700179d8d206c6024547517f2e70d044587",
+      "retrieved": "2026-10-10",
+      "originalControls": [],
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/sound",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 0,
+        "buttons": 0,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-synthe-pianosyn",
+    "title": "피아노의 소리",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/synthe.pianoSyn.html",
+    "sourceAliases": [],
+    "lessonId": "2-3-3-1",
+    "kind": "sound-legacy",
+    "model": "synthe.pianoSyn",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "synthe.pianoSyn.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/sound/synthe/pianoSyn.class",
+      "sha256": "c05725b785ebd1822c84c9be7926012a583690dc7ba79b31c26eb5cc69e73199",
+      "retrieved": "2026-10-10",
+      "originalControls": [],
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/sound",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 0,
+        "buttons": 0,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-syndi1-syndi1",
+    "title": "신시사이저의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/syndi1.Syndi1.html",
+    "sourceAliases": [],
+    "lessonId": "2-3-3-4",
+    "kind": "sound-legacy",
+    "model": "syndi1.Syndi1",
+    "parameters": {},
+    "description": "원본 계산식과 조작을 HTML 인터랙션으로 복구했습니다. 장면·시간 신호·소리는 같은 입력을 사용합니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "syndi1.Syndi1.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/sound/syndi1/Syndi1.class",
+      "sha256": "c7097940dbcd3f5714f45f56c5a158c8318b207e97d4effb08997abe2a3b307e",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "jslFrequency",
+          "maximum": "500",
+          "value": "300"
+        },
+        {
+          "originalId": "jslAmplitude",
+          "value": "70"
+        }
+      ],
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/sound",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "partial",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 88,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-partial"
+  },
+  {
+    "id": "general-next-midisound-midi",
+    "title": "미디 연주기",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/midisound.midi.html",
+    "sourceAliases": [],
+    "lessonId": "2-3-3-4",
+    "kind": "sound-legacy",
+    "model": "midisound.midi",
+    "parameters": {},
+    "description": "MIDI 음표·채널·프로그램·Velocity·Bend를 조작하는 건반입니다. 브라우저의 합성 음원은 원본 Java 음원은행과 다릅니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "midisound.midi.class",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/sound/midisound/midi.class",
+      "sha256": "156330df395a3f680bb6a442c74867b59f1d0bd0cb2d008db839d1b297ef382c",
+      "retrieved": "2026-10-10",
+      "originalControls": [],
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/sound",
+      "methods": [
+        "source-specific waveform and control handlers"
+      ],
+      "limitation": "Java native MIDI soundbank unavailable; WebAudio harmonic timbre substitute; Pressure/Reverb/Solo/Mono need full audible behavior verification.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 256,
+        "sliderBoundaryCases": 16,
+        "buttons": 2,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-manycol3",
+    "title": "두 종류의 기체의 혼합",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol3.html",
+    "sourceAliases": [],
+    "lessonId": "3-1-3-5",
+    "kind": "thermo-legacy",
+    "model": "manyCol3",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol3.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas/manyCol3.class",
+      "sha256": "b8c4357706f2ab1961be78e47185103313e2eeaa0b96b13327f7105d1a747ee1",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "10",
+          "maximum": "55",
+          "value": "20",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-vander2",
+    "title": "확산의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander2.html",
+    "sourceAliases": [],
+    "lessonId": "3-1-4-1",
+    "kind": "thermo-legacy",
+    "model": "vander2",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander2.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander2.class",
+      "sha256": "ab636095a78763a721f2e8ede81357b9e1e5be3a397dce556b4f91548de41285",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "1",
+          "maximum": "31",
+          "value": "15",
+          "visibleAmount": "1"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 2,
+        "sliderBoundaryCases": 4,
+        "buttons": 2,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-manycol1",
+    "title": "브라운 운동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol1.html",
+    "sourceAliases": [],
+    "lessonId": "3-1-4-2",
+    "kind": "thermo-legacy",
+    "model": "manyCol1",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol1.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas/manyCol1.class",
+      "sha256": "6cbd71d1588ebd5603238944f2d4f8a377907c9da2963615f61a35a269d6f103",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "scrollbar1",
+          "minimum": "10",
+          "maximum": "50",
+          "value": "20",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 4,
+        "sliderBoundaryCases": 4,
+        "buttons": 2,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-vander1",
+    "title": "물질의 상태변화",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1.html",
+    "sourceAliases": [],
+    "lessonId": "3-2-2-1",
+    "kind": "thermo-legacy",
+    "model": "vander1",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander1.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander1.class",
+      "sha256": "3a3e3be374c1c6e1e8dba909c4646ecf9db247f8f7afc165ea99a8f9019e85fe",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "1",
+          "maximum": "31",
+          "value": "15",
+          "visibleAmount": "1"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-vander3",
+    "title": "혼합물질의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander3.html",
+    "sourceAliases": [],
+    "lessonId": "3-2-2-3",
+    "kind": "thermo-legacy",
+    "model": "vander3",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander3.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander3.class",
+      "sha256": "e08bfa47834420a58b95c4d84d72bf840276826476d66d4b9777f7184c4949e0",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "2",
+          "maximum": "42",
+          "value": "10",
+          "visibleAmount": "2"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-vander3-1",
+    "title": "세 가지 혼합물질의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander3_1.html",
+    "sourceAliases": [],
+    "lessonId": "3-2-2-3",
+    "kind": "thermo-legacy",
+    "model": "vander3_1",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander3_1.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander3_1.class",
+      "sha256": "256259e929e2fd99a96fc30a43e415f3fc4f7db3e1b337819c915d4d914722e7",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "2",
+          "maximum": "52",
+          "value": "30",
+          "visibleAmount": "2"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-vander1-2",
+    "title": "액화의 과정",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_2.html",
+    "sourceAliases": [],
+    "lessonId": "3-2-3-1",
+    "kind": "thermo-legacy",
+    "model": "vander1_2",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander1_2.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander1_2.class",
+      "sha256": "19424e4a3cc68de574a8c0029c89664627e1ae75a41df4387b32c0c670b3a54e",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "1",
+          "maximum": "42",
+          "value": "20",
+          "visibleAmount": "2"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-vander1-1",
+    "title": "액체 분자들이 받는 힘",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_1.html",
+    "sourceAliases": [],
+    "lessonId": "3-2-3-1",
+    "kind": "thermo-legacy",
+    "model": "vander1_1",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander1_1.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander1_1.class",
+      "sha256": "9bf6451ab5fc341181e37f55790247749a47e7738acc80bbc8379115e4feabca",
+      "retrieved": "2026-10-10",
+      "originalControls": [],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 4,
+        "sliderBoundaryCases": 0,
+        "buttons": 0,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-vander4",
+    "title": "표면장력",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander4.html",
+    "sourceAliases": [],
+    "lessonId": "3-2-3-2",
+    "kind": "thermo-legacy",
+    "model": "vander4",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander4.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander4.class",
+      "sha256": "c93dbfcdd16bd913edf6d85e0a9ae2afb70447a1c3dbb40b59ffc31f65835742",
+      "retrieved": "2026-10-10",
+      "originalControls": [],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 2,
+        "sliderBoundaryCases": 0,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-manycol5",
+    "title": "비가역반응 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol5.html",
+    "sourceAliases": [],
+    "lessonId": "3-3-2-1",
+    "kind": "thermo-legacy",
+    "model": "manyCol5",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol5.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas/manyCol5.class",
+      "sha256": "e50050ed49f6a72322052792501adc352167ff22dd91b90e9f926d5163099760",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "10",
+          "maximum": "55",
+          "value": "20",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 2,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-particleslit",
+    "title": "이중슬릿과 입자",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/particleSlit.html",
+    "sourceAliases": [],
+    "lessonId": "6-3-1-5",
+    "kind": "thermo-legacy",
+    "model": "particleSlit",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "particleSlit.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas/particleSlit.class",
+      "sha256": "c049914764815671c3b52c885bddc7fc821b5539f8b49798e570b26c05fcf138",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "20",
+          "maximum": "80",
+          "value": "50",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-vander1-4",
+    "title": "이온결합에 의한 고체의 형성",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_4.html",
+    "sourceAliases": [],
+    "lessonId": "6-8-1-1",
+    "kind": "thermo-legacy",
+    "model": "vander1_4",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander1_4.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander1_4.class",
+      "sha256": "caf4f716d5dc4b2ed9e059c8559247a220b00b828a409de825bd824358ecd761",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "1",
+          "maximum": "102",
+          "value": "50",
+          "visibleAmount": "2"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-vander1-3",
+    "title": "판데르발스 결합에 의한 고체의 형성",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_3.html",
+    "sourceAliases": [],
+    "lessonId": "6-8-1-1",
+    "kind": "thermo-legacy",
+    "model": "vander1_3",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander1_3.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander1_3.class",
+      "sha256": "41ca7964fd5ee35416a77c885d933721663de2aef044b32330cb043e5a96f0a2",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "1",
+          "maximum": "102",
+          "value": "50",
+          "visibleAmount": "2"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-kineticgas21-manycol24",
+    "title": "중성자의 감속",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol24.html",
+    "sourceAliases": [],
+    "lessonId": "7-4-2-2",
+    "kind": "thermo-legacy",
+    "model": "kineticgas21-manyCol24",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol24.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas21",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas21/manyCol24.class",
+      "sha256": "57a4a66d4980cabe10a7f8f54e4888d068d83073fd88cc1b725abbb2a268b461",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbMass",
+          "minimum": "1",
+          "maximum": "55",
+          "value": "(int)this.ballMass",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 2,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-kineticgas21-manycol23",
+    "title": "열중성자와 물질의 열평형",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol23.html",
+    "sourceAliases": [],
+    "lessonId": "7-4-2-2",
+    "kind": "thermo-legacy",
+    "model": "kineticgas21-manyCol23",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol23.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas21",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas21/manyCol23.class",
+      "sha256": "1471db3d4de4c10a18983e7d00482c34795c4ed93da188ed98592df38b4edff8",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "0",
+          "maximum": "55",
+          "value": "(int)(this.tc * 5.0)",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 0,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-manycol6",
+    "title": "보일-샤를의 법칙 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol6.html",
+    "sourceAliases": [],
+    "lessonId": "3-1-1-2",
+    "kind": "thermo-legacy",
+    "model": "manyCol6",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol6.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas/manyCol6.class",
+      "sha256": "f51f595a47da0b5fa8c81e26109a6ca62198fec44e0ade1e84bb3470f65b1e41",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "10",
+          "maximum": "55",
+          "value": "20",
+          "visibleAmount": "5"
+        },
+        {
+          "originalId": "slbPend",
+          "minimum": "10",
+          "maximum": "55",
+          "value": "20",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 8,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-kineticgas23-manycol23",
+    "title": "보일-샤를의 법칙 모의실험3",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol23.html",
+    "sourceAliases": [],
+    "lessonId": "3-1-1-4",
+    "kind": "thermo-legacy",
+    "model": "kineticgas23-manyCol23",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol23.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas23",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas23/manyCol23.class",
+      "sha256": "8dda2d950d434576914a2d0827e3cf887b61771d7d3c209b8d1a12fc35d4441b",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "0",
+          "maximum": "55",
+          "value": "(int)(this.tc * 5.0)",
+          "visibleAmount": "5"
+        },
+        {
+          "originalId": "slbPressure",
+          "minimum": "10",
+          "maximum": "55",
+          "value": "(int)this.appliedPressure",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "partial",
+        "discreteCases": 31,
+        "sliderBoundaryCases": 0,
+        "buttons": 0,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-partial"
+  },
+  {
+    "id": "general-next-manycol4",
+    "title": "대기의 법칙 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol4.html",
+    "sourceAliases": [],
+    "lessonId": "3-1-1-5",
+    "kind": "thermo-legacy",
+    "model": "manyCol4",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol4.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas/manyCol4.class",
+      "sha256": "7d0343c4dc09f7fb66eef7d636fe8f4c6d800456eaaecbc406e87b62dfbb45ef",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "10",
+          "maximum": "55",
+          "value": "20",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 4,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-manycol2",
+    "title": "기체분자운동 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol2.html",
+    "sourceAliases": [],
+    "lessonId": "3-1-2-2",
+    "kind": "thermo-legacy",
+    "model": "manyCol2",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol2.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas/manyCol2.class",
+      "sha256": "7954a9d4837d2403149208b8b37e4844b6cca09049943f944ab9d2ecc3eb39a6",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "10",
+          "maximum": "55",
+          "value": "20",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
+  },
+  {
+    "id": "general-next-kineticgas31-manycol31",
+    "title": "3차원 기체분자운동의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol31.html",
+    "sourceAliases": [],
+    "lessonId": "3-1-2-7",
+    "kind": "thermo-legacy",
+    "model": "kineticgas31-manyCol31",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "manyCol31.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas31",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas31/manyCol31.class",
+      "sha256": "ce2ae6fee320c7fa98d45ac9c894695bd30bc88a2ba978f7b54c00efa06f2386",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbTemp",
+          "minimum": "0",
+          "maximum": "55",
+          "value": "(int)(this.tc * 5.0)",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "partial",
+        "discreteCases": 60,
+        "sliderBoundaryCases": 4,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-partial"
+  },
+  {
+    "id": "general-next-vander",
+    "title": "실제 기체와 상태변화 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/vander.html",
+    "sourceAliases": [],
+    "lessonId": "3-2-2-2",
+    "kind": "thermo-legacy",
+    "model": "vander",
+    "parameters": {},
+    "description": "입자 운동과 그래프는 동일한 계산 상태를 사용합니다. 원본의 입자 힘·온도 조절·용기 조건을 HTML로 구성했습니다.",
+    "provenance": {
+      "format": "java-applet",
+      "originalClass": "vander.class",
+      "originalCodebase": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4",
+      "sourceResource": "http://physica.gnu.ac.kr/applets/thermodynamics/kineticgas4/vander.class",
+      "sha256": "fce0eb08772a74ceac82f35f66931ef53fcbc8e8bf2b363a59c7beb56e19d55d",
+      "retrieved": "2026-10-10",
+      "originalControls": [
+        {
+          "originalId": "slbUo",
+          "minimum": "0",
+          "maximum": "105",
+          "value": "40",
+          "visibleAmount": "5"
+        },
+        {
+          "originalId": "slbRo",
+          "minimum": "5",
+          "maximum": "46",
+          "value": "15",
+          "visibleAmount": "1"
+        },
+        {
+          "originalId": "slbTemp",
+          "minimum": "2",
+          "maximum": "51",
+          "value": "20",
+          "visibleAmount": "1"
+        },
+        {
+          "originalId": "slbPend",
+          "minimum": "0",
+          "maximum": "45",
+          "value": "20",
+          "visibleAmount": "5"
+        }
+      ],
+      "methods": [
+        "TinyParticle.getForce",
+        "VWpotential.getPotential",
+        "VWParticle.proceedOneStep",
+        "Particle.getCollisionTime",
+        "Particle3D.getCylinderCollisionTime"
+      ],
+      "limitation": "Source-derived force and collision ports. Original stochastic trajectories differ because initialization uses a fixed seed. Exact GUI sequence equivalence and original all-output comparison remains audited separately.",
+      "originalGUI": {
+        "report": "docs/legacy-original-gui-report.json",
+        "status": "passed",
+        "discreteCases": 1,
+        "sliderBoundaryCases": 16,
+        "buttons": 1,
+        "limits": "Pointer/text-field combinations and exact stochastic trajectories are not exhaustively compared."
+      }
+    },
+    "verificationStatus": "source-derived; numerical-and-browser-tested; original-gui-controls-checked"
   }
 ]

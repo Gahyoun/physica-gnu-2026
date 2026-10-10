@@ -1,9 +1,11 @@
+import {mountLegacyModern} from './legacy-quantum-modern.mjs';
 import {BOX_DEFAULTS,HARMONIC_DEFAULTS,buildBoxPacket,buildHarmonicPacket,boxSample,boxGrid,boxMarginals,boxIsosurface,isoFraction} from './legacy-quantum-physics.mjs';
 import {HYDROGEN_DEFAULTS,buildHydrogenPacket,hydrogenSample,hydrogenCartesianGrid,hydrogenMarginals} from './legacy-hydrogen-physics.mjs';
 import {KEPLER_DEFAULTS,buildKeplerPacket,keplerSample,keplerCartesianGrid,keplerMarginals} from './legacy-kepler-physics.mjs';
 import {patchMarkup,frameBatch,observePlayback} from './render-utils.mjs';
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;'),fmt=n=>Number(n.toFixed(5)).toString(),path=p=>p.map((v,i)=>(i?'L':'M')+v.map(n=>n.toFixed(2)).join(',')).join(' ');
 export function mountLegacyQuantum(host,spec){
+  if(!['box3d','harmonic3d','hydrogen3d','kepler3d'].includes(spec.kind))return mountLegacyModern(host,spec);
   if(host.dataset.legacyQuantumReady==='true')return;
   const harmonic=spec.kind==='harmonic3d',hydrogen=spec.kind==='hydrogen3d',kepler=spec.kind==='kepler3d',defaults=kepler?KEPLER_DEFAULTS:hydrogen?HYDROGEN_DEFAULTS:harmonic?HARMONIC_DEFAULTS:BOX_DEFAULTS,build=kepler?buildKeplerPacket:hydrogen?buildHydrogenPacket:harmonic?buildHarmonicPacket:buildBoxPacket;
   const timeUnit=kepler?'ps':hydrogen?'fs':'원본 눈금';let extent=kepler?0:hydrogen?50:1;

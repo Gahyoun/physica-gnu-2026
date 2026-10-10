@@ -1,3 +1,5 @@
+import {mountLegacyGeneralThermo} from './legacy-general-thermo.mjs';
+import {mountLegacyGeneralSound} from './legacy-general-sound.mjs';
 import {mountLegacyGeneralField} from './legacy-general-field.mjs';
 import {collisionModels,collisionInitial,collisionStep,collisionTotals,membraneState,membraneRoots,rippleState,dopplerState,standingWaveState} from './legacy-general-physics.mjs';
 import {observePlayback} from './render-utils.mjs';
@@ -20,6 +22,8 @@ function parameters(spec){const m=spec.model;
 }
 export function mountLegacyGeneral(host,spec){
  if(host.dataset.nativeReady==='true')return;
+ if(spec.kind==='thermo-legacy')return mountLegacyGeneralThermo(host,spec);
+ if(spec.kind==='sound-legacy')return mountLegacyGeneralSound(host,spec);
  if(spec.kind==='discrete-field')return mountLegacyGeneralField(host,spec);
  const fields=parameters(spec),isCollision=spec.kind==='collision',many=['Collision2DK','Collision2DKG'].includes(spec.model),hasGravity=isCollision&&['Collision2D1','Collision2D13','Collision2DK','Collision2DKG'].includes(spec.model);
  host.innerHTML=`<div class="native-controls">${fields.map(f=>`<label>${f.label}<output data-out="${f.key}">${f.value}</output><input data-param="${f.key}" type="range" min="${f.min}" max="${f.max}" value="${f.value}" step="${f.step}" aria-label="${f.label}"></label>`).join('')}</div><div class="native-toolbar"><button data-play class="primary" aria-pressed="false">재생</button><button data-reset>처음 상태</button><button data-new>다른 조건</button><button data-csv>그래프 데이터 CSV</button><label><input type="checkbox" data-slow> 느리게</label>${isCollision?`<label>벡터<select data-vector aria-label="표시할 벡터"><option value="velocity">속도</option><option value="momentum">운동량</option><option value="none">표시 안 함</option></select></label><label><input type="checkbox" data-total checked> 총운동량</label><label><input type="checkbox" data-values checked> 수치 표시</label><label><input type="checkbox" data-trail checked> 궤적</label>${hasGravity?'<label><input type="checkbox" data-gravity> 중력</label>':''}${!many?'<label><input type="checkbox" data-friction> 마찰</label>':''}`:spec.kind==='ripple'?'<label><input type="checkbox" data-wavefront checked> 파면</label><label><input type="checkbox" data-interference checked> 합성 결과</label>':''}${['d2wave3','string1'].includes(spec.model)?'<label><input type="checkbox" data-sound> 소리 듣기</label>':''}</div><div data-scene class="remaster-scene"></div><div class="native-toolbar"><label style="flex:1">계산 단계 n <output data-out="step">0</output><input type="range" data-step min="0" max="${spec.kind==='doppler'?170:500}" value="0" aria-label="계산 단계"></label><label><input data-repeat type="checkbox" checked> 반복</label></div><dl class="book-readouts" data-readouts></dl><div data-graph class="native-graphs"></div><p class="editor-note">${spec.description||'원본의 계산식과 조작 요소를 HTML로 다시 구성했습니다.'}</p>`;

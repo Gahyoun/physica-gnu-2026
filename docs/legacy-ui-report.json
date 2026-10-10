@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-10T02:28:35.242Z",
+  "date": "2026-10-10T03:16:46.176Z",
   "base": "http://127.0.0.1:8775/",
-  "programs": 37,
+  "programs": 117,
   "widths": [
     320,
     768,
@@ -12,26 +12,36 @@
   "dependencies": {
     "assets/style.css": "af924ddb59c88db4694fc11ee86c6f14ee30f3afab653fd40fe612a68c363566",
     "assets/legacy.css": "7b35049fbba2c33f3b75ca671c4935d9503c8943dbe95e728d616e113f7164e1",
-    "assets/legacy.mjs": "0405b25afd097477c9f60e339468b4eed5fcfadebc71b12ff43ab22605259e5c",
-    "assets/legacy-specs.json": "467e265da7fa6eaeb8e8351c3d23538fdc020c89c4b2a1cca27b2bc765ecd6e3",
+    "assets/legacy.mjs": "d7fd5a9d6d0ecfc16dce39df74a002b03c41612c1b6923461f562721baaf0c84",
+    "assets/legacy-specs.json": "be5d04fda6985662a39016611ca5a7c0913b9066e725bb4b18d7804ad82c2254",
     "assets/legacy-general-field.mjs": "5124e2372d640d079cc7c81d5e4ebb04f3acfc295960d1043cfe26ae5c8b2873",
     "assets/legacy-general-physics.mjs": "55a40c90ba6b400f86c01af220c71012abf9fa8a86fd1723b0566931fd679b6d",
-    "assets/legacy-general.mjs": "40b63db5433af622da4cab3cee03b7944c8320b1bbb3063962df183804aa23d9",
+    "assets/legacy-general-sound-physics.mjs": "91d651ef0284f11fd2788c72cdef281b100a89b60fc8992532a72a79b4c4fce0",
+    "assets/legacy-general-sound.mjs": "a5751536bcde07f8fe390783f5a80289a576a1c6a8d7726d6a0141570813729d",
+    "assets/legacy-general-thermo-physics.mjs": "79b9c76a2e792f8e4c5f9514d62d44a6d57b8008dc3073ed4fa14d39d917259e",
+    "assets/legacy-general-thermo.mjs": "483ebad03e41a1ccd0c740e48829160f3e149aaa976284c4099340f79d96d0ee",
+    "assets/legacy-general.mjs": "b244090d9e40bf2417b4c7e11c7b5c4d84523aa0858678e3b375a49510d77fb4",
     "assets/legacy-hydrogen-physics.mjs": "88009e54dc5e8409ad0fc89b6c8cba41f2b87b80f08d54661caeb8eba2b1071c",
     "assets/legacy-kepler-physics.mjs": "5370c930efcc99225008d09b44740fdf46e43b027e196952171f5286f427a357",
     "assets/legacy-nuclear-data.mjs": "bd9618323a02a01ef207a6ba8b56d9b6e4449d14f30196c19268ab6eab714f8d",
+    "assets/legacy-nuclear-motion-physics.mjs": "9dbf57e11161be365377891297a989f2c31cf9b1659beb7b0f2f59cebb8a2bce",
+    "assets/legacy-nuclear-motion.mjs": "e3df25817fdc09321101e6c92b8859a712566e8117271d567dcdcf4fb6f3900a",
     "assets/legacy-nuclear-physics.mjs": "326ccfafad9602a00f4fe3d2e3b985f31f61b86fa7f148fc97a75ccd4b496285",
-    "assets/legacy-nuclear.mjs": "b929aebc960912230d1a100d1c33d9b9ea8c1c9c483a3a8d5aa621bf315f3124",
+    "assets/legacy-nuclear.mjs": "38c2ea3a23ec12b6c5995896a7fd3d912e94e3cf31f887a412f5013d8352fef6",
     "assets/legacy-optics-physics.mjs": "7648f8a80470fc7069429d711fbb59a4f691b2bb075af8a6f2ae938f3735cd5a",
-    "assets/legacy-optics.mjs": "20650cae709616aa20276eb3661e14c8ddae90f9793926e108be1672082c7311",
+    "assets/legacy-optics-rest-physics.mjs": "d3570c7615a514e5b53a033c0183ae88eff4f6b9aa925bcfb3a5d5af5702879b",
+    "assets/legacy-optics-rest.mjs": "7eed4ee676ce36f2d09cf44dd2f890591a12b58d8174138c765b2049cc93aac6",
+    "assets/legacy-optics.mjs": "0f520b6c6c1df983e7abbc171f22ddc00b37ce0ac46e7e2b74f5b2e2472c8ae7",
+    "assets/legacy-quantum-modern-physics.mjs": "5b1c3a9461cbf9c7d3c962a43fe7627f7456605bb2a4bdf1859c90928e2781e6",
+    "assets/legacy-quantum-modern.mjs": "826a6f14fb6657276e37fc9cd9081b7fe07afd29191fd4662efba7b547873496",
     "assets/legacy-quantum-physics.mjs": "5628ac0cf1bd1543415173544a4bc045a691084e711a6c0ec71c229e1c402e85",
-    "assets/legacy-quantum.mjs": "f3dd3b1405b7fcd079a73877851ac6c4e4f99be0b874b2aba8fb48e09f6e6ee4"
+    "assets/legacy-quantum.mjs": "ed2ef96fc9fe9bdd97020136a5101d4acb6c82f01b588e47f4cceadf6876313d"
   },
   "results": [
     {
-      "id": "java-motion-hydrogen-3d",
+      "id": "java-motion-box-3d",
       "group": "quantum",
-      "inputs": 12,
+      "inputs": 16,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -52,7 +62,7 @@
       ]
     },
     {
-      "id": "java-motion-box-3d",
+      "id": "java-motion-hydrogen-3d",
       "group": "quantum",
       "inputs": 14,
       "options": 0,
@@ -77,8 +87,468 @@
     {
       "id": "java-motion-harmonic-3d",
       "group": "quantum",
-      "inputs": 14,
+      "inputs": 16,
       "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-blackbody0",
+      "group": "quantum",
+      "inputs": 3,
+      "options": 0,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-bohr",
+      "group": "quantum",
+      "inputs": 3,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-motion-hydrogen-kepler-3d",
+      "group": "quantum",
+      "inputs": 10,
+      "options": 4,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-blackbody1",
+      "group": "quantum",
+      "inputs": 8,
+      "options": 0,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-hydrogen-cloud",
+      "group": "quantum",
+      "inputs": 10,
+      "options": 0,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-stern-gerlach",
+      "group": "quantum",
+      "inputs": 1,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-relativity",
+      "group": "quantum",
+      "inputs": 3,
+      "options": 2,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-hydrogen-eigen",
+      "group": "quantum",
+      "inputs": 15,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-hydrogen-mix",
+      "group": "quantum",
+      "inputs": 24,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-resonant1",
+      "group": "quantum",
+      "inputs": 3,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-resonant2",
+      "group": "quantum",
+      "inputs": 5,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-free-particle",
+      "group": "quantum",
+      "inputs": 7,
+      "options": 6,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-free-box",
+      "group": "quantum",
+      "inputs": 9,
+      "options": 6,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-free-ring",
+      "group": "quantum",
+      "inputs": 8,
+      "options": 6,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-free-2d",
+      "group": "quantum",
+      "inputs": 13,
+      "options": 6,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-potential-1d",
+      "group": "quantum",
+      "inputs": 13,
+      "options": 17,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-harmonic-2d",
+      "group": "quantum",
+      "inputs": 16,
+      "options": 2,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-particle-di",
+      "group": "quantum",
+      "inputs": 18,
+      "options": 2,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-potential-2d",
+      "group": "quantum",
+      "inputs": 20,
+      "options": 22,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "java-particle-fd",
+      "group": "quantum",
+      "inputs": 19,
+      "options": 2,
       "playback": true,
       "csv": true,
       "passed": true,
@@ -144,11 +614,11 @@
       ]
     },
     {
-      "id": "java-motion-hydrogen-kepler-3d",
-      "group": "quantum",
-      "inputs": 8,
-      "options": 4,
-      "playback": true,
+      "id": "elliptic-gaussian-beam-3d",
+      "group": "optics",
+      "inputs": 14,
+      "options": 2,
+      "playback": false,
       "csv": true,
       "passed": true,
       "themes": [
@@ -171,29 +641,6 @@
       "group": "optics",
       "inputs": 6,
       "options": 3,
-      "playback": false,
-      "csv": true,
-      "passed": true,
-      "themes": [
-        {
-          "theme": "light",
-          "color": "rgb(34, 34, 34)",
-          "surface": "#fff",
-          "text": "#222"
-        },
-        {
-          "theme": "dark",
-          "color": "rgb(230, 237, 242)",
-          "surface": "#151c22",
-          "text": "#e6edf2"
-        }
-      ]
-    },
-    {
-      "id": "elliptic-gaussian-beam-3d",
-      "group": "optics",
-      "inputs": 14,
-      "options": 2,
       "playback": false,
       "csv": true,
       "passed": true,
@@ -305,32 +752,9 @@
       ]
     },
     {
-      "id": "cie-rgb-java",
-      "group": "optics",
-      "inputs": 2,
-      "options": 0,
-      "playback": false,
-      "csv": true,
-      "passed": true,
-      "themes": [
-        {
-          "theme": "light",
-          "color": "rgb(34, 34, 34)",
-          "surface": "#fff",
-          "text": "#222"
-        },
-        {
-          "theme": "dark",
-          "color": "rgb(230, 237, 242)",
-          "surface": "#151c22",
-          "text": "#e6edf2"
-        }
-      ]
-    },
-    {
       "id": "gaussian-beam-propagation-java",
       "group": "optics",
-      "inputs": 4,
+      "inputs": 5,
       "options": 7,
       "playback": true,
       "csv": true,
@@ -374,10 +798,56 @@
       ]
     },
     {
+      "id": "cie-rgb-java",
+      "group": "optics",
+      "inputs": 2,
+      "options": 0,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
       "id": "cie-xyz-java",
       "group": "optics",
       "inputs": 2,
       "options": 0,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "hermite-transverse-java",
+      "group": "optics",
+      "inputs": 6,
+      "options": 3,
       "playback": false,
       "csv": true,
       "passed": true,
@@ -420,10 +890,562 @@
       ]
     },
     {
-      "id": "hermite-transverse-java",
+      "id": "lens01-java",
+      "group": "optics",
+      "inputs": 9,
+      "options": 0,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "huyray1-java",
+      "group": "optics",
+      "inputs": 7,
+      "options": 10,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "chromadiagram-java",
+      "group": "optics",
+      "inputs": 12,
+      "options": 0,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "lens02-java",
+      "group": "optics",
+      "inputs": 9,
+      "options": 4,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "single-java",
       "group": "optics",
       "inputs": 6,
+      "options": 12,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "twolens-java",
+      "group": "optics",
+      "inputs": 6,
+      "options": 11,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "threelens-java",
+      "group": "optics",
+      "inputs": 6,
+      "options": 11,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "polarize3-java",
+      "group": "optics",
+      "inputs": 3,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "singlestop-java",
+      "group": "optics",
+      "inputs": 6,
+      "options": 11,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "polarize5-java",
+      "group": "optics",
+      "inputs": 3,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "polari7-java",
+      "group": "optics",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "polari8-java",
+      "group": "optics",
+      "inputs": 5,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "hologram1-java",
+      "group": "optics",
+      "inputs": 1,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "phasor2-java",
+      "group": "optics",
+      "inputs": 15,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "wavefront2-java",
+      "group": "optics",
+      "inputs": 10,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "rainbow-java",
+      "group": "optics",
+      "inputs": 5,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "lens01m-java",
+      "group": "optics",
+      "inputs": 11,
+      "options": 0,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "optfiber-java",
+      "group": "optics",
+      "inputs": 12,
       "options": 3,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "microscope-java",
+      "group": "optics",
+      "inputs": 6,
+      "options": 18,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "kepler-java",
+      "group": "optics",
+      "inputs": 6,
+      "options": 14,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "newton-java",
+      "group": "optics",
+      "inputs": 6,
+      "options": 14,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "binoculars-java",
+      "group": "optics",
+      "inputs": 6,
+      "options": 5,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "newtonring-java",
+      "group": "optics",
+      "inputs": 5,
+      "options": 0,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "thinfilmtheory-java",
+      "group": "optics",
+      "inputs": 8,
+      "options": 4,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "thinfilm1-java",
+      "group": "optics",
+      "inputs": 6,
+      "options": 4,
       "playback": false,
       "csv": true,
       "passed": true,
@@ -445,7 +1467,7 @@
     {
       "id": "general-collision2d121",
       "group": "general",
-      "inputs": 4,
+      "inputs": 10,
       "options": 3,
       "playback": true,
       "csv": true,
@@ -468,7 +1490,7 @@
     {
       "id": "general-collision2d11",
       "group": "general",
-      "inputs": 6,
+      "inputs": 12,
       "options": 3,
       "playback": true,
       "csv": true,
@@ -491,7 +1513,7 @@
     {
       "id": "general-collision2d12",
       "group": "general",
-      "inputs": 6,
+      "inputs": 12,
       "options": 3,
       "playback": true,
       "csv": true,
@@ -514,7 +1536,7 @@
     {
       "id": "general-collision2d1",
       "group": "general",
-      "inputs": 8,
+      "inputs": 15,
       "options": 3,
       "playback": true,
       "csv": true,
@@ -537,7 +1559,7 @@
     {
       "id": "general-collision2d111",
       "group": "general",
-      "inputs": 6,
+      "inputs": 12,
       "options": 3,
       "playback": true,
       "csv": true,
@@ -560,7 +1582,7 @@
     {
       "id": "general-collision2d13",
       "group": "general",
-      "inputs": 8,
+      "inputs": 15,
       "options": 3,
       "playback": true,
       "csv": true,
@@ -583,7 +1605,7 @@
     {
       "id": "general-collision2dk",
       "group": "general",
-      "inputs": 4,
+      "inputs": 10,
       "options": 3,
       "playback": true,
       "csv": true,
@@ -606,7 +1628,7 @@
     {
       "id": "general-collision2dkg",
       "group": "general",
-      "inputs": 4,
+      "inputs": 10,
       "options": 3,
       "playback": true,
       "csv": true,
@@ -629,7 +1651,7 @@
     {
       "id": "general-d2wave3p",
       "group": "general",
-      "inputs": 6,
+      "inputs": 8,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -652,7 +1674,7 @@
     {
       "id": "general-d2wave3",
       "group": "general",
-      "inputs": 6,
+      "inputs": 9,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -675,7 +1697,7 @@
     {
       "id": "general-ripple1",
       "group": "general",
-      "inputs": 6,
+      "inputs": 10,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -698,7 +1720,7 @@
     {
       "id": "general-doppler1",
       "group": "general",
-      "inputs": 6,
+      "inputs": 8,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -721,7 +1743,7 @@
     {
       "id": "general-doppler2",
       "group": "general",
-      "inputs": 6,
+      "inputs": 8,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -744,7 +1766,7 @@
     {
       "id": "general-string1",
       "group": "general",
-      "inputs": 6,
+      "inputs": 9,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -767,7 +1789,7 @@
     {
       "id": "general-resonan1",
       "group": "general",
-      "inputs": 4,
+      "inputs": 6,
       "options": 0,
       "playback": true,
       "csv": true,
@@ -790,7 +1812,7 @@
     {
       "id": "general-stringmotion",
       "group": "general",
-      "inputs": 6,
+      "inputs": 9,
       "options": 5,
       "playback": true,
       "csv": true,
@@ -813,8 +1835,790 @@
     {
       "id": "general-membranemotion",
       "group": "general",
-      "inputs": 4,
+      "inputs": 8,
       "options": 9,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-d2wave-ripple",
+      "group": "general",
+      "inputs": 13,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-fourier1",
+      "group": "general",
+      "inputs": 4,
+      "options": 3,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-waveform1-waveform1",
+      "group": "general",
+      "inputs": 9,
+      "options": 8,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-spec1",
+      "group": "general",
+      "inputs": 6,
+      "options": 11,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-beat1-beat1",
+      "group": "general",
+      "inputs": 13,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-inter1-inter1",
+      "group": "general",
+      "inputs": 15,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-doppler-doppler",
+      "group": "general",
+      "inputs": 12,
+      "options": 8,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-synthe-guitarsyn",
+      "group": "general",
+      "inputs": 7,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-synthe-pianosyn",
+      "group": "general",
+      "inputs": 7,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-manycol3",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-syndi1-syndi1",
+      "group": "general",
+      "inputs": 49,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander2",
+      "group": "general",
+      "inputs": 5,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander1",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-manycol1",
+      "group": "general",
+      "inputs": 6,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander3",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander3-1",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-midisound-midi",
+      "group": "general",
+      "inputs": 20,
+      "options": 144,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander1-2",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander1-1",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander4",
+      "group": "general",
+      "inputs": 3,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-manycol5",
+      "group": "general",
+      "inputs": 5,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-particleslit",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander1-4",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander1-3",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-kineticgas21-manycol24",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-kineticgas21-manycol23",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-manycol6",
+      "group": "general",
+      "inputs": 6,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-kineticgas23-manycol23",
+      "group": "general",
+      "inputs": 6,
+      "options": 18,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-manycol4",
+      "group": "general",
+      "inputs": 6,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-manycol2",
+      "group": "general",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-kineticgas31-manycol31",
+      "group": "general",
+      "inputs": 4,
+      "options": 16,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "general-next-vander",
+      "group": "general",
+      "inputs": 10,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "decay-series-table",
+      "group": "nuclear",
+      "inputs": 0,
+      "options": 64,
+      "playback": false,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "rutherford-scattering",
+      "group": "nuclear",
+      "inputs": 4,
+      "options": 0,
       "playback": true,
       "csv": true,
       "passed": true,
@@ -857,11 +2661,57 @@
       ]
     },
     {
-      "id": "decay-series-table",
+      "id": "rutherford-circular",
       "group": "nuclear",
-      "inputs": 0,
-      "options": 64,
-      "playback": false,
+      "inputs": 3,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "nuclear-fission",
+      "group": "nuclear",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
+      "csv": true,
+      "passed": true,
+      "themes": [
+        {
+          "theme": "light",
+          "color": "rgb(34, 34, 34)",
+          "surface": "#fff",
+          "text": "#222"
+        },
+        {
+          "theme": "dark",
+          "color": "rgb(230, 237, 242)",
+          "surface": "#151c22",
+          "text": "#e6edf2"
+        }
+      ]
+    },
+    {
+      "id": "rutherford-electrons",
+      "group": "nuclear",
+      "inputs": 4,
+      "options": 0,
+      "playback": true,
       "csv": true,
       "passed": true,
       "themes": [

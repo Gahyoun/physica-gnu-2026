@@ -1,0 +1,41 @@
+{
+  "scope": "Representative actual Chromium pointer drags, Bohr click addition, and visual input changes preserving time; not exhaustive pointer paths.",
+  "results": [
+    {
+      "id": "java-bohr",
+      "changed": true,
+      "addedElectron": true,
+      "visualPreservesTime": true
+    },
+    {
+      "id": "java-hydrogen-eigen",
+      "changed": true,
+      "addedElectron": false,
+      "visualPreservesTime": true
+    },
+    {
+      "id": "java-hydrogen-mix",
+      "changed": true,
+      "addedElectron": false,
+      "visualPreservesTime": true
+    },
+    {
+      "id": "java-harmonic-2d",
+      "changed": true,
+      "addedElectron": false,
+      "visualPreservesTime": true
+    },
+    {
+      "id": "java-particle-fd",
+      "changed": true,
+      "addedElectron": false,
+      "visualPreservesTime": true
+    },
+    {
+      "id": "java-stern-gerlach",
+      "changed": true,
+      "addedElectron": false,
+      "visualPreservesTime": true
+    }
+  ]
+}

@@ -70,5 +70,118 @@
       }
     },
     "verificationStatus": "source-derived; numerical class probe passed; original Swing GUI not exhaustively compared"
+  },
+  {
+    "id": "rutherford-scattering",
+    "title": "알파입자의 산란",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford0.html",
+    "lessonId": "6-2-3-2",
+    "sourceAliases": [],
+    "kind": "rutherfordScatter",
+    "parameters": [],
+    "provenance": {
+      "format": "Java",
+      "classes": [
+        "rutherford0"
+      ],
+      "sha256": {
+        "fission1.class": "0cce2765134d2d466e5c1ac09fed0a7f47c2bb35916b0d7acc9cbedd49a12dcd",
+        "fission1$MyCanvas.class": "00165252ef2d1a73f9c4a21a0df82b4773d476e35c430a3526d80d07c26aa50f",
+        "fission1$1.class": "476ee3aafe5336ea84d62a7de408dc6f89af7797cf5f14e3d4d1290f68ee070a",
+        "rutherford1$1.class": "d849a4308ecde1612ab6f140561d98dd3c66e4110fe05227145d5ae690cde864",
+        "rutherford0$1.class": "93c5f0069635685760f8dd2d9b6b93c4d586128275846647cf995f7cbca44401",
+        "fission1$2.class": "d658ab4308e3f67e195c08b23ba05c879138769c173bf4f5060ef94ea6b1efea",
+        "rutherford1.class": "74940ed8c1ef05bb85925f03a37c48122a1890d65eda458f489da7d54560150e",
+        "rutherford1$MyCanvas.class": "6e5a7cad1c8ed4527dcf527afbffd91b55172241559ba91449f5940e8e42d52a",
+        "rutherford0$MyCanvas.class": "3f4119edc9aec6301b88009ca5750a60e1f1914f3656bfdc41e63bf714184683",
+        "rutherford0.class": "1de2c1f8695fbeb81f5ad73f9e556490102b5d29550e20b7639d2e19e370b09c",
+        "net/multiedu/nuclear/ParticleInNuclear.class": "6715642194d93427fca71871a0ccded8fd1f644d5f1712580bb9fa00ebd8d7bc",
+        "net/multiedu/nuclear/Particle.class": "37bd544cb3af89226a6c21b496c46a17b8a40f3a5ece03d01afb2e5f96e93d1a",
+        "net/multiedu/nuclear/Nuclear2.class": "0dd36436e6bbeaf95efbc50f2492eb0b75282c14174709f541d05c79fbed20a4"
+      }
+    },
+    "verificationStatus": "source-derived; controlled Java numerical probe; original GUI option coverage recorded separately"
+  },
+  {
+    "id": "rutherford-circular",
+    "title": "러더퍼드 원자 · 원형 전자 궤도",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford1.html",
+    "lessonId": "6-2-3-3",
+    "sourceAliases": [],
+    "kind": "rutherfordOrbits",
+    "parameters": [],
+    "provenance": {
+      "format": "Java",
+      "classes": [
+        "rutherford1"
+      ],
+      "sha256": {
+        "Electron.class": "79ebe32449c2a49b3bac8a8cdd1f52ff1c4c37595d77c5255035abb98f5fe9a1",
+        "rutherford1.class": "f8e23d2c866113a920ac0a6019f0ec78ad36e6be7f1acf552156e9aba6599bfb"
+      }
+    },
+    "verificationStatus": "source-derived; controlled Java numerical probe; original GUI option coverage recorded separately"
+  },
+  {
+    "id": "rutherford-electrons",
+    "title": "러더퍼드의 원자 · 전자 운동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford2.html",
+    "lessonId": "6-2-3-3",
+    "sourceAliases": [],
+    "kind": "rutherfordCapture",
+    "parameters": [],
+    "provenance": {
+      "format": "Java",
+      "classes": [
+        "rutherford1"
+      ],
+      "sha256": {
+        "fission1.class": "0cce2765134d2d466e5c1ac09fed0a7f47c2bb35916b0d7acc9cbedd49a12dcd",
+        "fission1$MyCanvas.class": "00165252ef2d1a73f9c4a21a0df82b4773d476e35c430a3526d80d07c26aa50f",
+        "fission1$1.class": "476ee3aafe5336ea84d62a7de408dc6f89af7797cf5f14e3d4d1290f68ee070a",
+        "rutherford1$1.class": "d849a4308ecde1612ab6f140561d98dd3c66e4110fe05227145d5ae690cde864",
+        "rutherford0$1.class": "93c5f0069635685760f8dd2d9b6b93c4d586128275846647cf995f7cbca44401",
+        "fission1$2.class": "d658ab4308e3f67e195c08b23ba05c879138769c173bf4f5060ef94ea6b1efea",
+        "rutherford1.class": "74940ed8c1ef05bb85925f03a37c48122a1890d65eda458f489da7d54560150e",
+        "rutherford1$MyCanvas.class": "6e5a7cad1c8ed4527dcf527afbffd91b55172241559ba91449f5940e8e42d52a",
+        "rutherford0$MyCanvas.class": "3f4119edc9aec6301b88009ca5750a60e1f1914f3656bfdc41e63bf714184683",
+        "rutherford0.class": "1de2c1f8695fbeb81f5ad73f9e556490102b5d29550e20b7639d2e19e370b09c",
+        "net/multiedu/nuclear/ParticleInNuclear.class": "6715642194d93427fca71871a0ccded8fd1f644d5f1712580bb9fa00ebd8d7bc",
+        "net/multiedu/nuclear/Particle.class": "37bd544cb3af89226a6c21b496c46a17b8a40f3a5ece03d01afb2e5f96e93d1a",
+        "net/multiedu/nuclear/Nuclear2.class": "0dd36436e6bbeaf95efbc50f2492eb0b75282c14174709f541d05c79fbed20a4"
+      }
+    },
+    "verificationStatus": "source-derived; controlled Java numerical probe; original GUI option coverage recorded separately"
+  },
+  {
+    "id": "nuclear-fission",
+    "title": "중성자 입사와 핵분열",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/ani/fission1.html",
+    "lessonId": "7-3-2-2",
+    "sourceAliases": [],
+    "kind": "fission",
+    "parameters": [],
+    "provenance": {
+      "format": "Java",
+      "classes": [
+        "fission1"
+      ],
+      "sha256": {
+        "fission1.class": "0cce2765134d2d466e5c1ac09fed0a7f47c2bb35916b0d7acc9cbedd49a12dcd",
+        "fission1$MyCanvas.class": "00165252ef2d1a73f9c4a21a0df82b4773d476e35c430a3526d80d07c26aa50f",
+        "fission1$1.class": "476ee3aafe5336ea84d62a7de408dc6f89af7797cf5f14e3d4d1290f68ee070a",
+        "rutherford1$1.class": "d849a4308ecde1612ab6f140561d98dd3c66e4110fe05227145d5ae690cde864",
+        "rutherford0$1.class": "93c5f0069635685760f8dd2d9b6b93c4d586128275846647cf995f7cbca44401",
+        "fission1$2.class": "d658ab4308e3f67e195c08b23ba05c879138769c173bf4f5060ef94ea6b1efea",
+        "rutherford1.class": "74940ed8c1ef05bb85925f03a37c48122a1890d65eda458f489da7d54560150e",
+        "rutherford1$MyCanvas.class": "6e5a7cad1c8ed4527dcf527afbffd91b55172241559ba91449f5940e8e42d52a",
+        "rutherford0$MyCanvas.class": "3f4119edc9aec6301b88009ca5750a60e1f1914f3656bfdc41e63bf714184683",
+        "rutherford0.class": "1de2c1f8695fbeb81f5ad73f9e556490102b5d29550e20b7639d2e19e370b09c",
+        "net/multiedu/nuclear/ParticleInNuclear.class": "6715642194d93427fca71871a0ccded8fd1f644d5f1712580bb9fa00ebd8d7bc",
+        "net/multiedu/nuclear/Particle.class": "37bd544cb3af89226a6c21b496c46a17b8a40f3a5ece03d01afb2e5f96e93d1a",
+        "net/multiedu/nuclear/Nuclear2.class": "0dd36436e6bbeaf95efbc50f2492eb0b75282c14174709f541d05c79fbed20a4"
+      }
+    },
+    "verificationStatus": "source-derived; controlled Java numerical probe; original GUI option coverage recorded separately"
   }
 ]

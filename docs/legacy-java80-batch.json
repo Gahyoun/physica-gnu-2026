@@ -1,0 +1,416 @@
+{
+  "date": "2026-10-10",
+  "addedJavaExecutables": 80,
+  "programs": [
+    {
+      "id": "java-bohr",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/bohr1.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-blackbody0",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/balckbody.Blackbody0.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-blackbody1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/balckbody.Blackbody1.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-hydrogen-cloud",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/hydrogen.hydrogenCloud.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-hydrogen-eigen",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/HydrogenApp.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-hydrogen-mix",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/HydrogenMixApp.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-stern-gerlach",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/sterngerlach.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-relativity",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/reldistortion.zView.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-resonant1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/OneDim.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-resonant2",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/TwoDim.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-free-particle",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeParticle.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-free-box",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeBox.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-free-ring",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeRing.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-free-2d",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimBox.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-potential-1d",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.oneDimQuantum.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-harmonic-2d",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimHarmonicOsc.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-potential-2d",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimQuantum.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-particle-di",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoParticleDI.html",
+      "group": "quantum"
+    },
+    {
+      "id": "java-particle-fd",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoParticleFD.html",
+      "group": "quantum"
+    },
+    {
+      "id": "huyray1-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/huyray1.html",
+      "group": "optics"
+    },
+    {
+      "id": "chromadiagram-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/ChromaDiagram.html",
+      "group": "optics"
+    },
+    {
+      "id": "lens01-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens01.html",
+      "group": "optics"
+    },
+    {
+      "id": "lens02-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/lens02.html",
+      "group": "optics"
+    },
+    {
+      "id": "single-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/single.html",
+      "group": "optics"
+    },
+    {
+      "id": "twolens-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/twolens.html",
+      "group": "optics"
+    },
+    {
+      "id": "threelens-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/threelens.html",
+      "group": "optics"
+    },
+    {
+      "id": "singlestop-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/singlestop.html",
+      "group": "optics"
+    },
+    {
+      "id": "polarize3-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize3.html",
+      "group": "optics"
+    },
+    {
+      "id": "polarize5-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/Polarize5.html",
+      "group": "optics"
+    },
+    {
+      "id": "polari7-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Polari7.html",
+      "group": "optics"
+    },
+    {
+      "id": "polari8-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Polari8.html",
+      "group": "optics"
+    },
+    {
+      "id": "phasor2-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Phasor2.html",
+      "group": "optics"
+    },
+    {
+      "id": "hologram1-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/Hologram1.html",
+      "group": "optics"
+    },
+    {
+      "id": "wavefront2-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/wavefront2.html",
+      "group": "optics"
+    },
+    {
+      "id": "rainbow-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/rainbow.html",
+      "group": "optics"
+    },
+    {
+      "id": "optfiber-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/optfiber.html",
+      "group": "optics"
+    },
+    {
+      "id": "lens01m-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/lens01m.html",
+      "group": "optics"
+    },
+    {
+      "id": "microscope-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/microscope.html",
+      "group": "optics"
+    },
+    {
+      "id": "kepler-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/kepler.html",
+      "group": "optics"
+    },
+    {
+      "id": "newton-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/newton.html",
+      "group": "optics"
+    },
+    {
+      "id": "binoculars-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/binoculars.html",
+      "group": "optics"
+    },
+    {
+      "id": "thinfilmtheory-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilmTheory.html",
+      "group": "optics"
+    },
+    {
+      "id": "newtonring-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/NewtonRing.html",
+      "group": "optics"
+    },
+    {
+      "id": "thinfilm1-java",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/ThinFilm1.html",
+      "group": "optics"
+    },
+    {
+      "id": "general-next-d2wave-ripple",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/d2wave_ripple.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-waveform1-waveform1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/waveform1.Waveform1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-fourier1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/fourier1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-spec1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/graph/spec1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-beat1-beat1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/beat1.Beat1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-inter1-inter1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/inter1.Inter1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-doppler-doppler",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/doppler.Doppler.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-synthe-guitarsyn",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/synthe.guitarSyn.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-synthe-pianosyn",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/synthe.pianoSyn.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-syndi1-syndi1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/syndi1.Syndi1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-midisound-midi",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/midisound.midi.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-manycol3",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol3.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander2",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander2.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-manycol1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander3",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander3.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander3-1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander3_1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander1-2",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_2.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander1-1",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_1.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander4",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander4.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-manycol5",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol5.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-particleslit",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/particleSlit.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander1-4",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_4.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander1-3",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/vander1_3.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-kineticgas21-manycol24",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol24.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-kineticgas21-manycol23",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/manyCol23.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-manycol6",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol6.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-kineticgas23-manycol23",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol23.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-manycol4",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol4.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-manycol2",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol2.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-kineticgas31-manycol31",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/manyCol31.html",
+      "group": "general"
+    },
+    {
+      "id": "general-next-vander",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/exp/vander.html",
+      "group": "general"
+    },
+    {
+      "id": "rutherford-scattering",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford0.html",
+      "group": "nuclear"
+    },
+    {
+      "id": "rutherford-circular",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford1.html",
+      "group": "nuclear"
+    },
+    {
+      "id": "rutherford-electrons",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/sim/rutherford2.html",
+      "group": "nuclear"
+    },
+    {
+      "id": "nuclear-fission",
+      "source": "http://physica.gnu.ac.kr/phtml/bank/ani/fission1.html",
+      "group": "nuclear"
+    }
+  ],
+  "originalGUIReport": "legacy-original-gui-report.json",
+  "guiConfigurations": 81,
+  "guiSummary": {
+    "passed": 74,
+    "partial": 4,
+    "blocked": 3
+  },
+  "finiteDiscreteCases": 18398,
+  "sliderBoundaryCases": 568,
+  "verificationLimit": "Finite original GUI controls and independent numerical references. Continuous Cartesian input products, arbitrary text and pointer gestures, random trajectories, sound timbre and missing original 3D/VTK assets are not exhaustively equivalent."
+}

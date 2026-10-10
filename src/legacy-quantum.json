@@ -327,5 +327,1734 @@
       "radialTableIndexDiscrepancy": "Actual original radial table evaluates nEnd + index; state coefficients, angular quantum numbers and energies use nStart + index. Preserved and disclosed in UI; not asserted to be a physically correct eigenstate solution."
     },
     "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-bohr",
+    "title": "보어의 원자모형",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/sim/bohr1.html",
+    "lessonId": "6-2-3-6",
+    "sourceAliases": [],
+    "kind": "bohr",
+    "parameters": [
+      {
+        "key": "n",
+        "label": "전이할 에너지 준위 n",
+        "min": 1,
+        "max": 7,
+        "step": 1,
+        "value": 1
+      }
+    ],
+    "equations": [
+      "E_n=-13.6/n^2\\;\\mathrm{eV}",
+      "r_n=4n^2,\\quad\\omega_n=25/r_n^{3/2}"
+    ],
+    "instructions": "원자 안을 누르면 가까운 허용 궤도에 전자를 추가합니다. 오른쪽 클릭은 반대 회전입니다. 재생하면 궤도 운동과 확률적인 전이가 함께 나타납니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "bohr1.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/bohr/applet/bohr1/",
+      "archives": [],
+      "classSHA256": "4439a495579d8667b816ade07cf65604c9c4e3db2a807d9db373b3af73c2e2be",
+      "sourceParameters": {
+        "width": "400",
+        "height": "400",
+        "codebase": "../../modern/light_quantum/bohr/applet/bohr1/",
+        "archive": "",
+        "code": "bohr1.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 1,
+      "originalGUISliderBoundaryCases": 0,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-blackbody0",
+    "title": "흑체복사 스펙트럼",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/balckbody.Blackbody0.html",
+    "lessonId": "5-6-1-2",
+    "sourceAliases": [],
+    "kind": "blackbody0",
+    "parameters": [
+      {
+        "key": "temperature",
+        "label": "온도 / K",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "value": 100,
+        "displayScale": 50
+      },
+      {
+        "key": "trail",
+        "label": "흔적 보기",
+        "type": "checkbox",
+        "value": true
+      }
+    ],
+    "equations": [
+      "M_\\lambda=\\frac{2\\pi hc^2}{\\lambda^5}\\left(e^{hc/(\\lambda k_BT)}-1\\right)^{-1}",
+      "M=5.6697\\times10^{-8}T^4,\\quad\\lambda_{\\max}=2897800/T\\;\\mathrm{nm}"
+    ],
+    "instructions": "온도 슬라이더로 복사 스펙트럼을 바꿉니다. 시간 재생이 필요한 모형이 아니므로 프레임바가 없습니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "balckbody.Blackbody0.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/modern/blackbody/classes",
+      "archives": [],
+      "classSHA256": "93172007ac05cd4f06b1d0774aff74823223367515829ee377d19cbc8f03cd5b",
+      "sourceParameters": {
+        "width": "500",
+        "height": "400",
+        "codebase": "/applets/modern/blackbody/classes",
+        "archive": "",
+        "code": "balckbody.Blackbody0.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 2,
+      "originalGUISliderBoundaryCases": 4,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-blackbody1",
+    "title": "흑체복사 스펙트럼과 슈테판-볼츠만 법칙, 빈의 변위법칙 그래프",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/balckbody.Blackbody1.html",
+    "lessonId": "6-2-1-1",
+    "sourceAliases": [],
+    "kind": "blackbody1",
+    "parameters": [
+      {
+        "key": "temperature",
+        "label": "온도 / K",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "value": 100,
+        "displayScale": 50
+      },
+      {
+        "key": "trail",
+        "label": "흔적 보기",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "rayleigh",
+        "label": "레일리–진스 이론",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "wavelength",
+        "label": "최대 파장 / nm",
+        "min": 5,
+        "max": 50,
+        "step": 1,
+        "value": 20,
+        "displayScale": 100
+      },
+      {
+        "key": "intensity",
+        "label": "복사 강도 축 / 원본 눈금",
+        "min": 1,
+        "max": 14,
+        "step": 1,
+        "value": 5
+      }
+    ],
+    "equations": [
+      "M_\\lambda=\\frac{2\\pi hc^2}{\\lambda^5}\\left(e^{hc/(\\lambda k_BT)}-1\\right)^{-1}",
+      "M=5.6697\\times10^{-8}T^4,\\quad\\lambda_{\\max}=2897800/T\\;\\mathrm{nm}"
+    ],
+    "instructions": "온도 슬라이더로 복사 스펙트럼을 바꿉니다. 시간 재생이 필요한 모형이 아니므로 프레임바가 없습니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "balckbody.Blackbody1.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/modern/blackbody/classes",
+      "archives": [],
+      "classSHA256": "126926c3d72af53baadb8d8892533db0296dc28d871b132d63df479dbb73319d",
+      "sourceParameters": {
+        "width": "600",
+        "height": "450",
+        "codebase": "/applets/modern/blackbody/classes",
+        "archive": "",
+        "code": "balckbody.Blackbody1.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 4,
+      "originalGUISliderBoundaryCases": 12,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-hydrogen-cloud",
+    "title": "수소원자의 전자분포",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/hydrogen.hydrogenCloud.html",
+    "lessonId": "6-4-6-5",
+    "sourceAliases": [],
+    "kind": "hydrogen-cloud",
+    "parameters": [
+      {
+        "key": "n",
+        "label": "주양자수 n",
+        "min": 1,
+        "max": 7,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "key": "l",
+        "label": "각운동량 양자수 l",
+        "min": 0,
+        "max": 6,
+        "step": 1,
+        "value": 1
+      },
+      {
+        "key": "m",
+        "label": "자기 양자수 |m|",
+        "min": 0,
+        "max": 6,
+        "step": 1,
+        "value": 0
+      },
+      {
+        "key": "scale",
+        "label": "공간 눈금 / 원본 배율",
+        "min": 1,
+        "max": 8,
+        "step": 1,
+        "value": 2
+      },
+      {
+        "key": "exposure",
+        "label": "밝기 / 원본 노출 눈금",
+        "min": 1,
+        "max": 6,
+        "step": 1,
+        "value": 3
+      }
+    ],
+    "equations": [
+      "\\psi_{nlm}=R_{nl}(r)Y_l^m(\\theta,\\phi)",
+      "P=|\\psi_{nlm}|^2"
+    ],
+    "instructions": "n, l, m을 선택하면 전자분포의 x–z 절단면과 방사 확률밀도가 함께 바뀝니다. 허용되는 l<n, |m|≤l만 선택할 수 있습니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "hydrogen.hydrogenCloud.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "25809843a299cf2e0d8c9440da505577036334a0b54022aa1367a44294b59244",
+      "sourceParameters": {
+        "width": "720",
+        "height": "760",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "hydrogen.hydrogenCloud.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 1,
+      "originalGUISliderBoundaryCases": 8,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json (separate hydrogen.HydrogenMath oracle)",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-hydrogen-eigen",
+    "title": "수소원자의 3차원 파동함수의 구조",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/HydrogenApp.html",
+    "lessonId": "6-4-6-10",
+    "sourceAliases": [],
+    "kind": "hydrogen-eigen",
+    "parameters": [
+      {
+        "key": "n",
+        "label": "주양자수 n",
+        "min": 1,
+        "max": 7,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "key": "l",
+        "label": "각운동량 양자수 l",
+        "min": 0,
+        "max": 6,
+        "step": 1,
+        "value": 1
+      },
+      {
+        "key": "m",
+        "label": "자기 양자수 |m|",
+        "min": 0,
+        "max": 6,
+        "step": 1,
+        "value": 0
+      },
+      {
+        "key": "minus",
+        "label": "m 음수",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "iso",
+        "label": "등고면 / 원본 슬라이더",
+        "min": 1,
+        "max": 82,
+        "step": 1,
+        "value": 18
+      },
+      {
+        "key": "view",
+        "label": "상자 폭 / a₀",
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "value": 10,
+        "displayScale": 10
+      },
+      {
+        "key": "auto",
+        "label": "상자 자동 크기",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "half",
+        "label": "반쪽 보기",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "probability",
+        "label": "확률밀도로 보기",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "equations": [
+      "\\psi(t)=R_{nl}Y_l^m e^{-iE_nt/\\hbar}",
+      "E_n=-13.5984/n^2\\;\\mathrm{eV}"
+    ],
+    "instructions": "입체를 끌어 회전하세요. 원본의 양자수·m의 부호·등고면·상자 크기·반쪽 보기·확률 보기와 중첩 상대 위상을 조작할 수 있습니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "HydrogenApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "classSHA256": "be1af1919c748f78708c36040b4c1e0036ee0af87563e1b2382cb51fdf6c9540",
+      "sourceParameters": {
+        "width": "720",
+        "height": "760",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "HydrogenApp.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "blocked",
+      "originalGUIChoiceCombinations": 0,
+      "originalGUISliderBoundaryCases": 0,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling.",
+        "Native VTK original GUI is unavailable; pure Java eigenfunction and source numerical grid are verified. Original 61³ grid is cached; SVG mesh uses every second grid point and is not pixel-identical to VTK."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified",
+    "runtimeNote": "원본 Java의 VTK 전용 뷰어는 현재 환경에서 실행할 수 없어 수소 파동함수의 실제 수식과 Java 수치를 대조하고 HTML 입체 등고면으로 다시 그렸습니다."
+  },
+  {
+    "id": "java-hydrogen-mix",
+    "title": "수소원자의 중첩된 파동함수의 구조",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/graph/HydrogenMixApp.html",
+    "lessonId": "6-4-6-11",
+    "sourceAliases": [],
+    "kind": "hydrogen-mix",
+    "parameters": [
+      {
+        "key": "n",
+        "label": "주양자수 n",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "key": "l",
+        "label": "각운동량 양자수 l",
+        "min": 0,
+        "max": 4,
+        "step": 1,
+        "value": 1
+      },
+      {
+        "key": "m",
+        "label": "자기 양자수 |m|",
+        "min": 0,
+        "max": 4,
+        "step": 1,
+        "value": 0
+      },
+      {
+        "key": "minus",
+        "label": "m 음수",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "iso",
+        "label": "등고면 / 원본 슬라이더",
+        "min": 1,
+        "max": 82,
+        "step": 1,
+        "value": 18
+      },
+      {
+        "key": "view",
+        "label": "상자 폭 / a₀",
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "value": 10,
+        "displayScale": 10
+      },
+      {
+        "key": "auto",
+        "label": "상자 자동 크기",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "half",
+        "label": "반쪽 보기",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "probability",
+        "label": "확률밀도로 보기",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "n2",
+        "label": "둘째 상태 n",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "value": 2
+      },
+      {
+        "key": "l2",
+        "label": "둘째 상태 l",
+        "min": 0,
+        "max": 4,
+        "step": 1,
+        "value": 1
+      },
+      {
+        "key": "m2",
+        "label": "둘째 상태 |m|",
+        "min": 0,
+        "max": 4,
+        "step": 1,
+        "value": 1
+      },
+      {
+        "key": "minus2",
+        "label": "둘째 상태 m 음수",
+        "type": "checkbox",
+        "value": false
+      },
+      {
+        "key": "phase",
+        "label": "상대 위상 / π/36",
+        "min": -36,
+        "max": 36,
+        "step": 1,
+        "value": 0
+      }
+    ],
+    "equations": [
+      "\\psi(t)=R_{nl}Y_l^m e^{-iE_nt/\\hbar}",
+      "E_n=-13.5984/n^2\\;\\mathrm{eV}",
+      "\\psi=\\psi_1+e^{i\\alpha}\\psi_2"
+    ],
+    "instructions": "입체를 끌어 회전하세요. 원본의 양자수·m의 부호·등고면·상자 크기·반쪽 보기·확률 보기와 중첩 상대 위상을 조작할 수 있습니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "HydrogenMixApp.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/vtkapp/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/vtkapp/signedCWFtn.jar"
+      ],
+      "classSHA256": "a397470ef5711f47c33f9b5f983a1a0e51a5dafa1864c0b548f70458a4d13551",
+      "sourceParameters": {
+        "width": "720",
+        "height": "800",
+        "codebase": "/applets/vtkapp/",
+        "archive": "signedCWFtn.jar",
+        "code": "HydrogenMixApp.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "blocked",
+      "originalGUIChoiceCombinations": 0,
+      "originalGUISliderBoundaryCases": 0,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling.",
+        "Native VTK original GUI is unavailable; pure Java eigenfunction and source numerical grid are verified. Original 61³ grid is cached; SVG mesh uses every second grid point and is not pixel-identical to VTK."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified",
+    "runtimeNote": "원본 Java의 VTK 전용 뷰어는 현재 환경에서 실행할 수 없어 수소 파동함수의 실제 수식과 Java 수치를 대조하고 HTML 입체 등고면으로 다시 그렸습니다."
+  },
+  {
+    "id": "java-stern-gerlach",
+    "title": "슈테른과 게를라흐의 실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/ani/sterngerlach.html",
+    "lessonId": "6-5-1-2",
+    "sourceAliases": [],
+    "kind": "stern-gerlach",
+    "parameters": [],
+    "equations": [],
+    "instructions": "재생하면 자석 사이에서 빔이 두 방향으로 나뉩니다. 화면을 끌어 시점을 바꿉니다. 검출판에 도착한 원자가 흔적으로 쌓입니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "sterngerlach.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/instrument/sterngerlach",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/library/idx3d.jar"
+      ],
+      "classSHA256": "82a82d6d3f155f42355b1275d8f0635c8bdb961557c405961f78bfaaa6d4768f",
+      "sourceParameters": {
+        "width": "400",
+        "height": "400",
+        "codebase": "/applets/instrument/sterngerlach",
+        "archive": "/applets/library/idx3d.jar",
+        "code": "sterngerlach.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "blocked",
+      "originalGUIChoiceCombinations": 0,
+      "originalGUISliderBoundaryCases": 0,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": "Original 3DS device and material resources return HTTP404. Source stream/particle formulas preserved; new SVG apparatus is an educational reconstruction. Original device rendering/camera cannot be fully compared."
+    },
+    "verificationStatus": "source-bytecode-verified-original-device-assets-missing",
+    "runtimeNote": "원본의 3DS 장치·재질 파일은 현재 원본 서버에서 404입니다. 원본의 두 입자군 좌표·이동 속도·검출 분포 규칙을 보존하고 장치는 SVG로 재구성했습니다."
+  },
+  {
+    "id": "java-relativity",
+    "title": "옆으로 운동하는 물체의 모습",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/reldistortion.zView.html",
+    "lessonId": "6-1-4-3",
+    "sourceAliases": [
+      "http://physica.gnu.ac.kr/phtml/bank/exp/reldistortion.zView2.html"
+    ],
+    "kind": "relativity",
+    "parameters": [
+      {
+        "key": "speed",
+        "label": "속도 β=v/c",
+        "min": -90,
+        "max": 90,
+        "step": 1,
+        "value": 25,
+        "displayScale": 0.01
+      },
+      {
+        "key": "view",
+        "label": "관측 방향",
+        "options": [
+          "옆으로 이동",
+          "다가오는 방향"
+        ],
+        "value": 0
+      }
+    ],
+    "equations": [
+      "\\gamma=(1-\\beta^2)^{-1/2}",
+      "x_{\\mathrm{obs}}=\\gamma\\left(x+\\gamma\\beta t-\\beta\\sqrt{(x+\\gamma\\beta t)^2+y^2+z^2}\\right)"
+    ],
+    "instructions": "입력값을 바꾸고 그림·수치·그래프를 같은 계산 상태에서 비교하세요.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "reldistortion.zView.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/modern/",
+      "archives": [
+        "http://physica.gnu.ac.kr/applets/modern/reldistortion.jar"
+      ],
+      "classSHA256": "7a97ce9ab4c114895d212feb3fa2d28d58c817411967858f4d06e816e4ee5bb7",
+      "sourceParameters": {
+        "width": "800",
+        "height": "500",
+        "codebase": "/applets/modern/",
+        "archive": "reldistortion.jar",
+        "code": "reldistortion.zView.class",
+        "skin": "w",
+        "viewdirection": "0"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 1,
+      "originalGUISliderBoundaryCases": 4,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling.",
+        "Original viewdirection parameter casing prevents the second wrapper direction from taking effect; HTML intentionally exposes both directions. Random object geometry is replaced by fixed comparison geometry."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified",
+    "runtimeNote": "원본 두 번째 페이지의 viewdirection 매개변수는 Java의 viewDirection과 대소문자가 달라 실제 원본에서는 옆 방향으로 표시됩니다. 여기서는 관측 방향 선택으로 원래 의도한 두 방향을 제공합니다. 무작위 장치 배치는 비교를 위해 일정하게 구성했습니다."
+  },
+  {
+    "id": "java-resonant1",
+    "title": "1차원 고유진동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/OneDim.html",
+    "lessonId": "6-2-1-2",
+    "sourceAliases": [],
+    "kind": "resonant1",
+    "parameters": [
+      {
+        "key": "n",
+        "label": "고유진동 모드 n",
+        "min": 1,
+        "max": 25,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "equations": [
+      "y=45\\sin(n\\pi x/500)\\cos(n\\pi t/10)"
+    ],
+    "instructions": "입력값을 바꾸고 그림·수치·그래프를 같은 계산 상태에서 비교하세요.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "OneDim.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/photon/applet/Resonant/",
+      "archives": [],
+      "classSHA256": "bdfc7cc440449238511110502e936342a244149f77789d6cbd1caac6d136ceb5",
+      "sourceParameters": {
+        "width": "520",
+        "height": "300",
+        "codebase": "../../modern/light_quantum/photon/applet/Resonant/",
+        "archive": "",
+        "code": "OneDim.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 1,
+      "originalGUISliderBoundaryCases": 4,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-resonant2",
+    "title": "2차원 고유진동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/TwoDim.html",
+    "lessonId": "6-2-1-2",
+    "sourceAliases": [],
+    "kind": "resonant2",
+    "parameters": [
+      {
+        "key": "nx",
+        "label": "x 고유진동 모드",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "value": 4
+      },
+      {
+        "key": "ny",
+        "label": "y 고유진동 모드",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "value": 7
+      }
+    ],
+    "equations": [
+      "u=45\\sin(n_x\\pi x/400)\\sin(n_y\\pi y/400)\\cos\\left(\\frac{\\pi\\sqrt{n_x^2+n_y^2}}4t\\right)"
+    ],
+    "instructions": "입력값을 바꾸고 그림·수치·그래프를 같은 계산 상태에서 비교하세요.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "TwoDim.class",
+      "codebase": "http://physica.gnu.ac.kr/phtml/modern/light_quantum/photon/applet/Resonant/",
+      "archives": [],
+      "classSHA256": "6796070a15a23f0fff286ec4d156c26dad2ee37145466ea879e5266ae0bc1d52",
+      "sourceParameters": {
+        "width": "420",
+        "height": "477",
+        "codebase": "../../modern/light_quantum/photon/applet/Resonant/",
+        "archive": "",
+        "code": "TwoDim.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 1,
+      "originalGUISliderBoundaryCases": 8,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-free-particle",
+    "title": "자유공간에서의 물질파의 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeParticle.html",
+    "lessonId": "6-3-5-3",
+    "sourceAliases": [],
+    "kind": "free-particle",
+    "parameters": [
+      {
+        "key": "shape",
+        "label": "처음 파동묶음",
+        "options": [
+          "가우스",
+          "사각",
+          "코사인 봉우리",
+          "삼각",
+          "평면파",
+          "정상파"
+        ],
+        "value": 0
+      },
+      {
+        "key": "k0",
+        "label": "처음 파수 / 원본 슬라이더",
+        "min": -10,
+        "max": 100,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "key": "width",
+        "label": "처음 폭 / 원본 격자",
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "value": 20
+      }
+    ],
+    "equations": [
+      "\\widetilde\\psi(k,t)=\\widetilde\\psi(k,0)e^{-ik^2t}",
+      "\\psi(x,t)=\\mathcal F^{-1}[\\widetilde\\psi(k,t)]"
+    ],
+    "instructions": "여섯 파동묶음 형태와 파수·폭을 바꾸고 재생하세요. 운동과 복소 파동함수·확률밀도·운동량 그래프는 같은 원본 FFT 계산에서 나옵니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "onedimquantum.freeParticle.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "92aabfb74a1c024a1c6d0360c87f17f63799d4b2e6e42d4bb8ec1f76a19b5c5e",
+      "sourceParameters": {
+        "width": "800",
+        "height": "500",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "onedimquantum.freeParticle.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 1,
+      "originalGUISliderBoundaryCases": 12,
+      "numericalReference": "docs/legacy-quantum-packet-reference.json (original whole FFT grids, all six shapes at three times)",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-free-box",
+    "title": "1차원 상자에 갇힌 물질파",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeBox.html",
+    "lessonId": "6-3-5-4",
+    "sourceAliases": [],
+    "kind": "free-box",
+    "parameters": [
+      {
+        "key": "shape",
+        "label": "처음 파동묶음",
+        "options": [
+          "가우스",
+          "사각",
+          "코사인 봉우리",
+          "삼각",
+          "평면파",
+          "정상파"
+        ],
+        "value": 0
+      },
+      {
+        "key": "k0",
+        "label": "처음 파수 / 원본 슬라이더",
+        "min": -10,
+        "max": 100,
+        "step": 1,
+        "value": 30
+      },
+      {
+        "key": "width",
+        "label": "처음 폭 / 원본 격자",
+        "min": 1,
+        "max": 40,
+        "step": 1,
+        "value": 20
+      },
+      {
+        "key": "fixed",
+        "label": "고정 경계",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "classical",
+        "label": "고전 파동",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "equations": [
+      "\\widetilde\\psi(k,t)=\\widetilde\\psi(k,0)e^{-ik^2t}",
+      "\\psi(x,t)=\\mathcal F^{-1}[\\widetilde\\psi(k,t)]"
+    ],
+    "instructions": "여섯 파동묶음 형태와 파수·폭을 바꾸고 재생하세요. 운동과 복소 파동함수·확률밀도·운동량 그래프는 같은 원본 FFT 계산에서 나옵니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "onedimquantum.freeBox.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "6d380d1d86cb8cebac87a392d1213b0c947686912faf9082be4b96b1b1b9ef5b",
+      "sourceParameters": {
+        "width": "650",
+        "height": "480",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "onedimquantum.freeBox.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 2,
+      "originalGUISliderBoundaryCases": 8,
+      "numericalReference": "docs/legacy-quantum-packet-reference.json (original whole FFT grids, all six shapes at three times)",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-free-ring",
+    "title": "고리에 갇힌 물질파",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.freeRing.html",
+    "lessonId": "6-3-5-5",
+    "sourceAliases": [],
+    "kind": "free-ring",
+    "parameters": [
+      {
+        "key": "shape",
+        "label": "처음 파동묶음",
+        "options": [
+          "가우스",
+          "사각",
+          "코사인 봉우리",
+          "삼각",
+          "평면파",
+          "정상파"
+        ],
+        "value": 0
+      },
+      {
+        "key": "k0",
+        "label": "처음 파수 / 원본 슬라이더",
+        "min": -10,
+        "max": 100,
+        "step": 1,
+        "value": 61
+      },
+      {
+        "key": "width",
+        "label": "처음 폭 / 원본 격자",
+        "min": 1,
+        "max": 40,
+        "step": 1,
+        "value": 20
+      },
+      {
+        "key": "classical",
+        "label": "고전 파동",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "equations": [
+      "\\widetilde\\psi(k,t)=\\widetilde\\psi(k,0)e^{-ik^2t}",
+      "\\psi(x,t)=\\mathcal F^{-1}[\\widetilde\\psi(k,t)]"
+    ],
+    "instructions": "여섯 파동묶음 형태와 파수·폭을 바꾸고 재생하세요. 운동과 복소 파동함수·확률밀도·운동량 그래프는 같은 원본 FFT 계산에서 나옵니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "onedimquantum.freeRing.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "4bfd393a985c493e31e9549f6948a052965bb68d8e67fe44f6851e25ae37ca0d",
+      "sourceParameters": {
+        "width": "580",
+        "height": "570",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "onedimquantum.freeRing.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 2,
+      "originalGUISliderBoundaryCases": 8,
+      "numericalReference": "docs/legacy-quantum-packet-reference.json (original whole FFT grids, all six shapes at three times)",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-free-2d",
+    "title": "2차원 상자에 갇힌 물질파",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimBox.html",
+    "lessonId": "6-3-5-6",
+    "sourceAliases": [],
+    "kind": "free-2d",
+    "parameters": [
+      {
+        "key": "shape",
+        "label": "처음 파동묶음",
+        "options": [
+          "가우스",
+          "사각",
+          "코사인 봉우리",
+          "삼각",
+          "평면파",
+          "정상파"
+        ],
+        "value": 0
+      },
+      {
+        "key": "kx",
+        "label": "처음 kₓ / 원본 슬라이더",
+        "min": -10,
+        "max": 50,
+        "step": 1,
+        "value": 40
+      },
+      {
+        "key": "ky",
+        "label": "처음 kᵧ / 원본 슬라이더",
+        "min": -10,
+        "max": 50,
+        "step": 1,
+        "value": 20
+      },
+      {
+        "key": "widthX",
+        "label": "처음 x 폭 / 원본 격자",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "key": "widthY",
+        "label": "처음 y 폭 / 원본 격자",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "key": "fixed",
+        "label": "고정 경계",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "probability",
+        "label": "확률밀도 보기",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "equations": [
+      "\\widetilde\\psi(k_x,k_y,t)=\\widetilde\\psi(k_x,k_y,0)e^{-i(k_x^2+k_y^2)t}"
+    ],
+    "instructions": "원본 512×256 FFT 격자의 상자 반사를 계산하고 가운데 256×128 영역을 표시합니다. 고정/자유 경계와 여섯 초기 형태를 비교하세요.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "twodimquantum.twoDimBox.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "ad98659f8cbb596479bf71b61869b9e4d8bc2301c73448181df7c9755262ca58",
+      "sourceParameters": {
+        "width": "700",
+        "height": "400",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoDimBox.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 2,
+      "originalGUISliderBoundaryCases": 16,
+      "numericalReference": "docs/legacy-quantum-packet-reference.json (original whole FFT grids, all six shapes at three times)",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-potential-1d",
+    "title": "파동묶음의 운동 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/onedimquantum.oneDimQuantum.html",
+    "lessonId": "6-4-2-8",
+    "sourceAliases": [],
+    "kind": "potential-1d",
+    "parameters": [
+      {
+        "key": "type",
+        "label": "퍼텐셜",
+        "options": [
+          "장벽",
+          "우물",
+          "계단",
+          "자유 공간",
+          "조화력",
+          "선형 V형",
+          "격자",
+          "핵과 알파입자"
+        ],
+        "value": 0
+      },
+      {
+        "key": "preset",
+        "label": "원본 실험 설정",
+        "options": [
+          "사용자",
+          "자유 입자",
+          "퍼텐셜 장벽",
+          "자유 우물",
+          "결합 우물",
+          "계단",
+          "조화진동자",
+          "알파붕괴",
+          "격자"
+        ],
+        "value": 0
+      },
+      {
+        "key": "center",
+        "label": "퍼텐셜 중심 / 원본 눈금",
+        "min": -50,
+        "max": 50,
+        "step": 1,
+        "value": 0,
+        "displayScale": 0.05
+      },
+      {
+        "key": "height",
+        "label": "퍼텐셜 높이",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "value": 50,
+        "displayScale": 100
+      },
+      {
+        "key": "width",
+        "label": "퍼텐셜 폭",
+        "min": 1,
+        "max": 40,
+        "step": 1,
+        "value": 10,
+        "displayScale": 0.05
+      },
+      {
+        "key": "k0",
+        "label": "처음 파수 k",
+        "min": -50,
+        "max": 150,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "key": "position",
+        "label": "처음 위치 / 원본 슬라이더",
+        "min": 10,
+        "max": 90,
+        "step": 1,
+        "value": 15
+      },
+      {
+        "key": "uncertainty",
+        "label": "처음 Δx",
+        "min": 1,
+        "max": 25,
+        "step": 1,
+        "value": 10,
+        "displayScale": 0.01
+      }
+    ],
+    "equations": [
+      "i\\partial_t\\psi=-\\partial_x^2\\psi+V(x)\\psi"
+    ],
+    "instructions": "원본의 8가지 퍼텐셜과 9가지 실험 설정을 제공합니다. 1024 격자의 원본 Crank–Nicolson 삼대각 계산을 매 단계 수행합니다.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "onedimquantum.oneDimQuantum.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "7744ff3b7dfaeba9867df36c48a1c2d37eafa3ec9dc873fed46ce326aaff66fa",
+      "sourceParameters": {
+        "width": "1034",
+        "height": "614",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "onedimquantum.oneDimQuantum.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 72,
+      "originalGUISliderBoundaryCases": 24,
+      "numericalReference": "docs/legacy-quantum-modern-reference.json",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-harmonic-2d",
+    "title": "2차원 조화진동자에서의 파동묶음의 운동",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimHarmonicOsc.html",
+    "lessonId": "6-4-3-2",
+    "sourceAliases": [],
+    "kind": "harmonic-2d",
+    "parameters": [
+      {
+        "key": "K",
+        "label": "용수철 상수 K",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "value": 100,
+        "displayScale": 500
+      },
+      {
+        "key": "C",
+        "label": "용수철 상수 C 또는 Kᵧ",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "value": 100,
+        "displayScale": 500
+      },
+      {
+        "key": "x0",
+        "label": "처음 x 또는 x₁",
+        "min": 4,
+        "max": 16,
+        "step": 1,
+        "value": 5,
+        "displayScale": 0.05
+      },
+      {
+        "key": "y0",
+        "label": "처음 y 또는 x₂",
+        "min": 4,
+        "max": 16,
+        "step": 1,
+        "value": 4,
+        "displayScale": 0.05
+      },
+      {
+        "key": "kx",
+        "label": "처음 kₓ 또는 k₁",
+        "min": -40,
+        "max": 40,
+        "step": 1,
+        "value": 10,
+        "displayScale": 2.5
+      },
+      {
+        "key": "ky",
+        "label": "처음 kᵧ 또는 k₂",
+        "min": -40,
+        "max": 40,
+        "step": 1,
+        "value": 0,
+        "displayScale": 2.5
+      },
+      {
+        "key": "uncertainty",
+        "label": "처음 Δx 또는 Δx₁",
+        "min": 15,
+        "max": 50,
+        "step": 1,
+        "value": 25,
+        "displayScale": 0.002
+      },
+      {
+        "key": "display",
+        "label": "분포 보기",
+        "options": [
+          "입체 확률밀도",
+          "복소 파동함수"
+        ],
+        "value": 0
+      },
+      {
+        "key": "phaseColor",
+        "label": "복소 위상에 파랑–회색 색상",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "equations": [
+      "i\\partial_t\\psi=-(\\partial_x^2+\\partial_y^2)\\psi+V(x,y)\\psi"
+    ],
+    "instructions": "원본 128×128 격자의 ADI 시간 전진을 두 번씩 수행합니다. 화면을 끌어 입체를 회전하거나 복소 분포로 바꾸고, 같은 계산의 주변 확률밀도를 비교하세요.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "twodimquantum.twoDimHarmonicOsc.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "adebc511102c311e78d1df8f110f1cccb98e76acc5ed051cae0f26740ea54b97",
+      "sourceParameters": {
+        "width": "750",
+        "height": "570",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoDimHarmonicOsc.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 2,
+      "originalGUISliderBoundaryCases": 28,
+      "numericalReference": "docs/legacy-quantum-potential-reference.json (actual original 128² initial/evolved arrays), docs/legacy-quantum-modern-reference.json (independent ADI kernel)",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-potential-2d",
+    "title": "2차원 파동묶음의 운동 모의실험",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoDimQuantum.html",
+    "lessonId": "6-4-3-3",
+    "sourceAliases": [],
+    "kind": "potential-2d",
+    "parameters": [
+      {
+        "key": "x0",
+        "label": "처음 x 또는 x₁",
+        "min": 4,
+        "max": 16,
+        "step": 1,
+        "value": 5,
+        "displayScale": 0.05
+      },
+      {
+        "key": "y0",
+        "label": "처음 y 또는 x₂",
+        "min": 4,
+        "max": 16,
+        "step": 1,
+        "value": 5,
+        "displayScale": 0.05
+      },
+      {
+        "key": "kx",
+        "label": "처음 kₓ 또는 k₁",
+        "min": -40,
+        "max": 40,
+        "step": 1,
+        "value": 10,
+        "displayScale": 2.5
+      },
+      {
+        "key": "ky",
+        "label": "처음 kᵧ 또는 k₂",
+        "min": -40,
+        "max": 40,
+        "step": 1,
+        "value": 10,
+        "displayScale": 2.5
+      },
+      {
+        "key": "uncertainty",
+        "label": "처음 Δx 또는 Δx₁",
+        "min": 15,
+        "max": 50,
+        "step": 1,
+        "value": 25,
+        "displayScale": 0.002
+      },
+      {
+        "key": "type",
+        "label": "퍼텐셜",
+        "options": [
+          "자유 공간",
+          "장벽",
+          "계단",
+          "원통 장벽",
+          "원통 우물",
+          "조화력",
+          "단일 슬릿",
+          "이중 슬릿",
+          "−1/r 인력",
+          "1/r 척력"
+        ],
+        "value": 0
+      },
+      {
+        "key": "preset",
+        "label": "원본 실험 설정",
+        "options": [
+          "실험 선택",
+          "사용자",
+          "자유 입자",
+          "결합 우물",
+          "계단",
+          "조화진동자",
+          "단일 슬릿 회절",
+          "이중 슬릿 간섭",
+          "2D 수소 유사 원자",
+          "러더퍼드 산란"
+        ],
+        "value": 0
+      },
+      {
+        "key": "poX",
+        "label": "퍼텐셜 중심 x",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "value": 5,
+        "displayScale": 0.1
+      },
+      {
+        "key": "poY",
+        "label": "퍼텐셜 중심 y",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "value": 5,
+        "displayScale": 0.1
+      },
+      {
+        "key": "poScale",
+        "label": "퍼텐셜 폭 눈금",
+        "min": 2,
+        "max": 40,
+        "step": 1,
+        "value": 10,
+        "displayScale": 0.01
+      },
+      {
+        "key": "poMax",
+        "label": "퍼텐셜 높이",
+        "min": 0,
+        "max": 150,
+        "step": 1,
+        "value": 20,
+        "displayScale": 50
+      },
+      {
+        "key": "display",
+        "label": "분포 보기",
+        "options": [
+          "입체 확률밀도",
+          "복소 파동함수"
+        ],
+        "value": 0
+      },
+      {
+        "key": "phaseColor",
+        "label": "복소 위상에 파랑–회색 색상",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "equations": [
+      "i\\partial_t\\psi=-(\\partial_x^2+\\partial_y^2)\\psi+V(x,y)\\psi"
+    ],
+    "instructions": "원본 128×128 격자의 ADI 시간 전진을 두 번씩 수행합니다. 화면을 끌어 입체를 회전하거나 복소 분포로 바꾸고, 같은 계산의 주변 확률밀도를 비교하세요.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "twodimquantum.twoDimQuantum.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "0e0fdd8be5093fd7a472a7ad9e7920c1347a0634f823fc8463a83683f8812ffd",
+      "sourceParameters": {
+        "width": "800",
+        "height": "560",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoDimQuantum.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 200,
+      "originalGUISliderBoundaryCases": 36,
+      "numericalReference": "docs/legacy-quantum-potential-reference.json (actual original 128² initial/evolved arrays), docs/legacy-quantum-modern-reference.json (independent ADI kernel)",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-particle-di",
+    "title": "두 입자가 결합된 조화진동자",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoParticleDI.html",
+    "lessonId": "6-4-3-4",
+    "sourceAliases": [],
+    "kind": "particle-di",
+    "parameters": [
+      {
+        "key": "K",
+        "label": "용수철 상수 K",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "value": 100,
+        "displayScale": 500
+      },
+      {
+        "key": "C",
+        "label": "용수철 상수 C 또는 Kᵧ",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "value": 100,
+        "displayScale": 500
+      },
+      {
+        "key": "x0",
+        "label": "처음 x 또는 x₁",
+        "min": 4,
+        "max": 16,
+        "step": 1,
+        "value": 5,
+        "displayScale": 0.05
+      },
+      {
+        "key": "y0",
+        "label": "처음 y 또는 x₂",
+        "min": 4,
+        "max": 16,
+        "step": 1,
+        "value": 4,
+        "displayScale": 0.05
+      },
+      {
+        "key": "kx",
+        "label": "처음 kₓ 또는 k₁",
+        "min": -40,
+        "max": 40,
+        "step": 1,
+        "value": 10,
+        "displayScale": 2.5
+      },
+      {
+        "key": "ky",
+        "label": "처음 kᵧ 또는 k₂",
+        "min": -40,
+        "max": 40,
+        "step": 1,
+        "value": 0,
+        "displayScale": 2.5
+      },
+      {
+        "key": "uncertainty",
+        "label": "처음 Δx 또는 Δx₁",
+        "min": 15,
+        "max": 50,
+        "step": 1,
+        "value": 25,
+        "displayScale": 0.002
+      },
+      {
+        "key": "uncertaintyY",
+        "label": "처음 Δx₂",
+        "min": 15,
+        "max": 50,
+        "step": 1,
+        "value": 25,
+        "displayScale": 0.002
+      },
+      {
+        "key": "display",
+        "label": "분포 보기",
+        "options": [
+          "입체 확률밀도",
+          "복소 파동함수"
+        ],
+        "value": 0
+      },
+      {
+        "key": "phaseColor",
+        "label": "복소 위상에 파랑–회색 색상",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "equations": [
+      "i\\partial_t\\psi=-(\\partial_x^2+\\partial_y^2)\\psi+V(x,y)\\psi",
+      "V=\\frac K2[(x_1-.5)^2+(x_2-.5)^2]+\\frac C2(x_1-x_2)^2"
+    ],
+    "instructions": "원본 128×128 격자의 ADI 시간 전진을 두 번씩 수행합니다. 화면을 끌어 입체를 회전하거나 복소 분포로 바꾸고, 같은 계산의 주변 확률밀도를 비교하세요.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "twodimquantum.twoParticleDI.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "39229ee77d973f76e56cadb963d8efa2fa6f14375a491ebd12566c9ec6babb42",
+      "sourceParameters": {
+        "width": "750",
+        "height": "570",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoParticleDI.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 2,
+      "originalGUISliderBoundaryCases": 32,
+      "numericalReference": "docs/legacy-quantum-potential-reference.json (actual original 128² initial/evolved arrays), docs/legacy-quantum-modern-reference.json (independent ADI kernel)",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified"
+  },
+  {
+    "id": "java-particle-fd",
+    "title": "두 입자가 결합된 조화진동자",
+    "source": "http://physica.gnu.ac.kr/phtml/bank/exp/twodimquantum.twoParticleFD.html",
+    "lessonId": "6-4-3-5",
+    "sourceAliases": [],
+    "kind": "particle-fd",
+    "parameters": [
+      {
+        "key": "K",
+        "label": "용수철 상수 K",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "value": 100,
+        "displayScale": 500
+      },
+      {
+        "key": "C",
+        "label": "용수철 상수 C 또는 Kᵧ",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "value": 100,
+        "displayScale": 500
+      },
+      {
+        "key": "x0",
+        "label": "처음 x 또는 x₁",
+        "min": 4,
+        "max": 16,
+        "step": 1,
+        "value": 5,
+        "displayScale": 0.05
+      },
+      {
+        "key": "y0",
+        "label": "처음 y 또는 x₂",
+        "min": 4,
+        "max": 16,
+        "step": 1,
+        "value": 15,
+        "displayScale": 0.05
+      },
+      {
+        "key": "kx",
+        "label": "처음 kₓ 또는 k₁",
+        "min": -40,
+        "max": 40,
+        "step": 1,
+        "value": 0,
+        "displayScale": 2.5
+      },
+      {
+        "key": "ky",
+        "label": "처음 kᵧ 또는 k₂",
+        "min": -40,
+        "max": 40,
+        "step": 1,
+        "value": 0,
+        "displayScale": 2.5
+      },
+      {
+        "key": "uncertainty",
+        "label": "처음 Δx 또는 Δx₁",
+        "min": 15,
+        "max": 50,
+        "step": 1,
+        "value": 25,
+        "displayScale": 0.002
+      },
+      {
+        "key": "uncertaintyY",
+        "label": "처음 Δx₂",
+        "min": 15,
+        "max": 50,
+        "step": 1,
+        "value": 25,
+        "displayScale": 0.002
+      },
+      {
+        "key": "symmetric",
+        "label": "대칭: 보손 / 끄기: 페르미온",
+        "type": "checkbox",
+        "value": true
+      },
+      {
+        "key": "display",
+        "label": "분포 보기",
+        "options": [
+          "입체 확률밀도",
+          "복소 파동함수"
+        ],
+        "value": 0
+      },
+      {
+        "key": "phaseColor",
+        "label": "복소 위상에 파랑–회색 색상",
+        "type": "checkbox",
+        "value": false
+      }
+    ],
+    "equations": [
+      "i\\partial_t\\psi=-(\\partial_x^2+\\partial_y^2)\\psi+V(x,y)\\psi",
+      "V=\\frac K2[(x_1-.5)^2+(x_2-.5)^2]+\\frac C2(x_1-x_2)^2"
+    ],
+    "instructions": "원본 128×128 격자의 ADI 시간 전진을 두 번씩 수행합니다. 화면을 끌어 입체를 회전하거나 복소 분포로 바꾸고, 같은 계산의 주변 확률밀도를 비교하세요.",
+    "provenance": {
+      "originalFormat": "Java applet",
+      "originalClass": "twodimquantum.twoParticleFD.class",
+      "codebase": "http://physica.gnu.ac.kr/applets/quantum/",
+      "archives": [],
+      "classSHA256": "def961d26d39943e7dd01eab0a60c9a74f3b326c67c62149b5cabe0c2ed9bc61",
+      "sourceParameters": {
+        "width": "750",
+        "height": "570",
+        "codebase": "/applets/quantum/",
+        "archive": "",
+        "code": "twodimquantum.twoParticleFD.class",
+        "skin": "w"
+      },
+      "method": "Original bytecode, original GUI controls and separately executed original JVM numerical kernels",
+      "originalGUIStatus": "passed",
+      "originalGUIChoiceCombinations": 4,
+      "originalGUISliderBoundaryCases": 32,
+      "numericalReference": "docs/legacy-quantum-potential-reference.json (actual original 128² initial/evolved arrays), docs/legacy-quantum-modern-reference.json (independent ADI kernel)",
+      "limits": [
+        "Continuous input combinations are sampled at boundaries and representative values; not an exhaustive real-valued Cartesian product.",
+        "Pointer gestures are tested separately in HTML; original pointer combinations are not exhaustive.",
+        "SVG/Canvas renderers and GNU colors replace original display styling."
+      ]
+    },
+    "verificationStatus": "source-bytecode-and-original-numerical-runtime-verified",
+    "runtimeNote": "원본과 같이 처음 및 100 프레임마다 대칭/반대칭을 다시 적용합니다. ADI의 중간 단계는 이 교환 대칭에 작은 수치 오차를 만들 수 있습니다."
   }
 ]

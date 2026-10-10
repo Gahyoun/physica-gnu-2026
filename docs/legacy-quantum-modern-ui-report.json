@@ -1,0 +1,1887 @@
+{
+  "date": "2026-10-10",
+  "models": 19,
+  "scope": "Actual headless Chromium: play/pause, each slider min/max, all enabled discrete choices and both checkbox states, viewport1100/768/320. Original Java runtime data is independent. 152 slider extremes, 71 enabled choice selections, 44 checkbox settings; no JS errors or SVG NaN/Infinity; 0 K singularity is explicitly handled.",
+  "results": [
+    {
+      "id": "java-bohr",
+      "kind": "bohr",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "n",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "n",
+          "value": 7,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [],
+      "checkboxes": [],
+      "play": {
+        "time": 0.35,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-blackbody0",
+      "kind": "blackbody0",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "temperature",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": true
+        },
+        {
+          "key": "temperature",
+          "value": 200,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [],
+      "checkboxes": [
+        {
+          "key": "trail",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "trail",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": null,
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-blackbody1",
+      "kind": "blackbody1",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "temperature",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": true
+        },
+        {
+          "key": "temperature",
+          "value": 200,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "wavelength",
+          "value": 5,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "wavelength",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "intensity",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "intensity",
+          "value": 14,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [],
+      "checkboxes": [
+        {
+          "key": "trail",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "trail",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "rayleigh",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "rayleigh",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": null,
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-hydrogen-cloud",
+      "kind": "hydrogen-cloud",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "n",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "n",
+          "value": 7,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "l",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "l",
+          "value": 6,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "m",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "m",
+          "value": 6,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "scale",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "scale",
+          "value": 8,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "exposure",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "exposure",
+          "value": 6,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [],
+      "checkboxes": [],
+      "play": null,
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-hydrogen-eigen",
+      "kind": "hydrogen-eigen",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "n",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "n",
+          "value": 7,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "l",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "l",
+          "value": 6,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "m",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "m",
+          "value": 6,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "iso",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "iso",
+          "value": 82,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "view",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "view",
+          "value": 30,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [],
+      "checkboxes": [
+        {
+          "key": "minus",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "minus",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "auto",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "auto",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "half",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "half",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "probability",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "probability",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": {
+        "time": 0.15000000000000002,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-hydrogen-mix",
+      "kind": "hydrogen-mix",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "n",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "n",
+          "value": 5,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "l",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "l",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "m",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "m",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "iso",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "iso",
+          "value": 82,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "view",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "view",
+          "value": 30,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "n2",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "n2",
+          "value": 5,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "l2",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "l2",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "m2",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "m2",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "phase",
+          "value": -36,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "phase",
+          "value": 36,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [],
+      "checkboxes": [
+        {
+          "key": "minus",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "minus",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "auto",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "auto",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "half",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "half",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "probability",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "probability",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "minus2",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "minus2",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": {
+        "time": 0.15000000000000002,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-stern-gerlach",
+      "kind": "stern-gerlach",
+      "errors": [],
+      "boundaries": [],
+      "choices": [],
+      "checkboxes": [],
+      "play": {
+        "time": 6,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-relativity",
+      "kind": "relativity",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "speed",
+          "value": -90,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "speed",
+          "value": 90,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "view",
+          "value": "0"
+        },
+        {
+          "key": "view",
+          "value": "1"
+        }
+      ],
+      "checkboxes": [],
+      "play": {
+        "time": 70,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-resonant1",
+      "kind": "resonant1",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "n",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "n",
+          "value": 25,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [],
+      "checkboxes": [],
+      "play": {
+        "time": 0.30000000000000004,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-resonant2",
+      "kind": "resonant2",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "nx",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "nx",
+          "value": 10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ny",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ny",
+          "value": 10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [],
+      "checkboxes": [],
+      "play": {
+        "time": 0.30000000000000004,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-free-particle",
+      "kind": "free-particle",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "k0",
+          "value": -10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "k0",
+          "value": 100,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "width",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "width",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "shape",
+          "value": "0"
+        },
+        {
+          "key": "shape",
+          "value": "1"
+        },
+        {
+          "key": "shape",
+          "value": "2"
+        },
+        {
+          "key": "shape",
+          "value": "3"
+        },
+        {
+          "key": "shape",
+          "value": "4"
+        },
+        {
+          "key": "shape",
+          "value": "5"
+        }
+      ],
+      "checkboxes": [],
+      "play": {
+        "time": 14,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-free-box",
+      "kind": "free-box",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "k0",
+          "value": -10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "k0",
+          "value": 100,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "width",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "width",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "shape",
+          "value": "0"
+        },
+        {
+          "key": "shape",
+          "value": "1"
+        },
+        {
+          "key": "shape",
+          "value": "2"
+        },
+        {
+          "key": "shape",
+          "value": "3"
+        },
+        {
+          "key": "shape",
+          "value": "4"
+        },
+        {
+          "key": "shape",
+          "value": "5"
+        }
+      ],
+      "checkboxes": [
+        {
+          "key": "fixed",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "fixed",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "classical",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "classical",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": {
+        "time": 3,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-free-ring",
+      "kind": "free-ring",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "k0",
+          "value": -10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "k0",
+          "value": 100,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "width",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "width",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "shape",
+          "value": "0"
+        },
+        {
+          "key": "shape",
+          "value": "1"
+        },
+        {
+          "key": "shape",
+          "value": "2"
+        },
+        {
+          "key": "shape",
+          "value": "3"
+        },
+        {
+          "key": "shape",
+          "value": "4"
+        },
+        {
+          "key": "shape",
+          "value": "5"
+        }
+      ],
+      "checkboxes": [
+        {
+          "key": "classical",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "classical",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": {
+        "time": 7,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-free-2d",
+      "kind": "free-2d",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "kx",
+          "value": -10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "kx",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": -10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "widthX",
+          "value": 2,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "widthX",
+          "value": 10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "widthY",
+          "value": 2,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "widthY",
+          "value": 10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "shape",
+          "value": "0"
+        },
+        {
+          "key": "shape",
+          "value": "1"
+        },
+        {
+          "key": "shape",
+          "value": "2"
+        },
+        {
+          "key": "shape",
+          "value": "3"
+        },
+        {
+          "key": "shape",
+          "value": "4"
+        },
+        {
+          "key": "shape",
+          "value": "5"
+        }
+      ],
+      "checkboxes": [
+        {
+          "key": "fixed",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "fixed",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "probability",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "probability",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": {
+        "time": 3,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-potential-1d",
+      "kind": "potential-1d",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "center",
+          "value": -50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "center",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "height",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "height",
+          "value": 200,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "width",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "width",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "k0",
+          "value": -50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "k0",
+          "value": 150,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "position",
+          "value": 10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "position",
+          "value": 90,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 1,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 25,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "type",
+          "value": "0"
+        },
+        {
+          "key": "type",
+          "value": "1"
+        },
+        {
+          "key": "type",
+          "value": "2"
+        },
+        {
+          "key": "type",
+          "value": "3"
+        },
+        {
+          "key": "type",
+          "value": "4"
+        },
+        {
+          "key": "type",
+          "value": "5"
+        },
+        {
+          "key": "type",
+          "value": "6"
+        },
+        {
+          "key": "type",
+          "value": "7"
+        },
+        {
+          "key": "preset",
+          "value": "0"
+        },
+        {
+          "key": "preset",
+          "value": "1"
+        },
+        {
+          "key": "preset",
+          "value": "2"
+        },
+        {
+          "key": "preset",
+          "value": "3"
+        },
+        {
+          "key": "preset",
+          "value": "4"
+        },
+        {
+          "key": "preset",
+          "value": "5"
+        },
+        {
+          "key": "preset",
+          "value": "6"
+        },
+        {
+          "key": "preset",
+          "value": "7"
+        },
+        {
+          "key": "preset",
+          "value": "8"
+        }
+      ],
+      "checkboxes": [],
+      "play": {
+        "time": 14,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-harmonic-2d",
+      "kind": "harmonic-2d",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "K",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "K",
+          "value": 200,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "C",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "C",
+          "value": 200,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "x0",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "x0",
+          "value": 16,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "y0",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "y0",
+          "value": 16,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "kx",
+          "value": -40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "kx",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": -40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 15,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "display",
+          "value": "0"
+        },
+        {
+          "key": "display",
+          "value": "1"
+        }
+      ],
+      "checkboxes": [
+        {
+          "key": "phaseColor",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "phaseColor",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": {
+        "time": 28,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-potential-2d",
+      "kind": "potential-2d",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "x0",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "x0",
+          "value": 16,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "y0",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "y0",
+          "value": 16,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "kx",
+          "value": -40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "kx",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": -40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 15,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "poX",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "poX",
+          "value": 10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "poY",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "poY",
+          "value": 10,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "poScale",
+          "value": 2,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "poScale",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "poMax",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "poMax",
+          "value": 150,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "type",
+          "value": "0"
+        },
+        {
+          "key": "type",
+          "value": "1"
+        },
+        {
+          "key": "type",
+          "value": "2"
+        },
+        {
+          "key": "type",
+          "value": "3"
+        },
+        {
+          "key": "type",
+          "value": "4"
+        },
+        {
+          "key": "type",
+          "value": "5"
+        },
+        {
+          "key": "type",
+          "value": "6"
+        },
+        {
+          "key": "type",
+          "value": "7"
+        },
+        {
+          "key": "type",
+          "value": "8"
+        },
+        {
+          "key": "type",
+          "value": "9"
+        },
+        {
+          "key": "preset",
+          "value": "0"
+        },
+        {
+          "key": "preset",
+          "value": "1"
+        },
+        {
+          "key": "preset",
+          "value": "2"
+        },
+        {
+          "key": "preset",
+          "value": "3"
+        },
+        {
+          "key": "preset",
+          "value": "4"
+        },
+        {
+          "key": "preset",
+          "value": "5"
+        },
+        {
+          "key": "preset",
+          "value": "6"
+        },
+        {
+          "key": "preset",
+          "value": "7"
+        },
+        {
+          "key": "preset",
+          "value": "8"
+        },
+        {
+          "key": "preset",
+          "value": "9"
+        },
+        {
+          "key": "display",
+          "value": "0"
+        },
+        {
+          "key": "display",
+          "value": "1"
+        }
+      ],
+      "checkboxes": [
+        {
+          "key": "phaseColor",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "phaseColor",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": {
+        "time": 28,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-particle-di",
+      "kind": "particle-di",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "K",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "K",
+          "value": 200,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "C",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "C",
+          "value": 200,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "x0",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "x0",
+          "value": 16,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "y0",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "y0",
+          "value": 16,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "kx",
+          "value": -40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "kx",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": -40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 15,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertaintyY",
+          "value": 15,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertaintyY",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "display",
+          "value": "0"
+        },
+        {
+          "key": "display",
+          "value": "1"
+        }
+      ],
+      "checkboxes": [
+        {
+          "key": "phaseColor",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "phaseColor",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": {
+        "time": 28,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    },
+    {
+      "id": "java-particle-fd",
+      "kind": "particle-fd",
+      "errors": [],
+      "boundaries": [
+        {
+          "key": "K",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "K",
+          "value": 200,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "C",
+          "value": 0,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "C",
+          "value": 200,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "x0",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "x0",
+          "value": 16,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "y0",
+          "value": 4,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "y0",
+          "value": 16,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "kx",
+          "value": -40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "kx",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": -40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "ky",
+          "value": 40,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 15,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertainty",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertaintyY",
+          "value": 15,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        },
+        {
+          "key": "uncertaintyY",
+          "value": 50,
+          "invalid": false,
+          "finite": true,
+          "explicitSingularity": false
+        }
+      ],
+      "choices": [
+        {
+          "key": "display",
+          "value": "0"
+        },
+        {
+          "key": "display",
+          "value": "1"
+        }
+      ],
+      "checkboxes": [
+        {
+          "key": "symmetric",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "symmetric",
+          "value": true,
+          "finite": true
+        },
+        {
+          "key": "phaseColor",
+          "value": false,
+          "finite": true
+        },
+        {
+          "key": "phaseColor",
+          "value": true,
+          "finite": true
+        }
+      ],
+      "play": {
+        "time": 26,
+        "moved": true,
+        "paused": true
+      },
+      "overflow768": false,
+      "overflow320": false
+    }
+  ]
+}

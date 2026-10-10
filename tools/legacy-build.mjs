@@ -29,7 +29,7 @@ export function legacyPrograms(root, math){
   const origin=inventory?.records.find(i=>i.source===r.source);
   const identities=new Set(origin?.programs.filter(p=>p.format==='Java').map(identity)||[]);
   for(const wrapper of inventory?.records||[])if(wrapper.programs.some(p=>p.format==='Java'&&identities.has(identity(p))))aliases.add(wrapper.source);
-  for(const b of catalog.browse)if(b.type==='애플릿'&&titleKey(b.title)===titleKey(r.title)&&b.source.split('#')[0]===catalog.lessons.find(l=>l.id===page.id)?.source)aliases.add(b.source);
+  for(const b of catalog.browse)if(b.type==='애플릿'&&titleKey(b.title)===titleKey(r.title)&&b.source.split('#')[0]===catalog.lessons.find(l=>l.id===page.id)?.source&&records.filter(q=>q.lessonId===r.lessonId&&titleKey(q.title)===titleKey(b.title)).length===1&&catalog.browse.filter(q=>q.type==='애플릿'&&q.source===b.source).length===1)aliases.add(b.source);
   for(const u of aliases){
    if(sources.has(u)&&sources.get(u).id!==r.id)throw Error('Ambiguous legacy source: '+u);
    sources.set(u,r);
@@ -40,7 +40,7 @@ export function legacyPrograms(root, math){
  const figure=r=>`<figure class="interactive legacy-figure" id="native-legacy-${r.id}"><header class="figure-heading"><h3>${esc(r.title)}</h3><a href="${esc(r.source)}" target="_blank" rel="noopener">원본 출처 ↗</a></header><div data-legacy-id="${r.id}" data-legacy-group="${r.group}"><p class="legacy-loading" role="status">인터랙션을 불러오는 중…</p><noscript>실험 조작에는 JavaScript가 필요합니다.</noscript></div>${(r.equations||[]).length?`<div class="remaster-equations" tabindex="0" aria-label="실험의 수식">${r.equations.map(e=>math(e,true)).join('')}</div>`:''}<figcaption>리마스터 애니메이션 · 정기수 교수님 원작 · ${r.isJava?'Java 원본 모형의 HTML 재구현':'원본 웹 모형의 HTML 재구현'} · <a href="docs/legacy-${r.group}-audit.md">복원 기록</a></figcaption></figure>`;
  const row=r=>`<li data-catalog-row data-restored="true"><div><a href="${r.href}">${esc(r.title)}</a><small class="catalog-path">${esc(r.chapter)}</small></div><div class="catalog-meta"><small class="status restored">HTML 인터랙션${r.isJava?' · Java 이식':''}</small><a href="${esc(r.source)}" target="_blank" rel="noopener">원본 ↗</a></div></li>`;
  const section=page=>lessons.has(page.id)?`<section class="content-row" id="legacy-animations"><h2>리마스터 인터랙션</h2><div class="row-body">${lessons.get(page.id).map(figure).join('')}</div></section>`:'';
- const target=u=>sources.get(u)?.href||null;
+ const target=u=>{const r=sources.get(u);if(!r)return null;const preset=r.wrapperInitialStates?.[u];return preset?r.href.replace('#','?legacyPreset='+encodeURIComponent(r.id)+':'+encodeURIComponent(JSON.stringify(preset))+'#'):r.href;};
  const appendLibrary=html=>html.replace('</ol>',records.slice().sort((a,b)=>a.title.localeCompare(b.title,'ko')).map(row).join('')+'</ol>');
  if(inventory){
   const wrappers=inventory.records.filter(r=>r.programs.some(p=>p.format==='Java')).map(r=>({...r,htmlPort:target(r.source),status:target(r.source)?'source-derived-html':'not-ported'}));

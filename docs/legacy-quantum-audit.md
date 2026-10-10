@@ -70,3 +70,7 @@ The clock advances 1 ps per 200 ms and supports source multipliers 1,10,50,500. 
 ## Reproducing original numerical references
 
 The independently authored reflection probes are retained in `tools/legacy-quantum-runtime-reference/Quantum{Box,Harmonic,Hydrogen,Kepler}Reference.java`. Supply the original `signedCWFtn.jar` outside the repository, verify its recorded SHA-256, compile each probe with `javac -classpath /private/tmp/signedCWFtn.jar -d /private/tmp tools/legacy-quantum-runtime-reference/QuantumBoxReference.java`, and execute `java -classpath /private/tmp:/private/tmp/signedCWFtn.jar QuantumBoxReference`. Equivalent commands work for the other three classes. They instantiate only the original numerical classes, so native VTK libraries and the Java applet UI are not required. Outputs correspond to the four arrays in `docs/legacy-quantum-reference.json`; the JavaScript regression uses that independently produced data.
+
+## 추가 현대물리·양자 애플릿 19종
+
+2026-10-10 추가 복구 목록과 원본 수치·GUI·HTML 조작의 개별 검증 범위는 [현대물리·양자 Java 이식 감사](legacy-quantum-modern-audit.md)에 기록했다. 기존 4종을 포함한 양자 그룹 manifest는 23개이다.

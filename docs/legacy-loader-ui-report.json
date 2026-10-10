@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-10T03:08:45.863Z",
+  "base": "http://127.0.0.1:8775/",
+  "passed": true,
+  "results": [
+    {
+      "id": "lens01-java",
+      "preset": {
+        "concave": true
+      },
+      "passed": true
+    },
+    {
+      "id": "lens01-java",
+      "unapprovedPresetIgnored": true,
+      "passed": true
+    },
+    {
+      "id": "lens02-java",
+      "preset": {
+        "concave": true
+      },
+      "passed": true
+    },
+    {
+      "id": "lens02-java",
+      "unapprovedPresetIgnored": true,
+      "passed": true
+    },
+    {
+      "id": "rutherford-circular",
+      "pointerAndSeek": true,
+      "passed": true
+    },
+    {
+      "id": "rutherford-scattering",
+      "repeatSeekDeterministic": true,
+      "passed": true
+    },
+    {
+      "id": "rutherford-scattering",
+      "fetchRetry": true,
+      "passed": true
+    }
+  ]
+}

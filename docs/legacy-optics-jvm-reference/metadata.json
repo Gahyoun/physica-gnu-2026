@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-10",
+  "scope": "49,600 scalar values from original JVM methods; inputs reconstructed by the authored compare tool. No original source/binary files.",
+  "files": {
+    "rest-rgb.csv": "fb609bee7e3c63a8dc967f15ce9fe4a3753313083d680eb96812cb71240df45c",
+    "rest-index.csv": "a37e546b63d9de6377d4cced0539133010239b659c786a5c95e121fc35b55092",
+    "rest-lens.csv": "d98a4dbeb4f88fb7aecbd0ea846e5381de7691f6998257ea00826355a1f5e519",
+    "rest-spec.csv": "600f60a2e3efb41237d36b1869d57b18860d5c3554688855294aad1a63a0f292"
+  },
+  "originalClassHashes": {
+    "rIndex.class": [
+      "5ea9108cb0352bf6b43369a8e5529a1521c110426fb40ecde649873bf4ea1f5c",
+      "73b937b8e64e4e7b67618c0b5030950cefb0bc3078cdeda9e46fe9de070280d3"
+    ],
+    "RGBcolor.class": [
+      "68599f44e9ba686e5bf2c3184aa04da450f694829f2d7cd51d5c378d4801be89"
+    ],
+    "ThinLens.class": [
+      "cd0b64625d8d8f57e47abf2813014ebc46333777ddf8a03331a5e0ead87adaba"
+    ],
+    "SpecColor.class": [
+      "b475686a9ebba8ff5c664676156904ec247ad0817aa23d29bacf4ae1f8df4cbc"
+    ]
+  },
+  "probeSha256": "0491e88da3838ee34e0a0e4ff00f30e14d8b051e0508f210584ed20cc5a581fd"
+}

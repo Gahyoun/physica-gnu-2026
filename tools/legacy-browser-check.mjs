@@ -8,6 +8,7 @@ const specs=JSON.parse(fs.readFileSync(new URL('assets/legacy-specs.json',root))
 const browser=await chromium.launch({headless:true});
 const results=[],errors=[],widths=[320,768,1360];let next=0;
 const dependencies=['assets/style.css','assets/legacy.css','assets/legacy.mjs','assets/legacy-specs.json',...fs.readdirSync(new URL('assets/',root)).filter(f=>f.startsWith('legacy-')&&f.endsWith('.mjs')).map(f=>'assets/'+f)];
+const dependencyHashes=Object.fromEntries(dependencies.map(f=>[f,crypto.createHash('sha256').update(fs.readFileSync(new URL(f,root))).digest('hex')]));
 const state=h=>h.getAttribute('data-legacy-state');
 const motionState=async h=>{const v=JSON.parse(await state(h));delete v.running;delete v.playing;return JSON.stringify(v);};
 const picture=h=>h.evaluate(e=>[...e.querySelectorAll('svg,canvas')].map(s=>s.tagName.toLowerCase()==='canvas'?s.toDataURL():s.innerHTML).join('\n'));
@@ -32,6 +33,9 @@ try{await Promise.all(Array.from({length:3},async()=>{
      await select.selectOption(option);await page.waitForTimeout(80);if(!await finite(host))throw Error('Nonfinite selected '+option);r.options++;
     }await select.selectOption(initial);
    }
+   for(const checkbox of await host.locator('input[type=checkbox]').all()){
+    const initial=await checkbox.isChecked();await checkbox.setChecked(!initial);await page.waitForTimeout(100);if(!await finite(host))throw Error('Nonfinite checkbox state');r.inputs++;await checkbox.setChecked(initial);
+   }
    if(await reset.count()){await reset.click();await page.waitForTimeout(250);}
    const play=host.getByRole('button',{name:'재생',exact:true});
    if(await play.count()){
@@ -55,5 +59,6 @@ try{await Promise.all(Array.from({length:3},async()=>{
  }
  await page.close();
 }));}finally{await browser.close();}
-const report={date:new Date().toISOString(),base,programs:specs.length,widths,passed:results.length===specs.length&&results.every(r=>r.passed)&&errors.length===0,scope:'Actual generated lesson pages; lazy initialization, each range bound and select option, real play/pause where present, nonfinite state/geometry, CSV downloads, whole-page responsive overflow, light/dark theme tokens. Not all Cartesian input combinations or original GUI equivalence.',dependencies:Object.fromEntries(dependencies.map(f=>[f,crypto.createHash('sha256').update(fs.readFileSync(new URL(f,root))).digest('hex')])),results,errors};
-fs.writeFileSync(new URL('docs/legacy-ui-report.json',root),JSON.stringify(report,null,2)+'\n');console.log('Legacy integration',results.length,'/',specs.length,report.passed);if(!report.passed)process.exitCode=1;
+for(const [f,hash] of Object.entries(dependencyHashes))if(crypto.createHash('sha256').update(fs.readFileSync(new URL(f,root))).digest('hex')!==hash)errors.push({id:'build',error:'Assets changed during QA: '+f});
+const report={date:new Date().toISOString(),base,programs:specs.length,widths,passed:results.length===specs.length&&results.every(r=>r.passed)&&errors.length===0,scope:'Actual generated lesson pages; lazy initialization, each range bound and select option, real play/pause where present, nonfinite state/geometry, CSV downloads, whole-page responsive overflow, light/dark theme tokens. Not all Cartesian input combinations or original GUI equivalence.',dependencies:dependencyHashes,results,errors};
+fs.writeFileSync(process.env.PHYSICA_LEGACY_REPORT||new URL('docs/legacy-ui-report.json',root),JSON.stringify(report,null,2)+'\n');console.log('Legacy integration',results.length,'/',specs.length,report.passed);if(!report.passed)process.exitCode=1;

@@ -1,3 +1,4 @@
+import {mountLegacyNuclearMotion} from './legacy-nuclear-motion.mjs';
 import {decaySeries,originalAmounts,decayEdges,decayStep,decayHistory} from './legacy-nuclear-physics.mjs';
 import {observePlayback} from './render-utils.mjs';
 const fmt=x=>Math.abs(x)<1e-10?'0':Number(x.toPrecision(5)).toString();
@@ -9,6 +10,7 @@ const text=(x,y,s,size=13)=>`<text x="${x}" y="${y}" font-size="${size}">${s}</t
 const save=(filename,contents)=>{const a=document.createElement('a'),u=URL.createObjectURL(new Blob(['\uFEFF'+contents],{type:'text/csv;charset=utf-8'}));a.href=u;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};
 
 export function mountLegacyNuclear(h,spec){
+ if(['rutherfordScatter','rutherfordCapture','rutherfordOrbits','fission'].includes(spec.kind))return mountLegacyNuclearMotion(h,spec);
  if(spec.kind==='seriesTable')return table(h);
  return curves(h);
 }

@@ -1,0 +1,957 @@
+{
+  "date": "2026-10-10T03:03:20.460Z",
+  "scope": "32 mounted new ports, default play/pause; each slider endpoints; every finite option separately; all checkbox combinations; finite select Cartesian product NOT exhaustive",
+  "results": [
+    {
+      "id": "general-next-d2wave-ripple",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "wavelength",
+          "bound": "min"
+        },
+        {
+          "key": "wavelength",
+          "bound": "max"
+        },
+        {
+          "key": "difference",
+          "bound": "min"
+        },
+        {
+          "key": "difference",
+          "bound": "max"
+        },
+        {
+          "key": "phase",
+          "bound": "min"
+        },
+        {
+          "key": "phase",
+          "bound": "max"
+        },
+        {
+          "key": "distance",
+          "bound": "min"
+        },
+        {
+          "key": "distance",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-waveform1-waveform1",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "frequency",
+          "bound": "min"
+        },
+        {
+          "key": "frequency",
+          "bound": "max"
+        },
+        {
+          "key": "amplitude",
+          "bound": "min"
+        },
+        {
+          "key": "amplitude",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 9,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-fourier1",
+      "status": "passed",
+      "play": false,
+      "pause": false,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "wavelength",
+          "bound": "min"
+        },
+        {
+          "key": "wavelength",
+          "bound": "max"
+        },
+        {
+          "key": "order",
+          "bound": "min"
+        },
+        {
+          "key": "order",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 4,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-spec1",
+      "status": "passed",
+      "play": false,
+      "pause": false,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "frequency",
+          "bound": "min"
+        },
+        {
+          "key": "frequency",
+          "bound": "max"
+        },
+        {
+          "key": "dc",
+          "bound": "min"
+        },
+        {
+          "key": "dc",
+          "bound": "max"
+        },
+        {
+          "key": "noise",
+          "bound": "min"
+        },
+        {
+          "key": "noise",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 12,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-beat1-beat1",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "amp1",
+          "bound": "min"
+        },
+        {
+          "key": "amp1",
+          "bound": "max"
+        },
+        {
+          "key": "amp2",
+          "bound": "min"
+        },
+        {
+          "key": "amp2",
+          "bound": "max"
+        },
+        {
+          "key": "frequency2",
+          "bound": "min"
+        },
+        {
+          "key": "frequency2",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 4,
+      "checkboxProduct": 4
+    },
+    {
+      "id": "general-next-inter1-inter1",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "frequency",
+          "bound": "min"
+        },
+        {
+          "key": "frequency",
+          "bound": "max"
+        },
+        {
+          "key": "amplitude",
+          "bound": "min"
+        },
+        {
+          "key": "amplitude",
+          "bound": "max"
+        },
+        {
+          "key": "phase",
+          "bound": "min"
+        },
+        {
+          "key": "phase",
+          "bound": "max"
+        },
+        {
+          "key": "distance",
+          "bound": "min"
+        },
+        {
+          "key": "distance",
+          "bound": "max"
+        },
+        {
+          "key": "observerX",
+          "bound": "min"
+        },
+        {
+          "key": "observerX",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-doppler-doppler",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "sourceVelocity",
+          "bound": "min"
+        },
+        {
+          "key": "sourceVelocity",
+          "bound": "max"
+        },
+        {
+          "key": "observerVelocity",
+          "bound": "min"
+        },
+        {
+          "key": "observerVelocity",
+          "bound": "max"
+        },
+        {
+          "key": "distance",
+          "bound": "min"
+        },
+        {
+          "key": "distance",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 10,
+      "checkboxProduct": 2
+    },
+    {
+      "id": "general-next-synthe-guitarsyn",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "note",
+          "bound": "min"
+        },
+        {
+          "key": "note",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-synthe-pianosyn",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "note",
+          "bound": "min"
+        },
+        {
+          "key": "note",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-syndi1-syndi1",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "frequency",
+          "bound": "min"
+        },
+        {
+          "key": "frequency",
+          "bound": "max"
+        },
+        {
+          "key": "amplitude",
+          "bound": "min"
+        },
+        {
+          "key": "amplitude",
+          "bound": "max"
+        },
+        {
+          "key": "amp1",
+          "bound": "min"
+        },
+        {
+          "key": "amp1",
+          "bound": "max"
+        },
+        {
+          "key": "phase1",
+          "bound": "min"
+        },
+        {
+          "key": "phase1",
+          "bound": "max"
+        },
+        {
+          "key": "amp2",
+          "bound": "min"
+        },
+        {
+          "key": "amp2",
+          "bound": "max"
+        },
+        {
+          "key": "phase2",
+          "bound": "min"
+        },
+        {
+          "key": "phase2",
+          "bound": "max"
+        },
+        {
+          "key": "amp3",
+          "bound": "min"
+        },
+        {
+          "key": "amp3",
+          "bound": "max"
+        },
+        {
+          "key": "phase3",
+          "bound": "min"
+        },
+        {
+          "key": "phase3",
+          "bound": "max"
+        },
+        {
+          "key": "amp4",
+          "bound": "min"
+        },
+        {
+          "key": "amp4",
+          "bound": "max"
+        },
+        {
+          "key": "phase4",
+          "bound": "min"
+        },
+        {
+          "key": "phase4",
+          "bound": "max"
+        },
+        {
+          "key": "amp5",
+          "bound": "min"
+        },
+        {
+          "key": "amp5",
+          "bound": "max"
+        },
+        {
+          "key": "phase5",
+          "bound": "min"
+        },
+        {
+          "key": "phase5",
+          "bound": "max"
+        },
+        {
+          "key": "amp6",
+          "bound": "min"
+        },
+        {
+          "key": "amp6",
+          "bound": "max"
+        },
+        {
+          "key": "phase6",
+          "bound": "min"
+        },
+        {
+          "key": "phase6",
+          "bound": "max"
+        },
+        {
+          "key": "amp7",
+          "bound": "min"
+        },
+        {
+          "key": "amp7",
+          "bound": "max"
+        },
+        {
+          "key": "phase7",
+          "bound": "min"
+        },
+        {
+          "key": "phase7",
+          "bound": "max"
+        },
+        {
+          "key": "amp8",
+          "bound": "min"
+        },
+        {
+          "key": "amp8",
+          "bound": "max"
+        },
+        {
+          "key": "phase8",
+          "bound": "min"
+        },
+        {
+          "key": "phase8",
+          "bound": "max"
+        },
+        {
+          "key": "amp9",
+          "bound": "min"
+        },
+        {
+          "key": "amp9",
+          "bound": "max"
+        },
+        {
+          "key": "phase9",
+          "bound": "min"
+        },
+        {
+          "key": "phase9",
+          "bound": "max"
+        },
+        {
+          "key": "amp10",
+          "bound": "min"
+        },
+        {
+          "key": "amp10",
+          "bound": "max"
+        },
+        {
+          "key": "phase10",
+          "bound": "min"
+        },
+        {
+          "key": "phase10",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-midisound-midi",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "note",
+          "bound": "min"
+        },
+        {
+          "key": "note",
+          "bound": "max"
+        },
+        {
+          "key": "velocity",
+          "bound": "min"
+        },
+        {
+          "key": "velocity",
+          "bound": "max"
+        },
+        {
+          "key": "pressure",
+          "bound": "min"
+        },
+        {
+          "key": "pressure",
+          "bound": "max"
+        },
+        {
+          "key": "reverb",
+          "bound": "min"
+        },
+        {
+          "key": "reverb",
+          "bound": "max"
+        },
+        {
+          "key": "bend",
+          "bound": "min"
+        },
+        {
+          "key": "bend",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 176,
+      "checkboxProduct": 32
+    },
+    {
+      "id": "general-next-manycol3",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-vander2",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 2,
+      "checkboxProduct": 2
+    },
+    {
+      "id": "general-next-manycol1",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 4,
+      "checkboxProduct": 4
+    },
+    {
+      "id": "general-next-vander1",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-vander3",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-vander3-1",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-vander1-2",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-vander1-1",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [],
+      "finiteOptionsEach": 4,
+      "checkboxProduct": 4
+    },
+    {
+      "id": "general-next-vander4",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [],
+      "finiteOptionsEach": 2,
+      "checkboxProduct": 2
+    },
+    {
+      "id": "general-next-manycol5",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 2,
+      "checkboxProduct": 2
+    },
+    {
+      "id": "general-next-particleslit",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "slitWidth",
+          "bound": "min"
+        },
+        {
+          "key": "slitWidth",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-vander1-4",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-vander1-3",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-kineticgas21-manycol24",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "targetMass",
+          "bound": "min"
+        },
+        {
+          "key": "targetMass",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-kineticgas21-manycol23",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-manycol6",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        },
+        {
+          "key": "pistonMass",
+          "bound": "min"
+        },
+        {
+          "key": "pistonMass",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-kineticgas23-manycol23",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        },
+        {
+          "key": "pressure",
+          "bound": "min"
+        },
+        {
+          "key": "pressure",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 19,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-manycol4",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 4,
+      "checkboxProduct": 4
+    },
+    {
+      "id": "general-next-manycol2",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-kineticgas31-manycol31",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 17,
+      "checkboxProduct": 1
+    },
+    {
+      "id": "general-next-vander",
+      "status": "passed",
+      "play": true,
+      "pause": true,
+      "reset": true,
+      "sliderCases": [
+        {
+          "key": "temperature",
+          "bound": "min"
+        },
+        {
+          "key": "temperature",
+          "bound": "max"
+        },
+        {
+          "key": "pistonMass",
+          "bound": "min"
+        },
+        {
+          "key": "pistonMass",
+          "bound": "max"
+        },
+        {
+          "key": "Ro",
+          "bound": "min"
+        },
+        {
+          "key": "Ro",
+          "bound": "max"
+        },
+        {
+          "key": "Uo",
+          "bound": "min"
+        },
+        {
+          "key": "Uo",
+          "bound": "max"
+        }
+      ],
+      "finiteOptionsEach": 1,
+      "checkboxProduct": 1
+    }
+  ],
+  "errors": []
+}
