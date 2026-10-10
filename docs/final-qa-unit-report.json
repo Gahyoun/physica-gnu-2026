@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10T01:31:51.511Z",
+  "command": "node --test tools/*.test.mjs",
+  "tests": 459,
+  "passed": 459,
+  "failed": 0,
+  "logSHA256": "3c235444b2c27c0c94638a3199f6916dd7b204199b72fc0a8544088a6810ec77",
+  "summary": [
+    "✔ AVM2 observer preserves artwork and refuses to replace existing scripts/classes (9.34725ms)",
+    "ℹ tests 459",
+    "ℹ suites 0",
+    "ℹ pass 459",
+    "ℹ fail 0",
+    "ℹ cancelled 0",
+    "ℹ skipped 0",
+    "ℹ todo 0",
+    "ℹ duration_ms 2307.966792"
+  ],
+  "scope": "Mathematical models, original-byte/evidence provenance, generated content and rendering contracts. Browser and actual touch behavior are checked separately."
+}

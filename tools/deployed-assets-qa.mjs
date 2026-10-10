@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+const base=process.env.PHYSICA_BASE_URL||'https://gahyoun.github.io/physica-gnu-2026/';
+const checkedCommit=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
+const files=fs.readdirSync('assets').filter(f=>f.endsWith('.mjs')||f.endsWith('.css')).map(f=>'assets/'+f);
+files.push('assets/fonts/PhysicaText.woff2','assets/fonts/PhysicaTitle.woff2','vendor/katex/katex.min.css');
+const hash=x=>crypto.createHash('sha256').update(x).digest('hex'),results=[];let next=0;
+await Promise.all(Array.from({length:4},async()=>{while(next<files.length){const file=files[next++];try{const response=await fetch(base+file+'?qa='+checkedCommit,{signal:AbortSignal.timeout(30000)}),remote=Buffer.from(await response.arrayBuffer()),expected=hash(fs.readFileSync(file));results.push({file,status:response.status,expectedSHA256:expected,deployedSHA256:hash(remote),passed:response.ok&&hash(remote)===expected});}catch(e){results.push({file,passed:false,error:e.message});}}}));
+results.sort((a,b)=>a.file.localeCompare(b.file));
+const report={date:new Date().toISOString(),base,checkedCommit,expected:files.length,observed:results.length,passed:results.length===files.length&&results.every(r=>r.passed),scope:'Byte-for-byte deployment verification of all browser ES modules and CSS, the two local reading fonts, and KaTeX CSS. Fresh requests with a commit query; does not assert physical-device coverage.',results};
+fs.writeFileSync('docs/deployed-assets-qa-report.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({assets:report.observed,passed:report.passed,failed:results.filter(r=>!r.passed)}));if(!report.passed)process.exitCode=1;

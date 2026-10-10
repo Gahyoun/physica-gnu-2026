@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-10T00:33:10.494Z",
+  "date": "2026-10-10T01:31:51.549Z",
   "base": "https://gahyoun.github.io/physica-gnu-2026/",
-  "checkedCommit": "3b4f2be3b5eb2a94903c881a669546cb1291c381",
+  "checkedCommit": "8bf0527048c734e399aa092636b3ab5f85425925",
   "passed": true,
-  "environment": "Headless Chromium on macOS. 320/768/1024/1360 viewport and tablet touch emulation; no claim of physical-device or Safari/Firefox coverage.",
+  "environment": "Headless Chromium on macOS; 320/768/1024/1360 viewport and actual Chromium touch input in mobile/tablet emulation. No physical-device or Safari/Firefox coverage.",
   "navigation": {
     "pages": 17,
     "widths": [
@@ -42,19 +42,53 @@
     "equilibrium": 11,
     "static": 186,
     "failed": 0,
-    "report": "docs/public-playback-ui-report.json",
-    "scope": "Reading-page play clicks with normal scrolling; timed SVG scene geometry, pause/resume, seek from end and replay. Authored waits and equilibrium/boundary defaults are explicit, with a separate nonzero-input motion test. Static models are counted separately. This is playback QA, not all original-runtime input equivalence."
+    "report": "docs/final-qa-playback-report.json",
+    "scope": "Reading-page play clicks with normal scrolling; timed SVG scene geometry, pause/resume, seek from end and replay. Authored waits and equilibrium/boundary defaults are explicit, with a separate nonzero-input motion test. Static models are counted separately. This is playback QA, not all original-runtime input equivalence.",
+    "dependencyRevalidations": [
+      {
+        "date": "2026-10-10T01:31:28.262Z",
+        "baseCommit": "7c7d519ac1bb42ec5bf95ef3615acbf8b1134305",
+        "file": "assets/style.css",
+        "beforeSHA256": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86",
+        "afterSHA256": "af924ddb59c88db4694fc11ee86c6f14ee30f3afab653fd40fe612a68c363566",
+        "exactAddedCSS": "/* SVG circles alone do not prevent Chromium from cancelling a touch drag. */\n[data-chain-scene] svg,[data-mechanics-scene] svg{touch-action:none}\n",
+        "scope": "Only touch-action on two SVG scene containers changes. All JavaScript, mathematical functions, SVG geometry, control values, timers, CSV and other CSS are byte-identical. Prior desktop/rendering/unrelated touch observations are retained with their original dates; they were not rerun by this revalidation. The 13 affected models have a separate real Chromium touch regression report (26 mobile/tablet cases).",
+        "touchReport": "docs/touch-drag-local-ui-report.json"
+      }
+    ]
+  },
+  "mobileTablet": {
+    "models": 13,
+    "touchCases": 26,
+    "widths": [
+      320,
+      768
+    ],
+    "passed": true,
+    "report": "docs/touch-drag-ui-report.json"
   },
   "repair": {
-    "problem": "A force arrow from another mass could intercept pointerdown on a chain mass.",
-    "fix": "Force lines ignore pointer events. Physics, geometry, timelines and CSV unchanged.",
-    "affectedModels": 11,
-    "threeViewportPlaybackCases": 33,
-    "publicRepairPlaybackCases": 11,
-    "publicDragKeyboardAndCSV": true,
+    "problem": "Chromium cancelled touch dragging on an SVG mass before pointerup, preventing release-triggered playback.",
+    "fix": "Apply touch-action:none to the chain/mechanics SVG scene containers; all numerical and animation code unchanged.",
+    "affectedModels": 13,
+    "localTouchCases": 26,
+    "publicTouchCases": 26,
+    "mouseKeyboardAndCSVPassed": true,
     "originalRuffleExamples": 2,
     "deployedAndConfirmed": true,
-    "report": "docs/remaster-ui-report.json"
+    "beforeReport": "docs/touch-drag-before-fix-report.json",
+    "report": "docs/touch-drag-ui-report.json"
+  },
+  "deployedAssets": {
+    "files": 305,
+    "passed": true,
+    "report": "docs/deployed-assets-qa-report.json"
+  },
+  "codeTests": {
+    "tests": 459,
+    "passed": 459,
+    "failed": 0,
+    "report": "docs/final-qa-unit-report.json"
   },
   "fullOriginalInputEquivalence": false
 }

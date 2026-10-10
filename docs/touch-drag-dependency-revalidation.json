@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10T01:28:10.436Z",
+  "date": "2026-10-10T01:31:28.262Z",
   "baseCommit": "7c7d519ac1bb42ec5bf95ef3615acbf8b1134305",
   "file": "assets/style.css",
   "beforeSHA256": "b7120e93acff665cec861886c8b1e3ae782ed92699d9db297b1da851eea6ef86",
@@ -59,6 +59,7 @@
     "docs/public-playback-ui-report.json",
     "docs/quantum-ui-report.json",
     "docs/ray-ui-report.json",
-    "docs/scene-ui-report.json"
+    "docs/scene-ui-report.json",
+    "docs/final-qa-playback-report.json"
   ]
 }
