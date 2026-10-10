@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-10T03:25:36.481011+00:00",
+  "implementationCommit": "e3b83cf545d305cae5c27769f241c6fb58abb788",
+  "ci": {
+    "tests": 613,
+    "passed": 613,
+    "failed": 0,
+    "workflow": "https://github.com/Gahyoun/physica-gnu-2026/actions/runs/38020060386",
+    "conclusion": "success"
+  },
+  "addedJavaExecutables": 80,
+  "totalJavaExecutables": 115,
+  "linkedJavaWrappers": 119,
+  "htmlPrograms": 117,
+  "localBrowser": {
+    "passed": 117,
+    "errors": 0,
+    "rangeCheckboxChecks": 972,
+    "choiceChecks": 571,
+    "playPausePrograms": 93,
+    "csvPrograms": 116
+  },
+  "publicBrowser": {
+    "passed": 117,
+    "errors": 0,
+    "base": "https://gahyoun.github.io/physica-gnu-2026/",
+    "report": "legacy-public-ui-report.json"
+  },
+  "publicAssets": {
+    "matchingHashes": 26,
+    "report": "legacy-public-assets-report.json"
+  },
+  "readingPages": 566,
+  "supplementaryModelChecks": 79,
+  "mathViewportChecks": 1713,
+  "compiledLaTeXExpressions": 2964,
+  "originalGUI": {
+    "configurations": 81,
+    "passed": 74,
+    "partial": 4,
+    "blocked": 3,
+    "finiteChoiceCheckboxCases": 18398,
+    "sliderBoundaryCases": 568,
+    "report": "legacy-original-gui-report.json"
+  },
+  "limits": "Original GUI failures and missing VTK/3D assets remain documented. Arbitrary continuous/text/pointer Cartesian combinations, randomized trajectories and MIDI native timbres are not exhaustively equivalent."
+}

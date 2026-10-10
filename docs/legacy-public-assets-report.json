@@ -1,0 +1,136 @@
+{
+  "base": "https://gahyoun.github.io/physica-gnu-2026/",
+  "passed": true,
+  "results": [
+    {
+      "file": "assets/style.css",
+      "sha256": "af924ddb59c88db4694fc11ee86c6f14ee30f3afab653fd40fe612a68c363566",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy.css",
+      "sha256": "7b35049fbba2c33f3b75ca671c4935d9503c8943dbe95e728d616e113f7164e1",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy.mjs",
+      "sha256": "d7fd5a9d6d0ecfc16dce39df74a002b03c41612c1b6923461f562721baaf0c84",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-specs.json",
+      "sha256": "be5d04fda6985662a39016611ca5a7c0913b9066e725bb4b18d7804ad82c2254",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-general-field.mjs",
+      "sha256": "5124e2372d640d079cc7c81d5e4ebb04f3acfc295960d1043cfe26ae5c8b2873",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-general-physics.mjs",
+      "sha256": "55a40c90ba6b400f86c01af220c71012abf9fa8a86fd1723b0566931fd679b6d",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-general-sound-physics.mjs",
+      "sha256": "91d651ef0284f11fd2788c72cdef281b100a89b60fc8992532a72a79b4c4fce0",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-general-sound.mjs",
+      "sha256": "a5751536bcde07f8fe390783f5a80289a576a1c6a8d7726d6a0141570813729d",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-general-thermo-physics.mjs",
+      "sha256": "79b9c76a2e792f8e4c5f9514d62d44a6d57b8008dc3073ed4fa14d39d917259e",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-general-thermo.mjs",
+      "sha256": "483ebad03e41a1ccd0c740e48829160f3e149aaa976284c4099340f79d96d0ee",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-general.mjs",
+      "sha256": "b244090d9e40bf2417b4c7e11c7b5c4d84523aa0858678e3b375a49510d77fb4",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-hydrogen-physics.mjs",
+      "sha256": "88009e54dc5e8409ad0fc89b6c8cba41f2b87b80f08d54661caeb8eba2b1071c",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-kepler-physics.mjs",
+      "sha256": "5370c930efcc99225008d09b44740fdf46e43b027e196952171f5286f427a357",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-nuclear-data.mjs",
+      "sha256": "bd9618323a02a01ef207a6ba8b56d9b6e4449d14f30196c19268ab6eab714f8d",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-nuclear-motion-physics.mjs",
+      "sha256": "9dbf57e11161be365377891297a989f2c31cf9b1659beb7b0f2f59cebb8a2bce",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-nuclear-motion.mjs",
+      "sha256": "e3df25817fdc09321101e6c92b8859a712566e8117271d567dcdcf4fb6f3900a",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-nuclear-physics.mjs",
+      "sha256": "326ccfafad9602a00f4fe3d2e3b985f31f61b86fa7f148fc97a75ccd4b496285",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-nuclear.mjs",
+      "sha256": "38c2ea3a23ec12b6c5995896a7fd3d912e94e3cf31f887a412f5013d8352fef6",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-optics-physics.mjs",
+      "sha256": "7648f8a80470fc7069429d711fbb59a4f691b2bb075af8a6f2ae938f3735cd5a",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-optics-rest-physics.mjs",
+      "sha256": "d3570c7615a514e5b53a033c0183ae88eff4f6b9aa925bcfb3a5d5af5702879b",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-optics-rest.mjs",
+      "sha256": "7eed4ee676ce36f2d09cf44dd2f890591a12b58d8174138c765b2049cc93aac6",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-optics.mjs",
+      "sha256": "0f520b6c6c1df983e7abbc171f22ddc00b37ce0ac46e7e2b74f5b2e2472c8ae7",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-quantum-modern-physics.mjs",
+      "sha256": "5b1c3a9461cbf9c7d3c962a43fe7627f7456605bb2a4bdf1859c90928e2781e6",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-quantum-modern.mjs",
+      "sha256": "826a6f14fb6657276e37fc9cd9081b7fe07afd29191fd4662efba7b547873496",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-quantum-physics.mjs",
+      "sha256": "5628ac0cf1bd1543415173544a4bc045a691084e711a6c0ec71c229e1c402e85",
+      "matches": true
+    },
+    {
+      "file": "assets/legacy-quantum.mjs",
+      "sha256": "ed2ef96fc9fe9bdd97020136a5101d4acb6c82f01b588e47f4cceadf6876313d",
+      "matches": true
+    }
+  ]
+}

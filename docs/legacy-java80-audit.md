@@ -31,3 +31,7 @@ Hologram1 원본 클래스의 잘못된 디버그 메타데이터 때문에 그 
 광학의 원본 JVM 출력 49,600개도 `legacy-optics-jvm-reference/`에 CSV와 해시로 보존하며 CI에서 HTML 커널과 다시 비교한다.
 
 `node --test tools/*.test.mjs`로 저장된 원본 수치 출력과 HTML 계산, 이식 목록 및 검사 증거를 검증한다. Playwright가 설치된 환경에서 `tools/legacy-browser-check.mjs`로 교재의 모든 HTML 이식 프로그램을 다시 검사할 수 있다.
+
+## 최종 통합·배포 QA
+
+GitHub CI 613개 테스트가 모두 통과했다. 로컬 및 공개 교재의 117개 인터랙션에서 입력·선택·재생·정지·CSV·반응형·테마 검사를 통과했으며 JavaScript 오류는 0건이다. 교재 566쪽, 보충 모형 79개와 수식 화면 1,713개 폭별 검사도 통과했다. 공개 실행 파일 26개의 SHA-256이 검사한 로컬 파일과 일치한다. [최종 집계](legacy-java80-qa-report.json)와 각 원본/브라우저 보고서에서 범위와 한계를 확인할 수 있다.
