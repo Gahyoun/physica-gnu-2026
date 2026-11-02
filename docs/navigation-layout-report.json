@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-02T12:20:55.710Z",
+  "base": "http://127.0.0.1:8784/",
+  "widths": [
+    320,
+    390,
+    768,
+    1360,
+    1440
+  ],
+  "checks": [
+    "Homepage columns, navigation, search and no overflow at 320px",
+    "Homepage columns, navigation, search and no overflow at 390px",
+    "Homepage columns, navigation, search and no overflow at 768px",
+    "Homepage columns, navigation, search and no overflow at 1360px",
+    "Homepage columns, navigation, search and no overflow at 1440px",
+    "Native disclosure keyboard control, all expand/collapse and existing lesson destination",
+    "Textbook mobile sidebar opens, closes with Escape and restores focus",
+    "Existing chapter anchors and header search dropdown",
+    "Home GET form reaches real shared search results",
+    "Persisted dark/light controls and light print layout",
+    "200% zoom and keyboard skip link",
+    "No-JavaScript native TOC and readable textbook math"
+  ],
+  "errors": [],
+  "scope": "Shared navigation and homepage information layout; no new numerical-model or full-book evidence.",
+  "passed": true
+}
