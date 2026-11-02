@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02T12:26:01.358Z",
+  "date": "2026-11-02T13:16:02.547Z",
   "base": "http://127.0.0.1:8896/",
   "pages": 571,
   "widths": [
@@ -14,7 +14,7 @@
   "nativeModelHashes": {
     "assets/math.css": "ad522637d97c301e19d576c40ef86947ba1026f2a769b51c5328cf1876ff1a57",
     "assets/style.css": "af924ddb59c88db4694fc11ee86c6f14ee30f3afab653fd40fe612a68c363566",
-    "assets/site-layout.css": "e3a4955d23d0947c59cd3ac6e69645671f22ee045399c5f9e662fcb3f4498b0d",
+    "assets/site-layout.css": "0c7d6760c7e2193be919ac0dd060b2c53c43b8b598224033245e6c2d5e7109a7",
     "assets/fonts/PhysicaText.woff2": "c19770f800e1a9dec27aaad14d5042b34fb31c0eb22f67a8d3c4d590fe07a08e",
     "assets/fonts/PhysicaTitle.woff2": "8aaa19be971bc7ddf1600ef710783e75726eaac99b08f5d5d29d9359d78c03fd",
     "vendor/katex/katex.min.css": "d4ab5b8ee16989b070cdb0ea24bd6ad48fc8df1b787f280f29d3ae4f959f2c00",
@@ -23,7 +23,7 @@
     "tools/math-browser-check.mjs": "edaa97eaee517323a729b06d145ba19c87f3a4863e075b279b1ec7f9b1ee0c4b",
     "tools/build.mjs": "2afab75e731a3bd9c702c7b043c2ab5faa787b4437fb76eafbc917197f24995d",
     "tools/flash-build.mjs": "8b5377046112ba21f5d367d3310780001a1f0875f56612b854616688e9e82984",
-    "tools/navigation-build.mjs": "45e953e9d3f69869c7087520b68754afe8a09e7f8276fd14cceef68d3f3abbc1",
+    "tools/navigation-build.mjs": "b1a1286caea2693937b9bbc768e7a47402214b37c6d9a067e114b5936f29e65d",
     "src/content.mjs": "7812c672f026a1d9d1dca49d9e39ffb3a9e5a5f1b71430217e80882844f8bb24",
     "src/section-content.mjs": "bfb95838a6097b1d2c9393939bb3dc979f0de21296b319795b4072474b955cd1",
     "src/topic-guides.mjs": "d6576b0e979eba8ca487d107a95ba48a7bf944f41915d3d5767426161cf89389"

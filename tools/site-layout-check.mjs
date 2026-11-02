@@ -27,6 +27,9 @@ try{
   assert.equal(await page.locator('.home-search').getAttribute('action'),'search.html');
   for(const text of ['웹교재 목차','자료종류별','사이트 안내'])assert.ok(await page.locator('.top-menu').getByRole('link',{name:text,exact:true}).isVisible());
   for(const value of ['light','dark'])assert.ok(await page.locator(`.header-inner [data-theme-value=${value}]`).isVisible());
+  await page.locator('.search-menu>summary').click();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Open search menu stays in viewport at '+width);
+  await page.keyboard.press('Escape');
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'No page overflow at '+width);
   const rows=await page.locator('.toc-chapter>summary').evaluateAll(nodes=>nodes.map(node=>{
    const label=node.querySelector('.toc-label').getBoundingClientRect(),count=node.querySelector('.toc-count').getBoundingClientRect(),mark=node.querySelector('.toc-disclosure').getBoundingClientRect();
