@@ -17,6 +17,7 @@ import fs from 'node:fs';import crypto from 'node:crypto';
 test('All compiled mathematical reading pages retain current responsive browser evidence',()=>{
  const root=new URL('../',import.meta.url),r=JSON.parse(fs.readFileSync(new URL('docs/math-ui-report.json',root)));
  assert.equal(r.passed,true);assert.deepEqual(r.widths,[320,768,1360]);assert.equal(r.observed,r.expected);assert.equal(r.expected,r.pages*3);assert.ok(r.pages>=570);assert.equal(r.errors.length,0);
+ assert.ok(Object.hasOwn(r.nativeModelHashes,'assets/site-layout.css'),'Current GNU/KRDS layout is included in the verified dependencies');
  for(const [f,h]of Object.entries(r.nativeModelHashes))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(f,root))).digest('hex'),h,'Stale formula evidence: '+f);
- for(const v of r.results){assert.equal(v.passed,true,v.file+'/'+v.width);assert.equal(v.mathErrors,0);assert.deepEqual(v.raw,[]);assert.deepEqual(v.clipped,[]);assert.equal(v.pageOverflow,false);}
+ for(const v of r.results){assert.equal(v.passed,true,v.file+'/'+v.width);assert.equal(v.siteLayoutLoaded,true,v.file+'/'+v.width);assert.equal(v.mathErrors,0);assert.deepEqual(v.raw,[]);assert.deepEqual(v.clipped,[]);assert.equal(v.pageOverflow,false);}
 });

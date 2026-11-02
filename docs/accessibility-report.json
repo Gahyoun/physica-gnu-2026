@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-02T13:21:20.834Z",
+  "base": "http://127.0.0.1:8896/",
+  "checks": [
+    "light @ 320px: text 4.5:1+, control boundaries 3:1+, 14px metadata, 44×44px targets, wrapped previews and keyboard focus",
+    "light @ 390px: text 4.5:1+, control boundaries 3:1+, 14px metadata, 44×44px targets, wrapped previews and keyboard focus",
+    "light @ 768px: text 4.5:1+, control boundaries 3:1+, 14px metadata, 44×44px targets, wrapped previews and keyboard focus",
+    "light @ 1440px: text 4.5:1+, control boundaries 3:1+, 14px metadata, 44×44px targets, wrapped previews and keyboard focus",
+    "dark @ 320px: text 4.5:1+, control boundaries 3:1+, 14px metadata, 44×44px targets, wrapped previews and keyboard focus",
+    "dark @ 390px: text 4.5:1+, control boundaries 3:1+, 14px metadata, 44×44px targets, wrapped previews and keyboard focus",
+    "dark @ 768px: text 4.5:1+, control boundaries 3:1+, 14px metadata, 44×44px targets, wrapped previews and keyboard focus",
+    "dark @ 1440px: text 4.5:1+, control boundaries 3:1+, 14px metadata, 44×44px targets, wrapped previews and keyboard focus",
+    "CSS zoom 200%/400% plus 320px viewport reflow without whole-page horizontal scrolling",
+    "Custom text spacing preserves control labels and chapter content at 320px",
+    "Mobile textbook Escape returns focus; reduced motion disables smooth scrolling",
+    "Forced-colors mode retains an explicit keyboard focus outline"
+  ],
+  "errors": [],
+  "scope": "Rendered shell and TOC contrast, keyboard focus, target size, text spacing, CSS zoom (200/400%) plus 320px viewport reflow and reduced motion; native browser zoom and manual assistive-technology review remain separate.",
+  "passed": true
+}
