@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02T13:11:27.299Z",
+  "date": "2026-11-02T13:21:20.834Z",
   "base": "http://127.0.0.1:8896/",
   "checks": [
     "light @ 320px: text 4.5:1+, control boundaries 3:1+, 14px metadata, 44×44px targets, wrapped previews and keyboard focus",

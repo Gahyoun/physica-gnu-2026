@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02T13:16:02.547Z",
+  "date": "2026-11-02T13:24:18.141Z",
   "base": "http://127.0.0.1:8896/",
   "pages": 571,
   "widths": [
@@ -23,7 +23,7 @@
     "tools/math-browser-check.mjs": "edaa97eaee517323a729b06d145ba19c87f3a4863e075b279b1ec7f9b1ee0c4b",
     "tools/build.mjs": "2afab75e731a3bd9c702c7b043c2ab5faa787b4437fb76eafbc917197f24995d",
     "tools/flash-build.mjs": "8b5377046112ba21f5d367d3310780001a1f0875f56612b854616688e9e82984",
-    "tools/navigation-build.mjs": "b1a1286caea2693937b9bbc768e7a47402214b37c6d9a067e114b5936f29e65d",
+    "tools/navigation-build.mjs": "e6285643b4ac05595745b18db89c4bfc9b9db9294ae1386593f8bc899deb4557",
     "src/content.mjs": "7812c672f026a1d9d1dca49d9e39ffb3a9e5a5f1b71430217e80882844f8bb24",
     "src/section-content.mjs": "bfb95838a6097b1d2c9393939bb3dc979f0de21296b319795b4072474b955cd1",
     "src/topic-guides.mjs": "d6576b0e979eba8ca487d107a95ba48a7bf944f41915d3d5767426161cf89389"

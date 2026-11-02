@@ -15,8 +15,8 @@ try{
  for(const theme of ['light','dark']){
   for(const width of [320,390,768,1440]){
    await page.setViewportSize({width,height:1100});await page.goto(home,{waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);
-   const pageNames=await page.locator('.toc-pages a').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('aria-label')));
-   assert.equal(pageNames.length,566);assert.ok(pageNames.every(name=>typeof name==='string'&&/\d+쪽$/.test(name)&&name.length>3),'Every page link names its topic and page');
+   const pageNames=await page.locator('.toc-pages a').evaluateAll(nodes=>nodes.map(n=>({name:n.getAttribute('aria-label'),label:n.textContent.trim()})));
+   assert.equal(pageNames.length,566);assert.ok(pageNames.every(({name,label})=>typeof name==='string'&&/\d+쪽$/.test(name)&&label.length>0&&name.startsWith(label+' ')),'Every page link preserves its visible label at the start of its topic and page name');
    await page.locator(`[data-theme-value=${theme}]`).click();
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),theme+' '+width+' page overflow');
    await page.locator('.search-menu>summary').click();
@@ -25,7 +25,7 @@ try{
    await page.keyboard.press('Escape');
    assert.equal(await page.locator('.search-menu>summary').evaluate(n=>document.activeElement===n),true);
    await page.locator('#chapter-1>summary').click();await page.locator('#chapter-1 .toc-section>summary').first().click();
-   assert.ok(await page.getByRole('link',{name:'운동량 1쪽',exact:true}).isVisible(),'Page link has a meaningful accessible name');
+   assert.ok(await page.getByRole('link',{name:'1p 운동량 1쪽',exact:true}).isVisible(),'Page link has a meaningful accessible name');
    const measures=await page.evaluate(()=>{
     const parse=s=>{const v=s.match(/[\d.]+/g).map(Number);return [v[0]/255,v[1]/255,v[2]/255,v[3]??1];};
     const blend=(a,b)=>[a[0]*a[3]+b[0]*(1-a[3]),a[1]*a[3]+b[1]*(1-a[3]),a[2]*a[3]+b[2]*(1-a[3]),1];
