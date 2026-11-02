@@ -16,6 +16,10 @@
 
 [Figma 파일](https://www.figma.com/design/ZQ8XuKy3TPP6T2DVrQVcIL?node-id=8-138)에는 데스크톱 1440px, 모바일 390px, 펼친 단원 시안이 있다. 텍스트와 행 구조는 편집 가능한 레이어이며, GNU 템플릿 색상 변수와 라이브러리 버튼을 사용한다. 웹 구현은 기존 로컬 Noto Sans KR·SUITE 서체를 유지한다.
 
+Figma 마감에서는 원본 로고의 글자를 보존하면서 표시 여백과 크기를 보완하고, 검색 영역·통계 위치를 웹 구현에 맞췄다. 모바일의 전체 전개/감추기 버튼을 별도 행으로 정리했으며 세 가지 화면을 PNG로 내보내 배치를 확인했다.
+
+[데스크톱 시안 PNG](images/figma-desktop.png) · [모바일 시안 PNG](images/figma-mobile.png) · [펼친 목차 시안 PNG](images/figma-expanded.png)
+
 실제 HTML 구현 화면:
 
 ![데스크톱 목차](images/navigation-1440.png)
